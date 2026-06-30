@@ -1,6 +1,6 @@
 # Protein Design Paper Radar - 2026-06-30
 
-Generated on 2026-06-30T02:54:22Z.
+Generated on 2026-06-30T03:16:43Z.
 
 Found 5 recommended papers.
 
@@ -8,7 +8,7 @@ Found 5 recommended papers.
 
 ### 1. EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation
 
-- **Score:** 17 | **Status:** NEW | **Source:** biorxiv | **Date:** 2026-06-27
+- **Score:** 17 | **Status:** SEEN | **Source:** biorxiv | **Date:** 2026-06-27
 - **Authors:** Mardikoraem, M., Pascual, N. S., Eaves, J. N. et al.
 - **Topics:** Enzymes and function
 - **Why it matched:** protein engineering, structure prediction, stability, protein, enzyme, sequence
@@ -19,7 +19,7 @@ From protein structure prediction to novel protein generation, challenging prote
 
 ### 2. Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.
 
-- **Score:** 9 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jun 28
+- **Score:** 9 | **Status:** SEEN | **Source:** PubMed | **Date:** 2026 Jun 28
 - **Authors:** Zhu C, Jiang Z, Jing R et al.
 - **Topics:** Binders and therapeutics
 - **Why it matched:** binder design, stability, binding
@@ -30,7 +30,7 @@ The design of antigen-binding domains (binders) is emerging as a decisive fronti
 
 ### 3. Effective structure-aware protein alignment via residue-level contrastive learning
 
-- **Score:** 8 | **Status:** NEW | **Source:** biorxiv | **Date:** 2026-06-27
+- **Score:** 8 | **Status:** SEEN | **Source:** biorxiv | **Date:** 2026-06-27
 - **Authors:** You, R., Wang, Z., Liu, K. et al.
 - **Topics:** Protein language models
 - **Why it matched:** protein language model, protein, sequence, structure
@@ -41,7 +41,7 @@ Protein alignment is indispensable for biological discovery, supporting structur
 
 ### 4. Structural feature-based machine learning benchmarking for protein interface prediction.
 
-- **Score:** 7 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jun 27
+- **Score:** 7 | **Status:** SEEN | **Source:** PubMed | **Date:** 2026 Jun 27
 - **Authors:** Topuz T, Erdem Z, Bisgin H et al.
 - **Topics:** Binders and therapeutics
 - **Why it matched:** protein engineering, protein, structure
@@ -52,7 +52,7 @@ Accurate prediction of protein-protein interaction interfaces is critical for un
 
 ### 5. Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.
 
-- **Score:** 7 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jun 27
+- **Score:** 7 | **Status:** SEEN | **Source:** PubMed | **Date:** 2026 Jun 27
 - **Authors:** Bruno JG, Chen Y, Mahrat R
 - **Topics:** Experimental validation
 - **Why it matched:** de novo protein, protein, binding

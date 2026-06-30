@@ -28,6 +28,8 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "topics.json"
 DEFAULT_STATE = ROOT / "data" / "seen.json"
+README_START = "<!-- PAPER_RADAR:START -->"
+README_END = "<!-- PAPER_RADAR:END -->"
 
 
 @dataclass
@@ -344,6 +346,78 @@ def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
     return "\n".join(lines)
 
 
+def render_readme_section(date: dt.date, papers: list[Paper], config: dict) -> str:
+    generated = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    lines = [
+        README_START,
+        "## Latest Recommendations",
+        "",
+        f"Updated: **{date.isoformat()}** (`{generated}`)",
+        "",
+    ]
+    if not papers:
+        lines += [
+            "No high-confidence papers were found in the latest search window.",
+            "",
+            "Tune `config/topics.json` to broaden or narrow the radar.",
+            "",
+            README_END,
+        ]
+        return "\n".join(lines)
+
+    lines += [
+        "| # | Paper | Source | Topics | Score |",
+        "|---|---|---|---|---:|",
+    ]
+    for idx, paper in enumerate(papers, 1):
+        title = paper.title.replace("|", "\\|")
+        source = f"{paper.source}<br>{paper.published or 'n/a'}"
+        topics = ", ".join(paper.topics).replace("|", "\\|")
+        link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
+        linked_title = f"[{title}]({link})" if link else title
+        lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
+
+    lines += ["", "### By Topic", ""]
+    topic_map: dict[str, list[Paper]] = {}
+    for paper in papers:
+        for topic in paper.topics:
+            topic_map.setdefault(topic, []).append(paper)
+    for topic in sorted(topic_map):
+        lines.append(f"#### {topic}")
+        lines.append("")
+        for paper in topic_map[topic][:10]:
+            link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
+            title = f"[{paper.title}]({link})" if link else paper.title
+            lines.append(f"- {title} ({paper.source}, {paper.published or 'n/a'})")
+        lines.append("")
+
+    lines += [
+        "### Archive",
+        "",
+        f"- [Daily report for {date.isoformat()}](outputs/daily/{date.isoformat()}.md)",
+        "- [Latest report](outputs/latest.md)",
+        "",
+        README_END,
+    ]
+    return "\n".join(lines)
+
+
+def update_readme(readme_path: Path, section: str) -> None:
+    if readme_path.exists():
+        text = readme_path.read_text(encoding="utf-8")
+    else:
+        text = "# Protein Design Paper Radar\n\n"
+    if README_START in text and README_END in text:
+        pattern = re.compile(
+            rf"{re.escape(README_START)}.*?{re.escape(README_END)}",
+            flags=re.DOTALL,
+        )
+        updated = pattern.sub(section, text)
+    else:
+        updated = text.rstrip() + "\n\n" + section + "\n"
+    readme_path.write_text(updated, encoding="utf-8")
+
+
 def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
     start = target_date - dt.timedelta(days=days_back)
     end = target_date
@@ -365,6 +439,8 @@ def main() -> int:
     parser.add_argument("--date", default=dt.date.today().isoformat())
     parser.add_argument("--days-back", type=int, default=2)
     parser.add_argument("--include-seen", action="store_true")
+    parser.add_argument("--readme", type=Path, default=ROOT / "README.md")
+    parser.add_argument("--skip-readme", action="store_true")
     args = parser.parse_args()
 
     target_date = dt.date.fromisoformat(args.date)
@@ -378,8 +454,14 @@ def main() -> int:
 
     min_score = int(config.get("min_score", 6))
     report_limit = int(config.get("report_limit", 25))
+    eligible = [p for p in papers if p.score >= min_score]
     ranked = sorted(
-        [p for p in papers if p.score >= min_score and (args.include_seen or p.is_new)],
+        [p for p in eligible if args.include_seen or p.is_new],
+        key=lambda p: (p.score, p.published),
+        reverse=True,
+    )[:report_limit]
+    readme_ranked = sorted(
+        eligible,
         key=lambda p: (p.score, p.published),
         reverse=True,
     )[:report_limit]
@@ -399,9 +481,13 @@ def main() -> int:
     report_path.write_text(report, encoding="utf-8")
     latest_path = ROOT / "outputs" / "latest.md"
     latest_path.write_text(report, encoding="utf-8")
+    if not args.skip_readme:
+        update_readme(args.readme, render_readme_section(target_date, readme_ranked, config))
     save_json(args.state, state)
     print(f"wrote {report_path}")
     print(f"wrote {latest_path}")
+    if not args.skip_readme:
+        print(f"updated {args.readme}")
     print(f"recommended {len(ranked)} papers")
     return 0
 
