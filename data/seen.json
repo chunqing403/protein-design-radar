@@ -1,0 +1,39 @@
+{
+  "seen": {
+    "doi:10.1007/s10895-026-04855-9": {
+      "first_seen": "2026-06-30",
+      "score": 7,
+      "source": "PubMed",
+      "title": "Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
+    },
+    "doi:10.1016/j.canlet.2026.218699": {
+      "first_seen": "2026-06-30",
+      "score": 9,
+      "source": "PubMed",
+      "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
+    },
+    "doi:10.1038/s41598-026-56450-4": {
+      "first_seen": "2026-06-30",
+      "score": 7,
+      "source": "PubMed",
+      "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
+    },
+    "doi:10.1101/2024.03.09.583681": {
+      "first_seen": "2026-06-30",
+      "score": 8,
+      "source": "biorxiv",
+      "title": "Effective structure-aware protein alignment via residue-level contrastive learning",
+      "url": "https://doi.org/10.1101/2024.03.09.583681"
+    },
+    "doi:10.1101/2024.10.02.616302": {
+      "first_seen": "2026-06-30",
+      "score": 17,
+      "source": "biorxiv",
+      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
+      "url": "https://doi.org/10.1101/2024.10.02.616302"
+    }
+  }
+}

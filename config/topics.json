@@ -1,0 +1,149 @@
+{
+  "project_name": "Protein Design Paper Radar",
+  "max_results_per_source": 80,
+  "min_score": 6,
+  "report_limit": 25,
+  "required_keywords": [
+    "protein",
+    "proteins",
+    "peptide",
+    "peptides",
+    "enzyme",
+    "enzymes",
+    "antibody",
+    "antibodies",
+    "amino acid",
+    "amino acids",
+    "binder",
+    "binders",
+    "folding",
+    "biomolecular",
+    "biomolecule"
+  ],
+  "queries": [
+    "\"protein design\" deep learning",
+    "\"protein engineering\" machine learning",
+    "\"de novo protein\" design",
+    "\"inverse folding\" protein",
+    "\"protein language model\"",
+    "\"binder design\" protein",
+    "\"enzyme design\" protein",
+    "\"antibody design\" deep learning",
+    "\"diffusion model\" protein",
+    "\"flow matching\" protein"
+  ],
+  "positive_keywords": {
+    "high": [
+      "protein design",
+      "de novo protein",
+      "inverse folding",
+      "protein engineering",
+      "protein language model",
+      "structure prediction",
+      "diffusion model",
+      "flow matching",
+      "binder design",
+      "enzyme design",
+      "antibody design",
+      "wet-lab",
+      "experimental validation",
+      "directed evolution",
+      "AlphaFold",
+      "RoseTTAFold",
+      "RFdiffusion",
+      "ESM",
+      "ProGen",
+      "ProteinMPNN"
+    ],
+    "medium": [
+      "generative model",
+      "sequence design",
+      "structure generation",
+      "folding",
+      "motif scaffolding",
+      "multistate design",
+      "affinity maturation",
+      "stability",
+      "fitness landscape",
+      "variant effect",
+      "active learning",
+      "foundation model",
+      "transformer",
+      "graph neural network"
+    ],
+    "low": [
+      "protein",
+      "peptide",
+      "enzyme",
+      "antibody",
+      "binding",
+      "mutation",
+      "sequence",
+      "structure"
+    ]
+  },
+  "negative_keywords": [
+    "clinical trial",
+    "case report",
+    "epidemiology",
+    "diagnosis",
+    "survey",
+    "plant disease",
+    "food protein",
+    "nutrition",
+    "allergen",
+    "text-to-video",
+    "video diffusion",
+    "hand motion",
+    "facial motion",
+    "avatar",
+    "LiDAR",
+    "magnetic field",
+    "MHD equations"
+  ],
+  "topic_profiles": {
+    "Structure generation": [
+      "structure generation",
+      "diffusion",
+      "flow matching",
+      "backbone",
+      "fold"
+    ],
+    "Sequence design": [
+      "sequence design",
+      "inverse folding",
+      "ProteinMPNN",
+      "mutation",
+      "variant"
+    ],
+    "Protein language models": [
+      "protein language model",
+      "foundation model",
+      "transformer",
+      "ESM",
+      "ProGen"
+    ],
+    "Binders and therapeutics": [
+      "binder",
+      "antibody",
+      "affinity",
+      "therapeutic",
+      "peptide"
+    ],
+    "Enzymes and function": [
+      "enzyme",
+      "catalytic",
+      "active site",
+      "function",
+      "fitness"
+    ],
+    "Experimental validation": [
+      "wet-lab",
+      "experimental",
+      "assay",
+      "cryo-EM",
+      "crystal structure",
+      "directed evolution"
+    ]
+  }
+}

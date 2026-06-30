@@ -1,0 +1,38 @@
+name: Daily paper radar
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recommend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate daily recommendations
+        env:
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+        run: python scripts/daily_recommend.py
+
+      - name: Commit updates
+        run: |
+          git config user.name "paper-radar-bot"
+          git config user.email "paper-radar-bot@users.noreply.github.com"
+          git add outputs data
+          if git diff --cached --quiet; then
+            echo "No updates to commit."
+          else
+            git commit -m "Update daily paper recommendations"
+            git push
+          fi
+
