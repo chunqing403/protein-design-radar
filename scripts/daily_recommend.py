@@ -28,6 +28,7 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "topics.json"
 DEFAULT_STATE = ROOT / "data" / "seen.json"
+DEFAULT_LIBRARY = ROOT / "data" / "papers.json"
 README_START = "<!-- PAPER_RADAR:START -->"
 README_END = "<!-- PAPER_RADAR:END -->"
 
@@ -304,6 +305,70 @@ def first_sentences(text: str, limit: int = 360) -> str:
     return text[:limit].rsplit(" ", 1)[0] + "..."
 
 
+def paper_to_record(paper: Paper, first_seen: str) -> dict:
+    return {
+        "title": paper.title,
+        "authors": paper.authors,
+        "abstract": paper.abstract,
+        "source": paper.source,
+        "published": paper.published,
+        "url": paper.url,
+        "doi": paper.doi,
+        "source_id": paper.source_id,
+        "score": paper.score,
+        "topics": paper.topics,
+        "reasons": paper.reasons,
+        "first_seen": first_seen,
+    }
+
+
+def record_to_paper(record: dict) -> Paper:
+    return Paper(
+        title=record.get("title", ""),
+        authors=record.get("authors", []),
+        abstract=record.get("abstract", ""),
+        source=record.get("source", ""),
+        published=record.get("published", ""),
+        url=record.get("url", ""),
+        doi=record.get("doi", ""),
+        source_id=record.get("source_id", ""),
+        score=int(record.get("score", 0)),
+        topics=record.get("topics", []),
+        reasons=record.get("reasons", []),
+        is_new=False,
+    )
+
+
+def update_library(library: dict, papers: list[Paper], target_date: dt.date) -> dict:
+    records = library.setdefault("papers", {})
+    today = target_date.isoformat()
+    for paper in papers:
+        existing = records.get(paper.key, {})
+        first_seen = existing.get("first_seen", today)
+        record = paper_to_record(paper, first_seen)
+        if existing and existing.get("score", 0) > record["score"]:
+            record["score"] = existing["score"]
+        records[paper.key] = record
+    return library
+
+
+def library_papers(library: dict) -> list[Paper]:
+    papers = []
+    for record in library.get("papers", {}).values():
+        paper = record_to_paper(record)
+        paper.is_new = False
+        papers.append(paper)
+    return sorted(
+        papers,
+        key=lambda p: (
+            library.get("papers", {}).get(p.key, {}).get("first_seen", ""),
+            p.published,
+            p.score,
+        ),
+        reverse=True,
+    )
+
+
 def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
     lines = [
         f"# {config.get('project_name', 'Paper Radar')} - {date.isoformat()}",
@@ -346,8 +411,9 @@ def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
     return "\n".join(lines)
 
 
-def render_readme_section(date: dt.date, papers: list[Paper], config: dict) -> str:
+def render_readme_section(date: dt.date, papers: list[Paper], config: dict, library: dict) -> str:
     generated = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    all_papers = library_papers(library)
     lines = [
         README_START,
         "## Latest Recommendations",
@@ -361,34 +427,48 @@ def render_readme_section(date: dt.date, papers: list[Paper], config: dict) -> s
             "",
             "Tune `config/topics.json` to broaden or narrow the radar.",
             "",
-            README_END,
         ]
-        return "\n".join(lines)
-
-    lines += [
-        "| # | Paper | Source | Topics | Score |",
-        "|---|---|---|---|---:|",
-    ]
-    for idx, paper in enumerate(papers, 1):
-        title = paper.title.replace("|", "\\|")
-        source = f"{paper.source}<br>{paper.published or 'n/a'}"
-        topics = ", ".join(paper.topics).replace("|", "\\|")
-        link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
-        linked_title = f"[{title}]({link})" if link else title
-        lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
+    else:
+        lines += [
+            "| # | Paper | Source | Topics | Score |",
+            "|---|---|---|---|---:|",
+        ]
+        for idx, paper in enumerate(papers, 1):
+            title = paper.title.replace("|", "\\|")
+            source = f"{paper.source}<br>{paper.published or 'n/a'}"
+            topics = ", ".join(paper.topics).replace("|", "\\|")
+            link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
+            linked_title = f"[{title}]({link})" if link else title
+            lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
 
     lines += ["", "### By Topic", ""]
     topic_map: dict[str, list[Paper]] = {}
-    for paper in papers:
+    for paper in all_papers:
         for topic in paper.topics:
             topic_map.setdefault(topic, []).append(paper)
     for topic in sorted(topic_map):
         lines.append(f"#### {topic}")
         lines.append("")
-        for paper in topic_map[topic][:10]:
+        for paper in topic_map[topic]:
             link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
             title = f"[{paper.title}]({link})" if link else paper.title
             lines.append(f"- {title} ({paper.source}, {paper.published or 'n/a'})")
+        lines.append("")
+
+    lines += ["### All Recommended Papers", ""]
+    by_seen: dict[str, list[Paper]] = {}
+    records = library.get("papers", {})
+    for paper in all_papers:
+        first_seen = records.get(paper.key, {}).get("first_seen", "unknown")
+        by_seen.setdefault(first_seen, []).append(paper)
+    for first_seen in sorted(by_seen, reverse=True):
+        lines.append(f"#### {first_seen}")
+        lines.append("")
+        for paper in sorted(by_seen[first_seen], key=lambda p: (p.score, p.published), reverse=True):
+            link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
+            title = f"[{paper.title}]({link})" if link else paper.title
+            topics = ", ".join(paper.topics)
+            lines.append(f"- {title} ({paper.source}, {paper.published or 'n/a'}; {topics}; score {paper.score})")
         lines.append("")
 
     lines += [
@@ -435,6 +515,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
+    parser.add_argument("--library", type=Path, default=DEFAULT_LIBRARY)
     parser.add_argument("--out", type=Path, default=ROOT / "outputs" / "daily")
     parser.add_argument("--date", default=dt.date.today().isoformat())
     parser.add_argument("--days-back", type=int, default=2)
@@ -446,6 +527,7 @@ def main() -> int:
     target_date = dt.date.fromisoformat(args.date)
     config = load_json(args.config, {})
     state = load_json(args.state, {"seen": {}})
+    library = load_json(args.library, {"papers": {}})
     seen = state.setdefault("seen", {})
 
     papers = collect(config, target_date, args.days_back)
@@ -465,6 +547,7 @@ def main() -> int:
         key=lambda p: (p.score, p.published),
         reverse=True,
     )[:report_limit]
+    library = update_library(library, eligible, target_date)
 
     for paper in ranked:
         seen[paper.key] = {
@@ -482,8 +565,9 @@ def main() -> int:
     latest_path = ROOT / "outputs" / "latest.md"
     latest_path.write_text(report, encoding="utf-8")
     if not args.skip_readme:
-        update_readme(args.readme, render_readme_section(target_date, readme_ranked, config))
+        update_readme(args.readme, render_readme_section(target_date, readme_ranked, config, library))
     save_json(args.state, state)
+    save_json(args.library, library)
     print(f"wrote {report_path}")
     print(f"wrote {latest_path}")
     if not args.skip_readme:
