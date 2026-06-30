@@ -1,6 +1,6 @@
 # Protein Design Paper Radar - 2026-06-30
 
-Generated on 2026-06-30T05:59:06Z.
+Generated on 2026-06-30T07:25:09Z.
 
 Found 5 recommended papers.
 

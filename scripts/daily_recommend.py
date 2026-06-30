@@ -247,6 +247,70 @@ def pubmed_query(queries: list[str], start: dt.date, end: dt.date, max_results: 
     return papers
 
 
+def google_scholar_query(queries: list[str], max_results: int, max_pages: int) -> list[Paper]:
+    api_key = os.getenv("SERPAPI_KEY")
+    if not api_key:
+        print("info: SERPAPI_KEY is not set; skipping Google Scholar.", file=sys.stderr)
+        return []
+
+    papers: list[Paper] = []
+    per_page = 20
+    for query in queries:
+        for page in range(max_pages):
+            if len(papers) >= max_results:
+                return papers
+            params = {
+                "engine": "google_scholar",
+                "q": query,
+                "api_key": api_key,
+                "num": str(per_page),
+                "start": str(page * per_page),
+                "as_ylo": str(dt.date.today().year - 1),
+                "hl": "en",
+            }
+            url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+            text = request_text(url)
+            if not text:
+                continue
+            try:
+                payload = json.loads(text)
+            except json.JSONDecodeError:
+                continue
+            if payload.get("error"):
+                print(f"warning: Google Scholar source skipped: {payload['error']}", file=sys.stderr)
+                return papers
+            for item in payload.get("organic_results", []):
+                title = clean_text(item.get("title", ""))
+                if not title:
+                    continue
+                publication_info = item.get("publication_info", {}) or {}
+                summary = clean_text(item.get("snippet", ""))
+                authors = []
+                for author in publication_info.get("authors", []) or []:
+                    name = clean_text(author.get("name", ""))
+                    if name:
+                        authors.append(name)
+                year = ""
+                match = re.search(r"\b(20\d{2}|19\d{2})\b", publication_info.get("summary", "") or "")
+                if match:
+                    year = match.group(1)
+                result_id = clean_text(item.get("result_id", ""))
+                link = clean_text(item.get("link", ""))
+                papers.append(
+                    Paper(
+                        title=title,
+                        authors=authors,
+                        abstract=summary,
+                        source="Google Scholar",
+                        published=year,
+                        url=link,
+                        source_id=result_id,
+                    )
+                )
+            time.sleep(1)
+    return papers
+
+
 def score_paper(paper: Paper, config: dict) -> Paper:
     haystack = normalize_text(f"{paper.title} {paper.abstract}")
     required_terms = config.get("required_keywords", [])
@@ -271,7 +335,7 @@ def score_paper(paper: Paper, config: dict) -> Paper:
     for topic, terms in config.get("topic_profiles", {}).items():
         if any(contains_term(haystack, term) for term in terms):
             topics.append(topic)
-    if paper.source in {"bioRxiv", "medRxiv", "arXiv"}:
+    if paper.source in {"bioRxiv", "medRxiv", "arXiv", "Google Scholar"}:
         score += 1
     paper.score = score
     paper.reasons = reasons
@@ -508,6 +572,9 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
     papers.extend(preprint_query("biorxiv", start, end, max_results))
     papers.extend(preprint_query("medrxiv", start, end, max_results))
     papers.extend(pubmed_query(queries, start, end, max_results))
+    if config.get("google_scholar_enabled", False):
+        max_pages = int(config.get("google_scholar_max_pages", 1))
+        papers.extend(google_scholar_query(queries, max_results, max_pages))
     return [score_paper(p, config) for p in dedupe(papers)]
 
 

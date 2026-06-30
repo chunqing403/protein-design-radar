@@ -1,6 +1,8 @@
 {
   "project_name": "Protein Design Paper Radar",
   "max_results_per_source": 80,
+  "google_scholar_enabled": true,
+  "google_scholar_max_pages": 2,
   "min_score": 6,
   "report_limit": 25,
   "required_keywords": [

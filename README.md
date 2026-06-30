@@ -2,12 +2,12 @@
 
 Daily frontier papers for deep learning-based protein design, protein engineering, and biomolecular modeling.
 
-This repository is inspired by curated paper lists such as `Peldom/papers_for_protein_design_using_DL`, but is designed to update itself every day. The newest recommended papers are written directly into this README.
+Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAPI.
 
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-06-30** (`2026-06-30T05:59:06Z`)
+Updated: **2026-06-30** (`2026-06-30T07:25:09Z`)
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|

@@ -22,6 +22,7 @@ jobs:
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scripts/daily_recommend.py
 
       - name: Commit updates
