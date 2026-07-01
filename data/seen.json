@@ -1,11 +1,46 @@
 {
   "seen": {
+    "arxiv:2606.31576v1": {
+      "first_seen": "2026-07-01",
+      "score": 14,
+      "source": "arXiv",
+      "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
+      "url": "http://arxiv.org/abs/2606.31576v1"
+    },
+    "doi:10.1002/pro.70667": {
+      "first_seen": "2026-07-01",
+      "score": 11,
+      "source": "PubMed",
+      "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42316773/"
+    },
+    "doi:10.1002/pro.70689": {
+      "first_seen": "2026-07-01",
+      "score": 7,
+      "source": "PubMed",
+      "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
+    },
     "doi:10.1007/s10895-026-04855-9": {
       "first_seen": "2026-06-30",
       "score": 7,
       "source": "PubMed",
       "title": "Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
+    },
+    "doi:10.1016/j.ab.2026.116116": {
+      "first_seen": "2026-07-01",
+      "score": 11,
+      "source": "PubMed",
+      "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
+    },
+    "doi:10.1016/j.biotechadv.2026.108850": {
+      "first_seen": "2026-07-01",
+      "score": 21,
+      "source": "PubMed",
+      "title": "Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41763370/"
     },
     "doi:10.1016/j.canlet.2026.218699": {
       "first_seen": "2026-06-30",
@@ -14,12 +49,40 @@
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
+    "doi:10.1016/j.jmgm.2026.109383": {
+      "first_seen": "2026-07-01",
+      "score": 9,
+      "source": "PubMed",
+      "title": "PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41905267/"
+    },
+    "doi:10.1016/j.jmgm.2026.109401": {
+      "first_seen": "2026-07-01",
+      "score": 20,
+      "source": "PubMed",
+      "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1016/j.neunet.2026.108707": {
+      "first_seen": "2026-07-01",
+      "score": 10,
+      "source": "PubMed",
+      "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
       "score": 7,
       "source": "PubMed",
       "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
+    },
+    "doi:10.1093/bioinformatics/btag476": {
+      "first_seen": "2026-07-01",
+      "score": 7,
+      "source": "PubMed",
+      "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
     },
     "doi:10.1101/2024.03.09.583681": {
       "first_seen": "2026-06-30",
@@ -34,6 +97,27 @@
       "source": "biorxiv",
       "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2025.09.23.676583": {
+      "first_seen": "2026-07-01",
+      "score": 8,
+      "source": "biorxiv",
+      "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
+      "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1111/1750-3841.71222": {
+      "first_seen": "2026-07-01",
+      "score": 6,
+      "source": "PubMed",
+      "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
+    },
+    "doi:10.1177/15578666261443336": {
+      "first_seen": "2026-07-01",
+      "score": 13,
+      "source": "PubMed",
+      "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     }
   }
 }

@@ -1,5 +1,87 @@
 {
   "papers": {
+    "arxiv:2606.31576v1": {
+      "abstract": "The use of ordinary and stochastic differential equations has led to substantial progress in generative machine learning with applications to, for example, image, video and biomolecule generation. This paper provides a self-contained and informal introduction to the differential equations, the probabilistic framework for using them in generative modeling and the Fokker--Planck equation that governs the temporal evolution of the marginal distribution of the stochastic variables of the differential equations. The variational lower bound on the log-likelihood (the evidence lower bound, ELBO) is derived and used as a general starting point for a discussion of diffusion models, score matching, and flow matching. All of these approaches may be viewed as specific parameterizations of the most general variational approach. A one-dimensional density modeling problem is used as a simple example to compare different parameterizations.",
+      "authors": [
+        "Ole Winther",
+        "Paul Jeha",
+        "Sander Dieleman",
+        "Andriy Mnih",
+        "Manfred Opper",
+        "Andrea Dittadi"
+      ],
+      "doi": "",
+      "first_seen": "2026-07-01",
+      "published": "2026-06-30",
+      "reasons": [
+        "diffusion model",
+        "flow matching",
+        "generative model"
+      ],
+      "score": 14,
+      "source": "arXiv",
+      "source_id": "2606.31576v1",
+      "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "http://arxiv.org/abs/2606.31576v1"
+    },
+    "doi:10.1002/pro.70667": {
+      "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
+      "authors": [
+        "Huang D",
+        "Lv J",
+        "Yao X",
+        "Lin P",
+        "Huang SY"
+      ],
+      "doi": "10.1002/pro.70667",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "transformer",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "42316773",
+      "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42316773/"
+    },
+    "doi:10.1002/pro.70689": {
+      "abstract": "Ion channels are central to regulating neuronal communication, cardiac rhythm, and muscle contraction. Their modulation can induce therapeutic benefits but may also lead to adverse or toxic effects. This study presents IonNTxPred, a protein language model (PLM)-based method for predicting protein ion channel modulators, including channel-specific (such as sodium, potassium, calcium, and others) and moonlighting proteins capable of modulating multiple ion channels. We train, test, and evaluate our models on the largest dataset of non-redundant ion channel modulating proteins, where no two proteins have more than 40% sequence identity. Composition analysis revealed that residues Cys, Gly, and Trp are highly prevalent, whereas Ala, Glu, Leu, Gln, and Val are scarce in ion channel modulating proteins, with Cys identified as a key discriminative residue. We explored both alignment-based (BLAST, MERCI) and alignment-free (machine learning, deep learning, and PLM-based) approaches. Among these, our evolutionary information-based PLM (ESM2-t33) achieved the best performance, with an AUROC of 0.97 across ion channels, which further improved to 0.98 when integrated with BLAST output. The proposed method outperformed existing approaches on independent datasets. We used IonNTxPred to screen FDA-approved and organismal proteins to identify candidates with ion channel modulating potential, supporting drug repurposing, discovery of new therapeutic proteins, and safety assessment of existing biologics. We implemented these models in a user-friendly web server, IonNTxPred, which facilitates the design and discovery of ion channel modulating protein-based drugs and supports the biosafety evaluation of therapeutic proteins through neurotoxin screening (https://webs.iiitd.edu.in/raghava/ionntxpred/).",
+      "authors": [
+        "Rathore AS",
+        "Jain S",
+        "Mehta NK",
+        "Raghava GPS"
+      ],
+      "doi": "10.1002/pro.70689",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 7,
+      "source": "PubMed",
+      "source_id": "42321971",
+      "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
+    },
     "doi:10.1007/s10895-026-04855-9": {
       "abstract": "We describe and demonstrate the first lateral flow (LF) sandwich fluorescence assay for the small molecule hormone cortisol, enabled by a pair of de novo-designed cortisol-induced dimerization (CID) proteins. CID proteins C4 and C10, originally characterized in a chemiluminescent format, sandwich a single cortisol molecule between two engineered binding domains, eliminating the inherent sensitivity limitations of traditional competitive small molecule LF assays. In the present assay, C10 was immobilized as the capture reagent on a nitrocellulose membrane, and C4 was conjugated to either streptavidin-coated red quantum dots (QDs) for saliva applications or streptavidin-coated europium chelate-doped polystyrene nanoparticles (Eu NPs) for serum applications. The QD-CID strips produced a visually scored limit of detection (LOD) of 200 pg/mL of cortisol spiked into natural human saliva (20 pg total in a 100 µL sample) and 2 pg/mL in artificial saliva (200 fg total), spanning and extending below the physiological diurnal range of salivary cortisol (approximately 1,000-7,500 pg/mL). A goat anti-avidin control line successfully captured the C4-biotin-streptavidin-QD conjugate after migration, providing flow validation. QDs performed poorly in undiluted human serum, consistent with prior reports of ZnS shell perturbation by serum components. Substituting europium-chelate-doped polystyrene NPs preserved the long Stokes shift advantage while protecting the fluorophore from serum-induced quenching and enabled detection in pooled human serum across a dynamic range of 2-200 ng/mL (200 pg to 20 ng of total cortisol per 100 µL sample), more than spanning the full physiological diurnal range of serum cortisol. The entire LF test is executed in approximately 15 min, requires no cold chain or laboratory instrumentation beyond a handheld UV reader, and is suitable for both point-of-care clinical use and at-home stress and endocrine monitoring.",
       "authors": [
@@ -23,6 +105,65 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
+    },
+    "doi:10.1016/j.ab.2026.116116": {
+      "abstract": "Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially homology-based approaches, face limitations when dealing with non-homologous data. Additionally, conventional machine learning models relying on manually extracted features often fail to capture critical functional characteristics of proteins. To address these challenges, we proposed a novel computational method that integrates pre-trained protein language models (PLMs) with deep learning techniques for CDP prediction. Specifically, the ESM model was employed to generate high-quality protein embeddings, thereby eliminating the need for manual feature extraction. In addition, a customized convolutional neural network (CNN) architecture was designed to automatically learn discriminative features relevant to CDP identification. The proposed computational method was further evaluated on two independent test sets, consistently outperforming existing state-of-the-art approaches. The experimental results demonstrated that the method exhibits strong generalization and robustness across different datasets, highlighting its effectiveness for accurate identification of CDPs.",
+      "authors": [
+        "Liu J",
+        "Wu Q",
+        "Tao W",
+        "Wang Y",
+        "Xue L",
+        "Luo J"
+      ],
+      "doi": "10.1016/j.ab.2026.116116",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "41865419",
+      "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
+    },
+    "doi:10.1016/j.biotechadv.2026.108850": {
+      "abstract": "Advances in computational biology are reshaping enzyme engineering from empirical practice into a predictive, model-driven discipline. Traditional strategies such as directed evolution and rational design have improved catalytic properties but often fail to resolve system-level bottlenecks involving stability, cofactor incompatibility, and intermediate leakage. This review summarizes recent advances in computational enzyme engineering, with a focus on structure prediction, mutation-effect modeling, multiscale molecular simulations, and multi-enzyme network engineering. We frame the reviewed studies within a dual-loop Design-Build-Test-Learn (DBTL) perspective to connect molecular-level enzyme design with pathway-level integration. The first loop summarizes computational strategies for single-enzyme optimization, including deep learning-based structure and fitness prediction, molecular dynamics (MD) simulations, and quantum mechanics/molecular mechanics (QM/MM) analyses that elucidate structure-function relationships and guide iterative refinement. The second loop extends these approaches to multi-enzyme systems, reviewing recent studies on substrate tunnel engineering, electrostatic coupling, and temporal coordination that facilitate efficient intermediate transfer and balanced flux in enzyme cascades. In contrast to existing reviews that primarily focus on individual computational methods or single-enzyme optimization, this review emphasizes the integration of mechanistic enzyme modeling with multi-enzyme network design within a unified DBTL framework. By integrating advances across these scales, we provide a structured overview of current capabilities, limitations, and emerging directions in computationally guided enzyme engineering.",
+      "authors": [
+        "Li Y",
+        "Du G",
+        "Chen J",
+        "Lv X",
+        "Liu L"
+      ],
+      "doi": "10.1016/j.biotechadv.2026.108850",
+      "first_seen": "2026-07-01",
+      "published": "2026 01 01",
+      "reasons": [
+        "structure prediction",
+        "enzyme design",
+        "directed evolution",
+        "stability",
+        "enzyme",
+        "mutation"
+      ],
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "41763370",
+      "title": "Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41763370/"
     },
     "doi:10.1016/j.canlet.2026.218699": {
       "abstract": "The design of antigen-binding domains (binders) is emerging as a decisive frontier in chimeric antigen receptor (CAR)-T cell engineering. Rather than serving as passive recognition elements, binders actively shape antigen selectivity, signaling thresholds, exhaustion propensity, persistence, and toxicity. We propose that optimal CAR performance requires a multidimensional design strategy. Success cannot be achieved by maximizing a single variable like affinity. Designers must instead integrate epitope position, binding kinetics, avidity, molecular geometry, and biophysical stability. In this review, we synthesize recent advances showing how these parameters collectively govern immunological synapse formation, antigen-density discrimination, and functional durability. Importantly, we highlight that the consequences of binder design are increasingly evident not only in mechanistic and preclinical studies, but also in real-world clinical translation and commercial trajectories. We further examine how the binder landscape has expanded beyond conventional scFvs to include VHHs, monobodies, DARPins, D-domains, peptides, natural ligands, TCR-mimic binders, and de novo AI-designed proteins. Together, these advances support a shift from empirical binder selection to rational binder orchestration as a foundational principle for next-generation CAR-T immunotherapy.",
@@ -50,6 +191,91 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
+    "doi:10.1016/j.jmgm.2026.109383": {
+      "abstract": "Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for improvement. In this study, we propose PCTPS, a novel predictor that combines a pretrained protein language model (PPLM) with deep neural networks to predict phase-separated proteins. Specifically, PPLM is used to extract embedding features from protein sequences. These features are then processed using a Convolutional-Transformer Network to capture both local and global discriminative information. To further enhance classification performance, we introduce the Kolmogorov-Arnold Network. Notably, PCTPS not only predicts whether a protein is phase-separated but also distinguishes self-assembled phase-separated proteins and partner-dependent phase-separated proteins. Extensive experiments on human and non-human datasets demonstrate that PCTPS outperforms state-of-the-art methods. Our results validate the effectiveness of integrating PPLM and neural networks for phase-separated protein prediction.",
+      "authors": [
+        "Liu T",
+        "Xia Y",
+        "Sun X",
+        "Song S",
+        "Hu X",
+        "Zhang L"
+      ],
+      "doi": "10.1016/j.jmgm.2026.109383",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "transformer",
+        "protein"
+      ],
+      "score": 9,
+      "source": "PubMed",
+      "source_id": "41905267",
+      "title": "PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41905267/"
+    },
+    "doi:10.1016/j.jmgm.2026.109401": {
+      "abstract": "The escalation of antimicrobial resistance (AMR) has become a major global public health threat, creating an urgent need for novel antimicrobial therapeutics. Antimicrobial peptides (AMPs), owing to their unique mechanisms of action and low propensity for inducing resistance, are regarded as key candidates for combating AMR. However, existing generative models struggle to balance generation quality, efficiency, and controllability. This study proposes the CFlowAMP framework, which integrates the protein language model ESM-2 with property-controlled Conditional Flow Matching to model a direct mapping trajectory from random noise to the latent representations of peptide sequences. Experimental results demonstrate that CFlowAMP substantially enhances generative performance: it increases the AMP generation success score by 39.8%, achieves an 18-fold speedup over diffusion-based models, and enables on-demand generation with controllable physicochemical properties. This approach provides a generalizable computational framework for therapeutic peptide design.",
+      "authors": [
+        "Chen J",
+        "Jiang Y",
+        "Gong K",
+        "Yang Y"
+      ],
+      "doi": "10.1016/j.jmgm.2026.109401",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "flow matching",
+        "ESM",
+        "generative model",
+        "protein",
+        "peptide"
+      ],
+      "score": 20,
+      "source": "PubMed",
+      "source_id": "41941849",
+      "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1016/j.neunet.2026.108707": {
+      "abstract": "Accurately predicting protein thermal stability is crucial for understanding protein function, guiding protein engineering, and advancing biomedical and industrial applications. Although research on protein thermal stability has advanced with structure-based representation learning, most existing methods embed protein structures as homogeneous graphs, which are unable to capture the intricate and heterogeneous characteristics of residue-residue interactions. To address this limitation, we propose a Residue Interaction Type-Aware Heterogeneous Graph Embedding model (RIT-HetGE) that utilizes intra-interaction-type-aware convolutions for local structure learning and employs an inter-interaction-type-aware attention mechanism to fuse interaction-specific features. Theoretical analysis based on Rademacher complexity provides generalization guarantees. Experiments on a large-scale protein structure dataset demonstrate that our model outperforms baseline models and aggregates diverse interaction types to enhance protein representation. RIT-HetGE also exhibits strong interpretability; the intra-interaction-type-aware layer enables identification of critical residues, whereas the inter-interaction-type-aware layer facilitates the detection of significant interaction types associated with protein thermal stability. These findings highlight the importance of integrating biologically meaningful heterogeneous interactions with protein structure encoding and offer a robust framework for protein thermal stability prediction.",
+      "authors": [
+        "Liu L",
+        "Jiang Y",
+        "Gu Y",
+        "Zhao S",
+        "Ding Y"
+      ],
+      "doi": "10.1016/j.neunet.2026.108707",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein engineering",
+        "stability",
+        "protein",
+        "structure"
+      ],
+      "score": 10,
+      "source": "PubMed",
+      "source_id": "41687237",
+      "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",
       "authors": [
@@ -74,6 +300,33 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
+    },
+    "doi:10.1093/bioinformatics/btag476": {
+      "abstract": "Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framework for modeling residue matches and gaps. OTalign formulates sequence alignment as an entropy-regularized unbalanced optimal transport (UOT) problem over embeddings derived from protein language models (PLMs). Unlike traditional methods, it introduces position-specific gap penalties that adapt to each sequence pair. On challenging remote-homolog benchmarks (SABmark, MALIDUP, MALISAM), OTalign consistently outperforms baselines (Needleman-Wunsch, HHalign) and recent PLM-based methods (PLMAlign, DeepBLAST), achieving F1 scores of 0.594 on SABmark Superfamily and 0.358 on SABmark Twilight. Furthermore, OTalign provides a quantitative and interpretable metric of how effectively PLM embeddings represent sequence similarity relationships. Finally, its differentiable nature enables end-to-end fine-tuning of PLMs, establishing a framework for learning embeddings explicitly optimized for alignment tasks. This code is available at https://github.com/DeepFoldProtein/OTalign. Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Kim M",
+        "Bae H",
+        "Jo G",
+        "Kim K",
+        "Yoo J",
+        "Joo K"
+      ],
+      "doi": "10.1093/bioinformatics/btag476",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jun 30",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 7,
+      "source": "PubMed",
+      "source_id": "42378434",
+      "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
     },
     "doi:10.1101/2024.03.09.583681": {
       "abstract": "Protein alignment is indispensable for biological discovery, supporting structure comparison, functional annotation, and evolutionary inference. While structure-based methods are highly effective at detecting structural similarity, their applicability is constrained by the limited availability of experimentally resolved protein structures and high computational cost. Sequence-based approaches using pretrained protein language models (pLMs) provide scalable alternatives, yet supervised methods based on differentiable dynamic programming have not consistently outperformed simpler unsupervised strategies. Here, we present CLAlign, a structure-aware protein alignment framework based on contrastive learning. CLAlign fine-tunes a pretrained pLM to generate structure-aware residue-level embeddings enriched with structural context, without relying on differentiable dynamic programming. It represents the first supervised approach to consistently outperform unsupervised pLM-based methods, and it naturally extends to both sequence- and structure-based alignment by flexibly adopting different protein language model encoders. CLAlign achieves state-of-the-art accuracy on the MALIDUP and MALISAM benchmarks, outperforming existing sequence-based methods by large margins while remaining highly efficient. Moreover, its alignment scores show clear biological interpretability: in remote homology detection on SCOPe, CLAlign performs comparably to structure-based methods such as TM-align while far exceeding all sequence-based baselines. Together, these results establish CLAlign as a simple, extensible, and biologically meaningful framework for protein alignment.",
@@ -135,6 +388,80 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2025.09.23.676583": {
+      "abstract": "In Mycobacterium tuberculosis, a prevalent and deadly pathogen, resistance to antibiotics evolves primarily through non-synonymous mutations in proteins. Sequence-based analyses are currently used to understand the genetic basis of antibiotic resistance, either via genotype-phenotype association, or via signals of convergent evolution. These methods focus on primary sequence and often neglect other biological signals such as protein structural information. We hypothesize that integrating the structural context of mutations improves the prediction of effects on function and phenotype. We curate high confidence structural annotations for the M. tuberculosis proteome from 1,371 crystallography and 2,316 AlphaFold predictions, and combine the structures with mutations from over 31,000 clinical M. tuberculosis isolates. We demonstrate that mutations in proteins known to cause resistance are clustered in 3D space, even in proteins where inactivating mutations at any position are thought to cause resistance. We develop a statistic to search the M. tuberculosis proteome for signal of clustered mutations, finding over 450 proteins that display this signal, many of which have a known relationship with antibiotic resistance. We show that a supervised classifier trained on 3D distance to known resistance sites alone has an F1 score of 94.6% at classifying mutations as resistance-conferring across proteins. This work demonstrates that protein structure provides useful information for categorizing which variants may cause antibiotic resistance, even when the majority of structures are AI-predicted.",
+      "authors": [
+        "Green, A. G.",
+        "Tasmin, M.",
+        "Vargas, R.",
+        "Farhat, M. R."
+      ],
+      "doi": "10.1101/2025.09.23.676583",
+      "first_seen": "2026-07-01",
+      "published": "2026-06-29",
+      "reasons": [
+        "AlphaFold",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "score": 8,
+      "source": "biorxiv",
+      "source_id": "10.1101/2025.09.23.676583",
+      "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1111/1750-3841.71222": {
+      "abstract": "Acerola is a nutrient-rich but highly perishable fruit that requires processing to preserve its nutritional quality. Foam mat drying is an effective method for retaining nutrients in liquid and semisolid foods, provided that suitable foaming agents are selected. The use of plant-based foaming agents represents a promising solution to meet the demands of vegan and vegetarian consumers. Therefore, this study proposed to evaluate the influence of different plant-based foaming agents and drying temperatures on the quality of acerola pulp powder. Acerola pulp was dried at 60°C and 70°C using soy protein isolate (SPI), concentrate of pea protein (CPP), distilled monoglycerides (Dimodan), and lactic acid esters (Lactem), and the effects on drying kinetics, nutrient retention, and color were investigated. Process parameters affected drying rates and were associated with the powder's nutritional characteristics. The diffusion model did not provide a satisfactory fit to represent the drying kinetics, suggesting anomalous diffusivity. The Page model demonstrated a precise fit and was associated with anomalous diffusion, with its exponent unequivocally indicating super-diffusive behavior. Drying at 70°C favored vitamin C retention due to faster moisture removal, whereas 60°C better preserved phenolic compounds and carotenoids. SPI, in combination with fatty acid ester-based agents, further enhanced vitamin C retention. Notably, all powders exhibited exceptionally high vitamin C content, exceeding 10 g per 100 g. These results underscore the potential of plant-based foaming agents for producing nutritionally rich acerola powder through foam mat drying, a simple and readily applicable process for developing plant-based food products. PRACTICAL APPLICATIONS: This study addresses a simple, cost-effective, and scalable process suitable for both small- and large-scale production of acerola powder, an appealing ingredient for fortifying foods and beverages. The proposed process preserves nutritional compounds and demonstrates the viability of using plant-based proteins as natural foaming agents, either alone or in combination with plant-based fatty acid-derived emulsifiers.",
+      "authors": [
+        "Cavalcante MD",
+        "Nery MD",
+        "Mauro MA"
+      ],
+      "doi": "10.1111/1750-3841.71222",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "diffusion model",
+        "protein"
+      ],
+      "score": 6,
+      "source": "PubMed",
+      "source_id": "42360395",
+      "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
+    },
+    "doi:10.1177/15578666261443336": {
+      "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",
+      "authors": [
+        "Stakauskas B",
+        "MarcinkeviČius V"
+      ],
+      "doi": "10.1177/15578666261443336",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42011844",
+      "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     }
   }
 }

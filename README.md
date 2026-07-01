@@ -7,36 +7,84 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-06-30** (`2026-06-30T07:25:09Z`)
+Updated: **2026-07-01** (`2026-07-01T01:41:12Z`)
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302)<br><sub>Mardikoraem, M., Pascual, N. S., Eaves, J. N. et al.</sub> | biorxiv<br>2026-06-27 | Enzymes and function | 17 |
-| 2 | [Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/42365891/)<br><sub>Zhu C, Jiang Z, Jing R et al.</sub> | PubMed<br>2026 Jun 28 | Binders and therapeutics | 9 |
-| 3 | [Effective structure-aware protein alignment via residue-level contrastive learning](https://doi.org/10.1101/2024.03.09.583681)<br><sub>You, R., Wang, Z., Liu, K. et al.</sub> | biorxiv<br>2026-06-27 | Protein language models | 8 |
-| 4 | [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/)<br><sub>Topuz T, Erdem Z, Bisgin H et al.</sub> | PubMed<br>2026 Jun 27 | Binders and therapeutics | 7 |
-| 5 | [Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.](https://pubmed.ncbi.nlm.nih.gov/42364004/)<br><sub>Bruno JG, Chen Y, Mahrat R</sub> | PubMed<br>2026 Jun 27 | Experimental validation | 7 |
+| 1 | [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/)<br><sub>Li Y, Du G, Chen J et al.</sub> | PubMed<br>2026 01 01 | Sequence design, Enzymes and function, Experimental validation | 21 |
+| 2 | [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/)<br><sub>Chen J, Jiang Y, Gong K et al.</sub> | PubMed<br>2026 Jul 01 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 20 |
+| 3 | [Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective](http://arxiv.org/abs/2606.31576v1)<br><sub>Ole Winther, Paul Jeha, Sander Dieleman et al.</sub> | arXiv<br>2026-06-30 | Structure generation | 14 |
+| 4 | [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/)<br><sub>Stakauskas B, MarcinkeviČius V</sub> | PubMed<br>2026 Jul 01 | Protein language models | 13 |
+| 5 | [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/)<br><sub>Huang D, Lv J, Yao X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Enzymes and function | 11 |
+| 6 | [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/)<br><sub>Liu J, Wu Q, Tao W et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Experimental validation | 11 |
+| 7 | [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/)<br><sub>Liu L, Jiang Y, Gu Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 10 |
+| 8 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
+| 9 | [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583)<br><sub>Green, A. G., Tasmin, M., Vargas, R. et al.</sub> | biorxiv<br>2026-06-29 | Enzymes and function | 8 |
+| 10 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
+| 11 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
+| 12 | [Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.](https://pubmed.ncbi.nlm.nih.gov/42360395/)<br><sub>Cavalcante MD, Nery MD, Mauro MA</sub> | PubMed<br>2026 Jul 01 | Structure generation | 6 |
 
 ### By Topic
 
 #### Binders and therapeutics
 
+- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
+- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
 - [Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/42365891/) (PubMed, 2026 Jun 28)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27)
 
 #### Enzymes and function
 
+- [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583) (biorxiv, 2026-06-29)
+- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
+- [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/) (PubMed, 2026 Jul 01)
+- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27)
 
 #### Experimental validation
 
+- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
+- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
 - [Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.](https://pubmed.ncbi.nlm.nih.gov/42364004/) (PubMed, 2026 Jun 27)
 
 #### Protein language models
 
+- [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30)
+- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
+- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01)
+- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
+- [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01)
+- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
 - [Effective structure-aware protein alignment via residue-level contrastive learning](https://doi.org/10.1101/2024.03.09.583681) (biorxiv, 2026-06-27)
 
+#### Sequence design
+
+- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
+
+#### Structure generation
+
+- [Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective](http://arxiv.org/abs/2606.31576v1) (arXiv, 2026-06-30)
+- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
+- [Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.](https://pubmed.ncbi.nlm.nih.gov/42360395/) (PubMed, 2026 Jul 01)
+
 ### All Recommended Papers
+
+#### 2026-07-01
+
+- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01; Sequence design, Enzymes and function, Experimental validation; score 21)
+- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
+- [Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective](http://arxiv.org/abs/2606.31576v1) (arXiv, 2026-06-30; Structure generation; score 14)
+- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; Protein language models; score 13)
+- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; Protein language models, Enzymes and function; score 11)
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Experimental validation; score 11)
+- [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/) (PubMed, 2026 Jul 01; Enzymes and function; score 10)
+- [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; Protein language models; score 9)
+- [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583) (biorxiv, 2026-06-29; Enzymes and function; score 8)
+- [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30; Protein language models; score 7)
+- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics; score 7)
+- [Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.](https://pubmed.ncbi.nlm.nih.gov/42360395/) (PubMed, 2026 Jul 01; Structure generation; score 6)
 
 #### 2026-06-30
 
@@ -48,7 +96,7 @@ Updated: **2026-06-30** (`2026-06-30T07:25:09Z`)
 
 ### Archive
 
-- [Daily report for 2026-06-30](outputs/daily/2026-06-30.md)
+- [Daily report for 2026-07-01](outputs/daily/2026-07-01.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
