@@ -3,6 +3,7 @@
   "max_results_per_source": 80,
   "google_scholar_enabled": true,
   "google_scholar_max_pages": 2,
+  "journal_feeds_enabled": true,
   "min_score": 6,
   "report_limit": 25,
   "required_keywords": [
@@ -20,7 +21,66 @@
     "binders",
     "folding",
     "biomolecular",
-    "biomolecule"
+    "biomolecule",
+    "CAR-T",
+    "CAR T",
+    "chimeric antigen receptor",
+    "cell therapy",
+    "cancer therapy",
+    "target discovery",
+    "GPNMB"
+  ],
+  "journal_feeds": [
+    {
+      "name": "Cell",
+      "url": "https://www.cell.com/cell/current.rss"
+    },
+    {
+      "name": "Cancer Cell",
+      "url": "https://www.cell.com/cancer-cell/current.rss"
+    },
+    {
+      "name": "Molecular Cell",
+      "url": "https://www.cell.com/molecular-cell/current.rss"
+    },
+    {
+      "name": "Cell Systems",
+      "url": "https://www.cell.com/cell-systems/current.rss"
+    },
+    {
+      "name": "Cell Reports Medicine",
+      "url": "https://www.cell.com/cell-reports-medicine/current.rss"
+    },
+    {
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "name": "Nature Biotechnology",
+      "url": "https://www.nature.com/nbt.rss"
+    },
+    {
+      "name": "Nature Methods",
+      "url": "https://www.nature.com/nmeth.rss"
+    },
+    {
+      "name": "Science",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+    },
+    {
+      "name": "Science Translational Medicine",
+      "url": "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=stm"
+    }
+  ],
+  "watchlist_articles": [
+    {
+      "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
+      "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3",
+      "source": "Cell",
+      "published": "2026",
+      "source_id": "S0092-8674(26)00651-3",
+      "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy."
+    }
   ],
   "queries": [
     "\"protein design\" deep learning",
@@ -32,7 +92,10 @@
     "\"enzyme design\" protein",
     "\"antibody design\" deep learning",
     "\"diffusion model\" protein",
-    "\"flow matching\" protein"
+    "\"flow matching\" protein",
+    "\"CAR-T\" \"target discovery\"",
+    "\"cell therapy\" \"AI-driven discovery\"",
+    "\"GPNMB\" \"CAR-T\""
   ],
   "positive_keywords": {
     "high": [
@@ -56,6 +119,12 @@
       "ESM",
       "ProGen",
       "ProteinMPNN"
+      ,"CAR-T",
+      "CAR T",
+      "chimeric antigen receptor",
+      "cell therapy",
+      "target discovery",
+      "GPNMB"
     ],
     "medium": [
       "generative model",
@@ -94,6 +163,10 @@
     "food protein",
     "nutrition",
     "allergen",
+    "foam-mat",
+    "foaming agent",
+    "plant-based foaming",
+    "acerola",
     "text-to-video",
     "video diffusion",
     "hand motion",
@@ -130,7 +203,12 @@
       "antibody",
       "affinity",
       "therapeutic",
-      "peptide"
+      "peptide",
+      "CAR-T",
+      "CAR T",
+      "cell therapy",
+      "cancer therapy",
+      "GPNMB"
     ],
     "Enzymes and function": [
       "enzyme",

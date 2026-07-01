@@ -311,6 +311,114 @@ def google_scholar_query(queries: list[str], max_results: int, max_pages: int) -
     return papers
 
 
+def child_text(node: ET.Element, names: tuple[str, ...]) -> str:
+    for child in list(node):
+        local_name = child.tag.rsplit("}", 1)[-1].lower()
+        if local_name in names:
+            return clean_text("".join(child.itertext()))
+    return ""
+
+
+def child_attr(node: ET.Element, name: str, attr: str) -> str:
+    for child in list(node):
+        local_name = child.tag.rsplit("}", 1)[-1].lower()
+        if local_name == name:
+            return clean_text(child.attrib.get(attr, ""))
+    return ""
+
+
+def parse_feed_date(value: str) -> str:
+    value = clean_text(value)
+    if not value:
+        return ""
+    iso_match = re.search(r"\b(20\d{2}-\d{2}-\d{2})\b", value)
+    if iso_match:
+        return iso_match.group(1)
+    rfc_match = re.search(r"\b(\d{1,2})\s+([A-Z][a-z]{2})\s+(20\d{2})\b", value)
+    if rfc_match:
+        return f"{rfc_match.group(3)} {rfc_match.group(2)} {rfc_match.group(1).zfill(2)}"
+    year_match = re.search(r"\b(20\d{2})\b", value)
+    return year_match.group(1) if year_match else value
+
+
+def journal_feed_query(feeds: list[dict], max_results: int) -> list[Paper]:
+    papers: list[Paper] = []
+    for feed in feeds:
+        name = clean_text(feed.get("name", "Journal Feed"))
+        url = clean_text(feed.get("url", ""))
+        if not url:
+            continue
+        xml_text = request_text(url)
+        if not xml_text:
+            continue
+        try:
+            root = ET.fromstring(xml_text)
+        except ET.ParseError as exc:
+            print(f"warning: feed parse failed for {name}: {exc}", file=sys.stderr)
+            continue
+
+        items = root.findall(".//item")
+        if not items:
+            items = [node for node in root.findall(".//*") if node.tag.rsplit("}", 1)[-1].lower() == "entry"]
+
+        for item in items[:max_results]:
+            title = child_text(item, ("title",))
+            if not title:
+                continue
+            link = child_text(item, ("link",))
+            if not link:
+                link = child_attr(item, "link", "href")
+            abstract = child_text(item, ("description", "summary", "content", "abstract"))
+            published = parse_feed_date(child_text(item, ("pubdate", "published", "updated", "date")))
+            doi = child_text(item, ("doi",))
+            identifier = child_text(item, ("guid", "id", "identifier")) or link
+            authors = []
+            for child in list(item):
+                local_name = child.tag.rsplit("}", 1)[-1].lower()
+                if local_name in {"creator", "author"}:
+                    author = child_text(child, ("name",)) or clean_text("".join(child.itertext()))
+                    if author:
+                        authors.append(author)
+            papers.append(
+                Paper(
+                    title=title,
+                    authors=authors,
+                    abstract=abstract,
+                    source=name,
+                    published=published,
+                    url=link,
+                    doi=doi,
+                    source_id=identifier,
+                )
+            )
+    return papers
+
+
+def watchlist_query(articles: list[dict]) -> list[Paper]:
+    papers: list[Paper] = []
+    for article in articles:
+        title = clean_text(article.get("title", ""))
+        url = clean_text(article.get("url", ""))
+        if not title or not url:
+            continue
+        authors = article.get("authors", [])
+        if isinstance(authors, str):
+            authors = [a.strip() for a in authors.split(";") if a.strip()]
+        papers.append(
+            Paper(
+                title=title,
+                authors=authors,
+                abstract=clean_text(article.get("abstract", "")),
+                source=clean_text(article.get("source", "Watchlist")),
+                published=clean_text(article.get("published", "")),
+                url=url,
+                doi=clean_text(article.get("doi", "")),
+                source_id=clean_text(article.get("source_id", url)),
+            )
+        )
+    return papers
+
+
 def score_paper(paper: Paper, config: dict) -> Paper:
     haystack = normalize_text(f"{paper.title} {paper.abstract}")
     required_terms = config.get("required_keywords", [])
@@ -335,7 +443,9 @@ def score_paper(paper: Paper, config: dict) -> Paper:
     for topic, terms in config.get("topic_profiles", {}).items():
         if any(contains_term(haystack, term) for term in terms):
             topics.append(topic)
-    if paper.source in {"bioRxiv", "medRxiv", "arXiv", "Google Scholar"}:
+    if paper.source in {"bioRxiv", "medRxiv", "arXiv", "Google Scholar"} or paper.source in {
+        clean_text(feed.get("name", "")) for feed in config.get("journal_feeds", [])
+    }:
         score += 1
     paper.score = score
     paper.reasons = reasons
@@ -575,6 +685,9 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
     if config.get("google_scholar_enabled", False):
         max_pages = int(config.get("google_scholar_max_pages", 1))
         papers.extend(google_scholar_query(queries, max_results, max_pages))
+    if config.get("journal_feeds_enabled", False):
+        papers.extend(journal_feed_query(config.get("journal_feeds", []), max_results))
+    papers.extend(watchlist_query(config.get("watchlist_articles", [])))
     return [score_paper(p, config) for p in dedupe(papers)]
 
 

@@ -59,6 +59,25 @@
       ],
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
+    "cell:s0092-8674(26)00651-3": {
+      "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
+      "authors": [],
+      "doi": "",
+      "first_seen": "2026-07-01",
+      "published": "2026",
+      "reasons": [
+        "CAR-T",
+        "GPNMB"
+      ],
+      "score": 11,
+      "source": "Cell",
+      "source_id": "S0092-8674(26)00651-3",
+      "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
+    },
     "doi:10.1002/pro.70667": {
       "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
       "authors": [
@@ -211,10 +230,12 @@
       "published": "2026 Jun 28",
       "reasons": [
         "binder design",
+        "CAR-T",
+        "chimeric antigen receptor",
         "stability",
         "binding"
       ],
-      "score": 9,
+      "score": 19,
       "source": "PubMed",
       "source_id": "42365891",
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
@@ -338,6 +359,38 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
+    },
+    "doi:10.1038/s41392-026-02780-8": {
+      "abstract": "The increasing global burden of cancer necessitates innovative therapeutic strategies. Cell therapy represents a major breakthrough in oncology, evolving rapidly from the successful application of chimeric antigen receptor T (CAR-T) cells in hematologic malignancies to a multiplatform landscape characterized by the concurrent development of diverse strategies. Current research focuses on T cell receptor-engineered T (TCR-T) cells, tumor-infiltrating lymphocytes (TILs), gamma delta (γδ) T cells, CAR-natural killer (CAR-NK) cells, CAR-macrophages (CAR-Ms), and various strategies based on dendritic cells (DCs), B cells, and stem cells. The translational paradigm is expanding from the relatively mature field of hematologic malignancies to the more prevalent and mechanistically complex domain of solid tumors. In recent years, this field has exhibited a clear trend toward expansion from autologous therapies to allogeneic \"off-the-shelf\" platforms. Approaches such as CAR-NK and CAR-natural killer T (CAR-NKT) cell therapies exhibit significant clinical potential because of their low immunogenicity and reduced risk of graft-versus-host disease (GvHD). Concurrently, in vivo engineering technologies that directly deliver CAR genes in situ are emerging as promising approaches to lower costs and simplify manufacturing by bypassing complex ex vivo procedures. This review systematically outlines recent advances in these strategies, focusing on their mechanisms of action, target antigens, and clinical translation. Despite progress, formidable challenges remain, including tumor heterogeneity, the immunosuppressive tumor microenvironment (TME), and therapy-related toxicity. To address these challenges, future research will focus on novel target discovery, enhanced toxicity management, and scalable manufacturing processes. The integration of multidisciplinary technologies, such as multiomics analysis, artificial intelligence, and synthetic biology, will advance cell therapies toward safer, more effective, and widely accessible applications.",
+      "authors": [
+        "Zi G",
+        "Zhang L",
+        "Zhou L",
+        "Liu X",
+        "Wang L",
+        "Zhou R",
+        "Zheng P",
+        "Wei J",
+        "Chen X",
+        "Wei S"
+      ],
+      "doi": "10.1038/s41392-026-02780-8",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "CAR-T",
+        "chimeric antigen receptor",
+        "cell therapy",
+        "target discovery"
+      ],
+      "score": 20,
+      "source": "PubMed",
+      "source_id": "42380095",
+      "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
     },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",

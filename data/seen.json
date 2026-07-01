@@ -14,6 +14,13 @@
       "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
+    "cell:s0092-8674(26)00651-3": {
+      "first_seen": "2026-07-01",
+      "score": 11,
+      "source": "Cell",
+      "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
+      "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
+    },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-01",
       "score": 11,
@@ -50,8 +57,8 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/41763370/"
     },
     "doi:10.1016/j.canlet.2026.218699": {
-      "first_seen": "2026-06-30",
-      "score": 9,
+      "first_seen": "2026-07-01",
+      "score": 19,
       "source": "PubMed",
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
@@ -83,6 +90,13 @@
       "source": "PubMed",
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
+    },
+    "doi:10.1038/s41392-026-02780-8": {
+      "first_seen": "2026-07-01",
+      "score": 20,
+      "source": "PubMed",
+      "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
     },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
