@@ -7,6 +7,13 @@
       "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
       "url": "http://arxiv.org/abs/2606.31576v1"
     },
+    "arxiv:2606.31832v1": {
+      "first_seen": "2026-07-01",
+      "score": 17,
+      "source": "arXiv",
+      "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
+      "url": "http://arxiv.org/abs/2606.31832v1"
+    },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-01",
       "score": 11,
@@ -48,6 +55,13 @@
       "source": "PubMed",
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
+    },
+    "doi:10.1016/j.ijbiomac.2026.152871": {
+      "first_seen": "2026-07-01",
+      "score": 17,
+      "source": "PubMed",
+      "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
     "doi:10.1016/j.jmgm.2026.109383": {
       "first_seen": "2026-07-01",

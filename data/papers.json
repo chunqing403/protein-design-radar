@@ -27,6 +27,38 @@
       ],
       "url": "http://arxiv.org/abs/2606.31576v1"
     },
+    "arxiv:2606.31832v1": {
+      "abstract": "Sampling rare conformation transitions between metastable states is a central challenge in atomistic simulations. While the committor function serve as an ideal reaction coordinate for driving enhanced sampling, their high-dimensional inputs and complex functional forms limit the efficacy of standard feedforward neural networks in modeling them. Inspired by recent breakthroughs in biomolecular structure prediction, we propose a novel committor learning framework grounded in the AlphaFold 3 paradigm. By integrating a lightweight, differentiable atom-level embedding with a simplified Pairformer architecture, our method inherently captures intricate dynamical features of diverse biosystems without requiring specialized prior knowledge. We demonstrate the superior expressiveness and accuracy of the proposed framework across multiple atomistic processes. For the folding of the chignolin mini-protein, our model reveals the finer-grained structure of its transition state ensemble (TSE) and a detailed bifurcated reaction mechanism. Furthermore, for calixarene host-guest systems, we develop a unified committor model that elucidates how ligand substituents regulate the ratio between distinct binding pathways, offering new perspectives for structure-based drug design.",
+      "authors": [
+        "Jintu Zhang",
+        "Zichang Jin",
+        "Huifeng Zhao",
+        "Kai Zhu",
+        "Bowei Zhao",
+        "Xujun Zhang",
+        "Peilin Kang",
+        "Tingjun Hou"
+      ],
+      "doi": "",
+      "first_seen": "2026-07-01",
+      "published": "2026-06-30",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "folding",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "score": 17,
+      "source": "arXiv",
+      "source_id": "2606.31832v1",
+      "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "http://arxiv.org/abs/2606.31832v1"
+    },
     "doi:10.1002/pro.70667": {
       "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
       "authors": [
@@ -190,6 +222,37 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
+    },
+    "doi:10.1016/j.ijbiomac.2026.152871": {
+      "abstract": "This study focused on enhancing the catalytic efficiency of 3α-hydroxysteroid dehydrogenase (3α-HSD) from Comamonas testosteroni toward androsterone. By employing enzyme engineering strategy combining semi-rational design with the protein language model Saprot, a high-performance mutant, H119A/R201L/R216L/N152F/K208A, was obtained. First, ethanol was used as a cosolvent to stabilize the reaction system, and the optimal ratio of androsterone solution in the reaction system was determined, thereby optimizing the dissolution conditions for subsequent mutant screening. Based on Caver channel analysis and Saprot-PLM intelligent screening, the K208A and N152F mutants exhibited enzyme activities 1.27-fold and 1.23-fold higher than the wild-type, respectively. Strikingly, combining the positive-effect mutation N152F with the negative-effect scaffold H1 revealed context-dependent epistasis, enzyme activity was increased to 153% of the wild-type. Furthermore, the five-point combination mutant H119A/R201L/R216L/N152F/K208A, incorporating K208A and R201L, exhibited a specific activity of 176.3 U/mg, with kcat/Km 3.54-fold of the WT. Enzymatic characterization revealed that both the optimal temperature and pH increased, and thermal stability significantly enhanced. Hydrogen bonding analysis and MM/PBSA calculations revealed that N152F reconfigures the electrostatic microenvironment of the active site via the aromatic ring of phenylalanine, reversing the electrostatic interaction from a repulsive state to a strongly attractive state, while simultaneously enhancing protein conformational flexibility to achieve a highly efficient catalytic mechanism characterized by \"moderate binding and dynamic precision.\" This strategy yields an efficient biocatalyst for steroid biomanufacturing and provides a new perspective for enzyme design.",
+      "authors": [
+        "Wang J",
+        "Han Z",
+        "Wang Q",
+        "Luo W"
+      ],
+      "doi": "10.1016/j.ijbiomac.2026.152871",
+      "first_seen": "2026-07-01",
+      "published": "2026 Jun 30",
+      "reasons": [
+        "protein language model",
+        "enzyme design",
+        "stability",
+        "protein",
+        "enzyme",
+        "binding"
+      ],
+      "score": 17,
+      "source": "PubMed",
+      "source_id": "42379440",
+      "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
     "doi:10.1016/j.jmgm.2026.109383": {
       "abstract": "Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for improvement. In this study, we propose PCTPS, a novel predictor that combines a pretrained protein language model (PPLM) with deep neural networks to predict phase-separated proteins. Specifically, PPLM is used to extract embedding features from protein sequences. These features are then processed using a Convolutional-Transformer Network to capture both local and global discriminative information. To further enhance classification performance, we introduce the Kolmogorov-Arnold Network. Notably, PCTPS not only predicts whether a protein is phase-separated but also distinguishes self-assembled phase-separated proteins and partner-dependent phase-separated proteins. Extensive experiments on human and non-human datasets demonstrate that PCTPS outperforms state-of-the-art methods. Our results validate the effectiveness of integrating PPLM and neural networks for phase-separated protein prediction.",

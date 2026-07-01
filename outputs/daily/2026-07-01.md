@@ -1,138 +1,28 @@
 # Protein Design Paper Radar - 2026-07-01
 
-Generated on 2026-07-01T01:41:12Z.
+Generated on 2026-07-01T04:56:54Z.
 
-Found 12 recommended papers.
+Found 2 recommended papers.
 
 ## Highlights
 
-### 1. Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.
+### 1. Navigating committor landscape of biomolecules with a general pairwise interaction model
 
-- **Score:** 21 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 01 01
-- **Authors:** Li Y, Du G, Chen J et al.
-- **Topics:** Sequence design, Enzymes and function, Experimental validation
-- **Why it matched:** structure prediction, enzyme design, directed evolution, stability, enzyme, mutation
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/41763370/
-- **DOI:** 10.1016/j.biotechadv.2026.108850
-
-Advances in computational biology are reshaping enzyme engineering from empirical practice into a predictive, model-driven discipline. Traditional strategies such as directed evolution and rational design have improved catalytic properties but often fail to resolve system-level bottlenecks involving stability, cofactor incompatibility, and intermediate...
-
-### 2. CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.
-
-- **Score:** 20 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Chen J, Jiang Y, Gong K et al.
-- **Topics:** Structure generation, Protein language models, Binders and therapeutics, Experimental validation
-- **Why it matched:** protein language model, flow matching, ESM, generative model, protein, peptide
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/41941849/
-- **DOI:** 10.1016/j.jmgm.2026.109401
-
-The escalation of antimicrobial resistance (AMR) has become a major global public health threat, creating an urgent need for novel antimicrobial therapeutics. Antimicrobial peptides (AMPs), owing to their unique mechanisms of action and low propensity for inducing resistance, are regarded as key candidates for combating AMR. However, existing generative...
-
-### 3. Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective
-
-- **Score:** 14 | **Status:** NEW | **Source:** arXiv | **Date:** 2026-06-30
-- **Authors:** Ole Winther, Paul Jeha, Sander Dieleman et al.
-- **Topics:** Structure generation
-- **Why it matched:** diffusion model, flow matching, generative model
-- **Link:** http://arxiv.org/abs/2606.31576v1
-
-The use of ordinary and stochastic differential equations has led to substantial progress in generative machine learning with applications to, for example, image, video and biomolecule generation. This paper provides a self-contained and informal introduction to the differential equations, the probabilistic framework for using them in generative modeling...
-
-### 4. Evaluating Protein Language Model Embeddings for Viral Clade Assignment.
-
-- **Score:** 13 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Stakauskas B, MarcinkeviČius V
-- **Topics:** Protein language models
-- **Why it matched:** protein language model, ESM, protein, sequence, structure
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42011844/
-- **DOI:** 10.1177/15578666261443336
-
-Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and...
-
-### 5. DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.
-
-- **Score:** 11 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Huang D, Lv J, Yao X et al.
-- **Topics:** Protein language models, Enzymes and function
-- **Why it matched:** protein language model, transformer, protein, sequence, structure
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42316773/
-- **DOI:** 10.1002/pro.70667
-
-Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments...
-
-### 6. Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.
-
-- **Score:** 11 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Liu J, Wu Q, Tao W et al.
-- **Topics:** Protein language models, Experimental validation
-- **Why it matched:** protein language model, ESM, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/41865419/
-- **DOI:** 10.1016/j.ab.2026.116116
-
-Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially...
-
-### 7. RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.
-
-- **Score:** 10 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Liu L, Jiang Y, Gu Y et al.
+- **Score:** 17 | **Status:** NEW | **Source:** arXiv | **Date:** 2026-06-30
+- **Authors:** Jintu Zhang, Zichang Jin, Huifeng Zhao et al.
 - **Topics:** Enzymes and function
-- **Why it matched:** protein engineering, stability, protein, structure
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/41687237/
-- **DOI:** 10.1016/j.neunet.2026.108707
+- **Why it matched:** structure prediction, AlphaFold, folding, protein, binding, structure
+- **Link:** http://arxiv.org/abs/2606.31832v1
 
-Accurately predicting protein thermal stability is crucial for understanding protein function, guiding protein engineering, and advancing biomedical and industrial applications. Although research on protein thermal stability has advanced with structure-based representation learning, most existing methods embed protein structures as homogeneous graphs, which...
+Sampling rare conformation transitions between metastable states is a central challenge in atomistic simulations. While the committor function serve as an ideal reaction coordinate for driving enhanced sampling, their high-dimensional inputs and complex functional forms limit the efficacy of standard feedforward neural networks in modeling them. Inspired by...
 
-### 8. PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.
+### 2. Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.
 
-- **Score:** 9 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Liu T, Xia Y, Sun X et al.
-- **Topics:** Protein language models
-- **Why it matched:** protein language model, transformer, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/41905267/
-- **DOI:** 10.1016/j.jmgm.2026.109383
+- **Score:** 17 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jun 30
+- **Authors:** Wang J, Han Z, Wang Q et al.
+- **Topics:** Structure generation, Sequence design, Protein language models, Enzymes and function
+- **Why it matched:** protein language model, enzyme design, stability, protein, enzyme, binding
+- **Link:** https://pubmed.ncbi.nlm.nih.gov/42379440/
+- **DOI:** 10.1016/j.ijbiomac.2026.152871
 
-Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for...
-
-### 9. The structural context of mutations in proteins predicts their effect on antibiotic resistance
-
-- **Score:** 8 | **Status:** NEW | **Source:** biorxiv | **Date:** 2026-06-29
-- **Authors:** Green, A. G., Tasmin, M., Vargas, R. et al.
-- **Topics:** Enzymes and function
-- **Why it matched:** AlphaFold, protein, sequence, structure
-- **Link:** https://doi.org/10.1101/2025.09.23.676583
-- **DOI:** 10.1101/2025.09.23.676583
-
-In Mycobacterium tuberculosis, a prevalent and deadly pathogen, resistance to antibiotics evolves primarily through non-synonymous mutations in proteins. Sequence-based analyses are currently used to understand the genetic basis of antibiotic resistance, either via genotype-phenotype association, or via signals of convergent evolution. These methods focus...
-
-### 10. OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.
-
-- **Score:** 7 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jun 30
-- **Authors:** Kim M, Bae H, Jo G et al.
-- **Topics:** Protein language models
-- **Why it matched:** protein language model, protein, sequence
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42378434/
-- **DOI:** 10.1093/bioinformatics/btag476
-
-Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framework for modeling...
-
-### 11. A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.
-
-- **Score:** 7 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Rathore AS, Jain S, Mehta NK et al.
-- **Topics:** Protein language models, Binders and therapeutics
-- **Why it matched:** protein language model, protein, sequence
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42321971/
-- **DOI:** 10.1002/pro.70689
-
-Ion channels are central to regulating neuronal communication, cardiac rhythm, and muscle contraction. Their modulation can induce therapeutic benefits but may also lead to adverse or toxic effects. This study presents IonNTxPred, a protein language model (PLM)-based method for predicting protein ion channel modulators, including channel-specific (such as...
-
-### 12. Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.
-
-- **Score:** 6 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Cavalcante MD, Nery MD, Mauro MA
-- **Topics:** Structure generation
-- **Why it matched:** diffusion model, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42360395/
-- **DOI:** 10.1111/1750-3841.71222
-
-Acerola is a nutrient-rich but highly perishable fruit that requires processing to preserve its nutritional quality. Foam mat drying is an effective method for retaining nutrients in liquid and semisolid foods, provided that suitable foaming agents are selected. The use of plant-based foaming agents represents a promising solution to meet the demands of...
+This study focused on enhancing the catalytic efficiency of 3α-hydroxysteroid dehydrogenase (3α-HSD) from Comamonas testosteroni toward androsterone. By employing enzyme engineering strategy combining semi-rational design with the protein language model Saprot, a high-performance mutant, H119A/R201L/R216L/N152F/K208A, was obtained. First, ethanol was used...
