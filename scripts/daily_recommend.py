@@ -585,16 +585,54 @@ def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
     return "\n".join(lines)
 
 
+def render_paper_table(papers: list[Paper]) -> list[str]:
+    lines = [
+        "| # | Paper | Source | Topics | Score |",
+        "|---|---|---|---|---:|",
+    ]
+    for idx, paper in enumerate(papers, 1):
+        title = paper.title.replace("|", "\\|")
+        source = f"{paper.source}<br>{paper.published or 'n/a'}"
+        topics = ", ".join(paper.topics).replace("|", "\\|")
+        link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
+        linked_title = f"[{title}]({link})" if link else title
+        lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
+    return lines
+
+
+def papers_first_seen_on(library: dict, date: dt.date) -> list[Paper]:
+    target = date.isoformat()
+    records = library.get("papers", {})
+    papers = []
+    for record in records.values():
+        if record.get("first_seen") == target:
+            papers.append(record_to_paper(record))
+    return sorted(papers, key=lambda p: (p.score, p.published), reverse=True)
+
+
 def render_readme_section(date: dt.date, papers: list[Paper], config: dict, library: dict) -> str:
     generated = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
     all_papers = library_papers(library)
+    today_papers = papers_first_seen_on(library, date)
     lines = [
         README_START,
         "## Latest Recommendations",
         "",
         f"Updated: **{date.isoformat()}** (`{generated}`)",
         "",
+        "### Today's New Papers",
+        "",
     ]
+    if today_papers:
+        lines += render_paper_table(today_papers)
+        lines.append("")
+    else:
+        lines += [
+            "No newly collected high-confidence papers today. The cumulative library below is still preserved.",
+            "",
+        ]
+
+    lines += ["### Current Radar", ""]
     if not papers:
         lines += [
             "No high-confidence papers were found in the latest search window.",
@@ -603,17 +641,7 @@ def render_readme_section(date: dt.date, papers: list[Paper], config: dict, libr
             "",
         ]
     else:
-        lines += [
-            "| # | Paper | Source | Topics | Score |",
-            "|---|---|---|---|---:|",
-        ]
-        for idx, paper in enumerate(papers, 1):
-            title = paper.title.replace("|", "\\|")
-            source = f"{paper.source}<br>{paper.published or 'n/a'}"
-            topics = ", ".join(paper.topics).replace("|", "\\|")
-            link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
-            linked_title = f"[{title}]({link})" if link else title
-            lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
+        lines += render_paper_table(papers)
 
     lines += ["", "### By Topic", ""]
     topic_map: dict[str, list[Paper]] = {}
