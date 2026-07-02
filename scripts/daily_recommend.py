@@ -421,12 +421,41 @@ def watchlist_query(articles: list[dict]) -> list[Paper]:
 
 def score_paper(paper: Paper, config: dict) -> Paper:
     haystack = normalize_text(f"{paper.title} {paper.abstract}")
+    title_haystack = normalize_text(paper.title)
     required_terms = config.get("required_keywords", [])
     if required_terms and not any(contains_term(haystack, term) for term in required_terms):
         paper.score = -999
         paper.reasons = ["missing required protein-domain term"]
         paper.topics = ["Filtered"]
         return paper
+    watchlist_ids = {
+        normalize_text(article.get("source_id", article.get("url", "")))
+        for article in config.get("watchlist_articles", [])
+    }
+    watchlist_urls = {
+        normalize_text(article.get("url", ""))
+        for article in config.get("watchlist_articles", [])
+    }
+    is_watchlist = normalize_text(paper.source_id) in watchlist_ids or normalize_text(paper.url) in watchlist_urls
+    ai_terms = config.get("ai_required_keywords", [])
+    if ai_terms and not is_watchlist and not any(contains_term(haystack, term) for term in ai_terms):
+        paper.score = -998
+        paper.reasons = ["missing AI/ML/computational-design term"]
+        paper.topics = ["Filtered"]
+        return paper
+    if config.get("require_ai_keyword_in_title", False) and ai_terms and not is_watchlist:
+        if not any(contains_term(title_haystack, term) for term in ai_terms):
+            paper.score = -997
+            paper.reasons = ["missing AI/ML term in title"]
+            paper.topics = ["Filtered"]
+            return paper
+    title_domain_terms = config.get("title_domain_keywords", [])
+    if config.get("require_domain_keyword_in_title", False) and title_domain_terms and not is_watchlist:
+        if not any(contains_term(title_haystack, term) for term in title_domain_terms):
+            paper.score = -996
+            paper.reasons = ["missing protein/biomolecular term in title"]
+            paper.topics = ["Filtered"]
+            return paper
     score = 0
     reasons: list[str] = []
     weights = {"high": 5, "medium": 3, "low": 1}
@@ -523,6 +552,18 @@ def update_library(library: dict, papers: list[Paper], target_date: dt.date) -> 
         if existing and existing.get("score", 0) > record["score"]:
             record["score"] = existing["score"]
         records[paper.key] = record
+    return library
+
+
+def prune_library(library: dict, config: dict, min_score: int) -> dict:
+    records = library.setdefault("papers", {})
+    kept = {}
+    for key, record in records.items():
+        paper = score_paper(record_to_paper(record), config)
+        if paper.score >= min_score:
+            updated = paper_to_record(paper, record.get("first_seen", "unknown"))
+            kept[key] = updated
+    library["papers"] = kept
     return library
 
 
@@ -744,6 +785,7 @@ def main() -> int:
 
     min_score = int(config.get("min_score", 6))
     report_limit = int(config.get("report_limit", 25))
+    library = prune_library(library, config, min_score)
     eligible = [p for p in papers if p.score >= min_score]
     ranked = sorted(
         [p for p in eligible if args.include_seen or p.is_new],

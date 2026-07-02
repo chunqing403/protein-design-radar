@@ -1,64 +1,5 @@
 {
   "papers": {
-    "arxiv:2606.31576v1": {
-      "abstract": "The use of ordinary and stochastic differential equations has led to substantial progress in generative machine learning with applications to, for example, image, video and biomolecule generation. This paper provides a self-contained and informal introduction to the differential equations, the probabilistic framework for using them in generative modeling and the Fokker--Planck equation that governs the temporal evolution of the marginal distribution of the stochastic variables of the differential equations. The variational lower bound on the log-likelihood (the evidence lower bound, ELBO) is derived and used as a general starting point for a discussion of diffusion models, score matching, and flow matching. All of these approaches may be viewed as specific parameterizations of the most general variational approach. A one-dimensional density modeling problem is used as a simple example to compare different parameterizations.",
-      "authors": [
-        "Ole Winther",
-        "Paul Jeha",
-        "Sander Dieleman",
-        "Andriy Mnih",
-        "Manfred Opper",
-        "Andrea Dittadi"
-      ],
-      "doi": "",
-      "first_seen": "2026-07-01",
-      "published": "2026-06-30",
-      "reasons": [
-        "diffusion model",
-        "flow matching",
-        "generative model"
-      ],
-      "score": 14,
-      "source": "arXiv",
-      "source_id": "2606.31576v1",
-      "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
-      "topics": [
-        "Structure generation"
-      ],
-      "url": "http://arxiv.org/abs/2606.31576v1"
-    },
-    "arxiv:2606.31832v1": {
-      "abstract": "Sampling rare conformation transitions between metastable states is a central challenge in atomistic simulations. While the committor function serve as an ideal reaction coordinate for driving enhanced sampling, their high-dimensional inputs and complex functional forms limit the efficacy of standard feedforward neural networks in modeling them. Inspired by recent breakthroughs in biomolecular structure prediction, we propose a novel committor learning framework grounded in the AlphaFold 3 paradigm. By integrating a lightweight, differentiable atom-level embedding with a simplified Pairformer architecture, our method inherently captures intricate dynamical features of diverse biosystems without requiring specialized prior knowledge. We demonstrate the superior expressiveness and accuracy of the proposed framework across multiple atomistic processes. For the folding of the chignolin mini-protein, our model reveals the finer-grained structure of its transition state ensemble (TSE) and a detailed bifurcated reaction mechanism. Furthermore, for calixarene host-guest systems, we develop a unified committor model that elucidates how ligand substituents regulate the ratio between distinct binding pathways, offering new perspectives for structure-based drug design.",
-      "authors": [
-        "Jintu Zhang",
-        "Zichang Jin",
-        "Huifeng Zhao",
-        "Kai Zhu",
-        "Bowei Zhao",
-        "Xujun Zhang",
-        "Peilin Kang",
-        "Tingjun Hou"
-      ],
-      "doi": "",
-      "first_seen": "2026-07-01",
-      "published": "2026-06-30",
-      "reasons": [
-        "structure prediction",
-        "AlphaFold",
-        "folding",
-        "protein",
-        "binding",
-        "structure"
-      ],
-      "score": 17,
-      "source": "arXiv",
-      "source_id": "2606.31832v1",
-      "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
-      "topics": [
-        "Enzymes and function"
-      ],
-      "url": "http://arxiv.org/abs/2606.31832v1"
-    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -66,10 +7,11 @@
       "first_seen": "2026-07-01",
       "published": "2026",
       "reasons": [
+        "AI-driven",
         "CAR-T",
         "GPNMB"
       ],
-      "score": 11,
+      "score": 12,
       "source": "Cell",
       "source_id": "S0092-8674(26)00651-3",
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
@@ -133,30 +75,6 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
-    "doi:10.1007/s10895-026-04855-9": {
-      "abstract": "We describe and demonstrate the first lateral flow (LF) sandwich fluorescence assay for the small molecule hormone cortisol, enabled by a pair of de novo-designed cortisol-induced dimerization (CID) proteins. CID proteins C4 and C10, originally characterized in a chemiluminescent format, sandwich a single cortisol molecule between two engineered binding domains, eliminating the inherent sensitivity limitations of traditional competitive small molecule LF assays. In the present assay, C10 was immobilized as the capture reagent on a nitrocellulose membrane, and C4 was conjugated to either streptavidin-coated red quantum dots (QDs) for saliva applications or streptavidin-coated europium chelate-doped polystyrene nanoparticles (Eu NPs) for serum applications. The QD-CID strips produced a visually scored limit of detection (LOD) of 200 pg/mL of cortisol spiked into natural human saliva (20 pg total in a 100 µL sample) and 2 pg/mL in artificial saliva (200 fg total), spanning and extending below the physiological diurnal range of salivary cortisol (approximately 1,000-7,500 pg/mL). A goat anti-avidin control line successfully captured the C4-biotin-streptavidin-QD conjugate after migration, providing flow validation. QDs performed poorly in undiluted human serum, consistent with prior reports of ZnS shell perturbation by serum components. Substituting europium-chelate-doped polystyrene NPs preserved the long Stokes shift advantage while protecting the fluorophore from serum-induced quenching and enabled detection in pooled human serum across a dynamic range of 2-200 ng/mL (200 pg to 20 ng of total cortisol per 100 µL sample), more than spanning the full physiological diurnal range of serum cortisol. The entire LF test is executed in approximately 15 min, requires no cold chain or laboratory instrumentation beyond a handheld UV reader, and is suitable for both point-of-care clinical use and at-home stress and endocrine monitoring.",
-      "authors": [
-        "Bruno JG",
-        "Chen Y",
-        "Mahrat R"
-      ],
-      "doi": "10.1007/s10895-026-04855-9",
-      "first_seen": "2026-06-30",
-      "published": "2026 Jun 27",
-      "reasons": [
-        "de novo protein",
-        "protein",
-        "binding"
-      ],
-      "score": 7,
-      "source": "PubMed",
-      "source_id": "42364004",
-      "title": "Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.",
-      "topics": [
-        "Experimental validation"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
-    },
     "doi:10.1016/j.ab.2026.116116": {
       "abstract": "Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially homology-based approaches, face limitations when dealing with non-homologous data. Additionally, conventional machine learning models relying on manually extracted features often fail to capture critical functional characteristics of proteins. To address these challenges, we proposed a novel computational method that integrates pre-trained protein language models (PLMs) with deep learning techniques for CDP prediction. Specifically, the ESM model was employed to generate high-quality protein embeddings, thereby eliminating the need for manual feature extraction. In addition, a customized convolutional neural network (CNN) architecture was designed to automatically learn discriminative features relevant to CDP identification. The proposed computational method was further evaluated on two independent test sets, consistently outperforming existing state-of-the-art approaches. The experimental results demonstrated that the method exhibits strong generalization and robustness across different datasets, highlighting its effectiveness for accurate identification of CDPs.",
       "authors": [
@@ -184,96 +102,6 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
-    },
-    "doi:10.1016/j.biotechadv.2026.108850": {
-      "abstract": "Advances in computational biology are reshaping enzyme engineering from empirical practice into a predictive, model-driven discipline. Traditional strategies such as directed evolution and rational design have improved catalytic properties but often fail to resolve system-level bottlenecks involving stability, cofactor incompatibility, and intermediate leakage. This review summarizes recent advances in computational enzyme engineering, with a focus on structure prediction, mutation-effect modeling, multiscale molecular simulations, and multi-enzyme network engineering. We frame the reviewed studies within a dual-loop Design-Build-Test-Learn (DBTL) perspective to connect molecular-level enzyme design with pathway-level integration. The first loop summarizes computational strategies for single-enzyme optimization, including deep learning-based structure and fitness prediction, molecular dynamics (MD) simulations, and quantum mechanics/molecular mechanics (QM/MM) analyses that elucidate structure-function relationships and guide iterative refinement. The second loop extends these approaches to multi-enzyme systems, reviewing recent studies on substrate tunnel engineering, electrostatic coupling, and temporal coordination that facilitate efficient intermediate transfer and balanced flux in enzyme cascades. In contrast to existing reviews that primarily focus on individual computational methods or single-enzyme optimization, this review emphasizes the integration of mechanistic enzyme modeling with multi-enzyme network design within a unified DBTL framework. By integrating advances across these scales, we provide a structured overview of current capabilities, limitations, and emerging directions in computationally guided enzyme engineering.",
-      "authors": [
-        "Li Y",
-        "Du G",
-        "Chen J",
-        "Lv X",
-        "Liu L"
-      ],
-      "doi": "10.1016/j.biotechadv.2026.108850",
-      "first_seen": "2026-07-01",
-      "published": "2026 01 01",
-      "reasons": [
-        "structure prediction",
-        "enzyme design",
-        "directed evolution",
-        "stability",
-        "enzyme",
-        "mutation"
-      ],
-      "score": 21,
-      "source": "PubMed",
-      "source_id": "41763370",
-      "title": "Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.",
-      "topics": [
-        "Sequence design",
-        "Enzymes and function",
-        "Experimental validation"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41763370/"
-    },
-    "doi:10.1016/j.canlet.2026.218699": {
-      "abstract": "The design of antigen-binding domains (binders) is emerging as a decisive frontier in chimeric antigen receptor (CAR)-T cell engineering. Rather than serving as passive recognition elements, binders actively shape antigen selectivity, signaling thresholds, exhaustion propensity, persistence, and toxicity. We propose that optimal CAR performance requires a multidimensional design strategy. Success cannot be achieved by maximizing a single variable like affinity. Designers must instead integrate epitope position, binding kinetics, avidity, molecular geometry, and biophysical stability. In this review, we synthesize recent advances showing how these parameters collectively govern immunological synapse formation, antigen-density discrimination, and functional durability. Importantly, we highlight that the consequences of binder design are increasingly evident not only in mechanistic and preclinical studies, but also in real-world clinical translation and commercial trajectories. We further examine how the binder landscape has expanded beyond conventional scFvs to include VHHs, monobodies, DARPins, D-domains, peptides, natural ligands, TCR-mimic binders, and de novo AI-designed proteins. Together, these advances support a shift from empirical binder selection to rational binder orchestration as a foundational principle for next-generation CAR-T immunotherapy.",
-      "authors": [
-        "Zhu C",
-        "Jiang Z",
-        "Jing R",
-        "Guo W",
-        "Lu Y"
-      ],
-      "doi": "10.1016/j.canlet.2026.218699",
-      "first_seen": "2026-06-30",
-      "published": "2026 Jun 28",
-      "reasons": [
-        "binder design",
-        "CAR-T",
-        "chimeric antigen receptor",
-        "stability",
-        "binding"
-      ],
-      "score": 19,
-      "source": "PubMed",
-      "source_id": "42365891",
-      "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
-      "topics": [
-        "Binders and therapeutics"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
-    },
-    "doi:10.1016/j.ijbiomac.2026.152871": {
-      "abstract": "This study focused on enhancing the catalytic efficiency of 3α-hydroxysteroid dehydrogenase (3α-HSD) from Comamonas testosteroni toward androsterone. By employing enzyme engineering strategy combining semi-rational design with the protein language model Saprot, a high-performance mutant, H119A/R201L/R216L/N152F/K208A, was obtained. First, ethanol was used as a cosolvent to stabilize the reaction system, and the optimal ratio of androsterone solution in the reaction system was determined, thereby optimizing the dissolution conditions for subsequent mutant screening. Based on Caver channel analysis and Saprot-PLM intelligent screening, the K208A and N152F mutants exhibited enzyme activities 1.27-fold and 1.23-fold higher than the wild-type, respectively. Strikingly, combining the positive-effect mutation N152F with the negative-effect scaffold H1 revealed context-dependent epistasis, enzyme activity was increased to 153% of the wild-type. Furthermore, the five-point combination mutant H119A/R201L/R216L/N152F/K208A, incorporating K208A and R201L, exhibited a specific activity of 176.3 U/mg, with kcat/Km 3.54-fold of the WT. Enzymatic characterization revealed that both the optimal temperature and pH increased, and thermal stability significantly enhanced. Hydrogen bonding analysis and MM/PBSA calculations revealed that N152F reconfigures the electrostatic microenvironment of the active site via the aromatic ring of phenylalanine, reversing the electrostatic interaction from a repulsive state to a strongly attractive state, while simultaneously enhancing protein conformational flexibility to achieve a highly efficient catalytic mechanism characterized by \"moderate binding and dynamic precision.\" This strategy yields an efficient biocatalyst for steroid biomanufacturing and provides a new perspective for enzyme design.",
-      "authors": [
-        "Wang J",
-        "Han Z",
-        "Wang Q",
-        "Luo W"
-      ],
-      "doi": "10.1016/j.ijbiomac.2026.152871",
-      "first_seen": "2026-07-01",
-      "published": "2026 Jun 30",
-      "reasons": [
-        "protein language model",
-        "enzyme design",
-        "stability",
-        "protein",
-        "enzyme",
-        "binding"
-      ],
-      "score": 17,
-      "source": "PubMed",
-      "source_id": "42379440",
-      "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
-      "topics": [
-        "Structure generation",
-        "Sequence design",
-        "Protein language models",
-        "Enzymes and function"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
     "doi:10.1016/j.jmgm.2026.109383": {
       "abstract": "Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for improvement. In this study, we propose PCTPS, a novel predictor that combines a pretrained protein language model (PPLM) with deep neural networks to predict phase-separated proteins. Specifically, PPLM is used to extract embedding features from protein sequences. These features are then processed using a Convolutional-Transformer Network to capture both local and global discriminative information. To further enhance classification performance, we introduce the Kolmogorov-Arnold Network. Notably, PCTPS not only predicts whether a protein is phase-separated but also distinguishes self-assembled phase-separated proteins and partner-dependent phase-separated proteins. Extensive experiments on human and non-human datasets demonstrate that PCTPS outperforms state-of-the-art methods. Our results validate the effectiveness of integrating PPLM and neural networks for phase-separated protein prediction.",
@@ -333,92 +161,6 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
-    "doi:10.1016/j.neunet.2026.108707": {
-      "abstract": "Accurately predicting protein thermal stability is crucial for understanding protein function, guiding protein engineering, and advancing biomedical and industrial applications. Although research on protein thermal stability has advanced with structure-based representation learning, most existing methods embed protein structures as homogeneous graphs, which are unable to capture the intricate and heterogeneous characteristics of residue-residue interactions. To address this limitation, we propose a Residue Interaction Type-Aware Heterogeneous Graph Embedding model (RIT-HetGE) that utilizes intra-interaction-type-aware convolutions for local structure learning and employs an inter-interaction-type-aware attention mechanism to fuse interaction-specific features. Theoretical analysis based on Rademacher complexity provides generalization guarantees. Experiments on a large-scale protein structure dataset demonstrate that our model outperforms baseline models and aggregates diverse interaction types to enhance protein representation. RIT-HetGE also exhibits strong interpretability; the intra-interaction-type-aware layer enables identification of critical residues, whereas the inter-interaction-type-aware layer facilitates the detection of significant interaction types associated with protein thermal stability. These findings highlight the importance of integrating biologically meaningful heterogeneous interactions with protein structure encoding and offer a robust framework for protein thermal stability prediction.",
-      "authors": [
-        "Liu L",
-        "Jiang Y",
-        "Gu Y",
-        "Zhao S",
-        "Ding Y"
-      ],
-      "doi": "10.1016/j.neunet.2026.108707",
-      "first_seen": "2026-07-01",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "protein engineering",
-        "stability",
-        "protein",
-        "structure"
-      ],
-      "score": 10,
-      "source": "PubMed",
-      "source_id": "41687237",
-      "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
-      "topics": [
-        "Enzymes and function"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
-    },
-    "doi:10.1021/acs.jafc.5c13640": {
-      "abstract": "Hydroxytyrosol (HT), a potent natural antioxidant in olive oil, has broad food and nutraceutical applications, but sustainable, scalable production remains challenging. Here, we achieved efficient de novo HT biosynthesis in Escherichia coli using glucose-glycerol dual carbon sources, combining metabolic engineering and rational enzyme design. We eliminated feedback inhibition, deleted competing pathways, and rationally mutated the rate-limiting enzyme HpaBC (S462A/M293Y), which enhanced catalytic efficiency by improving substrate entry, oxygen availability, and shortening reaction distance, as revealed by molecular dynamics simulations. Global cofactor optimization boosted HT titer to 4.90 g/L in shake flasks. Under optimized dissolved oxygen in a 5 L bioreactor, HT production reached 13.25 g/L, the highest reported titer in E. coli to date, providing a robust strategy for sustainable HT biomanufacturing.",
-      "authors": [
-        "Chen Y",
-        "Chen Q",
-        "Su Y",
-        "Zeng W",
-        "Dong Z",
-        "Li J",
-        "Zhou J"
-      ],
-      "doi": "10.1021/acs.jafc.5c13640",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "enzyme design",
-        "enzyme"
-      ],
-      "score": 6,
-      "source": "PubMed",
-      "source_id": "42312739",
-      "title": "Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.",
-      "topics": [
-        "Enzymes and function"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
-    },
-    "doi:10.1038/s41392-026-02780-8": {
-      "abstract": "The increasing global burden of cancer necessitates innovative therapeutic strategies. Cell therapy represents a major breakthrough in oncology, evolving rapidly from the successful application of chimeric antigen receptor T (CAR-T) cells in hematologic malignancies to a multiplatform landscape characterized by the concurrent development of diverse strategies. Current research focuses on T cell receptor-engineered T (TCR-T) cells, tumor-infiltrating lymphocytes (TILs), gamma delta (γδ) T cells, CAR-natural killer (CAR-NK) cells, CAR-macrophages (CAR-Ms), and various strategies based on dendritic cells (DCs), B cells, and stem cells. The translational paradigm is expanding from the relatively mature field of hematologic malignancies to the more prevalent and mechanistically complex domain of solid tumors. In recent years, this field has exhibited a clear trend toward expansion from autologous therapies to allogeneic \"off-the-shelf\" platforms. Approaches such as CAR-NK and CAR-natural killer T (CAR-NKT) cell therapies exhibit significant clinical potential because of their low immunogenicity and reduced risk of graft-versus-host disease (GvHD). Concurrently, in vivo engineering technologies that directly deliver CAR genes in situ are emerging as promising approaches to lower costs and simplify manufacturing by bypassing complex ex vivo procedures. This review systematically outlines recent advances in these strategies, focusing on their mechanisms of action, target antigens, and clinical translation. Despite progress, formidable challenges remain, including tumor heterogeneity, the immunosuppressive tumor microenvironment (TME), and therapy-related toxicity. To address these challenges, future research will focus on novel target discovery, enhanced toxicity management, and scalable manufacturing processes. The integration of multidisciplinary technologies, such as multiomics analysis, artificial intelligence, and synthetic biology, will advance cell therapies toward safer, more effective, and widely accessible applications.",
-      "authors": [
-        "Zi G",
-        "Zhang L",
-        "Zhou L",
-        "Liu X",
-        "Wang L",
-        "Zhou R",
-        "Zheng P",
-        "Wei J",
-        "Chen X",
-        "Wei S"
-      ],
-      "doi": "10.1038/s41392-026-02780-8",
-      "first_seen": "2026-07-01",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "CAR-T",
-        "chimeric antigen receptor",
-        "cell therapy",
-        "target discovery"
-      ],
-      "score": 20,
-      "source": "PubMed",
-      "source_id": "42380095",
-      "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
-      "topics": [
-        "Binders and therapeutics"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
-    },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
       "authors": [
@@ -447,40 +189,6 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42204343/"
     },
-    "doi:10.1038/s41586-026-10641-1": {
-      "abstract": "Glioblastoma is a lethal brain tumour for which current multimodal treatment rarely prevents recurrence1. Therapeutic failure is driven by extensive intratumoural cellular heterogeneity2 with a microenvironment dominated by tumour-associated macrophages that sustain tumour growth and immunosuppression3. Although chimeric antigen receptor (CAR)-T cell therapies are being developed for glioblastoma, sustained response has been undermined by non-uniform antigen expression, antigen loss and microenvironmental barriers that are not directly engaged by tumour-targeting designs4. These limitations motivate new strategies that address the disease as a coupled tumour-immune system rather than a single malignant compartment. Here we use a multi-omic target discovery platform to identify GPNMB as a dual-compartment antigen in glioblastoma. Anti-GPNMB CAR-T cells showed potent anti-tumour activity, with long-term disease control in orthotopic patient-derived xenografts and syngeneic glioma models through concomitant depletion of GPNMB+ tumour and immunosuppressive myeloid populations. By collapsing tumour control and microenvironmental reprogramming, these findings provide a new strategy for antigen selection and targeting in heterogenous, myeloid-rich solid cancers.",
-      "authors": [
-        "Savage N",
-        "Grewal S",
-        "Shaikh MV",
-        "Zemp FJ",
-        "Mckenna D",
-        "Mikolajewicz N",
-        "Najem H",
-        "Pyczek J",
-        "Wei J",
-        "Taleb MAB",
-        "Asselstine LC",
-        "Anand A"
-      ],
-      "doi": "10.1038/s41586-026-10641-1",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "CAR-T",
-        "chimeric antigen receptor",
-        "target discovery",
-        "GPNMB"
-      ],
-      "score": 20,
-      "source": "PubMed",
-      "source_id": "42386964",
-      "title": "Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.",
-      "topics": [
-        "Binders and therapeutics"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42386964/"
-    },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",
       "authors": [
@@ -505,90 +213,6 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
-    },
-    "doi:10.1038/s43018-026-01194-3": {
-      "abstract": "Chimeric antigen receptor (CAR) T cell therapy for solid tumors is constrained by the scarcity of safe, uniformly expressed cell-surface targets. Here we identify glycoprotein NMB (GPNMB)-an MiT/TFE-family fusion-driven protein-as being highly, homogeneously and stably expressed in primary and relapsed alveolar soft-part sarcoma (ASPS) and translocation renal cell carcinoma. We develop a GPNMB-directed CAR T cell product, GCAR1, which demonstrates potent activity against patient-matched cells, organoids and xenograft models. Post hoc interim analysis of a first-in-human open-label, individual-participant trial ( NCT07104682 ) for a participant with relapsed/refractory, metastatic ASPS showed that GCAR1 induces stable disease for up to 3 months, accompanied by resolution of many nontarget lesions (primary endpoint), and is well tolerated. GCAR1 T cells expand in peripheral blood as a polyclonal population and remain detectable for 1 month. Spatial transcriptomics identified immunosuppressive niches in a treatment-resistant lesion and immune checkpoint blockade synergized with GCAR1 in a xenograft model. Altogether, our data provide a proof of concept for treating GPNMB-expressing solid tumors with GCAR1 and more broadly targeting surface antigens driven by oncogenic gene fusions with CAR T cell therapies.",
-      "authors": [
-        "Zemp FJ",
-        "Breckenridge Z",
-        "Song H",
-        "Gill GS",
-        "Louie TL",
-        "Narta K",
-        "Liu H",
-        "Suh Y",
-        "Guignard L",
-        "Mandujano-Tinoco EA",
-        "Collao N",
-        "Pyczek J"
-      ],
-      "doi": "10.1038/s43018-026-01194-3",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "CAR T",
-        "chimeric antigen receptor",
-        "cell therapy",
-        "GPNMB",
-        "protein"
-      ],
-      "score": 21,
-      "source": "PubMed",
-      "source_id": "42387022",
-      "title": "GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.",
-      "topics": [
-        "Binders and therapeutics"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387022/"
-    },
-    "doi:10.1038/s43018-026-01201-7": {
-      "abstract": "",
-      "authors": [
-        "Mount CW",
-        "Maus MV"
-      ],
-      "doi": "10.1038/s43018-026-01201-7",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "CAR-T",
-        "GPNMB"
-      ],
-      "score": 10,
-      "source": "PubMed",
-      "source_id": "42387023",
-      "title": "GPNMB-directed CAR-T cell therapies for solid tumors.",
-      "topics": [
-        "Binders and therapeutics"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42387023/"
-    },
-    "doi:10.1080/07388551.2026.2680416": {
-      "abstract": "Harnessing biomass for bio-based industrial biotechnology is vital for addressing global energy needs and mitigating climate change. In this context, microorganisms are the cornerstone of biorefineries based on renewable materials, with applications in bioenergy, agriculture, biomedicine, and other sectors. By engineering metabolic pathways, microorganisms can be tailored to improve yields, tolerate industrial conditions, and selectively produce valuable compounds. Through advances in metabolic engineering and synthetic biology, engineered strains of the yeast Saccharomyces cerevisiae have been successfully developed to efficiently convert the pentose sugars D-xylose and L-arabinose. Despite this important breakthrough, the efficient transport of these sugars remains a major limitation. Sugar sensing and transport in yeast are regulated at both transcriptional and post-translational levels. D-xylose is not recognized as a fermentable carbon source, leading to downregulation of transporter expression, removal from the cytoplasmic membrane, and degradation via ubiquitination in the absence of extracellular glucose. Additionally, transporters exhibit lower affinity for C5 sugars compared to D-glucose, resulting in strong D-glucose repression. To address these challenges, cutting-edge strategies have been successfully employed, including rational protein engineering, directed evolution, and machine learning approaches, to expand the repertoire of C5 transporters available for engineering in S. cerevisiae. Specific D-xylose transporters have been redesigned, with key residues identified to reduce D-glucose affinity, while studies have demonstrated improvements in transporter stability and sugar uptake rates. This review summarizes the key bottlenecks in C5 sugar transport and highlights the major advances and progress made toward creating robust microbial platforms capable of sustainable and efficient bio-based production. This review highlights the progress in understanding and engineering sugar transport systems in Saccharomyces cerevisiae, focusing on transporters for C5 sugars derived from lignocellulosic biomass. It outlines the progression from discovering the first C5 sugar transporters to developing advanced, specialized transporters that improve sugar uptake and utilization. By integrating historical insights with modern strategies, this review showcases how this progress drives the development of yeast platforms optimized for efficient bio-renewable compound production, paving the way for a more sustainable bioeconomy and addressing critical global energy and environmental challenges.",
-      "authors": [
-        "Bueno JGR",
-        "Fier Í",
-        "Kell DB",
-        "Santos LVD"
-      ],
-      "doi": "10.1080/07388551.2026.2680416",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "protein engineering",
-        "directed evolution",
-        "stability",
-        "protein"
-      ],
-      "score": 14,
-      "source": "PubMed",
-      "source_id": "42386498",
-      "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
-      "topics": [
-        "Binders and therapeutics",
-        "Experimental validation"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
     "doi:10.1093/bioinformatics/btag476": {
       "abstract": "Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framework for modeling residue matches and gaps. OTalign formulates sequence alignment as an entropy-regularized unbalanced optimal transport (UOT) problem over embeddings derived from protein language models (PLMs). Unlike traditional methods, it introduces position-specific gap penalties that adapt to each sequence pair. On challenging remote-homolog benchmarks (SABmark, MALIDUP, MALISAM), OTalign consistently outperforms baselines (Needleman-Wunsch, HHalign) and recent PLM-based methods (PLMAlign, DeepBLAST), achieving F1 scores of 0.594 on SABmark Superfamily and 0.358 on SABmark Twilight. Furthermore, OTalign provides a quantitative and interpretable metric of how effectively PLM embeddings represent sequence similarity relationships. Finally, its differentiable nature enables end-to-end fine-tuning of PLMs, establishing a framework for learning embeddings explicitly optimized for alignment tasks. This code is available at https://github.com/DeepFoldProtein/OTalign. Supplementary data are available at Bioinformatics online.",
@@ -616,35 +240,6 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
-    },
-    "doi:10.1101/2024.03.09.583681": {
-      "abstract": "Protein alignment is indispensable for biological discovery, supporting structure comparison, functional annotation, and evolutionary inference. While structure-based methods are highly effective at detecting structural similarity, their applicability is constrained by the limited availability of experimentally resolved protein structures and high computational cost. Sequence-based approaches using pretrained protein language models (pLMs) provide scalable alternatives, yet supervised methods based on differentiable dynamic programming have not consistently outperformed simpler unsupervised strategies. Here, we present CLAlign, a structure-aware protein alignment framework based on contrastive learning. CLAlign fine-tunes a pretrained pLM to generate structure-aware residue-level embeddings enriched with structural context, without relying on differentiable dynamic programming. It represents the first supervised approach to consistently outperform unsupervised pLM-based methods, and it naturally extends to both sequence- and structure-based alignment by flexibly adopting different protein language model encoders. CLAlign achieves state-of-the-art accuracy on the MALIDUP and MALISAM benchmarks, outperforming existing sequence-based methods by large margins while remaining highly efficient. Moreover, its alignment scores show clear biological interpretability: in remote homology detection on SCOPe, CLAlign performs comparably to structure-based methods such as TM-align while far exceeding all sequence-based baselines. Together, these results establish CLAlign as a simple, extensible, and biologically meaningful framework for protein alignment.",
-      "authors": [
-        "You, R.",
-        "Wang, Z.",
-        "Liu, K.",
-        "Zheng, W.",
-        "Wuyun, Q.",
-        "Yi, Y.",
-        "Zhu, S."
-      ],
-      "doi": "10.1101/2024.03.09.583681",
-      "first_seen": "2026-06-30",
-      "published": "2026-06-27",
-      "reasons": [
-        "protein language model",
-        "protein",
-        "sequence",
-        "structure"
-      ],
-      "score": 8,
-      "source": "biorxiv",
-      "source_id": "10.1101/2024.03.09.583681",
-      "title": "Effective structure-aware protein alignment via residue-level contrastive learning",
-      "topics": [
-        "Protein language models"
-      ],
-      "url": "https://doi.org/10.1101/2024.03.09.583681"
     },
     "doi:10.1101/2024.10.02.616302": {
       "abstract": "From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
@@ -677,79 +272,6 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
-    },
-    "doi:10.1101/2025.09.23.676583": {
-      "abstract": "In Mycobacterium tuberculosis, a prevalent and deadly pathogen, resistance to antibiotics evolves primarily through non-synonymous mutations in proteins. Sequence-based analyses are currently used to understand the genetic basis of antibiotic resistance, either via genotype-phenotype association, or via signals of convergent evolution. These methods focus on primary sequence and often neglect other biological signals such as protein structural information. We hypothesize that integrating the structural context of mutations improves the prediction of effects on function and phenotype. We curate high confidence structural annotations for the M. tuberculosis proteome from 1,371 crystallography and 2,316 AlphaFold predictions, and combine the structures with mutations from over 31,000 clinical M. tuberculosis isolates. We demonstrate that mutations in proteins known to cause resistance are clustered in 3D space, even in proteins where inactivating mutations at any position are thought to cause resistance. We develop a statistic to search the M. tuberculosis proteome for signal of clustered mutations, finding over 450 proteins that display this signal, many of which have a known relationship with antibiotic resistance. We show that a supervised classifier trained on 3D distance to known resistance sites alone has an F1 score of 94.6% at classifying mutations as resistance-conferring across proteins. This work demonstrates that protein structure provides useful information for categorizing which variants may cause antibiotic resistance, even when the majority of structures are AI-predicted.",
-      "authors": [
-        "Green, A. G.",
-        "Tasmin, M.",
-        "Vargas, R.",
-        "Farhat, M. R."
-      ],
-      "doi": "10.1101/2025.09.23.676583",
-      "first_seen": "2026-07-01",
-      "published": "2026-06-29",
-      "reasons": [
-        "AlphaFold",
-        "protein",
-        "sequence",
-        "structure"
-      ],
-      "score": 8,
-      "source": "biorxiv",
-      "source_id": "10.1101/2025.09.23.676583",
-      "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
-      "topics": [
-        "Enzymes and function"
-      ],
-      "url": "https://doi.org/10.1101/2025.09.23.676583"
-    },
-    "doi:10.1101/cshperspect.a041754": {
-      "abstract": "Cell migration is a fundamental biological process central to a number of physiological and pathophysiological events. Traditional genetic and pharmacological approaches have identified crucial molecular regulators of migration, yet they often lack the spatial and temporal resolution required to interrogate the highly dynamic signaling events that govern cell locomotion. Chemogenetic and optogenetic platforms-genetically encoded inducible systems activated by chemical or light stimuli, respectively-have emerged as powerful tools for achieving precise, on-demand control over protein function in living cells. These systems enable researchers to dissect molecular signaling pathways in real time and with subcellular precision, even as cells are actively migrating. Together with advances in de novo protein design, biosensors, and live-cell imaging, inducible molecular tools are transforming our ability to manipulate and elucidate the intricate mechanisms underlying cell motility. Looking forward, the application of these technologies in animal models will be crucial for gaining deeper physiological and pathophysiological insights.",
-      "authors": [
-        "Deb Roy A",
-        "Rho E",
-        "Inoue T"
-      ],
-      "doi": "10.1101/cshperspect.a041754",
-      "first_seen": "2026-07-02",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "protein design",
-        "de novo protein",
-        "protein"
-      ],
-      "score": 11,
-      "source": "PubMed",
-      "source_id": "41558817",
-      "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
-      "topics": [
-        "Enzymes and function"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
-    },
-    "doi:10.1111/1750-3841.71222": {
-      "abstract": "Acerola is a nutrient-rich but highly perishable fruit that requires processing to preserve its nutritional quality. Foam mat drying is an effective method for retaining nutrients in liquid and semisolid foods, provided that suitable foaming agents are selected. The use of plant-based foaming agents represents a promising solution to meet the demands of vegan and vegetarian consumers. Therefore, this study proposed to evaluate the influence of different plant-based foaming agents and drying temperatures on the quality of acerola pulp powder. Acerola pulp was dried at 60°C and 70°C using soy protein isolate (SPI), concentrate of pea protein (CPP), distilled monoglycerides (Dimodan), and lactic acid esters (Lactem), and the effects on drying kinetics, nutrient retention, and color were investigated. Process parameters affected drying rates and were associated with the powder's nutritional characteristics. The diffusion model did not provide a satisfactory fit to represent the drying kinetics, suggesting anomalous diffusivity. The Page model demonstrated a precise fit and was associated with anomalous diffusion, with its exponent unequivocally indicating super-diffusive behavior. Drying at 70°C favored vitamin C retention due to faster moisture removal, whereas 60°C better preserved phenolic compounds and carotenoids. SPI, in combination with fatty acid ester-based agents, further enhanced vitamin C retention. Notably, all powders exhibited exceptionally high vitamin C content, exceeding 10 g per 100 g. These results underscore the potential of plant-based foaming agents for producing nutritionally rich acerola powder through foam mat drying, a simple and readily applicable process for developing plant-based food products. PRACTICAL APPLICATIONS: This study addresses a simple, cost-effective, and scalable process suitable for both small- and large-scale production of acerola powder, an appealing ingredient for fortifying foods and beverages. The proposed process preserves nutritional compounds and demonstrates the viability of using plant-based proteins as natural foaming agents, either alone or in combination with plant-based fatty acid-derived emulsifiers.",
-      "authors": [
-        "Cavalcante MD",
-        "Nery MD",
-        "Mauro MA"
-      ],
-      "doi": "10.1111/1750-3841.71222",
-      "first_seen": "2026-07-01",
-      "published": "2026 Jul 01",
-      "reasons": [
-        "diffusion model",
-        "protein"
-      ],
-      "score": 6,
-      "source": "PubMed",
-      "source_id": "42360395",
-      "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
-      "topics": [
-        "Structure generation"
-      ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
     },
     "doi:10.1177/15578666261443336": {
       "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",

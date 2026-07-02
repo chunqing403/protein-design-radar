@@ -7,83 +7,50 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-02** (`2026-07-02T06:14:07Z`)
+Updated: **2026-07-02** (`2026-07-02T07:19:57Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387022/)<br><sub>Zemp FJ, Breckenridge Z, Song H et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 21 |
-| 2 | [Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.](https://pubmed.ncbi.nlm.nih.gov/42386964/)<br><sub>Savage N, Grewal S, Shaikh MV et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 20 |
-| 3 | [Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.](https://pubmed.ncbi.nlm.nih.gov/42386498/)<br><sub>Bueno JGR, Fier Í, Kell DB et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics, Experimental validation | 14 |
-| 4 | [Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.](https://pubmed.ncbi.nlm.nih.gov/41558817/)<br><sub>Deb Roy A, Rho E, Inoue T</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 11 |
-| 5 | [GPNMB-directed CAR-T cell therapies for solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387023/)<br><sub>Mount CW, Maus MV</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 10 |
-| 6 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
-| 7 | [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/)<br><sub>Chen Y, Chen Q, Su Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 6 |
+| 1 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387022/)<br><sub>Zemp FJ, Breckenridge Z, Song H et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 21 |
-| 2 | [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/)<br><sub>Li Y, Du G, Chen J et al.</sub> | PubMed<br>2026 01 01 | Sequence design, Enzymes and function, Experimental validation | 21 |
-| 3 | [Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.](https://pubmed.ncbi.nlm.nih.gov/42386964/)<br><sub>Savage N, Grewal S, Shaikh MV et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 20 |
-| 4 | [Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.](https://pubmed.ncbi.nlm.nih.gov/42380095/)<br><sub>Zi G, Zhang L, Zhou L et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 20 |
-| 5 | [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/)<br><sub>Chen J, Jiang Y, Gong K et al.</sub> | PubMed<br>2026 Jul 01 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 20 |
-| 6 | [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/)<br><sub>Wang J, Han Z, Wang Q et al.</sub> | PubMed<br>2026 Jun 30 | Structure generation, Sequence design, Protein language models, Enzymes and function | 17 |
-| 7 | [Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.](https://pubmed.ncbi.nlm.nih.gov/42386498/)<br><sub>Bueno JGR, Fier Í, Kell DB et al.</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics, Experimental validation | 14 |
-| 8 | [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/)<br><sub>Stakauskas B, MarcinkeviČius V</sub> | PubMed<br>2026 Jul 01 | Protein language models | 13 |
-| 9 | [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/)<br><sub>Huang D, Lv J, Yao X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Enzymes and function | 11 |
-| 10 | [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/)<br><sub>Liu J, Wu Q, Tao W et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Experimental validation | 11 |
-| 11 | [Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.](https://pubmed.ncbi.nlm.nih.gov/41558817/)<br><sub>Deb Roy A, Rho E, Inoue T</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 11 |
-| 12 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 11 |
-| 13 | [GPNMB-directed CAR-T cell therapies for solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387023/)<br><sub>Mount CW, Maus MV</sub> | PubMed<br>2026 Jul 01 | Binders and therapeutics | 10 |
-| 14 | [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/)<br><sub>Liu L, Jiang Y, Gu Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 10 |
-| 15 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
-| 16 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
-| 17 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
-| 18 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
-| 19 | [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/)<br><sub>Chen Y, Chen Q, Su Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 6 |
+| 1 | [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/)<br><sub>Chen J, Jiang Y, Gong K et al.</sub> | PubMed<br>2026 Jul 01 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 20 |
+| 2 | [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/)<br><sub>Stakauskas B, MarcinkeviČius V</sub> | PubMed<br>2026 Jul 01 | Protein language models | 13 |
+| 3 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
+| 4 | [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/)<br><sub>Huang D, Lv J, Yao X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Enzymes and function | 11 |
+| 5 | [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/)<br><sub>Liu J, Wu Q, Tao W et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Experimental validation | 11 |
+| 6 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
+| 7 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
+| 8 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
+| 9 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
 
 ### By Topic
 
 #### Binders and therapeutics
 
-- [GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387022/) (PubMed, 2026 Jul 01)
-- [Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.](https://pubmed.ncbi.nlm.nih.gov/42386964/) (PubMed, 2026 Jul 01)
-- [Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.](https://pubmed.ncbi.nlm.nih.gov/42386498/) (PubMed, 2026 Jul 01)
-- [GPNMB-directed CAR-T cell therapies for solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387023/) (PubMed, 2026 Jul 01)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.](https://pubmed.ncbi.nlm.nih.gov/42380095/) (PubMed, 2026 Jul 01)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
 - [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026)
-- [Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/42365891/) (PubMed, 2026 Jun 28)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27)
 
 #### Enzymes and function
 
-- [Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.](https://pubmed.ncbi.nlm.nih.gov/41558817/) (PubMed, 2026 Jul 01)
-- [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/) (PubMed, 2026 Jul 01)
-- [Navigating committor landscape of biomolecules with a general pairwise interaction model](http://arxiv.org/abs/2606.31832v1) (arXiv, 2026-06-30)
-- [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583) (biorxiv, 2026-06-29)
-- [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/) (PubMed, 2026 Jun 30)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
-- [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/) (PubMed, 2026 Jul 01)
-- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27)
 
 #### Experimental validation
 
-- [Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.](https://pubmed.ncbi.nlm.nih.gov/42386498/) (PubMed, 2026 Jul 01)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 - [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
-- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
-- [Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.](https://pubmed.ncbi.nlm.nih.gov/42364004/) (PubMed, 2026 Jun 27)
 
 #### Protein language models
 
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
-- [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/) (PubMed, 2026 Jun 30)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01)
@@ -91,58 +58,35 @@ Updated: **2026-07-02** (`2026-07-02T06:14:07Z`)
 - [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
-- [Effective structure-aware protein alignment via residue-level contrastive learning](https://doi.org/10.1101/2024.03.09.583681) (biorxiv, 2026-06-27)
 
 #### Sequence design
 
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
-- [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/) (PubMed, 2026 Jun 30)
-- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01)
 
 #### Structure generation
 
-- [Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective](http://arxiv.org/abs/2606.31576v1) (arXiv, 2026-06-30)
-- [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/) (PubMed, 2026 Jun 30)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.](https://pubmed.ncbi.nlm.nih.gov/42360395/) (PubMed, 2026 Jul 01)
 
 ### All Recommended Papers
 
 #### 2026-07-02
 
-- [GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387022/) (PubMed, 2026 Jul 01; Binders and therapeutics; score 21)
-- [Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.](https://pubmed.ncbi.nlm.nih.gov/42386964/) (PubMed, 2026 Jul 01; Binders and therapeutics; score 20)
-- [Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.](https://pubmed.ncbi.nlm.nih.gov/42386498/) (PubMed, 2026 Jul 01; Binders and therapeutics, Experimental validation; score 14)
-- [Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.](https://pubmed.ncbi.nlm.nih.gov/41558817/) (PubMed, 2026 Jul 01; Enzymes and function; score 11)
-- [GPNMB-directed CAR-T cell therapies for solid tumors.](https://pubmed.ncbi.nlm.nih.gov/42387023/) (PubMed, 2026 Jul 01; Binders and therapeutics; score 10)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; Sequence design, Protein language models; score 8)
-- [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/) (PubMed, 2026 Jul 01; Enzymes and function; score 6)
 
 #### 2026-07-01
 
-- [Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.](https://pubmed.ncbi.nlm.nih.gov/41763370/) (PubMed, 2026 01 01; Sequence design, Enzymes and function, Experimental validation; score 21)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
-- [Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.](https://pubmed.ncbi.nlm.nih.gov/42380095/) (PubMed, 2026 Jul 01; Binders and therapeutics; score 20)
-- [Navigating committor landscape of biomolecules with a general pairwise interaction model](http://arxiv.org/abs/2606.31832v1) (arXiv, 2026-06-30; Enzymes and function; score 17)
-- [Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.](https://pubmed.ncbi.nlm.nih.gov/42379440/) (PubMed, 2026 Jun 30; Structure generation, Sequence design, Protein language models, Enzymes and function; score 17)
-- [Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective](http://arxiv.org/abs/2606.31576v1) (arXiv, 2026-06-30; Structure generation; score 14)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; Protein language models; score 13)
+- [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026; Binders and therapeutics; score 12)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; Protein language models, Enzymes and function; score 11)
 - [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Experimental validation; score 11)
-- [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026; Binders and therapeutics; score 11)
-- [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/) (PubMed, 2026 Jul 01; Enzymes and function; score 10)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; Protein language models; score 9)
-- [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583) (biorxiv, 2026-06-29; Enzymes and function; score 8)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30; Protein language models; score 7)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics; score 7)
-- [Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.](https://pubmed.ncbi.nlm.nih.gov/42360395/) (PubMed, 2026 Jul 01; Structure generation; score 6)
 
 #### 2026-06-30
 
-- [Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/42365891/) (PubMed, 2026 Jun 28; Binders and therapeutics; score 19)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27; Enzymes and function; score 17)
-- [Effective structure-aware protein alignment via residue-level contrastive learning](https://doi.org/10.1101/2024.03.09.583681) (biorxiv, 2026-06-27; Protein language models; score 8)
-- [Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.](https://pubmed.ncbi.nlm.nih.gov/42364004/) (PubMed, 2026 Jun 27; Experimental validation; score 7)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; Binders and therapeutics; score 7)
 
 ### Archive

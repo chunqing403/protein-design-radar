@@ -15,21 +15,21 @@
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
     "cell:s0092-8674(26)00651-3": {
-      "first_seen": "2026-07-01",
-      "score": 11,
+      "first_seen": "2026-07-02",
+      "score": 12,
       "source": "Cell",
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
       "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
     },
     "doi:10.1002/pro.70667": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 11,
       "source": "PubMed",
       "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42316773/"
     },
     "doi:10.1002/pro.70689": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 7,
       "source": "PubMed",
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
@@ -43,14 +43,14 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
     },
     "doi:10.1016/j.ab.2026.116116": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 11,
       "source": "PubMed",
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
     "doi:10.1016/j.biotechadv.2026.108850": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 21,
       "source": "PubMed",
       "title": "Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.",
@@ -64,21 +64,21 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 17,
       "source": "PubMed",
       "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
     "doi:10.1016/j.jmgm.2026.109383": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 9,
       "source": "PubMed",
       "title": "PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41905267/"
     },
     "doi:10.1016/j.jmgm.2026.109401": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 20,
       "source": "PubMed",
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
@@ -99,8 +99,8 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
     },
     "doi:10.1038/s41392-026-02780-8": {
-      "first_seen": "2026-07-01",
-      "score": 20,
+      "first_seen": "2026-07-02",
+      "score": 17,
       "source": "PubMed",
       "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
@@ -148,7 +148,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
     "doi:10.1093/bioinformatics/btag476": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 7,
       "source": "PubMed",
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
@@ -169,7 +169,7 @@
       "url": "https://doi.org/10.1101/2024.10.02.616302"
     },
     "doi:10.1101/2025.09.23.676583": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 8,
       "source": "biorxiv",
       "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
@@ -190,7 +190,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
     },
     "doi:10.1177/15578666261443336": {
-      "first_seen": "2026-07-01",
+      "first_seen": "2026-07-02",
       "score": 13,
       "source": "PubMed",
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
