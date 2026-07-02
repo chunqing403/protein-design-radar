@@ -7,7 +7,7 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-02** (`2026-07-02T02:23:38Z`)
+Updated: **2026-07-02** (`2026-07-02T04:33:14Z`)
 
 ### Today's New Papers
 
@@ -29,10 +29,9 @@ Updated: **2026-07-02** (`2026-07-02T02:23:38Z`)
 | 8 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 11 |
 | 9 | [RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.](https://pubmed.ncbi.nlm.nih.gov/41687237/)<br><sub>Liu L, Jiang Y, Gu Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 10 |
 | 10 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
-| 11 | [The structural context of mutations in proteins predicts their effect on antibiotic resistance](https://doi.org/10.1101/2025.09.23.676583)<br><sub>Green, A. G., Tasmin, M., Vargas, R. et al.</sub> | biorxiv<br>2026-06-29 | Enzymes and function | 8 |
-| 12 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
-| 13 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
-| 14 | [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/)<br><sub>Chen Y, Chen Q, Su Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 6 |
+| 11 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
+| 12 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
+| 13 | [Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/42312739/)<br><sub>Chen Y, Chen Q, Su Y et al.</sub> | PubMed<br>2026 Jul 01 | Enzymes and function | 6 |
 
 ### By Topic
 

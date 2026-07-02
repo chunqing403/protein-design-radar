@@ -1,18 +1,7 @@
 # Protein Design Paper Radar - 2026-07-02
 
-Generated on 2026-07-02T02:07:16Z.
+Generated on 2026-07-02T04:33:14Z.
 
-Found 1 recommended papers.
+No new high-confidence papers were found today.
 
-## Highlights
-
-### 1. Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.
-
-- **Score:** 6 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Chen Y, Chen Q, Su Y et al.
-- **Topics:** Enzymes and function
-- **Why it matched:** enzyme design, enzyme
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42312739/
-- **DOI:** 10.1021/acs.jafc.5c13640
-
-Hydroxytyrosol (HT), a potent natural antioxidant in olive oil, has broad food and nutraceutical applications, but sustainable, scalable production remains challenging. Here, we achieved efficient de novo HT biosynthesis in Escherichia coli using glucose-glycerol dual carbon sources, combining metabolic engineering and rational enzyme design. We eliminated...
+Consider lowering `min_score` or adding broader queries in `config/topics.json`.
