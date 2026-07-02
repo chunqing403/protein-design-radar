@@ -419,6 +419,68 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
     },
+    "doi:10.1038/s41564-026-02377-5": {
+      "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
+      "authors": [
+        "Yang S",
+        "Luo X",
+        "Luo J",
+        "Jian F",
+        "Cao Y"
+      ],
+      "doi": "10.1038/s41564-026-02377-5",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "mutation",
+        "sequence"
+      ],
+      "score": 8,
+      "source": "PubMed",
+      "source_id": "42204343",
+      "title": "A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.",
+      "topics": [
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204343/"
+    },
+    "doi:10.1038/s41586-026-10641-1": {
+      "abstract": "Glioblastoma is a lethal brain tumour for which current multimodal treatment rarely prevents recurrence1. Therapeutic failure is driven by extensive intratumoural cellular heterogeneity2 with a microenvironment dominated by tumour-associated macrophages that sustain tumour growth and immunosuppression3. Although chimeric antigen receptor (CAR)-T cell therapies are being developed for glioblastoma, sustained response has been undermined by non-uniform antigen expression, antigen loss and microenvironmental barriers that are not directly engaged by tumour-targeting designs4. These limitations motivate new strategies that address the disease as a coupled tumour-immune system rather than a single malignant compartment. Here we use a multi-omic target discovery platform to identify GPNMB as a dual-compartment antigen in glioblastoma. Anti-GPNMB CAR-T cells showed potent anti-tumour activity, with long-term disease control in orthotopic patient-derived xenografts and syngeneic glioma models through concomitant depletion of GPNMB+ tumour and immunosuppressive myeloid populations. By collapsing tumour control and microenvironmental reprogramming, these findings provide a new strategy for antigen selection and targeting in heterogenous, myeloid-rich solid cancers.",
+      "authors": [
+        "Savage N",
+        "Grewal S",
+        "Shaikh MV",
+        "Zemp FJ",
+        "Mckenna D",
+        "Mikolajewicz N",
+        "Najem H",
+        "Pyczek J",
+        "Wei J",
+        "Taleb MAB",
+        "Asselstine LC",
+        "Anand A"
+      ],
+      "doi": "10.1038/s41586-026-10641-1",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "CAR-T",
+        "chimeric antigen receptor",
+        "target discovery",
+        "GPNMB"
+      ],
+      "score": 20,
+      "source": "PubMed",
+      "source_id": "42386964",
+      "title": "Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386964/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",
       "authors": [
@@ -443,6 +505,90 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
+    },
+    "doi:10.1038/s43018-026-01194-3": {
+      "abstract": "Chimeric antigen receptor (CAR) T cell therapy for solid tumors is constrained by the scarcity of safe, uniformly expressed cell-surface targets. Here we identify glycoprotein NMB (GPNMB)-an MiT/TFE-family fusion-driven protein-as being highly, homogeneously and stably expressed in primary and relapsed alveolar soft-part sarcoma (ASPS) and translocation renal cell carcinoma. We develop a GPNMB-directed CAR T cell product, GCAR1, which demonstrates potent activity against patient-matched cells, organoids and xenograft models. Post hoc interim analysis of a first-in-human open-label, individual-participant trial ( NCT07104682 ) for a participant with relapsed/refractory, metastatic ASPS showed that GCAR1 induces stable disease for up to 3 months, accompanied by resolution of many nontarget lesions (primary endpoint), and is well tolerated. GCAR1 T cells expand in peripheral blood as a polyclonal population and remain detectable for 1 month. Spatial transcriptomics identified immunosuppressive niches in a treatment-resistant lesion and immune checkpoint blockade synergized with GCAR1 in a xenograft model. Altogether, our data provide a proof of concept for treating GPNMB-expressing solid tumors with GCAR1 and more broadly targeting surface antigens driven by oncogenic gene fusions with CAR T cell therapies.",
+      "authors": [
+        "Zemp FJ",
+        "Breckenridge Z",
+        "Song H",
+        "Gill GS",
+        "Louie TL",
+        "Narta K",
+        "Liu H",
+        "Suh Y",
+        "Guignard L",
+        "Mandujano-Tinoco EA",
+        "Collao N",
+        "Pyczek J"
+      ],
+      "doi": "10.1038/s43018-026-01194-3",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "CAR T",
+        "chimeric antigen receptor",
+        "cell therapy",
+        "GPNMB",
+        "protein"
+      ],
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "42387022",
+      "title": "GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42387022/"
+    },
+    "doi:10.1038/s43018-026-01201-7": {
+      "abstract": "",
+      "authors": [
+        "Mount CW",
+        "Maus MV"
+      ],
+      "doi": "10.1038/s43018-026-01201-7",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "CAR-T",
+        "GPNMB"
+      ],
+      "score": 10,
+      "source": "PubMed",
+      "source_id": "42387023",
+      "title": "GPNMB-directed CAR-T cell therapies for solid tumors.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42387023/"
+    },
+    "doi:10.1080/07388551.2026.2680416": {
+      "abstract": "Harnessing biomass for bio-based industrial biotechnology is vital for addressing global energy needs and mitigating climate change. In this context, microorganisms are the cornerstone of biorefineries based on renewable materials, with applications in bioenergy, agriculture, biomedicine, and other sectors. By engineering metabolic pathways, microorganisms can be tailored to improve yields, tolerate industrial conditions, and selectively produce valuable compounds. Through advances in metabolic engineering and synthetic biology, engineered strains of the yeast Saccharomyces cerevisiae have been successfully developed to efficiently convert the pentose sugars D-xylose and L-arabinose. Despite this important breakthrough, the efficient transport of these sugars remains a major limitation. Sugar sensing and transport in yeast are regulated at both transcriptional and post-translational levels. D-xylose is not recognized as a fermentable carbon source, leading to downregulation of transporter expression, removal from the cytoplasmic membrane, and degradation via ubiquitination in the absence of extracellular glucose. Additionally, transporters exhibit lower affinity for C5 sugars compared to D-glucose, resulting in strong D-glucose repression. To address these challenges, cutting-edge strategies have been successfully employed, including rational protein engineering, directed evolution, and machine learning approaches, to expand the repertoire of C5 transporters available for engineering in S. cerevisiae. Specific D-xylose transporters have been redesigned, with key residues identified to reduce D-glucose affinity, while studies have demonstrated improvements in transporter stability and sugar uptake rates. This review summarizes the key bottlenecks in C5 sugar transport and highlights the major advances and progress made toward creating robust microbial platforms capable of sustainable and efficient bio-based production. This review highlights the progress in understanding and engineering sugar transport systems in Saccharomyces cerevisiae, focusing on transporters for C5 sugars derived from lignocellulosic biomass. It outlines the progression from discovering the first C5 sugar transporters to developing advanced, specialized transporters that improve sugar uptake and utilization. By integrating historical insights with modern strategies, this review showcases how this progress drives the development of yeast platforms optimized for efficient bio-renewable compound production, paving the way for a more sustainable bioeconomy and addressing critical global energy and environmental challenges.",
+      "authors": [
+        "Bueno JGR",
+        "Fier Í",
+        "Kell DB",
+        "Santos LVD"
+      ],
+      "doi": "10.1080/07388551.2026.2680416",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein engineering",
+        "directed evolution",
+        "stability",
+        "protein"
+      ],
+      "score": 14,
+      "source": "PubMed",
+      "source_id": "42386498",
+      "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
     "doi:10.1093/bioinformatics/btag476": {
       "abstract": "Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framework for modeling residue matches and gaps. OTalign formulates sequence alignment as an entropy-regularized unbalanced optimal transport (UOT) problem over embeddings derived from protein language models (PLMs). Unlike traditional methods, it introduces position-specific gap penalties that adapt to each sequence pair. On challenging remote-homolog benchmarks (SABmark, MALIDUP, MALISAM), OTalign consistently outperforms baselines (Needleman-Wunsch, HHalign) and recent PLM-based methods (PLMAlign, DeepBLAST), achieving F1 scores of 0.594 on SABmark Superfamily and 0.358 on SABmark Twilight. Furthermore, OTalign provides a quantitative and interpretable metric of how effectively PLM embeddings represent sequence similarity relationships. Finally, its differentiable nature enables end-to-end fine-tuning of PLMs, establishing a framework for learning embeddings explicitly optimized for alignment tasks. This code is available at https://github.com/DeepFoldProtein/OTalign. Supplementary data are available at Bioinformatics online.",
@@ -557,6 +703,30 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1101/cshperspect.a041754": {
+      "abstract": "Cell migration is a fundamental biological process central to a number of physiological and pathophysiological events. Traditional genetic and pharmacological approaches have identified crucial molecular regulators of migration, yet they often lack the spatial and temporal resolution required to interrogate the highly dynamic signaling events that govern cell locomotion. Chemogenetic and optogenetic platforms-genetically encoded inducible systems activated by chemical or light stimuli, respectively-have emerged as powerful tools for achieving precise, on-demand control over protein function in living cells. These systems enable researchers to dissect molecular signaling pathways in real time and with subcellular precision, even as cells are actively migrating. Together with advances in de novo protein design, biosensors, and live-cell imaging, inducible molecular tools are transforming our ability to manipulate and elucidate the intricate mechanisms underlying cell motility. Looking forward, the application of these technologies in animal models will be crucial for gaining deeper physiological and pathophysiological insights.",
+      "authors": [
+        "Deb Roy A",
+        "Rho E",
+        "Inoue T"
+      ],
+      "doi": "10.1101/cshperspect.a041754",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "protein"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "41558817",
+      "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
     },
     "doi:10.1111/1750-3841.71222": {
       "abstract": "Acerola is a nutrient-rich but highly perishable fruit that requires processing to preserve its nutritional quality. Foam mat drying is an effective method for retaining nutrients in liquid and semisolid foods, provided that suitable foaming agents are selected. The use of plant-based foaming agents represents a promising solution to meet the demands of vegan and vegetarian consumers. Therefore, this study proposed to evaluate the influence of different plant-based foaming agents and drying temperatures on the quality of acerola pulp powder. Acerola pulp was dried at 60°C and 70°C using soy protein isolate (SPI), concentrate of pea protein (CPP), distilled monoglycerides (Dimodan), and lactic acid esters (Lactem), and the effects on drying kinetics, nutrient retention, and color were investigated. Process parameters affected drying rates and were associated with the powder's nutritional characteristics. The diffusion model did not provide a satisfactory fit to represent the drying kinetics, suggesting anomalous diffusivity. The Page model demonstrated a precise fit and was associated with anomalous diffusion, with its exponent unequivocally indicating super-diffusive behavior. Drying at 70°C favored vitamin C retention due to faster moisture removal, whereas 60°C better preserved phenolic compounds and carotenoids. SPI, in combination with fatty acid ester-based agents, further enhanced vitamin C retention. Notably, all powders exhibited exceptionally high vitamin C content, exceeding 10 g per 100 g. These results underscore the potential of plant-based foaming agents for producing nutritionally rich acerola powder through foam mat drying, a simple and readily applicable process for developing plant-based food products. PRACTICAL APPLICATIONS: This study addresses a simple, cost-effective, and scalable process suitable for both small- and large-scale production of acerola powder, an appealing ingredient for fortifying foods and beverages. The proposed process preserves nutritional compounds and demonstrates the viability of using plant-based proteins as natural foaming agents, either alone or in combination with plant-based fatty acid-derived emulsifiers.",

@@ -105,12 +105,47 @@
       "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
     },
+    "doi:10.1038/s41564-026-02377-5": {
+      "first_seen": "2026-07-02",
+      "score": 8,
+      "source": "PubMed",
+      "title": "A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204343/"
+    },
+    "doi:10.1038/s41586-026-10641-1": {
+      "first_seen": "2026-07-02",
+      "score": 20,
+      "source": "PubMed",
+      "title": "Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386964/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
       "score": 7,
       "source": "PubMed",
       "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
+    },
+    "doi:10.1038/s43018-026-01194-3": {
+      "first_seen": "2026-07-02",
+      "score": 21,
+      "source": "PubMed",
+      "title": "GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42387022/"
+    },
+    "doi:10.1038/s43018-026-01201-7": {
+      "first_seen": "2026-07-02",
+      "score": 10,
+      "source": "PubMed",
+      "title": "GPNMB-directed CAR-T cell therapies for solid tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42387023/"
+    },
+    "doi:10.1080/07388551.2026.2680416": {
+      "first_seen": "2026-07-02",
+      "score": 14,
+      "source": "PubMed",
+      "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
     "doi:10.1093/bioinformatics/btag476": {
       "first_seen": "2026-07-01",
@@ -139,6 +174,13 @@
       "source": "biorxiv",
       "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
       "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1101/cshperspect.a041754": {
+      "first_seen": "2026-07-02",
+      "score": 11,
+      "source": "PubMed",
+      "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
     },
     "doi:10.1111/1750-3841.71222": {
       "first_seen": "2026-07-01",
