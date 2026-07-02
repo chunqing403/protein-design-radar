@@ -91,6 +91,13 @@
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
     },
+    "doi:10.1021/acs.jafc.5c13640": {
+      "first_seen": "2026-07-02",
+      "score": 6,
+      "source": "PubMed",
+      "title": "Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
+    },
     "doi:10.1038/s41392-026-02780-8": {
       "first_seen": "2026-07-01",
       "score": 20,

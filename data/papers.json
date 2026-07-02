@@ -360,6 +360,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
     },
+    "doi:10.1021/acs.jafc.5c13640": {
+      "abstract": "Hydroxytyrosol (HT), a potent natural antioxidant in olive oil, has broad food and nutraceutical applications, but sustainable, scalable production remains challenging. Here, we achieved efficient de novo HT biosynthesis in Escherichia coli using glucose-glycerol dual carbon sources, combining metabolic engineering and rational enzyme design. We eliminated feedback inhibition, deleted competing pathways, and rationally mutated the rate-limiting enzyme HpaBC (S462A/M293Y), which enhanced catalytic efficiency by improving substrate entry, oxygen availability, and shortening reaction distance, as revealed by molecular dynamics simulations. Global cofactor optimization boosted HT titer to 4.90 g/L in shake flasks. Under optimized dissolved oxygen in a 5 L bioreactor, HT production reached 13.25 g/L, the highest reported titer in E. coli to date, providing a robust strategy for sustainable HT biomanufacturing.",
+      "authors": [
+        "Chen Y",
+        "Chen Q",
+        "Su Y",
+        "Zeng W",
+        "Dong Z",
+        "Li J",
+        "Zhou J"
+      ],
+      "doi": "10.1021/acs.jafc.5c13640",
+      "first_seen": "2026-07-02",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "enzyme design",
+        "enzyme"
+      ],
+      "score": 6,
+      "source": "PubMed",
+      "source_id": "42312739",
+      "title": "Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
+    },
     "doi:10.1038/s41392-026-02780-8": {
       "abstract": "The increasing global burden of cancer necessitates innovative therapeutic strategies. Cell therapy represents a major breakthrough in oncology, evolving rapidly from the successful application of chimeric antigen receptor T (CAR-T) cells in hematologic malignancies to a multiplatform landscape characterized by the concurrent development of diverse strategies. Current research focuses on T cell receptor-engineered T (TCR-T) cells, tumor-infiltrating lymphocytes (TILs), gamma delta (γδ) T cells, CAR-natural killer (CAR-NK) cells, CAR-macrophages (CAR-Ms), and various strategies based on dendritic cells (DCs), B cells, and stem cells. The translational paradigm is expanding from the relatively mature field of hematologic malignancies to the more prevalent and mechanistically complex domain of solid tumors. In recent years, this field has exhibited a clear trend toward expansion from autologous therapies to allogeneic \"off-the-shelf\" platforms. Approaches such as CAR-NK and CAR-natural killer T (CAR-NKT) cell therapies exhibit significant clinical potential because of their low immunogenicity and reduced risk of graft-versus-host disease (GvHD). Concurrently, in vivo engineering technologies that directly deliver CAR genes in situ are emerging as promising approaches to lower costs and simplify manufacturing by bypassing complex ex vivo procedures. This review systematically outlines recent advances in these strategies, focusing on their mechanisms of action, target antigens, and clinical translation. Despite progress, formidable challenges remain, including tumor heterogeneity, the immunosuppressive tumor microenvironment (TME), and therapy-related toxicity. To address these challenges, future research will focus on novel target discovery, enhanced toxicity management, and scalable manufacturing processes. The integration of multidisciplinary technologies, such as multiomics analysis, artificial intelligence, and synthetic biology, will advance cell therapies toward safer, more effective, and widely accessible applications.",
       "authors": [
