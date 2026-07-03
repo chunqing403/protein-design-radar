@@ -1,29 +1,7 @@
 # Protein Design Paper Radar - 2026-07-03
 
-Generated on 2026-07-03T01:30:26Z.
+Generated on 2026-07-03T04:12:46Z.
 
-Found 2 recommended papers.
+No new high-confidence papers were found today.
 
-## Highlights
-
-### 1. Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.
-
-- **Score:** 13 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 02
-- **Authors:** Guan J, Jiang Q, He X et al.
-- **Topics:** Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation
-- **Why it matched:** protein language model, ESM, protein, peptide, sequence
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42391080/
-- **DOI:** 10.1109/JBHI.2026.3709844
-
-Cell-penetrating peptides (CPPs) are promising carriers for intracellular delivery, but large-scale experimental discovery remains costly and slow. Existing computational predictors often rely on handcrafted sequence descriptors and lack biophysical grounding and interpretability. In this study, we present DeepCPP, a dual-branch frame work that integrates a...
-
-### 2. PEPE: scalable extraction of multi-modal protein language model representations.
-
-- **Score:** 6 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 01
-- **Authors:** Zhong J, Cardente N, Sandve GK et al.
-- **Topics:** Protein language models
-- **Why it matched:** protein language model, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42286792/
-- **DOI:** 10.1093/bioinformatics/btag375
-
-Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for...
+Consider lowering `min_score` or adding broader queries in `config/topics.json`.
