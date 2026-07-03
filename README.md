@@ -7,32 +7,35 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-02** (`2026-07-02T07:19:57Z`)
+Updated: **2026-07-03** (`2026-07-03T01:30:26Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
+| 1 | [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/)<br><sub>Guan J, Jiang Q, He X et al.</sub> | PubMed<br>2026 Jul 02 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation | 13 |
+| 2 | [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/)<br><sub>Zhong J, Cardente N, Sandve GK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 6 |
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
 | 1 | [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/)<br><sub>Chen J, Jiang Y, Gong K et al.</sub> | PubMed<br>2026 Jul 01 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 20 |
-| 2 | [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/)<br><sub>Stakauskas B, MarcinkeviČius V</sub> | PubMed<br>2026 Jul 01 | Protein language models | 13 |
-| 3 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
-| 4 | [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/)<br><sub>Huang D, Lv J, Yao X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Enzymes and function | 11 |
-| 5 | [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/)<br><sub>Liu J, Wu Q, Tao W et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Experimental validation | 11 |
-| 6 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
-| 7 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
-| 8 | [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/)<br><sub>Kim M, Bae H, Jo G et al.</sub> | PubMed<br>2026 Jun 30 | Protein language models | 7 |
+| 2 | [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/)<br><sub>Guan J, Jiang Q, He X et al.</sub> | PubMed<br>2026 Jul 02 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation | 13 |
+| 3 | [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/)<br><sub>Stakauskas B, MarcinkeviČius V</sub> | PubMed<br>2026 Jul 01 | Protein language models | 13 |
+| 4 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
+| 5 | [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/)<br><sub>Huang D, Lv J, Yao X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Enzymes and function | 11 |
+| 6 | [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/)<br><sub>Liu J, Wu Q, Tao W et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Experimental validation | 11 |
+| 7 | [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/)<br><sub>Liu T, Xia Y, Sun X et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 9 |
+| 8 | [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/)<br><sub>Yang S, Luo X, Luo J et al.</sub> | PubMed<br>2026 Jul 01 | Sequence design, Protein language models | 8 |
 | 9 | [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/)<br><sub>Rathore AS, Jain S, Mehta NK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models, Binders and therapeutics | 7 |
+| 10 | [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/)<br><sub>Zhong J, Cardente N, Sandve GK et al.</sub> | PubMed<br>2026 Jul 01 | Protein language models | 6 |
 
 ### By Topic
 
 #### Binders and therapeutics
 
+- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
 - [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026)
@@ -40,16 +43,20 @@ Updated: **2026-07-02** (`2026-07-02T07:19:57Z`)
 
 #### Enzymes and function
 
+- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27)
 
 #### Experimental validation
 
+- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 - [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
 
 #### Protein language models
 
+- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
+- [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/) (PubMed, 2026 Jul 01)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
@@ -68,6 +75,11 @@ Updated: **2026-07-02** (`2026-07-02T07:19:57Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 
 ### All Recommended Papers
+
+#### 2026-07-03
+
+- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation; score 13)
+- [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/) (PubMed, 2026 Jul 01; Protein language models; score 6)
 
 #### 2026-07-02
 
@@ -91,7 +103,7 @@ Updated: **2026-07-02** (`2026-07-02T07:19:57Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-02](outputs/daily/2026-07-02.md)
+- [Daily report for 2026-07-03](outputs/daily/2026-07-03.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

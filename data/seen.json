@@ -147,6 +147,13 @@
       "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
+    "doi:10.1093/bioinformatics/btag375": {
+      "first_seen": "2026-07-03",
+      "score": 6,
+      "source": "PubMed",
+      "title": "PEPE: scalable extraction of multi-modal protein language model representations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286792/"
+    },
     "doi:10.1093/bioinformatics/btag476": {
       "first_seen": "2026-07-02",
       "score": 7,
@@ -181,6 +188,13 @@
       "source": "PubMed",
       "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
+    },
+    "doi:10.1109/jbhi.2026.3709844": {
+      "first_seen": "2026-07-03",
+      "score": 13,
+      "source": "PubMed",
+      "title": "Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
     },
     "doi:10.1111/1750-3841.71222": {
       "first_seen": "2026-07-01",

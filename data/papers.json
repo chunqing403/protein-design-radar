@@ -214,6 +214,32 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
     },
+    "doi:10.1093/bioinformatics/btag375": {
+      "abstract": "Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for feature extraction and downstream analyses. Large-scale embedding generation is further limited by inefficiencies in computation and memory: (i) accumulating all model outputs in memory before writing to disk causes severe bottlenecks, and (ii) repeatedly embedding identical sequences to extract different modes introduces redundant computation and drastically reduces throughput and scalability. We introduce PEPE (Parallel Extraction for Protein Embeddings), a command-line tool and Python library that enables efficient, high-throughput, and multimodal extraction from protein language models. PEPE's parallelized and streaming-based architecture achieves runtimes several orders of magnitude faster than sequential approaches. Unlike conventional methods-whose peak memory usage scales linearly with output size and fails when memory capacity is exceeded-PEPE maintains stable, low memory consumption, enabling multimodal embedding extraction even beyond available RAM. PEPE supports a wide range of state-of-the-art and custom PLMs through a simple, flexible interface. By combining scalability, robustness, and ease of use, PEPE allows researchers to generate massive, information-rich embedding datasets efficiently, and facilitate the discovery of optimal representations for structural, functional, and evolutionary downstream tasks. By streamlining the generation of diverse embedding configurations, PEPE provides researchers with the necessary data to identify high-performing latent states for specific biological contexts without requiring additional computational resources. PEPE is a command-line tool written in Python and published under MIT license. The source code and documentation are available at https://github.com/csi-greifflab/pepe-cli. PEPE is also available for installation from PyPI under https://pypi.org/project/pepe-cli and deposited on Zenodo at https://zenodo.org/records/20268104.",
+      "authors": [
+        "Zhong J",
+        "Cardente N",
+        "Sandve GK",
+        "Bashour H",
+        "Abbate MF",
+        "Greiff V"
+      ],
+      "doi": "10.1093/bioinformatics/btag375",
+      "first_seen": "2026-07-03",
+      "published": "2026 Jul 01",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "score": 6,
+      "source": "PubMed",
+      "source_id": "42286792",
+      "title": "PEPE: scalable extraction of multi-modal protein language model representations.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42286792/"
+    },
     "doi:10.1093/bioinformatics/btag476": {
       "abstract": "Protein sequence alignment is a crucial task in bioinformatics, yet aligning remote homologs with low sequence identity remains a longstanding challenge, particularly due to the difficulty of handling gaps. We introduce a new method that applies Optimal Transport (OT) theory to sequence alignment, providing a mathematically principled framework for modeling residue matches and gaps. OTalign formulates sequence alignment as an entropy-regularized unbalanced optimal transport (UOT) problem over embeddings derived from protein language models (PLMs). Unlike traditional methods, it introduces position-specific gap penalties that adapt to each sequence pair. On challenging remote-homolog benchmarks (SABmark, MALIDUP, MALISAM), OTalign consistently outperforms baselines (Needleman-Wunsch, HHalign) and recent PLM-based methods (PLMAlign, DeepBLAST), achieving F1 scores of 0.594 on SABmark Superfamily and 0.358 on SABmark Twilight. Furthermore, OTalign provides a quantitative and interpretable metric of how effectively PLM embeddings represent sequence similarity relationships. Finally, its differentiable nature enables end-to-end fine-tuning of PLMs, establishing a framework for learning embeddings explicitly optimized for alignment tasks. This code is available at https://github.com/DeepFoldProtein/OTalign. Supplementary data are available at Bioinformatics online.",
       "authors": [
@@ -272,6 +298,42 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1109/jbhi.2026.3709844": {
+      "abstract": "Cell-penetrating peptides (CPPs) are promising carriers for intracellular delivery, but large-scale experimental discovery remains costly and slow. Existing computational predictors often rely on handcrafted sequence descriptors and lack biophysical grounding and interpretability. In this study, we present DeepCPP, a dual-branch frame work that integrates a biophysically informed multi-view residue graph with ESM-2 protein language model embed dings. Specifically, the graph branch encodes local sequence context and residue-wise physicochemical similarity via global-local aggregation with top-k subgraph focusing and gated broadcast, while the ESM branch provides context-aware representations. The two views are aligned and fused by cross-attention with an HSIC-based decor relation term, and a Kolmogorov-Arnold Network (KAN) head enhances nonlinear separability. We also curate a newbenchmark from CPPsite3and adoptcluster-controlled splits to reduce leakage and enable credible generalization. Comprehensive evaluations show that DeepCPP outper forms state-of-the-art CPP and peptide-function prediction methods. Interpretability analyses highlight charge clustering and termini patterns, and reveal residue connectivity consistent with oriented amphipathicity, offering actionable guidance for rational design. Overall, DeepCPP provides an accurate, interpretable, and scalable pre-screening tool for CPP discovery.",
+      "authors": [
+        "Guan J",
+        "Jiang Q",
+        "He X",
+        "Xie P",
+        "Meng D",
+        "Zhao Z",
+        "Yu D",
+        "Cao R",
+        "Yao L",
+        "Wang J"
+      ],
+      "doi": "10.1109/JBHI.2026.3709844",
+      "first_seen": "2026-07-03",
+      "published": "2026 Jul 02",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42391080",
+      "title": "Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
     },
     "doi:10.1177/15578666261443336": {
       "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",
