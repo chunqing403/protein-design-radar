@@ -7,21 +7,18 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-04** (`2026-07-04T04:07:23Z`)
+Updated: **2026-07-05** (`2026-07-05T04:34:11Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/)<br><sub>Airas J, Zhang B</sub> | PubMed<br>2026 Jul 03 | Protein language models | 12 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/)<br><sub>Guan J, Jiang Q, He X et al.</sub> | PubMed<br>2026 Jul 02 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation | 13 |
-| 2 | [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/)<br><sub>Airas J, Zhang B</sub> | PubMed<br>2026 Jul 03 | Protein language models | 12 |
-| 3 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
+| 1 | [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/)<br><sub>Airas J, Zhang B</sub> | PubMed<br>2026 Jul 03 | Protein language models | 12 |
+| 2 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
 
 ### By Topic
 
@@ -100,7 +97,7 @@ Updated: **2026-07-04** (`2026-07-04T04:07:23Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-04](outputs/daily/2026-07-04.md)
+- [Daily report for 2026-07-05](outputs/daily/2026-07-05.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
