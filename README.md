@@ -7,22 +7,24 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-06** (`2026-07-06T01:09:55Z`)
+Updated: **2026-07-06** (`2026-07-06T01:36:37Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 11 |
-| 2 | [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993)<br><sub>Wang, S., Hartmaring, Y., Schlaffner, C. N. et al.</sub> | biorxiv<br>2026-07-04 | Binders and therapeutics | 7 |
+| 1 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 16 |
+| 2 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
+| 3 | [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993)<br><sub>Wang, S., Hartmaring, Y., Schlaffner, C. N. et al.</sub> | biorxiv<br>2026-07-04 | Binders and therapeutics | 12 |
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
-| 2 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 11 |
-| 3 | [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993)<br><sub>Wang, S., Hartmaring, Y., Schlaffner, C. N. et al.</sub> | biorxiv<br>2026-07-04 | Binders and therapeutics | 7 |
+| 1 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 16 |
+| 2 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
+| 3 | [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/)<br><sub>Airas J, Zhang B</sub> | PubMed<br>2026 Jul 03 | Protein language models | 12 |
+| 4 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
 
 ### By Topic
 
@@ -58,11 +60,11 @@ Updated: **2026-07-06** (`2026-07-06T01:09:55Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
 - [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
-- [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01)
+- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
+- [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01)
 
 #### Sequence design
 
@@ -70,14 +72,16 @@ Updated: **2026-07-06** (`2026-07-06T01:09:55Z`)
 
 #### Structure generation
 
+- [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817) (Science, 2026-07-02)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 
 ### All Recommended Papers
 
 #### 2026-07-06
 
-- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05; Protein language models, Binders and therapeutics, Enzymes and function; score 11)
-- [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993) (biorxiv, 2026-07-04; Binders and therapeutics; score 7)
+- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05; Protein language models, Binders and therapeutics, Enzymes and function; score 16)
+- [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817) (Science, 2026-07-02; Structure generation; score 15)
+- [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993) (biorxiv, 2026-07-04; Binders and therapeutics; score 12)
 
 #### 2026-07-04
 
@@ -95,13 +99,13 @@ Updated: **2026-07-06** (`2026-07-06T01:09:55Z`)
 #### 2026-07-01
 
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
+- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; Protein language models, Enzymes and function; score 16)
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Experimental validation; score 16)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; Protein language models; score 13)
+- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics; score 12)
 - [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026; Binders and therapeutics; score 12)
-- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; Protein language models, Enzymes and function; score 11)
-- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Experimental validation; score 11)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; Protein language models; score 9)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30; Protein language models; score 7)
-- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics; score 7)
 
 #### 2026-06-30
 

@@ -138,6 +138,9 @@
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy."
     }
   ],
+  "watchlist_dois": [
+    "10.1126/science.adr3817"
+  ],
   "queries": [
     "\"protein design\" deep learning",
     "\"protein engineering\" machine learning",
@@ -160,6 +163,7 @@
       "inverse folding",
       "protein engineering",
       "protein language model",
+      "deep learning",
       "structure prediction",
       "diffusion model",
       "flow matching",

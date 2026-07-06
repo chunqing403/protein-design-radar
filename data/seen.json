@@ -15,7 +15,7 @@
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
     "cell:s0092-8674(26)00651-3": {
-      "first_seen": "2026-07-02",
+      "first_seen": "2026-07-06",
       "score": 12,
       "source": "Cell",
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
@@ -100,13 +100,13 @@
     },
     "doi:10.1021/acs.jcim.6c00806": {
       "first_seen": "2026-07-06",
-      "score": 11,
+      "score": 16,
       "source": "PubMed",
       "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42402023/"
     },
     "doi:10.1021/acs.jctc.6c00574": {
-      "first_seen": "2026-07-04",
+      "first_seen": "2026-07-06",
       "score": 12,
       "source": "PubMed",
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
@@ -216,6 +216,13 @@
       "source": "PubMed",
       "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
+    },
+    "doi:10.1126/science.adr3817": {
+      "first_seen": "2026-07-06",
+      "score": 15,
+      "source": "Science",
+      "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
+      "url": "https://www.science.org/doi/10.1126/science.adr3817"
     },
     "doi:10.1177/15578666261443336": {
       "first_seen": "2026-07-02",

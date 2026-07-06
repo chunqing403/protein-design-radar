@@ -64,6 +64,7 @@ def normalize_text(value: str) -> str:
 
 def clean_text(value: str) -> str:
     value = html.unescape(value or "")
+    value = re.sub(r"<[^>]+>", " ", value)
     value = re.sub(r"\s+", " ", value)
     return value.strip()
 
@@ -91,7 +92,7 @@ def save_json(path: Path, payload) -> None:
         fh.write("\n")
 
 
-def request_text(url: str, timeout: int = 30, retries: int = 2) -> str:
+def request_text(url: str, timeout: int = 20, retries: int = 1) -> str:
     headers = {
         "User-Agent": "protein-design-paper-radar/0.1 (+https://github.com/)",
         "Accept": "application/json, application/xml, text/xml, */*",
@@ -419,6 +420,59 @@ def watchlist_query(articles: list[dict]) -> list[Paper]:
     return papers
 
 
+def crossref_date(message: dict) -> str:
+    for field in ("published-print", "published-online", "published", "issued", "created"):
+        parts = message.get(field, {}).get("date-parts", [])
+        if parts and parts[0]:
+            date_parts = [str(part).zfill(2) for part in parts[0]]
+            return "-".join(date_parts)
+    return ""
+
+
+def crossref_doi_query(dois: list[str]) -> list[Paper]:
+    papers: list[Paper] = []
+    for raw_doi in dois:
+        doi = clean_text(raw_doi)
+        if not doi:
+            continue
+        url = "https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="")
+        text = request_text(url)
+        if not text:
+            continue
+        try:
+            payload = json.loads(text)
+        except json.JSONDecodeError:
+            continue
+        if payload.get("status") != "ok":
+            print(f"warning: Crossref lookup failed for {doi}", file=sys.stderr)
+            continue
+        message = payload.get("message", {})
+        title = clean_text(" ".join(message.get("title", [])))
+        if not title:
+            continue
+        container = clean_text(" ".join(message.get("short-container-title", [])))
+        if not container:
+            container = clean_text(" ".join(message.get("container-title", []))) or "Crossref"
+        authors = []
+        for author in message.get("author", [])[:12]:
+            name = clean_text(" ".join(part for part in [author.get("given", ""), author.get("family", "")] if part))
+            if name:
+                authors.append(name)
+        papers.append(
+            Paper(
+                title=title,
+                authors=authors,
+                abstract=clean_text(message.get("abstract", "")),
+                source=container,
+                published=crossref_date(message),
+                url=clean_text(message.get("resource", {}).get("primary", {}).get("URL", "")) or clean_text(message.get("URL", "")),
+                doi=clean_text(message.get("DOI", doi)),
+                source_id=clean_text(message.get("DOI", doi)),
+            )
+        )
+    return papers
+
+
 def score_paper(paper: Paper, config: dict) -> Paper:
     haystack = normalize_text(f"{paper.title} {paper.abstract}")
     title_haystack = normalize_text(paper.title)
@@ -436,7 +490,13 @@ def score_paper(paper: Paper, config: dict) -> Paper:
         normalize_text(article.get("url", ""))
         for article in config.get("watchlist_articles", [])
     }
-    is_watchlist = normalize_text(paper.source_id) in watchlist_ids or normalize_text(paper.url) in watchlist_urls
+    watchlist_dois = {normalize_text(doi) for doi in config.get("watchlist_dois", [])}
+    is_watchlist = (
+        normalize_text(paper.source_id) in watchlist_ids
+        or normalize_text(paper.url) in watchlist_urls
+        or normalize_text(paper.doi) in watchlist_dois
+        or normalize_text(paper.source_id) in watchlist_dois
+    )
     ai_terms = config.get("ai_required_keywords", [])
     if ai_terms and not is_watchlist and not any(contains_term(haystack, term) for term in ai_terms):
         paper.score = -998
@@ -757,6 +817,7 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
     if config.get("journal_feeds_enabled", False):
         papers.extend(journal_feed_query(config.get("journal_feeds", []), max_results))
     papers.extend(watchlist_query(config.get("watchlist_articles", [])))
+    papers.extend(crossref_doi_query(config.get("watchlist_dois", [])))
     return [score_paper(p, config) for p in dedupe(papers)]
 
 

@@ -34,12 +34,13 @@
       "published": "2026 Jul 01",
       "reasons": [
         "protein language model",
+        "deep learning",
         "transformer",
         "protein",
         "sequence",
         "structure"
       ],
-      "score": 11,
+      "score": 16,
       "source": "PubMed",
       "source_id": "42316773",
       "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
@@ -62,10 +63,11 @@
       "published": "2026 Jul 01",
       "reasons": [
         "protein language model",
+        "deep learning",
         "protein",
         "sequence"
       ],
-      "score": 7,
+      "score": 12,
       "source": "PubMed",
       "source_id": "42321971",
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
@@ -90,10 +92,11 @@
       "published": "2026 Jul 01",
       "reasons": [
         "protein language model",
+        "deep learning",
         "ESM",
         "protein"
       ],
-      "score": 11,
+      "score": 16,
       "source": "PubMed",
       "source_id": "41865419",
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
@@ -174,12 +177,13 @@
       "published": "2026 Jul 05",
       "reasons": [
         "protein language model",
+        "deep learning",
         "transformer",
         "protein",
         "sequence",
         "structure"
       ],
-      "score": 11,
+      "score": 16,
       "source": "PubMed",
       "source_id": "42402023",
       "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
@@ -388,6 +392,42 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
     },
+    "doi:10.1126/science.adr3817": {
+      "abstract": "Developing therapies and vaccines against integral membrane proteins is hindered by their extensive hydrophobic surfaces, which complicate production and structural analysis. Here, we describe a general deep learning–based design approach for solubilizing native membrane proteins while preserving their sequence, fold, active-site, and ligand-binding properties. Genetically encoded de novo protein WRAPs [water-soluble RFdiffused amphipathic proteins] surround the lipid-interacting hydrophobic surfaces, rendering them thermostable and water-soluble without the need for detergents. We design WRAPs for both monomeric and oligomeric beta-barrel outer membrane proteins and helical multipass transmembrane proteins. A 2.95-angstrom-resolution cryo–electron microscopy structure of WRAPed mycobacterial porin demonstrates that WRAPs can be used for the structural determination of membrane proteins in solution. As a step toward syphilis vaccine development, we generated soluble versions of Treponema pallidum antigens.",
+      "authors": [
+        "Ljubica Mihaljević",
+        "David E. Kim",
+        "Pooja D. Bandawane",
+        "Helen E. Eisenach",
+        "Andrew J. Borst",
+        "Alexis Courbet",
+        "Connor Weidle",
+        "Kenneth D. Carr",
+        "Everton Bettin",
+        "Qiushi Liu",
+        "Aldo T. Trejos",
+        "Sagardip Majumder"
+      ],
+      "doi": "10.1126/science.adr3817",
+      "first_seen": "2026-07-06",
+      "published": "2026-07-02",
+      "reasons": [
+        "de novo protein",
+        "deep learning",
+        "protein",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "score": 15,
+      "source": "Science",
+      "source_id": "10.1126/science.adr3817",
+      "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://www.science.org/doi/10.1126/science.adr3817"
+    },
     "doi:10.1177/15578666261443336": {
       "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",
       "authors": [
@@ -431,11 +471,12 @@
       "first_seen": "2026-07-06",
       "published": "2026-07-04",
       "reasons": [
+        "deep learning",
         "AI-driven",
         "protein",
         "peptide"
       ],
-      "score": 7,
+      "score": 12,
       "source": "biorxiv",
       "source_id": "10.64898/2026.07.01.733993",
       "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
