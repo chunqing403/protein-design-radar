@@ -161,6 +161,35 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
+    "doi:10.1021/acs.jcim.6c00806": {
+      "abstract": "Hormones regulate many essential biological processes by interacting with specific receptors that control gene expression, metabolism, growth, and immune function. Because numerous therapeutic compounds can influence or disrupt hormone signaling pathways, understanding drug-hormone receptor interactions (DHRI) is crucial for ensuring both therapeutic efficacy and endocrine safety. However, computational approaches for predicting DHRI remain limited, and most existing models do not explicitly incorporate hormone receptor-specific information. In this study, we propose a receptor-aware deep learning framework for DHRI prediction that integrates structural drug features with contextually embedded hormone receptor information. Drug molecules are represented using a hybrid encoding strategy that combines Morgan fingerprints and graph transformer-based molecular features to capture both global chemical properties and local structural information, while hormone receptor sequences are encoded using the pretrained ESM2 protein language model to obtain biologically meaningful sequence representations. The fused drug-hormone receptor features are then processed through a multilayer neural network to predict interaction probabilities. Model performance was evaluated using three splitting strategies, including random split, cold-drug split, and scaffold-based split, to assess both predictive accuracy and generalization ability. Under the random split setting, the model achieved an accuracy of 0.93, sensitivity of 0.94, specificity and precision of 0.92, F1-score of 0.93, and MCC of 0.86 on an independent data set, while also maintaining comparable performance under the more stringent cold-drug and scaffold-based settings. Feature importance analysis showed that atomic identity, hybridization, atom degree, and bond type were key shared determinants, while receptor-stratified results revealed receptor-dependent contributions from secondary features such as aromaticity, chirality, etc. In addition, t-SNE visualization showed clear class separation after training, and molecular docking across estrogen, androgen, and glucocorticoid receptors further supported the biological relevance of the predictions. Together, these findings demonstrate that incorporating hormone receptor-specific sequence information enables more reliable and biologically meaningful prediction of drug-hormone receptor interactions.",
+      "authors": [
+        "Zahid H",
+        "Maryam",
+        "Chong KT",
+        "Tayara H"
+      ],
+      "doi": "10.1021/acs.jcim.6c00806",
+      "first_seen": "2026-07-06",
+      "published": "2026 Jul 05",
+      "reasons": [
+        "protein language model",
+        "transformer",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "42402023",
+      "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42402023/"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",
       "authors": [
@@ -383,6 +412,37 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.64898/2026.07.01.733993": {
+      "abstract": "Lysine and arginine methylation regulate chromatin dynamics, transcription, and cellular signaling, however confident mass spectrometry (MS)-based detection and localization of this modification remain challenging. We reanalyzed eight public human methylation-enriched datasets using an open and standardized workflow that integrates database searching via the Trans-Proteomic Pipeline with a decoy-based statistical method for the independent estimation of false localization rates (FLR). This yielded a high-confidence Human Methylation Atlas of 1,828 sites (57 methyl-lysine, 1,771 methyl-arginine) across 1,021 proteins, classified into Gold, Silver, and Bronze confidence tiers. This is far fewer sites than reported in previous studies, reflecting the application of stringent FLR control, and what we hypothesise is potential high-false discovery in previous analyses. We then leveraged this resource to adapt a deep learning-based methodology for the improved detection of methylated peptides. Three mouse methylation-enriched datasets were reanalysed to augment training and the phosphoproteomics-trained AHLF (ad hoc learning of peptide fragmentation) model was fine-tuned by transfer learning to create AHLF-Methylation. The model achieved mean ROC-AUC values of 0.824 on human spectra, and 0.829 on combined human-mouse spectra. The atlas is available through PTMeXchange and PRIDE, with curated site evidence integrated into UniProt and PeptideAtlas",
+      "authors": [
+        "Wang, S.",
+        "Hartmaring, Y.",
+        "Schlaffner, C. N.",
+        "Bowler-Barnett, E.",
+        "Martin, M.",
+        "Fan, J.",
+        "Sun, Z.",
+        "Renard, B. Y.",
+        "Jones, A. R.",
+        "Vizcaino, J. A. R."
+      ],
+      "doi": "10.64898/2026.07.01.733993",
+      "first_seen": "2026-07-06",
+      "published": "2026-07-04",
+      "reasons": [
+        "AI-driven",
+        "protein",
+        "peptide"
+      ],
+      "score": 7,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.07.01.733993",
+      "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.01.733993"
     }
   }
 }
