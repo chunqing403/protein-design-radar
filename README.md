@@ -7,7 +7,7 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-06** (`2026-07-06T01:36:37Z`)
+Updated: **2026-07-06** (`2026-07-06T04:45:00Z`)
 
 ### Today's New Papers
 
@@ -23,7 +23,7 @@ Updated: **2026-07-06** (`2026-07-06T01:36:37Z`)
 |---|---|---|---|---:|
 | 1 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 16 |
 | 2 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
-| 3 | [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/)<br><sub>Airas J, Zhang B</sub> | PubMed<br>2026 Jul 03 | Protein language models | 12 |
+| 3 | [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993)<br><sub>Wang, S., Hartmaring, Y., Schlaffner, C. N. et al.</sub> | biorxiv<br>2026-07-04 | Binders and therapeutics | 12 |
 | 4 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
 
 ### By Topic
