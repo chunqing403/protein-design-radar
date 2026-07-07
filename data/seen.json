@@ -175,6 +175,13 @@
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
     },
+    "doi:10.1093/protein/gzag016": {
+      "first_seen": "2026-07-07",
+      "score": 30,
+      "source": "PubMed",
+      "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
+    },
     "doi:10.1101/2024.03.09.583681": {
       "first_seen": "2026-06-30",
       "score": 8,

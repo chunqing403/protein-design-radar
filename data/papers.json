@@ -324,6 +324,38 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
     },
+    "doi:10.1093/protein/gzag016": {
+      "abstract": "Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness of two different computational methods as triaging tools for prioritizing target positions and identifying specific mutations that are likely to improve protein thermodynamic stability. Our benchmarking study used a comprehensive dataset consisting of 174,945 mutations across 180 distinct proteins and evaluated the ESM (Evolutionary Scale Modeling) protein language model alongside a physics-based method, MM/GBSA (Molecular Mechanics Generalized Born Surface Area). We found prediction biases in each method but also determined that these biases can be mitigated by applying the two methods in a complementary manner. We propose a hybrid mutation prioritization and selection strategy that achieves better accuracy than either method alone. Through re-ranking, the combined prioritization strategy attained a higher overall average ROC (receiver operating characteristic) AUC (area under curve) of 0.743 across the dataset compared to either MM/GBSA alone (0.685) or ESM Log Odds alone (0.597). The integrated framework can be adapted and applied to newer AI and physics-based models as the field advances.",
+      "authors": [
+        "Rhodes ER",
+        "Scarabelli G",
+        "Jou J",
+        "Byerly J",
+        "Sprenger KG",
+        "Oloo EO"
+      ],
+      "doi": "10.1093/protein/gzag016",
+      "first_seen": "2026-07-07",
+      "published": "2026 Jul 06",
+      "reasons": [
+        "protein design",
+        "protein engineering",
+        "protein language model",
+        "directed evolution",
+        "ESM",
+        "stability"
+      ],
+      "score": 30,
+      "source": "PubMed",
+      "source_id": "42405694",
+      "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
+    },
     "doi:10.1101/2024.10.02.616302": {
       "abstract": "From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
       "authors": [
