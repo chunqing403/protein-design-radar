@@ -1,18 +1,7 @@
 # Protein Design Paper Radar - 2026-07-07
 
-Generated on 2026-07-07T03:27:29Z.
+Generated on 2026-07-07T04:19:07Z.
 
-Found 1 recommended papers.
+No new high-confidence papers were found today.
 
-## Highlights
-
-### 1. Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.
-
-- **Score:** 30 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 06
-- **Authors:** Rhodes ER, Scarabelli G, Jou J et al.
-- **Topics:** Sequence design, Protein language models, Experimental validation
-- **Why it matched:** protein design, protein engineering, protein language model, directed evolution, ESM, stability
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42405694/
-- **DOI:** 10.1093/protein/gzag016
-
-Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness of...
+Consider lowering `min_score` or adding broader queries in `config/topics.json`.
