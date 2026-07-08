@@ -106,6 +106,40 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.jmb.2026.169939": {
+      "abstract": "RNA-binding proteins (RBPs) are pivotal regulators of gene expression, and their dysregulation is implicated in a wide range of human diseases. Designing synthetic RNA molecules to modulate RBP activity represents a promising therapeutic strategy, being constrained by the inefficiency of experimental screening and the limited generalization of existing computational models that require RBP-specific interaction data. Here, we present BindRNAgen, a hybrid RNA design framework that couples a variational autoencoder (VAE) with a conditional latent diffusion model (LDM), enabling the generation of binding RNA sequences given the RBP sequence as the input. Using RBP-binding RNAs derived from 168 eCLIP-seq datasets of diverse RBPs, we first pretrain the VAE on RBP-binding RNA sequences to construct a continuous latent representation for RBP binding sequence specificity. The LDM subsequently generates novel RBP-binding RNA sequences within the latent space, conditioned on protein-specific embeddings from the protein language model. For RBPs in the training set, BindRNAgen produces computationally predicted RBP-binding RNA sequences that are biophysically comparable to natural RBP-binding RNAs, outperforming existing benchmarks. Although the generalization for RBP targets outside the training set may be influenced by underlying homology to the training RBPs, BindRNAgen generates RNA sequences with high computationally predicted binding scores, as validated by in silico docking and molecular dynamics (MD) simulations.",
+      "authors": [
+        "Zhou Y",
+        "Liu X",
+        "Wang S",
+        "Zhu L",
+        "Zhang B",
+        "Huang Y",
+        "Shen HB",
+        "Pan X"
+      ],
+      "doi": "10.1016/j.jmb.2026.169939",
+      "first_seen": "2026-07-08",
+      "published": "2026 Jul 06",
+      "reasons": [
+        "protein language model",
+        "diffusion model",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42409279",
+      "title": "BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42409279/"
+    },
     "doi:10.1016/j.jmgm.2026.109383": {
       "abstract": "Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for improvement. In this study, we propose PCTPS, a novel predictor that combines a pretrained protein language model (PPLM) with deep neural networks to predict phase-separated proteins. Specifically, PPLM is used to extract embedding features from protein sequences. These features are then processed using a Convolutional-Transformer Network to capture both local and global discriminative information. To further enhance classification performance, we introduce the Kolmogorov-Arnold Network. Notably, PCTPS not only predicts whether a protein is phase-separated but also distinguishes self-assembled phase-separated proteins and partner-dependent phase-separated proteins. Extensive experiments on human and non-human datasets demonstrate that PCTPS outperforms state-of-the-art methods. Our results validate the effectiveness of integrating PPLM and neural networks for phase-separated protein prediction.",
       "authors": [

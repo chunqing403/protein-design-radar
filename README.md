@@ -7,27 +7,28 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-07** (`2026-07-07T04:19:07Z`)
+Updated: **2026-07-08** (`2026-07-08T03:48:58Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/)<br><sub>Rhodes ER, Scarabelli G, Jou J et al.</sub> | PubMed<br>2026 Jul 06 | Sequence design, Protein language models, Experimental validation | 30 |
+| 1 | [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/)<br><sub>Zhou Y, Liu X, Wang S et al.</sub> | PubMed<br>2026 Jul 06 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 13 |
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
 | 1 | [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/)<br><sub>Rhodes ER, Scarabelli G, Jou J et al.</sub> | PubMed<br>2026 Jul 06 | Sequence design, Protein language models, Experimental validation | 30 |
-| 2 | [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/)<br><sub>Zahid H, Maryam, Chong KT et al.</sub> | PubMed<br>2026 Jul 05 | Protein language models, Binders and therapeutics, Enzymes and function | 16 |
-| 3 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
+| 2 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
+| 3 | [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/)<br><sub>Zhou Y, Liu X, Wang S et al.</sub> | PubMed<br>2026 Jul 06 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 13 |
 | 4 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
 
 ### By Topic
 
 #### Binders and therapeutics
 
+- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
 - [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993) (biorxiv, 2026-07-04)
 - [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05)
 - [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
@@ -45,6 +46,7 @@ Updated: **2026-07-07** (`2026-07-07T04:19:07Z`)
 
 #### Experimental validation
 
+- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
 - [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/) (PubMed, 2026 Jul 06)
 - [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
@@ -52,6 +54,7 @@ Updated: **2026-07-07** (`2026-07-07T04:19:07Z`)
 
 #### Protein language models
 
+- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
 - [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/) (PubMed, 2026 Jul 06)
 - [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05)
 - [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/) (PubMed, 2026 Jul 03)
@@ -73,10 +76,15 @@ Updated: **2026-07-07** (`2026-07-07T04:19:07Z`)
 
 #### Structure generation
 
+- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
 - [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817) (Science, 2026-07-02)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 
 ### All Recommended Papers
+
+#### 2026-07-08
+
+- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 13)
 
 #### 2026-07-07
 
@@ -119,7 +127,7 @@ Updated: **2026-07-07** (`2026-07-07T04:19:07Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-07](outputs/daily/2026-07-07.md)
+- [Daily report for 2026-07-08](outputs/daily/2026-07-08.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
