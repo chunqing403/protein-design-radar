@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-09** (`2026-07-09T02:10:13Z`)
+Updated: **2026-07-09** (`2026-07-09T04:16:31Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides](https://doi.org/10.64898/2026.06.22.733733)<br><sub>Jain, S., Mehta, N. K., Raina, S. et al.</sub> | biorxiv<br>2026-07-07 | Structure generation, Binders and therapeutics | 12 |
 
 ### All Recommended Papers
+
+#### 2026-07-09
+
+- [PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides](https://doi.org/10.64898/2026.06.22.733733) (biorxiv, 2026-07-07; Structure generation, Binders and therapeutics; score 12)
 
 #### 2026-07-08
 

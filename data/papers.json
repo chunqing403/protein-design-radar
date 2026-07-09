@@ -519,6 +519,35 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     },
+    "doi:10.64898/2026.06.22.733733": {
+      "abstract": "While most existing methods are limited to predicting the tertiary structures of proteins containing only canonical residues, the PEPstrMOD server (developed in 2015) pioneered structure prediction for chemically modified and non-natural peptides. Despite its widespread use, the original framework was restricted to peptides of 7 to 25 residues and relied on older backbone-prediction algorithms. To address these limitations, we present PEPstrMOD2, which introduces three major advancements over its predecessor. First, it replaces the original in-house coordinate generation with state-of-the-art deep learning (DL) algorithms, leveraging AlphaFold2 and ESMFold for highly accurate initial structure prediction. Secondly, it greatly expands the accessible chemical space through incorporation of new, AMBER force-field compatible library of 257 post-translational modifications (PTMs), 428 non-canonical amino acids (NCAAs), and 243 terminal modifications. Lastly, through the application of native scalability of AlphaFold2 (AF2) and ESMFold (EF), PEPstrMOD2 eliminates the original restrictions of the length, enabling the structural modeling of longer, complex therapeutic peptides and small proteins. We evaluated the performance of PEPstrMOD2 against state-of-the-art methods across three distinct peptide datasets. For the AfCyc dataset consisting of 80 cyclic peptides, PEPstrMOD2 obtained a competitive average atom-level Root Mean Square Deviation (RMSD) of 2.05 [A], compared to 1.13 [A] by AlphaFold3 (AF3) and 1.82 [A] by AfCycDesign. Remarkably, for the modified peptide ModPep433 dataset, PEPstrMOD2 outperformed AF3, achieving the lower average RMSD score of 4.49 [A] against 4.67 [A] of AF3. Furthermore, in the case of the ModPep16 benchmark, PEPstrMOD2 achieved 2.50 [A] average RMSD value, which is two times more accurate than that of the original PEPstrMOD (5.84 [A]). In summary, PEPstrMOD2 provides a powerful, high-throughput, and highly accurate platform to facilitate peptide-based drug development and structural biology research. While the original PEPstrMOD was restricted to a web server interface, PEPstrMOD2 is available as both an intuitive webserver and a standalone command-line tool via GitHub, featuring Docker support for easy deployment and reproducible, large-scale modeling pipelines (https://webs.iiitd.edu.in/raghava/pepstrmod/). HighlightsO_LIPEPstrMOD2 predicts structures of chemically modified peptides using deep learning and molecular dynamics refinement. C_LIO_LISupports 928 chemical modifications through custom AMBER based force-field libraries including PTMs, NCAAs, terminal, D- as well as cyclic modifications. C_LIO_LIRemoves peptide length restrictions through AlphaFold2 and ESMFold integration. C_LIO_LIOutperforms PEPstrMOD and is competitive with AF3 on different benchmark datasets. C_LIO_LIAvailable as both a web server and a standalone platform via GitHub and Docker. C_LI",
+      "authors": [
+        "Jain, S.",
+        "Mehta, N. K.",
+        "Raina, S.",
+        "Kumar, P.",
+        "Varun, V.",
+        "Raghava, G. P. S."
+      ],
+      "doi": "10.64898/2026.06.22.733733",
+      "first_seen": "2026-07-09",
+      "published": "2026-07-07",
+      "reasons": [
+        "deep learning",
+        "structure prediction",
+        "peptide",
+        "structure"
+      ],
+      "score": 12,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.06.22.733733",
+      "title": "PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.06.22.733733"
+    },
     "doi:10.64898/2026.07.01.733993": {
       "abstract": "Lysine and arginine methylation regulate chromatin dynamics, transcription, and cellular signaling, however confident mass spectrometry (MS)-based detection and localization of this modification remain challenging. We reanalyzed eight public human methylation-enriched datasets using an open and standardized workflow that integrates database searching via the Trans-Proteomic Pipeline with a decoy-based statistical method for the independent estimation of false localization rates (FLR). This yielded a high-confidence Human Methylation Atlas of 1,828 sites (57 methyl-lysine, 1,771 methyl-arginine) across 1,021 proteins, classified into Gold, Silver, and Bronze confidence tiers. This is far fewer sites than reported in previous studies, reflecting the application of stringent FLR control, and what we hypothesise is potential high-false discovery in previous analyses. We then leveraged this resource to adapt a deep learning-based methodology for the improved detection of methylated peptides. Three mouse methylation-enriched datasets were reanalysed to augment training and the phosphoproteomics-trained AHLF (ad hoc learning of peptide fragmentation) model was fine-tuned by transfer learning to create AHLF-Methylation. The model achieved mean ROC-AUC values of 0.824 on human spectra, and 0.829 on combined human-mouse spectra. The atlas is available through PTMeXchange and PRIDE, with curated site evidence integrated into UniProt and PeptideAtlas",
       "authors": [
