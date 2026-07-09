@@ -7,22 +7,18 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-08** (`2026-07-08T03:48:58Z`)
+Updated: **2026-07-09** (`2026-07-09T01:44:14Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/)<br><sub>Zhou Y, Liu X, Wang S et al.</sub> | PubMed<br>2026 Jul 06 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 13 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Current Radar
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/)<br><sub>Rhodes ER, Scarabelli G, Jou J et al.</sub> | PubMed<br>2026 Jul 06 | Sequence design, Protein language models, Experimental validation | 30 |
-| 2 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
-| 3 | [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/)<br><sub>Zhou Y, Liu X, Wang S et al.</sub> | PubMed<br>2026 Jul 06 | Structure generation, Protein language models, Binders and therapeutics, Experimental validation | 13 |
-| 4 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
+| 1 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
+| 2 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
 
 ### By Topic
 
@@ -127,7 +123,7 @@ Updated: **2026-07-08** (`2026-07-08T03:48:58Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-08](outputs/daily/2026-07-08.md)
+- [Daily report for 2026-07-09](outputs/daily/2026-07-09.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
