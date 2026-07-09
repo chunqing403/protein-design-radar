@@ -733,31 +733,6 @@ def render_readme_section(date: dt.date, papers: list[Paper], config: dict, libr
             "",
         ]
 
-    lines += ["### Current Radar", ""]
-    if not papers:
-        lines += [
-            "No high-confidence papers were found in the latest search window.",
-            "",
-            "Tune `config/topics.json` to broaden or narrow the radar.",
-            "",
-        ]
-    else:
-        lines += render_paper_table(papers)
-
-    lines += ["", "### By Topic", ""]
-    topic_map: dict[str, list[Paper]] = {}
-    for paper in all_papers:
-        for topic in paper.topics:
-            topic_map.setdefault(topic, []).append(paper)
-    for topic in sorted(topic_map):
-        lines.append(f"#### {topic}")
-        lines.append("")
-        for paper in topic_map[topic]:
-            link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
-            title = f"[{paper.title}]({link})" if link else paper.title
-            lines.append(f"- {title} ({paper.source}, {paper.published or 'n/a'})")
-        lines.append("")
-
     lines += ["### All Recommended Papers", ""]
     by_seen: dict[str, list[Paper]] = {}
     records = library.get("papers", {})
