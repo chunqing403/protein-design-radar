@@ -7,74 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-09** (`2026-07-09T01:44:14Z`)
+Updated: **2026-07-09** (`2026-07-09T02:10:13Z`)
 
 ### Today's New Papers
 
 No newly collected high-confidence papers today. The cumulative library below is still preserved.
-
-### Current Radar
-
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817)<br><sub>Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane et al.</sub> | Science<br>2026-07-02 | Structure generation | 15 |
-| 2 | [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3)<br><sub>Unknown authors</sub> | Cell<br>2026 | Binders and therapeutics | 12 |
-
-### By Topic
-
-#### Binders and therapeutics
-
-- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
-- [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993) (biorxiv, 2026-07-04)
-- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05)
-- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
-- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
-- [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026)
-- [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27)
-
-#### Enzymes and function
-
-- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05)
-- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
-- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
-- [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27)
-
-#### Experimental validation
-
-- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
-- [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/) (PubMed, 2026 Jul 06)
-- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
-- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
-
-#### Protein language models
-
-- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
-- [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/) (PubMed, 2026 Jul 06)
-- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05)
-- [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/) (PubMed, 2026 Jul 03)
-- [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02)
-- [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/) (PubMed, 2026 Jul 01)
-- [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
-- [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30)
-- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
-- [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01)
-- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01)
-- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01)
-- [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01)
-- [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01)
-
-#### Sequence design
-
-- [Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.](https://pubmed.ncbi.nlm.nih.gov/42405694/) (PubMed, 2026 Jul 06)
-- [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01)
-
-#### Structure generation
-
-- [BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.](https://pubmed.ncbi.nlm.nih.gov/42409279/) (PubMed, 2026 Jul 06)
-- [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817) (Science, 2026-07-02)
-- [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01)
 
 ### All Recommended Papers
 
