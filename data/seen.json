@@ -112,6 +112,13 @@
       "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42402023/"
     },
+    "doi:10.1021/acs.jcim.6c00807": {
+      "first_seen": "2026-07-11",
+      "score": 6,
+      "source": "PubMed",
+      "title": "TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42427182/"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
       "score": 12,
