@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-11** (`2026-07-11T03:46:18Z`)
+Updated: **2026-07-12** (`2026-07-12T04:02:07Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.](https://pubmed.ncbi.nlm.nih.gov/42427182/)<br><sub>Xu K, Zhao L, Tian Y et al.</sub> | PubMed<br>2026 Jul 10 | Structure generation, Enzymes and function | 6 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -70,7 +68,7 @@ Updated: **2026-07-11** (`2026-07-11T03:46:18Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-11](outputs/daily/2026-07-11.md)
+- [Daily report for 2026-07-12](outputs/daily/2026-07-12.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
