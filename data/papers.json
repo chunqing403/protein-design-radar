@@ -77,6 +77,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
+    "doi:10.1007/s11030-026-11638-8": {
+      "abstract": "Molecular docking is a fundamental task in drug discovery, yet many deep learning-based docking methods still struggle to generate physically valid conformations. Although post-processing with empirical force fields can partially improve physical plausibility, it breaks tightly coupled modeling by introducing a decoupled refinement stage, increases computational cost, and often weakens ligand-protein interactions and leads to pose deviations. In recent years, diffusion-based molecular docking methods have improved both accuracy and physical validity, but they typically require many sampling steps, resulting in inefficient inference. Internal coordinate-based methods can reduce the number of sampling steps, but their complex pipelines significantly increase per-step computational cost, limiting their practical applicability. To address these challenges, we propose MPFDock, a tightly coupled equivariant flow matching method for molecular docking guided by multimodal physical constraints in Cartesian space. By incorporating geometry-grounded ligand-protein physical interactions during training and employing force field-guided flow matching during inference, MPFDock generates physically realistic and high-accuracy docking conformations according to PoseBusters metrics with significantly fewer inference steps. Experiments on the PoseBusters and DeepDockingDare benchmarks show that MPFDock consistently outperforms existing methods in terms of docking accuracy and physical realism on the evaluated benchmarks.",
+      "authors": [
+        "Fan Z",
+        "Li X",
+        "Liu H",
+        "Dang J",
+        "Fan L"
+      ],
+      "doi": "10.1007/s11030-026-11638-8",
+      "first_seen": "2026-07-13",
+      "published": "2026 Jul 09",
+      "reasons": [
+        "deep learning",
+        "flow matching",
+        "equivariant",
+        "protein"
+      ],
+      "score": 14,
+      "source": "PubMed",
+      "source_id": "42423919",
+      "title": "Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42423919/"
+    },
     "doi:10.1016/j.ab.2026.116116": {
       "abstract": "Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially homology-based approaches, face limitations when dealing with non-homologous data. Additionally, conventional machine learning models relying on manually extracted features often fail to capture critical functional characteristics of proteins. To address these challenges, we proposed a novel computational method that integrates pre-trained protein language models (PLMs) with deep learning techniques for CDP prediction. Specifically, the ESM model was employed to generate high-quality protein embeddings, thereby eliminating the need for manual feature extraction. In addition, a customized convolutional neural network (CNN) architecture was designed to automatically learn discriminative features relevant to CDP identification. The proposed computational method was further evaluated on two independent test sets, consistently outperforming existing state-of-the-art approaches. The experimental results demonstrated that the method exhibits strong generalization and robustness across different datasets, highlighting its effectiveness for accurate identification of CDPs.",
       "authors": [

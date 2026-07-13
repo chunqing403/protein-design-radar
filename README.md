@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-13** (`2026-07-13T01:39:57Z`)
+Updated: **2026-07-13** (`2026-07-13T02:01:44Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.](https://pubmed.ncbi.nlm.nih.gov/42423919/)<br><sub>Fan Z, Li X, Liu H et al.</sub> | PubMed<br>2026 Jul 09 | Structure generation | 14 |
 
 ### All Recommended Papers
+
+#### 2026-07-13
+
+- [Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.](https://pubmed.ncbi.nlm.nih.gov/42423919/) (PubMed, 2026 Jul 09; Structure generation; score 14)
 
 #### 2026-07-11
 
