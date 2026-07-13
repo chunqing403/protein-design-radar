@@ -7,7 +7,7 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-13** (`2026-07-13T02:01:44Z`)
+Updated: **2026-07-13** (`2026-07-13T04:04:34Z`)
 
 ### Today's New Papers
 
