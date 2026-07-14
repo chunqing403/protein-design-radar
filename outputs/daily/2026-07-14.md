@@ -1,28 +1,7 @@
 # Protein Design Paper Radar - 2026-07-14
 
-Generated on 2026-07-14T01:28:28Z.
+Generated on 2026-07-14T03:39:43Z.
 
-Found 2 recommended papers.
+No new high-confidence papers were found today.
 
-## Highlights
-
-### 1. Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy
-
-- **Score:** 7 | **Status:** NEW | **Source:** arXiv | **Date:** 2026-07-12
-- **Authors:** Jan Eckwert, Julija Zavadlav
-- **Topics:** Experimental validation
-- **Why it matched:** graph neural network, equivariant
-- **Link:** http://arxiv.org/abs/2607.10887v1
-
-Machine learning interatomic potentials (MLPs) have revolutionized atomistic modeling, offering the potential to replace traditional methods like Density Functional Theory (DFT). However, inference time of MLPs is orders of magnitude slower than that of classical force fields, hindering real-world applications for biomolecular systems that require...
-
-### 2. Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.
-
-- **Score:** 7 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Jul 13
-- **Authors:** Schwarz D, Giese SH, Gupta A et al.
-- **Topics:** Sequence design, Protein language models, Binders and therapeutics, Enzymes and function
-- **Why it matched:** protein language model, stability, protein, binding, mutation
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42439482/
-- **DOI:** 10.1021/acs.jcim.6c00768
-
-Drug resistance is a major challenge in cancer therapy. Cancer cells with pre-existing or acquired mutations that confer resistance to a given drug treatment outgrow the susceptible cell population and cause cancer recurrence after an initial successful treatment response. Knowledge about resistance mutations before they occur in the clinic could prevent...
+Consider lowering `min_score` or adding broader queries in `config/topics.json`.
