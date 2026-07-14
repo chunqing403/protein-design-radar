@@ -14,6 +14,13 @@
       "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
+    "arxiv:2607.10887v1": {
+      "first_seen": "2026-07-14",
+      "score": 7,
+      "source": "arXiv",
+      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
+      "url": "http://arxiv.org/abs/2607.10887v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "score": 12,
@@ -111,6 +118,13 @@
       "source": "PubMed",
       "title": "Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
+    },
+    "doi:10.1021/acs.jcim.6c00768": {
+      "first_seen": "2026-07-14",
+      "score": 7,
+      "source": "PubMed",
+      "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439482/"
     },
     "doi:10.1021/acs.jcim.6c00806": {
       "first_seen": "2026-07-06",

@@ -1,5 +1,27 @@
 {
   "papers": {
+    "arxiv:2607.10887v1": {
+      "abstract": "Machine learning interatomic potentials (MLPs) have revolutionized atomistic modeling, offering the potential to replace traditional methods like Density Functional Theory (DFT). However, inference time of MLPs is orders of magnitude slower than that of classical force fields, hindering real-world applications for biomolecular systems that require timescales of microseconds and beyond. Implicit solvent MLPs can address this issue, but are faced with data challenges associated with coarse-grained modeling. Consequently, previous approaches relied on empirical force field data, thereby inherently limiting the MLP's accuracy. Here, we introduce the Transferable Water Implicit Network (TWIN), an implicit water MLP parametrized entirely by an Equivariant Graph Neural Network and trained solely on ab initio and experimental labels. We demonstrate TWIN's transferability across drug-like molecules, peptides, and proteins, achieving excellent results on ab initio and experimental crystallographic and NMR benchmarks, consistently outperforming previous machine-learning-based implicit solvent or coarse-grained models. Furthermore, TWIN closely matches DFT-based explicit solvent MLPs while providing a two-order-of-magnitude faster timestep evaluation, paving the way for efficient ab initio-level modeling of biomolecular systems in aqueous environments.",
+      "authors": [
+        "Jan Eckwert",
+        "Julija Zavadlav"
+      ],
+      "doi": "",
+      "first_seen": "2026-07-14",
+      "published": "2026-07-12",
+      "reasons": [
+        "graph neural network",
+        "equivariant"
+      ],
+      "score": 7,
+      "source": "arXiv",
+      "source_id": "2607.10887v1",
+      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
+      "topics": [
+        "Experimental validation"
+      ],
+      "url": "http://arxiv.org/abs/2607.10887v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -224,6 +246,44 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1021/acs.jcim.6c00768": {
+      "abstract": "Drug resistance is a major challenge in cancer therapy. Cancer cells with pre-existing or acquired mutations that confer resistance to a given drug treatment outgrow the susceptible cell population and cause cancer recurrence after an initial successful treatment response. Knowledge about resistance mutations before they occur in the clinic could prevent unnecessary patient treatment with ineffective drugs, in clinical trials as well as clinical practice, or potentially speed up the development of follow-up compounds. Here, we focused on on-target amino acid mutations that confer resistance to an inhibitor compound with a known binding mode. We evaluated whether a combination of physics-based free energy perturbation (FEP) affinity estimates and protein language model-based protein fitness estimates could improve the in silico identification of resistance mutations. Validation was done with data from deep mutational scanning (DMS) experiments that tested for resistance to single amino acid mutations. A public data set testing ERK2 resistance against the inhibitor SCH772984 and an internal data set testing resistance of an EGFR_exon20 mutant against a Bayer small molecule inhibitor were used. Our results show that protein fitness estimates can facilitate the identification of resistance mutations by filtering mutations with a low estimated fitness. Even though FEP has flagged such mutations as affinity-decreasing and thus potentially resistant, they were not resistant according to the DMS experiment and therefore correctly filtered out. This indicates that protein language model-based protein fitness estimates could be a computationally efficient method to filter mutations without having to model the negative impact of mutations on native function or protein stability, which is error-prone and computationally expensive.",
+      "authors": [
+        "Schwarz D",
+        "Giese SH",
+        "Gupta A",
+        "Dziubańska-Kusibab PJ",
+        "Villalba SD",
+        "Cherniack A",
+        "Yang X",
+        "Root D",
+        "Karsli-Uzunbas G",
+        "Greulich H",
+        "Siegel F",
+        "Kamburov A"
+      ],
+      "doi": "10.1021/acs.jcim.6c00768",
+      "first_seen": "2026-07-14",
+      "published": "2026 Jul 13",
+      "reasons": [
+        "protein language model",
+        "stability",
+        "protein",
+        "binding",
+        "mutation"
+      ],
+      "score": 7,
+      "source": "PubMed",
+      "source_id": "42439482",
+      "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42439482/"
     },
     "doi:10.1021/acs.jcim.6c00806": {
       "abstract": "Hormones regulate many essential biological processes by interacting with specific receptors that control gene expression, metabolism, growth, and immune function. Because numerous therapeutic compounds can influence or disrupt hormone signaling pathways, understanding drug-hormone receptor interactions (DHRI) is crucial for ensuring both therapeutic efficacy and endocrine safety. However, computational approaches for predicting DHRI remain limited, and most existing models do not explicitly incorporate hormone receptor-specific information. In this study, we propose a receptor-aware deep learning framework for DHRI prediction that integrates structural drug features with contextually embedded hormone receptor information. Drug molecules are represented using a hybrid encoding strategy that combines Morgan fingerprints and graph transformer-based molecular features to capture both global chemical properties and local structural information, while hormone receptor sequences are encoded using the pretrained ESM2 protein language model to obtain biologically meaningful sequence representations. The fused drug-hormone receptor features are then processed through a multilayer neural network to predict interaction probabilities. Model performance was evaluated using three splitting strategies, including random split, cold-drug split, and scaffold-based split, to assess both predictive accuracy and generalization ability. Under the random split setting, the model achieved an accuracy of 0.93, sensitivity of 0.94, specificity and precision of 0.92, F1-score of 0.93, and MCC of 0.86 on an independent data set, while also maintaining comparable performance under the more stringent cold-drug and scaffold-based settings. Feature importance analysis showed that atomic identity, hybridization, atom degree, and bond type were key shared determinants, while receptor-stratified results revealed receptor-dependent contributions from secondary features such as aromaticity, chirality, etc. In addition, t-SNE visualization showed clear class separation after training, and molecular docking across estrogen, androgen, and glucocorticoid receptors further supported the biological relevance of the predictions. Together, these findings demonstrate that incorporating hormone receptor-specific sequence information enables more reliable and biologically meaningful prediction of drug-hormone receptor interactions.",

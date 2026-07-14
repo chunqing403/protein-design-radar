@@ -7,15 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-13** (`2026-07-13T04:04:34Z`)
+Updated: **2026-07-14** (`2026-07-14T01:28:28Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.](https://pubmed.ncbi.nlm.nih.gov/42423919/)<br><sub>Fan Z, Li X, Liu H et al.</sub> | PubMed<br>2026 Jul 09 | Structure generation | 14 |
+| 1 | [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1)<br><sub>Jan Eckwert, Julija Zavadlav</sub> | arXiv<br>2026-07-12 | Experimental validation | 7 |
+| 2 | [Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.](https://pubmed.ncbi.nlm.nih.gov/42439482/)<br><sub>Schwarz D, Giese SH, Gupta A et al.</sub> | PubMed<br>2026 Jul 13 | Sequence design, Protein language models, Binders and therapeutics, Enzymes and function | 7 |
 
 ### All Recommended Papers
+
+#### 2026-07-14
+
+- [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; Experimental validation; score 7)
+- [Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.](https://pubmed.ncbi.nlm.nih.gov/42439482/) (PubMed, 2026 Jul 13; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function; score 7)
 
 #### 2026-07-13
 
@@ -74,7 +80,7 @@ Updated: **2026-07-13** (`2026-07-13T04:04:34Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-13](outputs/daily/2026-07-13.md)
+- [Daily report for 2026-07-14](outputs/daily/2026-07-14.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
