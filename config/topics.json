@@ -1,6 +1,7 @@
 {
   "project_name": "Protein Design Paper Radar",
   "max_results_per_source": 80,
+  "preprint_max_results": 300,
   "google_scholar_enabled": true,
   "google_scholar_max_pages": 2,
   "journal_feeds_enabled": true,
@@ -33,6 +34,10 @@
     "receptors",
     "drug",
     "drugs",
+    "kinase",
+    "kinases",
+    "miniprotein",
+    "miniproteins",
     "amino acid",
     "CAR-T",
     "CAR T",
@@ -67,6 +72,7 @@
     "ProteinMPNN",
     "ColabFold",
     "in silico",
+    "de novo design",
     "computational protein design",
     "computational enzyme design",
     "computational design",
@@ -95,6 +101,10 @@
     "cell therapy",
     "cancer therapy",
     "target discovery",
+    "kinase",
+    "kinases",
+    "miniprotein",
+    "miniproteins",
     "GPNMB"
   ],
   "journal_feeds": [
@@ -150,7 +160,8 @@
     }
   ],
   "watchlist_dois": [
-    "10.1126/science.adr3817"
+    "10.1126/science.adr3817",
+    "10.64898/2026.07.10.737808"
   ],
   "queries": [
     "\"protein design\" deep learning",
@@ -165,7 +176,10 @@
     "\"flow matching\" protein",
     "\"CAR-T\" \"target discovery\"",
     "\"cell therapy\" \"AI-driven discovery\"",
-    "\"GPNMB\" \"CAR-T\""
+    "\"GPNMB\" \"CAR-T\"",
+    "\"de novo design\" kinase",
+    "\"kinase modulators\" \"de novo design\"",
+    "\"miniprotein\" kinase design"
   ],
   "positive_keywords": {
     "high": [
@@ -191,7 +205,8 @@
       "ProGen",
       "ProteinMPNN",
       "AI-driven",
-      "artificial intelligence"
+      "artificial intelligence",
+      "de novo design"
     ],
     "medium": [
       "generative model",
@@ -214,7 +229,9 @@
       "chimeric antigen receptor",
       "cell therapy",
       "target discovery",
-      "GPNMB"
+      "GPNMB",
+      "kinase",
+      "miniprotein"
     ],
     "low": [
       "protein",
@@ -224,7 +241,9 @@
       "binding",
       "mutation",
       "sequence",
-      "structure"
+      "structure",
+      "kinase",
+      "miniprotein"
     ]
   },
   "negative_keywords": [
@@ -285,7 +304,9 @@
       "CAR T",
       "cell therapy",
       "cancer therapy",
-      "GPNMB"
+      "GPNMB",
+      "kinase",
+      "miniprotein"
     ],
     "Enzymes and function": [
       "enzyme",

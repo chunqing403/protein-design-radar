@@ -7,19 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-15** (`2026-07-15T02:02:51Z`)
+Updated: **2026-07-15** (`2026-07-15T02:55:40Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
 | 1 | [Understanding language model scaling for protein fitness prediction.](https://pubmed.ncbi.nlm.nih.gov/42443524/)<br><sub>Hou C, Liu D, Zafar A et al.</sub> | PubMed<br>2026 Jul 13 | Sequence design, Protein language models, Enzymes and function | 21 |
+| 2 | [Hybrid quantum-classical de novo design of MHC-binding peptides](https://doi.org/10.64898/2026.07.09.736951)<br><sub>Engdal, E. S., Funk, J., Bacarreza, O. et al.</sub> | biorxiv<br>2026-07-10 | Binders and therapeutics | 14 |
+| 3 | [De novo design of selective kinase modulators](http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808)<br><sub>Magnus S. Bauer, Saurav Kumar, Mia S. Donald Paladino et al.</sub> | Crossref<br>2026-07-13 | Structure generation, Binders and therapeutics | 10 |
 
 ### All Recommended Papers
 
 #### 2026-07-15
 
 - [Understanding language model scaling for protein fitness prediction.](https://pubmed.ncbi.nlm.nih.gov/42443524/) (PubMed, 2026 Jul 13; Sequence design, Protein language models, Enzymes and function; score 21)
+- [Hybrid quantum-classical de novo design of MHC-binding peptides](https://doi.org/10.64898/2026.07.09.736951) (biorxiv, 2026-07-10; Binders and therapeutics; score 14)
+- [De novo design of selective kinase modulators](http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808) (Crossref, 2026-07-13; Structure generation, Binders and therapeutics; score 10)
 
 #### 2026-07-14
 
@@ -67,9 +71,9 @@ Updated: **2026-07-15** (`2026-07-15T02:02:51Z`)
 
 #### 2026-07-01
 
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics, Experimental validation; score 20)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; Protein language models, Enzymes and function; score 16)
-- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; Protein language models, Experimental validation; score 16)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; Protein language models; score 13)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; Protein language models, Binders and therapeutics; score 12)
 - [AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy](https://www.cell.com/cell/abstract/S0092-8674(26)00651-3) (Cell, 2026; Binders and therapeutics; score 12)

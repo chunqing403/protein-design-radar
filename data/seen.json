@@ -293,6 +293,20 @@
       "source": "biorxiv",
       "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
       "url": "https://doi.org/10.64898/2026.07.01.733993"
+    },
+    "doi:10.64898/2026.07.09.736951": {
+      "first_seen": "2026-07-15",
+      "score": 14,
+      "source": "biorxiv",
+      "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
+      "url": "https://doi.org/10.64898/2026.07.09.736951"
+    },
+    "doi:10.64898/2026.07.10.737808": {
+      "first_seen": "2026-07-15",
+      "score": 10,
+      "source": "Crossref",
+      "title": "De novo design of selective kinase modulators",
+      "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
     }
   }
 }

@@ -153,30 +153,41 @@ def arxiv_query(queries: list[str], max_results: int) -> list[Paper]:
 
 
 def preprint_query(server: str, start: dt.date, end: dt.date, max_results: int) -> list[Paper]:
-    url = f"https://api.biorxiv.org/details/{server}/{start.isoformat()}/{end.isoformat()}/0"
-    text = request_text(url)
-    if not text:
-        return []
-    try:
-        payload = json.loads(text)
-    except json.JSONDecodeError:
-        return []
     papers: list[Paper] = []
-    for item in payload.get("collection", [])[:max_results]:
-        doi = clean_text(item.get("doi", ""))
-        papers.append(
-            Paper(
-                title=clean_text(item.get("title", "")),
-                authors=[a.strip() for a in clean_text(item.get("authors", "")).split(";") if a.strip()],
-                abstract=clean_text(item.get("abstract", "")),
-                source=server,
-                source_id=doi,
-                doi=doi,
-                published=clean_text(item.get("date", "")),
-                url=f"https://doi.org/{doi}" if doi else clean_text(item.get("link", "")),
+    cursor = 0
+    page_size = 100
+    while len(papers) < max_results:
+        url = f"https://api.biorxiv.org/details/{server}/{start.isoformat()}/{end.isoformat()}/{cursor}"
+        text = request_text(url)
+        if not text:
+            break
+        try:
+            payload = json.loads(text)
+        except json.JSONDecodeError:
+            break
+        collection = payload.get("collection", [])
+        if not collection:
+            break
+        for item in collection:
+            doi = clean_text(item.get("doi", ""))
+            papers.append(
+                Paper(
+                    title=clean_text(item.get("title", "")),
+                    authors=[a.strip() for a in clean_text(item.get("authors", "")).split(";") if a.strip()],
+                    abstract=clean_text(item.get("abstract", "")),
+                    source=server,
+                    source_id=doi,
+                    doi=doi,
+                    published=clean_text(item.get("date", "")),
+                    url=f"https://doi.org/{doi}" if doi else clean_text(item.get("link", "")),
+                )
             )
-        )
-    return papers
+            if len(papers) >= max_results:
+                break
+        if len(collection) < page_size:
+            break
+        cursor += page_size
+    return papers[:max_results]
 
 
 def pubmed_query(queries: list[str], start: dt.date, end: dt.date, max_results: int) -> list[Paper]:
@@ -780,11 +791,12 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
     start = target_date - dt.timedelta(days=days_back)
     end = target_date
     max_results = int(config.get("max_results_per_source", 80))
+    preprint_max_results = int(config.get("preprint_max_results", max_results))
     queries = config["queries"]
     papers: list[Paper] = []
     papers.extend(arxiv_query(queries, max_results))
-    papers.extend(preprint_query("biorxiv", start, end, max_results))
-    papers.extend(preprint_query("medrxiv", start, end, max_results))
+    papers.extend(preprint_query("biorxiv", start, end, preprint_max_results))
+    papers.extend(preprint_query("medrxiv", start, end, preprint_max_results))
     papers.extend(pubmed_query(queries, start, end, max_results))
     if config.get("google_scholar_enabled", False):
         max_pages = int(config.get("google_scholar_max_pages", 1))
@@ -817,7 +829,8 @@ def main() -> int:
 
     papers = collect(config, target_date, args.days_back)
     for paper in papers:
-        paper.is_new = paper.key not in seen
+        seen_record = seen.get(paper.key, {})
+        paper.is_new = paper.key not in seen or seen_record.get("first_seen") == target_date.isoformat()
 
     min_score = int(config.get("min_score", 6))
     report_limit = int(config.get("report_limit", 25))

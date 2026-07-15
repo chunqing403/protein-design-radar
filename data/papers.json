@@ -143,14 +143,17 @@
         "protein language model",
         "deep learning",
         "ESM",
-        "protein"
+        "kinase",
+        "protein",
+        "kinase"
       ],
-      "score": 16,
+      "score": 20,
       "source": "PubMed",
       "source_id": "41865419",
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
       "topics": [
         "Protein language models",
+        "Binders and therapeutics",
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
@@ -730,6 +733,84 @@
         "Binders and therapeutics"
       ],
       "url": "https://doi.org/10.64898/2026.07.01.733993"
+    },
+    "doi:10.64898/2026.07.09.736951": {
+      "abstract": "Deep generative models have become a leading approach for designing therapeutic molecules, yet efficiently exploring vast biomolecular sequence spaces remains difficult, particularly for targets with limited training data. The prior distribution that seeds a generative model shapes which regions of sequence space it explores, and recent work suggests that non-classical distributions sampled from quantum processors can serve as a structured alternative to the factorised Gaussian priors used by default. Whether such priors help on complex biological design tasks has been largely untested. Here we present what is, to our knowledge, the first end-to-end hybrid quantum-classical pipeline for de novo design of MHC class I-binding peptides, coupling a generative adversarial network (GAN) to latent vectors sampled from a real photonic quantum processor. Tested in silico across 131 HLA alleles, quantum-derived priors increased the yield of predicted strong binders, with the largest relative gains for understudied alleles where classical baselines perform worst. We selected three understudied alleles for further evaluation, finding that large gains coincided with broader sequence exploration at non-anchor positions while anchor specificity was preserved. On these three alleles, we validated the designs in vitro using peptide-MHC stability ELISAs, confirming that quantum-designed peptides are potent stabilisers of peptide-MHC class I complexes. These results establish structured, hardware-realisable non-classical priors as a useful inductive bias for generative peptide design, with direct relevance to personalised immunotherapies and vaccines.",
+      "authors": [
+        "Engdal, E. S.",
+        "Funk, J.",
+        "Bacarreza, O.",
+        "Machado, L.",
+        "Johansen, K. H.",
+        "Kemming, J.",
+        "Farnsworth, T.",
+        "Brasas, V.",
+        "Lefevre-Morand, R. Y. L.",
+        "Slysz, M.",
+        "Noerregaard, O. L.",
+        "Sandberg, O. A. D. A.",
+        "Makarovskiy, A.",
+        "Lodahl, P.",
+        "Acevedo-Rocha, C. G.",
+        "Kurowski, K.",
+        "Hadrup, S. R.",
+        "Clements, W. R.",
+        "Jenkins, T."
+      ],
+      "doi": "10.64898/2026.07.09.736951",
+      "first_seen": "2026-07-15",
+      "published": "2026-07-10",
+      "reasons": [
+        "de novo design",
+        "generative model",
+        "stability",
+        "peptide",
+        "binding",
+        "sequence"
+      ],
+      "score": 14,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.07.09.736951",
+      "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.09.736951"
+    },
+    "doi:10.64898/2026.07.10.737808": {
+      "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
+      "authors": [
+        "Magnus S. Bauer",
+        "Saurav Kumar",
+        "Mia S. Donald Paladino",
+        "Dongyang Li",
+        "Kody A. Klupt",
+        "Matthias Glögl",
+        "Ana María Fernández-Escamilla",
+        "Thomas Schlichthaerle",
+        "Edin Muratspahić",
+        "Xinru Wang",
+        "Ludwig Schmiderer",
+        "Sebastian Kenny"
+      ],
+      "doi": "10.64898/2026.07.10.737808",
+      "first_seen": "2026-07-15",
+      "published": "2026-07-13",
+      "reasons": [
+        "de novo design",
+        "kinase",
+        "protein",
+        "kinase"
+      ],
+      "score": 10,
+      "source": "Crossref",
+      "source_id": "10.64898/2026.07.10.737808",
+      "title": "De novo design of selective kinase modulators",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
     }
   }
 }
