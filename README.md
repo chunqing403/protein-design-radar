@@ -7,16 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-14** (`2026-07-14T03:39:43Z`)
+Updated: **2026-07-15** (`2026-07-15T02:02:51Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1)<br><sub>Jan Eckwert, Julija Zavadlav</sub> | arXiv<br>2026-07-12 | Experimental validation | 7 |
-| 2 | [Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.](https://pubmed.ncbi.nlm.nih.gov/42439482/)<br><sub>Schwarz D, Giese SH, Gupta A et al.</sub> | PubMed<br>2026 Jul 13 | Sequence design, Protein language models, Binders and therapeutics, Enzymes and function | 7 |
+| 1 | [Understanding language model scaling for protein fitness prediction.](https://pubmed.ncbi.nlm.nih.gov/42443524/)<br><sub>Hou C, Liu D, Zafar A et al.</sub> | PubMed<br>2026 Jul 13 | Sequence design, Protein language models, Enzymes and function | 21 |
 
 ### All Recommended Papers
+
+#### 2026-07-15
+
+- [Understanding language model scaling for protein fitness prediction.](https://pubmed.ncbi.nlm.nih.gov/42443524/) (PubMed, 2026 Jul 13; Sequence design, Protein language models, Enzymes and function; score 21)
 
 #### 2026-07-14
 
@@ -80,7 +83,7 @@ Updated: **2026-07-14** (`2026-07-14T03:39:43Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-14](outputs/daily/2026-07-14.md)
+- [Daily report for 2026-07-15](outputs/daily/2026-07-15.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
