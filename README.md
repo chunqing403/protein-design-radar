@@ -7,15 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-15** (`2026-07-15T03:40:00Z`)
+Updated: **2026-07-16** (`2026-07-16T03:14:54Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Understanding language model scaling for protein fitness prediction.](https://pubmed.ncbi.nlm.nih.gov/42443524/)<br><sub>Hou C, Liu D, Zafar A et al.</sub> | PubMed<br>2026 Jul 13 | Sequence design, Protein language models, Enzymes and function | 21 |
-| 2 | [Hybrid quantum-classical de novo design of MHC-binding peptides](https://doi.org/10.64898/2026.07.09.736951)<br><sub>Engdal, E. S., Funk, J., Bacarreza, O. et al.</sub> | biorxiv<br>2026-07-10 | Binders and therapeutics | 14 |
-| 3 | [De novo design of selective kinase modulators](http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808)<br><sub>Magnus S. Bauer, Saurav Kumar, Mia S. Donald Paladino et al.</sub> | Crossref<br>2026-07-13 | Structure generation, Binders and therapeutics | 10 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -87,7 +83,7 @@ Updated: **2026-07-15** (`2026-07-15T03:40:00Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-15](outputs/daily/2026-07-15.md)
+- [Daily report for 2026-07-16](outputs/daily/2026-07-16.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
