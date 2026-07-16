@@ -1,6 +1,6 @@
 # Protein Design Paper Radar - 2026-07-16
 
-Generated on 2026-07-16T03:14:54Z.
+Generated on 2026-07-16T03:42:11Z.
 
 No new high-confidence papers were found today.
 
