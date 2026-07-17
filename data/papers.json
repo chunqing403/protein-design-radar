@@ -376,6 +376,38 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/jacs.6c02343": {
+      "abstract": "Chemically induced proximity (CIP) and chemically disrupted proximity (CDP) technologies have transformed biological research by enabling precise temporal control of protein-protein interactions and cellular functions. However, despite the extensive development of CIP systems, CDP tools with strong translational potential remain comparatively underdeveloped, calling for the need to expand the CDP toolkit. Here, we present a caffeine-operated dissociation system (CODS), a CDP platform activated by caffeine-an inexpensive and widely available small molecule from food or beverages with a well-established safety profile. Using an AI-guided de novo protein design framework, we reprogrammed an existing caffeine-responsive CIP module into a ligand-dependent dissociation system. CODS exhibits high sensitivity and rapid functional switching, with an EC50 below 90 nM and minute-scale dissociation and reassociation kinetics. We further demonstrate the utility of CODS across diverse cellular contexts, including caffeine-dependent suppression of gene expression, induction of programmed cell death via pyroptosis, and conditional deactivation of chimeric antigen receptor (CAR) T-cell activity. CODS establishes a broadly applicable CDP platform for tunable control of cellular functions and provides a potentially generalizable strategy for engineering chemically controlled dissociation systems from existing CIP architectures.",
+      "authors": [
+        "Nonomura T",
+        "McKee B",
+        "Price A",
+        "Cui M",
+        "Yousuf Z",
+        "Tran F",
+        "He L",
+        "Wang T",
+        "Zhou Y"
+      ],
+      "doi": "10.1021/jacs.6c02343",
+      "first_seen": "2026-07-17",
+      "published": "2026 Jul 15",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "de novo design",
+        "chimeric antigen receptor",
+        "protein"
+      ],
+      "score": 19,
+      "source": "PubMed",
+      "source_id": "42184340",
+      "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
+      "topics": [
+        "General"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
       "authors": [
@@ -648,6 +680,41 @@
       ],
       "url": "https://www.science.org/doi/10.1126/science.adr3817"
     },
+    "doi:10.1126/science.aeb0822": {
+      "abstract": "Fluorescent proteins and small-molecule dyes offer complementary advantages for biological imaging: proteins are amenable to genetic tagging, whereas dyes provide superior brightness and photostability. To combine these strengths, we used de novo protein design to generate small, nanomolar-affinity, high-selectivity binders (NovoTags) for three cell-permeable dyes spanning the visible spectrum. We show that the NovoTag fluorescent lifetimes can be tuned and demonstrate their application in lifetime and wavelength-based multiplexed fluorescence imaging. We further design a two-chain NovoTag that functions as a chemically induced dimerization system with fluorescent readout in living cells, or as a minimally perturbing proximity probe in fixed cells. Our approach combines the advantages of fluorescent proteins and small-molecule dyes, expanding the toolkit for cellular imaging.",
+      "authors": [
+        "Tran L",
+        "Klein S",
+        "Juergens D",
+        "Sharma S",
+        "Decarreau J",
+        "Lee GR",
+        "Wang Y",
+        "Chen W",
+        "Bera AK",
+        "Kang A",
+        "Woods J",
+        "Joyce E"
+      ],
+      "doi": "10.1126/science.aeb0822",
+      "first_seen": "2026-07-17",
+      "published": "2026 Jul 16",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "de novo design",
+        "protein",
+        "binding"
+      ],
+      "score": 17,
+      "source": "PubMed",
+      "source_id": "42461986",
+      "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42461986/"
+    },
     "doi:10.1177/15578666261443336": {
       "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",
       "authors": [
@@ -778,15 +845,15 @@
       "url": "https://doi.org/10.64898/2026.07.09.736951"
     },
     "doi:10.64898/2026.07.10.737808": {
-      "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
+      "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC 50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
       "authors": [
-        "Magnus S. Bauer",
+        "Magnus S Bauer",
         "Saurav Kumar",
-        "Mia S. Donald Paladino",
+        "Mia Donald-Paladino",
         "Dongyang Li",
         "Kody A. Klupt",
         "Matthias Glögl",
-        "Ana María Fernández-Escamilla",
+        "Ana María Fernández Escamilla",
         "Thomas Schlichthaerle",
         "Edin Muratspahić",
         "Xinru Wang",

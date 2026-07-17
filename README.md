@@ -7,13 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-16** (`2026-07-16T03:42:11Z`)
+Updated: **2026-07-17** (`2026-07-17T03:41:38Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.](https://pubmed.ncbi.nlm.nih.gov/42184340/)<br><sub>Nonomura T, McKee B, Price A et al.</sub> | PubMed<br>2026 Jul 15 | General | 19 |
+| 2 | [De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.](https://pubmed.ncbi.nlm.nih.gov/42461986/)<br><sub>Tran L, Klein S, Juergens D et al.</sub> | PubMed<br>2026 Jul 16 | Binders and therapeutics | 17 |
 
 ### All Recommended Papers
+
+#### 2026-07-17
+
+- [AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.](https://pubmed.ncbi.nlm.nih.gov/42184340/) (PubMed, 2026 Jul 15; General; score 19)
+- [De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.](https://pubmed.ncbi.nlm.nih.gov/42461986/) (PubMed, 2026 Jul 16; Binders and therapeutics; score 17)
 
 #### 2026-07-15
 
@@ -83,7 +91,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-07-16](outputs/daily/2026-07-16.md)
+- [Daily report for 2026-07-17](outputs/daily/2026-07-17.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

@@ -147,6 +147,13 @@
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/jacs.6c02343": {
+      "first_seen": "2026-07-17",
+      "score": 19,
+      "source": "PubMed",
+      "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
+    },
     "doi:10.1038/s41392-026-02780-8": {
       "first_seen": "2026-07-02",
       "score": 17,
@@ -272,6 +279,13 @@
       "source": "Science",
       "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
       "url": "https://www.science.org/doi/10.1126/science.adr3817"
+    },
+    "doi:10.1126/science.aeb0822": {
+      "first_seen": "2026-07-17",
+      "score": 17,
+      "source": "PubMed",
+      "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42461986/"
     },
     "doi:10.1177/15578666261443336": {
       "first_seen": "2026-07-02",
