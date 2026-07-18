@@ -126,6 +126,34 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423919/"
     },
+    "doi:10.1007/s11030-026-11642-y": {
+      "abstract": "The programmed cell death-1/programmed cell death-ligand 1 (PD-1/PD-L1) pathway is a key target in cancer immunotherapy. Although monoclonal antibodies (mAbs) have demonstrated remarkable clinical efficacy, their application is limited by poor tissue penetration, high production costs, and the need for intravenous administration. Small-molecule inhibitors provide a promising complementary strategy, but designing them remains challenging due to the large, relatively flat PD-1/PD-L1 interface. In this study, we integrated fragment-based drug design (FBDD) with conditional diffusion modeling to overcome these obstacles. Core scaffolds consisting of key fragments identified through protein-ligand interaction analysis were used as conditional inputs. Considering the relatively conserved binding mode and limited pocket flexibility of reported PD-L1/small-molecule inhibitor complexes, seven representative co-crystal structures were selected to capture the major binding features and guide molecular generation. Structurally plausible candidate inhibitors were generated using diffusion modeling and screened by molecular docking. After 500 ns molecular dynamics (MD) simulations, we identified four candidates (bo1-bo4), which were selected for MD-based evaluation. The predicted binding free energy (BFE) values of three compounds (bo1, bo2, and bo3) were lower than - 40 kcal/mol, as calculated by the molecular mechanics-Poisson Boltzmann surface area (MM-PBSA) method with interaction entropy (IE) correction, suggesting their potential to stabilize the PD-L1 dimer interface in silico and serve as computationally prioritized candidates for further experimental evaluation of PD-1/PD-L1 blockade. Overall, this work suggests that fragment-based diffusion modeling is an efficient and interpretable strategy for the discovery of computationally prioritized PD-L1 small-molecule candidate inhibitors and offers a promising framework for tackling challenging targets in cancer immunotherapy.",
+      "authors": [
+        "Liu J",
+        "Yi Y",
+        "Wu X",
+        "Liang J",
+        "Liu B",
+        "Wang B"
+      ],
+      "doi": "10.1007/s11030-026-11642-y",
+      "first_seen": "2026-07-18",
+      "published": "2026 Jul 17",
+      "reasons": [
+        "diffusion model",
+        "protein",
+        "binding"
+      ],
+      "score": 7,
+      "source": "PubMed",
+      "source_id": "42467311",
+      "title": "Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467311/"
+    },
     "doi:10.1016/j.ab.2026.116116": {
       "abstract": "Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially homology-based approaches, face limitations when dealing with non-homologous data. Additionally, conventional machine learning models relying on manually extracted features often fail to capture critical functional characteristics of proteins. To address these challenges, we proposed a novel computational method that integrates pre-trained protein language models (PLMs) with deep learning techniques for CDP prediction. Specifically, the ESM model was employed to generate high-quality protein embeddings, thereby eliminating the need for manual feature extraction. In addition, a customized convolutional neural network (CNN) architecture was designed to automatically learn discriminative features relevant to CDP identification. The proposed computational method was further evaluated on two independent test sets, consistently outperforming existing state-of-the-art approaches. The experimental results demonstrated that the method exhibits strong generalization and robustness across different datasets, highlighting its effectiveness for accurate identification of CDPs.",
       "authors": [
@@ -157,6 +185,38 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
+    },
+    "doi:10.1016/j.chroma.2026.467271": {
+      "abstract": "Computational design has emerged as an important approach for the discovery of peptide ligands in development of affinity chromatography. However, fast and efficient identification of high-affinity and specific ligands is still challenging. Here an artificial intelligence (AI)-based strategy for affinity maturation was proposed for improving the binding affinity of peptide ligands of adeno‒associated virus (AAV). To target AAV receptor-binding region on AAV2 capsid, a de novo design method was applied in the development of peptide ligands and three candidate peptides were identified for affinity maturation. We then introduced a multimodal protein language model, ESM3, to guide peptides generation for the maturation of the binding affinity. After three rounds of docking simulations, a high-affinity peptide A4 with a dissociation constant of 3.8 μmol/L was obtained. Molecular dynamics simulation revealed that the binding of A4 was dominated by electrostatic interactions. By coupling A4 onto Sepharose 4 Fast Flow (Sep4FF) gels, Sep4FF‒A4 gels were synthesized and exhibited good selectivity and serotype specificity to AAV2. AAV2 was adsorbed effectively at pH6.0-8.0 and eluted mildly from the affinity column at 500 mmol/L NaCl. Finally, Sep4FF‒A4 chromatography was successfully used to purify AAV2 with a high transduction efficiency from HEK293 cell culture fluids, and it kept stable with AAV2 yields of 67.4-72.7%, DNA clearance ranging from 47.6-58.7% and HCP clearance ranging from 86.3-91.3% in 20 cycles.",
+      "authors": [
+        "Zhao Y",
+        "Wang F",
+        "Dong X",
+        "Jia G",
+        "Yu L",
+        "Sun Y",
+        "Shi Q"
+      ],
+      "doi": "10.1016/j.chroma.2026.467271",
+      "first_seen": "2026-07-18",
+      "published": "2026 Jul 16",
+      "reasons": [
+        "protein language model",
+        "artificial intelligence",
+        "de novo design",
+        "affinity maturation",
+        "protein",
+        "peptide"
+      ],
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "42462410",
+      "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
     "doi:10.1016/j.jmb.2026.169939": {
       "abstract": "RNA-binding proteins (RBPs) are pivotal regulators of gene expression, and their dysregulation is implicated in a wide range of human diseases. Designing synthetic RNA molecules to modulate RBP activity represents a promising therapeutic strategy, being constrained by the inefficiency of experimental screening and the limited generalization of existing computational models that require RBP-specific interaction data. Here, we present BindRNAgen, a hybrid RNA design framework that couples a variational autoencoder (VAE) with a conditional latent diffusion model (LDM), enabling the generation of binding RNA sequences given the RBP sequence as the input. Using RBP-binding RNAs derived from 168 eCLIP-seq datasets of diverse RBPs, we first pretrain the VAE on RBP-binding RNA sequences to construct a continuous latent representation for RBP binding sequence specificity. The LDM subsequently generates novel RBP-binding RNA sequences within the latent space, conditioned on protein-specific embeddings from the protein language model. For RBPs in the training set, BindRNAgen produces computationally predicted RBP-binding RNA sequences that are biophysically comparable to natural RBP-binding RNAs, outperforming existing benchmarks. Although the generalization for RBP targets outside the training set may be influenced by underlying homology to the training RBPs, BindRNAgen generates RNA sequences with high computationally predicted binding scores, as validated by in silico docking and molecular dynamics (MD) simulations.",
@@ -375,6 +435,36 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
+    },
+    "doi:10.1021/acssynbio.6c00199": {
+      "abstract": "Microbial cell factories represent sustainable platforms for the production of fuels, chemicals, and therapeutics, but their development is limited by challenges in pathway discovery, enzyme optimization, and metabolic regulation. Recent advances in artificial intelligence and machine learning are reshaping this field by enabling predictive pathway design, enhanced protein engineering, and dynamic network regulation. Emerging strategies such as graph neural networks, generative models, and reinforcement learning (RL) now allow systematic exploration of vast design spaces with enhanced accuracy and scalability. This review highlights recent advancements in microbial engineering. It discusses how AI-driven frameworks are advancing the field from experience-guided and rule-based engineering toward data-driven, model-assisted, and increasingly autonomous workflows. These changes lay the foundation for next-generation biomanufacturing.",
+      "authors": [
+        "Huang Y",
+        "Ge R",
+        "Wu L",
+        "Sun Y",
+        "Wang Z",
+        "Cao M"
+      ],
+      "doi": "10.1021/acssynbio.6c00199",
+      "first_seen": "2026-07-18",
+      "published": "2026 Jul 17",
+      "reasons": [
+        "protein engineering",
+        "AI-driven",
+        "artificial intelligence",
+        "generative model",
+        "graph neural network",
+        "protein"
+      ],
+      "score": 19,
+      "source": "PubMed",
+      "source_id": "42359840",
+      "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
     },
     "doi:10.1021/jacs.6c02343": {
       "abstract": "Chemically induced proximity (CIP) and chemically disrupted proximity (CDP) technologies have transformed biological research by enabling precise temporal control of protein-protein interactions and cellular functions. However, despite the extensive development of CIP systems, CDP tools with strong translational potential remain comparatively underdeveloped, calling for the need to expand the CDP toolkit. Here, we present a caffeine-operated dissociation system (CODS), a CDP platform activated by caffeine-an inexpensive and widely available small molecule from food or beverages with a well-established safety profile. Using an AI-guided de novo protein design framework, we reprogrammed an existing caffeine-responsive CIP module into a ligand-dependent dissociation system. CODS exhibits high sensitivity and rapid functional switching, with an EC50 below 90 nM and minute-scale dissociation and reassociation kinetics. We further demonstrate the utility of CODS across diverse cellular contexts, including caffeine-dependent suppression of gene expression, induction of programmed cell death via pyroptosis, and conditional deactivation of chimeric antigen receptor (CAR) T-cell activity. CODS establishes a broadly applicable CDP platform for tunable control of cellular functions and provides a potentially generalizable strategy for engineering chemically controlled dissociation systems from existing CIP architectures.",

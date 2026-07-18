@@ -7,16 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-17** (`2026-07-17T03:41:38Z`)
+Updated: **2026-07-18** (`2026-07-18T03:36:59Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.](https://pubmed.ncbi.nlm.nih.gov/42184340/)<br><sub>Nonomura T, McKee B, Price A et al.</sub> | PubMed<br>2026 Jul 15 | General | 19 |
-| 2 | [De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.](https://pubmed.ncbi.nlm.nih.gov/42461986/)<br><sub>Tran L, Klein S, Juergens D et al.</sub> | PubMed<br>2026 Jul 16 | Binders and therapeutics | 17 |
+| 1 | [Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.](https://pubmed.ncbi.nlm.nih.gov/42462410/)<br><sub>Zhao Y, Wang F, Dong X et al.</sub> | PubMed<br>2026 Jul 16 | Protein language models, Binders and therapeutics | 21 |
+| 2 | [Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.](https://pubmed.ncbi.nlm.nih.gov/42359840/)<br><sub>Huang Y, Ge R, Wu L et al.</sub> | PubMed<br>2026 Jul 17 | Enzymes and function | 19 |
+| 3 | [Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42467311/)<br><sub>Liu J, Yi Y, Wu X et al.</sub> | PubMed<br>2026 Jul 17 | Structure generation, Experimental validation | 7 |
 
 ### All Recommended Papers
+
+#### 2026-07-18
+
+- [Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.](https://pubmed.ncbi.nlm.nih.gov/42462410/) (PubMed, 2026 Jul 16; Protein language models, Binders and therapeutics; score 21)
+- [Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.](https://pubmed.ncbi.nlm.nih.gov/42359840/) (PubMed, 2026 Jul 17; Enzymes and function; score 19)
+- [Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42467311/) (PubMed, 2026 Jul 17; Structure generation, Experimental validation; score 7)
 
 #### 2026-07-17
 
@@ -91,7 +98,7 @@ Updated: **2026-07-17** (`2026-07-17T03:41:38Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-17](outputs/daily/2026-07-17.md)
+- [Daily report for 2026-07-18](outputs/daily/2026-07-18.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

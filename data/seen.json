@@ -56,6 +56,13 @@
       "title": "Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423919/"
     },
+    "doi:10.1007/s11030-026-11642-y": {
+      "first_seen": "2026-07-18",
+      "score": 7,
+      "source": "PubMed",
+      "title": "Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42467311/"
+    },
     "doi:10.1016/j.ab.2026.116116": {
       "first_seen": "2026-07-02",
       "score": 11,
@@ -76,6 +83,13 @@
       "source": "PubMed",
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
+    },
+    "doi:10.1016/j.chroma.2026.467271": {
+      "first_seen": "2026-07-18",
+      "score": 21,
+      "source": "PubMed",
+      "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
@@ -146,6 +160,13 @@
       "source": "PubMed",
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
+    },
+    "doi:10.1021/acssynbio.6c00199": {
+      "first_seen": "2026-07-18",
+      "score": 19,
+      "source": "PubMed",
+      "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
     },
     "doi:10.1021/jacs.6c02343": {
       "first_seen": "2026-07-17",
