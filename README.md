@@ -7,17 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-18** (`2026-07-18T03:36:59Z`)
+Updated: **2026-07-19** (`2026-07-19T03:59:14Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.](https://pubmed.ncbi.nlm.nih.gov/42462410/)<br><sub>Zhao Y, Wang F, Dong X et al.</sub> | PubMed<br>2026 Jul 16 | Protein language models, Binders and therapeutics | 21 |
-| 2 | [Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.](https://pubmed.ncbi.nlm.nih.gov/42359840/)<br><sub>Huang Y, Ge R, Wu L et al.</sub> | PubMed<br>2026 Jul 17 | Enzymes and function | 19 |
-| 3 | [Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42467311/)<br><sub>Liu J, Yi Y, Wu X et al.</sub> | PubMed<br>2026 Jul 17 | Structure generation, Experimental validation | 7 |
+| 1 | [An enzyme-specific protein language model for catalytic property prediction.](https://pubmed.ncbi.nlm.nih.gov/42469205/)<br><sub>Wang C, Li M, Geng S et al.</sub> | PubMed<br>2026 Jul 17 | Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation | 22 |
 
 ### All Recommended Papers
+
+#### 2026-07-19
+
+- [An enzyme-specific protein language model for catalytic property prediction.](https://pubmed.ncbi.nlm.nih.gov/42469205/) (PubMed, 2026 Jul 17; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation; score 22)
 
 #### 2026-07-18
 
@@ -98,7 +100,7 @@ Updated: **2026-07-18** (`2026-07-18T03:36:59Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-18](outputs/daily/2026-07-18.md)
+- [Daily report for 2026-07-19](outputs/daily/2026-07-19.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

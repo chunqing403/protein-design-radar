@@ -498,6 +498,43 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
     },
+    "doi:10.1038/s41467-026-75283-3": {
+      "abstract": "Enzymes drive cellular metabolism, yet predicting catalytic properties from amino acid sequences remains challenging. Existing protein language models (PLMs) provide powerful general-purpose representations but are often inefficient for high-throughput screening and insufficiently adapted to enzyme-specific tasks. Here, we propose EnzGFM, an enzyme-specific PLM based on a Mamba-Transformer hybrid architecture with hierarchical pre-training to capture enzyme-specific patterns. Across enzyme property prediction benchmarks, EnzGFM consistently outperforms Transformer-based PLMs with 2-5-fold acceleration, achieving relative improvements of 16.67% in kinetic parameter prediction, 15.69% in enzyme-reaction mapping, 13.19% in EC number classification, and 20.04% in mutation effect assessment. Building on EnzGFM, we develop EnzGFM-Agent, an enzyme-focused agentic pipeline. Experimental validation further suggests that EnzGFM-Agent can enrich beneficial variants within small candidate pools. Together, these results demonstrate that EnzGFM captures enzyme-specific sequence-function patterns, while EnzGFM-Agent translates these predictions into experimentally actionable candidates and can help reduce wet-lab screening burden for practical enzyme engineering.",
+      "authors": [
+        "Wang C",
+        "Li M",
+        "Geng S",
+        "Li W",
+        "Zhou X",
+        "Wang YG",
+        "Yu Y",
+        "Wang T",
+        "Shen Y"
+      ],
+      "doi": "10.1038/s41467-026-75283-3",
+      "first_seen": "2026-07-19",
+      "published": "2026 Jul 17",
+      "reasons": [
+        "protein language model",
+        "wet-lab",
+        "experimental validation",
+        "transformer",
+        "protein",
+        "enzyme"
+      ],
+      "score": 22,
+      "source": "PubMed",
+      "source_id": "42469205",
+      "title": "An enzyme-specific protein language model for catalytic property prediction.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42469205/"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
       "authors": [
