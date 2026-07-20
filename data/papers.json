@@ -154,6 +154,44 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42467311/"
     },
+    "doi:10.1007/s12602-026-11131-6": {
+      "abstract": "Protein design has numerous applications in synthetic biology, drug discovery, and bioengineering. Recently, there has been a revolution in this field due to the emergence of artificial intelligence. At the forefront are deep learning models (DLMs). The impact of these models on the design pipeline is so transformative that it leads to radical advances in prediction accuracy, functional enrichment, and de novo synthesis of proteins. We performed bibliometric analysis on a Web of Science data-set (2006-2025) obtained through a targeted keyword search. Our analysis method orchestrated the use of standard tools such as CiteSpace and VOSviewer for co-citation, keyword co-occurrence, and burst detection, while we used custom python scripts to generate more nuanced plots for collaboration networks and intellectual overlap. Based on the bibliometric analysis, we observe a sudden jump in publication counts after the year 2018. This period also coincides with the publication of many methodological breakthroughs such as AlphaFold2 and RoseTTAFold. The analysis revealed three major intellectual clusters focused around protein structure prediction, directed evolution, and de novo design of proteins. DLMs play a major role in the publication impact of generating functional protein sequences, with frameworks such as ProteinMPNN having a notable citation footprint. Although China and the United States dominated in raw publication volume, citation impact told a different story-Switzerland ranked second in per-publication influence, suggesting that research programs combining computational design with systematic experimental validation tend to generate disproportionate scholarly impact. International collaborative efforts were notable after 2020. Citation and co-citation analysis highlighted works that have formed the bedrock of this field. Notable mentions include seminal works on AlphaFold2, ProteinMPNN, and RFdiffusion. Protein design stands at the center of an AI revolution that has drawn database mining, computational generation, and experimental validation into an increasingly rapid and interconnected engineering loop. Yet sustaining this momentum requires confronting limitations that the field's most cited literature has largely left unspoken: models trained on stable, crystallizable structures struggle to generalize beyond their training distributions, static predictions remain blind to the conformational dynamics governing allostery and catalysis, and in silico confidence scores have repeatedly proven poor predictors of wet-lab outcomes. Closing this gap will demand not incremental refinement but the sustained, bidirectional coupling of high-throughput experimental feedback with iterative design-test-learn cycles, supported by next-generation models that natively represent PTMs, cellular context, and conformational ensembles-a convergence that holds genuine promise for translating the field's computational ambitions into reliable therapeutic and synthetic biology outcomes.",
+      "authors": [
+        "Zhao W",
+        "Pan X",
+        "Yang W",
+        "Liu Z",
+        "Wei X",
+        "Lin A",
+        "Tang B",
+        "Zhang L",
+        "Xiao M",
+        "Zeng Q",
+        "Cheng Q",
+        "Mou W"
+      ],
+      "doi": "10.1007/s12602-026-11131-6",
+      "first_seen": "2026-07-20",
+      "published": "2026 Jul 18",
+      "reasons": [
+        "protein design",
+        "deep learning",
+        "structure prediction",
+        "wet-lab",
+        "experimental validation",
+        "directed evolution"
+      ],
+      "score": 57,
+      "source": "PubMed",
+      "source_id": "42470596",
+      "title": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42470596/"
+    },
     "doi:10.1016/j.ab.2026.116116": {
       "abstract": "Cyclin-dependent proteins (CDPs), including cyclins, cyclin-dependent kinases (CDKs), and cyclin-dependent kinase inhibitors (CKIs), are pivotal regulators of the eukaryotic cell cycle. Dysregulation of these proteins can lead to disrupted cell cycle control and contribute to cancer progression. Traditional methods for identifying CDPs, especially homology-based approaches, face limitations when dealing with non-homologous data. Additionally, conventional machine learning models relying on manually extracted features often fail to capture critical functional characteristics of proteins. To address these challenges, we proposed a novel computational method that integrates pre-trained protein language models (PLMs) with deep learning techniques for CDP prediction. Specifically, the ESM model was employed to generate high-quality protein embeddings, thereby eliminating the need for manual feature extraction. In addition, a customized convolutional neural network (CNN) architecture was designed to automatically learn discriminative features relevant to CDP identification. The proposed computational method was further evaluated on two independent test sets, consistently outperforming existing state-of-the-art approaches. The experimental results demonstrated that the method exhibits strong generalization and robustness across different datasets, highlighting its effectiveness for accurate identification of CDPs.",
       "authors": [

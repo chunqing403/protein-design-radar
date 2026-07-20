@@ -7,15 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-19** (`2026-07-19T03:59:14Z`)
+Updated: **2026-07-20** (`2026-07-20T04:08:37Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [An enzyme-specific protein language model for catalytic property prediction.](https://pubmed.ncbi.nlm.nih.gov/42469205/)<br><sub>Wang C, Li M, Geng S et al.</sub> | PubMed<br>2026 Jul 17 | Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation | 22 |
+| 1 | [Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.](https://pubmed.ncbi.nlm.nih.gov/42470596/)<br><sub>Zhao W, Pan X, Yang W et al.</sub> | PubMed<br>2026 Jul 18 | Sequence design, Binders and therapeutics, Experimental validation | 57 |
 
 ### All Recommended Papers
+
+#### 2026-07-20
+
+- [Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.](https://pubmed.ncbi.nlm.nih.gov/42470596/) (PubMed, 2026 Jul 18; Sequence design, Binders and therapeutics, Experimental validation; score 57)
 
 #### 2026-07-19
 
@@ -100,7 +104,7 @@ Updated: **2026-07-19** (`2026-07-19T03:59:14Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-19](outputs/daily/2026-07-19.md)
+- [Daily report for 2026-07-20](outputs/daily/2026-07-20.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
