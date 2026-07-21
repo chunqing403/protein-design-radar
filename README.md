@@ -7,15 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-20** (`2026-07-20T04:08:37Z`)
+Updated: **2026-07-21** (`2026-07-21T03:50:46Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.](https://pubmed.ncbi.nlm.nih.gov/42470596/)<br><sub>Zhao W, Pan X, Yang W et al.</sub> | PubMed<br>2026 Jul 18 | Sequence design, Binders and therapeutics, Experimental validation | 57 |
+| 1 | [Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints](http://arxiv.org/abs/2607.18144v1)<br><sub>Thomas MacDougall, Maksim Kuznetsov, Roman Schutski et al.</sub> | arXiv<br>2026-07-20 | Structure generation | 9 |
 
 ### All Recommended Papers
+
+#### 2026-07-21
+
+- [Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints](http://arxiv.org/abs/2607.18144v1) (arXiv, 2026-07-20; Structure generation; score 9)
 
 #### 2026-07-20
 
@@ -104,7 +108,7 @@ Updated: **2026-07-20** (`2026-07-20T04:08:37Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-20](outputs/daily/2026-07-20.md)
+- [Daily report for 2026-07-21](outputs/daily/2026-07-21.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

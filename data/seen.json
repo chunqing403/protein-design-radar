@@ -21,6 +21,13 @@
       "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
       "url": "http://arxiv.org/abs/2607.10887v1"
     },
+    "arxiv:2607.18144v1": {
+      "first_seen": "2026-07-21",
+      "score": 9,
+      "source": "arXiv",
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "url": "http://arxiv.org/abs/2607.18144v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "score": 12,
