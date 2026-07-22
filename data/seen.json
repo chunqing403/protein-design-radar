@@ -28,6 +28,13 @@
       "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
       "url": "http://arxiv.org/abs/2607.18144v1"
     },
+    "arxiv:2607.19237v1": {
+      "first_seen": "2026-07-22",
+      "score": 17,
+      "source": "arXiv",
+      "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
+      "url": "http://arxiv.org/abs/2607.19237v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "score": 12,
@@ -265,6 +272,13 @@
       "source": "PubMed",
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
+    },
+    "doi:10.1093/gigascience/giag081": {
+      "first_seen": "2026-07-22",
+      "score": 22,
+      "source": "PubMed",
+      "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480065/"
     },
     "doi:10.1093/protein/gzag016": {
       "first_seen": "2026-07-07",

@@ -7,15 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-21** (`2026-07-21T03:50:46Z`)
+Updated: **2026-07-22** (`2026-07-22T03:50:51Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints](http://arxiv.org/abs/2607.18144v1)<br><sub>Thomas MacDougall, Maksim Kuznetsov, Roman Schutski et al.</sub> | arXiv<br>2026-07-20 | Structure generation | 9 |
+| 1 | [Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.](https://pubmed.ncbi.nlm.nih.gov/42480065/)<br><sub>Dejean T, Ferrell BD, Schreiber ZD et al.</sub> | PubMed<br>2026 Jul 21 | Sequence design, Protein language models, Enzymes and function | 22 |
+| 2 | [DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1)<br><sub>Yiming Qin, Kai Yi, Miruna Cretu et al.</sub> | arXiv<br>2026-07-21 | Protein language models, Binders and therapeutics | 17 |
 
 ### All Recommended Papers
+
+#### 2026-07-22
+
+- [Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.](https://pubmed.ncbi.nlm.nih.gov/42480065/) (PubMed, 2026 Jul 21; Sequence design, Protein language models, Enzymes and function; score 22)
+- [DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1) (arXiv, 2026-07-21; Protein language models, Binders and therapeutics; score 17)
 
 #### 2026-07-21
 
@@ -108,7 +114,7 @@ Updated: **2026-07-21** (`2026-07-21T03:50:46Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-21](outputs/daily/2026-07-21.md)
+- [Daily report for 2026-07-22](outputs/daily/2026-07-22.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

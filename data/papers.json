@@ -52,6 +52,37 @@
       ],
       "url": "http://arxiv.org/abs/2607.18144v1"
     },
+    "arxiv:2607.19237v1": {
+      "abstract": "Designing small molecule ligands that bind with high affinity to specific protein pockets is a fundamental goal in drug discovery, as small molecules constitute a major fraction of approved therapeutics. Recent breakthroughs in structure prediction, such as AlphaFold-3 and Boltz-2, enable accurate biomolecular interaction prediction and show promise as foundation models for downstream tasks, including binding affinity prediction. We propose to leverage these models and introduce DBMol, a new structure predictor-guided framework for de novo small molecule design. DBMol formulates an alternating optimization and projection process. In the optimization stage, DBMol starts from an initial molecule and uses gradient-based optimization to improve pocket-specific interactions and predicted binding affinity using a structure prediction model. In the projection stage, a flow-matching model maps the optimized molecular graph to discrete and chemically valid molecules. Experiments show that DBMol effectively optimizes the Boltz-2 affinity proxy and generates molecules with strong predicted affinity and specificity under Boltz-2 evaluation. To reduce self-confirmation bias, we further evaluate generated molecules using held-out metrics, including AF3-based evaluation. DBMol substantially improves pocket coverage while maintaining molecular diversity over unconditional generation, and is competitive under held-out metrics despite the absence of reference-ligand supervision. These results support the promise of structure prediction models as effective optimization signals for de novo molecular design.",
+      "authors": [
+        "Yiming Qin",
+        "Kai Yi",
+        "Miruna Cretu",
+        "Sjors H. W. Scheres",
+        "Pietro Liò",
+        "Pascal Frossard"
+      ],
+      "doi": "",
+      "first_seen": "2026-07-22",
+      "published": "2026-07-21",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "foundation model",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "score": 17,
+      "source": "arXiv",
+      "source_id": "2607.19237v1",
+      "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "http://arxiv.org/abs/2607.19237v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -738,6 +769,40 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
+    },
+    "doi:10.1093/gigascience/giag081": {
+      "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
+      "authors": [
+        "Dejean T",
+        "Ferrell BD",
+        "Schreiber ZD",
+        "Harrigan W",
+        "Sawhney R",
+        "Wommack KE",
+        "Polson SW",
+        "Belcaid M"
+      ],
+      "doi": "10.1093/gigascience/giag081",
+      "first_seen": "2026-07-22",
+      "published": "2026 Jul 21",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "structure prediction",
+        "transformer",
+        "protein",
+        "mutation"
+      ],
+      "score": 22,
+      "source": "PubMed",
+      "source_id": "42480065",
+      "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480065/"
     },
     "doi:10.1093/protein/gzag016": {
       "abstract": "Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness of two different computational methods as triaging tools for prioritizing target positions and identifying specific mutations that are likely to improve protein thermodynamic stability. Our benchmarking study used a comprehensive dataset consisting of 174,945 mutations across 180 distinct proteins and evaluated the ESM (Evolutionary Scale Modeling) protein language model alongside a physics-based method, MM/GBSA (Molecular Mechanics Generalized Born Surface Area). We found prediction biases in each method but also determined that these biases can be mitigated by applying the two methods in a complementary manner. We propose a hybrid mutation prioritization and selection strategy that achieves better accuracy than either method alone. Through re-ranking, the combined prioritization strategy attained a higher overall average ROC (receiver operating characteristic) AUC (area under curve) of 0.743 across the dataset compared to either MM/GBSA alone (0.685) or ESM Log Odds alone (0.597). The integrated framework can be adapted and applied to newer AI and physics-based models as the field advances.",
