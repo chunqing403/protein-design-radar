@@ -285,6 +285,38 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.cell.2026.06.029": {
+      "abstract": "Protein-protein interactions underlie biological complexity, and modeling their coevolution is essential for characterizing and engineering molecular assemblies. While protein and genomic language models have excelled at modeling individual proteins, extending these capabilities to protein complexes remains challenging. We present multiple sequence alignment (MSA) Pairformer, a protein language model that builds on AlphaFold2/3's bidirectional refinement between sequence and pairwise residue representations to accurately model the evolution of protein-protein interactions, despite training exclusively on individual chains. MSA Pairformer achieves nearly 3-fold improvement over existing methods in predicting protein-protein interface contacts and better distinguishes binding from non-binding sequences. A learned attention mechanism selectively weights sequences by their inferred evolutionary relevance, enabling discovery of subfamily-specific contacts. On single-protein benchmarks, it achieves state-of-the-art contact prediction and strong variant effect prediction using only 111 million parameters, over two orders of magnitude smaller than frontier models. These results offer an evolutionarily grounded, computationally efficient alternative to the scaling paradigm.",
+      "authors": [
+        "Akiyama Y",
+        "Zhang Z",
+        "Tang O",
+        "Kim RS",
+        "Mirdita M",
+        "Steinegger M",
+        "Ovchinnikov S"
+      ],
+      "doi": "10.1016/j.cell.2026.06.029",
+      "first_seen": "2026-07-23",
+      "published": "2026 Jul 21",
+      "reasons": [
+        "protein language model",
+        "variant effect",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "42480528",
+      "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480528/"
+    },
     "doi:10.1016/j.chroma.2026.467271": {
       "abstract": "Computational design has emerged as an important approach for the discovery of peptide ligands in development of affinity chromatography. However, fast and efficient identification of high-affinity and specific ligands is still challenging. Here an artificial intelligence (AI)-based strategy for affinity maturation was proposed for improving the binding affinity of peptide ligands of adeno‒associated virus (AAV). To target AAV receptor-binding region on AAV2 capsid, a de novo design method was applied in the development of peptide ligands and three candidate peptides were identified for affinity maturation. We then introduced a multimodal protein language model, ESM3, to guide peptides generation for the maturation of the binding affinity. After three rounds of docking simulations, a high-affinity peptide A4 with a dissociation constant of 3.8 μmol/L was obtained. Molecular dynamics simulation revealed that the binding of A4 was dominated by electrostatic interactions. By coupling A4 onto Sepharose 4 Fast Flow (Sep4FF) gels, Sep4FF‒A4 gels were synthesized and exhibited good selectivity and serotype specificity to AAV2. AAV2 was adsorbed effectively at pH6.0-8.0 and eluted mildly from the affinity column at 500 mmol/L NaCl. Finally, Sep4FF‒A4 chromatography was successfully used to purify AAV2 with a high transduction efficiency from HEK293 cell culture fluids, and it kept stable with AAV2 yields of 67.4-72.7%, DNA clearance ranging from 47.6-58.7% and HCP clearance ranging from 86.3-91.3% in 20 cycles.",
       "authors": [
@@ -1104,6 +1136,53 @@
       ],
       "url": "https://doi.org/10.64898/2026.07.09.736951"
     },
+    "doi:10.64898/2026.07.10.737686": {
+      "abstract": "The rapid evolution of plant pathogens poses a persistent threat to global agricultural sustainability, often outpacing the discovery and deployment of natural disease resistance genes. While bioengineering of plant intracellular immune receptors (NLRs) offers a potential solution, developing bespoke immune recognition remains constrained by the laborious characterisation of natural receptors and plant-pathogen interactions. Here, we describe a programmable framework that leverages generative AI protein design tools, RFdiffusion and ProteinMPNN, to design de novo integrated domains (IDs) against diverse pathogen effectors. By integrating these bespoke binders into the modular rice blast Pik-1/Pik-2 NLR receptor chassis, we successfully engineer recognition of a non-cognate virulence factor (effector) from the Panama disease pathogen, Fusarium oxysporum f. sp. cubense Tropical Race 4. Functional assays in Nicotiana benthamiana demonstrate that these de novo domains facilitate specific effector perception and initiate immune signalling, while structural and biophysical analyses confirm that de novo integrated domains maintain high structural fidelity to the initial designs and associate with their targets via the predicted interaction interfaces. Additionally, our findings provide orthogonal evidence for the role of integrated domains in regulation of NLR signalling, demonstrating integration of de novo IDs can either trigger autoactivity or, in some cases, lead to effector-mediated repression of cell death. By decoupling immune perception from natural evolutionary history through deploying AI-designed sensory domains, this work establishes a design-lead framework for generation of programmable plant immune receptors, providing a new avenue for bioengineering crops against emerging pathogens.",
+      "authors": [
+        "Xi, Y.",
+        "Bucknell, A. H.",
+        "Watson, J. L.",
+        "Maqbool, A.",
+        "Bennett, J. W.",
+        "Goreshnik, I.",
+        "Vafeados, D.",
+        "Garcia Sanchez, M.",
+        "Knight, G.",
+        "Zdrzalek, R.",
+        "Rodney, C. A.",
+        "Saado, I.",
+        "Stone, C. E.",
+        "Turley, E. K.",
+        "Yu, D. S.",
+        "Gentle, A.",
+        "Ryder, L. S.",
+        "Yan, X.",
+        "Were, V.",
+        "Heddle, J. G.",
+        "Baker, D.",
+        "Emmrich, P. M. F.",
+        "Talbot, N. J.",
+        "Banfield, M. J.",
+        "Bentham, A. R."
+      ],
+      "doi": "10.64898/2026.07.10.737686",
+      "first_seen": "2026-07-23",
+      "published": "2026-07-21",
+      "reasons": [
+        "protein design",
+        "RFdiffusion",
+        "ProteinMPNN",
+        "protein"
+      ],
+      "score": 16,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.07.10.737686",
+      "title": "Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.",
+      "topics": [
+        "Sequence design"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.10.737686"
+    },
     "doi:10.64898/2026.07.10.737808": {
       "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC 50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
       "authors": [
@@ -1138,6 +1217,33 @@
         "Binders and therapeutics"
       ],
       "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
+    },
+    "doi:10.64898/2026.07.18.739331": {
+      "abstract": "Post-translational modifications (PTMs) regulate protein function through dependencies among residue chemistry, sequence context, three-dimensional microenvironments and modification states, yet most predictors model sites independently and do not connect modification propensity to functional consequences. Here we present ProtSyntax, a PTM-centered protein language model trained on 4.25 million examples spanning 40 PTM classes and supervised for kinase specificity, PTM crosstalk and enzyme kinetics. ProtSyntax integrates bidirectional long-range modeling with geometry-gated attention in a sparse mixture-of-experts architecture and uses adaptive multi-objective learning to couple residue-level PTM syntax to protein-level function. Across 40 PTM-site benchmarks, ProtSyntax improved mean MCC and AP by 12.7% and 10.7%, respectively, relative to the best-performing baselines. It also distinguished authentic sites from structurally incompatible motif decoys, transferred to rare PTMs, recovered crosstalk, linked PTM perturbations to enzyme-kinetic changes and identified disease-associated PTM disruptions. Together, ProtSyntax provides an interpretable framework for decoding PTM regulation across the proteome.",
+      "authors": [
+        "Lin, Y."
+      ],
+      "doi": "10.64898/2026.07.18.739331",
+      "first_seen": "2026-07-23",
+      "published": "2026-07-21",
+      "reasons": [
+        "protein language model",
+        "kinase",
+        "protein",
+        "enzyme",
+        "sequence",
+        "kinase"
+      ],
+      "score": 12,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.07.18.739331",
+      "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.18.739331"
     }
   }
 }

@@ -7,16 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-22** (`2026-07-22T03:50:51Z`)
+Updated: **2026-07-23** (`2026-07-23T03:48:41Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.](https://pubmed.ncbi.nlm.nih.gov/42480065/)<br><sub>Dejean T, Ferrell BD, Schreiber ZD et al.</sub> | PubMed<br>2026 Jul 21 | Sequence design, Protein language models, Enzymes and function | 22 |
-| 2 | [DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1)<br><sub>Yiming Qin, Kai Yi, Miruna Cretu et al.</sub> | arXiv<br>2026-07-21 | Protein language models, Binders and therapeutics | 17 |
+| 1 | [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686)<br><sub>Xi, Y., Bucknell, A. H., Watson, J. L. et al.</sub> | biorxiv<br>2026-07-21 | Sequence design | 16 |
+| 2 | [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331)<br><sub>Lin, Y.</sub> | biorxiv<br>2026-07-21 | Protein language models, Binders and therapeutics, Enzymes and function | 12 |
+| 3 | [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/)<br><sub>Akiyama Y, Zhang Z, Tang O et al.</sub> | PubMed<br>2026 Jul 21 | Structure generation, Sequence design, Protein language models | 11 |
 
 ### All Recommended Papers
+
+#### 2026-07-23
+
+- [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686) (biorxiv, 2026-07-21; Sequence design; score 16)
+- [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331) (biorxiv, 2026-07-21; Protein language models, Binders and therapeutics, Enzymes and function; score 12)
+- [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/) (PubMed, 2026 Jul 21; Structure generation, Sequence design, Protein language models; score 11)
 
 #### 2026-07-22
 
@@ -114,7 +121,7 @@ Updated: **2026-07-22** (`2026-07-22T03:50:51Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-22](outputs/daily/2026-07-22.md)
+- [Daily report for 2026-07-23](outputs/daily/2026-07-23.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

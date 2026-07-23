@@ -105,6 +105,13 @@
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
+    "doi:10.1016/j.cell.2026.06.029": {
+      "first_seen": "2026-07-23",
+      "score": 11,
+      "source": "PubMed",
+      "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42480528/"
+    },
     "doi:10.1016/j.chroma.2026.467271": {
       "first_seen": "2026-07-18",
       "score": 21,
@@ -371,12 +378,26 @@
       "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
       "url": "https://doi.org/10.64898/2026.07.09.736951"
     },
+    "doi:10.64898/2026.07.10.737686": {
+      "first_seen": "2026-07-23",
+      "score": 16,
+      "source": "biorxiv",
+      "title": "Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.",
+      "url": "https://doi.org/10.64898/2026.07.10.737686"
+    },
     "doi:10.64898/2026.07.10.737808": {
       "first_seen": "2026-07-15",
       "score": 10,
       "source": "Crossref",
       "title": "De novo design of selective kinase modulators",
       "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
+    },
+    "doi:10.64898/2026.07.18.739331": {
+      "first_seen": "2026-07-23",
+      "score": 12,
+      "source": "biorxiv",
+      "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
+      "url": "https://doi.org/10.64898/2026.07.18.739331"
     }
   }
 }
