@@ -7,15 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-23** (`2026-07-23T03:48:41Z`)
+Updated: **2026-07-24** (`2026-07-24T03:47:53Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686)<br><sub>Xi, Y., Bucknell, A. H., Watson, J. L. et al.</sub> | biorxiv<br>2026-07-21 | Sequence design | 16 |
-| 2 | [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331)<br><sub>Lin, Y.</sub> | biorxiv<br>2026-07-21 | Protein language models, Binders and therapeutics, Enzymes and function | 12 |
-| 3 | [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/)<br><sub>Akiyama Y, Zhang Z, Tang O et al.</sub> | PubMed<br>2026 Jul 21 | Structure generation, Sequence design, Protein language models | 11 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -121,7 +117,7 @@ Updated: **2026-07-23** (`2026-07-23T03:48:41Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-23](outputs/daily/2026-07-23.md)
+- [Daily report for 2026-07-24](outputs/daily/2026-07-24.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
