@@ -7,13 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-25** (`2026-07-25T03:42:33Z`)
+Updated: **2026-07-26** (`2026-07-26T04:00:00Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.](https://pubmed.ncbi.nlm.nih.gov/42499170/)<br><sub>Miyoshi H, Sakuma K, Moriwaki Y et al.</sub> | PubMed<br>2026 Jul 24 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation | 31 |
+| 2 | [Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering](https://doi.org/10.1101/2025.11.02.685536)<br><sub>Nair, P. M., Steinberg, D. M., Resende, T. et al.</sub> | biorxiv<br>2026-07-24 | Sequence design, Enzymes and function, Experimental validation | 6 |
 
 ### All Recommended Papers
+
+#### 2026-07-26
+
+- [Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.](https://pubmed.ncbi.nlm.nih.gov/42499170/) (PubMed, 2026 Jul 24; Structure generation, Sequence design, Binders and therapeutics, Experimental validation; score 31)
+- [Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering](https://doi.org/10.1101/2025.11.02.685536) (biorxiv, 2026-07-24; Sequence design, Enzymes and function, Experimental validation; score 6)
 
 #### 2026-07-23
 
@@ -117,7 +125,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-07-25](outputs/daily/2026-07-25.md)
+- [Daily report for 2026-07-26](outputs/daily/2026-07-26.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

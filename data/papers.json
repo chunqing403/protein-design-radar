@@ -160,6 +160,41 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
+    "doi:10.1002/prot.70162": {
+      "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
+      "authors": [
+        "Miyoshi H",
+        "Sakuma K",
+        "Moriwaki Y",
+        "Aoyama N",
+        "Kashima T",
+        "Terada T",
+        "Miyanaga A",
+        "Fushinobu S"
+      ],
+      "doi": "10.1002/prot.70162",
+      "first_seen": "2026-07-26",
+      "published": "2026 Jul 24",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "ProteinMPNN",
+        "de novo design",
+        "stability",
+        "kinase"
+      ],
+      "score": 31,
+      "source": "PubMed",
+      "source_id": "42499170",
+      "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42499170/"
+    },
     "doi:10.1007/s11030-026-11638-8": {
       "abstract": "Molecular docking is a fundamental task in drug discovery, yet many deep learning-based docking methods still struggle to generate physically valid conformations. Although post-processing with empirical force fields can partially improve physical plausibility, it breaks tightly coupled modeling by introducing a decoupled refinement stage, increases computational cost, and often weakens ligand-protein interactions and leads to pose deviations. In recent years, diffusion-based molecular docking methods have improved both accuracy and physical validity, but they typically require many sampling steps, resulting in inefficient inference. Internal coordinate-based methods can reduce the number of sampling steps, but their complex pipelines significantly increase per-step computational cost, limiting their practical applicability. To address these challenges, we propose MPFDock, a tightly coupled equivariant flow matching method for molecular docking guided by multimodal physical constraints in Cartesian space. By incorporating geometry-grounded ligand-protein physical interactions during training and employing force field-guided flow matching during inference, MPFDock generates physically realistic and high-accuracy docking conformations according to PoseBusters metrics with significantly fewer inference steps. Experiments on the PoseBusters and DeepDockingDare benchmarks show that MPFDock consistently outperforms existing methods in terms of docking accuracy and physical realism on the evaluated benchmarks.",
       "authors": [
@@ -899,6 +934,44 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2025.11.02.685536": {
+      "abstract": "Enzyme engineering plays a vital role in tailoring biocatalyst performance to meet the needs of target applications. However, the number of sequence trajectories possible from a single wildtype enzyme sequence is too vast to traverse experimentally. Here we present a novel approach that first expands the experimentally accessible sequence space using ultrahigh throughput screening (uHTS), and then uses indirect and low fidelity assay data to create a \"fingerprint\" for a target enzyme class. Experimental data from microfluidic uHTS are extracted and used to engineer specificity into an unspecific peroxygenase (UPO) from Aspergillus brasiliensis (AbrUPO). We created a library with more than 5 million different variants expressed in Komagataella phaffii (Pichia pastoris). Microfluidic droplet sorting was then used to generate a dataset of >30,000 unique sequences paired with function data. This dataset was then used to train a task-specific generative model using the Variational Search Distributions (VSD) framework. We compared the variants selected by rank aggregation from the screening data (R series) with novel sequences generated by the refined generative model (G series). While the wildtype enzyme produces nearly equal amounts of both the desired styrene oxide and undesired phenylacetaldehyde products, three out of five of the highest scoring G series variants produced product mixtures more enriched in the desired compound. In comparison, only one of the five highest scoring R series variants showed this improvement. Overall, the variant most enriched in desired product, G929, produced 2.4x more styrene oxide than phenylacetaldehyde, while G3 and G167, produced the highest quantities of desired product at 2.3x enrichment over the undesired product. Further analysis confirmed that our task-specific generative model outperforms existing models pre-trained on large publicly available datasets. This unique combination of uHTS and generative protein modelling provides an intelligent exploration mechanism which not only enables efficient enzyme discovery, but also accelerates optimization and enables predictive insights that are difficult to achieve with either approach alone.",
+      "authors": [
+        "Nair, P. M.",
+        "Steinberg, D. M.",
+        "Resende, T.",
+        "Suarez, A. F.",
+        "Power, H.",
+        "Ong, C. S.",
+        "Sairam, V.",
+        "Cheng, S. H.-Y.",
+        "Fragata, L.",
+        "Serafini, A.",
+        "Oh, V.",
+        "Tan, S. H.",
+        "Speight, R. E.",
+        "Vahidi, A. K."
+      ],
+      "doi": "10.1101/2025.11.02.685536",
+      "first_seen": "2026-07-26",
+      "published": "2026-07-24",
+      "reasons": [
+        "generative model",
+        "protein",
+        "enzyme",
+        "sequence"
+      ],
+      "score": 6,
+      "source": "biorxiv",
+      "source_id": "10.1101/2025.11.02.685536",
+      "title": "Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.1101/2025.11.02.685536"
     },
     "doi:10.1109/jbhi.2026.3709844": {
       "abstract": "Cell-penetrating peptides (CPPs) are promising carriers for intracellular delivery, but large-scale experimental discovery remains costly and slow. Existing computational predictors often rely on handcrafted sequence descriptors and lack biophysical grounding and interpretability. In this study, we present DeepCPP, a dual-branch frame work that integrates a biophysically informed multi-view residue graph with ESM-2 protein language model embed dings. Specifically, the graph branch encodes local sequence context and residue-wise physicochemical similarity via global-local aggregation with top-k subgraph focusing and gated broadcast, while the ESM branch provides context-aware representations. The two views are aligned and fused by cross-attention with an HSIC-based decor relation term, and a Kolmogorov-Arnold Network (KAN) head enhances nonlinear separability. We also curate a newbenchmark from CPPsite3and adoptcluster-controlled splits to reduce leakage and enable credible generalization. Comprehensive evaluations show that DeepCPP outper forms state-of-the-art CPP and peptide-function prediction methods. Interpretability analyses highlight charge clustering and termini patterns, and reveal residue connectivity consistent with oriented amphipathicity, offering actionable guidance for rational design. Overall, DeepCPP provides an accurate, interpretable, and scalable pre-screening tool for CPP discovery.",

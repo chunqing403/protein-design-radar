@@ -56,6 +56,13 @@
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
+    "doi:10.1002/prot.70162": {
+      "first_seen": "2026-07-26",
+      "score": 31,
+      "source": "PubMed",
+      "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42499170/"
+    },
     "doi:10.1007/s10895-026-04855-9": {
       "first_seen": "2026-06-30",
       "score": 7,
@@ -314,6 +321,13 @@
       "source": "biorxiv",
       "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
       "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1101/2025.11.02.685536": {
+      "first_seen": "2026-07-26",
+      "score": 6,
+      "source": "biorxiv",
+      "title": "Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering",
+      "url": "https://doi.org/10.1101/2025.11.02.685536"
     },
     "doi:10.1101/cshperspect.a041754": {
       "first_seen": "2026-07-02",
