@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-26** (`2026-07-26T04:00:00Z`)
+Updated: **2026-07-27** (`2026-07-27T04:07:16Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.](https://pubmed.ncbi.nlm.nih.gov/42499170/)<br><sub>Miyoshi H, Sakuma K, Moriwaki Y et al.</sub> | PubMed<br>2026 Jul 24 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation | 31 |
-| 2 | [Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering](https://doi.org/10.1101/2025.11.02.685536)<br><sub>Nair, P. M., Steinberg, D. M., Resende, T. et al.</sub> | biorxiv<br>2026-07-24 | Sequence design, Enzymes and function, Experimental validation | 6 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -125,7 +122,7 @@ Updated: **2026-07-26** (`2026-07-26T04:00:00Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-26](outputs/daily/2026-07-26.md)
+- [Daily report for 2026-07-27](outputs/daily/2026-07-27.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
