@@ -476,6 +476,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
+    "doi:10.1021/acs.jcim.6c00632": {
+      "abstract": "Fluorescent proteins (FPs) are widely used reporters for visualizing cellular structures and processes. Traditional wet-lab strategies for FP engineering (rational design and directed evolution) have enabled substantial improvements in photophysical performance but are limited by their requirement for deep expert knowledge or labor-intensive screening. AI-driven approaches have recently gained traction for engineering variants of green FPs, yet applications to red fluorescent proteins (RFPs) remain scarce. Here, we demonstrate an application-focused approach using machine learning (ML) for the local optimization of RFP variants in a low-data setting. Using a data set of over 150 reported RFP sequences, we trained lightweight descriptor-based ML models to prioritize variants within the local sequence space of the state-of-the-art RFP mScarlet-I3. Guided by model predictions, we identified variants exhibiting red-shifted emission peaks, large Stokes shifts, or brightness comparable to the parental protein. Our findings show that these interpretable, data-efficient models can serve as effective auxiliary guides for targeted local engineering, and provide a practical framework for protein optimization.",
+      "authors": [
+        "Ji R",
+        "Jung J",
+        "Cheng H",
+        "Xu EY",
+        "Wang A",
+        "Sit VM",
+        "Pardee K",
+        "Zhao Y"
+      ],
+      "doi": "10.1021/acs.jcim.6c00632",
+      "first_seen": "2026-07-28",
+      "published": "2026 Jul 27",
+      "reasons": [
+        "wet-lab",
+        "directed evolution",
+        "AI-driven",
+        "protein",
+        "sequence"
+      ],
+      "score": 17,
+      "source": "PubMed",
+      "source_id": "42443100",
+      "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
+      "topics": [
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42443100/"
+    },
     "doi:10.1021/acs.jcim.6c00768": {
       "abstract": "Drug resistance is a major challenge in cancer therapy. Cancer cells with pre-existing or acquired mutations that confer resistance to a given drug treatment outgrow the susceptible cell population and cause cancer recurrence after an initial successful treatment response. Knowledge about resistance mutations before they occur in the clinic could prevent unnecessary patient treatment with ineffective drugs, in clinical trials as well as clinical practice, or potentially speed up the development of follow-up compounds. Here, we focused on on-target amino acid mutations that confer resistance to an inhibitor compound with a known binding mode. We evaluated whether a combination of physics-based free energy perturbation (FEP) affinity estimates and protein language model-based protein fitness estimates could improve the in silico identification of resistance mutations. Validation was done with data from deep mutational scanning (DMS) experiments that tested for resistance to single amino acid mutations. A public data set testing ERK2 resistance against the inhibitor SCH772984 and an internal data set testing resistance of an EGFR_exon20 mutant against a Bayer small molecule inhibitor were used. Our results show that protein fitness estimates can facilitate the identification of resistance mutations by filtering mutations with a low estimated fitness. Even though FEP has flagged such mutations as affinity-decreasing and thus potentially resistant, they were not resistant according to the DMS experiment and therefore correctly filtered out. This indicates that protein language model-based protein fitness estimates could be a computationally efficient method to filter mutations without having to model the negative impact of mutations on native function or protein stability, which is error-prone and computationally expensive.",
       "authors": [
@@ -494,7 +525,7 @@
       ],
       "doi": "10.1021/acs.jcim.6c00768",
       "first_seen": "2026-07-14",
-      "published": "2026 Jul 13",
+      "published": "2026 Jul 27",
       "reasons": [
         "protein language model",
         "stability",
@@ -524,7 +555,7 @@
       ],
       "doi": "10.1021/acs.jcim.6c00806",
       "first_seen": "2026-07-06",
-      "published": "2026 Jul 05",
+      "published": "2026 Jul 27",
       "reasons": [
         "protein language model",
         "deep learning",
@@ -561,7 +592,7 @@
       ],
       "doi": "10.1021/acs.jcim.6c00807",
       "first_seen": "2026-07-11",
-      "published": "2026 Jul 10",
+      "published": "2026 Jul 27",
       "reasons": [
         "generative model",
         "protein",

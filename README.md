@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-27** (`2026-07-27T04:07:16Z`)
+Updated: **2026-07-28** (`2026-07-28T03:41:15Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.](https://pubmed.ncbi.nlm.nih.gov/42443100/)<br><sub>Ji R, Jung J, Cheng H et al.</sub> | PubMed<br>2026 Jul 27 | Experimental validation | 17 |
 
 ### All Recommended Papers
+
+#### 2026-07-28
+
+- [Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.](https://pubmed.ncbi.nlm.nih.gov/42443100/) (PubMed, 2026 Jul 27; Experimental validation; score 17)
 
 #### 2026-07-26
 
@@ -63,7 +69,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 #### 2026-07-14
 
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; Experimental validation; score 7)
-- [Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.](https://pubmed.ncbi.nlm.nih.gov/42439482/) (PubMed, 2026 Jul 13; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function; score 7)
+- [Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.](https://pubmed.ncbi.nlm.nih.gov/42439482/) (PubMed, 2026 Jul 27; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function; score 7)
 
 #### 2026-07-13
 
@@ -71,7 +77,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 #### 2026-07-11
 
-- [TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.](https://pubmed.ncbi.nlm.nih.gov/42427182/) (PubMed, 2026 Jul 10; Structure generation, Enzymes and function; score 6)
+- [TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.](https://pubmed.ncbi.nlm.nih.gov/42427182/) (PubMed, 2026 Jul 27; Structure generation, Enzymes and function; score 6)
 
 #### 2026-07-09
 
@@ -87,7 +93,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 #### 2026-07-06
 
-- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 05; Protein language models, Binders and therapeutics, Enzymes and function; score 16)
+- [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 27; Protein language models, Binders and therapeutics, Enzymes and function; score 16)
 - [Membrane protein solubilization and structure determination using de novo–designed proteins](https://www.science.org/doi/10.1126/science.adr3817) (Science, 2026-07-02; Structure generation; score 15)
 - [A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides](https://doi.org/10.64898/2026.07.01.733993) (biorxiv, 2026-07-04; Binders and therapeutics; score 12)
 
@@ -122,7 +128,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-07-27](outputs/daily/2026-07-27.md)
+- [Daily report for 2026-07-28](outputs/daily/2026-07-28.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
