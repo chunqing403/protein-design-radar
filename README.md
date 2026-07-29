@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-28** (`2026-07-28T03:41:15Z`)
+Updated: **2026-07-29** (`2026-07-29T03:44:46Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.](https://pubmed.ncbi.nlm.nih.gov/42443100/)<br><sub>Ji R, Jung J, Cheng H et al.</sub> | PubMed<br>2026 Jul 27 | Experimental validation | 17 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -99,7 +97,7 @@ Updated: **2026-07-28** (`2026-07-28T03:41:15Z`)
 
 #### 2026-07-04
 
-- [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/) (PubMed, 2026 Jul 03; Protein language models; score 12)
+- [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/) (PubMed, 2026 Jul 28; Protein language models; score 12)
 
 #### 2026-07-03
 
@@ -128,7 +126,7 @@ Updated: **2026-07-28** (`2026-07-28T03:41:15Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-28](outputs/daily/2026-07-28.md)
+- [Daily report for 2026-07-29](outputs/daily/2026-07-29.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
