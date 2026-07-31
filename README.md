@@ -7,13 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-30** (`2026-07-30T03:33:52Z`)
+Updated: **2026-07-31** (`2026-07-31T03:54:37Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Property guidance for protein sequence generative models with ProteinGuide.](https://pubmed.ncbi.nlm.nih.gov/42527525/)<br><sub>Xiong J, Gaur I, Lukarska M et al.</sub> | PubMed<br>2026 Jul 29 | Structure generation, Sequence design, Experimental validation | 28 |
+| 2 | [Generative artificial intelligence for enzyme design and biocatalysis.](https://pubmed.ncbi.nlm.nih.gov/42526208/)<br><sub>Middendorf L, Ferruz N</sub> | PubMed<br>2026 Jul 29 | Enzymes and function, Experimental validation | 22 |
 
 ### All Recommended Papers
+
+#### 2026-07-31
+
+- [Property guidance for protein sequence generative models with ProteinGuide.](https://pubmed.ncbi.nlm.nih.gov/42527525/) (PubMed, 2026 Jul 29; Structure generation, Sequence design, Experimental validation; score 28)
+- [Generative artificial intelligence for enzyme design and biocatalysis.](https://pubmed.ncbi.nlm.nih.gov/42526208/) (PubMed, 2026 Jul 29; Enzymes and function, Experimental validation; score 22)
 
 #### 2026-07-28
 
@@ -126,7 +134,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-07-30](outputs/daily/2026-07-30.md)
+- [Daily report for 2026-07-31](outputs/daily/2026-07-31.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

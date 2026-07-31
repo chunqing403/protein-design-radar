@@ -320,6 +320,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.cbpa.2026.102728": {
+      "abstract": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
+      "authors": [
+        "Middendorf L",
+        "Ferruz N"
+      ],
+      "doi": "10.1016/j.cbpa.2026.102728",
+      "first_seen": "2026-07-31",
+      "published": "2026 Jul 29",
+      "reasons": [
+        "protein design",
+        "enzyme design",
+        "experimental validation",
+        "artificial intelligence",
+        "protein",
+        "enzyme"
+      ],
+      "score": 22,
+      "source": "PubMed",
+      "source_id": "42526208",
+      "title": "Generative artificial intelligence for enzyme design and biocatalysis.",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
+    },
     "doi:10.1016/j.cell.2026.06.029": {
       "abstract": "Protein-protein interactions underlie biological complexity, and modeling their coevolution is essential for characterizing and engineering molecular assemblies. While protein and genomic language models have excelled at modeling individual proteins, extending these capabilities to protein complexes remains challenging. We present multiple sequence alignment (MSA) Pairformer, a protein language model that builds on AlphaFold2/3's bidirectional refinement between sequence and pairwise residue representations to accurately model the evolution of protein-protein interactions, despite training exclusively on individual chains. MSA Pairformer achieves nearly 3-fold improvement over existing methods in predicting protein-protein interface contacts and better distinguishes binding from non-binding sequences. A learned attention mechanism selectively weights sequences by their inferred evolutionary relevance, enabling discovery of subfamily-specific contacts. On single-protein benchmarks, it achieves state-of-the-art contact prediction and strong variant effect prediction using only 111 million parameters, over two orders of magnitude smaller than frontier models. These results offer an evolutionarily grounded, computationally efficient alternative to the scaling paradigm.",
       "authors": [
@@ -759,6 +786,39 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42204343/"
+    },
+    "doi:10.1038/s41587-026-03207-z": {
+      "abstract": "No principled framework exists for conditioning sequence generative models for protein engineering on auxiliary information, such as experimental data, without additional training of a generative model. Here we present ProteinGuide, a method for such 'on-the-fly' conditioning. ProteinGuide is amenable to a broad class of protein generative models including masked language models such as ESM3, any-order autoregressive models such as ProteinMPNN and diffusion and flow-matching models on discrete state-spaces such as MultiFlow. ProteinGuide stems from a unifying statistical framework for these model classes. As proof of principle, pretrained generative models are used to design proteins with user-specified properties, such as higher stability or activity. Proteins are additionally designed to optimize for two desired properties that are in tension with each other. Lastly, we apply ProteinGuide jointly with wet-lab data generation to increase the editing activity of an adenine base editor in vivo, resulting in a base editor with higher editing efficiency than was previously achieved using seven rounds of directed evolution.",
+      "authors": [
+        "Xiong J",
+        "Gaur I",
+        "Lukarska M",
+        "Nisonoff H",
+        "Oltrogge LM",
+        "Savage DF",
+        "Listgarten J"
+      ],
+      "doi": "10.1038/s41587-026-03207-z",
+      "first_seen": "2026-07-31",
+      "published": "2026 Jul 29",
+      "reasons": [
+        "protein engineering",
+        "wet-lab",
+        "directed evolution",
+        "ProteinMPNN",
+        "generative model",
+        "stability"
+      ],
+      "score": 28,
+      "source": "PubMed",
+      "source_id": "42527525",
+      "title": "Property guidance for protein sequence generative models with ProteinGuide.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42527525/"
     },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",
