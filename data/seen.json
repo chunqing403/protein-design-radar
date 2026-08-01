@@ -56,6 +56,41 @@
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
+    "doi:10.1002/pro.70696": {
+      "first_seen": "2026-08-01",
+      "score": 21,
+      "source": "PubMed",
+      "title": "Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42429042/"
+    },
+    "doi:10.1002/pro.70714": {
+      "first_seen": "2026-08-01",
+      "score": 17,
+      "source": "PubMed",
+      "title": "Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42423121/"
+    },
+    "doi:10.1002/pro.70717": {
+      "first_seen": "2026-08-01",
+      "score": 24,
+      "source": "PubMed",
+      "title": "RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42427317/"
+    },
+    "doi:10.1002/pro.70718": {
+      "first_seen": "2026-08-01",
+      "score": 13,
+      "source": "PubMed",
+      "title": "Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42417545/"
+    },
+    "doi:10.1002/pro.70726": {
+      "first_seen": "2026-08-01",
+      "score": 34,
+      "source": "PubMed",
+      "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
+    },
     "doi:10.1002/prot.70162": {
       "first_seen": "2026-07-26",
       "score": 31,
@@ -356,6 +391,13 @@
       "source": "PubMed",
       "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
+    },
+    "doi:10.1107/s2059798326006054": {
+      "first_seen": "2026-08-01",
+      "score": 19,
+      "source": "PubMed",
+      "title": "PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473947/"
     },
     "doi:10.1109/jbhi.2026.3709844": {
       "first_seen": "2026-07-03",

@@ -7,16 +7,29 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-07-31** (`2026-07-31T03:54:37Z`)
+Updated: **2026-08-01** (`2026-08-01T03:54:28Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Property guidance for protein sequence generative models with ProteinGuide.](https://pubmed.ncbi.nlm.nih.gov/42527525/)<br><sub>Xiong J, Gaur I, Lukarska M et al.</sub> | PubMed<br>2026 Jul 29 | Structure generation, Sequence design, Experimental validation | 28 |
-| 2 | [Generative artificial intelligence for enzyme design and biocatalysis.](https://pubmed.ncbi.nlm.nih.gov/42526208/)<br><sub>Middendorf L, Ferruz N</sub> | PubMed<br>2026 Jul 29 | Enzymes and function, Experimental validation | 22 |
+| 1 | [De novo design of proteinaceous binders targeting the LEDGF PWWP domain.](https://pubmed.ncbi.nlm.nih.gov/42489162/)<br><sub>Vantieghem T, Delepine J, Noppen S et al.</sub> | PubMed<br>2026 Aug 01 | Sequence design, Binders and therapeutics, Experimental validation | 34 |
+| 2 | [RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.](https://pubmed.ncbi.nlm.nih.gov/42427317/)<br><sub>Tomita N, Chikenji G</sub> | PubMed<br>2026 Aug 01 | Structure generation, Sequence design, Experimental validation | 24 |
+| 3 | [Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.](https://pubmed.ncbi.nlm.nih.gov/42429042/)<br><sub>Yao Z, Metts M, Huber AK et al.</sub> | PubMed<br>2026 Aug 01 | Binders and therapeutics, Experimental validation | 21 |
+| 4 | [PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.](https://pubmed.ncbi.nlm.nih.gov/42473947/)<br><sub>Lombard V, Van JN, Grudinin S et al.</sub> | PubMed<br>2026 Aug 01 | Structure generation, Protein language models, Enzymes and function, Experimental validation | 19 |
+| 5 | [Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.](https://pubmed.ncbi.nlm.nih.gov/42423121/)<br><sub>Gatlin W, Ludwick M, Turano L et al.</sub> | PubMed<br>2026 Aug 01 | Protein language models, Binders and therapeutics, Enzymes and function | 17 |
+| 6 | [Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.](https://pubmed.ncbi.nlm.nih.gov/42417545/)<br><sub>Lee DS, Park B, Salgado S et al.</sub> | PubMed<br>2026 Aug 01 | Binders and therapeutics | 13 |
 
 ### All Recommended Papers
+
+#### 2026-08-01
+
+- [De novo design of proteinaceous binders targeting the LEDGF PWWP domain.](https://pubmed.ncbi.nlm.nih.gov/42489162/) (PubMed, 2026 Aug 01; Sequence design, Binders and therapeutics, Experimental validation; score 34)
+- [RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.](https://pubmed.ncbi.nlm.nih.gov/42427317/) (PubMed, 2026 Aug 01; Structure generation, Sequence design, Experimental validation; score 24)
+- [Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.](https://pubmed.ncbi.nlm.nih.gov/42429042/) (PubMed, 2026 Aug 01; Binders and therapeutics, Experimental validation; score 21)
+- [PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.](https://pubmed.ncbi.nlm.nih.gov/42473947/) (PubMed, 2026 Aug 01; Structure generation, Protein language models, Enzymes and function, Experimental validation; score 19)
+- [Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.](https://pubmed.ncbi.nlm.nih.gov/42423121/) (PubMed, 2026 Aug 01; Protein language models, Binders and therapeutics, Enzymes and function; score 17)
+- [Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.](https://pubmed.ncbi.nlm.nih.gov/42417545/) (PubMed, 2026 Aug 01; Binders and therapeutics; score 13)
 
 #### 2026-07-31
 
@@ -134,7 +147,7 @@ Updated: **2026-07-31** (`2026-07-31T03:54:37Z`)
 
 ### Archive
 
-- [Daily report for 2026-07-31](outputs/daily/2026-07-31.md)
+- [Daily report for 2026-08-01](outputs/daily/2026-08-01.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

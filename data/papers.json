@@ -160,6 +160,167 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
+    "doi:10.1002/pro.70696": {
+      "abstract": "Recent advances in machine learning (ML)-based protein design methods have enabled the rapid in silico generation of large libraries of miniprotein binders with minimal manual input. While computational design capacity has scaled rapidly, experimental validation methods have lagged, creating a bottleneck in binder discovery pipelines. Here, we apply mRNA display to screen an ML-designed miniprotein binder library and directly compare its performance with the more widely used yeast surface display platform using a single shared DNA library. We screened 2009 designs targeting the platelet receptor TLT-1 and 3159 designs targeting the immune receptor B7-H3 across both platforms. While both selection protocols reliably identified functional binders, we found that mRNA display preferentially enriched binders with slower dissociation rates. In addition, mRNA display achieved higher library coverage than yeast display, likely rescuing functional designs that are penalized in a cell-based expression system. Biophysical characterization of selected binders from both platforms revealed strong binding affinities and high thermal stabilities. These results showcase the power of integrating ML-based computational design tools with rapid in vitro selection technologies, providing a scalable framework for therapeutic miniprotein discovery.",
+      "authors": [
+        "Yao Z",
+        "Metts M",
+        "Huber AK",
+        "Li J",
+        "Kinjo T",
+        "Dieckhaus H",
+        "Nallathambi A",
+        "Bowers AA",
+        "Kuhlman B"
+      ],
+      "doi": "10.1002/pro.70696",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein design",
+        "binder design",
+        "experimental validation",
+        "miniprotein",
+        "protein",
+        "binding"
+      ],
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "42429042",
+      "title": "Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42429042/"
+    },
+    "doi:10.1002/pro.70714": {
+      "abstract": "The spatial and energetic encoding of allosteric regulatory sites remains a major challenge in structural biology, frequently representing a \"blind spot\" for sequence-based artificial intelligence (AI) models. We present a protein language model (PLM)-guided approach complemented by the energy landscape frustration analysis as a dual-stream framework to investigate the relationship between AI prediction of binding sites and biophysical organization of regulatory pockets across the human kinome. By probing a fine-tuned residue-level PLM classifier across 453 kinase structures, a clear performance gap is discovered between highly predictable orthosteric pockets (Types I, I.5, and II) and poorly resolved distal allosteric sites (Type IV). Rather than attempting to interpret this blind spot through internal AI attributions alone, we use independent local frustration profiles to analyze the underlying physics of these sites. We determine that the detectability of orthosteric and allosteric binding sites reflects their energetic embedding within the protein energy landscape. Orthosteric catalytic sites reside within minimally frustrated, optimized energetic regions that are consistently detected with high confidence. In contrast, allosteric sites are enriched in neutrally frustrated zones, producing diffuse and context-dependent predictions. We demonstrate that this neutral frustration of functional regions acts as a biophysical lubricant, facilitating the conformational plasticity required for regulatory transitions while simultaneously eroding the coevolutionary signals exploited by PLMs. Atomic-resolution analysis of abelson murine leukemia (ABL) kinase spanning multiple conformational states and complexes bound to diverse ligands provides mechanistic validation of this principle. The myristoyl allosteric pocket in ABL remains neutrally frustrated across complexes with physiological ligands, chemically diverse modulators, from allosteric inhibitors to activators, and conformations engaged with SH2-SH3 regulatory domains. We propose that allosteric sites are encoded in persistent neutrally frustrated regions optimized for context-dependent regulatory modulation. This study reveals how the organization of the protein energy landscape shapes universal \"allosteric grammar\" and algorithmic detectability of regulatory binding sites.",
+      "authors": [
+        "Gatlin W",
+        "Ludwick M",
+        "Turano L",
+        "Foley B",
+        "Riedlová K",
+        "Škrhák V",
+        "Novotný M",
+        "Hoksza D",
+        "Verkhivker GM"
+      ],
+      "doi": "10.1002/pro.70714",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein language model",
+        "artificial intelligence",
+        "kinase",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 17,
+      "source": "PubMed",
+      "source_id": "42423121",
+      "title": "Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42423121/"
+    },
+    "doi:10.1002/pro.70717": {
+      "abstract": "Recent advances in de novo protein design have enabled the generation of diverse novel proteins. However, a fundamental challenge remains: even when an amino acid sequence is designed with the target structure as the most stable conformation, there is currently no reliable computational method for assessing whether the target structure is sufficiently stabilized relative to alternative conformations. While experimental realization of the intended fold requires the target structure to be thermodynamically favored by a large free-energy gap, the absence of a quantitative measure of folding stability makes it difficult to distinguish reliable from unreliable designs. Here, we propose the Residue-attributed Interpretable Neural network for predicting Absolute folding free energy by Merging structure and sequence Information (RINAMI), a machine learning model that predicts the absolute folding free energy (ΔG) of proteins from their three-dimensional structures and amino acid sequences. RINAMI integrates structure- and sequence-based representations derived from ProteinMPNN and Evolutionary Scale Modeling 2 (ESM2) using a multi-head cross-attention mechanism that contextualizes sequence-derived signals within the structural environment. Benchmarking RINAMI on both natural and designed proteins from the Mega-scale and Maxwell datasets shows that it outperforms the tested existing approaches, achieving higher correlations with experimental measurements and improved or comparable prediction errors. An ablation study supports the contribution of sequence-structure integration for predictive accuracy. In addition, RINAMI exhibits strong interpretability by capturing key physicochemical effects, including the destabilizing effect of buried hydrophilic residues, the stabilizing effect of buried hydrophobic residues, and the characteristics of cysteine. Together, these results establish RINAMI as an accurate and interpretable framework for ΔG prediction and provide a practical computational tool for evaluating and prioritizing protein designs prior to experimental testing.",
+      "authors": [
+        "Tomita N",
+        "Chikenji G"
+      ],
+      "doi": "10.1002/pro.70717",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "ProteinMPNN",
+        "folding",
+        "stability",
+        "protein"
+      ],
+      "score": 24,
+      "source": "PubMed",
+      "source_id": "42427317",
+      "title": "RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42427317/"
+    },
+    "doi:10.1002/pro.70718": {
+      "abstract": "Blue coloration in natural and synthetic melanins arises from light reflection rather than absorption, that is, structural rather than pigmentary color. Producing melanin with blue pigmentary color is challenging as it requires the formation of long, homogeneous melanin polymer from tyrosine (Tyr) amino acid. Here, we describe a bottom-up design strategy for producing blue melanin by polymerizing Tyr-containing pentapeptides into a ~60-unit polymer that absorbs at 617 nm. To narrow the sequence space from 160,000 possible amino acid combinations, we used RFdiffusion, a protein deep learning model, to motif-scaffold a pentapeptide-repeat protein (PRP) to identify sequences ideal for blue melanin formation. Top peptide designs were experimentally validated, generating de novo melanin colors (blue, purple, green) alongside known colors (red, yellow, brown). Under acidic conditions, blue melanin remained thermally stable at autoclave temperature of 121°C and photostable for weeks under 600 lux illumination. We also demonstrated the application of blue melanin as an electrophoretic ink. De novo melanin design from simple peptides with sequence-to-color tunability could potentially transform how colorants are sourced and produced. Our approach with computational design should also inspire the development of new deep-learning tools to directly predict colors from amino acid sequences.",
+      "authors": [
+        "Lee DS",
+        "Park B",
+        "Salgado S",
+        "Dolgin J",
+        "Kaplan DL"
+      ],
+      "doi": "10.1002/pro.70718",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "deep learning",
+        "RFdiffusion",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42417545",
+      "title": "Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42417545/"
+    },
+    "doi:10.1002/pro.70726": {
+      "abstract": "Lens epithelium-derived growth factor p75 (LEDGF/p75) is a chromatin reader that recognizes di- or trimethylated Lys36 of histone H3 (H3K36me2/3)-modified nucleosomes and is implicated in diverse diseases, including cancer and human immunodeficiency virus (HIV) infection. Inhibiting the interaction between the Pro-Trp-Trp-Pro (PWWP) domain of LEDGF and chromatin through a small-molecule drug presents an attractive therapeutic opportunity, but the compounds developed to date bind entirely within the small H3K36me2/3 pocket and achieve only modest affinity. Here, we report de novo computational design and structural validation of proteinaceous binders that engage both this canonical pocket and adjacent DNA-interacting surfaces of the PWWP domain. Using a hotspot-driven workflow integrating RFdiffusion, ProteinMPNN, AlphaFold, molecular dynamics simulations and manual structural assessment, we generated four protein designs that were subjected to experimental validation. Biophysical analysis confirmed that one designed binder had a low-micromolar affinity for the LEDGF PWWP domain. Another designed binder revealed unexpected homodimerization which apparently interfered with its binding to the target in solution. Nevertheless, this binder could be co-crystallized with the PWWP domain. The resulting atomic structure at 2.1 Å resolution confirms correct engagement of the intended binding interface. This crystal structure enabled the construction of an expanded pharmacophore model that can instruct the design of next-generation small-molecule or peptide-based inhibitors targeting the LEDGF PWWP domain and related epigenetic readers. These results demonstrate that modern in silico design pipelines can directly yield functional proteinaceous binders without the need for additional experimental screening using phage display or related technologies.",
+      "authors": [
+        "Vantieghem T",
+        "Delepine J",
+        "Noppen S",
+        "Beelen S",
+        "Drexler M",
+        "Holková J",
+        "Houser J",
+        "Veverka V",
+        "Schols D",
+        "Strelkov SV"
+      ],
+      "doi": "10.1002/pro.70726",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein design",
+        "experimental validation",
+        "AlphaFold",
+        "RFdiffusion",
+        "ProteinMPNN",
+        "de novo design"
+      ],
+      "score": 34,
+      "source": "PubMed",
+      "source_id": "42489162",
+      "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
+    },
     "doi:10.1002/prot.70162": {
       "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
       "authors": [
@@ -1063,6 +1224,37 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.1101/2025.11.02.685536"
+    },
+    "doi:10.1107/s2059798326006054": {
+      "abstract": "Proteins move and deform to ensure their biological functions. Despite significant progress in protein structure prediction, approximating conformational ensembles under physiological conditions remains a fundamental open problem. This paper presents a novel perspective on the problem by directly targeting continuous compact representations of protein motions inferred from sparse experimental observations. We develop a task-specific loss function enforcing data symmetries, including scaling and permutation operations. Our method PETIMOT (Protein sEquence and sTructure-based Inference of MOTions) leverages transfer learning from pre-trained protein language models through an SE(3)-equivariant graph neural network. When trained and evaluated on the Protein Data Bank, PETIMOT shows superior performance in time and accuracy, capturing protein dynamics, particularly large/slow conformational changes, compared with state-of-the-art diffusion and flow-matching approaches, as well as traditional physics-based models. Our code and protocols are available at https://github.com/PhyloSofS-Team/PETIMOT.",
+      "authors": [
+        "Lombard V",
+        "Van JN",
+        "Grudinin S",
+        "Laine E"
+      ],
+      "doi": "10.1107/S2059798326006054",
+      "first_seen": "2026-08-01",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein language model",
+        "structure prediction",
+        "graph neural network",
+        "equivariant",
+        "protein",
+        "sequence"
+      ],
+      "score": 19,
+      "source": "PubMed",
+      "source_id": "42473947",
+      "title": "PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42473947/"
     },
     "doi:10.1109/jbhi.2026.3709844": {
       "abstract": "Cell-penetrating peptides (CPPs) are promising carriers for intracellular delivery, but large-scale experimental discovery remains costly and slow. Existing computational predictors often rely on handcrafted sequence descriptors and lack biophysical grounding and interpretability. In this study, we present DeepCPP, a dual-branch frame work that integrates a biophysically informed multi-view residue graph with ESM-2 protein language model embed dings. Specifically, the graph branch encodes local sequence context and residue-wise physicochemical similarity via global-local aggregation with top-k subgraph focusing and gated broadcast, while the ESM branch provides context-aware representations. The two views are aligned and fused by cross-attention with an HSIC-based decor relation term, and a Kolmogorov-Arnold Network (KAN) head enhances nonlinear separability. We also curate a newbenchmark from CPPsite3and adoptcluster-controlled splits to reduce leakage and enable credible generalization. Comprehensive evaluations show that DeepCPP outper forms state-of-the-art CPP and peptide-function prediction methods. Interpretability analyses highlight charge clustering and termini patterns, and reveal residue connectivity consistent with oriented amphipathicity, offering actionable guidance for rational design. Overall, DeepCPP provides an accurate, interpretable, and scalable pre-screening tool for CPP discovery.",
