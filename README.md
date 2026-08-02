@@ -7,18 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-01** (`2026-08-01T03:54:28Z`)
+Updated: **2026-08-02** (`2026-08-02T03:57:15Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [De novo design of proteinaceous binders targeting the LEDGF PWWP domain.](https://pubmed.ncbi.nlm.nih.gov/42489162/)<br><sub>Vantieghem T, Delepine J, Noppen S et al.</sub> | PubMed<br>2026 Aug 01 | Sequence design, Binders and therapeutics, Experimental validation | 34 |
-| 2 | [RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.](https://pubmed.ncbi.nlm.nih.gov/42427317/)<br><sub>Tomita N, Chikenji G</sub> | PubMed<br>2026 Aug 01 | Structure generation, Sequence design, Experimental validation | 24 |
-| 3 | [Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.](https://pubmed.ncbi.nlm.nih.gov/42429042/)<br><sub>Yao Z, Metts M, Huber AK et al.</sub> | PubMed<br>2026 Aug 01 | Binders and therapeutics, Experimental validation | 21 |
-| 4 | [PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.](https://pubmed.ncbi.nlm.nih.gov/42473947/)<br><sub>Lombard V, Van JN, Grudinin S et al.</sub> | PubMed<br>2026 Aug 01 | Structure generation, Protein language models, Enzymes and function, Experimental validation | 19 |
-| 5 | [Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.](https://pubmed.ncbi.nlm.nih.gov/42423121/)<br><sub>Gatlin W, Ludwick M, Turano L et al.</sub> | PubMed<br>2026 Aug 01 | Protein language models, Binders and therapeutics, Enzymes and function | 17 |
-| 6 | [Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.](https://pubmed.ncbi.nlm.nih.gov/42417545/)<br><sub>Lee DS, Park B, Salgado S et al.</sub> | PubMed<br>2026 Aug 01 | Binders and therapeutics | 13 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -147,7 +140,7 @@ Updated: **2026-08-01** (`2026-08-01T03:54:28Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-01](outputs/daily/2026-08-01.md)
+- [Daily report for 2026-08-02](outputs/daily/2026-08-02.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
