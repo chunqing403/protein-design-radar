@@ -356,6 +356,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42499170/"
     },
+    "doi:10.1007/s00210-026-05732-9": {
+      "abstract": "Accurate drug-target affinity prediction is essential for virtual screening, lead compound prioritization, and drug repositioning, especially under cold-start scenarios involving unseen compounds, unseen targets, or unseen drug-target combinations. However, existing methods still face limitations in transferable molecular representation, contextual protein encoding, statistically reliable performance comparison, and biologically interpretable candidate prioritization. In this study, we propose GraESM-FuseDTA, a graph-enhanced protein language model framework for drug-target affinity prediction. In the drug branch, compound SMILES are converted into molecular graphs and encoded by a residual Graph Isomorphism Network with Edge features, enabling the model to capture atom-bond topology and chemically informative substructures. In the protein branch, a frozen ESM-2 protein language model is used to extract contextual sequence representations without fine-tuning the large protein encoder. To model drug-target compatibility more explicitly, GraESM-FuseDTA employs a gated interaction-aware fusion module that preserves drug features, protein features, element-wise interaction features, difference features, and sample-specific gated mixture features. Experiments on the Davis and KIBA datasets show that GraESM-FuseDTA achieves competitive overall performance and consistent advantages in ranking-oriented and variance-explanation metrics across warm start, drug cold start, target cold start, and strict pair cold start settings. Fold-wise statistical significance tests further support the reliability of most top-ranked metric improvements. Interpretability analyses show that the model identifies functionally relevant target sequence regions within the ESM-visible input segment, adaptively adjusts modality contributions across evaluation scenarios, and forms more organized affinity-related latent representations after gated fusion. In addition, a Yamanishi-based case study with SwissDock molecular docking demonstrates that top-ranked predictions can form structurally plausible binding patterns with favorable calculated affinities. These results suggest that GraESM-FuseDTA provides an effective, interpretable, and practically relevant framework for drug-target affinity prediction.",
+      "authors": [
+        "He JW"
+      ],
+      "doi": "10.1007/s00210-026-05732-9",
+      "first_seen": "2026-08-03",
+      "published": "2026 Aug 01",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "graph neural network",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 16,
+      "source": "PubMed",
+      "source_id": "42541540",
+      "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
+    },
     "doi:10.1007/s11030-026-11638-8": {
       "abstract": "Molecular docking is a fundamental task in drug discovery, yet many deep learning-based docking methods still struggle to generate physically valid conformations. Although post-processing with empirical force fields can partially improve physical plausibility, it breaks tightly coupled modeling by introducing a decoupled refinement stage, increases computational cost, and often weakens ligand-protein interactions and leads to pose deviations. In recent years, diffusion-based molecular docking methods have improved both accuracy and physical validity, but they typically require many sampling steps, resulting in inefficient inference. Internal coordinate-based methods can reduce the number of sampling steps, but their complex pipelines significantly increase per-step computational cost, limiting their practical applicability. To address these challenges, we propose MPFDock, a tightly coupled equivariant flow matching method for molecular docking guided by multimodal physical constraints in Cartesian space. By incorporating geometry-grounded ligand-protein physical interactions during training and employing force field-guided flow matching during inference, MPFDock generates physically realistic and high-accuracy docking conformations according to PoseBusters metrics with significantly fewer inference steps. Experiments on the PoseBusters and DeepDockingDare benchmarks show that MPFDock consistently outperforms existing methods in terms of docking accuracy and physical realism on the evaluated benchmarks.",
       "authors": [

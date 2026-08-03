@@ -98,6 +98,13 @@
       "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42499170/"
     },
+    "doi:10.1007/s00210-026-05732-9": {
+      "first_seen": "2026-08-03",
+      "score": 16,
+      "source": "PubMed",
+      "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
+    },
     "doi:10.1007/s10895-026-04855-9": {
       "first_seen": "2026-06-30",
       "score": 7,

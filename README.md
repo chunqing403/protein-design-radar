@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-02** (`2026-08-02T03:57:15Z`)
+Updated: **2026-08-03** (`2026-08-03T03:59:35Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.](https://pubmed.ncbi.nlm.nih.gov/42541540/)<br><sub>He JW</sub> | PubMed<br>2026 Aug 01 | Structure generation, Protein language models, Binders and therapeutics | 16 |
 
 ### All Recommended Papers
+
+#### 2026-08-03
+
+- [GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.](https://pubmed.ncbi.nlm.nih.gov/42541540/) (PubMed, 2026 Aug 01; Structure generation, Protein language models, Binders and therapeutics; score 16)
 
 #### 2026-08-01
 
@@ -140,7 +146,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-02](outputs/daily/2026-08-02.md)
+- [Daily report for 2026-08-03](outputs/daily/2026-08-03.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
