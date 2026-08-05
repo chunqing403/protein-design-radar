@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-04** (`2026-08-04T03:42:47Z`)
+Updated: **2026-08-05** (`2026-08-05T03:38:09Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/)<br><sub>Dou G, Wang K, Qin Z et al.</sub> | PubMed<br>2026 Aug 03 | Protein language models | 11 |
 
 ### All Recommended Papers
+
+#### 2026-08-05
+
+- [PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/) (PubMed, 2026 Aug 03; Protein language models; score 11)
 
 #### 2026-08-03
 
@@ -144,7 +150,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-04](outputs/daily/2026-08-04.md)
+- [Daily report for 2026-08-05](outputs/daily/2026-08-05.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

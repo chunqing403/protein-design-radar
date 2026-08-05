@@ -691,6 +691,35 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
+    "doi:10.1016/j.molp.2026.08.002": {
+      "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.",
+      "authors": [
+        "Dou G",
+        "Wang K",
+        "Qin Z",
+        "Zhang M",
+        "Zhang W",
+        "Miao C",
+        "Li J",
+        "Chen Z"
+      ],
+      "doi": "10.1016/j.molp.2026.08.002",
+      "first_seen": "2026-08-05",
+      "published": "2026 Aug 03",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "42548048",
+      "title": "PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
+    },
     "doi:10.1021/acs.jcim.6c00632": {
       "abstract": "Fluorescent proteins (FPs) are widely used reporters for visualizing cellular structures and processes. Traditional wet-lab strategies for FP engineering (rational design and directed evolution) have enabled substantial improvements in photophysical performance but are limited by their requirement for deep expert knowledge or labor-intensive screening. AI-driven approaches have recently gained traction for engineering variants of green FPs, yet applications to red fluorescent proteins (RFPs) remain scarce. Here, we demonstrate an application-focused approach using machine learning (ML) for the local optimization of RFP variants in a low-data setting. Using a data set of over 150 reported RFP sequences, we trained lightweight descriptor-based ML models to prioritize variants within the local sequence space of the state-of-the-art RFP mScarlet-I3. Guided by model predictions, we identified variants exhibiting red-shifted emission peaks, large Stokes shifts, or brightness comparable to the parental protein. Our findings show that these interpretable, data-efficient models can serve as effective auxiliary guides for targeted local engineering, and provide a practical framework for protein optimization.",
       "authors": [

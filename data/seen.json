@@ -203,6 +203,13 @@
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
+    "doi:10.1016/j.molp.2026.08.002": {
+      "first_seen": "2026-08-05",
+      "score": 11,
+      "source": "PubMed",
+      "title": "PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
+    },
     "doi:10.1016/j.neunet.2026.108707": {
       "first_seen": "2026-07-01",
       "score": 10,
