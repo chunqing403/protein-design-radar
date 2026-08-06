@@ -489,6 +489,13 @@
       "source": "biorxiv",
       "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
       "url": "https://doi.org/10.64898/2026.07.18.739331"
+    },
+    "doi:10.64898/2026.08.02.742339": {
+      "first_seen": "2026-08-06",
+      "score": 29,
+      "source": "biorxiv",
+      "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
+      "url": "https://doi.org/10.64898/2026.08.02.742339"
     }
   }
 }

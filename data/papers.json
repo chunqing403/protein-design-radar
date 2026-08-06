@@ -1656,6 +1656,41 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.07.18.739331"
+    },
+    "doi:10.64898/2026.08.02.742339": {
+      "abstract": "De novo design of protein binders targeting extended, multi-site interaction surfaces remains difficult for current generative methods, which often produce limited structural diversity and predominantly helical topologies. Here, we advance diffusion-based binder design by guiding protein backbone generation through ''seeds,'' which are PDB-derived fragments selected for geometric complementarity to the target surface. To test this approach, we computationally generated seed-guided binders of the bacterial toxin RelE. RelB, the native antitoxin of RelE, engages two distinct interfaces with high surface complementarity, making it an appropriate test case. Seed-guided RFdiffusion produced backbones with substantially higher structural diversity and more target contacts than RFdiffusion alone. Experimental screening of 1,402 designs in a high-throughput bacterial survival assay identified multiple functional binders, including variants with nanomolar to low-micromolar affinity and one design with RelE neutralization comparable to RelBpep. Computational structure prediction and mutational analyses support that the designed interfaces rely on seed-derived contacts and adopt binding modes distinct from RelB. Molecular dynamics simulations and hydrogen-deuterium exchange experiments further suggest that one high-affinity design undergoes a conformational change upon binding. Notably, successful designs exhibited reduced cross-reactivity to RelE orthologs compared with RelBpep, suggesting that the extensive interfaces generated through seed-guided design can enable enhanced selectivity. These results establish motif scaffolding of surface-complementing seeds as an effective strategy for overcoming current limitations of de novo generative models, enabling the design of proteins that can engage challenging interface sites.",
+      "authors": [
+        "Britton, D.",
+        "Ghose, D. A.",
+        "Halpin, J. C.",
+        "Birnbaum, F.",
+        "Gundu, K.",
+        "Raval, S.",
+        "Papanastasiou, M.",
+        "Carr, S. A.",
+        "Keating, A. E."
+      ],
+      "doi": "10.64898/2026.08.02.742339",
+      "first_seen": "2026-08-06",
+      "published": "2026-08-04",
+      "reasons": [
+        "structure prediction",
+        "binder design",
+        "RFdiffusion",
+        "de novo design",
+        "generative model",
+        "motif scaffolding"
+      ],
+      "score": 29,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.08.02.742339",
+      "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.02.742339"
     }
   }
 }

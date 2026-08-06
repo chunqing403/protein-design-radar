@@ -7,15 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-05** (`2026-08-05T03:38:09Z`)
+Updated: **2026-08-06** (`2026-08-06T03:43:30Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/)<br><sub>Dou G, Wang K, Qin Z et al.</sub> | PubMed<br>2026 Aug 03 | Protein language models | 11 |
+| 1 | [Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders](https://doi.org/10.64898/2026.08.02.742339)<br><sub>Britton, D., Ghose, D. A., Halpin, J. C. et al.</sub> | biorxiv<br>2026-08-04 | Structure generation, Binders and therapeutics, Experimental validation | 29 |
 
 ### All Recommended Papers
+
+#### 2026-08-06
+
+- [Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders](https://doi.org/10.64898/2026.08.02.742339) (biorxiv, 2026-08-04; Structure generation, Binders and therapeutics, Experimental validation; score 29)
 
 #### 2026-08-05
 
@@ -150,7 +154,7 @@ Updated: **2026-08-05** (`2026-08-05T03:38:09Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-05](outputs/daily/2026-08-05.md)
+- [Daily report for 2026-08-06](outputs/daily/2026-08-06.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
