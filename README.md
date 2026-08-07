@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-06** (`2026-08-06T03:43:30Z`)
+Updated: **2026-08-07** (`2026-08-07T03:19:50Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders](https://doi.org/10.64898/2026.08.02.742339)<br><sub>Britton, D., Ghose, D. A., Halpin, J. C. et al.</sub> | biorxiv<br>2026-08-04 | Structure generation, Binders and therapeutics, Experimental validation | 29 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -154,7 +152,7 @@ Updated: **2026-08-06** (`2026-08-06T03:43:30Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-06](outputs/daily/2026-08-06.md)
+- [Daily report for 2026-08-07](outputs/daily/2026-08-07.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
