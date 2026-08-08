@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-07** (`2026-08-07T03:19:50Z`)
+Updated: **2026-08-08** (`2026-08-08T02:24:53Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis](https://doi.org/10.64898/2026.03.06.710024)<br><sub>Qiao, Z., Wang, J., Qin, B. et al.</sub> | biorxiv<br>2026-08-06 | Protein language models, Enzymes and function | 7 |
 
 ### All Recommended Papers
+
+#### 2026-08-08
+
+- [The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis](https://doi.org/10.64898/2026.03.06.710024) (biorxiv, 2026-08-06; Protein language models, Enzymes and function; score 7)
 
 #### 2026-08-06
 
@@ -54,7 +60,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 - [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686) (biorxiv, 2026-07-21; Sequence design; score 16)
 - [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331) (biorxiv, 2026-07-21; Protein language models, Binders and therapeutics, Enzymes and function; score 12)
-- [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/) (PubMed, 2026 Jul 21; Structure generation, Sequence design, Protein language models; score 11)
+- [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/) (PubMed, 2026 Aug 06; Structure generation, Sequence design, Protein language models; score 11)
 
 #### 2026-07-22
 
@@ -152,7 +158,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-07](outputs/daily/2026-08-07.md)
+- [Daily report for 2026-08-08](outputs/daily/2026-08-08.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

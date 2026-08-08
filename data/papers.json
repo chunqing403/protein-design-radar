@@ -548,7 +548,7 @@
       ],
       "doi": "10.1016/j.cell.2026.06.029",
       "first_seen": "2026-07-23",
-      "published": "2026 Jul 21",
+      "published": "2026 Aug 06",
       "reasons": [
         "protein language model",
         "variant effect",
@@ -1443,6 +1443,33 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.64898/2026.03.06.710024": {
+      "abstract": "The N-terminal membrane anchor of cytochrome P450s is essential for function yet exceptionally variable--a paradox resistant to alignment-based analysis. Using an alignment-free protein language model (ESM2) pipeline on 345 Sophora tonkinensis P450s, we show the N-terminal 50 residues evolve under pervasive neutral relaxation (mean dispersion 0.62), punctuated by a single constrained island: a PxxG structural hinge (P21, G24 conserved at 98%/99%). Despite lacking sequence-level constraint, embedding-space decomposition resolves this scaffold into two separable channels. DIVA (unsupervised) captures a topological template encoding membrane-anchoring architecture, validated by physicochemical correlations recapitulating ER signal-anchor insertion and confirmed by DeepLoc- 2.1. PIVOT (supervised ablation) captures a family-associated signal whose peak position distinguishes CYP families ({varepsilon}2 = 0.44, permutation p < 0.0001) despite label-free training. The channels are largely separable: PIVOT peaks lie downstream of DIVA peaks in 84.4% of proteins, with mutually exclusive signal-loss sets. The P450 N-terminus thus integrates membrane-topological and family-identity information within a single relaxed region. Neutral evolution is reframed not as absence of information, but as the condition enabling multiplexed functional encoding--a mechanistic rationale for the functional importance of this variable anchor.",
+      "authors": [
+        "Qiao, Z.",
+        "Wang, J.",
+        "Qin, B.",
+        "Wei, F.",
+        "Liang, Y."
+      ],
+      "doi": "10.64898/2026.03.06.710024",
+      "first_seen": "2026-08-08",
+      "published": "2026-08-06",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 7,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.03.06.710024",
+      "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
     "doi:10.64898/2026.06.22.733733": {
       "abstract": "While most existing methods are limited to predicting the tertiary structures of proteins containing only canonical residues, the PEPstrMOD server (developed in 2015) pioneered structure prediction for chemically modified and non-natural peptides. Despite its widespread use, the original framework was restricted to peptides of 7 to 25 residues and relied on older backbone-prediction algorithms. To address these limitations, we present PEPstrMOD2, which introduces three major advancements over its predecessor. First, it replaces the original in-house coordinate generation with state-of-the-art deep learning (DL) algorithms, leveraging AlphaFold2 and ESMFold for highly accurate initial structure prediction. Secondly, it greatly expands the accessible chemical space through incorporation of new, AMBER force-field compatible library of 257 post-translational modifications (PTMs), 428 non-canonical amino acids (NCAAs), and 243 terminal modifications. Lastly, through the application of native scalability of AlphaFold2 (AF2) and ESMFold (EF), PEPstrMOD2 eliminates the original restrictions of the length, enabling the structural modeling of longer, complex therapeutic peptides and small proteins. We evaluated the performance of PEPstrMOD2 against state-of-the-art methods across three distinct peptide datasets. For the AfCyc dataset consisting of 80 cyclic peptides, PEPstrMOD2 obtained a competitive average atom-level Root Mean Square Deviation (RMSD) of 2.05 [A], compared to 1.13 [A] by AlphaFold3 (AF3) and 1.82 [A] by AfCycDesign. Remarkably, for the modified peptide ModPep433 dataset, PEPstrMOD2 outperformed AF3, achieving the lower average RMSD score of 4.49 [A] against 4.67 [A] of AF3. Furthermore, in the case of the ModPep16 benchmark, PEPstrMOD2 achieved 2.50 [A] average RMSD value, which is two times more accurate than that of the original PEPstrMOD (5.84 [A]). In summary, PEPstrMOD2 provides a powerful, high-throughput, and highly accurate platform to facilitate peptide-based drug development and structural biology research. While the original PEPstrMOD was restricted to a web server interface, PEPstrMOD2 is available as both an intuitive webserver and a standalone command-line tool via GitHub, featuring Docker support for easy deployment and reproducible, large-scale modeling pipelines (https://webs.iiitd.edu.in/raghava/pepstrmod/). HighlightsO_LIPEPstrMOD2 predicts structures of chemically modified peptides using deep learning and molecular dynamics refinement. C_LIO_LISupports 928 chemical modifications through custom AMBER based force-field libraries including PTMs, NCAAs, terminal, D- as well as cyclic modifications. C_LIO_LIRemoves peptide length restrictions through AlphaFold2 and ESMFold integration. C_LIO_LIOutperforms PEPstrMOD and is competitive with AF3 on different benchmark datasets. C_LIO_LIAvailable as both a web server and a standalone platform via GitHub and Docker. C_LI",

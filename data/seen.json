@@ -448,6 +448,13 @@
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     },
+    "doi:10.64898/2026.03.06.710024": {
+      "first_seen": "2026-08-08",
+      "score": 7,
+      "source": "biorxiv",
+      "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
+      "url": "https://doi.org/10.64898/2026.03.06.710024"
+    },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
       "score": 12,
