@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-08** (`2026-08-08T02:24:53Z`)
+Updated: **2026-08-09** (`2026-08-09T02:31:58Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis](https://doi.org/10.64898/2026.03.06.710024)<br><sub>Qiao, Z., Wang, J., Qin, B. et al.</sub> | biorxiv<br>2026-08-06 | Protein language models, Enzymes and function | 7 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -158,7 +156,7 @@ Updated: **2026-08-08** (`2026-08-08T02:24:53Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-08](outputs/daily/2026-08-08.md)
+- [Daily report for 2026-08-09](outputs/daily/2026-08-09.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
