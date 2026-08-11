@@ -7,13 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-10** (`2026-08-10T02:37:58Z`)
+Updated: **2026-08-11** (`2026-08-11T02:30:46Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.](https://pubmed.ncbi.nlm.nih.gov/42573394/)<br><sub>Rong D, Lu H, Zhang X et al.</sub> | PubMed<br>2026 Aug 10 | Sequence design, Experimental validation | 29 |
+| 2 | [The sweet spot in protein design-Where deep learning meets first principles.](https://pubmed.ncbi.nlm.nih.gov/42572503/)<br><sub>Cia G, Orlando G, Cianferoni D et al.</sub> | PubMed<br>2026 Aug 10 | Binders and therapeutics | 22 |
+| 3 | [ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.](https://pubmed.ncbi.nlm.nih.gov/42573393/)<br><sub>Grandguillaume I, da Silva FLB, Etchebest C</sub> | PubMed<br>2026 Aug 10 | Protein language models, Binders and therapeutics, Enzymes and function | 13 |
 
 ### All Recommended Papers
+
+#### 2026-08-11
+
+- [EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.](https://pubmed.ncbi.nlm.nih.gov/42573394/) (PubMed, 2026 Aug 10; Sequence design, Experimental validation; score 29)
+- [The sweet spot in protein design-Where deep learning meets first principles.](https://pubmed.ncbi.nlm.nih.gov/42572503/) (PubMed, 2026 Aug 10; Binders and therapeutics; score 22)
+- [ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.](https://pubmed.ncbi.nlm.nih.gov/42573393/) (PubMed, 2026 Aug 10; Protein language models, Binders and therapeutics, Enzymes and function; score 13)
 
 #### 2026-08-08
 
@@ -156,7 +166,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-10](outputs/daily/2026-08-10.md)
+- [Daily report for 2026-08-11](outputs/daily/2026-08-11.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

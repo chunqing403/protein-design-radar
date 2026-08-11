@@ -103,6 +103,39 @@
       ],
       "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
     },
+    "doi:10.1002/1873-3468.70429": {
+      "abstract": "This Perspective explores recent methods and prospective ideas for developing hybrid AI-physics-based pipelines for protein and antibody de novo design. We argue that the highest-confidence candidates emerge where deep learning and first-principles models agree, a \"sweet spot\" that balances generative flexibility with thermodynamic realism. For example, although interface confidence scores such as ipTM, pDockQ2, or ipSAE are widely used to rank generated designs, we show that they are not well suited to rank similar sequences, which suggests the need to combine them with physics-based methods to improve design filtering and ranking. Furthermore, we describe a generalizable framework for implementing antibody design pipelines that combine AI with physics-based modeling and scoring methods and also showcase MadraX, a differentiable and AI-compatible implementation of the FoldX force field. In addition, we classify three tiers of AI-physics integration, from post hoc filtering to full embedding of differentiable physics inside deep learning models. Finally, we discuss the future of the protein design community and underline the need to support current initiatives for community wide blind assessments of the growing number of de novo design pipelines.",
+      "authors": [
+        "Cia G",
+        "Orlando G",
+        "Cianferoni D",
+        "van der Kant R",
+        "Blanco JD",
+        "Verschueren E",
+        "Rousseau F",
+        "Serrano L",
+        "Schymkowitz J"
+      ],
+      "doi": "10.1002/1873-3468.70429",
+      "first_seen": "2026-08-11",
+      "published": "2026 Aug 10",
+      "reasons": [
+        "protein design",
+        "deep learning",
+        "antibody design",
+        "de novo design",
+        "protein",
+        "antibody"
+      ],
+      "score": 22,
+      "source": "PubMed",
+      "source_id": "42572503",
+      "title": "The sweet spot in protein design-Where deep learning meets first principles.",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
+    },
     "doi:10.1002/pro.70667": {
       "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
       "authors": [
@@ -852,6 +885,66 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42427182/"
+    },
+    "doi:10.1021/acs.jcim.6c00836": {
+      "abstract": "Accurate prediction of antibody-antigen (Ab-Ag) complexation is crucial for understanding immune responses, diagnostics, and the development of therapeutic antibodies. While molecular docking generates conformations, current scoring functions struggle to identify near-native poses, particularly for Ab-Ag interactions. We present ARID-sf (Antibody-antigen Residue Interface Docking scoring function), which combines classical force fields with structural features and protein language model embeddings through a self-attention-based neural network architecture. ARID-sf was trained on >1.5 million docking models and evaluated across four independent test sets comprising 806 cases and 700,000+ docking models. ARID-sf consistently outperforms other functions on increasingly challenging docking scenarios. Critically, ARID-sf maintains performance across diverse sequence identities and increasing conformational change required to reach the bound state, starting with unbound components, demonstrating robust generalization. ARID-sf is parallelizable and can process thousands of docking models per minute, enabling practical application in computational Ab engineering pipelines. The code, trained network, and complete pipeline are freely available at https://github.com/DSIMB/ARID-sf.git.",
+      "authors": [
+        "Grandguillaume I",
+        "da Silva FLB",
+        "Etchebest C"
+      ],
+      "doi": "10.1021/acs.jcim.6c00836",
+      "first_seen": "2026-08-11",
+      "published": "2026 Aug 10",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "antibody",
+        "sequence"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42573393",
+      "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
+    },
+    "doi:10.1021/acs.jcim.6c01697": {
+      "abstract": "Designing protein sequences with favorable predicted energetic properties is an important challenge in protein inverse folding, because many existing deep learning methods are primarily trained by maximizing sequence recovery and do not explicitly incorporate energy-related preferences during generation. In this work, we propose EnerBridge-DPO, an energy-aware inverse folding framework that integrates Markov bridge sequence generation with preference optimization for protein complex design. The framework builds on the Markov bridge inverse-folding process to generate structure-compatible sequences from an informative prior sequence. It then introduces a Bridge-DPO objective that uses energy-related winner-loser preference pairs to bias the generator toward sequences favored by computational or experimental energy-related signals. In addition, we incorporate a quantitative energy-constrained loss based on mutation-induced binding free-energy changes to provide continuous ΔΔG supervision. Evaluations show that EnerBridge-DPO maintains competitive inverse-folding performance while obtaining lower predicted energy scores under selected computational scoring functions for protein complexes. On SKEMPI, EnerBridge-DPO achieves competitive ΔΔG prediction performance, with small numerical gains in several overall metrics that are not statistically conclusive under paired bootstrap analysis. These results suggest that incorporating energy-related preferences into Markov bridge inverse folding can improve computationally predicted energetic profiles, although experimental validation is required to confirm thermodynamic stability.",
+      "authors": [
+        "Rong D",
+        "Lu H",
+        "Zhang X",
+        "Zheng W",
+        "Zhang F",
+        "Zheng S",
+        "Liu N"
+      ],
+      "doi": "10.1021/acs.jcim.6c01697",
+      "first_seen": "2026-08-11",
+      "published": "2026 Aug 10",
+      "reasons": [
+        "inverse folding",
+        "deep learning",
+        "experimental validation",
+        "sequence design",
+        "folding",
+        "stability"
+      ],
+      "score": 29,
+      "source": "PubMed",
+      "source_id": "42573394",
+      "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
+      "topics": [
+        "Sequence design",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",

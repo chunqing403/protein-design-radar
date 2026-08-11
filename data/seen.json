@@ -42,6 +42,13 @@
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
       "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
     },
+    "doi:10.1002/1873-3468.70429": {
+      "first_seen": "2026-08-11",
+      "score": 22,
+      "source": "PubMed",
+      "title": "The sweet spot in protein design-Where deep learning meets first principles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
+    },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-02",
       "score": 11,
@@ -251,6 +258,20 @@
       "source": "PubMed",
       "title": "TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42427182/"
+    },
+    "doi:10.1021/acs.jcim.6c00836": {
+      "first_seen": "2026-08-11",
+      "score": 13,
+      "source": "PubMed",
+      "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
+    },
+    "doi:10.1021/acs.jcim.6c01697": {
+      "first_seen": "2026-08-11",
+      "score": 29,
+      "source": "PubMed",
+      "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
