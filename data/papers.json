@@ -83,6 +83,60 @@
       ],
       "url": "http://arxiv.org/abs/2607.19237v1"
     },
+    "arxiv:2608.12090v1": {
+      "abstract": "Protein language models (PLMs) have transferred the latest advances from natural language processing to computational biology. These models, trained on large corpora of protein sequence data, are widely used to translate amino acid sequences into latent-space embeddings, ready for use in diverse downstream tasks (DTs). By a common consensus, embeddings from the model's last layer are used, and the model's internal behavior remains poorly understood. We analyzed 13 PLMs across 15 DTs from 11 datasets to investigate the informativeness of embeddings created in intermediate PLM layers. We trained probe models on embeddings from each layer, compared their performance, and computed characteristics of the latent spaces they span to estimate the information they contain, and found that the last layers of PLMs rarely contained embeddings that led to the best results on downstream tasks. Furthermore, we identified a connection between DTs and the distribution across PLMs' layers of the relevant information to predict that task. For example, similarity between the pre-training objective and the objective of predicting properties of individual residues leads to a steady increase in understanding of such tasks across the layers of PLMs. On the other hand, for whole-protein tasks, we observe that the dataset, rather than the task itself, defines PLMs' ability to perform well on a DT. Embeddings from shallow layers of PLMs perform better for datasets that contain deep mutational scan (DMS) data, while datasets containing diverse natural proteins find most useful embeddings in the models' deeper layers. Additionally, we discover that the performance of PLMs drops significantly when tasks are introduced for artificial proteins.",
+      "authors": [
+        "Roman Joeres",
+        "Ilya Senatorov",
+        "Olga V. Kalinina"
+      ],
+      "doi": "",
+      "first_seen": "2026-08-13",
+      "published": "2026-08-12",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 8,
+      "source": "arXiv",
+      "source_id": "2608.12090v1",
+      "title": "Task- and dataset-specific information in protein language models",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "http://arxiv.org/abs/2608.12090v1"
+    },
+    "arxiv:2608.12192v1": {
+      "abstract": "Foundation models for protein structure prediction remain unreliable on certain targets. External oracles can flag and correct these failures, but biological oracles are expensive, making oracle budget a critical constraint. Existing guidance methods, such as FK-steering, DPO, and Best K-of-N sampling, differ in how they spend this budget, yet no systematic comparison exists to guide method selection. To bridge this gap, we benchmark these methods alongside the recently proposed Optimisation Over Outputs (O3), which applies off-the-shelf optimisers within a generative model's latent subspace. We extend the usage of O3 to protein structure prediction models. Overall, our work provides the first practical reference for oracle budget-aware guidance. Our evaluation on two protein targets, calmodulin (1CLL) and E. coli aspartate transcarbamoylase (9EEH), reveals that no single method consistently dominates across all budgets and oracles. Specifically, O3 proves most effective at low oracle budgets, while FK-steering and DPO demonstrate improved performance as the budget increases. We distil these findings into actionable recommendations for practitioners operating under real-world oracle-budget constraints.",
+      "authors": [
+        "Aleksandra Kalisz",
+        "Jack Simons",
+        "Krisztina Sinkovics",
+        "Noam Ghenassia",
+        "Shikha Surana",
+        "Henry Moss",
+        "Paul Duckworth"
+      ],
+      "doi": "",
+      "first_seen": "2026-08-13",
+      "published": "2026-08-12",
+      "reasons": [
+        "structure prediction",
+        "generative model",
+        "foundation model",
+        "protein",
+        "structure"
+      ],
+      "score": 14,
+      "source": "arXiv",
+      "source_id": "2608.12192v1",
+      "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "http://arxiv.org/abs/2608.12192v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -1237,6 +1291,35 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
+    },
+    "doi:10.1093/bioinformatics/btag605": {
+      "abstract": "Proteins rely on conformational flexibility for biological function, yet predicting alternative states remains a major challenge in structural biology. Although deep learning models like AlphaFold2, AlphaFold3, and RoseTTAFold2 excel at static structure prediction, what these networks actually learn about underlying conformational landscapes remains largely opaque. Here we introduce synthetic multiple sequence alignments (MSAs), designed by inverse folding to encode predefined structural constraints, as a programmable intervention for interrogating the internal logic of structure prediction systems. Synthetic MSAs systematically bias AlphaFold2, AlphaFold3, and RoseTTAFold2 toward distinct conformational states of fold-switching proteins, including alternative conformations inaccessible through natural sequence information alone. Adversarial experiments pairing query sequences with MSAs encoding competing folds reveal sequence-dependent responses, exposing how alignment-derived and sequence-derived signals are weighted within each system. Probing predictions initialized from molecular dynamics trajectories reveals a systematic bias toward compact, training-distribution-favored conformations. Hybrid alignments combining synthetic and natural MSA segments enable targeted steering toward specific conformational states. These results suggest synthetic MSAs as a generalizable framework for dissecting the conformational landscapes encoded by deep learning structure predictors, with direct implications for understanding model behavior and accessing biologically relevant hidden states. Newly generated data can be found on https://zenodo.org/records/20916910. The code underlying this article is available in GitHub at https://github.com/ibmm-unibe-ch/msa-tests. Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Gut JA",
+        "Kleinschmidt N",
+        "Lemmin T"
+      ],
+      "doi": "10.1093/bioinformatics/btag605",
+      "first_seen": "2026-08-13",
+      "published": "2026 Aug 11",
+      "reasons": [
+        "inverse folding",
+        "deep learning",
+        "structure prediction",
+        "folding",
+        "protein",
+        "sequence"
+      ],
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "42581579",
+      "title": "Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42581579/"
     },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",

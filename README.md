@@ -7,13 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-12** (`2026-08-12T02:47:56Z`)
+Updated: **2026-08-13** (`2026-08-13T03:02:15Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.](https://pubmed.ncbi.nlm.nih.gov/42581579/)<br><sub>Gut JA, Kleinschmidt N, Lemmin T</sub> | PubMed<br>2026 Aug 11 | Structure generation, Sequence design, Enzymes and function | 21 |
+| 2 | [How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models](http://arxiv.org/abs/2608.12192v1)<br><sub>Aleksandra Kalisz, Jack Simons, Krisztina Sinkovics et al.</sub> | arXiv<br>2026-08-12 | Protein language models | 14 |
+| 3 | [Task- and dataset-specific information in protein language models](http://arxiv.org/abs/2608.12090v1)<br><sub>Roman Joeres, Ilya Senatorov, Olga V. Kalinina</sub> | arXiv<br>2026-08-12 | Protein language models | 8 |
 
 ### All Recommended Papers
+
+#### 2026-08-13
+
+- [Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.](https://pubmed.ncbi.nlm.nih.gov/42581579/) (PubMed, 2026 Aug 11; Structure generation, Sequence design, Enzymes and function; score 21)
+- [How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models](http://arxiv.org/abs/2608.12192v1) (arXiv, 2026-08-12; Protein language models; score 14)
+- [Task- and dataset-specific information in protein language models](http://arxiv.org/abs/2608.12090v1) (arXiv, 2026-08-12; Protein language models; score 8)
 
 #### 2026-08-11
 
@@ -162,7 +172,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-12](outputs/daily/2026-08-12.md)
+- [Daily report for 2026-08-13](outputs/daily/2026-08-13.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

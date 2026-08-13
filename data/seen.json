@@ -35,6 +35,20 @@
       "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
       "url": "http://arxiv.org/abs/2607.19237v1"
     },
+    "arxiv:2608.12090v1": {
+      "first_seen": "2026-08-13",
+      "score": 8,
+      "source": "arXiv",
+      "title": "Task- and dataset-specific information in protein language models",
+      "url": "http://arxiv.org/abs/2608.12090v1"
+    },
+    "arxiv:2608.12192v1": {
+      "first_seen": "2026-08-13",
+      "score": 14,
+      "source": "arXiv",
+      "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
+      "url": "http://arxiv.org/abs/2608.12192v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "score": 12,
@@ -377,6 +391,13 @@
       "source": "PubMed",
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
+    },
+    "doi:10.1093/bioinformatics/btag605": {
+      "first_seen": "2026-08-13",
+      "score": 21,
+      "source": "PubMed",
+      "title": "Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42581579/"
     },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
