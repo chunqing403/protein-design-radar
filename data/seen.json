@@ -343,6 +343,13 @@
       "title": "Property guidance for protein sequence generative models with ProteinGuide.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42527525/"
     },
+    "doi:10.1038/s41592-026-03137-3": {
+      "first_seen": "2026-08-16",
+      "score": 17,
+      "source": "PubMed",
+      "title": "Aligning protein-generative models to experimental fitness with ProteinDPO.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42601461/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
       "score": 7,

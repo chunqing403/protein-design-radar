@@ -1184,6 +1184,39 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42527525/"
     },
+    "doi:10.1038/s41592-026-03137-3": {
+      "abstract": "Biological generative models can predict biological functions without task-specific training data but often under-perform specialized models. This is due to a fundamental 'alignment gap', where the rules learned during unsupervised training are not related to the function of interest. Here we demonstrate how to provide task-specific information without losing the general knowledge learned during pretraining by using direct preference optimization to align a structure-conditioned protein language model to preferentially generate stable protein sequences. Our aligned model, ProteinDPO, achieves stability prediction competitive to task-specific models and consistently outperforms unsupervised and fine-tuned versions of the model. Notably, ProteinDPO generalizes beyond its training data to enable stabilization and improved binding affinity prediction of large multichain protein complexes. When applied to stabilization of the hemagglutinin trimer, a primary component of influenza vaccines, ~80% of designs achieve increased or similar stability compared with the native hemagglutinin and up to 32 °C improvements from recently emerged mammalian strains. Our results demonstrate how to augment generative models with biophysical information and, more broadly, provide a general framework for the alignment of biological foundation models.",
+      "authors": [
+        "Widatalla T",
+        "Borah AA",
+        "King SH",
+        "Driscoll CL",
+        "Rafailov R",
+        "Hie BL"
+      ],
+      "doi": "10.1038/s41592-026-03137-3",
+      "first_seen": "2026-08-16",
+      "published": "2026 Aug 14",
+      "reasons": [
+        "protein language model",
+        "generative model",
+        "stability",
+        "foundation model",
+        "protein",
+        "binding"
+      ],
+      "score": 17,
+      "source": "PubMed",
+      "source_id": "42601461",
+      "title": "Aligning protein-generative models to experimental fitness with ProteinDPO.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42601461/"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "abstract": "Accurate prediction of protein-protein interaction interfaces is critical for understanding molecular recognition and guiding therapeutic design. This study presents a comprehensive machine learning pipeline for predicting interface residues in permanent homodimeric protein complexes. Using a curated dataset of 1311 homodimers, we benchmarked six widely used machine learning algorithms and identified multilayer perceptron and XGBoost as top performers, achieving Matthews correlation coefficients (MCC) exceeding 0.93. To enhance interpretability and efficiency, we employed recursive feature elimination to derive a minimal set of six biologically meaningful features, including solvent accessibility, surface roughness, planarity, and average protrusion index, that retained high predictive power (MCC > 0.90). Structurally stratified models tailored to α-helical, β-strand, and membrane proteins demonstrated comparable or improved accuracy relative to generalized models, particularly when utilizing the reduced feature subset. As a preliminary demonstration of generalizability, we applied our approach to an external heterodimer complex (PDB ID: 9ETL). While limited to a single case study, the structurally specialized models maintained high accuracy, suggesting potential applicability beyond the training domain. Furthermore, our residue-level feature-driven models demonstrated highly competitive performance when compared against the baseline established by the general-purpose ColabFold pipeline. The results highlight the importance of structural context in interface prediction and demonstrate that compact, structure-aware models can achieve high accuracy while reducing computational complexity. This work provides a scalable, interpretable, and biologically informed approach to protein interface prediction, with implications for large-scale structural descriptor, drug target characterization, and protein engineering applications.",
       "authors": [
