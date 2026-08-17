@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-16** (`2026-08-16T02:00:08Z`)
+Updated: **2026-08-17** (`2026-08-17T01:57:34Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Aligning protein-generative models to experimental fitness with ProteinDPO.](https://pubmed.ncbi.nlm.nih.gov/42601461/)<br><sub>Widatalla T, Borah AA, King SH et al.</sub> | PubMed<br>2026 Aug 14 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation | 17 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -174,7 +172,7 @@ Updated: **2026-08-16** (`2026-08-16T02:00:08Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-16](outputs/daily/2026-08-16.md)
+- [Daily report for 2026-08-17](outputs/daily/2026-08-17.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
