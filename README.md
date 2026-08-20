@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-19** (`2026-08-19T01:55:53Z`)
+Updated: **2026-08-20** (`2026-08-20T01:54:19Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.](https://pubmed.ncbi.nlm.nih.gov/42616438/)<br><sub>Ullah M, Rizwan M, Andoh V et al.</sub> | PubMed<br>2026 Aug 19 | Protein language models, Enzymes and function, Experimental validation | 28 |
 
 ### All Recommended Papers
+
+#### 2026-08-20
+
+- [Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.](https://pubmed.ncbi.nlm.nih.gov/42616438/) (PubMed, 2026 Aug 19; Protein language models, Enzymes and function, Experimental validation; score 28)
 
 #### 2026-08-16
 
@@ -172,7 +178,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-19](outputs/daily/2026-08-19.md)
+- [Daily report for 2026-08-20](outputs/daily/2026-08-20.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

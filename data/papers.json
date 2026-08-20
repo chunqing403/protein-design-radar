@@ -807,6 +807,39 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
     },
+    "doi:10.1021/acs.jafc.6c04272": {
+      "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
+      "authors": [
+        "Ullah M",
+        "Rizwan M",
+        "Andoh V",
+        "Raza A",
+        "Naeem M",
+        "Waheed MI",
+        "Chen Y"
+      ],
+      "doi": "10.1021/acs.jafc.6c04272",
+      "first_seen": "2026-08-20",
+      "published": "2026 Aug 19",
+      "reasons": [
+        "protein design",
+        "protein language model",
+        "deep learning",
+        "directed evolution",
+        "AI-driven",
+        "stability"
+      ],
+      "score": 28,
+      "source": "PubMed",
+      "source_id": "42616438",
+      "title": "Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42616438/"
+    },
     "doi:10.1021/acs.jcim.6c00632": {
       "abstract": "Fluorescent proteins (FPs) are widely used reporters for visualizing cellular structures and processes. Traditional wet-lab strategies for FP engineering (rational design and directed evolution) have enabled substantial improvements in photophysical performance but are limited by their requirement for deep expert knowledge or labor-intensive screening. AI-driven approaches have recently gained traction for engineering variants of green FPs, yet applications to red fluorescent proteins (RFPs) remain scarce. Here, we demonstrate an application-focused approach using machine learning (ML) for the local optimization of RFP variants in a low-data setting. Using a data set of over 150 reported RFP sequences, we trained lightweight descriptor-based ML models to prioritize variants within the local sequence space of the state-of-the-art RFP mScarlet-I3. Guided by model predictions, we identified variants exhibiting red-shifted emission peaks, large Stokes shifts, or brightness comparable to the parental protein. Our findings show that these interpretable, data-efficient models can serve as effective auxiliary guides for targeted local engineering, and provide a practical framework for protein optimization.",
       "authors": [
