@@ -385,6 +385,13 @@
       "title": "Understanding language model scaling for protein fitness prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443524/"
     },
+    "doi:10.1039/d6sc02631a": {
+      "first_seen": "2026-08-21",
+      "score": 18,
+      "source": "PubMed",
+      "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/"
+    },
     "doi:10.1080/07388551.2026.2680416": {
       "first_seen": "2026-07-02",
       "score": 14,
@@ -503,6 +510,13 @@
       "source": "PubMed",
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.1371/journal.pcbi.1014499": {
+      "first_seen": "2026-08-21",
+      "score": 18,
+      "source": "PubMed",
+      "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
     },
     "doi:10.64898/2026.03.06.710024": {
       "first_seen": "2026-08-08",

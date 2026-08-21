@@ -7,15 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-20** (`2026-08-20T01:54:19Z`)
+Updated: **2026-08-21** (`2026-08-21T02:01:11Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.](https://pubmed.ncbi.nlm.nih.gov/42616438/)<br><sub>Ullah M, Rizwan M, Andoh V et al.</sub> | PubMed<br>2026 Aug 19 | Protein language models, Enzymes and function, Experimental validation | 28 |
+| 1 | [CLDN18.2 antibody design with protein language models: A deep learning optimization framework.](https://pubmed.ncbi.nlm.nih.gov/42623408/)<br><sub>Qu T, Yuan L, Cui W et al.</sub> | PubMed<br>2026 Aug 20 | Protein language models, Binders and therapeutics, Enzymes and function | 18 |
+| 2 | [HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.](https://pubmed.ncbi.nlm.nih.gov/42441251/)<br><sub>Hu H, Zhu R, Zhu N et al.</sub> | PubMed<br>2026 Aug 19 | Structure generation, Sequence design, Binders and therapeutics | 18 |
 
 ### All Recommended Papers
+
+#### 2026-08-21
+
+- [CLDN18.2 antibody design with protein language models: A deep learning optimization framework.](https://pubmed.ncbi.nlm.nih.gov/42623408/) (PubMed, 2026 Aug 20; Protein language models, Binders and therapeutics, Enzymes and function; score 18)
+- [HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.](https://pubmed.ncbi.nlm.nih.gov/42441251/) (PubMed, 2026 Aug 19; Structure generation, Sequence design, Binders and therapeutics; score 18)
 
 #### 2026-08-20
 
@@ -108,7 +114,7 @@ Updated: **2026-08-20** (`2026-08-20T01:54:19Z`)
 #### 2026-07-17
 
 - [AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.](https://pubmed.ncbi.nlm.nih.gov/42184340/) (PubMed, 2026 Jul 15; General; score 19)
-- [De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.](https://pubmed.ncbi.nlm.nih.gov/42461986/) (PubMed, 2026 Jul 16; Binders and therapeutics; score 17)
+- [De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.](https://pubmed.ncbi.nlm.nih.gov/42461986/) (PubMed, 2026 Aug 20; Binders and therapeutics; score 17)
 
 #### 2026-07-15
 
@@ -178,7 +184,7 @@ Updated: **2026-08-20** (`2026-08-20T01:54:19Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-20](outputs/daily/2026-08-20.md)
+- [Daily report for 2026-08-21](outputs/daily/2026-08-21.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

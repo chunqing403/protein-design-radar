@@ -1305,6 +1305,41 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443524/"
     },
+    "doi:10.1039/d6sc02631a": {
+      "abstract": "Cyclic peptides are promising scaffolds for targeting protein surfaces due to their unique structural and functional advantages. However, the limited availability of cyclic peptide-protein complex structures severely restricts the design of target-specific cyclic peptides. Here, we introduce HFGuidedDesign, a de novo cyclic peptide design framework that integrates a discrete diffusion model with external structure guidance. By incorporating the high-accuracy complex structure predictor HighFold, the framework performs real-time structural evaluation during reverse diffusion sampling and dynamically steers sequence generation toward cyclic peptides with favorable structural plausibility and binding potential. The discrete diffusion model is trained using a two-stage strategy, including pre-training on peptide monomers and fine-tuning on peptide-protein complex structures. In design tasks targeting two distinct proteins, we evaluate two classical cyclization strategies-head-to-tail and disulfide bond cyclization. The resulting cyclic peptides achieved sequence design success rates of 75% and 66.7% for the two targets, demonstrating the effectiveness and generalizability of the framework. This study establishes an innovative and scalable computational framework for sequence-based cyclic peptide design, facilitating the development of peptide-based ligands for protein targeting.",
+      "authors": [
+        "Hu H",
+        "Zhu R",
+        "Zhu N",
+        "Zhang C",
+        "Shang T",
+        "Li C",
+        "Guo J",
+        "Wang X",
+        "Duan H"
+      ],
+      "doi": "10.1039/d6sc02631a",
+      "first_seen": "2026-08-21",
+      "published": "2026 Aug 19",
+      "reasons": [
+        "diffusion model",
+        "de novo design",
+        "sequence design",
+        "protein",
+        "peptide",
+        "binding"
+      ],
+      "score": 18,
+      "source": "PubMed",
+      "source_id": "42441251",
+      "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/"
+    },
     "doi:10.1093/bioinformatics/btag375": {
       "abstract": "Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for feature extraction and downstream analyses. Large-scale embedding generation is further limited by inefficiencies in computation and memory: (i) accumulating all model outputs in memory before writing to disk causes severe bottlenecks, and (ii) repeatedly embedding identical sequences to extract different modes introduces redundant computation and drastically reduces throughput and scalability. We introduce PEPE (Parallel Extraction for Protein Embeddings), a command-line tool and Python library that enables efficient, high-throughput, and multimodal extraction from protein language models. PEPE's parallelized and streaming-based architecture achieves runtimes several orders of magnitude faster than sequential approaches. Unlike conventional methods-whose peak memory usage scales linearly with output size and fails when memory capacity is exceeded-PEPE maintains stable, low memory consumption, enabling multimodal embedding extraction even beyond available RAM. PEPE supports a wide range of state-of-the-art and custom PLMs through a simple, flexible interface. By combining scalability, robustness, and ease of use, PEPE allows researchers to generate massive, information-rich embedding datasets efficiently, and facilitate the discovery of optimal representations for structural, functional, and evolutionary downstream tasks. By streamlining the generation of diverse embedding configurations, PEPE provides researchers with the necessary data to identify high-performing latent states for specific biological contexts without requiring additional computational resources. PEPE is a command-line tool written in Python and published under MIT license. The source code and documentation are available at https://github.com/csi-greifflab/pepe-cli. PEPE is also available for installation from PyPI under https://pypi.org/project/pepe-cli and deposited on Zenodo at https://zenodo.org/records/20268104.",
       "authors": [
@@ -1627,7 +1662,7 @@
       "url": "https://www.science.org/doi/10.1126/science.adr3817"
     },
     "doi:10.1126/science.aeb0822": {
-      "abstract": "Fluorescent proteins and small-molecule dyes offer complementary advantages for biological imaging: proteins are amenable to genetic tagging, whereas dyes provide superior brightness and photostability. To combine these strengths, we used de novo protein design to generate small, nanomolar-affinity, high-selectivity binders (NovoTags) for three cell-permeable dyes spanning the visible spectrum. We show that the NovoTag fluorescent lifetimes can be tuned and demonstrate their application in lifetime and wavelength-based multiplexed fluorescence imaging. We further design a two-chain NovoTag that functions as a chemically induced dimerization system with fluorescent readout in living cells, or as a minimally perturbing proximity probe in fixed cells. Our approach combines the advantages of fluorescent proteins and small-molecule dyes, expanding the toolkit for cellular imaging.",
+      "abstract": "Fluorescent proteins and small-molecule dyes offer complementary advantages for biological imaging: Proteins are amenable to genetic tagging, whereas dyes provide superior brightness and photostability. To combine these strengths, we used de novo protein design to generate small, nanomolar-affinity, high-selectivity binders (NovoTags) for three cell-permeable dyes spanning the visible spectrum. We show that the NovoTag fluorescent lifetimes can be tuned and demonstrate their application in lifetime- and wavelength-based multiplexed fluorescence imaging. We also designed a two-chain version (NovoSplit) that functions as a chemically induced dimerization system with fluorescent readout in living cells or as a minimally perturbing proximity probe in fixed cells. Our approach combines the advantages of fluorescent proteins and small-molecule dyes, thus expanding the toolkit for cellular imaging.",
       "authors": [
         "Tran L",
         "Klein S",
@@ -1644,7 +1679,7 @@
       ],
       "doi": "10.1126/science.aeb0822",
       "first_seen": "2026-07-17",
-      "published": "2026 Jul 16",
+      "published": "2026 Aug 20",
       "reasons": [
         "protein design",
         "de novo protein",
@@ -1685,6 +1720,41 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.1371/journal.pcbi.1014499": {
+      "abstract": "CLDN18.2 is a promising tumor-specific antigen; however, the development of therapeutic antibodies against it is challenged by the need for simultaneous optimization of affinity and developability. To address this, we present cdrGPT, a deep learning framework based on GPT-2 for de novo generation of complementarity-determining region H3 (CDRH3) sequences. Our approach integrates pre-training on the Observed Antibody Space (OAS) database with structural templating derived from the known antibody zolbetuximab. Generated sequences were iteratively refined through rejection sampling and fine-tuned against a multi-parameter objective function encompassing predicted affinity and MHC class II binding risk. From an initial set of 50,000 sequences, this screening pipeline yielded 313 high-confidence candidates. Subsequent analysis using evolutionary scale modeling 2 (ESM2) embeddings, principal component analysis (PCA), and clustering revealed three structurally distinct clusters, with intra-cluster cosine similarities exceeding 0.99. Validation of seven representative sequences from the dominant cluster using AlphaFold3 confirmed high structural fidelity to the zolbetuximab template, demonstrating a root mean square deviation (RMSD) of 1.331 Å for the CDRH3 loop and positional deviations of less than 0.4 Å for key paratope residues. These results indicate that the designed variants preserve the core binding mode of the parent antibody. This study establishes a feasible pipeline for integrating AI-generated CDRH3 loops into functional antibody scaffolds, providing a foundation for the accelerated development of therapeutics targeting CLDN18.2 and other clinically relevant antigens.",
+      "authors": [
+        "Qu T",
+        "Yuan L",
+        "Cui W",
+        "Tang J",
+        "Bing Z",
+        "Xu X",
+        "Duan J",
+        "Yang Q",
+        "Cai H"
+      ],
+      "doi": "10.1371/journal.pcbi.1014499",
+      "first_seen": "2026-08-21",
+      "published": "2026 Aug 20",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "antibody design",
+        "protein",
+        "antibody",
+        "binding"
+      ],
+      "score": 18,
+      "source": "PubMed",
+      "source_id": "42623408",
+      "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
     },
     "doi:10.64898/2026.03.06.710024": {
       "abstract": "The N-terminal membrane anchor of cytochrome P450s is essential for function yet exceptionally variable--a paradox resistant to alignment-based analysis. Using an alignment-free protein language model (ESM2) pipeline on 345 Sophora tonkinensis P450s, we show the N-terminal 50 residues evolve under pervasive neutral relaxation (mean dispersion 0.62), punctuated by a single constrained island: a PxxG structural hinge (P21, G24 conserved at 98%/99%). Despite lacking sequence-level constraint, embedding-space decomposition resolves this scaffold into two separable channels. DIVA (unsupervised) captures a topological template encoding membrane-anchoring architecture, validated by physicochemical correlations recapitulating ER signal-anchor insertion and confirmed by DeepLoc- 2.1. PIVOT (supervised ablation) captures a family-associated signal whose peak position distinguishes CYP families ({varepsilon}2 = 0.44, permutation p < 0.0001) despite label-free training. The channels are largely separable: PIVOT peaks lie downstream of DIVA peaks in 84.4% of proteins, with mutually exclusive signal-loss sets. The P450 N-terminus thus integrates membrane-topological and family-identity information within a single relaxed region. Neutral evolution is reframed not as absence of information, but as the condition enabling multiplexed functional encoding--a mechanistic rationale for the functional importance of this variable anchor.",
