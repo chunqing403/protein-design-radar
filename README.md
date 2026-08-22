@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-21** (`2026-08-21T02:01:11Z`)
+Updated: **2026-08-22** (`2026-08-22T01:53:16Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [CLDN18.2 antibody design with protein language models: A deep learning optimization framework.](https://pubmed.ncbi.nlm.nih.gov/42623408/)<br><sub>Qu T, Yuan L, Cui W et al.</sub> | PubMed<br>2026 Aug 20 | Protein language models, Binders and therapeutics, Enzymes and function | 18 |
-| 2 | [HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.](https://pubmed.ncbi.nlm.nih.gov/42441251/)<br><sub>Hu H, Zhu R, Zhu N et al.</sub> | PubMed<br>2026 Aug 19 | Structure generation, Sequence design, Binders and therapeutics | 18 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -184,7 +181,7 @@ Updated: **2026-08-21** (`2026-08-21T02:01:11Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-21](outputs/daily/2026-08-21.md)
+- [Daily report for 2026-08-22](outputs/daily/2026-08-22.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
