@@ -7,19 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-24** (`2026-08-24T07:11:05Z`)
+Updated: **2026-08-24** (`2026-08-24T07:35:42Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.](https://pubmed.ncbi.nlm.nih.gov/42624861/)<br><sub>Broske B, McEnroe BA, Frechen SC et al.</sub> | PubMed<br>2026 Aug 20 | Protein language models, Binders and therapeutics, Experimental validation | 36 |
+| 1 | [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins](https://www.nature.com/articles/s41467-026-76760-5)<br><sub>Bianca Broske, Benjamin A. McEnroe, Sophie C. Frechen et al.</sub> | Nat Commun<br>2026-08-20 | Protein language models, Binders and therapeutics, Experimental validation | 36 |
 
 ### All Recommended Papers
 
 #### 2026-08-24
 
-- [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.](https://pubmed.ncbi.nlm.nih.gov/42624861/) (PubMed, 2026 Aug 20; Protein language models, Binders and therapeutics, Experimental validation; score 36)
+- [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins](https://www.nature.com/articles/s41467-026-76760-5) (Nat Commun, 2026-08-20; Protein language models, Binders and therapeutics, Experimental validation; score 36)
 
 #### 2026-08-21
 

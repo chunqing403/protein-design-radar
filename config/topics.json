@@ -5,6 +5,25 @@
   "google_scholar_enabled": true,
   "google_scholar_max_pages": 2,
   "journal_feeds_enabled": true,
+  "publisher_scans_enabled": true,
+  "publisher_scan_max_results": 12000,
+  "publisher_scans": [
+    {
+      "name": "Nature Portfolio",
+      "prefix": "10.1038",
+      "max_results": 5000
+    },
+    {
+      "name": "Science family",
+      "prefix": "10.1126",
+      "max_results": 2000
+    },
+    {
+      "name": "Cell Press / Elsevier",
+      "prefix": "10.1016",
+      "max_results": 12000
+    }
+  ],
   "min_score": 6,
   "report_limit": 25,
   "require_ai_keyword_in_title": true,

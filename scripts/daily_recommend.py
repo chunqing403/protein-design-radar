@@ -440,6 +440,32 @@ def crossref_date(message: dict) -> str:
     return ""
 
 
+def crossref_item_to_paper(message: dict, fallback_source: str = "Crossref") -> Paper | None:
+    title = clean_text(" ".join(message.get("title", [])))
+    if not title:
+        return None
+    container = clean_text(" ".join(message.get("short-container-title", [])))
+    if not container:
+        container = clean_text(" ".join(message.get("container-title", []))) or fallback_source
+    authors = []
+    for author in (message.get("author") or [])[:12]:
+        name = clean_text(" ".join(part for part in [author.get("given", ""), author.get("family", "")] if part))
+        if name:
+            authors.append(name)
+    doi = clean_text(message.get("DOI", ""))
+    return Paper(
+        title=title,
+        authors=authors,
+        abstract=clean_text(message.get("abstract", "")),
+        source=container,
+        published=crossref_date(message),
+        url=clean_text((message.get("resource") or {}).get("primary", {}).get("URL", ""))
+        or clean_text(message.get("URL", "")),
+        doi=doi,
+        source_id=doi,
+    )
+
+
 def crossref_doi_query(dois: list[str]) -> list[Paper]:
     papers: list[Paper] = []
     for raw_doi in dois:
@@ -458,29 +484,63 @@ def crossref_doi_query(dois: list[str]) -> list[Paper]:
             print(f"warning: Crossref lookup failed for {doi}", file=sys.stderr)
             continue
         message = payload.get("message", {})
-        title = clean_text(" ".join(message.get("title", [])))
-        if not title:
+        paper = crossref_item_to_paper(message)
+        if paper:
+            papers.append(paper)
+    return papers
+
+
+def crossref_prefix_query(scans: list[dict], start: dt.date, end: dt.date, default_max_results: int) -> list[Paper]:
+    papers: list[Paper] = []
+    mailto = clean_text(os.getenv("CROSSREF_MAILTO", "") or os.getenv("NCBI_EMAIL", ""))
+    for scan in scans:
+        name = clean_text(scan.get("name", "Crossref publisher scan"))
+        prefix = clean_text(scan.get("prefix", ""))
+        if not prefix:
             continue
-        container = clean_text(" ".join(message.get("short-container-title", [])))
-        if not container:
-            container = clean_text(" ".join(message.get("container-title", []))) or "Crossref"
-        authors = []
-        for author in message.get("author", [])[:12]:
-            name = clean_text(" ".join(part for part in [author.get("given", ""), author.get("family", "")] if part))
-            if name:
-                authors.append(name)
-        papers.append(
-            Paper(
-                title=title,
-                authors=authors,
-                abstract=clean_text(message.get("abstract", "")),
-                source=container,
-                published=crossref_date(message),
-                url=clean_text(message.get("resource", {}).get("primary", {}).get("URL", "")) or clean_text(message.get("URL", "")),
-                doi=clean_text(message.get("DOI", doi)),
-                source_id=clean_text(message.get("DOI", doi)),
-            )
-        )
+        max_results = int(scan.get("max_results", default_max_results))
+        page_size = max(1, min(1000, int(scan.get("page_size", 1000))))
+        cursor = "*"
+        collected = 0
+        while collected < max_results:
+            rows = min(page_size, max_results - collected)
+            params = {
+                "filter": ",".join(
+                    [
+                        f"prefix:{prefix}",
+                        "type:journal-article",
+                        f"from-created-date:{start.isoformat()}",
+                        f"until-created-date:{end.isoformat()}",
+                    ]
+                ),
+                "rows": str(rows),
+                "cursor": cursor,
+            }
+            if mailto:
+                params["mailto"] = mailto
+            url = "https://api.crossref.org/works?" + urllib.parse.urlencode(params)
+            text = request_text(url)
+            if not text:
+                break
+            try:
+                payload = json.loads(text)
+            except json.JSONDecodeError:
+                break
+            message = payload.get("message", {})
+            items = message.get("items", [])
+            if not items:
+                break
+            for item in items:
+                paper = crossref_item_to_paper(item, name)
+                if paper:
+                    papers.append(paper)
+            collected += len(items)
+            next_cursor = clean_text(message.get("next-cursor", ""))
+            if len(items) < rows or not next_cursor or next_cursor == cursor:
+                break
+            cursor = next_cursor
+            time.sleep(0.2)
+        print(f"info: {name} scan collected {collected} Crossref records.", file=sys.stderr)
     return papers
 
 
@@ -803,6 +863,16 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
         papers.extend(google_scholar_query(queries, max_results, max_pages))
     if config.get("journal_feeds_enabled", False):
         papers.extend(journal_feed_query(config.get("journal_feeds", []), max_results))
+    if config.get("publisher_scans_enabled", False):
+        publisher_max_results = int(config.get("publisher_scan_max_results", 12000))
+        papers.extend(
+            crossref_prefix_query(
+                config.get("publisher_scans", []),
+                start,
+                end,
+                publisher_max_results,
+            )
+        )
     papers.extend(watchlist_query(config.get("watchlist_articles", [])))
     papers.extend(crossref_doi_query(config.get("watchlist_dois", [])))
     return [score_paper(p, config) for p in dedupe(papers)]
