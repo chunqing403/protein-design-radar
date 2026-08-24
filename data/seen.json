@@ -329,6 +329,13 @@
       "title": "An enzyme-specific protein language model for catalytic property prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42469205/"
     },
+    "doi:10.1038/s41467-026-76760-5": {
+      "first_seen": "2026-08-24",
+      "score": 36,
+      "source": "PubMed",
+      "title": "AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42624861/"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
       "score": 8,

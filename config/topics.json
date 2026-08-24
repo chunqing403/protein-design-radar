@@ -38,6 +38,8 @@
     "kinases",
     "miniprotein",
     "miniproteins",
+    "minibinder",
+    "minibinders",
     "amino acid",
     "CAR-T",
     "CAR T",
@@ -46,6 +48,7 @@
   ],
   "ai_required_keywords": [
     "AI-driven",
+    "AI-enabled",
     "artificial intelligence",
     "machine learning",
     "deep learning",
@@ -105,6 +108,8 @@
     "kinases",
     "miniprotein",
     "miniproteins",
+    "minibinder",
+    "minibinders",
     "GPNMB"
   ],
   "journal_feeds": [
@@ -131,6 +136,10 @@
     {
       "name": "Nature",
       "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "name": "Nature Communications",
+      "url": "https://www.nature.com/ncomms.rss"
     },
     {
       "name": "Nature Biotechnology",
@@ -161,7 +170,8 @@
   ],
   "watchlist_dois": [
     "10.1126/science.adr3817",
-    "10.64898/2026.07.10.737808"
+    "10.64898/2026.07.10.737808",
+    "10.1038/s41467-026-76760-5"
   ],
   "queries": [
     "\"protein design\" deep learning",
@@ -179,7 +189,10 @@
     "\"GPNMB\" \"CAR-T\"",
     "\"de novo design\" kinase",
     "\"kinase modulators\" \"de novo design\"",
-    "\"miniprotein\" kinase design"
+    "\"miniprotein\" kinase design",
+    "\"AI-enabled\" minibinders",
+    "\"AI-designed\" minibinders",
+    "\"cancer cell-surface proteins\" minibinders"
   ],
   "positive_keywords": {
     "high": [
@@ -205,6 +218,8 @@
       "ProGen",
       "ProteinMPNN",
       "AI-driven",
+      "AI-enabled",
+      "AI-designed",
       "artificial intelligence",
       "de novo design"
     ],
@@ -231,7 +246,10 @@
       "target discovery",
       "GPNMB",
       "kinase",
-      "miniprotein"
+      "miniprotein",
+      "minibinder",
+      "minibinders",
+      "cell-surface"
     ],
     "low": [
       "protein",
@@ -243,7 +261,8 @@
       "sequence",
       "structure",
       "kinase",
-      "miniprotein"
+      "miniprotein",
+      "minibinder"
     ]
   },
   "negative_keywords": [
@@ -306,7 +325,9 @@
       "cancer therapy",
       "GPNMB",
       "kinase",
-      "miniprotein"
+      "miniprotein",
+      "minibinder",
+      "minibinders"
     ],
     "Enzymes and function": [
       "enzyme",

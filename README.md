@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-24** (`2026-08-24T01:59:57Z`)
+Updated: **2026-08-24** (`2026-08-24T07:11:05Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.](https://pubmed.ncbi.nlm.nih.gov/42624861/)<br><sub>Broske B, McEnroe BA, Frechen SC et al.</sub> | PubMed<br>2026 Aug 20 | Protein language models, Binders and therapeutics, Experimental validation | 36 |
 
 ### All Recommended Papers
+
+#### 2026-08-24
+
+- [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins.](https://pubmed.ncbi.nlm.nih.gov/42624861/) (PubMed, 2026 Aug 20; Protein language models, Binders and therapeutics, Experimental validation; score 36)
 
 #### 2026-08-21
 
@@ -81,7 +87,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 #### 2026-07-23
 
-- [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686) (biorxiv, 2026-07-21; Sequence design; score 16)
+- [Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.](https://doi.org/10.64898/2026.07.10.737686) (biorxiv, 2026-07-21; Sequence design; score 21)
 - [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331) (biorxiv, 2026-07-21; Protein language models, Binders and therapeutics, Enzymes and function; score 12)
 - [Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.](https://pubmed.ncbi.nlm.nih.gov/42480528/) (PubMed, 2026 Aug 06; Structure generation, Sequence design, Protein language models; score 11)
 
