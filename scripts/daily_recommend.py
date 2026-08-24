@@ -490,13 +490,19 @@ def crossref_doi_query(dois: list[str]) -> list[Paper]:
     return papers
 
 
-def crossref_prefix_query(scans: list[dict], start: dt.date, end: dt.date, default_max_results: int) -> list[Paper]:
+def crossref_filter_query(
+    scans: list[dict],
+    filter_field: str,
+    start: dt.date,
+    end: dt.date,
+    default_max_results: int,
+) -> list[Paper]:
     papers: list[Paper] = []
     mailto = clean_text(os.getenv("CROSSREF_MAILTO", "") or os.getenv("NCBI_EMAIL", ""))
     for scan in scans:
-        name = clean_text(scan.get("name", "Crossref publisher scan"))
-        prefix = clean_text(scan.get("prefix", ""))
-        if not prefix:
+        name = clean_text(scan.get("name", "Crossref journal scan"))
+        filter_value = clean_text(scan.get(filter_field, ""))
+        if not filter_value:
             continue
         max_results = int(scan.get("max_results", default_max_results))
         page_size = max(1, min(1000, int(scan.get("page_size", 1000))))
@@ -507,7 +513,7 @@ def crossref_prefix_query(scans: list[dict], start: dt.date, end: dt.date, defau
             params = {
                 "filter": ",".join(
                     [
-                        f"prefix:{prefix}",
+                        f"{filter_field}:{filter_value}",
                         "type:journal-article",
                         f"from-created-date:{start.isoformat()}",
                         f"until-created-date:{end.isoformat()}",
@@ -542,6 +548,14 @@ def crossref_prefix_query(scans: list[dict], start: dt.date, end: dt.date, defau
             time.sleep(0.2)
         print(f"info: {name} scan collected {collected} Crossref records.", file=sys.stderr)
     return papers
+
+
+def crossref_prefix_query(scans: list[dict], start: dt.date, end: dt.date, default_max_results: int) -> list[Paper]:
+    return crossref_filter_query(scans, "prefix", start, end, default_max_results)
+
+
+def crossref_issn_query(scans: list[dict], start: dt.date, end: dt.date, default_max_results: int) -> list[Paper]:
+    return crossref_filter_query(scans, "issn", start, end, default_max_results)
 
 
 def score_paper(paper: Paper, config: dict) -> Paper:
@@ -871,6 +885,16 @@ def collect(config: dict, target_date: dt.date, days_back: int) -> list[Paper]:
                 start,
                 end,
                 publisher_max_results,
+            )
+        )
+    if config.get("journal_scans_enabled", False):
+        journal_max_results = int(config.get("journal_scan_max_results", 500))
+        papers.extend(
+            crossref_issn_query(
+                config.get("journal_scans", []),
+                start,
+                end,
+                journal_max_results,
             )
         )
     papers.extend(watchlist_query(config.get("watchlist_articles", [])))

@@ -1033,6 +1033,36 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
+    "doi:10.1021/acs.jcim.6c01920": {
+      "abstract": "Abstract Drug–target interaction (DTI) prediction is central to drug discovery, target identification, and drug repurposing. With the rapid growth of biomedical data and advances in artificial intelligence (AI), DTI prediction has shifted from docking, similarity-based inference, and hand-crafted features toward data-driven representation learning and interaction modeling. This review examines AI-driven DTI prediction methodologies, covering binding theories, task formulations, data representation, model design, translational applications, and unresolved challenges. First, we introduce classical molecular binding theories, including the lock-and-key model, induced fit, and conformational selection, highlighting the transition from static matching to dynamic interaction. Second, we summarize major DTI task settings, including binary interaction classification, binding affinity regression, and multitask prediction with uncertainty assessment. We then discuss data resources and multimodal representation approaches for drugs, target proteins, interaction labels, and auxiliary biomedical data, including molecular sequences, graph structures, 3D conformations, physicochemical properties, biological perturbation profiles, protein sequences and structures, and biomedical knowledge networks. Representative approaches are compared across orthogonal methodological dimensions, including input representation, encoder architecture, interaction-modeling mechanism, representation learning and pretraining, learning objective, prediction output, data acquisition or optimization strategy, and generalization setting. Finally, we outline DTI applications in disease target mining, compound virtual screening, affinity and selectivity optimization, complex structure prediction, and industrial drug discovery pipelines and discuss key challenges such as data distribution shifts, dynamic protein conformational variability, and insufficient experimental validation. This survey aims to provide a systematic reference for future algorithm design, mechanism exploration, and real-world drug discovery applications.",
+      "authors": [
+        "Jiaxuan Hu",
+        "Lianlian Wu",
+        "Song He",
+        "Xiaochen Bo",
+        "Jiang Lu"
+      ],
+      "doi": "10.1021/acs.jcim.6c01920",
+      "first_seen": "2026-08-24",
+      "published": "2026-08-21",
+      "reasons": [
+        "structure prediction",
+        "experimental validation",
+        "AI-driven",
+        "artificial intelligence",
+        "protein",
+        "binding"
+      ],
+      "score": 15,
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c01920",
+      "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",
       "authors": [

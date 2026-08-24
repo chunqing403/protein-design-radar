@@ -24,6 +24,86 @@
       "max_results": 12000
     }
   ],
+  "journal_scans_enabled": true,
+  "journal_scan_max_results": 500,
+  "journal_scans": [
+    {
+      "name": "Proceedings of the National Academy of Sciences",
+      "issn": "1091-6490"
+    },
+    {
+      "name": "Journal of the American Chemical Society",
+      "issn": "1520-5126"
+    },
+    {
+      "name": "Bioinformatics",
+      "issn": "1367-4811"
+    },
+    {
+      "name": "PLOS Computational Biology",
+      "issn": "1553-7358"
+    },
+    {
+      "name": "Briefings in Bioinformatics",
+      "issn": "1477-4054"
+    },
+    {
+      "name": "NAR Genomics and Bioinformatics",
+      "issn": "2631-9268"
+    },
+    {
+      "name": "Journal of Chemical Information and Modeling",
+      "issn": "1549-960X"
+    },
+    {
+      "name": "Journal of Chemical Theory and Computation",
+      "issn": "1549-9626"
+    },
+    {
+      "name": "Protein Engineering, Design and Selection",
+      "issn": "1741-0134"
+    },
+    {
+      "name": "Protein Science",
+      "issn": "1469-896X"
+    },
+    {
+      "name": "Journal of Molecular Biology",
+      "issn": "1089-8638"
+    },
+    {
+      "name": "ACS Synthetic Biology",
+      "issn": "2161-5063"
+    },
+    {
+      "name": "Biotechnology and Bioengineering",
+      "issn": "1097-0290"
+    },
+    {
+      "name": "Metabolic Engineering",
+      "issn": "1096-7184"
+    },
+    {
+      "name": "ACS Catalysis",
+      "issn": "2155-5435"
+    },
+    {
+      "name": "Molecular Therapy",
+      "issn": "1525-0024"
+    },
+    {
+      "name": "mAbs",
+      "issn": "1942-0870"
+    },
+    {
+      "name": "Antibody Therapeutics",
+      "issn": "2516-422X"
+    },
+    {
+      "name": "Advanced Science",
+      "issn": "2198-3844"
+    }
+  ],
   "min_score": 6,
   "report_limit": 25,
   "require_ai_keyword_in_title": true,

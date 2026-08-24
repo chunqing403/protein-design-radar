@@ -294,6 +294,13 @@
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
+    "doi:10.1021/acs.jcim.6c01920": {
+      "first_seen": "2026-08-24",
+      "score": 15,
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
       "score": 12,

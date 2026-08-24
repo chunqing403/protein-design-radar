@@ -68,6 +68,37 @@ class CrossrefPrefixQueryTests(unittest.TestCase):
         self.assertEqual(papers[0].source, "Nature Biotechnology")
         self.assertEqual(papers[0].authors, ["Ada Lovelace"])
 
+    def test_uses_issn_filter_for_individual_journal_scan(self):
+        payload = {
+            "message": {
+                "items": [
+                    {
+                        "DOI": "10.1093/bioinformatics/example",
+                        "title": ["Machine learning for protein design"],
+                        "container-title": ["Bioinformatics"],
+                        "created": {"date-parts": [[2026, 8, 24]]},
+                    }
+                ],
+                "next-cursor": "done",
+            }
+        }
+
+        def fake_request(url):
+            self.assertIn("issn%3A1367-4811", url)
+            return json.dumps(payload)
+
+        scans = [{"name": "Bioinformatics", "issn": "1367-4811", "max_results": 10}]
+        with patch.object(daily_recommend, "request_text", side_effect=fake_request):
+            papers = daily_recommend.crossref_issn_query(
+                scans,
+                dt.date(2026, 8, 22),
+                dt.date(2026, 8, 24),
+                10,
+            )
+
+        self.assertEqual(len(papers), 1)
+        self.assertEqual(papers[0].source, "Bioinformatics")
+
 
 if __name__ == "__main__":
     unittest.main()
