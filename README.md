@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-24** (`2026-08-24T07:56:41Z`)
+Updated: **2026-08-25** (`2026-08-25T01:56:08Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins](https://www.nature.com/articles/s41467-026-76760-5)<br><sub>Bianca Broske, Benjamin A. McEnroe, Sophie C. Frechen et al.</sub> | Nat Commun<br>2026-08-20 | Protein language models, Binders and therapeutics, Experimental validation | 36 |
-| 2 | [AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From)<br><sub>Jiaxuan Hu, Lianlian Wu, Song He et al.</sub> | Journal of Chemical Information and Modeling<br>2026-08-21 | Binders and therapeutics, Experimental validation | 15 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -189,7 +186,7 @@ Updated: **2026-08-24** (`2026-08-24T07:56:41Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-24](outputs/daily/2026-08-24.md)
+- [Daily report for 2026-08-25](outputs/daily/2026-08-25.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
