@@ -7,7 +7,7 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-25** (`2026-08-25T01:56:08Z`)
+Updated: **2026-08-26** (`2026-08-26T02:01:51Z`)
 
 ### Today's New Papers
 
@@ -186,7 +186,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-25](outputs/daily/2026-08-25.md)
+- [Daily report for 2026-08-26](outputs/daily/2026-08-26.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
