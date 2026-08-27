@@ -63,6 +63,13 @@
       "title": "The sweet spot in protein design-Where deep learning meets first principles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
     },
+    "doi:10.1002/anie.6395554": {
+      "first_seen": "2026-08-27",
+      "score": 39,
+      "source": "PubMed",
+      "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42655993/"
+    },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-02",
       "score": 11,
@@ -181,6 +188,13 @@
       "source": "PubMed",
       "title": "Generative artificial intelligence for enzyme design and biocatalysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
+    },
+    "doi:10.1016/j.cclet.2026.113345": {
+      "first_seen": "2026-08-27",
+      "score": 6,
+      "source": "Chinese Chemical Letters",
+      "title": "Opportunities and challenges of artificial intelligence-driven peptide discovery",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848"
     },
     "doi:10.1016/j.cell.2026.06.029": {
       "first_seen": "2026-07-23",
@@ -496,6 +510,13 @@
       "source": "PubMed",
       "title": "Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
+    },
+    "doi:10.1109/jbhi.2026.3727674": {
+      "first_seen": "2026-08-27",
+      "score": 12,
+      "source": "PubMed",
+      "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
     },
     "doi:10.1111/1750-3841.71222": {
       "first_seen": "2026-07-01",

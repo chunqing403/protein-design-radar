@@ -190,6 +190,46 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
     },
+    "doi:10.1002/anie.6395554": {
+      "abstract": "[NiFe]-Hydrogenases display remarkable catalytic efficiency for H2 production and oxidation but are sensitive to O2, which severely restricts their biotechnological applications. The identities and functional relevance of gas channels leading to the buried [NiFe] active site remain elusive, hindering rational enzyme engineering. Here, we introduce an artificial intelligence-guided de novo protein binder design strategy to map hydrophobic O2 diffusion pathways in Escherichia coli hydrogenase-2 (Hyd-2). By integrating RFdiffusion, ProteinMPNN, and AlphaFold, ∼100,000 candidate binders were computationally screened, yielding two high-affinity binders, L1 and L2. Biophysical and electrochemical analyses show that L1 selectively occludes the primary O2 ingress channel, enhancing the enzyme's oxygen tolerance by more than threefold, whereas L2, which targets another putative channel, has a negligible effect, indicating that this pathway contributes minimally to O2 ingress under the tested conditions. Furthermore, we determined the L1-Hyd-2 complex structure by cryo-electron microscopy and revealed the key interaction residues and interface conformation. Integrated structural and computational analyses provide mechanistic insights into the system's oxygen tolerance and high-affinity L1-Hyd-2 interaction. All findings provide the first direct experimental evidence for hierarchical O2 diffusion channels in [NiFe]-hydrogenases and establish binder-mediated channel occlusion as a generalizable, mutation-free strategy for elucidating and modulating gas transport in metalloenzymes.",
+      "authors": [
+        "Sun X",
+        "Xiao Q",
+        "Zhang N",
+        "Li W",
+        "Luo H",
+        "Gao Y",
+        "Zhang L",
+        "Fan Y",
+        "Jiang P",
+        "Huang Y",
+        "Wu G",
+        "Zhang L"
+      ],
+      "doi": "10.1002/anie.6395554",
+      "first_seen": "2026-08-27",
+      "published": "2026 Aug 26",
+      "reasons": [
+        "de novo protein",
+        "binder design",
+        "AlphaFold",
+        "RFdiffusion",
+        "ProteinMPNN",
+        "artificial intelligence"
+      ],
+      "score": 39,
+      "source": "PubMed",
+      "source_id": "42655993",
+      "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42655993/"
+    },
     "doi:10.1002/pro.70667": {
       "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
       "authors": [
@@ -621,6 +661,33 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
+    },
+    "doi:10.1016/j.cclet.2026.113345": {
+      "abstract": "",
+      "authors": [
+        "Zhangyang Wang",
+        "Rui Liang",
+        "Anrui Liang",
+        "Chaoyue Wu",
+        "Jialin Jiang",
+        "Junrong Zhu",
+        "Yanfeng Gao"
+      ],
+      "doi": "10.1016/j.cclet.2026.113345",
+      "first_seen": "2026-08-27",
+      "published": "2026-08",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "score": 6,
+      "source": "Chinese Chemical Letters",
+      "source_id": "10.1016/j.cclet.2026.113345",
+      "title": "Opportunities and challenges of artificial intelligence-driven peptide discovery",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848"
     },
     "doi:10.1016/j.cell.2026.06.029": {
       "abstract": "Protein-protein interactions underlie biological complexity, and modeling their coevolution is essential for characterizing and engineering molecular assemblies. While protein and genomic language models have excelled at modeling individual proteins, extending these capabilities to protein complexes remains challenging. We present multiple sequence alignment (MSA) Pairformer, a protein language model that builds on AlphaFold2/3's bidirectional refinement between sequence and pairwise residue representations to accurately model the evolution of protein-protein interactions, despite training exclusively on individual chains. MSA Pairformer achieves nearly 3-fold improvement over existing methods in predicting protein-protein interface contacts and better distinguishes binding from non-binding sequences. A learned attention mechanism selectively weights sequences by their inferred evolutionary relevance, enabling discovery of subfamily-specific contacts. On single-protein benchmarks, it achieves state-of-the-art contact prediction and strong variant effect prediction using only 111 million parameters, over two orders of magnitude smaller than frontier models. These results offer an evolutionarily grounded, computationally efficient alternative to the scaling paradigm.",
@@ -1692,6 +1759,36 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
+    },
+    "doi:10.1109/jbhi.2026.3727674": {
+      "abstract": "Anti-CRISPR (Acr) proteins are natural inhibitors of CRISPR-Cas systems and are important regulators for controllable genome-editing applications. However, their computational identification remains challenging because Acrs are sequence-diverse, weakly conserved, and supported by limited labeled data. Here, we present AcrPLMEvo, a two-stage framework that integrates protein language model (PLM) representations with PSSM derived evolutionary profiles for low-homology Acr prediction. We systematically compared four representative PLM backbones, parameter-efficient adaptation strategies, and alternative PSSM-coupling routes. Evolutionary profiles were not universally beneficial; instead, their effects depended on both PLM backbone and the stage at which they were incorporated. A key finding was that evolutionary information was more consistently beneficial when retained at the downstream decision stage than when used only during PLM adaptation. Guided by this observation, AcrPLMEvo combines PSSM-aware DoRA adaptation of ESM-2 with frozen feature extraction and final-stage evolutionary feature reintroduction. In the matched benchmark comparison, AcrPLMEvo achieved the best overall performance among competing Acr predictors, with an AUC of 0.965 and an AUPRC of 0.778. Its predictive reliability was further supported on an independently curated external set of 44 proteins, where it correctly classified 41 proteins and produced no false positives. These results indicate that stage-consistent integration of evolutionary profiles can improve PLM-based Acr prediction and support the prioritization of low-homology Acr candidates.",
+      "authors": [
+        "Tan K",
+        "Sun W",
+        "Fullwood MJ",
+        "Jia L",
+        "Lyu H",
+        "Zhang L",
+        "Dao F"
+      ],
+      "doi": "10.1109/JBHI.2026.3727674",
+      "first_seen": "2026-08-27",
+      "published": "2026 Aug 26",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "score": 12,
+      "source": "PubMed",
+      "source_id": "42647707",
+      "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
+      "topics": [
+        "Structure generation",
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
     },
     "doi:10.1126/science.adr3817": {
       "abstract": "Developing therapies and vaccines against integral membrane proteins is hindered by their extensive hydrophobic surfaces, which complicate production and structural analysis. Here, we describe a general deep learning–based design approach for solubilizing native membrane proteins while preserving their sequence, fold, active-site, and ligand-binding properties. Genetically encoded de novo protein WRAPs [water-soluble RFdiffused amphipathic proteins] surround the lipid-interacting hydrophobic surfaces, rendering them thermostable and water-soluble without the need for detergents. We design WRAPs for both monomeric and oligomeric beta-barrel outer membrane proteins and helical multipass transmembrane proteins. A 2.95-angstrom-resolution cryo–electron microscopy structure of WRAPed mycobacterial porin demonstrates that WRAPs can be used for the structural determination of membrane proteins in solution. As a step toward syphilis vaccine development, we generated soluble versions of Treponema pallidum antigens.",

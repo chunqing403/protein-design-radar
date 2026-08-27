@@ -7,13 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-26** (`2026-08-26T02:01:51Z`)
+Updated: **2026-08-27** (`2026-08-27T09:57:38Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.](https://pubmed.ncbi.nlm.nih.gov/42655993/)<br><sub>Sun X, Xiao Q, Zhang N et al.</sub> | PubMed<br>2026 Aug 26 | Structure generation, Sequence design, Binders and therapeutics, Enzymes and function, Experimental validation | 39 |
+| 2 | [AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.](https://pubmed.ncbi.nlm.nih.gov/42647707/)<br><sub>Tan K, Sun W, Fullwood MJ et al.</sub> | PubMed<br>2026 Aug 26 | Structure generation, Protein language models | 12 |
+| 3 | [Opportunities and challenges of artificial intelligence-driven peptide discovery](https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848)<br><sub>Zhangyang Wang, Rui Liang, Anrui Liang et al.</sub> | Chinese Chemical Letters<br>2026-08 | Binders and therapeutics | 6 |
 
 ### All Recommended Papers
+
+#### 2026-08-27
+
+- [De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.](https://pubmed.ncbi.nlm.nih.gov/42655993/) (PubMed, 2026 Aug 26; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function, Experimental validation; score 39)
+- [AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.](https://pubmed.ncbi.nlm.nih.gov/42647707/) (PubMed, 2026 Aug 26; Structure generation, Protein language models; score 12)
+- [Opportunities and challenges of artificial intelligence-driven peptide discovery](https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848) (Chinese Chemical Letters, 2026-08; Binders and therapeutics; score 6)
 
 #### 2026-08-24
 
@@ -186,7 +196,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-26](outputs/daily/2026-08-26.md)
+- [Daily report for 2026-08-27](outputs/daily/2026-08-27.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
