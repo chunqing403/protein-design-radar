@@ -392,6 +392,13 @@
       "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
     },
+    "doi:10.1038/s41598-026-64923-9": {
+      "first_seen": "2026-08-28",
+      "score": 12,
+      "source": "Sci Rep",
+      "title": "A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes",
+      "url": "https://www.nature.com/articles/s41598-026-64923-9"
+    },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",
       "score": 21,

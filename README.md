@@ -7,17 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-27** (`2026-08-27T09:57:38Z`)
+Updated: **2026-08-28** (`2026-08-28T11:31:04Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.](https://pubmed.ncbi.nlm.nih.gov/42655993/)<br><sub>Sun X, Xiao Q, Zhang N et al.</sub> | PubMed<br>2026 Aug 26 | Structure generation, Sequence design, Binders and therapeutics, Enzymes and function, Experimental validation | 39 |
-| 2 | [AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.](https://pubmed.ncbi.nlm.nih.gov/42647707/)<br><sub>Tan K, Sun W, Fullwood MJ et al.</sub> | PubMed<br>2026 Aug 26 | Structure generation, Protein language models | 12 |
-| 3 | [Opportunities and challenges of artificial intelligence-driven peptide discovery](https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848)<br><sub>Zhangyang Wang, Rui Liang, Anrui Liang et al.</sub> | Chinese Chemical Letters<br>2026-08 | Binders and therapeutics | 6 |
+| 1 | [A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes](https://www.nature.com/articles/s41598-026-64923-9)<br><sub>Francisco Merca, Lennert Saerens, Filipa Tavares et al.</sub> | Sci Rep<br>2026-08-27 | General | 12 |
 
 ### All Recommended Papers
+
+#### 2026-08-28
+
+- [A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes](https://www.nature.com/articles/s41598-026-64923-9) (Sci Rep, 2026-08-27; General; score 12)
 
 #### 2026-08-27
 
@@ -196,7 +198,7 @@ Updated: **2026-08-27** (`2026-08-27T09:57:38Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-27](outputs/daily/2026-08-27.md)
+- [Daily report for 2026-08-28](outputs/daily/2026-08-28.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
