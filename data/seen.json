@@ -308,6 +308,13 @@
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
+    "doi:10.1021/acs.jcim.6c01919": {
+      "first_seen": "2026-08-29",
+      "score": 10,
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side"
+    },
     "doi:10.1021/acs.jcim.6c01920": {
       "first_seen": "2026-08-24",
       "score": 15,

@@ -7,15 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-28** (`2026-08-28T11:31:04Z`)
+Updated: **2026-08-29** (`2026-08-29T07:10:35Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes](https://www.nature.com/articles/s41598-026-64923-9)<br><sub>Francisco Merca, Lennert Saerens, Filipa Tavares et al.</sub> | Sci Rep<br>2026-08-27 | General | 12 |
+| 1 | [Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side)<br><sub>Wenchi Ge, Qijia Yu, Jincen Shuai et al.</sub> | Journal of Chemical Information and Modeling<br>2026-08-23 | Sequence design, Protein language models, Binders and therapeutics, Experimental validation | 10 |
 
 ### All Recommended Papers
+
+#### 2026-08-29
+
+- [Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side) (Journal of Chemical Information and Modeling, 2026-08-23; Sequence design, Protein language models, Binders and therapeutics, Experimental validation; score 10)
 
 #### 2026-08-28
 
@@ -198,7 +202,7 @@ Updated: **2026-08-28** (`2026-08-28T11:31:04Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-28](outputs/daily/2026-08-28.md)
+- [Daily report for 2026-08-29](outputs/daily/2026-08-29.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
