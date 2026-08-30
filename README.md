@@ -7,13 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-29** (`2026-08-29T07:10:35Z`)
+Updated: **2026-08-30** (`2026-08-30T05:31:18Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side)<br><sub>Wenchi Ge, Qijia Yu, Jincen Shuai et al.</sub> | Journal of Chemical Information and Modeling<br>2026-08-23 | Sequence design, Protein language models, Binders and therapeutics, Experimental validation | 10 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -202,7 +200,7 @@ Updated: **2026-08-29** (`2026-08-29T07:10:35Z`)
 
 ### Archive
 
-- [Daily report for 2026-08-29](outputs/daily/2026-08-29.md)
+- [Daily report for 2026-08-30](outputs/daily/2026-08-30.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
