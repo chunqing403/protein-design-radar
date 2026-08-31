@@ -510,6 +510,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
     },
+    "doi:10.1007/s10822-026-00934-y": {
+      "abstract": "Lysine crotonylation (Kcr) is a vital posttranslational modification that plays a significant role in diverse biological processes such as DNA replication, the cell cycle, spermatogenesis, and embryonic stem cell differentiation. Abnormal Kcr levels are associated with multiple diseases including cancer, neurological disorders, and metabolic diseases, making it crucial for understanding disease pathogenesis and progression. In this study, we introduce ESM2-Kcr, a novel computational model designed for predicting Kcr sites. This model integrates the protein language model ESM2 with advanced deep learning techniques including LSTM, multi-head attention mechanism, and CNN. We elaborate on the specific feature extraction contributions of each deep learning module in ESM2-Kcr: LSTM captures the long-distance sequential dependency information of amino acid residues in protein sequences, CNN extracts the local short-range structural and functional features centered on lysine residues, and the multi-head attention mechanism adaptively assigns weight coefficients to key residue positions to highlight Kcr-related critical sequence information and filter out redundant noise. ESM2-Kcr encodes the protein sequences using ESM2_t30_150M_UR50D and further extracts comprehensive features. Through extensive comparisons with other protein language models like ProteinBERT and ProtT5, as well as different models within the ESM2 family, ESM2-Kcr demonstrates superior generalization ability and performance. The ESM2-Kcr model not only enhances our understanding of protein regulation but also holds great potential in identifying disease biomarkers and facilitating drug development. Future research directions may involve extending this framework to other posttranslational modifications. Data and codes are available at https://github.com/liukai23157/ESM2-Kcr .",
+      "authors": [
+        "Liu K",
+        "Zhang S",
+        "Ren J"
+      ],
+      "doi": "10.1007/s10822-026-00934-y",
+      "first_seen": "2026-08-31",
+      "published": "2026 Aug 30",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "sequence"
+      ],
+      "score": 12,
+      "source": "PubMed",
+      "source_id": "42669100",
+      "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42669100/"
+    },
     "doi:10.1007/s11030-026-11638-8": {
       "abstract": "Molecular docking is a fundamental task in drug discovery, yet many deep learning-based docking methods still struggle to generate physically valid conformations. Although post-processing with empirical force fields can partially improve physical plausibility, it breaks tightly coupled modeling by introducing a decoupled refinement stage, increases computational cost, and often weakens ligand-protein interactions and leads to pose deviations. In recent years, diffusion-based molecular docking methods have improved both accuracy and physical validity, but they typically require many sampling steps, resulting in inefficient inference. Internal coordinate-based methods can reduce the number of sampling steps, but their complex pipelines significantly increase per-step computational cost, limiting their practical applicability. To address these challenges, we propose MPFDock, a tightly coupled equivariant flow matching method for molecular docking guided by multimodal physical constraints in Cartesian space. By incorporating geometry-grounded ligand-protein physical interactions during training and employing force field-guided flow matching during inference, MPFDock generates physically realistic and high-accuracy docking conformations according to PoseBusters metrics with significantly fewer inference steps. Experiments on the PoseBusters and DeepDockingDare benchmarks show that MPFDock consistently outperforms existing methods in terms of docking accuracy and physical realism on the evaluated benchmarks.",
       "authors": [

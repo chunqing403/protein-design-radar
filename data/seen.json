@@ -133,6 +133,13 @@
       "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
     },
+    "doi:10.1007/s10822-026-00934-y": {
+      "first_seen": "2026-08-31",
+      "score": 12,
+      "source": "PubMed",
+      "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42669100/"
+    },
     "doi:10.1007/s10895-026-04855-9": {
       "first_seen": "2026-06-30",
       "score": 7,

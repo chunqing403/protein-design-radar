@@ -7,13 +7,19 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-08-30** (`2026-08-30T05:31:18Z`)
+Updated: **2026-08-31** (`2026-08-31T05:45:03Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.](https://pubmed.ncbi.nlm.nih.gov/42669100/)<br><sub>Liu K, Zhang S, Ren J</sub> | PubMed<br>2026 Aug 30 | Protein language models | 12 |
 
 ### All Recommended Papers
+
+#### 2026-08-31
+
+- [ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.](https://pubmed.ncbi.nlm.nih.gov/42669100/) (PubMed, 2026 Aug 30; Protein language models; score 12)
 
 #### 2026-08-29
 
@@ -200,7 +206,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-08-30](outputs/daily/2026-08-30.md)
+- [Daily report for 2026-08-31](outputs/daily/2026-08-31.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
