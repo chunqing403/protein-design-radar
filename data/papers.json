@@ -660,6 +660,70 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.biortech.2026.134897": {
+      "abstract": "Amentoflavone-type biflavonoids exhibit potent neuroprotective activities but are limited by scarce natural abundance and inefficient chemical synthesis routes. Here, we establish a stable Escherichia coli platform for de novo amentoflavone biosynthesis through multilevel engineering of a cytochrome P450-dependent oxidative coupling module. Systematic optimization of redox partner pairing, N-terminal expression regulation, and intrinsic catalytic activity substantially enhances the performance of the key P450 enzyme GbCYP90J6. Protein language model-guided directed evolution identifies high-activity variants that, when combined with an optimized expression tag, markedly improve in vivo catalysis. Integration of precursor flux balancing, expression optimization, and enzyme evolution results in an overall 8.34-fold increase in de novo amentoflavone production, reaching 6.59 mg/L in shake-flask cultivation. Fed-batch fermentation in a 5-L bioreactor increases the amentoflavone titer to 22.01 mg/L, demonstrating pathway scalability while revealing cellular tolerance as a remaining bottleneck. Together, this study establishes a framework for engineering P450-dependent intermolecular C-C coupling and highlights the necessity of balancing catalytic efficiency with cellular robustness in microbial cell factories.",
+      "authors": [
+        "Dai X",
+        "Zhu J",
+        "Wu Z",
+        "Wang G",
+        "Zhang Y",
+        "Tian C",
+        "Ren Y",
+        "Liu H",
+        "Wang Y"
+      ],
+      "doi": "10.1016/j.biortech.2026.134897",
+      "first_seen": "2026-09-01",
+      "published": "2026 Sep 01",
+      "reasons": [
+        "protein language model",
+        "directed evolution",
+        "protein",
+        "enzyme"
+      ],
+      "score": 12,
+      "source": "PubMed",
+      "source_id": "42162937",
+      "title": "Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42162937/"
+    },
+    "doi:10.1016/j.biotechadv.2026.108901": {
+      "abstract": "As a representative area of industrial biocatalysis, food enzyme engineering plays a critical role in advancing the food industry. Recently, bioinformatics, molecular simulations, and artificial intelligence (AI) have converged into a powerful toolkit for the full spectrum of computational design, from the modification of existing enzymes to the de novo creation of novel biocatalysts. Moving beyond isolated discussions of individual tools, this review synthesizes key strategies across this landscape, from sequence-based methods that leverage evolutionary information to structure-based approaches for engineering food enzyme stability and catalytic function. A central focus is the transformative impact of AI, which not only guides molecular modification but also drives enzyme design through generative models. In addition, the safety and regulatory challenges posed by designed food enzymes are highlighted. Methods for evaluating allergenicity, potential toxicity, and the genetic safety of production strains are presented, and the future development trends of AI-driven safety assessment are discussed. By integrating computational design with experimental validation and safety evaluation, this review provides a cohesive framework to accelerate the development of high-performance, application-oriented, and safe food enzymes.",
+      "authors": [
+        "Wu X",
+        "Yuan Y",
+        "Wang F",
+        "Lu F",
+        "Liu F"
+      ],
+      "doi": "10.1016/j.biotechadv.2026.108901",
+      "first_seen": "2026-09-01",
+      "published": "2026 Sep 01",
+      "reasons": [
+        "enzyme design",
+        "experimental validation",
+        "AI-driven",
+        "artificial intelligence",
+        "generative model",
+        "stability"
+      ],
+      "score": 25,
+      "source": "PubMed",
+      "source_id": "42002010",
+      "title": "From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42002010/"
+    },
     "doi:10.1016/j.cbpa.2026.102728": {
       "abstract": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
       "authors": [
@@ -898,6 +962,37 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
+    },
+    "doi:10.1016/j.xplc.2026.102088": {
+      "abstract": "",
+      "authors": [
+        "Long-Can Mei",
+        "Jian Wu",
+        "Li-Jun Chen",
+        "Yan-Mei Ni",
+        "Xiao-Ting Wang",
+        "Fan Wang",
+        "Hong-Yan Lin",
+        "Guang-Fu Yang"
+      ],
+      "doi": "10.1016/j.xplc.2026.102088",
+      "first_seen": "2026-09-01",
+      "published": "2026-08",
+      "reasons": [
+        "protein language model",
+        "enzyme design",
+        "protein",
+        "enzyme"
+      ],
+      "score": 12,
+      "source": "Plant Communications",
+      "source_id": "10.1016/j.xplc.2026.102088",
+      "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962"
     },
     "doi:10.1021/acs.jafc.6c04272": {
       "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
@@ -1272,6 +1367,32 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
     },
+    "doi:10.1038/s10038-026-01484-9": {
+      "abstract": "Channelopathies represent a group of diseases often caused by missense variants in ion channels affecting the functioning of tissues like the nervous system, heart, and muscle. The gold standard for functionally characterizing a variant is to measure the electrophysiological changes in channel properties using cell-based heterologous expression systems. As this method is time-consuming and generally unavailable, clinical practice often relies on in-silico models to predict the functional consequences of ion channel variants. We constructed a Missense ION (MissION) channel variant classifier based on a protein language model and trained it on 1996 gain- or loss-of-function variants, the largest set collected to date, in order to predict the functional effects of variants across a broad range of ion channels. MissION achieves a significant increase in predictive performance (Area Under the Receiver Operating Characteristic Curve (ROC-AUC): 0.918, compared to 0.884 and 0.779 for the current leading models). Moreover, the model generalizes well to ion channel genes for which little or no electrophysiological recordings are available. MissION provides functional predictions for over 600,000 ion channel variants, made available through an online interface that allows variant interpretation for a wide range of channelopathies.",
+      "authors": [
+        "Gies S",
+        "Alishbayli A",
+        "Tiesinga PHE",
+        "Martens MB"
+      ],
+      "doi": "10.1038/s10038-026-01484-9",
+      "first_seen": "2026-09-01",
+      "published": "2026 Sep 01",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "score": 6,
+      "source": "PubMed",
+      "source_id": "42332060",
+      "title": "Functional effect predictions for ion channel missense variants using a protein language model.",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42332060/"
+    },
     "doi:10.1038/s41467-026-75283-3": {
       "abstract": "Enzymes drive cellular metabolism, yet predicting catalytic properties from amino acid sequences remains challenging. Existing protein language models (PLMs) provide powerful general-purpose representations but are often inefficient for high-throughput screening and insufficiently adapted to enzyme-specific tasks. Here, we propose EnzGFM, an enzyme-specific PLM based on a Mamba-Transformer hybrid architecture with hierarchical pre-training to capture enzyme-specific patterns. Across enzyme property prediction benchmarks, EnzGFM consistently outperforms Transformer-based PLMs with 2-5-fold acceleration, achieving relative improvements of 16.67% in kinetic parameter prediction, 15.69% in enzyme-reaction mapping, 13.19% in EC number classification, and 20.04% in mutation effect assessment. Building on EnzGFM, we develop EnzGFM-Agent, an enzyme-focused agentic pipeline. Experimental validation further suggests that EnzGFM-Agent can enrich beneficial variants within small candidate pools. Together, these results demonstrate that EnzGFM captures enzyme-specific sequence-function patterns, while EnzGFM-Agent translates these predictions into experimentally actionable candidates and can help reduce wet-lab screening burden for practical enzyme engineering.",
       "authors": [
@@ -1639,6 +1760,95 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42581579/"
+    },
+    "doi:10.1093/bioinformatics/btag618": {
+      "abstract": "Peptides serve as critical mediators in biological systems, regulating essential processes ranging from neurotransmission to immune response. However, their nonlinear sequence-function relationships and immense chemical diversity pose significant challenges for efficient experimental characterization and therapeutic development. While Protein Language Models have advanced biological sequence understanding, they predominantly capture global evolutionary features of full-length proteins, often overlooking the local physicochemical dependencies and short-range residue interactions that are essential for defining peptide bioactivity. To address this gap, we leverage the linguistic competence of general-purpose Large Language Models (LLMs) to treat amino acid sequences as \"biological text,\" bridging natural language supervision with biochemical sequence modeling without relying on explicit structural or evolutionary priors. We curate a peptide-specific instruction dataset, Pep-Instructions, spanning function description, sequence design, property prediction, and physicochemical optimization, and adapt a general-purpose LLM through parameter-efficient instruction tuning. Extensive benchmarking against general-purpose language models shows consistent improvements across the evaluated peptide-centric tasks. In particular, the instruction-tuned model produces more semantically faithful functional descriptions, generates peptide sequences with stronger sequence-level similarity, with representative ESMFold case studies suggesting backbone-level consistency, improves prediction of diverse peptide properties, and enables more reliable directional optimization of physicochemical properties under the adopted in silico evaluation protocols. Overall, these results establish Pep-Instructions as a unified benchmark and demonstrate the value of peptide-specific instruction tuning for peptide understanding, prediction, and design. Source code and Pep-Instructions are available at https://github.com/kjY7836/pepinstruction. Fine-tuned model weights are available at https://huggingface.co/Codelife176/Pep-instruction.",
+      "authors": [
+        "Yang K",
+        "Wu T",
+        "Zhang W",
+        "Li P"
+      ],
+      "doi": "10.1093/bioinformatics/btag618",
+      "first_seen": "2026-09-01",
+      "published": "2026 Aug 31",
+      "reasons": [
+        "protein language model",
+        "sequence design",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "score": 11,
+      "source": "PubMed",
+      "source_id": "42608825",
+      "title": "Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42608825/"
+    },
+    "doi:10.1093/bioinformatics/btag642": {
+      "abstract": "Abstract Motivation Experimental studies of protein function often focus on mechanistic descriptions, characterizing how specific sites and residues contribute to activity. Abstractions such as domains and active sites enable quantitative descriptions of how protein features act biologically. Thanks to the abundance of high-quality sequence and function data, machine learning has achieved great success in directly predicting protein function. However, translating functional characterizations into mechanistic ones on the level of the domains, binding sites, or motifs remains challenging. This represents a semi-supervised problem: sequences and global functional labels are available, but local annotations must be inferred. Results We investigate the semi-supervised discovery of functionally active protein regions by integrating protein sequence models with functional information. We first formalize the residue-level functional annotation problem by constructing unified evaluation datasets linking Gene Ontology functions to annotated residues. Eight datasets are assembled, spanning levels of specificity from single active-site residues to domains covering up to 60% of a protein. We then introduce a new class of function-conditioned generative models that more accurately predict functionally important residues than existing approaches, including interpretability methods and PSSM entropy estimation, across multiple benchmark datasets. Availability Source code is available at github.com/mofradlab/go_interp, with an archived snapshot at doi.org/10.5281/zenodo.21401001. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Andrew Dickson",
+        "Safaa Mouline",
+        "Ali Tamadon",
+        "Mohammad R K Mofrad"
+      ],
+      "doi": "10.1093/bioinformatics/btag642",
+      "first_seen": "2026-09-01",
+      "published": "2026-08-31",
+      "reasons": [
+        "protein language model",
+        "generative model",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 11,
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag642",
+      "title": "Semi-supervised Retrieval of Functional Residues Through the Integration of Protein Language Models and Gene Ontology Data",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792"
+    },
+    "doi:10.1093/bioinformatics/btag654": {
+      "abstract": "Abstract Motivation The canonical vocabulary of twenty amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of non-canonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. Results We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native non-canonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen non-canonical amino acids. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating non-canonicals can improve predicted binding affinity by up to −7.0 kcal/mol. Availability and implementation NCFlow is freely available at https://github.com/mjslee0921/ncflow. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Jin Sub Lee",
+        "Philip M Kim"
+      ],
+      "doi": "10.1093/bioinformatics/btag654",
+      "first_seen": "2026-09-01",
+      "published": "2026-08-31",
+      "reasons": [
+        "deep learning",
+        "structure prediction",
+        "flow matching",
+        "generative model",
+        "stability",
+        "protein"
+      ],
+      "score": 25,
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag654",
+      "title": "Design of peptides with non-canonical amino acids using flow matching",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
     },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
