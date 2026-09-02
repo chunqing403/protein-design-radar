@@ -964,35 +964,40 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
     },
     "doi:10.1016/j.xplc.2026.102088": {
-      "abstract": "",
+      "abstract": "Engineering enzymes with enhanced activity and stability is a central goal of biotechnology, yet the inherent trade-off between optimizing global protein fitness and specific substrate binding affinity poses a significant challenge. Here, we present ESM-FEP, a computational framework that synergistically integrates a fine-tuned protein language model with alchemical free energy perturbation (FEP) to overcome this limitation. Our workflow employs a parameter-efficient fine-tuned ESM-2 model to perform high-throughput saturation mutagenesis, rapidly identifying mutations that preserve protein fitness. Top-ranking candidates are then subjected to rigorous FEP simulations to precisely quantify changes in substrate binding affinity. When applied to engineer the Zea mays dioxygenase ZmHSL1B for improved detoxification of the herbicide mesotrione, ESM-FEP efficiently navigated the mutational landscape and identified a quadruple mutant M5 (Q140H/Y205F/L332R/K336F). This variant demonstrated a catalytic efficiency approximately 7-fold higher than that of the wild-type enzyme, which was corroborated by in vitro assays and a detailed kinetic analysis. Furthermore, transgenic Arabidopsis thaliana expressing the engineered mutant M5 exhibited significantly enhanced herbicide tolerance, validating its functional efficacy in a biological context. The ESM-FEP framework establishes a generalizable and efficient strategy for the rational design of gain-of-function enzymes, with broad applications in biocatalysis, bioremediation, and precision agriculture.",
       "authors": [
-        "Long-Can Mei",
-        "Jian Wu",
-        "Li-Jun Chen",
-        "Yan-Mei Ni",
-        "Xiao-Ting Wang",
-        "Fan Wang",
-        "Hong-Yan Lin",
-        "Guang-Fu Yang"
+        "Mei LC",
+        "Wu J",
+        "Chen LJ",
+        "Ni YM",
+        "Wang XT",
+        "Wang F",
+        "Lin HY",
+        "Yang GF"
       ],
       "doi": "10.1016/j.xplc.2026.102088",
       "first_seen": "2026-09-01",
-      "published": "2026-08",
+      "published": "2026 Aug 31",
       "reasons": [
         "protein language model",
         "enzyme design",
+        "ESM",
+        "stability",
         "protein",
         "enzyme"
       ],
-      "score": 12,
-      "source": "Plant Communications",
-      "source_id": "10.1016/j.xplc.2026.102088",
-      "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design",
+      "score": 21,
+      "source": "PubMed",
+      "source_id": "42675858",
+      "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design.",
       "topics": [
+        "Structure generation",
+        "Sequence design",
         "Protein language models",
+        "Binders and therapeutics",
         "Enzymes and function"
       ],
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42675858/"
     },
     "doi:10.1021/acs.jafc.6c04272": {
       "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
@@ -1614,6 +1619,32 @@
       ],
       "url": "https://www.nature.com/articles/s41598-026-64923-9"
     },
+    "doi:10.1038/s41598-026-66642-7": {
+      "abstract": "",
+      "authors": [
+        "Atiq Ur Rehman",
+        "Ali Sayyed",
+        "Muhammad Ismail Mohmand",
+        "Shujaat Ali Rathore",
+        "Maryam Mahsal Khan",
+        "Abid Iqbal"
+      ],
+      "doi": "10.1038/s41598-026-66642-7",
+      "first_seen": "2026-09-02",
+      "published": "2026-09-01",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "score": 6,
+      "source": "Sci Rep",
+      "source_id": "10.1038/s41598-026-66642-7",
+      "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://www.nature.com/articles/s41598-026-66642-7"
+    },
     "doi:10.1038/s43588-026-01010-z": {
       "abstract": "Protein language models, as well as models that incorporate structural information or homologous sequences, estimate the sequence likelihood p(sequence), which reflects the protein fitness landscape and is commonly used in mutation effect prediction and protein design. It is widely believed in deep learning field that larger models perform better across tasks. However, for fitness prediction, language model performance declines beyond a certain size, raising concerns about their scalability. Here we showed that model size, training dataset and stochastic elements can bias the predicted p(sequence) away from real fitness. Model performance on fitness prediction depends on how well p(sequence) matches evolutionary patterns in homologs, which is best achieved at a moderate p(sequence) level for most proteins. At extreme predicted wild-type sequence likelihoods, models predict uniformly low or high likelihoods for nearly all mutations, failing to reflect the real fitness landscape. Notably, larger models tend to predict proteins with higher p(sequence), which may exceed the moderate range and thus reduce performance. Our findings clarify the scaling behavior of protein models on fitness prediction and provide practical guidelines for their application and future development.",
       "authors": [
@@ -1823,14 +1854,14 @@
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792"
     },
     "doi:10.1093/bioinformatics/btag654": {
-      "abstract": "Abstract Motivation The canonical vocabulary of twenty amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of non-canonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. Results We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native non-canonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen non-canonical amino acids. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating non-canonicals can improve predicted binding affinity by up to −7.0 kcal/mol. Availability and implementation NCFlow is freely available at https://github.com/mjslee0921/ncflow. Supplementary information Supplementary data are available at Bioinformatics online.",
+      "abstract": "The canonical vocabulary of twenty amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of non-canonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native non-canonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen non-canonical amino acids. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating non-canonicals can improve predicted binding affinity by up to -7.0 kcal/mol. NCFlow is freely available at https://github.com/mjslee0921/ncflow. Supplementary data are available at Bioinformatics online.",
       "authors": [
-        "Jin Sub Lee",
-        "Philip M Kim"
+        "Lee JS",
+        "Kim PM"
       ],
       "doi": "10.1093/bioinformatics/btag654",
       "first_seen": "2026-09-01",
-      "published": "2026-08-31",
+      "published": "2026 Aug 31",
       "reasons": [
         "deep learning",
         "structure prediction",
@@ -1840,15 +1871,15 @@
         "protein"
       ],
       "score": 25,
-      "source": "Bioinformatics",
-      "source_id": "10.1093/bioinformatics/btag654",
-      "title": "Design of peptides with non-canonical amino acids using flow matching",
+      "source": "PubMed",
+      "source_id": "42675622",
+      "title": "Design of peptides with non-canonical amino acids using flow matching.",
       "topics": [
         "Structure generation",
         "Binders and therapeutics",
         "Enzymes and function"
       ],
-      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42675622/"
     },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",

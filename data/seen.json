@@ -441,6 +441,13 @@
       "title": "A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes",
       "url": "https://www.nature.com/articles/s41598-026-64923-9"
     },
+    "doi:10.1038/s41598-026-66642-7": {
+      "first_seen": "2026-09-02",
+      "score": 6,
+      "source": "Sci Rep",
+      "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
+      "url": "https://www.nature.com/articles/s41598-026-66642-7"
+    },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",
       "score": 21,

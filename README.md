@@ -7,27 +7,25 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-01** (`2026-09-01T05:18:09Z`)
+Updated: **2026-09-02** (`2026-09-02T04:44:12Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178)<br><sub>Jin Sub Lee, Philip M Kim</sub> | Bioinformatics<br>2026-08-31 | Structure generation, Binders and therapeutics, Enzymes and function | 25 |
-| 2 | [From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.](https://pubmed.ncbi.nlm.nih.gov/42002010/)<br><sub>Wu X, Yuan Y, Wang F et al.</sub> | PubMed<br>2026 Sep 01 | Enzymes and function, Experimental validation | 25 |
-| 3 | [A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design](https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962)<br><sub>Long-Can Mei, Jian Wu, Li-Jun Chen et al.</sub> | Plant Communications<br>2026-08 | Protein language models, Enzymes and function | 12 |
-| 4 | [Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.](https://pubmed.ncbi.nlm.nih.gov/42162937/)<br><sub>Dai X, Zhu J, Wu Z et al.</sub> | PubMed<br>2026 Sep 01 | Structure generation, Protein language models, Enzymes and function, Experimental validation | 12 |
-| 5 | [Semi-supervised Retrieval of Functional Residues Through the Integration of Protein Language Models and Gene Ontology Data](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792)<br><sub>Andrew Dickson, Safaa Mouline, Ali Tamadon et al.</sub> | Bioinformatics<br>2026-08-31 | Protein language models, Enzymes and function, Experimental validation | 11 |
-| 6 | [Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.](https://pubmed.ncbi.nlm.nih.gov/42608825/)<br><sub>Yang K, Wu T, Zhang W et al.</sub> | PubMed<br>2026 Aug 31 | Structure generation, Sequence design, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation | 11 |
-| 7 | [Functional effect predictions for ion channel missense variants using a protein language model.](https://pubmed.ncbi.nlm.nih.gov/42332060/)<br><sub>Gies S, Alishbayli A, Tiesinga PHE et al.</sub> | PubMed<br>2026 Sep 01 | Sequence design, Protein language models, Enzymes and function | 6 |
+| 1 | [Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery](https://www.nature.com/articles/s41598-026-66642-7)<br><sub>Atiq Ur Rehman, Ali Sayyed, Muhammad Ismail Mohmand et al.</sub> | Sci Rep<br>2026-09-01 | Protein language models | 6 |
 
 ### All Recommended Papers
 
+#### 2026-09-02
+
+- [Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery](https://www.nature.com/articles/s41598-026-66642-7) (Sci Rep, 2026-09-01; Protein language models; score 6)
+
 #### 2026-09-01
 
-- [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178) (Bioinformatics, 2026-08-31; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
 - [From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.](https://pubmed.ncbi.nlm.nih.gov/42002010/) (PubMed, 2026 Sep 01; Enzymes and function, Experimental validation; score 25)
-- [A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design](https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962) (Plant Communications, 2026-08; Protein language models, Enzymes and function; score 12)
+- [Design of peptides with non-canonical amino acids using flow matching.](https://pubmed.ncbi.nlm.nih.gov/42675622/) (PubMed, 2026 Aug 31; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
+- [A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design.](https://pubmed.ncbi.nlm.nih.gov/42675858/) (PubMed, 2026 Aug 31; Structure generation, Sequence design, Protein language models, Binders and therapeutics, Enzymes and function; score 21)
 - [Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.](https://pubmed.ncbi.nlm.nih.gov/42162937/) (PubMed, 2026 Sep 01; Structure generation, Protein language models, Enzymes and function, Experimental validation; score 12)
 - [Semi-supervised Retrieval of Functional Residues Through the Integration of Protein Language Models and Gene Ontology Data](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792) (Bioinformatics, 2026-08-31; Protein language models, Enzymes and function, Experimental validation; score 11)
 - [Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.](https://pubmed.ncbi.nlm.nih.gov/42608825/) (PubMed, 2026 Aug 31; Structure generation, Sequence design, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation; score 11)
@@ -222,7 +220,7 @@ Updated: **2026-09-01** (`2026-09-01T05:18:09Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-01](outputs/daily/2026-09-01.md)
+- [Daily report for 2026-09-02](outputs/daily/2026-09-02.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
