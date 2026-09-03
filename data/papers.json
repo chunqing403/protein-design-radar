@@ -1473,6 +1473,30 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-76760-5"
     },
+    "doi:10.1038/s41467-026-77333-2": {
+      "abstract": "",
+      "authors": [
+        "Chao Hou",
+        "Di Liu",
+        "Yufeng Shen"
+      ],
+      "doi": "10.1038/s41467-026-77333-2",
+      "first_seen": "2026-09-03",
+      "published": "2026-09-02",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 7,
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-77333-2",
+      "title": "Unsupervised discovery of functional sequence patterns from protein language model with MotifAE",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-77333-2"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
       "authors": [
@@ -1854,14 +1878,14 @@
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792"
     },
     "doi:10.1093/bioinformatics/btag654": {
-      "abstract": "The canonical vocabulary of twenty amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of non-canonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native non-canonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen non-canonical amino acids. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating non-canonicals can improve predicted binding affinity by up to -7.0 kcal/mol. NCFlow is freely available at https://github.com/mjslee0921/ncflow. Supplementary data are available at Bioinformatics online.",
+      "abstract": "Abstract Motivation The canonical vocabulary of twenty amino acids limits the chemical space available to proteins and peptides. Expanding this vocabulary to hundreds of non-canonical amino acids (ncAAs) allows the engineering of proteins with novel function and activity, and is of particular interest for therapeutic peptides such as macrocycles, where ncAAs can improve proteolytic stability, membrane permeability and immunogenicity. However, existing structure-based design tools either cannot model ncAAs at all, or are restricted to a small, fixed vocabulary of ncAAs seen during training, and ncAA data in the Protein Data Bank is scarce and heavily biased. Results We present NCFlow, a flow matching generative model that places any arbitrary ncAA into a given protein backbone using only its atom types and bond connectivity, and therefore generalizes to ncAAs never seen during training. To supplement sparse training data in the Protein Data Bank, NCFlow is pretrained on millions of small molecule structures and a large set of protein-ligand complexes before finetuning on native non-canonicals found within proteins. NCFlow outperforms AlphaFold3-based methods in the structure prediction of unseen non-canonical amino acids. We further present a peptide design pipeline akin to in silico deep mutational scanning, and propose a scoring strategy combining deep learning-based and molecular dynamics-based alchemical binding free energy calculations to identify improved peptide variants. We apply the method on four protein-peptide complex test cases, and observe that incorporating non-canonicals can improve predicted binding affinity by up to −7.0 kcal/mol. Availability and implementation NCFlow is freely available at https://github.com/mjslee0921/ncflow. Supplementary information Supplementary data are available at Bioinformatics online.",
       "authors": [
-        "Lee JS",
-        "Kim PM"
+        "Jin Sub Lee",
+        "Philip M Kim"
       ],
       "doi": "10.1093/bioinformatics/btag654",
       "first_seen": "2026-09-01",
-      "published": "2026 Aug 31",
+      "published": "2026-08-31",
       "reasons": [
         "deep learning",
         "structure prediction",
@@ -1871,15 +1895,15 @@
         "protein"
       ],
       "score": 25,
-      "source": "PubMed",
-      "source_id": "42675622",
-      "title": "Design of peptides with non-canonical amino acids using flow matching.",
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag654",
+      "title": "Design of peptides with non-canonical amino acids using flow matching",
       "topics": [
         "Structure generation",
         "Binders and therapeutics",
         "Enzymes and function"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42675622/"
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
     },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",

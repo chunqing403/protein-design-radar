@@ -399,6 +399,13 @@
       "title": "AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins",
       "url": "https://www.nature.com/articles/s41467-026-76760-5"
     },
+    "doi:10.1038/s41467-026-77333-2": {
+      "first_seen": "2026-09-03",
+      "score": 7,
+      "source": "Nat Commun",
+      "title": "Unsupervised discovery of functional sequence patterns from protein language model with MotifAE",
+      "url": "https://www.nature.com/articles/s41467-026-77333-2"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
       "score": 8,
