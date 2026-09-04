@@ -660,6 +660,39 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.apsb.2026.08.031": {
+      "abstract": "",
+      "authors": [
+        "Ningning Wang",
+        "Tianshui Xue",
+        "Na Li",
+        "Weiling Xiao",
+        "Yanhong Ding",
+        "Yunting Li",
+        "Gaoyan Tang",
+        "Zhizhou Yang",
+        "Yifei Zhao",
+        "Jinheng Pan",
+        "Zhaocheng Jian",
+        "Zhenyu Ju"
+      ],
+      "doi": "10.1016/j.apsb.2026.08.031",
+      "first_seen": "2026-09-04",
+      "published": "2026-09",
+      "reasons": [
+        "de novo design",
+        "miniprotein",
+        "miniprotein"
+      ],
+      "score": 9,
+      "source": "Acta Pharmaceutica Sinica B",
+      "source_id": "10.1016/j.apsb.2026.08.031",
+      "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "abstract": "Amentoflavone-type biflavonoids exhibit potent neuroprotective activities but are limited by scarce natural abundance and inefficient chemical synthesis routes. Here, we establish a stable Escherichia coli platform for de novo amentoflavone biosynthesis through multilevel engineering of a cytochrome P450-dependent oxidative coupling module. Systematic optimization of redox partner pairing, N-terminal expression regulation, and intrinsic catalytic activity substantially enhances the performance of the key P450 enzyme GbCYP90J6. Protein language model-guided directed evolution identifies high-activity variants that, when combined with an optimized expression tag, markedly improve in vivo catalysis. Integration of precursor flux balancing, expression optimization, and enzyme evolution results in an overall 8.34-fold increase in de novo amentoflavone production, reaching 6.59 mg/L in shake-flask cultivation. Fed-batch fermentation in a 5-L bioreactor increases the amentoflavone titer to 22.01 mg/L, demonstrating pathway scalability while revealing cellular tolerance as a remaining bottleneck. Together, this study establishes a framework for engineering P450-dependent intermolecular C-C coupling and highlights the necessity of balancing catalytic efficiency with cellular robustness in microbial cell factories.",
       "authors": [
@@ -809,6 +842,31 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480528/"
+    },
+    "doi:10.1016/j.cels.2026.101711": {
+      "abstract": "The sense of smell remains poorly understood compared with vision and audition. At its core is an information flow in which odorant molecules activate subsets of olfactory receptors (ORs) and combinations of receptor activations encode distinct percepts. However, predicting molecule-OR interactions, and linking them to perception, remains difficult. Here, we develop MolOR, an approach that maps odorants to their OR-activation profiles and then predicts their odor percepts. Using cross-attention between a graph neural network over molecules and protein-language-model embeddings of receptors, we predict OR activation and-despite no molecular overlap between binding and percept datasets-improve percept prediction by using predicted OR profiles as auxiliary features. Structurally diverse molecules sharing a percept show similar predicted OR profiles, and the model distinguishes protein-coding ORs from pseudogenes across the human subgenome. This may aid the discovery of ligands for orphan ORs and the design of odorants with desired perceptual qualities.",
+      "authors": [
+        "Chithrananda S",
+        "Amores J",
+        "Yang KK"
+      ],
+      "doi": "10.1016/j.cels.2026.101711",
+      "first_seen": "2026-09-04",
+      "published": "2026 Sep 02",
+      "reasons": [
+        "deep learning",
+        "graph neural network",
+        "protein",
+        "binding"
+      ],
+      "score": 10,
+      "source": "PubMed",
+      "source_id": "42685697",
+      "title": "Mapping the combinatorial coding between olfactory receptors and perception with deep learning.",
+      "topics": [
+        "General"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
     "doi:10.1016/j.chroma.2026.467271": {
       "abstract": "Computational design has emerged as an important approach for the discovery of peptide ligands in development of affinity chromatography. However, fast and efficient identification of high-affinity and specific ligands is still challenging. Here an artificial intelligence (AI)-based strategy for affinity maturation was proposed for improving the binding affinity of peptide ligands of adeno‒associated virus (AAV). To target AAV receptor-binding region on AAV2 capsid, a de novo design method was applied in the development of peptide ligands and three candidate peptides were identified for affinity maturation. We then introduced a multimodal protein language model, ESM3, to guide peptides generation for the maturation of the binding affinity. After three rounds of docking simulations, a high-affinity peptide A4 with a dissociation constant of 3.8 μmol/L was obtained. Molecular dynamics simulation revealed that the binding of A4 was dominated by electrostatic interactions. By coupling A4 onto Sepharose 4 Fast Flow (Sep4FF) gels, Sep4FF‒A4 gels were synthesized and exhibited good selectivity and serotype specificity to AAV2. AAV2 was adsorbed effectively at pH6.0-8.0 and eluted mildly from the affinity column at 500 mmol/L NaCl. Finally, Sep4FF‒A4 chromatography was successfully used to purify AAV2 with a high transduction efficiency from HEK293 cell culture fluids, and it kept stable with AAV2 yields of 67.4-72.7%, DNA clearance ranging from 47.6-58.7% and HCP clearance ranging from 86.3-91.3% in 20 cycles.",
@@ -1031,6 +1089,32 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42616438/"
+    },
+    "doi:10.1021/acs.jcim.6c00582": {
+      "abstract": "Abstract Multidrug resistance (MDR) mediated by ATP-binding cassette transporter G2 (ABCG2) remains a major clinical challenge in breast cancer chemotherapy, primarily due to its role in reducing intracellular adriamycin (ADR) concentrations. To address this challenge, we developed an integrated computational strategy for the rapid identification of potent ABCG2 inhibitors capable of reversing ADR resistance. We first established the Prediction of Protein–Ligand’s pKd (PPLK), a specialized deep learning model that employs multimodal sequence-ligand representations and feedforward neural networks to accelerate the discovery of ABCG2 inhibitors. Next, computational virtual screening of a compound library (∼1.58 million) was conducted, coupled with molecular dynamics simulations, focusing on the key binding residues THR542, PHE439, ASN436, and SER440. Among the top-ranked candidates, reserpine was validated as a potent ABCG2 inhibitor, achieving 1.90-fold sensitization in ADR-resistant cells, thereby confirming the predictive accuracy of the PPLK model. Notably, we identified a small-molecule compound, F0161-0219, as a promising ABCG2 inhibitor, which led to a 1.94-fold sensitization enhancement in ADR-resistant cells. Direct target engagement of F0161-0219 with ABCG2 was confirmed by biolayer interferometry, DARTS, and CETSA assays. Collectively, our research underscores the potential of leveraging deep learning models and computational screening for the discovery of ABCG2 inhibitors.",
+      "authors": [
+        "Haonan Li",
+        "Zichu Wang",
+        "Jia Wang",
+        "Yongliang Yang"
+      ],
+      "doi": "10.1021/acs.jcim.6c00582",
+      "first_seen": "2026-09-04",
+      "published": "2026-08-31",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 8,
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c00582",
+      "title": "Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational"
     },
     "doi:10.1021/acs.jcim.6c00632": {
       "abstract": "Fluorescent proteins (FPs) are widely used reporters for visualizing cellular structures and processes. Traditional wet-lab strategies for FP engineering (rational design and directed evolution) have enabled substantial improvements in photophysical performance but are limited by their requirement for deep expert knowledge or labor-intensive screening. AI-driven approaches have recently gained traction for engineering variants of green FPs, yet applications to red fluorescent proteins (RFPs) remain scarce. Here, we demonstrate an application-focused approach using machine learning (ML) for the local optimization of RFP variants in a low-data setting. Using a data set of over 150 reported RFP sequences, we trained lightweight descriptor-based ML models to prioritize variants within the local sequence space of the state-of-the-art RFP mScarlet-I3. Guided by model predictions, we identified variants exhibiting red-shifted emission peaks, large Stokes shifts, or brightness comparable to the parental protein. Our findings show that these interpretable, data-efficient models can serve as effective auxiliary guides for targeted local engineering, and provide a practical framework for protein optimization.",
@@ -2137,6 +2221,38 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
+    },
+    "doi:10.1109/tnnls.2026.3727640": {
+      "abstract": "Accurate prediction of protein-protein interaction sites (PPISs) plays a crucial role in understanding protein function, elucidating disease mechanisms, and facilitating drug target discovery. Although conventional approaches based on sequence or structural features have shown promising results, they still face several challenges. These challenges include oversmoothing in deep graph neural networks (GNNs) and poor generalization to domain-specific data. To address these issues, we propose RGLLA-PPIS, a novel multimodal prediction model that integrates retrieval-augmented learning and residual GNNs for PPIS identification. In RGLLA-PPIS, protein graphs are constructed by combining AlphaFold3 (AF3)-predicted protein structures with multiple sequence-derived features. To effectively capture both local and global spatial dependencies, the model employs equivariant GNN (EGNN) and GCN modules with residual connections, which help alleviate the oversmoothing problem and preserve node-level variability. Moreover, during prediction, we used the retrieval-augmented knowledge provided by the pretrained protein language model (PLM) Evolla and ChatGPT-4o to construct semantic priors to supplement potential functional site information and enhance the generalization capacity of the prediction model. Extensive experiments on benchmark datasets show that RGLLA-PPIS outperforms several state-of-the-art baselines in both accuracy and robustness. Furthermore, comparison with wet-lab results on a domain-specific protein system reveals a strong correspondence between experimental functional sites and the high-probability regions predicted by RGLLA-PPIS. This demonstrates the model's potential to guide real-world protein engineering tasks. The source code can be found at: https://github.com/MiJia-ID/RGLLA-PPIS.",
+      "authors": [
+        "Mi J",
+        "Liu Y",
+        "Chu C",
+        "Li C",
+        "Wan J",
+        "Wang K"
+      ],
+      "doi": "10.1109/TNNLS.2026.3727640",
+      "first_seen": "2026-09-04",
+      "published": "2026 Sep 03",
+      "reasons": [
+        "protein engineering",
+        "protein language model",
+        "wet-lab",
+        "graph neural network",
+        "equivariant",
+        "target discovery"
+      ],
+      "score": 26,
+      "source": "PubMed",
+      "source_id": "42690977",
+      "title": "Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42690977/"
     },
     "doi:10.1126/science.adr3817": {
       "abstract": "Developing therapies and vaccines against integral membrane proteins is hindered by their extensive hydrophobic surfaces, which complicate production and structural analysis. Here, we describe a general deep learning–based design approach for solubilizing native membrane proteins while preserving their sequence, fold, active-site, and ligand-binding properties. Genetically encoded de novo protein WRAPs [water-soluble RFdiffused amphipathic proteins] surround the lipid-interacting hydrophobic surfaces, rendering them thermostable and water-soluble without the need for detergents. We design WRAPs for both monomeric and oligomeric beta-barrel outer membrane proteins and helical multipass transmembrane proteins. A 2.95-angstrom-resolution cryo–electron microscopy structure of WRAPed mycobacterial porin demonstrates that WRAPs can be used for the structural determination of membrane proteins in solution. As a step toward syphilis vaccine development, we generated soluble versions of Treponema pallidum antigens.",

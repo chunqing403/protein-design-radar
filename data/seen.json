@@ -175,6 +175,13 @@
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.apsb.2026.08.031": {
+      "first_seen": "2026-09-04",
+      "score": 9,
+      "source": "Acta Pharmaceutica Sinica B",
+      "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "first_seen": "2026-09-01",
       "score": 12,
@@ -223,6 +230,13 @@
       "source": "PubMed",
       "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480528/"
+    },
+    "doi:10.1016/j.cels.2026.101711": {
+      "first_seen": "2026-09-04",
+      "score": 10,
+      "source": "PubMed",
+      "title": "Mapping the combinatorial coding between olfactory receptors and perception with deep learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
     "doi:10.1016/j.chroma.2026.467271": {
       "first_seen": "2026-07-18",
@@ -293,6 +307,13 @@
       "source": "PubMed",
       "title": "Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42616438/"
+    },
+    "doi:10.1021/acs.jcim.6c00582": {
+      "first_seen": "2026-09-04",
+      "score": 8,
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational"
     },
     "doi:10.1021/acs.jcim.6c00632": {
       "first_seen": "2026-07-28",
@@ -601,6 +622,13 @@
       "source": "PubMed",
       "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
+    },
+    "doi:10.1109/tnnls.2026.3727640": {
+      "first_seen": "2026-09-04",
+      "score": 26,
+      "source": "PubMed",
+      "title": "Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42690977/"
     },
     "doi:10.1111/1750-3841.71222": {
       "first_seen": "2026-07-01",

@@ -7,15 +7,25 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-03** (`2026-09-03T04:39:53Z`)
+Updated: **2026-09-04** (`2026-09-04T04:42:05Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Unsupervised discovery of functional sequence patterns from protein language model with MotifAE](https://www.nature.com/articles/s41467-026-77333-2)<br><sub>Chao Hou, Di Liu, Yufeng Shen</sub> | Nat Commun<br>2026-09-02 | Protein language models | 7 |
+| 1 | [Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42690977/)<br><sub>Mi J, Liu Y, Chu C et al.</sub> | PubMed<br>2026 Sep 03 | Protein language models, Enzymes and function, Experimental validation | 26 |
+| 2 | [Mapping the combinatorial coding between olfactory receptors and perception with deep learning.](https://pubmed.ncbi.nlm.nih.gov/42685697/)<br><sub>Chithrananda S, Amores J, Yang KK</sub> | PubMed<br>2026 Sep 02 | General | 10 |
+| 3 | [De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy](https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642)<br><sub>Ningning Wang, Tianshui Xue, Na Li et al.</sub> | Acta Pharmaceutica Sinica B<br>2026-09 | Binders and therapeutics | 9 |
+| 4 | [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational)<br><sub>Haonan Li, Zichu Wang, Jia Wang et al.</sub> | Journal of Chemical Information and Modeling<br>2026-08-31 | Structure generation | 8 |
 
 ### All Recommended Papers
+
+#### 2026-09-04
+
+- [Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42690977/) (PubMed, 2026 Sep 03; Protein language models, Enzymes and function, Experimental validation; score 26)
+- [Mapping the combinatorial coding between olfactory receptors and perception with deep learning.](https://pubmed.ncbi.nlm.nih.gov/42685697/) (PubMed, 2026 Sep 02; General; score 10)
+- [De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy](https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642) (Acta Pharmaceutica Sinica B, 2026-09; Binders and therapeutics; score 9)
+- [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational) (Journal of Chemical Information and Modeling, 2026-08-31; Structure generation; score 8)
 
 #### 2026-09-03
 
@@ -224,7 +234,7 @@ Updated: **2026-09-03** (`2026-09-03T04:39:53Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-03](outputs/daily/2026-09-03.md)
+- [Daily report for 2026-09-04](outputs/daily/2026-09-04.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
