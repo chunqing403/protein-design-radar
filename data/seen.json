@@ -378,12 +378,26 @@
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/acs.jproteome.6c00302": {
+      "first_seen": "2026-09-05",
+      "score": 8,
+      "source": "PubMed",
+      "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "first_seen": "2026-07-18",
       "score": 19,
       "source": "PubMed",
       "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
+    },
+    "doi:10.1021/acssynbio.6c00633": {
+      "first_seen": "2026-09-05",
+      "score": 9,
+      "source": "ACS Synthetic Biology",
+      "title": "Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery",
+      "url": "https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and"
     },
     "doi:10.1021/jacs.6c02343": {
       "first_seen": "2026-07-17",
@@ -553,6 +567,13 @@
       "title": "Design of peptides with non-canonical amino acids using flow matching",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
     },
+    "doi:10.1093/bioinformatics/btag663": {
+      "first_seen": "2026-09-05",
+      "score": 13,
+      "source": "Bioinformatics",
+      "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank",
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291"
+    },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
       "score": 22,
@@ -720,6 +741,13 @@
       "source": "biorxiv",
       "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
       "url": "https://doi.org/10.64898/2026.08.02.742339"
+    },
+    "doi:10.64898/2026.09.01.748349": {
+      "first_seen": "2026-09-05",
+      "score": 12,
+      "source": "biorxiv",
+      "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
+      "url": "https://doi.org/10.64898/2026.09.01.748349"
     }
   }
 }

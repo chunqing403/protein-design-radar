@@ -1394,6 +1394,34 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/acs.jproteome.6c00302": {
+      "abstract": "Large-scale proteomics relies heavily on target-decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database. Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) decoy generation for peptide identification and benchmark it against classical strategies. We evaluate these approaches using three complementary quality-control layers: sequence-based separability, search-engine-agnostic spectral-space diagnostics, and end-to-end mass spectrometry benchmarks, including pipelines with rescoring. Across these analyses, PLM-based decoys are harder for sequence-only neural networks to distinguish than most classical generators, suggesting fewer obvious sequence-level artifacts. However, this signal is only weakly informative for search performance. Spectral diagnostics further show that short peptides occupy a particularly crowded target-decoy space and are therefore especially prone to local collisions across all generators. In full search pipelines, reverse decoys remain a strong baseline, and current PLM-based generators do not yet provide a clear overall advantage. We therefore view PLM-based decoys not as universal replacements for reverse decoys but as tunable tools for benchmarking, diagnostics, stress testing, and future adaptive decoy optimization, with increasing value as search models become more expressive.",
+      "authors": [
+        "Reznikov G",
+        "Kusters F",
+        "Mohammadi M",
+        "van den Toorn HWP",
+        "Sinitcyn P"
+      ],
+      "doi": "10.1021/acs.jproteome.6c00302",
+      "first_seen": "2026-09-05",
+      "published": "2026 Sep 04",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "score": 8,
+      "source": "PubMed",
+      "source_id": "42695896",
+      "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "abstract": "Microbial cell factories represent sustainable platforms for the production of fuels, chemicals, and therapeutics, but their development is limited by challenges in pathway discovery, enzyme optimization, and metabolic regulation. Recent advances in artificial intelligence and machine learning are reshaping this field by enabling predictive pathway design, enhanced protein engineering, and dynamic network regulation. Emerging strategies such as graph neural networks, generative models, and reinforcement learning (RL) now allow systematic exploration of vast design spaces with enhanced accuracy and scalability. This review highlights recent advancements in microbial engineering. It discusses how AI-driven frameworks are advancing the field from experience-guided and rule-based engineering toward data-driven, model-assisted, and increasingly autonomous workflows. These changes lay the foundation for next-generation biomanufacturing.",
       "authors": [
@@ -1423,6 +1451,37 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
+    },
+    "doi:10.1021/acssynbio.6c00633": {
+      "abstract": "Abstract The rapid growth of genomic and metagenomic data has created a large gap between protein sequence discovery and enzyme functional characterization. Deep learning has become an important tool for enzyme-related prediction tasks, including EC and GO annotation, substrate specificity, catalytic-residue identification, kinetic-parameter estimation, thermostability, pH optima, and candidate discovery. This review summarizes recent progress with an emphasis on benchmark design rather than reported scores alone. We compare representative methods by input modality, training data, split strategy, leakage control, evaluation metric, and validation evidence. Across tasks, apparent performance gains can arise from dataset scale, annotation quality, homolog overlap, negative sampling, or endpoint definition rather than architecture alone. Current models are valuable for annotation and candidate prioritization, but robust discovery of remote homologs, rare functions, or new catalytic activities still requires low-identity or out-of-distribution evaluation and experimental validation.",
+      "authors": [
+        "Rongsheng Gao",
+        "Youmeng Liu",
+        "Chengye Duan",
+        "Nan Qin",
+        "Kunyu Liu",
+        "Tatsuhisa Tsuboi",
+        "Zhen Chen"
+      ],
+      "doi": "10.1021/acssynbio.6c00633",
+      "first_seen": "2026-09-05",
+      "published": "2026-09-04",
+      "reasons": [
+        "deep learning",
+        "experimental validation",
+        "protein",
+        "enzyme",
+        "sequence"
+      ],
+      "score": 9,
+      "source": "ACS Synthetic Biology",
+      "source_id": "10.1021/acssynbio.6c00633",
+      "title": "Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and"
     },
     "doi:10.1021/jacs.6c02343": {
       "abstract": "Chemically induced proximity (CIP) and chemically disrupted proximity (CDP) technologies have transformed biological research by enabling precise temporal control of protein-protein interactions and cellular functions. However, despite the extensive development of CIP systems, CDP tools with strong translational potential remain comparatively underdeveloped, calling for the need to expand the CDP toolkit. Here, we present a caffeine-operated dissociation system (CODS), a CDP platform activated by caffeine-an inexpensive and widely available small molecule from food or beverages with a well-established safety profile. Using an AI-guided de novo protein design framework, we reprogrammed an existing caffeine-responsive CIP module into a ligand-dependent dissociation system. CODS exhibits high sensitivity and rapid functional switching, with an EC50 below 90 nM and minute-scale dissociation and reassociation kinetics. We further demonstrate the utility of CODS across diverse cellular contexts, including caffeine-dependent suppression of gene expression, induction of programmed cell death via pyroptosis, and conditional deactivation of chimeric antigen receptor (CAR) T-cell activity. CODS establishes a broadly applicable CDP platform for tunable control of cellular functions and provides a potentially generalizable strategy for engineering chemically controlled dissociation systems from existing CIP architectures.",
@@ -1988,6 +2047,33 @@
         "Enzymes and function"
       ],
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
+    },
+    "doi:10.1093/bioinformatics/btag663": {
+      "abstract": "Abstract Motivation AlphaFold has transformed structural biology with an unprecedented accuracy in modelling protein structures and their interactions with biomolecules, with AlphaFold3 (AF3) achieving state-of-the-art performance. However, AF3 and other methods often struggle to accurately predict the structure of protein complexes that lack strong co-evolutionary information, such as antibody-antigen (Ab-Ag) complexes. One of the fundamental issues is that AF3 often generates accurate predictions, but fails to reliably distinguish them from the much larger set of incorrect ones. Results To address this, we propose ABAG-Rank, a deep neural network that provides an efficient and robust solution for model selection of Ab-Ag interactions from a pool of structural ensembles predicted with AlphaFold. Built on the permutation-invariant DeepSets architecture, ABAG-Rank can process variable-sized ensembles of structural decoys and is directly applicable to prediction settings in which the number of candidates may vary. We train a model on a redundancy-reduced set of all known antibody-antigen complexes and find that simple geometric descriptors, along with confidence scores from AlphaFold, provide rich information about interface quality without requiring intensive physics-based calculations. Our experiments demonstrate that ABAG-Rank significantly outperforms AF3 internal scoring and the ranking performance of existing deep learning baselines. Availability and Implementation Source code can be found at: https://github.com/tadteo/ABAG-Rank or on Zenodo at https://doi.org/10.5281/zenodo.21132090 Supplementary Material Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Matteo Tadiello",
+        "Marko Ludaic",
+        "Vsevolod Viliuga",
+        "Arne Elofsson"
+      ],
+      "doi": "10.1093/bioinformatics/btag663",
+      "first_seen": "2026-09-05",
+      "published": "2026-09-04",
+      "reasons": [
+        "deep learning",
+        "AlphaFold",
+        "protein",
+        "antibody",
+        "structure"
+      ],
+      "score": 13,
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag663",
+      "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291"
     },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
@@ -2660,6 +2746,41 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.08.02.742339"
+    },
+    "doi:10.64898/2026.09.01.748349": {
+      "abstract": "Generative protein design can now rapidly produce de novo binders with high affinity and functional activity against a wide range of targets, including lethal snake venom toxins. However, so far most reported successes rely on new-to-nature scaffolds with limited therapeutic precedent. Single-domain antibodies (VHHs) offer a clinically validated alternative scaffold that can bind and neutralize long-chain -neurotoxins, which are some of the most lethal components in snake venoms. Here we compare three recently established de novo design models with VHH-design capabilities (Germinal, RFantibody, and BoltzGen) for their ability to generate VHHs against the neurotoxin -cobratoxin from the monocled cobra (Naja kaouthia). Using standardized model inputs and evaluation criteria based on AlphaFold3 interface confidence (ipTM) and RMSD self-consistency, we find that Germinal was the only method to generate designs passing stringent in silico criteria for experimental testing. We therefore performed a larger Germinal design campaign employing three different VHH frameworks and experimentally validated 46 designs in vitro. Of these, 42 expressed as soluble proteins and we identified four binding hits derived from two of the three tested frameworks. Of the four binders, two lead candidates were further characterized and demonstrated high affinity (KDs of 4.1 nM and 10.8 nM), monomeric behavior and low polyreactivity, indicating favorable biophysical and developability properties, as well as functional toxin neutralization in vitro. To assess their therapeutic potential we investigated their ability to protect against -cobratoxin toxicity in vivo. Both candidates fully protected mice after -cobratoxin challenge, with 100% survival compared to a lethal control. One candidate also retained notable neutralization capacity against whole venom of Naja kaouthia with a survival of 56%, while the other protected 22% when tested in a rescue setting. Together, we demonstrate that de novo VHH design can generate high affinity single-domain antibodies with in vivo protection against lethal cobra venom neurotoxicity, and provide practical insights into method- and framework-dependent performance.",
+      "authors": [
+        "Overath, M. D.",
+        "Lundquist, E. V. S.",
+        "Björnsson, K. H.",
+        "Kerwin, S.",
+        "Jacobsen, C. P.",
+        "Moiniche, M. v. B.",
+        "Espi, D. R.",
+        "Boddum, K.",
+        "Benard-Valle, M.",
+        "Fernandez-Quintero, M. L.",
+        "Mackessy, S. P.",
+        "Jenkins, T. P."
+      ],
+      "doi": "10.64898/2026.09.01.748349",
+      "first_seen": "2026-09-05",
+      "published": "2026-09-03",
+      "reasons": [
+        "protein design",
+        "de novo design",
+        "protein",
+        "binding"
+      ],
+      "score": 12,
+      "source": "biorxiv",
+      "source_id": "10.64898/2026.09.01.748349",
+      "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.01.748349"
     }
   }
 }

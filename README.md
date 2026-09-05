@@ -7,18 +7,25 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-04** (`2026-09-04T04:42:05Z`)
+Updated: **2026-09-05** (`2026-09-05T04:38:16Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42690977/)<br><sub>Mi J, Liu Y, Chu C et al.</sub> | PubMed<br>2026 Sep 03 | Protein language models, Enzymes and function, Experimental validation | 26 |
-| 2 | [Mapping the combinatorial coding between olfactory receptors and perception with deep learning.](https://pubmed.ncbi.nlm.nih.gov/42685697/)<br><sub>Chithrananda S, Amores J, Yang KK</sub> | PubMed<br>2026 Sep 02 | General | 10 |
-| 3 | [De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy](https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642)<br><sub>Ningning Wang, Tianshui Xue, Na Li et al.</sub> | Acta Pharmaceutica Sinica B<br>2026-09 | Binders and therapeutics | 9 |
-| 4 | [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational)<br><sub>Haonan Li, Zichu Wang, Jia Wang et al.</sub> | Journal of Chemical Information and Modeling<br>2026-08-31 | Structure generation | 8 |
+| 1 | [ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291)<br><sub>Matteo Tadiello, Marko Ludaic, Vsevolod Viliuga et al.</sub> | Bioinformatics<br>2026-09-04 | Binders and therapeutics | 13 |
+| 2 | [De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo](https://doi.org/10.64898/2026.09.01.748349)<br><sub>Overath, M. D., Lundquist, E. V. S., Björnsson, K. H. et al.</sub> | biorxiv<br>2026-09-03 | Binders and therapeutics, Experimental validation | 12 |
+| 3 | [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and)<br><sub>Rongsheng Gao, Youmeng Liu, Chengye Duan et al.</sub> | ACS Synthetic Biology<br>2026-09-04 | Enzymes and function, Experimental validation | 9 |
+| 4 | [Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.](https://pubmed.ncbi.nlm.nih.gov/42695896/)<br><sub>Reznikov G, Kusters F, Mohammadi M et al.</sub> | PubMed<br>2026 Sep 04 | Protein language models, Binders and therapeutics | 8 |
 
 ### All Recommended Papers
+
+#### 2026-09-05
+
+- [ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291) (Bioinformatics, 2026-09-04; Binders and therapeutics; score 13)
+- [De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo](https://doi.org/10.64898/2026.09.01.748349) (biorxiv, 2026-09-03; Binders and therapeutics, Experimental validation; score 12)
+- [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and) (ACS Synthetic Biology, 2026-09-04; Enzymes and function, Experimental validation; score 9)
+- [Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.](https://pubmed.ncbi.nlm.nih.gov/42695896/) (PubMed, 2026 Sep 04; Protein language models, Binders and therapeutics; score 8)
 
 #### 2026-09-04
 
@@ -234,7 +241,7 @@ Updated: **2026-09-04** (`2026-09-04T04:42:05Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-04](outputs/daily/2026-09-04.md)
+- [Daily report for 2026-09-05](outputs/daily/2026-09-05.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
