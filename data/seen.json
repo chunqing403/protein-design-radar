@@ -441,6 +441,13 @@
       "title": "Unsupervised discovery of functional sequence patterns from protein language model with MotifAE",
       "url": "https://www.nature.com/articles/s41467-026-77333-2"
     },
+    "doi:10.1038/s41467-026-77406-2": {
+      "first_seen": "2026-09-06",
+      "score": 11,
+      "source": "Nat Commun",
+      "title": "Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli",
+      "url": "https://www.nature.com/articles/s41467-026-77406-2"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
       "score": 8,
@@ -489,6 +496,13 @@
       "source": "Sci Rep",
       "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
       "url": "https://www.nature.com/articles/s41598-026-66642-7"
+    },
+    "doi:10.1038/s41598-026-67951-7": {
+      "first_seen": "2026-09-06",
+      "score": 16,
+      "source": "Sci Rep",
+      "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
+      "url": "https://www.nature.com/articles/s41598-026-67951-7"
     },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",

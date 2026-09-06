@@ -7,18 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-05** (`2026-09-05T04:38:16Z`)
+Updated: **2026-09-06** (`2026-09-06T04:48:26Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291)<br><sub>Matteo Tadiello, Marko Ludaic, Vsevolod Viliuga et al.</sub> | Bioinformatics<br>2026-09-04 | Binders and therapeutics | 13 |
-| 2 | [De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo](https://doi.org/10.64898/2026.09.01.748349)<br><sub>Overath, M. D., Lundquist, E. V. S., Björnsson, K. H. et al.</sub> | biorxiv<br>2026-09-03 | Binders and therapeutics, Experimental validation | 12 |
-| 3 | [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and)<br><sub>Rongsheng Gao, Youmeng Liu, Chengye Duan et al.</sub> | ACS Synthetic Biology<br>2026-09-04 | Enzymes and function, Experimental validation | 9 |
-| 4 | [Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.](https://pubmed.ncbi.nlm.nih.gov/42695896/)<br><sub>Reznikov G, Kusters F, Mohammadi M et al.</sub> | PubMed<br>2026 Sep 04 | Protein language models, Binders and therapeutics | 8 |
+| 1 | [Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study](https://www.nature.com/articles/s41598-026-67951-7)<br><sub>Abdallah Elssir Ahmed, Reem M. A. Ebrahim, Nooh Mohamed Hajhamed et al.</sub> | Sci Rep<br>2026-09-05 | Binders and therapeutics, Enzymes and function, Experimental validation | 16 |
+| 2 | [Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli](https://www.nature.com/articles/s41467-026-77406-2)<br><sub>Nan-Kai Wang, Song Yue, Jin-Ping Chen et al.</sub> | Nat Commun<br>2026-09-05 | General | 11 |
 
 ### All Recommended Papers
+
+#### 2026-09-06
+
+- [Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study](https://www.nature.com/articles/s41598-026-67951-7) (Sci Rep, 2026-09-05; Binders and therapeutics, Enzymes and function, Experimental validation; score 16)
+- [Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli](https://www.nature.com/articles/s41467-026-77406-2) (Nat Commun, 2026-09-05; General; score 11)
 
 #### 2026-09-05
 
@@ -241,7 +244,7 @@ Updated: **2026-09-05** (`2026-09-05T04:38:16Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-05](outputs/daily/2026-09-05.md)
+- [Daily report for 2026-09-06](outputs/daily/2026-09-06.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

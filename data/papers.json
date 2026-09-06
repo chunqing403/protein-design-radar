@@ -1640,6 +1640,36 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-77333-2"
     },
+    "doi:10.1038/s41467-026-77406-2": {
+      "abstract": "",
+      "authors": [
+        "Nan-Kai Wang",
+        "Song Yue",
+        "Jin-Ping Chen",
+        "Chang Su",
+        "Zhen-Ming Lu",
+        "Jin-Song Gong",
+        "Wei E. Huang",
+        "Zheng-Hong Xu",
+        "Jin-Song Shi"
+      ],
+      "doi": "10.1038/s41467-026-77406-2",
+      "first_seen": "2026-09-06",
+      "published": "2026-09-05",
+      "reasons": [
+        "protein engineering",
+        "deep learning",
+        "protein"
+      ],
+      "score": 11,
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-77406-2",
+      "title": "Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-77406-2"
+    },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
       "authors": [
@@ -1811,6 +1841,44 @@
         "Protein language models"
       ],
       "url": "https://www.nature.com/articles/s41598-026-66642-7"
+    },
+    "doi:10.1038/s41598-026-67951-7": {
+      "abstract": "Abstract Mycobacterium tuberculosis (MTB) remains a deadly infectious agent and a global health challenge, particularly due to the emergence of multidrug-resistant strains. Mycobacterial serine/threonine protein kinase E (PknE) is vital for mycobacterial survival under nitric oxide stress by altering Toll-like receptor expression, suppressing apoptosis, increasing inflammation, and modulating costimulatory molecules. This study employed a structure-based in silico workflow comprising virtual screening of 2,202 FDA-approved compounds, molecular docking, 300 ns molecular dynamics (MD) simulation molecular mechanics/Poisson-Boltzmann surface area (MM/PBSA) binding free energy calculations, principal component analysis (PCA), free energy landscape (FEL) analysis, and in silico toxicity profiling, to identify candidate PknE inhibitors. Molecular docking identified netilmicin, dirithromycin, acarbose, and ertapenem as top candidates, with docking scores of − 13.13 to − 15.86 kcal/mol. MD simulations confirmed complex stability with RMSD values near 1 nm, while MM/PBSA analysis revealed favourable binding free energies: netilmicin (− 1.47 ± 0.18), ertapenem (− 11.70 ± 1.22), dirithromycin (− 17.80 ± 0.13), and acarbose (− 18.90 ± 0.06 kcal/mol). PCA-based FEL analysis confirmed thermodynamic stability across all complexes, with DTM–PknE exhibiting the lowest minimum Gibbs free energy (15.7 kJ/mol). In silico toxicity profiling demonstrated acceptable safety profiles for all leads. These findings provide a strong computational basis for repurposing these agents as adjunct anti-TB therapies, pending experimental validation.",
+      "authors": [
+        "Abdallah Elssir Ahmed",
+        "Reem M. A. Ebrahim",
+        "Nooh Mohamed Hajhamed",
+        "Lamis Yahia Mohamed Elkheir",
+        "Sarmad Marah",
+        "Hiba Hassan Sulieman Omer",
+        "Tevfik Ozen",
+        "Nouh Saad Mohamed",
+        "Mohammed H. Abdelraheem",
+        "Ayman Azhary",
+        "Faisal Hammad Mekky Koua",
+        "Mohammed Asaad"
+      ],
+      "doi": "10.1038/s41598-026-67951-7",
+      "first_seen": "2026-09-06",
+      "published": "2026-09-05",
+      "reasons": [
+        "experimental validation",
+        "stability",
+        "kinase",
+        "protein",
+        "enzyme",
+        "binding"
+      ],
+      "score": 16,
+      "source": "Sci Rep",
+      "source_id": "10.1038/s41598-026-67951-7",
+      "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
+      "topics": [
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://www.nature.com/articles/s41598-026-67951-7"
     },
     "doi:10.1038/s43588-026-01010-z": {
       "abstract": "Protein language models, as well as models that incorporate structural information or homologous sequences, estimate the sequence likelihood p(sequence), which reflects the protein fitness landscape and is commonly used in mutation effect prediction and protein design. It is widely believed in deep learning field that larger models perform better across tasks. However, for fitness prediction, language model performance declines beyond a certain size, raising concerns about their scalability. Here we showed that model size, training dataset and stochastic elements can bias the predicted p(sequence) away from real fitness. Model performance on fitness prediction depends on how well p(sequence) matches evolutionary patterns in homologs, which is best achieved at a moderate p(sequence) level for most proteins. At extreme predicted wild-type sequence likelihoods, models predict uniformly low or high likelihoods for nearly all mutations, failing to reflect the real fitness landscape. Notably, larger models tend to predict proteins with higher p(sequence), which may exceed the moderate range and thus reduce performance. Our findings clarify the scaling behavior of protein models on fitness prediction and provide practical guidelines for their application and future development.",
