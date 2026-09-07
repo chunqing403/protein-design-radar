@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-06** (`2026-09-06T04:48:26Z`)
+Updated: **2026-09-07** (`2026-09-07T04:51:27Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics | Score |
-|---|---|---|---|---:|
-| 1 | [Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study](https://www.nature.com/articles/s41598-026-67951-7)<br><sub>Abdallah Elssir Ahmed, Reem M. A. Ebrahim, Nooh Mohamed Hajhamed et al.</sub> | Sci Rep<br>2026-09-05 | Binders and therapeutics, Enzymes and function, Experimental validation | 16 |
-| 2 | [Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli](https://www.nature.com/articles/s41467-026-77406-2)<br><sub>Nan-Kai Wang, Song Yue, Jin-Ping Chen et al.</sub> | Nat Commun<br>2026-09-05 | General | 11 |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### All Recommended Papers
 
@@ -244,7 +241,7 @@ Updated: **2026-09-06** (`2026-09-06T04:48:26Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-06](outputs/daily/2026-09-06.md)
+- [Daily report for 2026-09-07](outputs/daily/2026-09-07.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
