@@ -796,6 +796,41 @@ def papers_first_seen_on(library: dict, date: dt.date) -> list[Paper]:
     return sorted(papers, key=lambda p: (p.score, p.published), reverse=True)
 
 
+def paper_category_order(config: dict) -> list[str]:
+    configured = config.get("paper_category_order", [])
+    topic_names = list(config.get("topic_profiles", {}).keys())
+    categories = []
+    for category in [*configured, *topic_names, "General"]:
+        if category and category not in categories:
+            categories.append(category)
+    return categories
+
+
+def primary_paper_category(paper: Paper, config: dict) -> str:
+    categories = set(paper_category_order(config))
+    for topic in paper.topics:
+        if topic in categories:
+            return topic
+    return "General"
+
+
+def paper_category_anchor(category: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", normalize_text(category)).strip("-")
+    return f"paper-category-{slug or 'general'}"
+
+
+def group_papers_by_category(papers: list[Paper], config: dict) -> list[tuple[str, list[Paper]]]:
+    grouped = {category: [] for category in paper_category_order(config)}
+    for paper in papers:
+        category = primary_paper_category(paper, config)
+        grouped.setdefault(category, []).append(paper)
+    return [(category, grouped[category]) for category in grouped if grouped[category]]
+
+
+def paper_category_label(category: str, config: dict) -> str:
+    return config.get("paper_category_labels", {}).get(category, category)
+
+
 def render_readme_section(date: dt.date, papers: list[Paper], config: dict, library: dict) -> str:
     generated = dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
     all_papers = library_papers(library)
@@ -818,20 +853,34 @@ def render_readme_section(date: dt.date, papers: list[Paper], config: dict, libr
             "",
         ]
 
-    lines += ["### All Recommended Papers", ""]
-    by_seen: dict[str, list[Paper]] = {}
+    category_groups = group_papers_by_category(all_papers, config)
+    lines += [
+        "### Paper Directory / 文献目录",
+        "",
+        "| Category | Papers |",
+        "|---|---:|",
+    ]
+    for category, category_papers in category_groups:
+        label = paper_category_label(category, config)
+        anchor = paper_category_anchor(category)
+        lines.append(f"| [{label}](#{anchor}) | {len(category_papers)} |")
+    lines += ["", "### Categorized Paper Library / 分类文献库", ""]
+
     records = library.get("papers", {})
-    for paper in all_papers:
-        first_seen = records.get(paper.key, {}).get("first_seen", "unknown")
-        by_seen.setdefault(first_seen, []).append(paper)
-    for first_seen in sorted(by_seen, reverse=True):
-        lines.append(f"#### {first_seen}")
+    for category, category_papers in category_groups:
+        label = paper_category_label(category, config)
+        lines.append(f'<a id="{paper_category_anchor(category)}"></a>')
+        lines.append(f"#### {label} ({len(category_papers)})")
         lines.append("")
-        for paper in sorted(by_seen[first_seen], key=lambda p: (p.score, p.published), reverse=True):
+        for paper in category_papers:
             link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
             title = f"[{paper.title}]({link})" if link else paper.title
             topics = ", ".join(paper.topics)
-            lines.append(f"- {title} ({paper.source}, {paper.published or 'n/a'}; {topics}; score {paper.score})")
+            first_seen = records.get(paper.key, {}).get("first_seen", "unknown")
+            lines.append(
+                f"- {title} ({paper.source}, {paper.published or 'n/a'}; "
+                f"first seen {first_seen}; {topics}; score {paper.score})"
+            )
         lines.append("")
 
     lines += [

@@ -1,5 +1,23 @@
 {
   "project_name": "Protein Design Paper Radar",
+  "paper_category_order": [
+    "Structure generation",
+    "Sequence design",
+    "Protein language models",
+    "Binders and therapeutics",
+    "Enzymes and function",
+    "Experimental validation",
+    "General"
+  ],
+  "paper_category_labels": {
+    "Structure generation": "Structure Generation / 结构生成",
+    "Sequence design": "Sequence Design / 序列设计",
+    "Protein language models": "Protein Language Models / 蛋白质语言模型",
+    "Binders and therapeutics": "Binders & Therapeutics / 结合蛋白与治疗",
+    "Enzymes and function": "Enzymes & Function / 酶与功能",
+    "Experimental validation": "Experimental Validation / 实验验证",
+    "General": "General / 综合"
+  },
   "max_results_per_source": 80,
   "preprint_max_results": 300,
   "google_scholar_enabled": true,

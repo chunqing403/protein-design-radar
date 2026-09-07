@@ -100,5 +100,94 @@ class CrossrefPrefixQueryTests(unittest.TestCase):
         self.assertEqual(papers[0].source, "Bioinformatics")
 
 
+class ReadmeCategoryTests(unittest.TestCase):
+    def setUp(self):
+        self.config = {
+            "paper_category_order": [
+                "Structure generation",
+                "Sequence design",
+                "Binders and therapeutics",
+                "General",
+            ],
+            "paper_category_labels": {
+                "Structure generation": "Structure Generation / 结构生成",
+                "Sequence design": "Sequence Design / 序列设计",
+                "Binders and therapeutics": "Binders & Therapeutics / 结合蛋白与治疗",
+                "General": "General / 综合",
+            },
+            "topic_profiles": {
+                "Structure generation": [],
+                "Sequence design": [],
+                "Binders and therapeutics": [],
+            },
+        }
+
+    @staticmethod
+    def paper(title, source_id, topics, score):
+        return daily_recommend.Paper(
+            title=title,
+            authors=["Ada Lovelace"],
+            abstract="",
+            source="Test Journal",
+            published="2026-09-01",
+            url=f"https://example.org/{source_id}",
+            source_id=source_id,
+            score=score,
+            topics=topics,
+        )
+
+    def test_uses_first_known_topic_as_unique_primary_category(self):
+        paper = self.paper(
+            "A multi-topic paper",
+            "multi-topic",
+            ["Unknown", "Sequence design", "Binders and therapeutics"],
+            10,
+        )
+
+        self.assertEqual(
+            daily_recommend.primary_paper_category(paper, self.config),
+            "Sequence design",
+        )
+
+    def test_readme_renders_directory_counts_and_each_library_paper_once(self):
+        structure = self.paper(
+            "Structure paper",
+            "structure",
+            ["Structure generation", "Sequence design"],
+            12,
+        )
+        binder = self.paper(
+            "Binder paper",
+            "binder",
+            ["Binders and therapeutics"],
+            9,
+        )
+        library = {
+            "papers": {
+                structure.key: daily_recommend.paper_to_record(structure, "2026-08-30"),
+                binder.key: daily_recommend.paper_to_record(binder, "2026-09-01"),
+            }
+        }
+
+        section = daily_recommend.render_readme_section(
+            dt.date(2026, 9, 2), [], self.config, library
+        )
+        categorized_library = section.split(
+            "### Categorized Paper Library / 分类文献库", 1
+        )[1]
+
+        self.assertIn(
+            "| [Structure Generation / 结构生成](#paper-category-structure-generation) | 1 |",
+            section,
+        )
+        self.assertIn(
+            "| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 1 |",
+            section,
+        )
+        self.assertEqual(categorized_library.count("Structure paper"), 1)
+        self.assertEqual(categorized_library.count("Binder paper"), 1)
+        self.assertIn("first seen 2026-08-30", categorized_library)
+
+
 if __name__ == "__main__":
     unittest.main()
