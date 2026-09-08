@@ -378,6 +378,13 @@
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/acs.jctc.6c01009": {
+      "first_seen": "2026-09-08",
+      "score": 17,
+      "source": "Journal of Chemical Theory and Computation",
+      "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling",
+      "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in"
+    },
     "doi:10.1021/acs.jproteome.6c00302": {
       "first_seen": "2026-09-05",
       "score": 8,
@@ -405,6 +412,13 @@
       "source": "PubMed",
       "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
+    },
+    "doi:10.1021/jacs.6c15828": {
+      "first_seen": "2026-09-08",
+      "score": 6,
+      "source": "Journal of the American Chemical Society",
+      "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
     },
     "doi:10.1038/s10038-026-01484-9": {
       "first_seen": "2026-09-01",

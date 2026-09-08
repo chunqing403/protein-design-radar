@@ -7,20 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-07** (`2026-09-07T07:29:15Z`)
+Updated: **2026-09-08** (`2026-09-08T04:48:05Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics | Score |
+|---|---|---|---|---:|
+| 1 | [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in)<br><sub>Nagesh B E, Jagannath Mondal</sub> | Journal of Chemical Theory and Computation<br>2026-09-07 | Structure generation, Protein language models, Binders and therapeutics | 17 |
+| 2 | [De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely)<br><sub>Chuangyuan Zhao, Yu Jin, Xue Li et al.</sub> | Journal of the American Chemical Society<br>2026-09-07 | Binders and therapeutics | 6 |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 26 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 27 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 12 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 29 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 14 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 15 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
 | [General / 综合](#paper-category-general) | 4 |
@@ -28,8 +31,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (26)
+#### Structure Generation / 结构生成 (27)
 
+- [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in) (Journal of Chemical Theory and Computation, 2026-09-07; first seen 2026-09-08; Structure generation, Protein language models, Binders and therapeutics; score 17)
 - [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational) (Journal of Chemical Information and Modeling, 2026-08-31; first seen 2026-09-04; Structure generation; score 8)
 - [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178) (Bioinformatics, 2026-08-31; first seen 2026-09-01; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
 - [Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.](https://pubmed.ncbi.nlm.nih.gov/42162937/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Structure generation, Protein language models, Enzymes and function, Experimental validation; score 12)
@@ -107,8 +111,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models; score 9)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (14)
+#### Binders & Therapeutics / 结合蛋白与治疗 (15)
 
+- [De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely) (Journal of the American Chemical Society, 2026-09-07; first seen 2026-09-08; Binders and therapeutics; score 6)
 - [Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study](https://www.nature.com/articles/s41598-026-67951-7) (Sci Rep, 2026-09-05; first seen 2026-09-06; Binders and therapeutics, Enzymes and function, Experimental validation; score 16)
 - [ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291) (Bioinformatics, 2026-09-04; first seen 2026-09-05; Binders and therapeutics; score 13)
 - [De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo](https://doi.org/10.64898/2026.09.01.748349) (biorxiv, 2026-09-03; first seen 2026-09-05; Binders and therapeutics, Experimental validation; score 12)
@@ -149,7 +154,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-09-07](outputs/daily/2026-09-07.md)
+- [Daily report for 2026-09-08](outputs/daily/2026-09-08.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

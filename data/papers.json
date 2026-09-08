@@ -1394,6 +1394,34 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
+    "doi:10.1021/acs.jctc.6c01009": {
+      "abstract": "Abstract Characterizing equilibrium conformational ensembles with deep generative models requires understanding whether a model reproduces a target distribution and how it reaches that distribution. Here, we compare two generative routes to molecular conformational sampling, stochastic relaxation and deterministic transport, using denoising diffusion probabilistic models and rectified-flow models across systems of increasing complexity: a multimodal two-dimensional potential, the folded miniprotein Trp-cage, and a high-dimensional dihedral representation of an intrinsically disordered protein. We show that these paradigms differ in end point fidelity and in how distributional error is resolved during sampling. Diffusion models converge through pronounced late-stage stochastic relaxation and robustly recover the configurational breadth across neural architectures. Rectified flow approaches the target distribution through deterministic transport and therefore depends more strongly on architectural expressivity, particularly in heterogeneous, high-dimensional landscapes. Entropy and moment-evolution analyses further show that diffusion more reliably restores the ensemble location and fluctuation structure, whereas rectified flow requires Transformer-level feature mixing to represent transport geometry accurately. These results establish the convergence mechanism as a practical design principle for molecular generative sampling, clarifying when stochastic diffusion provides robustness and when deterministic transport requires higher representational capacity.",
+      "authors": [
+        "Nagesh B E",
+        "Jagannath Mondal"
+      ],
+      "doi": "10.1021/acs.jctc.6c01009",
+      "first_seen": "2026-09-08",
+      "published": "2026-09-07",
+      "reasons": [
+        "diffusion model",
+        "generative model",
+        "transformer",
+        "miniprotein",
+        "protein",
+        "structure"
+      ],
+      "score": 17,
+      "source": "Journal of Chemical Theory and Computation",
+      "source_id": "10.1021/acs.jctc.6c01009",
+      "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in"
+    },
     "doi:10.1021/acs.jproteome.6c00302": {
       "abstract": "Large-scale proteomics relies heavily on target-decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database. Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) decoy generation for peptide identification and benchmark it against classical strategies. We evaluate these approaches using three complementary quality-control layers: sequence-based separability, search-engine-agnostic spectral-space diagnostics, and end-to-end mass spectrometry benchmarks, including pipelines with rescoring. Across these analyses, PLM-based decoys are harder for sequence-only neural networks to distinguish than most classical generators, suggesting fewer obvious sequence-level artifacts. However, this signal is only weakly informative for search performance. Spectral diagnostics further show that short peptides occupy a particularly crowded target-decoy space and are therefore especially prone to local collisions across all generators. In full search pipelines, reverse decoys remain a strong baseline, and current PLM-based generators do not yet provide a clear overall advantage. We therefore view PLM-based decoys not as universal replacements for reverse decoys but as tunable tools for benchmarking, diagnostics, stress testing, and future adaptive decoy optimization, with increasing value as search models become more expressive.",
       "authors": [
@@ -1514,6 +1542,34 @@
         "General"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
+    },
+    "doi:10.1021/jacs.6c15828": {
+      "abstract": "Abstract Targeted drug discovery has enabled the development of effective therapies for many diseases. However, a fundamental challenge remains in translating molecular binding into functional performance for the development of novel targeted drugs. Here, we present a programmable DNA nanoframe (NF) strategy that converts ligand binding into robust biological functions through precise spatial organization of multiple ligands. By encoding target dimensions and binding geometry, we have successfully constructed potential targeted nanodrugs against diverse proteins, which exhibit high avidity with markedly enhanced binding affinity and selectivity. A design-driven blockade of VEGF has also been translated into marked antiangiogenic efficacy both in vitro and in vivo. Overall, the programmable DNA NFs establish a modular and generalizable paradigm for targeted drug design, upgrading weak or non-functional binders into effective inhibitors through rational spatial programming.",
+      "authors": [
+        "Chuangyuan Zhao",
+        "Yu Jin",
+        "Xue Li",
+        "Zhengming Shi",
+        "Wenhao Shi",
+        "Sai Ge",
+        "Dongsheng Liu",
+        "Yuanchen Dong"
+      ],
+      "doi": "10.1021/jacs.6c15828",
+      "first_seen": "2026-09-08",
+      "published": "2026-09-07",
+      "reasons": [
+        "de novo design",
+        "binding"
+      ],
+      "score": 6,
+      "source": "Journal of the American Chemical Society",
+      "source_id": "10.1021/jacs.6c15828",
+      "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
     },
     "doi:10.1038/s10038-026-01484-9": {
       "abstract": "Channelopathies represent a group of diseases often caused by missense variants in ion channels affecting the functioning of tissues like the nervous system, heart, and muscle. The gold standard for functionally characterizing a variant is to measure the electrophysiological changes in channel properties using cell-based heterologous expression systems. As this method is time-consuming and generally unavailable, clinical practice often relies on in-silico models to predict the functional consequences of ion channel variants. We constructed a Missense ION (MissION) channel variant classifier based on a protein language model and trained it on 1996 gain- or loss-of-function variants, the largest set collected to date, in order to predict the functional effects of variants across a broad range of ion channels. MissION achieves a significant increase in predictive performance (Area Under the Receiver Operating Characteristic Curve (ROC-AUC): 0.918, compared to 0.884 and 0.779 for the current leading models). Moreover, the model generalizes well to ion channel genes for which little or no electrophysiological recordings are available. MissION provides functional predictions for over 600,000 ion channel variants, made available through an online interface that allows variant interpretation for a wide range of channelopathies.",
