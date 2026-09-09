@@ -155,10 +155,10 @@ def arxiv_query(queries: list[str], max_results: int) -> list[Paper]:
 def preprint_query(server: str, start: dt.date, end: dt.date, max_results: int) -> list[Paper]:
     papers: list[Paper] = []
     cursor = 0
-    page_size = 100
+    source = {"biorxiv": "bioRxiv", "medrxiv": "medRxiv"}.get(server.lower(), server)
     while len(papers) < max_results:
         url = f"https://api.biorxiv.org/details/{server}/{start.isoformat()}/{end.isoformat()}/{cursor}"
-        text = request_text(url)
+        text = request_text(url, timeout=30, retries=3)
         if not text:
             break
         try:
@@ -175,7 +175,7 @@ def preprint_query(server: str, start: dt.date, end: dt.date, max_results: int) 
                     title=clean_text(item.get("title", "")),
                     authors=[a.strip() for a in clean_text(item.get("authors", "")).split(";") if a.strip()],
                     abstract=clean_text(item.get("abstract", "")),
-                    source=server,
+                    source=source,
                     source_id=doi,
                     doi=doi,
                     published=clean_text(item.get("date", "")),
@@ -184,9 +184,14 @@ def preprint_query(server: str, start: dt.date, end: dt.date, max_results: int) 
             )
             if len(papers) >= max_results:
                 break
-        if len(collection) < page_size:
+        cursor += len(collection)
+        messages = payload.get("messages", [])
+        try:
+            total = int(messages[0].get("total", 0)) if messages else 0
+        except (TypeError, ValueError):
+            total = 0
+        if total and cursor >= total:
             break
-        cursor += page_size
     return papers[:max_results]
 
 

@@ -735,6 +735,20 @@
       "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
       "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
+    "doi:10.64898/2026.04.03.716278": {
+      "first_seen": "2026-09-09",
+      "score": 11,
+      "source": "bioRxiv",
+      "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
+      "url": "https://doi.org/10.64898/2026.04.03.716278"
+    },
+    "doi:10.64898/2026.04.03.716280": {
+      "first_seen": "2026-09-09",
+      "score": 20,
+      "source": "bioRxiv",
+      "title": "A geometry-over-coevolution principle governs protein complex assembly in AlphaFold",
+      "url": "https://doi.org/10.64898/2026.04.03.716280"
+    },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
       "score": 12,
@@ -790,6 +804,41 @@
       "source": "biorxiv",
       "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
       "url": "https://doi.org/10.64898/2026.09.01.748349"
+    },
+    "doi:10.64898/2026.09.04.749184": {
+      "first_seen": "2026-09-09",
+      "score": 33,
+      "source": "bioRxiv",
+      "title": "RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
+      "url": "https://doi.org/10.64898/2026.09.04.749184"
+    },
+    "doi:10.64898/2026.09.04.749196": {
+      "first_seen": "2026-09-09",
+      "score": 27,
+      "source": "bioRxiv",
+      "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
+      "url": "https://doi.org/10.64898/2026.09.04.749196"
+    },
+    "doi:10.64898/2026.09.04.749352": {
+      "first_seen": "2026-09-09",
+      "score": 18,
+      "source": "bioRxiv",
+      "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
+      "url": "https://doi.org/10.64898/2026.09.04.749352"
+    },
+    "doi:10.64898/2026.09.06.749605": {
+      "first_seen": "2026-09-09",
+      "score": 8,
+      "source": "bioRxiv",
+      "title": "Capsid-specialized protein language models reveal higher-order viral architecture from sequence",
+      "url": "https://doi.org/10.64898/2026.09.06.749605"
+    },
+    "doi:10.64898/2026.09.06.749733": {
+      "first_seen": "2026-09-09",
+      "score": 36,
+      "source": "bioRxiv",
+      "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
+      "url": "https://doi.org/10.64898/2026.09.06.749733"
     }
   }
 }

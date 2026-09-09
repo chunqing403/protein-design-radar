@@ -2679,6 +2679,59 @@
       ],
       "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
+    "doi:10.64898/2026.04.03.716278": {
+      "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework that integrates 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. As driven by its explainability, the first time introduced atomic and protein language information dramatically boosted it to an outstanding level for PPI discovery in any species, potent to even bypass costly experiments. ProMaya system is freely accessible at https://scbb.ihbt.res.in/ProMaya/",
+      "authors": [
+        "Bhati, U.",
+        "Gupta, S.",
+        "kesarwani, V.",
+        "Shankar, R."
+      ],
+      "doi": "10.64898/2026.04.03.716278",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-08",
+      "reasons": [
+        "deep learning",
+        "transformer",
+        "protein",
+        "structure"
+      ],
+      "score": 11,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.04.03.716278",
+      "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.04.03.716278"
+    },
+    "doi:10.64898/2026.04.03.716280": {
+      "abstract": "AlphaFold has revolutionized protein complex structure prediction, yet how it assembles intermolecular interfaces remains poorly understood. Contrary to the prevailing view that inter-protein coevolution drives complex prediction, we uncover a geometry-over-coevolution principle governing assembly in AlphaFold-Multimer and AlphaFold3. Through systematic perturbation of evolutionary and structural inputs and development of residue-level constraint propagation mapping to trace the emergence and propagation of geometric information within the network, we show that prediction accuracy is governed primarily by monomer-derived structural geometry and interface-specific sequence-geometry compatibility, rather than direct inter-protein coevolutionary signals. Our mapping reveals a hierarchical assembly mechanism in which monomer-level geometric representations are established first and progressively propagated to constrain cross-chain interfaces. This mechanism further explains why antigen-antibody complexes are predicted less accurately, as their intrinsic interface plasticity and non-canonical architectures limit the propagation of geometric constraints across interfaces. Together, these findings establish a mechanistic framework for understanding how artificial intelligence models assemble protein complexes and provide principles for improving next-generation structure prediction.",
+      "authors": [
+        "Li, S.",
+        "Mu, Z.",
+        "Yan, C."
+      ],
+      "doi": "10.64898/2026.04.03.716280",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-08",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "artificial intelligence",
+        "protein",
+        "antibody",
+        "sequence"
+      ],
+      "score": 20,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.04.03.716280",
+      "title": "A geometry-over-coevolution principle governs protein complex assembly in AlphaFold",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.04.03.716280"
+    },
     "doi:10.64898/2026.06.22.733733": {
       "abstract": "While most existing methods are limited to predicting the tertiary structures of proteins containing only canonical residues, the PEPstrMOD server (developed in 2015) pioneered structure prediction for chemically modified and non-natural peptides. Despite its widespread use, the original framework was restricted to peptides of 7 to 25 residues and relied on older backbone-prediction algorithms. To address these limitations, we present PEPstrMOD2, which introduces three major advancements over its predecessor. First, it replaces the original in-house coordinate generation with state-of-the-art deep learning (DL) algorithms, leveraging AlphaFold2 and ESMFold for highly accurate initial structure prediction. Secondly, it greatly expands the accessible chemical space through incorporation of new, AMBER force-field compatible library of 257 post-translational modifications (PTMs), 428 non-canonical amino acids (NCAAs), and 243 terminal modifications. Lastly, through the application of native scalability of AlphaFold2 (AF2) and ESMFold (EF), PEPstrMOD2 eliminates the original restrictions of the length, enabling the structural modeling of longer, complex therapeutic peptides and small proteins. We evaluated the performance of PEPstrMOD2 against state-of-the-art methods across three distinct peptide datasets. For the AfCyc dataset consisting of 80 cyclic peptides, PEPstrMOD2 obtained a competitive average atom-level Root Mean Square Deviation (RMSD) of 2.05 [A], compared to 1.13 [A] by AlphaFold3 (AF3) and 1.82 [A] by AfCycDesign. Remarkably, for the modified peptide ModPep433 dataset, PEPstrMOD2 outperformed AF3, achieving the lower average RMSD score of 4.49 [A] against 4.67 [A] of AF3. Furthermore, in the case of the ModPep16 benchmark, PEPstrMOD2 achieved 2.50 [A] average RMSD value, which is two times more accurate than that of the original PEPstrMOD (5.84 [A]). In summary, PEPstrMOD2 provides a powerful, high-throughput, and highly accurate platform to facilitate peptide-based drug development and structural biology research. While the original PEPstrMOD was restricted to a web server interface, PEPstrMOD2 is available as both an intuitive webserver and a standalone command-line tool via GitHub, featuring Docker support for easy deployment and reproducible, large-scale modeling pipelines (https://webs.iiitd.edu.in/raghava/pepstrmod/). HighlightsO_LIPEPstrMOD2 predicts structures of chemically modified peptides using deep learning and molecular dynamics refinement. C_LIO_LISupports 928 chemical modifications through custom AMBER based force-field libraries including PTMs, NCAAs, terminal, D- as well as cyclic modifications. C_LIO_LIRemoves peptide length restrictions through AlphaFold2 and ESMFold integration. C_LIO_LIOutperforms PEPstrMOD and is competitive with AF3 on different benchmark datasets. C_LIO_LIAvailable as both a web server and a standalone platform via GitHub and Docker. C_LI",
       "authors": [
@@ -2962,6 +3015,156 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.01.748349"
+    },
+    "doi:10.64898/2026.09.04.749184": {
+      "abstract": "Biomolecular interactions, including protein--protein interactions, protein--nucleic acid recognition, and protein--small molecule binding, underlie a wide range of biological processes and therapeutic mechanisms. Although recent \\emph{de novo} design methods can generate candidate binders for diverse molecular targets, practical design campaigns remain limited by low filter-passing rates and model-specific biases that arise when designs are optimized against a single predictor. Here, we present RFOptimization (RFO), a training-free framework for all-atom biomolecular binder optimization. RFO formulates binder improvement as a residue-wise mutational search problem, sampling candidate substitutions alternately based on gradient-guided sequence optimization using all-atom structure prediction models and a cycling-based sequence redesign strategy that alternates structure generation with an orthogonal predictor and MPNN-based sequence design to improve the \\emph{in silico} success rate of RFdiffusion-generated binders within minutes of computation. To reduce overfitting to any individual structure model, candidate mutations are further evaluated with orthogonal AlphaFold3 metrics as final filters. We demonstrate the generality of RFO across diverse design settings, including classical protein binder design, ligand-binding biosensor design, cyclic peptide design, and active site-aware enzyme design.",
+      "authors": [
+        "Zhang, O.",
+        "Wang, J.",
+        "Thompson, T. R.",
+        "You, Z.",
+        "Song, Z.",
+        "DiMaio, F.",
+        "Baker, D."
+      ],
+      "doi": "10.64898/2026.09.04.749184",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-07",
+      "reasons": [
+        "structure prediction",
+        "binder design",
+        "enzyme design",
+        "RFdiffusion",
+        "sequence design",
+        "structure generation"
+      ],
+      "score": 33,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.04.749184",
+      "title": "RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.04.749184"
+    },
+    "doi:10.64898/2026.09.04.749196": {
+      "abstract": "MAP4K4 is a serine/threonine kinase member of the mitogen activated protein kinase family. It acts through the JNK, p38 MAPK, and ERK1/2 pathways and is implicated in cancer proliferation and invasion, TNF--driven insulin resistance, macrophage-mediated inflammation, and cardiomyocyte apoptosis in heart failure. No selective small-molecule inhibitor of MAP4K4 has reached clinical use, and knowledge of the specific epitopes on MAP4K4 is lacking for some existing antibodies, leaving a role for small protein binders directed at specific surface sites. We used a computational pipeline that combines RFdiffusion, ProteinMPNN, and AlphaFold2, as well as BindCraft, an integrated \"one-shot\" tool, for de novo design of small protein binders (~50-130 residues) to specific MAP4K4 surface hotspots. We also created an automated hotspot determination algorithm that weighs geometry, chemistry, rigidity, and AlphaFold pLDDT. From thousands of candidate sequences, we evaluated 20 of the most promising binders with AlphaFold3 (AF3). The interface predicted template modeling (ipTM) scores ranged from 0.16 to 0.90, with nine candidates having ipTM [≥] 0.80, and five scoring [≥] 0.87. Two binders engage non-overlapping hotspots on opposite faces of MAP4K4, making them a candidate pair for a sandwich assay. BLASTp searches of all designed protein sequences returned only low-significance matches to half of them, indicating that they represent truly novel binding solutions and previously unexplored regions of protein sequence space rather than rediscovered natural motifs. We subjected five complexes spanning the observed AF3 confidence range to 100-ns explicit-solvent molecular dynamics simulation. Interchain contacts were retained throughout, with stability varying substantially between systems. Confidence in the binding specificity of the nine highest-confidence candidates was bolstered by juxtaposition with AF3 evaluations of their interaction with CDK2, a negative-control kinase. This comparison yielded a significant, consistent reduction in ipTM (p = 0.0039) for the control binding partner. ToxinPred2 and AlgPred 2.0 screening suggested that one candidate was a potential allergen and two were potential toxins. These results support that de novo design of small, site-specific protein probes for an underserved disease target is achievable using free, publicly available computational tools and minimal resources, pointing to a greater role for the public and amateur scientists to contribute to biotechnological advancement.",
+      "authors": [
+        "Jain, A.",
+        "Tobias, A. V."
+      ],
+      "doi": "10.64898/2026.09.04.749196",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-07",
+      "reasons": [
+        "AlphaFold",
+        "RFdiffusion",
+        "ProteinMPNN",
+        "de novo design",
+        "stability",
+        "kinase"
+      ],
+      "score": 27,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.04.749196",
+      "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.04.749196"
+    },
+    "doi:10.64898/2026.09.04.749352": {
+      "abstract": "Protein language models (PLMs) trained on evolutionary sequences learn representations that encode protein structure, enabling direct structure prediction without multiple-sequence alignments (MSAs). Here we present the Atlas model family, an open and trainable system spanning protein language modeling, monomer folding, and protein-complex prediction. AtlasLM-3B is a 3B-scale language model trained with masked language modeling on approximately 1.56 billion sequences, including metagenomic data, and outperforms the similarly sized ESM2-3B in unsupervised contact prediction. Building on these representations, AtlasFold predicts all-atom protein structures and achieves state-of-the-art accuracy among PLM-based folding models. Fine-tuning AtlasFold for protein-complex prediction produces AtlasFold-Multimer (AtlasFold-M), whose antibody-antigen prediction performance is comparable to that of AlphaFold3 and ESMFold2. This protein-specific folding architecture enables fast, memory-efficient inference with AtlasFold and AtlasFold-M. By releasing the training code and data, stage checkpoints, and model weights under the MIT License, we provide a foundation for advancing PLM-based protein structure prediction.",
+      "authors": [
+        "Seo, S.",
+        "Kim, H.",
+        "Moon, S.",
+        "Kim, W. Y.",
+        "Team KAIST,"
+      ],
+      "doi": "10.64898/2026.09.04.749352",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-07",
+      "reasons": [
+        "protein language model",
+        "structure prediction",
+        "folding",
+        "protein",
+        "antibody",
+        "sequence"
+      ],
+      "score": 18,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.04.749352",
+      "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.04.749352"
+    },
+    "doi:10.64898/2026.09.06.749605": {
+      "abstract": "Viral capsid proteins preserve information on higher-order shell architecture and deep evolutionary history, yet current capsid annotation relies predominantly on homology-based methods that have reduced sensitivity across highly divergent environmental sequences. Here we develop ESMCapsid, a capsid-specialized protein language model for remote capsid detection and architecture-aware representation learning. Screening 343 million representative metagenomic protein clusters revealed a large homology-dark capsid repertoire, with approximately 62% of candidates lacking matches to existing reference databases. Sparse autoencoder decomposition identified recurrent semantic motifs linking homology-dark proteins to known structural lineages, suggesting that interpretable higher-order architectural information can be recovered directly from capsid sequences at metagenomic scale. Mapping conserved motif cores onto resolved viral shells showed spatial clustering and restricted radial positions, indicating that ESMCapsid captures geometric constraints beyond sequence similarity alone. Together, our findings establish a sequence-based route to organize homology-dark viral diversity through conserved architectural principles, extending viral discovery beyond sequence homology.",
+      "authors": [
+        "Liu, S.",
+        "Xia, S.",
+        "Wang, H."
+      ],
+      "doi": "10.64898/2026.09.06.749605",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-07",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "score": 8,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.06.749605",
+      "title": "Capsid-specialized protein language models reveal higher-order viral architecture from sequence",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.06.749605"
+    },
+    "doi:10.64898/2026.09.06.749733": {
+      "abstract": "Protein engineering has important implications in the bioeconomy, enabling applications in materials, medicine, and energy. A key challenge is designing protein sequences that have a specific form and function. Protein inverse folding seeks to address this challenge by identifying amino acid sequences compatible with a desired protein backbone. This task is central to protein redesign and can provide a sequence design capability for de novo backbones produced by structure-generation methods. Ideally, inverse folding can provide diverse sequence alternatives, fixed residues or motifs, soft biochemical preferences at selected positions, and candidates that remain experimentally useful. We developed Inverse FoldDir, a controllable inverse-folding method that performs iterative denoising on the amino acid probability simplex. Given a backbone structure, the model updates all positions jointly through a learned Dirichlet flow, supporting full sequence generation, fixed-residue inpainting, and user-defined soft residue priors. On the held-out CATH 4.2 test set, Inverse FoldDir achieved a mean TM-score of 84.5 (on a 0-100 scale) and a mean C RMSD of 1.76[A], compared with 83.3 and 1.86[A], respectively, for ESM-IF1, the strongest evaluated baseline on both metrics. Denoising trajectory analyses showed that positions commit at different rates and that some residues change identity late in generation, illustrating whole-sequence refinement rather than one-shot prediction or irreversible sequential decoding. We experimentally tested Inverse FoldDir in an anti-GFP nanobody redesign task, where two of 35 redesigned sequences retained reproducible sfGFP-binding signal across independent assay runs with approximately 43% sequence divergence from the native nanobody. Inverse FoldDir is a structure-conditioned protein redesign method that combines structural recovery, user control, experimental validation, and a natural route toward future property-guided sampling.",
+      "authors": [
+        "TARTICI, A.",
+        "Stojkovic, M.",
+        "Tian, A.",
+        "Jewett, M. C.",
+        "Altman, R. B.",
+        "Wittmann, B. J."
+      ],
+      "doi": "10.64898/2026.09.06.749733",
+      "first_seen": "2026-09-09",
+      "published": "2026-09-07",
+      "reasons": [
+        "inverse folding",
+        "protein engineering",
+        "flow matching",
+        "experimental validation",
+        "ESM",
+        "sequence design"
+      ],
+      "score": 36,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.06.749733",
+      "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.06.749733"
     }
   }
 }

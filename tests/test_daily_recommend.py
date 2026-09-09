@@ -100,6 +100,102 @@ class CrossrefPrefixQueryTests(unittest.TestCase):
         self.assertEqual(papers[0].source, "Bioinformatics")
 
 
+class PreprintQueryTests(unittest.TestCase):
+    def test_uses_api_page_count_to_advance_cursor(self):
+        pages = {
+            "/0": {
+                "messages": [{"count": 2, "total": "3"}],
+                "collection": [
+                    {
+                        "doi": "10.1101/example-1",
+                        "title": "First protein design paper",
+                        "authors": "Ada Lovelace",
+                        "abstract": "Protein design.",
+                        "date": "2026-09-07",
+                    },
+                    {
+                        "doi": "10.1101/example-2",
+                        "title": "Second protein design paper",
+                        "authors": "Grace Hopper",
+                        "abstract": "Protein design.",
+                        "date": "2026-09-07",
+                    },
+                ],
+            },
+            "/2": {
+                "messages": [{"count": 1, "total": "3"}],
+                "collection": [
+                    {
+                        "doi": "10.1101/example-3",
+                        "title": "Third protein design paper",
+                        "authors": "Katherine Johnson",
+                        "abstract": "Protein design.",
+                        "date": "2026-09-08",
+                    }
+                ],
+            },
+        }
+
+        def fake_request(url, **kwargs):
+            page = next(payload for suffix, payload in pages.items() if url.endswith(suffix))
+            return json.dumps(page)
+
+        with patch.object(daily_recommend, "request_text", side_effect=fake_request) as request:
+            papers = daily_recommend.preprint_query(
+                "biorxiv",
+                dt.date(2026, 9, 7),
+                dt.date(2026, 9, 8),
+                10,
+            )
+
+        self.assertEqual(request.call_count, 2)
+        self.assertEqual([paper.doi for paper in papers], [
+            "10.1101/example-1",
+            "10.1101/example-2",
+            "10.1101/example-3",
+        ])
+        self.assertTrue(all(paper.source == "bioRxiv" for paper in papers))
+
+
+class ScoreFilterRegressionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.config = daily_recommend.load_json(
+            SCRIPT.parents[1] / "config" / "topics.json", {}
+        )
+
+    def test_watchlisted_rfoptimization_paper_is_retained(self):
+        paper = daily_recommend.Paper(
+            title="RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
+            authors=[],
+            abstract="A framework for biomolecular binder optimization and protein design.",
+            source="bioRxiv",
+            published="2026-09-07",
+            url="https://doi.org/10.64898/2026.09.04.749184",
+            doi="10.64898/2026.09.04.749184",
+        )
+
+        scored = daily_recommend.score_paper(paper, self.config)
+
+        self.assertGreaterEqual(scored.score, self.config["min_score"])
+        self.assertNotEqual(scored.topics, ["Filtered"])
+
+    def test_rna_structure_prediction_title_does_not_bypass_domain_filter(self):
+        paper = daily_recommend.Paper(
+            title="Agent-driven Model Development for RNA 3D Structure Prediction",
+            authors=[],
+            abstract="The method borrows ideas from protein folding benchmarks.",
+            source="bioRxiv",
+            published="2026-09-08",
+            url="https://example.org/rna-model",
+        )
+
+        scored = daily_recommend.score_paper(paper, self.config)
+
+        self.assertEqual(scored.score, -996)
+        self.assertEqual(scored.reasons, ["missing protein/biomolecular term in title"])
+
+
 class ReadmeCategoryTests(unittest.TestCase):
     def setUp(self):
         self.config = {

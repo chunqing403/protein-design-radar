@@ -19,7 +19,7 @@
     "General": "General / 综合"
   },
   "max_results_per_source": 80,
-  "preprint_max_results": 300,
+  "preprint_max_results": 1000,
   "google_scholar_enabled": true,
   "google_scholar_max_pages": 2,
   "journal_feeds_enabled": true,
@@ -288,7 +288,8 @@
   "watchlist_dois": [
     "10.1126/science.adr3817",
     "10.64898/2026.07.10.737808",
-    "10.1038/s41467-026-76760-5"
+    "10.1038/s41467-026-76760-5",
+    "10.64898/2026.09.04.749184"
   ],
   "queries": [
     "\"protein design\" deep learning",

@@ -7,23 +7,30 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
+Updated: **2026-09-09** (`2026-09-09T07:50:28Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8)<br><sub>Yu Liu, Boming Kang, Peng Li et al.</sub> | Commun Biol<br>2026-09-08 | Protein language models | 12 |
-| 2 | [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1)<br><sub>Samuel Ehrlich, Alexandra D. VandeLoo, Benjamin Magondu et al.</sub> | Sci Rep<br>2026-09-08 | Sequence design, Protein language models, Enzymes and function | 12 |
+| 1 | [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733)<br><sub>TARTICI, A., Stojkovic, M., Tian, A. et al.</sub> | bioRxiv<br>2026-09-07 | Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation | 36 |
+| 2 | [RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction](https://doi.org/10.64898/2026.09.04.749184)<br><sub>Zhang, O., Wang, J., Thompson, T. R. et al.</sub> | bioRxiv<br>2026-09-07 | Structure generation, Sequence design, Binders and therapeutics, Enzymes and function | 33 |
+| 3 | [De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4](https://doi.org/10.64898/2026.09.04.749196)<br><sub>Jain, A., Tobias, A. V.</sub> | bioRxiv<br>2026-09-07 | Sequence design, Binders and therapeutics, Experimental validation | 27 |
+| 4 | [A geometry-over-coevolution principle governs protein complex assembly in AlphaFold](https://doi.org/10.64898/2026.04.03.716280)<br><sub>Li, S., Mu, Z., Yan, C.</sub> | bioRxiv<br>2026-09-08 | Binders and therapeutics | 20 |
+| 5 | [AtlasFold: Protein structure prediction with metagenomic-scale language models](https://doi.org/10.64898/2026.09.04.749352)<br><sub>Seo, S., Kim, H., Moon, S. et al.</sub> | bioRxiv<br>2026-09-07 | Protein language models, Binders and therapeutics | 18 |
+| 6 | [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1)<br><sub>Samuel Ehrlich, Alexandra D. VandeLoo, Benjamin Magondu et al.</sub> | Sci Rep<br>2026-09-08 | Sequence design, Protein language models, Enzymes and function | 12 |
+| 7 | [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8)<br><sub>Yu Liu, Boming Kang, Peng Li et al.</sub> | Commun Biol<br>2026-09-08 | Protein language models | 12 |
+| 8 | [ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification](https://doi.org/10.64898/2026.04.03.716278)<br><sub>Bhati, U., Gupta, S., kesarwani, V. et al.</sub> | bioRxiv<br>2026-09-08 | Protein language models | 11 |
+| 9 | [Capsid-specialized protein language models reveal higher-order viral architecture from sequence](https://doi.org/10.64898/2026.09.06.749605)<br><sub>Liu, S., Xia, S., Wang, H.</sub> | bioRxiv<br>2026-09-07 | Protein language models | 8 |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 27 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 13 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 30 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 15 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 29 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 14 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 33 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 16 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
 | [General / 综合](#paper-category-general) | 4 |
@@ -31,8 +38,10 @@ Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (27)
+#### Structure Generation / 结构生成 (29)
 
+- [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733) (bioRxiv, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation; score 36)
+- [RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction](https://doi.org/10.64898/2026.09.04.749184) (bioRxiv, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function; score 33)
 - [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in) (Journal of Chemical Theory and Computation, 2026-09-07; first seen 2026-09-08; Structure generation, Protein language models, Binders and therapeutics; score 17)
 - [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational) (Journal of Chemical Information and Modeling, 2026-08-31; first seen 2026-09-04; Structure generation; score 8)
 - [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178) (Bioinformatics, 2026-08-31; first seen 2026-09-01; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
@@ -62,9 +71,10 @@ Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (13)
+#### Sequence Design / 序列设计 (14)
 
 - [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1) (Sci Rep, 2026-09-08; first seen 2026-09-09; Sequence design, Protein language models, Enzymes and function; score 12)
+- [De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4](https://doi.org/10.64898/2026.09.04.749196) (bioRxiv, 2026-09-07; first seen 2026-09-09; Sequence design, Binders and therapeutics, Experimental validation; score 27)
 - [Functional effect predictions for ion channel missense variants using a protein language model.](https://pubmed.ncbi.nlm.nih.gov/42332060/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Sequence design, Protein language models, Enzymes and function; score 6)
 - [Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side) (Journal of Chemical Information and Modeling, 2026-08-23; first seen 2026-08-29; Sequence design, Protein language models, Binders and therapeutics, Experimental validation; score 10)
 - [EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.](https://pubmed.ncbi.nlm.nih.gov/42573394/) (PubMed, 2026 Aug 10; first seen 2026-08-11; Sequence design, Experimental validation; score 29)
@@ -79,9 +89,12 @@ Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models; score 8)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (30)
+#### Protein Language Models / 蛋白质语言模型 (33)
 
 - [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8) (Commun Biol, 2026-09-08; first seen 2026-09-09; Protein language models; score 12)
+- [ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification](https://doi.org/10.64898/2026.04.03.716278) (bioRxiv, 2026-09-08; first seen 2026-09-09; Protein language models; score 11)
+- [AtlasFold: Protein structure prediction with metagenomic-scale language models](https://doi.org/10.64898/2026.09.04.749352) (bioRxiv, 2026-09-07; first seen 2026-09-09; Protein language models, Binders and therapeutics; score 18)
+- [Capsid-specialized protein language models reveal higher-order viral architecture from sequence](https://doi.org/10.64898/2026.09.06.749605) (bioRxiv, 2026-09-07; first seen 2026-09-09; Protein language models; score 8)
 - [Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.](https://pubmed.ncbi.nlm.nih.gov/42695896/) (PubMed, 2026 Sep 04; first seen 2026-09-05; Protein language models, Binders and therapeutics; score 8)
 - [Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42690977/) (PubMed, 2026 Sep 03; first seen 2026-09-04; Protein language models, Enzymes and function, Experimental validation; score 26)
 - [Unsupervised discovery of functional sequence patterns from protein language model with MotifAE](https://www.nature.com/articles/s41467-026-77333-2) (Nat Commun, 2026-09-02; first seen 2026-09-03; Protein language models; score 7)
@@ -113,8 +126,9 @@ Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models; score 9)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (15)
+#### Binders & Therapeutics / 结合蛋白与治疗 (16)
 
+- [A geometry-over-coevolution principle governs protein complex assembly in AlphaFold](https://doi.org/10.64898/2026.04.03.716280) (bioRxiv, 2026-09-08; first seen 2026-09-09; Binders and therapeutics; score 20)
 - [De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely) (Journal of the American Chemical Society, 2026-09-07; first seen 2026-09-08; Binders and therapeutics; score 6)
 - [Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study](https://www.nature.com/articles/s41598-026-67951-7) (Sci Rep, 2026-09-05; first seen 2026-09-06; Binders and therapeutics, Enzymes and function, Experimental validation; score 16)
 - [ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291) (Bioinformatics, 2026-09-04; first seen 2026-09-05; Binders and therapeutics; score 13)
