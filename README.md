@@ -7,22 +7,22 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-08** (`2026-09-08T04:48:05Z`)
+Updated: **2026-09-09** (`2026-09-09T04:50:50Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in)<br><sub>Nagesh B E, Jagannath Mondal</sub> | Journal of Chemical Theory and Computation<br>2026-09-07 | Structure generation, Protein language models, Binders and therapeutics | 17 |
-| 2 | [De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely)<br><sub>Chuangyuan Zhao, Yu Jin, Xue Li et al.</sub> | Journal of the American Chemical Society<br>2026-09-07 | Binders and therapeutics | 6 |
+| 1 | [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8)<br><sub>Yu Liu, Boming Kang, Peng Li et al.</sub> | Commun Biol<br>2026-09-08 | Protein language models | 12 |
+| 2 | [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1)<br><sub>Samuel Ehrlich, Alexandra D. VandeLoo, Benjamin Magondu et al.</sub> | Sci Rep<br>2026-09-08 | Sequence design, Protein language models, Enzymes and function | 12 |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 27 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 12 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 29 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 13 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 30 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 15 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
@@ -62,8 +62,9 @@ Updated: **2026-09-08** (`2026-09-08T04:48:05Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (12)
+#### Sequence Design / 序列设计 (13)
 
+- [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1) (Sci Rep, 2026-09-08; first seen 2026-09-09; Sequence design, Protein language models, Enzymes and function; score 12)
 - [Functional effect predictions for ion channel missense variants using a protein language model.](https://pubmed.ncbi.nlm.nih.gov/42332060/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Sequence design, Protein language models, Enzymes and function; score 6)
 - [Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side) (Journal of Chemical Information and Modeling, 2026-08-23; first seen 2026-08-29; Sequence design, Protein language models, Binders and therapeutics, Experimental validation; score 10)
 - [EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.](https://pubmed.ncbi.nlm.nih.gov/42573394/) (PubMed, 2026 Aug 10; first seen 2026-08-11; Sequence design, Experimental validation; score 29)
@@ -78,8 +79,9 @@ Updated: **2026-09-08** (`2026-09-08T04:48:05Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models; score 8)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (29)
+#### Protein Language Models / 蛋白质语言模型 (30)
 
+- [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8) (Commun Biol, 2026-09-08; first seen 2026-09-09; Protein language models; score 12)
 - [Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.](https://pubmed.ncbi.nlm.nih.gov/42695896/) (PubMed, 2026 Sep 04; first seen 2026-09-05; Protein language models, Binders and therapeutics; score 8)
 - [Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.](https://pubmed.ncbi.nlm.nih.gov/42690977/) (PubMed, 2026 Sep 03; first seen 2026-09-04; Protein language models, Enzymes and function, Experimental validation; score 26)
 - [Unsupervised discovery of functional sequence patterns from protein language model with MotifAE](https://www.nature.com/articles/s41467-026-77333-2) (Nat Commun, 2026-09-02; first seen 2026-09-03; Protein language models; score 7)
@@ -154,7 +156,7 @@ Updated: **2026-09-08** (`2026-09-08T04:48:05Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-08](outputs/daily/2026-09-08.md)
+- [Daily report for 2026-09-09](outputs/daily/2026-09-09.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

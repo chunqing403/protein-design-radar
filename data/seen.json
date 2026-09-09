@@ -511,12 +511,26 @@
       "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
       "url": "https://www.nature.com/articles/s41598-026-66642-7"
     },
+    "doi:10.1038/s41598-026-66799-1": {
+      "first_seen": "2026-09-09",
+      "score": 12,
+      "source": "Sci Rep",
+      "title": "Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response",
+      "url": "https://www.nature.com/articles/s41598-026-66799-1"
+    },
     "doi:10.1038/s41598-026-67951-7": {
       "first_seen": "2026-09-06",
       "score": 16,
       "source": "Sci Rep",
       "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
       "url": "https://www.nature.com/articles/s41598-026-67951-7"
+    },
+    "doi:10.1038/s42003-026-10725-8": {
+      "first_seen": "2026-09-09",
+      "score": 12,
+      "source": "Commun Biol",
+      "title": "Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models",
+      "url": "https://www.nature.com/articles/s42003-026-10725-8"
     },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",
