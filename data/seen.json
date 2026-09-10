@@ -182,6 +182,13 @@
       "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
     },
+    "doi:10.1016/j.bbrc.2026.154567": {
+      "first_seen": "2026-09-10",
+      "score": 11,
+      "source": "Biochemical and Biophysical Research Communications",
+      "title": "NeoGen-BC: A Synergistic Framework Combining Generative Protein Language Models and Multi-Window Deep Learning for Designing Shared Neoantigens in Breast Cancer",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X26013318"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "first_seen": "2026-09-01",
       "score": 12,
@@ -735,6 +742,13 @@
       "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
       "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
+    "doi:10.64898/2026.03.17.712034": {
+      "first_seen": "2026-09-10",
+      "score": 9,
+      "source": "bioRxiv",
+      "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
+      "url": "https://doi.org/10.64898/2026.03.17.712034"
+    },
     "doi:10.64898/2026.04.03.716278": {
       "first_seen": "2026-09-09",
       "score": 11,
@@ -818,6 +832,13 @@
       "source": "bioRxiv",
       "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
       "url": "https://doi.org/10.64898/2026.09.04.749196"
+    },
+    "doi:10.64898/2026.09.04.749267": {
+      "first_seen": "2026-09-10",
+      "score": 27,
+      "source": "bioRxiv",
+      "title": "De novo Rubisco design with protein language models",
+      "url": "https://doi.org/10.64898/2026.09.04.749267"
     },
     "doi:10.64898/2026.09.04.749352": {
       "first_seen": "2026-09-09",

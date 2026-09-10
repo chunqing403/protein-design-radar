@@ -693,6 +693,31 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
     },
+    "doi:10.1016/j.bbrc.2026.154567": {
+      "abstract": "",
+      "authors": [
+        "Van The Le",
+        "Juan Peter Timothy Yuune",
+        "Jiun-I Lai",
+        "Yu-Yen Ou"
+      ],
+      "doi": "10.1016/j.bbrc.2026.154567",
+      "first_seen": "2026-09-10",
+      "published": "2026-09",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein"
+      ],
+      "score": 11,
+      "source": "Biochemical and Biophysical Research Communications",
+      "source_id": "10.1016/j.bbrc.2026.154567",
+      "title": "NeoGen-BC: A Synergistic Framework Combining Generative Protein Language Models and Multi-Window Deep Learning for Designing Shared Neoantigens in Breast Cancer",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X26013318"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "abstract": "Amentoflavone-type biflavonoids exhibit potent neuroprotective activities but are limited by scarce natural abundance and inefficient chemical synthesis routes. Here, we establish a stable Escherichia coli platform for de novo amentoflavone biosynthesis through multilevel engineering of a cytochrome P450-dependent oxidative coupling module. Systematic optimization of redox partner pairing, N-terminal expression regulation, and intrinsic catalytic activity substantially enhances the performance of the key P450 enzyme GbCYP90J6. Protein language model-guided directed evolution identifies high-activity variants that, when combined with an optimized expression tag, markedly improve in vivo catalysis. Integration of precursor flux balancing, expression optimization, and enzyme evolution results in an overall 8.34-fold increase in de novo amentoflavone production, reaching 6.59 mg/L in shake-flask cultivation. Fed-batch fermentation in a 5-L bioreactor increases the amentoflavone titer to 22.01 mg/L, demonstrating pathway scalability while revealing cellular tolerance as a remaining bottleneck. Together, this study establishes a framework for engineering P450-dependent intermolecular C-C coupling and highlights the necessity of balancing catalytic efficiency with cellular robustness in microbial cell factories.",
       "authors": [
@@ -2679,6 +2704,38 @@
       ],
       "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
+    "doi:10.64898/2026.03.17.712034": {
+      "abstract": "While protein language models typically rely on sequence-only pretraining objectives, this approach often fails to capture structural regularities and demands large datasets. To address this, we introduce ProteinSage, a pretraining framework that learns protein representations under explicit structural constraints. ProteinSage incorporates structural signals via structure-guided masking and a causal objective designed to model longrange dependencies. This structure-constrained pretraining equips ProteinSage with transferable representations using less data and computation, yet achieves competitive or superior performance across diverse structure-aware and general protein modeling benchmarks. To determine whether these gains stem from genuine structural generalization rather than task-specific fitting, we applied ProteinSage to a structure-driven protein discovery task, focusing on proteins with multi-pass transmembrane helical architectures such as distantly related microbial rhodopsins. The model successfully identified six previously unannotated microbial rhodopsin homologs. Together, our work establishes structure-constrained pretraining as an effective pathway toward data-efficient and structurally faithful protein representation learning.",
+      "authors": [
+        "Shen, L.",
+        "Chao, L.",
+        "Liu, T.",
+        "Liu, Q.",
+        "Zhou, G.",
+        "Wang, H.",
+        "Dong, X.",
+        "Li, T.",
+        "Zhang, X.",
+        "Ni, J."
+      ],
+      "doi": "10.64898/2026.03.17.712034",
+      "first_seen": "2026-09-10",
+      "published": "2026-09-09",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "score": 9,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.03.17.712034",
+      "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.17.712034"
+    },
     "doi:10.64898/2026.04.03.716278": {
       "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework that integrates 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. As driven by its explainability, the first time introduced atomic and protein language information dramatically boosted it to an outstanding level for PPI discovery in any species, potent to even bypass costly experiments. ProMaya system is freely accessible at https://scbb.ihbt.res.in/ProMaya/",
       "authors": [
@@ -3029,7 +3086,7 @@
       ],
       "doi": "10.64898/2026.09.04.749184",
       "first_seen": "2026-09-09",
-      "published": "2026-09-07",
+      "published": "2026-09-09",
       "reasons": [
         "structure prediction",
         "binder design",
@@ -3077,6 +3134,41 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.04.749196"
+    },
+    "doi:10.64898/2026.09.04.749267": {
+      "abstract": "Ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) fixes the majority of carbon dioxide globally but is challenged with low specificity for CO2 versus O2 and low catalytic efficiencies. Traditional engineering efforts have remained difficult because folding, assembly, specificity, and catalysis are tightly coupled, hampering efforts to explore sequence space. Therefore, we leveraged recent advances in protein large language models (PLMs) to generate sequences beyond those observed in nature, using both ProGen-2 that was fine-tuned on a limited dataset of non-Form I Rubiscos and an ESM-2 discriminator. With this approach, we generated 5.6 million novel Rubisco-like sequences and identified 21 highly diverse candidates predicted to be active that occupy regions of Rubisco phylogenetic space not previously observed in nature. Six designs were soluble in Escherichia coli, and five were shown to produce quantifiable 3PGA. One design produced an apparent CO2/O2 specificity estimate beyond the range of the natural representative Rubiscos assayed. We also solved the crystal structure of one de novo design that reproduced the predicted dimer and active-site geometry with sub-angstrom C agreement. Sequence-only generation followed by independent structural filtering therefore recovered soluble, active Rubiscos from regions of sequence space that are not represented in genomic databases. Together, these results establish a scalable strategy for accessing previously unexplored Rubisco sequence space, providing a broadly accessible path toward generating de novo Rubiscos that may have activity and specificity parameters needed to address longstanding limitations in biological carbon fixation.",
+      "authors": [
+        "Kehl, A. J.",
+        "Chu, S. K. S.",
+        "Pereira, J. H.",
+        "Lee, J.",
+        "Wang, R. Z.",
+        "Gigl, M.",
+        "Adams, P. D.",
+        "Shih, P. M.",
+        "Siegel, J. B."
+      ],
+      "doi": "10.64898/2026.09.04.749267",
+      "first_seen": "2026-09-10",
+      "published": "2026-09-09",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "ProGen",
+        "de novo design",
+        "folding",
+        "protein"
+      ],
+      "score": 27,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.04.749267",
+      "title": "De novo Rubisco design with protein language models",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.04.749267"
     },
     "doi:10.64898/2026.09.04.749352": {
       "abstract": "Protein language models (PLMs) trained on evolutionary sequences learn representations that encode protein structure, enabling direct structure prediction without multiple-sequence alignments (MSAs). Here we present the Atlas model family, an open and trainable system spanning protein language modeling, monomer folding, and protein-complex prediction. AtlasLM-3B is a 3B-scale language model trained with masked language modeling on approximately 1.56 billion sequences, including metagenomic data, and outperforms the similarly sized ESM2-3B in unsupervised contact prediction. Building on these representations, AtlasFold predicts all-atom protein structures and achieves state-of-the-art accuracy among PLM-based folding models. Fine-tuning AtlasFold for protein-complex prediction produces AtlasFold-Multimer (AtlasFold-M), whose antibody-antigen prediction performance is comparable to that of AlphaFold3 and ESMFold2. This protein-specific folding architecture enables fast, memory-efficient inference with AtlasFold and AtlasFold-M. By releasing the training code and data, stage checkpoints, and model weights under the MIT License, we provide a foundation for advancing PLM-based protein structure prediction.",
