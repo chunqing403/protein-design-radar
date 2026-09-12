@@ -928,6 +928,59 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.curpro.2026.100150": {
+      "abstract": "",
+      "authors": [
+        "Sanjana Sharma",
+        "Kandasamy Nagarajan",
+        "Snigdha Bhardwaj",
+        "Arun Kumar Tripathi",
+        "Apoorv Jain",
+        "Harsh Khatter",
+        "Richa Goel"
+      ],
+      "doi": "10.1016/j.curpro.2026.100150",
+      "first_seen": "2026-09-12",
+      "published": "2026-08",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "score": 6,
+      "source": "Current Proteomics",
+      "source_id": "10.1016/j.curpro.2026.100150",
+      "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
+    },
+    "doi:10.1016/j.engmic.2026.100305": {
+      "abstract": "",
+      "authors": [
+        "Yue Huang",
+        "Jialiang Wang",
+        "Aoxue Wang",
+        "Liqi Zheng",
+        "Ying Lin",
+        "Shuli Liang"
+      ],
+      "doi": "10.1016/j.engmic.2026.100305",
+      "first_seen": "2026-09-12",
+      "published": "2026-09",
+      "reasons": [
+        "AI-driven",
+        "protein"
+      ],
+      "score": 6,
+      "source": "Engineering Microbiology",
+      "source_id": "10.1016/j.engmic.2026.100305",
+      "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
     "doi:10.1016/j.jmb.2026.169939": {
       "abstract": "RNA-binding proteins (RBPs) are pivotal regulators of gene expression, and their dysregulation is implicated in a wide range of human diseases. Designing synthetic RNA molecules to modulate RBP activity represents a promising therapeutic strategy, being constrained by the inefficiency of experimental screening and the limited generalization of existing computational models that require RBP-specific interaction data. Here, we present BindRNAgen, a hybrid RNA design framework that couples a variational autoencoder (VAE) with a conditional latent diffusion model (LDM), enabling the generation of binding RNA sequences given the RBP sequence as the input. Using RBP-binding RNAs derived from 168 eCLIP-seq datasets of diverse RBPs, we first pretrain the VAE on RBP-binding RNA sequences to construct a continuous latent representation for RBP binding sequence specificity. The LDM subsequently generates novel RBP-binding RNA sequences within the latent space, conditioned on protein-specific embeddings from the protein language model. For RBPs in the training set, BindRNAgen produces computationally predicted RBP-binding RNA sequences that are biophysically comparable to natural RBP-binding RNAs, outperforming existing benchmarks. Although the generalization for RBP targets outside the training set may be influenced by underlying homology to the training RBPs, BindRNAgen generates RNA sequences with high computationally predicted binding scores, as validated by in silico docking and molecular dynamics (MD) simulations.",
       "authors": [
@@ -1019,6 +1072,30 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1016/j.jmgm.2026.109571": {
+      "abstract": "",
+      "authors": [
+        "Erick Bahena-Culhuac",
+        "Martiniano Bello"
+      ],
+      "doi": "10.1016/j.jmgm.2026.109571",
+      "first_seen": "2026-09-12",
+      "published": "2026-09",
+      "reasons": [
+        "AlphaFold",
+        "kinase",
+        "structure",
+        "kinase"
+      ],
+      "score": 10,
+      "source": "Journal of Molecular Graphics and Modelling",
+      "source_id": "10.1016/j.jmgm.2026.109571",
+      "title": "Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.",
@@ -2973,15 +3050,15 @@
       "url": "https://doi.org/10.64898/2026.07.10.737686"
     },
     "doi:10.64898/2026.07.10.737808": {
-      "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
+      "abstract": "Protein kinases are critical regulators of cellular signaling, but precise modulation of their activity remains challenging due to their high structural conservation. Here, we present de novo designed genetically encoded miniproteins capable of activating or inhibiting focal adhesion kinase (FAK) by directly targeting the kinase domain itself. Among 96 binders designed to stabilize distinct conformational states of FAK, 33 modulated kinase activity. Biochemical characterization of the four most potent modulators revealed that two designs inhibit FAK with low-nanomolar IC 50 values while the remaining two potentiated FAK activity by more than two-fold. When expressed in cells, the modulators preserved the same inhibitory and activating effects observed in vitro, establishing that designed conformational binders can directly tune FAK signaling in living cells. Taking advantage of the high similarity between kinases, we redesigned the FAK inhibitors to inhibit Src kinase. Our approach establishes a versatile platform for selective and genetically encoded kinase control as a way to rewire cell signaling and as a starting point for the discovery of novel modulatory sites of kinases.",
       "authors": [
-        "Magnus S. Bauer",
+        "Magnus S Bauer",
         "Saurav Kumar",
-        "Mia S. Donald Paladino",
+        "Mia Donald-Paladino",
         "Dongyang Li",
         "Kody A. Klupt",
         "Matthias Glögl",
-        "Ana María Fernández-Escamilla",
+        "Ana María Fernández Escamilla",
         "Thomas Schlichthaerle",
         "Edin Muratspahić",
         "Xinru Wang",
@@ -3105,7 +3182,7 @@
       "url": "https://doi.org/10.64898/2026.09.01.748349"
     },
     "doi:10.64898/2026.09.04.749184": {
-      "abstract": "Biomolecular interactions, including protein--protein interactions, protein--nucleic acid recognition, and protein--small molecule binding, underlie a wide range of biological processes and therapeutic mechanisms. Although recent \\emph{de novo} design methods can generate candidate binders for diverse molecular targets, practical design campaigns remain limited by low filter-passing rates and model-specific biases that arise when designs are optimized against a single predictor. Here, we present RFOptimization (RFO), a training-free framework for all-atom biomolecular binder optimization. RFO formulates binder improvement as a residue-wise mutational search problem, sampling candidate substitutions alternately based on gradient-guided sequence optimization using all-atom structure prediction models and a cycling-based sequence redesign strategy that alternates structure generation with an orthogonal predictor and MPNN-based sequence design to improve the \\emph{in silico} success rate of RFdiffusion-generated binders within minutes of computation. To reduce overfitting to any individual structure model, candidate mutations are further evaluated with orthogonal AlphaFold3 metrics as final filters. We demonstrate the generality of RFO across diverse design settings, including classical protein binder design, ligand-binding biosensor design, cyclic peptide design, and active site-aware enzyme design.",
+      "abstract": "Abstract Biomolecular interactions, including protein–protein interactions, protein–nucleic acid recognition, and protein–small molecule binding, underlie a wide range of biological processes and therapeutic mechanisms. Although recent de novo design methods can generate candidate binders for diverse molecular targets, practical design campaigns remain limited by low filter-passing rates and model-specific biases that arise when designs are optimized against a single predictor. Here, we present RFOptimization (RFO), a training-free framework for all-atom biomolecular binder optimization. RFO formulates binder improvement as a residue-wise mutational search problem, sampling candidate substitutions alternately using gradient-guided sequence optimization through all-atom structure prediction models and a cycling-based sequence redesign strategy that alternates structure generation with an orthogonal predictor and structure-conditioned inverse folding, thereby improving the in silico success rate of RFdiffusion-generated binders within minutes of computation. To reduce overfitting to any individual structure model, candidate mutations are further evaluated with orthogonal AlphaFold3 metrics as final filters. We demonstrate the generality of RFO across diverse design settings, including classical protein binder design, ligand-binding biosensor design, cyclic peptide design, and active site-aware enzyme design.",
       "authors": [
         "Odin Zhang",
         "Jiaqi Wang",
@@ -3119,14 +3196,14 @@
       "first_seen": "2026-09-09",
       "published": "2026-09-07",
       "reasons": [
+        "inverse folding",
         "structure prediction",
         "binder design",
         "enzyme design",
         "RFdiffusion",
-        "sequence design",
-        "structure generation"
+        "de novo design"
       ],
-      "score": 33,
+      "score": 42,
       "source": "Crossref",
       "source_id": "10.64898/2026.09.04.749184",
       "title": "RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
@@ -3231,6 +3308,30 @@
       ],
       "url": "https://doi.org/10.64898/2026.09.04.749352"
     },
+    "doi:10.64898/2026.09.05.749393": {
+      "abstract": "The amount of proteomics data generated has dramatically grown for the past decade due to the wider accessibility to mass spectrometers and technological advances. Current data storage and compression techniques largely treat mass spectra as meaningless series of numbers, wasting storage on useless noise and limiting the compression ratio. Here, we present SpectroVQ, a noise-aware vector-quantized autoencoder to compress and denoise peptide tandem mass spectra without any prior annotation by exploiting peptide fragmentation pattern using deep-learning Evaluation results showed that SpectroVQ can preferentially retain useful signals in spectra from diverse peptide ions, including those in unseen datasets. SpectroVQ achieved over 3-fold increase in compression ratio over mzMLb while maintaining over 0.9 in average cosine similarity and 90% agreement in peptide identifications. In addition, we develop a novel strategy to increase peptide identifications by ~15% via ordinary library searching, by leveraging the tuneable denoising capability of SpectroVQ.",
+      "authors": [
+        "Lam, H.",
+        "Li, J. H. W.",
+        "Hoque, A."
+      ],
+      "doi": "10.64898/2026.09.05.749393",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-11",
+      "reasons": [
+        "deep learning",
+        "peptide"
+      ],
+      "score": 7,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.05.749393",
+      "title": "SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.05.749393"
+    },
     "doi:10.64898/2026.09.06.749605": {
       "abstract": "Viral capsid proteins preserve information on higher-order shell architecture and deep evolutionary history, yet current capsid annotation relies predominantly on homology-based methods that have reduced sensitivity across highly divergent environmental sequences. Here we develop ESMCapsid, a capsid-specialized protein language model for remote capsid detection and architecture-aware representation learning. Screening 343 million representative metagenomic protein clusters revealed a large homology-dark capsid repertoire, with approximately 62% of candidates lacking matches to existing reference databases. Sparse autoencoder decomposition identified recurrent semantic motifs linking homology-dark proteins to known structural lineages, suggesting that interpretable higher-order architectural information can be recovered directly from capsid sequences at metagenomic scale. Mapping conserved motif cores onto resolved viral shells showed spatial clustering and restricted radial positions, indicating that ESMCapsid captures geometric constraints beyond sequence similarity alone. Together, our findings establish a sequence-based route to organize homology-dark viral diversity through conserved architectural principles, extending viral discovery beyond sequence homology.",
       "authors": [
@@ -3254,6 +3355,93 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.64898/2026.09.06.749605"
+    },
+    "doi:10.64898/2026.09.06.749651": {
+      "abstract": "CD70 is well-recognized as a promising \"pan-cancer: chimeric antigen receptor (CAR) T-cell target. Prior work has shown that a \"natural ligand\" (NL)-based CAR targeting CD70, employing its physiological interaction partner CD27, may have therapeutic advantages over antibody-based CARs. Yet while antibody-based CARs are routinely optimized by affinity maturation of their scFv, whether the binding sequence of an NL CAR can be engineered to improve its function remains unexplored. Here, we combined deep learning with physics-based modeling to redesign residues at the CD27:CD70 interface, identifying a CD27 variant, \"N88A\", which enhances the efficacy of CD70-targeting CAR T-cells across models of acute myeloid leukemia, multiple myeloma, and renal cell carcinoma. Biophysical approaches, including molecular dynamics simulations, support a mechanism of increased binder conformational freedom underlying potency enhancement. Our work presents CD27N88A CAR T-cells as a promising new therapeutic option and proposes that computational modeling could be applied to enhance efficacy of other NL-based immunotherapies.",
+      "authors": [
+        "Kang, A. S.",
+        "Dalal, R.",
+        "Li, M.",
+        "Ojha, A. A.",
+        "Walunj, S.",
+        "Cornell, C. E.",
+        "Rahnama, R.",
+        "Barpanda, A.",
+        "Prudhvi, S.",
+        "Patel, T.",
+        "Aspinall-O'Dea, M.",
+        "Walker, B.",
+        "Adams, C.",
+        "Steri, V.",
+        "Phojanakong, P.",
+        "Camara Serrano, J. A.",
+        "Li, H.",
+        "Rivera, J.",
+        "Fletcher, D. A.",
+        "Huang, B. J.",
+        "Hanson, S. M.",
+        "Cossio, P.",
+        "Kortemme, T.",
+        "Eyquem, J.",
+        "Wiita, A. P."
+      ],
+      "doi": "10.64898/2026.09.06.749651",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-10",
+      "reasons": [
+        "deep learning",
+        "affinity maturation",
+        "CAR T",
+        "chimeric antigen receptor",
+        "antibody",
+        "binding"
+      ],
+      "score": 18,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.06.749651",
+      "title": "Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.06.749651"
+    },
+    "doi:10.64898/2026.09.06.749721": {
+      "abstract": "Antibodies recognise their targets through hypervariable complementarity-determining regions (CDRs), which are interleaved with conserved frameworks in sequence space, making de novo CDR design an infilling problem. Autoregressive models generate residues left-to-right, which precludes full framework context during CDR generation and conflates framework and CDR likelihoods, leaving no natural prompt-response interface for feedback to steer generation. We present GenCDR, a family of LLaMa-based autoregressive language models that read all frameworks as a conditioning prompt and generate all CDRs jointly as a variable-length response, making CDR likelihoods a clean, separable target for reward attribution. The family comprises IgGenCDR, p-IgGenCDR, and NanoGenCDR, trained on unpaired, paired, and nanobody chains, respectively. GenCDR achieves the highest CDR recovery among autoregressive models and produces natural, diverse, human-like CDRs whose likelihoods correlate with fitness and developability assays. The prompt-response boundary also enables principled alignment: reward signals for binding affinity, expression, or developability can be composed to steer CDR generation. Over four rounds of alignment against antibody-antigen co-folding and developability objectives, we find that NanoGenCDR, which uses no explicit antigen encoding, can reach in silico structural interface metrics competitive with those of a structure-conditioned diffusion pipeline at roughly half the sampling budget, with more natural, developable designs. The same interface can be extended to integrate experimental feedback, opening a path to closed-loop antibody de novo design.",
+      "authors": [
+        "Gonzalez Hernandez, F.",
+        "Turnbull, O. M.",
+        "Sultana, M.",
+        "Roldan-Martin, L.",
+        "Kumar, R. J.",
+        "Diethe, T.",
+        "Croasdale-Wood, R.",
+        "Deane, C.",
+        "Oglic, D."
+      ],
+      "doi": "10.64898/2026.09.06.749721",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-10",
+      "reasons": [
+        "de novo design",
+        "folding",
+        "antibody",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "score": 13,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.06.749721",
+      "title": "Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.06.749721"
     },
     "doi:10.64898/2026.09.06.749733": {
       "abstract": "Protein engineering has important implications in the bioeconomy, enabling applications in materials, medicine, and energy. A key challenge is designing protein sequences that have a specific form and function. Protein inverse folding seeks to address this challenge by identifying amino acid sequences compatible with a desired protein backbone. This task is central to protein redesign and can provide a sequence design capability for de novo backbones produced by structure-generation methods. Ideally, inverse folding can provide diverse sequence alternatives, fixed residues or motifs, soft biochemical preferences at selected positions, and candidates that remain experimentally useful. We developed Inverse FoldDir, a controllable inverse-folding method that performs iterative denoising on the amino acid probability simplex. Given a backbone structure, the model updates all positions jointly through a learned Dirichlet flow, supporting full sequence generation, fixed-residue inpainting, and user-defined soft residue priors. On the held-out CATH 4.2 test set, Inverse FoldDir achieved a mean TM-score of 84.5 (on a 0-100 scale) and a mean C RMSD of 1.76[A], compared with 83.3 and 1.86[A], respectively, for ESM-IF1, the strongest evaluated baseline on both metrics. Denoising trajectory analyses showed that positions commit at different rates and that some residues change identity late in generation, illustrating whole-sequence refinement rather than one-shot prediction or irreversible sequential decoding. We experimentally tested Inverse FoldDir in an anti-GFP nanobody redesign task, where two of 35 redesigned sequences retained reproducible sfGFP-binding signal across independent assay runs with approximately 43% sequence divergence from the native nanobody. Inverse FoldDir is a structure-conditioned protein redesign method that combines structural recovery, user control, experimental validation, and a natural route toward future property-guided sampling.",
@@ -3288,6 +3476,98 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.06.749733"
+    },
+    "doi:10.64898/2026.09.08.750245": {
+      "abstract": "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions.",
+      "authors": [
+        "Shida, A.",
+        "Wang, K.",
+        "Choi, H.",
+        "Pellock, S.",
+        "Broerman, A.",
+        "Salike, S.",
+        "Grubbe, W.",
+        "Joyce, E.",
+        "Kang, A.",
+        "Bera, A. K.",
+        "Li, X.",
+        "Pillai, A.",
+        "Baker, D."
+      ],
+      "doi": "10.64898/2026.09.08.750245",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-10",
+      "reasons": [
+        "diffusion model",
+        "de novo design",
+        "protein",
+        "structure"
+      ],
+      "score": 13,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.08.750245",
+      "title": "De novo design of allosterically controlled enzymes",
+      "topics": [
+        "Structure generation",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.08.750245"
+    },
+    "doi:10.64898/2026.09.10.750670": {
+      "abstract": "Peptides occupy a valuable niche between small molecules and biologics, but the clinical translation of de novo peptide designs requires rigorous scoring to simultaneously optimise target binding affinity alongside multiple developability traits, including stability, membrane permeability, aggregation propensity, and non-fouling behaviour. Here, we evaluate two distinct approaches for scoring these candidates: classical chemical descriptors and modern deep learning representations derived from protein language and folding models. Assembling nine public datasets spanning five developability traits and four binding-affinity endpoints, we find sequence-derived chemical descriptors alone contain sufficient information to predict developability task labels effectively. Given their drastically lower computational cost and higher interpretability, classical machine learning models trained on these simple descriptors frequently match or approach the performance of complex deep learning architectures, emerging as a highly efficient and interpretable alternative for high-throughput scoring. Finally, for scoring binding affinity, we demonstrate that Boltz-2 pair representations capture the most information among the tested representations; however, the model's predictive power is confounded by a significant bias from the molecular weight of the peptides. Together, these results establish a comprehensive assessment of state-of-the-art methods for predicting both peptide developability and binding affinity, highlighting the enduring value of interpretable chemical descriptors alongside deep learning in the scoring and selection of de novo peptide designs.",
+      "authors": [
+        "Trolliet, Q.",
+        "Abrudan, A.",
+        "Bhasin, A.",
+        "Fu, Y.",
+        "Euko, J. P.",
+        "Zhang, C.",
+        "Saccon, F."
+      ],
+      "doi": "10.64898/2026.09.10.750670",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-11",
+      "reasons": [
+        "deep learning",
+        "folding",
+        "stability",
+        "protein",
+        "peptide",
+        "binding"
+      ],
+      "score": 16,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.10.750670",
+      "title": "Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.750670"
+    },
+    "doi:10.64898/2026.09.10.750674": {
+      "abstract": "Selective recognition of viral RNA by capsid proteins is essential for genome packaging during the assembly of single-stranded RNA (ssRNA) viruses. However, identification of capsid protein binding sites in the RNA genome remains challenging because current experimental techniques are labor-intensive and low-throughput, motivating the development of computational approaches. Here, we present a sequence-based framework that integrates RNA tertiary structural modeling, local geometric feature extraction, and machine learning to predict capsid protein binding sites. Using the Qbeta; bacteriophage as a proof-of-concept system, we constructed a benchmark dataset of experimentally identified binding and non-binding RNA fragments. We designed a set of geometric descriptors to characterize the local structural features of the RNA backbone. When repeatedly trained and tested with these geometric descriptors on different subsets of the benchmark dataset, the neural network showed a strong ability to distinguish capsid protein binding sites from non-binding RNA fragments, achieving an area under the receiver operating characteristic curve (AUC) of 0.88 in a 5-fold cross-validation. To evaluate whether the model can predict RNA binding sites without experimental structures, we applied it to local geometric features derived from AlphaFold-predicted RNA structures. Despite substantial structural differences between predicted and experimentally determined models, the classifier retained considerable predictive performance (AUC = 0.75), indicating that approximate RNA tertiary structures may still preserve biologically meaningful information for capsid binding site prediction. Furthermore, the failed predictions suggest that viral genome packaging is not only governed by intrinsic RNA structural features, but also by additional dynamic factors beyond static RNA conformations. In summary, our findings provide new mechanistic insights into RNA-capsid interactions and establish a foundation for extending this approach to diverse ssRNA viruses.",
+      "authors": [
+        "Wu, Y. M.",
+        "Zhang, J."
+      ],
+      "doi": "10.64898/2026.09.10.750674",
+      "first_seen": "2026-09-12",
+      "published": "2026-09-11",
+      "reasons": [
+        "AlphaFold",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "score": 9,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.10.750674",
+      "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.750674"
     }
   }
 }

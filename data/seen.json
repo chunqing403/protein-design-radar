@@ -252,6 +252,20 @@
       "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.curpro.2026.100150": {
+      "first_seen": "2026-09-12",
+      "score": 6,
+      "source": "Current Proteomics",
+      "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
+    },
+    "doi:10.1016/j.engmic.2026.100305": {
+      "first_seen": "2026-09-12",
+      "score": 6,
+      "source": "Engineering Microbiology",
+      "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
       "score": 17,
@@ -279,6 +293,13 @@
       "source": "PubMed",
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1016/j.jmgm.2026.109571": {
+      "first_seen": "2026-09-12",
+      "score": 10,
+      "source": "Journal of Molecular Graphics and Modelling",
+      "title": "Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "first_seen": "2026-08-05",
@@ -854,6 +875,13 @@
       "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
       "url": "https://doi.org/10.64898/2026.09.04.749352"
     },
+    "doi:10.64898/2026.09.05.749393": {
+      "first_seen": "2026-09-12",
+      "score": 7,
+      "source": "bioRxiv",
+      "title": "SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification",
+      "url": "https://doi.org/10.64898/2026.09.05.749393"
+    },
     "doi:10.64898/2026.09.06.749605": {
       "first_seen": "2026-09-09",
       "score": 8,
@@ -861,12 +889,47 @@
       "title": "Capsid-specialized protein language models reveal higher-order viral architecture from sequence",
       "url": "https://doi.org/10.64898/2026.09.06.749605"
     },
+    "doi:10.64898/2026.09.06.749651": {
+      "first_seen": "2026-09-12",
+      "score": 18,
+      "source": "bioRxiv",
+      "title": "Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70",
+      "url": "https://doi.org/10.64898/2026.09.06.749651"
+    },
+    "doi:10.64898/2026.09.06.749721": {
+      "first_seen": "2026-09-12",
+      "score": 13,
+      "source": "bioRxiv",
+      "title": "Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design",
+      "url": "https://doi.org/10.64898/2026.09.06.749721"
+    },
     "doi:10.64898/2026.09.06.749733": {
       "first_seen": "2026-09-09",
       "score": 36,
       "source": "bioRxiv",
       "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
       "url": "https://doi.org/10.64898/2026.09.06.749733"
+    },
+    "doi:10.64898/2026.09.08.750245": {
+      "first_seen": "2026-09-12",
+      "score": 13,
+      "source": "bioRxiv",
+      "title": "De novo design of allosterically controlled enzymes",
+      "url": "https://doi.org/10.64898/2026.09.08.750245"
+    },
+    "doi:10.64898/2026.09.10.750670": {
+      "first_seen": "2026-09-12",
+      "score": 16,
+      "source": "bioRxiv",
+      "title": "Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs",
+      "url": "https://doi.org/10.64898/2026.09.10.750670"
+    },
+    "doi:10.64898/2026.09.10.750674": {
+      "first_seen": "2026-09-12",
+      "score": 9,
+      "source": "bioRxiv",
+      "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
+      "url": "https://doi.org/10.64898/2026.09.10.750674"
     }
   }
 }

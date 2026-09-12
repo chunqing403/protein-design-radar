@@ -7,33 +7,45 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-11** (`2026-09-11T04:49:23Z`)
+Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Engineering conditional peptide self-assembly using AlphaFold](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004571)<br><sub>Helen Futty, Sofia Chinelli, Ravi R. Sonani et al.</sub> | Cell Reports Physical Science<br>2026-10 | Binders and therapeutics | 6 |
+| 1 | [Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70](https://doi.org/10.64898/2026.09.06.749651)<br><sub>Kang, A. S., Dalal, R., Li, M. et al.</sub> | bioRxiv<br>2026-09-10 | Sequence design, Binders and therapeutics, Enzymes and function | 18 |
+| 2 | [Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs](https://doi.org/10.64898/2026.09.10.750670)<br><sub>Trolliet, Q., Abrudan, A., Bhasin, A. et al.</sub> | bioRxiv<br>2026-09-11 | Binders and therapeutics | 16 |
+| 3 | [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721)<br><sub>Gonzalez Hernandez, F., Turnbull, O. M., Sultana, M. et al.</sub> | bioRxiv<br>2026-09-10 | Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation | 13 |
+| 4 | [De novo design of allosterically controlled enzymes](https://doi.org/10.64898/2026.09.08.750245)<br><sub>Shida, A., Wang, K., Choi, H. et al.</sub> | bioRxiv<br>2026-09-10 | Structure generation, Enzymes and function | 13 |
+| 5 | [Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery](https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974)<br><sub>Erick Bahena-Culhuac, Martiniano Bello</sub> | Journal of Molecular Graphics and Modelling<br>2026-09 | Binders and therapeutics | 10 |
+| 6 | [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674)<br><sub>Wu, Y. M., Zhang, J.</sub> | bioRxiv<br>2026-09-11 | Structure generation, Experimental validation | 9 |
+| 7 | [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393)<br><sub>Lam, H., Li, J. H. W., Hoque, A.</sub> | bioRxiv<br>2026-09-11 | Structure generation, Binders and therapeutics | 7 |
+| 8 | [Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies](https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457)<br><sub>Yue Huang, Jialiang Wang, Aoxue Wang et al.</sub> | Engineering Microbiology<br>2026-09 | General | 6 |
+| 9 | [Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging](https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883)<br><sub>Sanjana Sharma, Kandasamy Nagarajan, Snigdha Bhardwaj et al.</sub> | Current Proteomics<br>2026-08 | Binders and therapeutics | 6 |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 29 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 14 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 33 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 15 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 36 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 17 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 20 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
-| [General / 综合](#paper-category-general) | 4 |
+| [General / 综合](#paper-category-general) | 5 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (29)
+#### Structure Generation / 结构生成 (33)
 
+- [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Experimental validation; score 9)
+- [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Binders and therapeutics; score 7)
+- [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation; score 13)
+- [De novo design of allosterically controlled enzymes](https://doi.org/10.64898/2026.09.08.750245) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Enzymes and function; score 13)
+- [RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction](http://biorxiv.org/lookup/doi/10.64898/2026.09.04.749184) (Crossref, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function; score 42)
 - [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733) (bioRxiv, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation; score 36)
-- [RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction](http://biorxiv.org/lookup/doi/10.64898/2026.09.04.749184) (Crossref, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function; score 33)
 - [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in) (Journal of Chemical Theory and Computation, 2026-09-07; first seen 2026-09-08; Structure generation, Protein language models, Binders and therapeutics; score 17)
 - [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational) (Journal of Chemical Information and Modeling, 2026-08-31; first seen 2026-09-04; Structure generation; score 8)
 - [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178) (Bioinformatics, 2026-08-31; first seen 2026-09-01; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
@@ -63,8 +75,9 @@ Updated: **2026-09-11** (`2026-09-11T04:49:23Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation; score 20)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (14)
+#### Sequence Design / 序列设计 (15)
 
+- [Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70](https://doi.org/10.64898/2026.09.06.749651) (bioRxiv, 2026-09-10; first seen 2026-09-12; Sequence design, Binders and therapeutics, Enzymes and function; score 18)
 - [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1) (Sci Rep, 2026-09-08; first seen 2026-09-09; Sequence design, Protein language models, Enzymes and function; score 12)
 - [De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4](https://doi.org/10.64898/2026.09.04.749196) (bioRxiv, 2026-09-07; first seen 2026-09-09; Sequence design, Binders and therapeutics, Experimental validation; score 27)
 - [Functional effect predictions for ion channel missense variants using a protein language model.](https://pubmed.ncbi.nlm.nih.gov/42332060/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Sequence design, Protein language models, Enzymes and function; score 6)
@@ -121,8 +134,11 @@ Updated: **2026-09-11** (`2026-09-11T04:49:23Z`)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models; score 9)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (17)
+#### Binders & Therapeutics / 结合蛋白与治疗 (20)
 
+- [Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs](https://doi.org/10.64898/2026.09.10.750670) (bioRxiv, 2026-09-11; first seen 2026-09-12; Binders and therapeutics; score 16)
+- [Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery](https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974) (Journal of Molecular Graphics and Modelling, 2026-09; first seen 2026-09-12; Binders and therapeutics; score 10)
+- [Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging](https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883) (Current Proteomics, 2026-08; first seen 2026-09-12; Binders and therapeutics; score 6)
 - [Engineering conditional peptide self-assembly using AlphaFold](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004571) (Cell Reports Physical Science, 2026-10; first seen 2026-09-11; Binders and therapeutics; score 6)
 - [A geometry-over-coevolution principle governs protein complex assembly in AlphaFold](https://doi.org/10.64898/2026.04.03.716280) (bioRxiv, 2026-09-08; first seen 2026-09-09; Binders and therapeutics; score 20)
 - [De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely) (Journal of the American Chemical Society, 2026-09-07; first seen 2026-09-08; Binders and therapeutics; score 6)
@@ -157,8 +173,9 @@ Updated: **2026-09-11** (`2026-09-11T04:49:23Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation; score 7)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (4)
+#### General / 综合 (5)
 
+- [Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies](https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457) (Engineering Microbiology, 2026-09; first seen 2026-09-12; General; score 6)
 - [Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli](https://www.nature.com/articles/s41467-026-77406-2) (Nat Commun, 2026-09-05; first seen 2026-09-06; General; score 11)
 - [Mapping the combinatorial coding between olfactory receptors and perception with deep learning.](https://pubmed.ncbi.nlm.nih.gov/42685697/) (PubMed, 2026 Sep 02; first seen 2026-09-04; General; score 10)
 - [A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes](https://www.nature.com/articles/s41598-026-64923-9) (Sci Rep, 2026-08-27; first seen 2026-08-28; General; score 12)
@@ -166,7 +183,7 @@ Updated: **2026-09-11** (`2026-09-11T04:49:23Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-11](outputs/daily/2026-09-11.md)
+- [Daily report for 2026-09-12](outputs/daily/2026-09-12.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
