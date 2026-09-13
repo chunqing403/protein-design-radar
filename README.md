@@ -7,21 +7,17 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
+Updated: **2026-09-13** (`2026-09-13T04:57:28Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics | Score |
 |---|---|---|---|---:|
-| 1 | [Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70](https://doi.org/10.64898/2026.09.06.749651)<br><sub>Kang, A. S., Dalal, R., Li, M. et al.</sub> | bioRxiv<br>2026-09-10 | Sequence design, Binders and therapeutics, Enzymes and function | 18 |
-| 2 | [Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs](https://doi.org/10.64898/2026.09.10.750670)<br><sub>Trolliet, Q., Abrudan, A., Bhasin, A. et al.</sub> | bioRxiv<br>2026-09-11 | Binders and therapeutics | 16 |
-| 3 | [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721)<br><sub>Gonzalez Hernandez, F., Turnbull, O. M., Sultana, M. et al.</sub> | bioRxiv<br>2026-09-10 | Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation | 13 |
-| 4 | [De novo design of allosterically controlled enzymes](https://doi.org/10.64898/2026.09.08.750245)<br><sub>Shida, A., Wang, K., Choi, H. et al.</sub> | bioRxiv<br>2026-09-10 | Structure generation, Enzymes and function | 13 |
-| 5 | [Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery](https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974)<br><sub>Erick Bahena-Culhuac, Martiniano Bello</sub> | Journal of Molecular Graphics and Modelling<br>2026-09 | Binders and therapeutics | 10 |
-| 6 | [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674)<br><sub>Wu, Y. M., Zhang, J.</sub> | bioRxiv<br>2026-09-11 | Structure generation, Experimental validation | 9 |
-| 7 | [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393)<br><sub>Lam, H., Li, J. H. W., Hoque, A.</sub> | bioRxiv<br>2026-09-11 | Structure generation, Binders and therapeutics | 7 |
-| 8 | [Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies](https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457)<br><sub>Yue Huang, Jialiang Wang, Aoxue Wang et al.</sub> | Engineering Microbiology<br>2026-09 | General | 6 |
-| 9 | [Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging](https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883)<br><sub>Sanjana Sharma, Kandasamy Nagarajan, Snigdha Bhardwaj et al.</sub> | Current Proteomics<br>2026-08 | Binders and therapeutics | 6 |
+| 1 | [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/)<br><sub>Qiu S, Sun Y, Ye X</sub> | PubMed<br>2026 01 01 | Protein language models, Binders and therapeutics | 13 |
+| 2 | [Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.](https://pubmed.ncbi.nlm.nih.gov/42730944/)<br><sub>Cases I, Valencia A, Rojas AM</sub> | PubMed<br>2026 Sep 12 | Protein language models | 12 |
+| 3 | [CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo](https://doi.org/10.64898/2026.07.11.737889)<br><sub>Wen, B., Li, K., Riffle, M. et al.</sub> | bioRxiv<br>2026-09-12 | Binders and therapeutics | 9 |
+| 4 | [Functional alignment of protein language models via reinforcement learning](https://www.nature.com/articles/s41467-026-77557-2)<br><sub>Nathaniel Blalock, Srinath Seshadri, Kensuke Nakamura et al.</sub> | Nat Commun<br>2026-09-12 | Protein language models | 6 |
+| 5 | [Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods](https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845)<br><sub>Amélie Barozet, Magali Mathieu, David Papin et al.</sub> | Journal of Structural Biology<br>2026-09 | Binders and therapeutics | 6 |
 
 ### Paper Directory / 文献目录
 
@@ -29,8 +25,8 @@ Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 33 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 15 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 36 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 20 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 39 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 22 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
 | [General / 综合](#paper-category-general) | 5 |
@@ -44,8 +40,8 @@ Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 - [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Binders and therapeutics; score 7)
 - [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation; score 13)
 - [De novo design of allosterically controlled enzymes](https://doi.org/10.64898/2026.09.08.750245) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Enzymes and function; score 13)
+- [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733) (bioRxiv, 2026-09-11; first seen 2026-09-09; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation; score 36)
 - [RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction](http://biorxiv.org/lookup/doi/10.64898/2026.09.04.749184) (Crossref, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function; score 42)
-- [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733) (bioRxiv, 2026-09-07; first seen 2026-09-09; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation; score 36)
 - [Convergence Mechanisms of Generative Models in Molecular Conformational Sampling](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in) (Journal of Chemical Theory and Computation, 2026-09-07; first seen 2026-09-08; Structure generation, Protein language models, Binders and therapeutics; score 17)
 - [Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational) (Journal of Chemical Information and Modeling, 2026-08-31; first seen 2026-09-04; Structure generation; score 8)
 - [Design of peptides with non-canonical amino acids using flow matching](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178) (Bioinformatics, 2026-08-31; first seen 2026-09-01; Structure generation, Binders and therapeutics, Enzymes and function; score 25)
@@ -94,8 +90,11 @@ Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models; score 8)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (36)
+#### Protein Language Models / 蛋白质语言模型 (39)
 
+- [Functional alignment of protein language models via reinforcement learning](https://www.nature.com/articles/s41467-026-77557-2) (Nat Commun, 2026-09-12; first seen 2026-09-13; Protein language models; score 6)
+- [Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.](https://pubmed.ncbi.nlm.nih.gov/42730944/) (PubMed, 2026 Sep 12; first seen 2026-09-13; Protein language models; score 12)
+- [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/) (PubMed, 2026 01 01; first seen 2026-09-13; Protein language models, Binders and therapeutics; score 13)
 - [De novo Rubisco design with protein language models](https://doi.org/10.64898/2026.09.04.749267) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models, Enzymes and function, Experimental validation; score 27)
 - [ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling](https://doi.org/10.64898/2026.03.17.712034) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models; score 9)
 - [NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.](https://pubmed.ncbi.nlm.nih.gov/42721858/) (PubMed, 2026 Sep 09; first seen 2026-09-10; Protein language models, Binders and therapeutics; score 13)
@@ -134,8 +133,10 @@ Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models; score 9)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (20)
+#### Binders & Therapeutics / 结合蛋白与治疗 (22)
 
+- [CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo](https://doi.org/10.64898/2026.07.11.737889) (bioRxiv, 2026-09-12; first seen 2026-09-13; Binders and therapeutics; score 9)
+- [Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods](https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845) (Journal of Structural Biology, 2026-09; first seen 2026-09-13; Binders and therapeutics; score 6)
 - [Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs](https://doi.org/10.64898/2026.09.10.750670) (bioRxiv, 2026-09-11; first seen 2026-09-12; Binders and therapeutics; score 16)
 - [Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery](https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974) (Journal of Molecular Graphics and Modelling, 2026-09; first seen 2026-09-12; Binders and therapeutics; score 10)
 - [Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging](https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883) (Current Proteomics, 2026-08; first seen 2026-09-12; Binders and therapeutics; score 6)
@@ -183,7 +184,7 @@ Updated: **2026-09-12** (`2026-09-12T04:44:19Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-12](outputs/daily/2026-09-12.md)
+- [Daily report for 2026-09-13](outputs/daily/2026-09-13.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

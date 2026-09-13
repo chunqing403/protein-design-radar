@@ -510,6 +510,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
     },
+    "doi:10.1007/s00239-026-10349-w": {
+      "abstract": "The Ras protein superfamily comprises small GTPases that share a conserved G-domain but differ in flanking regions, regulation, and cellular roles. Because existing classifications rely mainly on G-domain phylogeny, this superfamily provides a useful test case for assessing whether protein language model embeddings recover biologically meaningful sequence organization consistent with established evolutionary classifications. Here, we analyzed a curated Ras superfamily dataset using three classification schemes: the classical five-family view, a G-domain phylogeny-based classification, and UniProtKB family annotation classification. We compared embeddings from multiple protein language models using supervised classification, unsupervised clustering, and residue-level ablation. Sequence-derived embeddings recovered known Ras superfamily organization across analyses. In supervised analyses, simple linear classifiers achieved high performance, indicating that Ras family and subfamily information is linearly accessible from sequence-derived embeddings. In unsupervised analyses, ESM-C-300 layer 12 gave the strongest full-protein recovery of the G-domain phylogeny-based classification, whereas ProstT5 performed best for G-domain embeddings. Residue ablation identified recurrent candidate subfamily-informative regions both within and outside the G-domain, including signals mapping to structurally coherent regions associated with subfamily-specific regulatory or interaction-related functions. Together, these results indicate that protein language model embeddings provide an effective alignment-free representation of Ras family and subfamily organization, and can highlight candidate sequence regions associated with functional specialization from sequence alone.",
+      "authors": [
+        "Cases I",
+        "Valencia A",
+        "Rojas AM"
+      ],
+      "doi": "10.1007/s00239-026-10349-w",
+      "first_seen": "2026-09-13",
+      "published": "2026 Sep 12",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "score": 12,
+      "source": "PubMed",
+      "source_id": "42730944",
+      "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42730944/"
+    },
     "doi:10.1007/s10822-026-00934-y": {
       "abstract": "Lysine crotonylation (Kcr) is a vital posttranslational modification that plays a significant role in diverse biological processes such as DNA replication, the cell cycle, spermatogenesis, and embryonic stem cell differentiation. Abnormal Kcr levels are associated with multiple diseases including cancer, neurological disorders, and metabolic diseases, making it crucial for understanding disease pathogenesis and progression. In this study, we introduce ESM2-Kcr, a novel computational model designed for predicting Kcr sites. This model integrates the protein language model ESM2 with advanced deep learning techniques including LSTM, multi-head attention mechanism, and CNN. We elaborate on the specific feature extraction contributions of each deep learning module in ESM2-Kcr: LSTM captures the long-distance sequential dependency information of amino acid residues in protein sequences, CNN extracts the local short-range structural and functional features centered on lysine residues, and the multi-head attention mechanism adaptively assigns weight coefficients to key residue positions to highlight Kcr-related critical sequence information and filter out redundant noise. ESM2-Kcr encodes the protein sequences using ESM2_t30_150M_UR50D and further extracts comprehensive features. Through extensive comparisons with other protein language models like ProteinBERT and ProtT5, as well as different models within the ESM2 family, ESM2-Kcr demonstrates superior generalization ability and performance. The ESM2-Kcr model not only enhances our understanding of protein regulation but also holds great potential in identifying disease biomarkers and facilitating drug development. Future research directions may involve extending this framework to other posttranslational modifications. Data and codes are available at https://github.com/liukai23157/ESM2-Kcr .",
       "authors": [
@@ -1096,6 +1121,36 @@
         "Binders and therapeutics"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974"
+    },
+    "doi:10.1016/j.jsb.2026.108368": {
+      "abstract": "",
+      "authors": [
+        "Amélie Barozet",
+        "Magali Mathieu",
+        "David Papin",
+        "Béatrice Cameron",
+        "Tarik Dabdoubi",
+        "Anne Séverac",
+        "Paul Ferrari",
+        "Thierry Siméon",
+        "Marc Bianciotto",
+        "Juan Cortés"
+      ],
+      "doi": "10.1016/j.jsb.2026.108368",
+      "first_seen": "2026-09-13",
+      "published": "2026-09",
+      "reasons": [
+        "deep learning",
+        "antibody"
+      ],
+      "score": 6,
+      "source": "Journal of Structural Biology",
+      "source_id": "10.1016/j.jsb.2026.108368",
+      "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.",
@@ -1858,6 +1913,33 @@
         "General"
       ],
       "url": "https://www.nature.com/articles/s41467-026-77406-2"
+    },
+    "doi:10.1038/s41467-026-77557-2": {
+      "abstract": "",
+      "authors": [
+        "Nathaniel Blalock",
+        "Srinath Seshadri",
+        "Kensuke Nakamura",
+        "Agrim Babbar",
+        "Sarah A. Fahlberg",
+        "Ameya Kulkarni",
+        "Philip A. Romero"
+      ],
+      "doi": "10.1038/s41467-026-77557-2",
+      "first_seen": "2026-09-13",
+      "published": "2026-09-12",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "score": 6,
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-77557-2",
+      "title": "Functional alignment of protein language models via reinforcement learning",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-77557-2"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
@@ -2785,6 +2867,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
     },
+    "doi:10.34133/csbj.0220": {
+      "abstract": "Human leukocyte antigen (HLA) molecules participate in cellular immune responses by binding to peptide fragments derived from antigens. Exploring this process is crucial to understanding the mechanisms and underlying factors that regulate the cellular immune system. Due to the extreme polymorphism of HLA, the peptides obtained from mass spectrometry of eluted ligand experiments typically correspond to multiple HLA alleles. They are thus poly-specific, providing various options for HLA assignments. This introduces notable challenges for accurate peptide-HLA assignment and interpretation. To address this limitation, we present BeitAI-pHLA, a deep learning framework for predicting peptide-HLA class I binding by integrating protein language model embeddings with an attention-based multi-instance learning mechanism. Our evaluations on benchmark and external datasets indicate that BeitAI-pHLA markedly outperforms other advanced prediction tools across multiple external validation datasets, achieving an area under the precision-recall curve of 0.967 on the multiallele dataset and maintaining robust performance under varying negative peptide proportions. Furthermore, BeitAI-pHLA demonstrates superior motif deconvolution capability, with higher motif similarity (13.6% increase in position-specific scoring matrix correlation coefficient), and achieves the best area under the precision-recall curve in immunogenic neoepitope prediction, offering improved prioritization of candidate peptides for immunogenicity evaluation. BeitAI-pHLA provides a highly accurate tool for binding prediction and deconvolution in multiallele immunopeptidomics data, offering considerable potential for biomedical research and clinical translation. The BeitAI-pHLA prediction tool is accessible at https://phla.kindstarbiotech.com/, and the source code is available at https://github.com/KindstarGlobalInstitute/BeitAI-pHLA.",
+      "authors": [
+        "Qiu S",
+        "Sun Y",
+        "Ye X"
+      ],
+      "doi": "10.34133/csbj.0220",
+      "first_seen": "2026-09-13",
+      "published": "2026 01 01",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "peptide",
+        "binding"
+      ],
+      "score": 13,
+      "source": "PubMed",
+      "source_id": "42729647",
+      "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
     "doi:10.64898/2026.03.06.710024": {
       "abstract": "The N-terminal membrane anchor of cytochrome P450s is essential for function yet exceptionally variable--a paradox resistant to alignment-based analysis. Using an alignment-free protein language model (ESM2) pipeline on 345 Sophora tonkinensis P450s, we show the N-terminal 50 residues evolve under pervasive neutral relaxation (mean dispersion 0.62), punctuated by a single constrained island: a PxxG structural hinge (P21, G24 conserved at 98%/99%). Despite lacking sequence-level constraint, embedding-space decomposition resolves this scaffold into two separable channels. DIVA (unsupervised) captures a topological template encoding membrane-anchoring architecture, validated by physicochemical correlations recapitulating ER signal-anchor insertion and confirmed by DeepLoc- 2.1. PIVOT (supervised ablation) captures a family-associated signal whose peak position distinguishes CYP families ({varepsilon}2 = 0.44, permutation p < 0.0001) despite label-free training. The channels are largely separable: PIVOT peaks lie downstream of DIVA peaks in 84.4% of proteins, with mutually exclusive signal-loss sets. The P450 N-terminus thus integrates membrane-topological and family-identity information within a single relaxed region. Neutral evolution is reframed not as absence of information, but as the condition enabling multiplexed functional encoding--a mechanistic rationale for the functional importance of this variable anchor.",
       "authors": [
@@ -3083,6 +3192,34 @@
         "Binders and therapeutics"
       ],
       "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
+    },
+    "doi:10.64898/2026.07.11.737889": {
+      "abstract": "De novo peptide sequencing detects peptides directly from tandem mass spectra without a protein sequence database, and deep learning has substantially advanced its performance. Casanovo, one such widely used model, is distributed as a Python command-line program. Consequently, installation, GPU and dependency configuration, and manual parameterization can be challenging for many bench scientists and are a recurring source of errors. Interpreting and validating the resulting predictions poses a further challenge. We present CasanovoGUI, an open-source Java-based desktop application that makes all of Casanovo's main analysis functions available through a point-and-click interface on Windows, macOS, and Linux. On first use, CasanovoGUI automatically installs a private Python environment and Casanovo with a GPU-matched build, requiring no prior software setup. The GUI provides access to Casanovo's analysis functions and configuration parameters, streams live progress, and integrates results interpretation: annotated spectra with per-residue confidence scores in the PDV viewer, and mismatch-tolerant mapping of de novo peptides back to a reference proteome. CasanovoGUI is available at https://github.com/Noble-Lab/CasanovoGUI.",
+      "authors": [
+        "Wen, B.",
+        "Li, K.",
+        "Riffle, M.",
+        "MacCoss, M. J.",
+        "Bittremieux, W.",
+        "Noble, W. S."
+      ],
+      "doi": "10.64898/2026.07.11.737889",
+      "first_seen": "2026-09-13",
+      "published": "2026-09-12",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "score": 9,
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.07.11.737889",
+      "title": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.11.737889"
     },
     "doi:10.64898/2026.07.18.739331": {
       "abstract": "Post-translational modifications (PTMs) regulate protein function through dependencies among residue chemistry, sequence context, three-dimensional microenvironments and modification states, yet most predictors model sites independently and do not connect modification propensity to functional consequences. Here we present ProtSyntax, a PTM-centered protein language model trained on 4.25 million examples spanning 40 PTM classes and supervised for kinase specificity, PTM crosstalk and enzyme kinetics. ProtSyntax integrates bidirectional long-range modeling with geometry-gated attention in a sparse mixture-of-experts architecture and uses adaptive multi-objective learning to couple residue-level PTM syntax to protein-level function. Across 40 PTM-site benchmarks, ProtSyntax improved mean MCC and AP by 12.7% and 10.7%, respectively, relative to the best-performing baselines. It also distinguished authentic sites from structurally incompatible motif decoys, transferred to rare PTMs, recovered crosstalk, linked PTM perturbations to enzyme-kinetic changes and identified disease-associated PTM disruptions. Together, ProtSyntax provides an interpretable framework for decoding PTM regulation across the proteome.",
@@ -3455,7 +3592,7 @@
       ],
       "doi": "10.64898/2026.09.06.749733",
       "first_seen": "2026-09-09",
-      "published": "2026-09-07",
+      "published": "2026-09-11",
       "reasons": [
         "inverse folding",
         "protein engineering",

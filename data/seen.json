@@ -133,6 +133,13 @@
       "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
     },
+    "doi:10.1007/s00239-026-10349-w": {
+      "first_seen": "2026-09-13",
+      "score": 12,
+      "source": "PubMed",
+      "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42730944/"
+    },
     "doi:10.1007/s10822-026-00934-y": {
       "first_seen": "2026-08-31",
       "score": 12,
@@ -300,6 +307,13 @@
       "source": "Journal of Molecular Graphics and Modelling",
       "title": "Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974"
+    },
+    "doi:10.1016/j.jsb.2026.108368": {
+      "first_seen": "2026-09-13",
+      "score": 6,
+      "source": "Journal of Structural Biology",
+      "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "first_seen": "2026-08-05",
@@ -496,6 +510,13 @@
       "source": "Nat Commun",
       "title": "Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli",
       "url": "https://www.nature.com/articles/s41467-026-77406-2"
+    },
+    "doi:10.1038/s41467-026-77557-2": {
+      "first_seen": "2026-09-13",
+      "score": 6,
+      "source": "Nat Commun",
+      "title": "Functional alignment of protein language models via reinforcement learning",
+      "url": "https://www.nature.com/articles/s41467-026-77557-2"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
@@ -763,6 +784,13 @@
       "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
     },
+    "doi:10.34133/csbj.0220": {
+      "first_seen": "2026-09-13",
+      "score": 13,
+      "source": "PubMed",
+      "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
     "doi:10.64898/2026.03.06.710024": {
       "first_seen": "2026-08-08",
       "score": 7,
@@ -825,6 +853,13 @@
       "source": "Crossref",
       "title": "De novo design of selective kinase modulators",
       "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
+    },
+    "doi:10.64898/2026.07.11.737889": {
+      "first_seen": "2026-09-13",
+      "score": 9,
+      "source": "bioRxiv",
+      "title": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
+      "url": "https://doi.org/10.64898/2026.07.11.737889"
     },
     "doi:10.64898/2026.07.18.739331": {
       "first_seen": "2026-07-23",
