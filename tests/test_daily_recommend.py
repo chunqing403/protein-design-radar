@@ -283,6 +283,35 @@ class ReadmeCategoryTests(unittest.TestCase):
         self.assertEqual(categorized_library.count("Structure paper"), 1)
         self.assertEqual(categorized_library.count("Binder paper"), 1)
         self.assertIn("first seen 2026-08-30", categorized_library)
+        self.assertNotIn("Score", section)
+        self.assertNotIn("score 12", section)
+
+    def test_daily_report_does_not_expose_internal_score(self):
+        paper = self.paper(
+            "Hidden score paper",
+            "hidden-score",
+            ["Structure generation"],
+            42,
+        )
+
+        report = daily_recommend.render_report(
+            dt.date(2026, 9, 2), [paper], self.config
+        )
+
+        self.assertNotIn("**Score:**", report)
+        self.assertIn("**Status:** NEW", report)
+
+    def test_persisted_paper_record_does_not_expose_internal_score(self):
+        paper = self.paper(
+            "Unpublished score paper",
+            "unpublished-score",
+            ["Structure generation"],
+            42,
+        )
+
+        record = daily_recommend.paper_to_record(paper, "2026-09-02")
+
+        self.assertNotIn("score", record)
 
 
 if __name__ == "__main__":

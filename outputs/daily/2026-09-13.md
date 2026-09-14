@@ -1,6 +1,6 @@
 # Protein Design Paper Radar - 2026-09-13
 
-Generated on 2026-09-13T04:57:28Z.
+Generated on 2026-09-14T01:36:54Z.
 
 Found 5 recommended papers.
 
@@ -8,7 +8,7 @@ Found 5 recommended papers.
 
 ### 1. BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.
 
-- **Score:** 13 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 01 01
+- **Status:** NEW | **Source:** PubMed | **Date:** 2026 01 01
 - **Authors:** Qiu S, Sun Y, Ye X
 - **Topics:** Protein language models, Binders and therapeutics
 - **Why it matched:** protein language model, deep learning, protein, peptide, binding
@@ -19,7 +19,7 @@ Human leukocyte antigen (HLA) molecules participate in cellular immune responses
 
 ### 2. Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.
 
-- **Score:** 12 | **Status:** NEW | **Source:** PubMed | **Date:** 2026 Sep 12
+- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Sep 12
 - **Authors:** Cases I, Valencia A, Rojas AM
 - **Topics:** Protein language models
 - **Why it matched:** protein language model, ESM, protein, sequence
@@ -30,7 +30,7 @@ The Ras protein superfamily comprises small GTPases that share a conserved G-dom
 
 ### 3. CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo
 
-- **Score:** 9 | **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-09-12
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-09-12
 - **Authors:** Wen, B., Li, K., Riffle, M. et al.
 - **Topics:** Binders and therapeutics
 - **Why it matched:** deep learning, protein, peptide, sequence
@@ -41,7 +41,7 @@ De novo peptide sequencing detects peptides directly from tandem mass spectra wi
 
 ### 4. Functional alignment of protein language models via reinforcement learning
 
-- **Score:** 6 | **Status:** NEW | **Source:** Nat Commun | **Date:** 2026-09-12
+- **Status:** NEW | **Source:** Nat Commun | **Date:** 2026-09-12
 - **Authors:** Nathaniel Blalock, Srinath Seshadri, Kensuke Nakamura et al.
 - **Topics:** Protein language models
 - **Why it matched:** protein language model, protein
@@ -50,7 +50,7 @@ De novo peptide sequencing detects peptides directly from tandem mass spectra wi
 
 ### 5. Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods
 
-- **Score:** 6 | **Status:** NEW | **Source:** Journal of Structural Biology | **Date:** 2026-09
+- **Status:** NEW | **Source:** Journal of Structural Biology | **Date:** 2026-09
 - **Authors:** Amélie Barozet, Magali Mathieu, David Papin et al.
 - **Topics:** Binders and therapeutics
 - **Why it matched:** deep learning, antibody

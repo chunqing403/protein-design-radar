@@ -2,966 +2,828 @@
   "seen": {
     "arxiv:2606.31576v1": {
       "first_seen": "2026-07-01",
-      "score": 14,
       "source": "arXiv",
       "title": "Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective",
       "url": "http://arxiv.org/abs/2606.31576v1"
     },
     "arxiv:2606.31832v1": {
       "first_seen": "2026-07-01",
-      "score": 17,
       "source": "arXiv",
       "title": "Navigating committor landscape of biomolecules with a general pairwise interaction model",
       "url": "http://arxiv.org/abs/2606.31832v1"
     },
     "arxiv:2607.10887v1": {
       "first_seen": "2026-07-14",
-      "score": 7,
       "source": "arXiv",
       "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
       "url": "http://arxiv.org/abs/2607.10887v1"
     },
     "arxiv:2607.18144v1": {
       "first_seen": "2026-07-21",
-      "score": 9,
       "source": "arXiv",
       "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
       "url": "http://arxiv.org/abs/2607.18144v1"
     },
     "arxiv:2607.19237v1": {
       "first_seen": "2026-07-22",
-      "score": 17,
       "source": "arXiv",
       "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
       "url": "http://arxiv.org/abs/2607.19237v1"
     },
     "arxiv:2608.12090v1": {
       "first_seen": "2026-08-13",
-      "score": 8,
       "source": "arXiv",
       "title": "Task- and dataset-specific information in protein language models",
       "url": "http://arxiv.org/abs/2608.12090v1"
     },
     "arxiv:2608.12192v1": {
       "first_seen": "2026-08-13",
-      "score": 14,
       "source": "arXiv",
       "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
       "url": "http://arxiv.org/abs/2608.12192v1"
     },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
-      "score": 12,
       "source": "Cell",
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
       "url": "https://www.cell.com/cell/abstract/S0092-8674(26)00651-3"
     },
     "doi:10.1002/1873-3468.70429": {
       "first_seen": "2026-08-11",
-      "score": 22,
       "source": "PubMed",
       "title": "The sweet spot in protein design-Where deep learning meets first principles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
     },
     "doi:10.1002/anie.6395554": {
       "first_seen": "2026-08-27",
-      "score": 39,
       "source": "PubMed",
       "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42655993/"
     },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-02",
-      "score": 11,
       "source": "PubMed",
       "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42316773/"
     },
     "doi:10.1002/pro.70689": {
       "first_seen": "2026-07-02",
-      "score": 7,
       "source": "PubMed",
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42321971/"
     },
     "doi:10.1002/pro.70696": {
       "first_seen": "2026-08-01",
-      "score": 21,
       "source": "PubMed",
       "title": "Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42429042/"
     },
     "doi:10.1002/pro.70714": {
       "first_seen": "2026-08-01",
-      "score": 17,
       "source": "PubMed",
       "title": "Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423121/"
     },
     "doi:10.1002/pro.70717": {
       "first_seen": "2026-08-01",
-      "score": 24,
       "source": "PubMed",
       "title": "RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42427317/"
     },
     "doi:10.1002/pro.70718": {
       "first_seen": "2026-08-01",
-      "score": 13,
       "source": "PubMed",
       "title": "Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42417545/"
     },
     "doi:10.1002/pro.70726": {
       "first_seen": "2026-08-01",
-      "score": 34,
       "source": "PubMed",
       "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
     },
     "doi:10.1002/prot.70162": {
       "first_seen": "2026-07-26",
-      "score": 31,
       "source": "PubMed",
       "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42499170/"
     },
     "doi:10.1007/s00210-026-05732-9": {
       "first_seen": "2026-08-03",
-      "score": 16,
       "source": "PubMed",
       "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42541540/"
     },
     "doi:10.1007/s00239-026-10349-w": {
       "first_seen": "2026-09-13",
-      "score": 12,
       "source": "PubMed",
       "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42730944/"
     },
     "doi:10.1007/s10822-026-00934-y": {
       "first_seen": "2026-08-31",
-      "score": 12,
       "source": "PubMed",
       "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42669100/"
     },
     "doi:10.1007/s10895-026-04855-9": {
       "first_seen": "2026-06-30",
-      "score": 7,
       "source": "PubMed",
       "title": "Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
     },
     "doi:10.1007/s11030-026-11638-8": {
       "first_seen": "2026-07-13",
-      "score": 14,
       "source": "PubMed",
       "title": "Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42423919/"
     },
     "doi:10.1007/s11030-026-11642-y": {
       "first_seen": "2026-07-18",
-      "score": 7,
       "source": "PubMed",
       "title": "Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42467311/"
     },
     "doi:10.1007/s12602-026-11131-6": {
       "first_seen": "2026-07-20",
-      "score": 57,
       "source": "PubMed",
       "title": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42470596/"
     },
     "doi:10.1016/j.ab.2026.116116": {
       "first_seen": "2026-07-02",
-      "score": 11,
       "source": "PubMed",
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
     "doi:10.1016/j.apsb.2026.08.031": {
       "first_seen": "2026-09-04",
-      "score": 9,
       "source": "Acta Pharmaceutica Sinica B",
       "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
     },
     "doi:10.1016/j.bbrc.2026.154567": {
       "first_seen": "2026-09-10",
-      "score": 11,
       "source": "Biochemical and Biophysical Research Communications",
       "title": "NeoGen-BC: A Synergistic Framework Combining Generative Protein Language Models and Multi-Window Deep Learning for Designing Shared Neoantigens in Breast Cancer",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X26013318"
     },
     "doi:10.1016/j.biortech.2026.134897": {
       "first_seen": "2026-09-01",
-      "score": 12,
       "source": "PubMed",
       "title": "Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42162937/"
     },
     "doi:10.1016/j.biotechadv.2026.108850": {
       "first_seen": "2026-07-02",
-      "score": 21,
       "source": "PubMed",
       "title": "Computational dual-loop frameworks bridging single-enzyme design and cascade tunnel network engineering for next-generation biosynthetic systems.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41763370/"
     },
     "doi:10.1016/j.biotechadv.2026.108901": {
       "first_seen": "2026-09-01",
-      "score": 25,
       "source": "PubMed",
       "title": "From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42002010/"
     },
     "doi:10.1016/j.canlet.2026.218699": {
       "first_seen": "2026-07-01",
-      "score": 19,
       "source": "PubMed",
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
     "doi:10.1016/j.cbpa.2026.102728": {
       "first_seen": "2026-07-31",
-      "score": 22,
       "source": "PubMed",
       "title": "Generative artificial intelligence for enzyme design and biocatalysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
     },
     "doi:10.1016/j.cclet.2026.113345": {
       "first_seen": "2026-08-27",
-      "score": 6,
       "source": "Chinese Chemical Letters",
       "title": "Opportunities and challenges of artificial intelligence-driven peptide discovery",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848"
     },
     "doi:10.1016/j.cell.2026.06.029": {
       "first_seen": "2026-07-23",
-      "score": 11,
       "source": "PubMed",
       "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480528/"
     },
     "doi:10.1016/j.cels.2026.101711": {
       "first_seen": "2026-09-04",
-      "score": 10,
       "source": "PubMed",
       "title": "Mapping the combinatorial coding between olfactory receptors and perception with deep learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
     "doi:10.1016/j.chroma.2026.467271": {
       "first_seen": "2026-07-18",
-      "score": 21,
       "source": "PubMed",
       "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
     "doi:10.1016/j.curpro.2026.100150": {
       "first_seen": "2026-09-12",
-      "score": 6,
       "source": "Current Proteomics",
       "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
     },
     "doi:10.1016/j.engmic.2026.100305": {
       "first_seen": "2026-09-12",
-      "score": 6,
       "source": "Engineering Microbiology",
       "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
-      "score": 17,
       "source": "PubMed",
       "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
     "doi:10.1016/j.jmb.2026.169939": {
       "first_seen": "2026-07-08",
-      "score": 13,
       "source": "PubMed",
       "title": "BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42409279/"
     },
     "doi:10.1016/j.jmgm.2026.109383": {
       "first_seen": "2026-07-02",
-      "score": 9,
       "source": "PubMed",
       "title": "PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41905267/"
     },
     "doi:10.1016/j.jmgm.2026.109401": {
       "first_seen": "2026-07-02",
-      "score": 20,
       "source": "PubMed",
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
     "doi:10.1016/j.jmgm.2026.109571": {
       "first_seen": "2026-09-12",
-      "score": 10,
       "source": "Journal of Molecular Graphics and Modelling",
       "title": "Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093326326002974"
     },
     "doi:10.1016/j.jsb.2026.108368": {
       "first_seen": "2026-09-13",
-      "score": 6,
       "source": "Journal of Structural Biology",
       "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "first_seen": "2026-08-05",
-      "score": 11,
       "source": "PubMed",
       "title": "PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
     },
     "doi:10.1016/j.neunet.2026.108707": {
       "first_seen": "2026-07-01",
-      "score": 10,
       "source": "PubMed",
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
-      "score": 6,
       "source": "Cell Reports Physical Science",
       "title": "Engineering conditional peptide self-assembly using AlphaFold",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666386426004571"
     },
     "doi:10.1016/j.xplc.2026.102088": {
       "first_seen": "2026-09-01",
-      "score": 12,
       "source": "Plant Communications",
       "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962"
     },
     "doi:10.1021/acs.jafc.5c13640": {
       "first_seen": "2026-07-02",
-      "score": 6,
       "source": "PubMed",
       "title": "Systematically Engineering Escherichia coli for Efficient and Complete Hydroxytyrosol Biosynthesis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42312739/"
     },
     "doi:10.1021/acs.jafc.6c04272": {
       "first_seen": "2026-08-20",
-      "score": 28,
       "source": "PubMed",
       "title": "Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42616438/"
     },
     "doi:10.1021/acs.jcim.6c00582": {
       "first_seen": "2026-09-04",
-      "score": 8,
       "source": "Journal of Chemical Information and Modeling",
       "title": "Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c00582/5388498/Leveraging-a-Deep-Learning-Model-and-Computational"
     },
     "doi:10.1021/acs.jcim.6c00632": {
       "first_seen": "2026-07-28",
-      "score": 17,
       "source": "PubMed",
       "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443100/"
     },
     "doi:10.1021/acs.jcim.6c00768": {
       "first_seen": "2026-07-14",
-      "score": 7,
       "source": "PubMed",
       "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42439482/"
     },
     "doi:10.1021/acs.jcim.6c00806": {
       "first_seen": "2026-07-06",
-      "score": 16,
       "source": "PubMed",
       "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42402023/"
     },
     "doi:10.1021/acs.jcim.6c00807": {
       "first_seen": "2026-07-11",
-      "score": 6,
       "source": "PubMed",
       "title": "TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42427182/"
     },
     "doi:10.1021/acs.jcim.6c00836": {
       "first_seen": "2026-08-11",
-      "score": 13,
       "source": "PubMed",
       "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
     },
     "doi:10.1021/acs.jcim.6c01697": {
       "first_seen": "2026-08-11",
-      "score": 29,
       "source": "PubMed",
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
     "doi:10.1021/acs.jcim.6c01919": {
       "first_seen": "2026-08-29",
-      "score": 10,
       "source": "Journal of Chemical Information and Modeling",
       "title": "Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01919/5313840/Predicting-Antibody-Antigen-Mutation-G-via-Side"
     },
     "doi:10.1021/acs.jcim.6c01920": {
       "first_seen": "2026-08-24",
-      "score": 15,
       "source": "Journal of Chemical Information and Modeling",
       "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
-      "score": 12,
       "source": "PubMed",
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42397283/"
     },
     "doi:10.1021/acs.jctc.6c01009": {
       "first_seen": "2026-09-08",
-      "score": 17,
       "source": "Journal of Chemical Theory and Computation",
       "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling",
       "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in"
     },
     "doi:10.1021/acs.jproteome.6c00302": {
       "first_seen": "2026-09-05",
-      "score": 8,
       "source": "PubMed",
       "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
     },
     "doi:10.1021/acssynbio.6c00199": {
       "first_seen": "2026-07-18",
-      "score": 19,
       "source": "PubMed",
       "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
     },
     "doi:10.1021/acssynbio.6c00633": {
       "first_seen": "2026-09-05",
-      "score": 9,
       "source": "ACS Synthetic Biology",
       "title": "Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery",
       "url": "https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and"
     },
     "doi:10.1021/jacs.6c02343": {
       "first_seen": "2026-07-17",
-      "score": 19,
       "source": "PubMed",
       "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
     },
     "doi:10.1021/jacs.6c15828": {
       "first_seen": "2026-09-08",
-      "score": 6,
       "source": "Journal of the American Chemical Society",
       "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
     },
     "doi:10.1038/s10038-026-01484-9": {
       "first_seen": "2026-09-01",
-      "score": 6,
       "source": "PubMed",
       "title": "Functional effect predictions for ion channel missense variants using a protein language model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42332060/"
     },
     "doi:10.1038/s41392-026-02780-8": {
       "first_seen": "2026-07-02",
-      "score": 17,
       "source": "PubMed",
       "title": "Advances and prospects in cell therapy for cancer: explorations from T cells to stem cells.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42380095/"
     },
     "doi:10.1038/s41467-026-75283-3": {
       "first_seen": "2026-07-19",
-      "score": 22,
       "source": "PubMed",
       "title": "An enzyme-specific protein language model for catalytic property prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42469205/"
     },
     "doi:10.1038/s41467-026-76760-5": {
       "first_seen": "2026-08-24",
-      "score": 36,
       "source": "Nat Commun",
       "title": "AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins",
       "url": "https://www.nature.com/articles/s41467-026-76760-5"
     },
     "doi:10.1038/s41467-026-77333-2": {
       "first_seen": "2026-09-03",
-      "score": 7,
       "source": "Nat Commun",
       "title": "Unsupervised discovery of functional sequence patterns from protein language model with MotifAE",
       "url": "https://www.nature.com/articles/s41467-026-77333-2"
     },
     "doi:10.1038/s41467-026-77406-2": {
       "first_seen": "2026-09-06",
-      "score": 11,
       "source": "Nat Commun",
       "title": "Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli",
       "url": "https://www.nature.com/articles/s41467-026-77406-2"
     },
     "doi:10.1038/s41467-026-77557-2": {
       "first_seen": "2026-09-13",
-      "score": 6,
       "source": "Nat Commun",
       "title": "Functional alignment of protein language models via reinforcement learning",
       "url": "https://www.nature.com/articles/s41467-026-77557-2"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
-      "score": 8,
       "source": "PubMed",
       "title": "A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42204343/"
     },
     "doi:10.1038/s41586-026-10641-1": {
       "first_seen": "2026-07-02",
-      "score": 20,
       "source": "PubMed",
       "title": "Dual tumour-myeloid targeting of glioblastoma with GPNMB CAR-T cells.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386964/"
     },
     "doi:10.1038/s41587-026-03207-z": {
       "first_seen": "2026-07-31",
-      "score": 28,
       "source": "PubMed",
       "title": "Property guidance for protein sequence generative models with ProteinGuide.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42527525/"
     },
     "doi:10.1038/s41592-026-03137-3": {
       "first_seen": "2026-08-16",
-      "score": 17,
       "source": "PubMed",
       "title": "Aligning protein-generative models to experimental fitness with ProteinDPO.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42601461/"
     },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
-      "score": 7,
       "source": "PubMed",
       "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365029/"
     },
     "doi:10.1038/s41598-026-64923-9": {
       "first_seen": "2026-08-28",
-      "score": 12,
       "source": "Sci Rep",
       "title": "A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes",
       "url": "https://www.nature.com/articles/s41598-026-64923-9"
     },
     "doi:10.1038/s41598-026-66642-7": {
       "first_seen": "2026-09-02",
-      "score": 6,
       "source": "Sci Rep",
       "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
       "url": "https://www.nature.com/articles/s41598-026-66642-7"
     },
     "doi:10.1038/s41598-026-66799-1": {
       "first_seen": "2026-09-09",
-      "score": 12,
       "source": "Sci Rep",
       "title": "Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response",
       "url": "https://www.nature.com/articles/s41598-026-66799-1"
     },
     "doi:10.1038/s41598-026-67951-7": {
       "first_seen": "2026-09-06",
-      "score": 16,
       "source": "Sci Rep",
       "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
       "url": "https://www.nature.com/articles/s41598-026-67951-7"
     },
     "doi:10.1038/s42003-026-10725-8": {
       "first_seen": "2026-09-09",
-      "score": 12,
       "source": "Commun Biol",
       "title": "Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models",
       "url": "https://www.nature.com/articles/s42003-026-10725-8"
     },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",
-      "score": 21,
       "source": "PubMed",
       "title": "GPNMB-directed CAR T cell therapy against MiT/TFE-family fusion-driven solid tumors.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387022/"
     },
     "doi:10.1038/s43018-026-01201-7": {
       "first_seen": "2026-07-02",
-      "score": 10,
       "source": "PubMed",
       "title": "GPNMB-directed CAR-T cell therapies for solid tumors.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42387023/"
     },
     "doi:10.1038/s43588-026-01010-z": {
       "first_seen": "2026-07-15",
-      "score": 21,
       "source": "PubMed",
       "title": "Understanding language model scaling for protein fitness prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443524/"
     },
     "doi:10.1039/d6sc02631a": {
       "first_seen": "2026-08-21",
-      "score": 18,
       "source": "PubMed",
       "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/"
     },
     "doi:10.1080/07388551.2026.2680416": {
       "first_seen": "2026-07-02",
-      "score": 14,
       "source": "PubMed",
       "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
     },
     "doi:10.1093/bioinformatics/btag375": {
       "first_seen": "2026-07-03",
-      "score": 6,
       "source": "PubMed",
       "title": "PEPE: scalable extraction of multi-modal protein language model representations.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42286792/"
     },
     "doi:10.1093/bioinformatics/btag476": {
       "first_seen": "2026-07-02",
-      "score": 7,
       "source": "PubMed",
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42378434/"
     },
     "doi:10.1093/bioinformatics/btag605": {
       "first_seen": "2026-08-13",
-      "score": 21,
       "source": "PubMed",
       "title": "Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42581579/"
     },
     "doi:10.1093/bioinformatics/btag618": {
       "first_seen": "2026-09-01",
-      "score": 11,
       "source": "PubMed",
       "title": "Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42608825/"
     },
     "doi:10.1093/bioinformatics/btag642": {
       "first_seen": "2026-09-01",
-      "score": 11,
       "source": "Bioinformatics",
       "title": "Semi-supervised Retrieval of Functional Residues Through the Integration of Protein Language Models and Gene Ontology Data",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag642/8776792"
     },
     "doi:10.1093/bioinformatics/btag654": {
       "first_seen": "2026-09-01",
-      "score": 25,
       "source": "Bioinformatics",
       "title": "Design of peptides with non-canonical amino acids using flow matching",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag654/8777178"
     },
     "doi:10.1093/bioinformatics/btag663": {
       "first_seen": "2026-09-05",
-      "score": 13,
       "source": "Bioinformatics",
       "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291"
     },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
-      "score": 22,
       "source": "PubMed",
       "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480065/"
     },
     "doi:10.1093/protein/gzag016": {
       "first_seen": "2026-07-07",
-      "score": 30,
       "source": "PubMed",
       "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
     },
     "doi:10.1101/2024.03.09.583681": {
       "first_seen": "2026-06-30",
-      "score": 8,
       "source": "biorxiv",
       "title": "Effective structure-aware protein alignment via residue-level contrastive learning",
       "url": "https://doi.org/10.1101/2024.03.09.583681"
     },
     "doi:10.1101/2024.10.02.616302": {
       "first_seen": "2026-06-30",
-      "score": 17,
       "source": "biorxiv",
       "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
       "url": "https://doi.org/10.1101/2024.10.02.616302"
     },
     "doi:10.1101/2025.09.23.676583": {
       "first_seen": "2026-07-02",
-      "score": 8,
       "source": "biorxiv",
       "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
       "url": "https://doi.org/10.1101/2025.09.23.676583"
     },
     "doi:10.1101/2025.11.02.685536": {
       "first_seen": "2026-07-26",
-      "score": 6,
       "source": "biorxiv",
       "title": "Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering",
       "url": "https://doi.org/10.1101/2025.11.02.685536"
     },
     "doi:10.1101/cshperspect.a041754": {
       "first_seen": "2026-07-02",
-      "score": 11,
       "source": "PubMed",
       "title": "Guiding Cells with Light and Chemicals: A Toolbox for Dynamic Studies of Cell Migration.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41558817/"
     },
     "doi:10.1107/s2059798326006054": {
       "first_seen": "2026-08-01",
-      "score": 19,
       "source": "PubMed",
       "title": "PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42473947/"
     },
     "doi:10.1109/jbhi.2026.3709844": {
       "first_seen": "2026-07-03",
-      "score": 13,
       "source": "PubMed",
       "title": "Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42391080/"
     },
     "doi:10.1109/jbhi.2026.3727674": {
       "first_seen": "2026-08-27",
-      "score": 12,
       "source": "PubMed",
       "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
     },
     "doi:10.1109/tnnls.2026.3727640": {
       "first_seen": "2026-09-04",
-      "score": 26,
       "source": "PubMed",
       "title": "Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42690977/"
     },
     "doi:10.1111/1750-3841.71222": {
       "first_seen": "2026-07-01",
-      "score": 6,
       "source": "PubMed",
       "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
     },
     "doi:10.1126/science.adr3817": {
       "first_seen": "2026-07-06",
-      "score": 15,
       "source": "Science",
       "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
       "url": "https://www.science.org/doi/10.1126/science.adr3817"
     },
     "doi:10.1126/science.aeb0822": {
       "first_seen": "2026-07-17",
-      "score": 17,
       "source": "PubMed",
       "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42461986/"
     },
     "doi:10.1177/15578666261443336": {
       "first_seen": "2026-07-02",
-      "score": 13,
       "source": "PubMed",
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     },
     "doi:10.1371/journal.pcbi.1014499": {
       "first_seen": "2026-08-21",
-      "score": 18,
       "source": "PubMed",
       "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
     },
     "doi:10.34133/csbj.0220": {
       "first_seen": "2026-09-13",
-      "score": 13,
       "source": "PubMed",
       "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
     },
     "doi:10.64898/2026.03.06.710024": {
       "first_seen": "2026-08-08",
-      "score": 7,
       "source": "biorxiv",
       "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
       "url": "https://doi.org/10.64898/2026.03.06.710024"
     },
     "doi:10.64898/2026.03.17.712034": {
       "first_seen": "2026-09-10",
-      "score": 9,
       "source": "bioRxiv",
       "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
       "url": "https://doi.org/10.64898/2026.03.17.712034"
     },
     "doi:10.64898/2026.04.03.716278": {
       "first_seen": "2026-09-09",
-      "score": 11,
       "source": "bioRxiv",
       "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
       "url": "https://doi.org/10.64898/2026.04.03.716278"
     },
     "doi:10.64898/2026.04.03.716280": {
       "first_seen": "2026-09-09",
-      "score": 20,
       "source": "bioRxiv",
       "title": "A geometry-over-coevolution principle governs protein complex assembly in AlphaFold",
       "url": "https://doi.org/10.64898/2026.04.03.716280"
     },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
-      "score": 12,
       "source": "biorxiv",
       "title": "PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides",
       "url": "https://doi.org/10.64898/2026.06.22.733733"
     },
     "doi:10.64898/2026.07.01.733993": {
       "first_seen": "2026-07-06",
-      "score": 7,
       "source": "biorxiv",
       "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
       "url": "https://doi.org/10.64898/2026.07.01.733993"
     },
     "doi:10.64898/2026.07.09.736951": {
       "first_seen": "2026-07-15",
-      "score": 14,
       "source": "biorxiv",
       "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
       "url": "https://doi.org/10.64898/2026.07.09.736951"
     },
     "doi:10.64898/2026.07.10.737686": {
       "first_seen": "2026-07-23",
-      "score": 16,
       "source": "biorxiv",
       "title": "Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.",
       "url": "https://doi.org/10.64898/2026.07.10.737686"
     },
     "doi:10.64898/2026.07.10.737808": {
       "first_seen": "2026-07-15",
-      "score": 10,
       "source": "Crossref",
       "title": "De novo design of selective kinase modulators",
       "url": "http://biorxiv.org/lookup/doi/10.64898/2026.07.10.737808"
     },
     "doi:10.64898/2026.07.11.737889": {
       "first_seen": "2026-09-13",
-      "score": 9,
       "source": "bioRxiv",
       "title": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
       "url": "https://doi.org/10.64898/2026.07.11.737889"
     },
     "doi:10.64898/2026.07.18.739331": {
       "first_seen": "2026-07-23",
-      "score": 12,
       "source": "biorxiv",
       "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
       "url": "https://doi.org/10.64898/2026.07.18.739331"
     },
     "doi:10.64898/2026.08.02.742339": {
       "first_seen": "2026-08-06",
-      "score": 29,
       "source": "biorxiv",
       "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
       "url": "https://doi.org/10.64898/2026.08.02.742339"
     },
     "doi:10.64898/2026.09.01.748349": {
       "first_seen": "2026-09-05",
-      "score": 12,
       "source": "biorxiv",
       "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
       "url": "https://doi.org/10.64898/2026.09.01.748349"
     },
     "doi:10.64898/2026.09.04.749184": {
       "first_seen": "2026-09-09",
-      "score": 33,
       "source": "bioRxiv",
       "title": "RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
       "url": "https://doi.org/10.64898/2026.09.04.749184"
     },
     "doi:10.64898/2026.09.04.749196": {
       "first_seen": "2026-09-09",
-      "score": 27,
       "source": "bioRxiv",
       "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
       "url": "https://doi.org/10.64898/2026.09.04.749196"
     },
     "doi:10.64898/2026.09.04.749267": {
       "first_seen": "2026-09-10",
-      "score": 27,
       "source": "bioRxiv",
       "title": "De novo Rubisco design with protein language models",
       "url": "https://doi.org/10.64898/2026.09.04.749267"
     },
     "doi:10.64898/2026.09.04.749352": {
       "first_seen": "2026-09-09",
-      "score": 18,
       "source": "bioRxiv",
       "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
       "url": "https://doi.org/10.64898/2026.09.04.749352"
     },
     "doi:10.64898/2026.09.05.749393": {
       "first_seen": "2026-09-12",
-      "score": 7,
       "source": "bioRxiv",
       "title": "SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification",
       "url": "https://doi.org/10.64898/2026.09.05.749393"
     },
     "doi:10.64898/2026.09.06.749605": {
       "first_seen": "2026-09-09",
-      "score": 8,
       "source": "bioRxiv",
       "title": "Capsid-specialized protein language models reveal higher-order viral architecture from sequence",
       "url": "https://doi.org/10.64898/2026.09.06.749605"
     },
     "doi:10.64898/2026.09.06.749651": {
       "first_seen": "2026-09-12",
-      "score": 18,
       "source": "bioRxiv",
       "title": "Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70",
       "url": "https://doi.org/10.64898/2026.09.06.749651"
     },
     "doi:10.64898/2026.09.06.749721": {
       "first_seen": "2026-09-12",
-      "score": 13,
       "source": "bioRxiv",
       "title": "Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design",
       "url": "https://doi.org/10.64898/2026.09.06.749721"
     },
     "doi:10.64898/2026.09.06.749733": {
       "first_seen": "2026-09-09",
-      "score": 36,
       "source": "bioRxiv",
       "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
       "url": "https://doi.org/10.64898/2026.09.06.749733"
     },
     "doi:10.64898/2026.09.08.750245": {
       "first_seen": "2026-09-12",
-      "score": 13,
       "source": "bioRxiv",
       "title": "De novo design of allosterically controlled enzymes",
       "url": "https://doi.org/10.64898/2026.09.08.750245"
     },
     "doi:10.64898/2026.09.10.750670": {
       "first_seen": "2026-09-12",
-      "score": 16,
       "source": "bioRxiv",
       "title": "Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs",
       "url": "https://doi.org/10.64898/2026.09.10.750670"
     },
     "doi:10.64898/2026.09.10.750674": {
       "first_seen": "2026-09-12",
-      "score": 9,
       "source": "bioRxiv",
       "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
       "url": "https://doi.org/10.64898/2026.09.10.750674"

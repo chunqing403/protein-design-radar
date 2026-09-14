@@ -13,7 +13,6 @@
         "graph neural network",
         "equivariant"
       ],
-      "score": 7,
       "source": "arXiv",
       "source_id": "2607.10887v1",
       "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
@@ -43,7 +42,6 @@
         "binding",
         "structure"
       ],
-      "score": 9,
       "source": "arXiv",
       "source_id": "2607.18144v1",
       "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
@@ -73,7 +71,6 @@
         "binding",
         "structure"
       ],
-      "score": 17,
       "source": "arXiv",
       "source_id": "2607.19237v1",
       "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
@@ -98,7 +95,6 @@
         "protein",
         "sequence"
       ],
-      "score": 8,
       "source": "arXiv",
       "source_id": "2608.12090v1",
       "title": "Task- and dataset-specific information in protein language models",
@@ -128,7 +124,6 @@
         "protein",
         "structure"
       ],
-      "score": 14,
       "source": "arXiv",
       "source_id": "2608.12192v1",
       "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
@@ -148,7 +143,6 @@
         "CAR-T",
         "GPNMB"
       ],
-      "score": 12,
       "source": "Cell",
       "source_id": "S0092-8674(26)00651-3",
       "title": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy",
@@ -181,7 +175,6 @@
         "protein",
         "antibody"
       ],
-      "score": 22,
       "source": "PubMed",
       "source_id": "42572503",
       "title": "The sweet spot in protein design-Where deep learning meets first principles.",
@@ -217,7 +210,6 @@
         "ProteinMPNN",
         "artificial intelligence"
       ],
-      "score": 39,
       "source": "PubMed",
       "source_id": "42655993",
       "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
@@ -250,7 +242,6 @@
         "sequence",
         "structure"
       ],
-      "score": 16,
       "source": "PubMed",
       "source_id": "42316773",
       "title": "DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.",
@@ -277,7 +268,6 @@
         "protein",
         "sequence"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42321971",
       "title": "A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.",
@@ -311,7 +301,6 @@
         "protein",
         "binding"
       ],
-      "score": 21,
       "source": "PubMed",
       "source_id": "42429042",
       "title": "Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies.",
@@ -345,7 +334,6 @@
         "binding",
         "sequence"
       ],
-      "score": 17,
       "source": "PubMed",
       "source_id": "42423121",
       "title": "Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.",
@@ -373,7 +361,6 @@
         "stability",
         "protein"
       ],
-      "score": 24,
       "source": "PubMed",
       "source_id": "42427317",
       "title": "RINAMI: Residue-attributed interpretable neural network for predicting absolute folding free energy by merging structure and sequence information.",
@@ -403,7 +390,6 @@
         "peptide",
         "sequence"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42417545",
       "title": "Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein.",
@@ -437,7 +423,6 @@
         "ProteinMPNN",
         "de novo design"
       ],
-      "score": 34,
       "source": "PubMed",
       "source_id": "42489162",
       "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
@@ -471,7 +456,6 @@
         "stability",
         "kinase"
       ],
-      "score": 31,
       "source": "PubMed",
       "source_id": "42499170",
       "title": "Structural and Stability Analysis of de Novo Designed Proteins Incorporating a Plant Self-Incompatibility Motif.",
@@ -499,7 +483,6 @@
         "binding",
         "sequence"
       ],
-      "score": 16,
       "source": "PubMed",
       "source_id": "42541540",
       "title": "GraESM-FuseDTA: adaptive gated multimodal fusion of graph neural networks and protein language models for robust drug-target affinity prediction.",
@@ -526,7 +509,6 @@
         "protein",
         "sequence"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42730944",
       "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
@@ -551,7 +533,6 @@
         "protein",
         "sequence"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42669100",
       "title": "ESM2-Kcr: a novel model combining protein language model and deep learning methods for predicting lysine crotonylation sites.",
@@ -578,7 +559,6 @@
         "equivariant",
         "protein"
       ],
-      "score": 14,
       "source": "PubMed",
       "source_id": "42423919",
       "title": "Tightly coupled equivariant flow matching for molecular docking with multimodal physical constraints.",
@@ -605,7 +585,6 @@
         "protein",
         "binding"
       ],
-      "score": 7,
       "source": "PubMed",
       "source_id": "42467311",
       "title": "Fragment-based diffusion modeling and molecular dynamics simulation validation for the discovery of PD-L1 small-molecule inhibitors.",
@@ -642,7 +621,6 @@
         "experimental validation",
         "directed evolution"
       ],
-      "score": 57,
       "source": "PubMed",
       "source_id": "42470596",
       "title": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
@@ -674,7 +652,6 @@
         "protein",
         "kinase"
       ],
-      "score": 20,
       "source": "PubMed",
       "source_id": "41865419",
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
@@ -709,7 +686,6 @@
         "miniprotein",
         "miniprotein"
       ],
-      "score": 9,
       "source": "Acta Pharmaceutica Sinica B",
       "source_id": "10.1016/j.apsb.2026.08.031",
       "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
@@ -736,7 +712,6 @@
         "peptide",
         "binding"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42721858",
       "title": "NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.",
@@ -768,7 +743,6 @@
         "protein",
         "enzyme"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42162937",
       "title": "Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.",
@@ -800,7 +774,6 @@
         "generative model",
         "stability"
       ],
-      "score": 25,
       "source": "PubMed",
       "source_id": "42002010",
       "title": "From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.",
@@ -827,7 +800,6 @@
         "protein",
         "enzyme"
       ],
-      "score": 22,
       "source": "PubMed",
       "source_id": "42526208",
       "title": "Generative artificial intelligence for enzyme design and biocatalysis.",
@@ -855,7 +827,6 @@
         "artificial intelligence",
         "peptide"
       ],
-      "score": 6,
       "source": "Chinese Chemical Letters",
       "source_id": "10.1016/j.cclet.2026.113345",
       "title": "Opportunities and challenges of artificial intelligence-driven peptide discovery",
@@ -885,7 +856,6 @@
         "binding",
         "sequence"
       ],
-      "score": 11,
       "source": "PubMed",
       "source_id": "42480528",
       "title": "Expanding the scope of protein language modeling to protein-protein interactions with MSA Pairformer.",
@@ -912,7 +882,6 @@
         "protein",
         "binding"
       ],
-      "score": 10,
       "source": "PubMed",
       "source_id": "42685697",
       "title": "Mapping the combinatorial coding between olfactory receptors and perception with deep learning.",
@@ -943,7 +912,6 @@
         "protein",
         "peptide"
       ],
-      "score": 21,
       "source": "PubMed",
       "source_id": "42462410",
       "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
@@ -971,7 +939,6 @@
         "artificial intelligence",
         "peptide"
       ],
-      "score": 6,
       "source": "Current Proteomics",
       "source_id": "10.1016/j.curpro.2026.100150",
       "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
@@ -997,7 +964,6 @@
         "AI-driven",
         "protein"
       ],
-      "score": 6,
       "source": "Engineering Microbiology",
       "source_id": "10.1016/j.engmic.2026.100305",
       "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
@@ -1028,7 +994,6 @@
         "binding",
         "sequence"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42409279",
       "title": "BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.",
@@ -1058,7 +1023,6 @@
         "transformer",
         "protein"
       ],
-      "score": 9,
       "source": "PubMed",
       "source_id": "41905267",
       "title": "PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.",
@@ -1086,7 +1050,6 @@
         "protein",
         "peptide"
       ],
-      "score": 20,
       "source": "PubMed",
       "source_id": "41941849",
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
@@ -1113,7 +1076,6 @@
         "structure",
         "kinase"
       ],
-      "score": 10,
       "source": "Journal of Molecular Graphics and Modelling",
       "source_id": "10.1016/j.jmgm.2026.109571",
       "title": "Systematic Benchmarking of AlphaFold and SWISS-MODEL Kinase Structures for Structure-Based Drug Discovery",
@@ -1143,7 +1105,6 @@
         "deep learning",
         "antibody"
       ],
-      "score": 6,
       "source": "Journal of Structural Biology",
       "source_id": "10.1016/j.jsb.2026.108368",
       "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods",
@@ -1172,7 +1133,6 @@
         "deep learning",
         "protein"
       ],
-      "score": 11,
       "source": "PubMed",
       "source_id": "42548048",
       "title": "PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
@@ -1200,7 +1160,6 @@
         "AlphaFold",
         "peptide"
       ],
-      "score": 6,
       "source": "Cell Reports Physical Science",
       "source_id": "10.1016/j.xcrp.2026.103551",
       "title": "Engineering conditional peptide self-assembly using AlphaFold",
@@ -1232,7 +1191,6 @@
         "protein",
         "enzyme"
       ],
-      "score": 21,
       "source": "PubMed",
       "source_id": "42675858",
       "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design.",
@@ -1267,7 +1225,6 @@
         "AI-driven",
         "stability"
       ],
-      "score": 28,
       "source": "PubMed",
       "source_id": "42616438",
       "title": "Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.",
@@ -1295,7 +1252,6 @@
         "binding",
         "sequence"
       ],
-      "score": 8,
       "source": "Journal of Chemical Information and Modeling",
       "source_id": "10.1021/acs.jcim.6c00582",
       "title": "Leveraging a Deep Learning Model and Computational Screening for the Discovery of ABCG2 Inhibitors against Drug-Resistant Breast Cancer",
@@ -1326,7 +1282,6 @@
         "protein",
         "sequence"
       ],
-      "score": 17,
       "source": "PubMed",
       "source_id": "42443100",
       "title": "Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.",
@@ -1361,7 +1316,6 @@
         "binding",
         "mutation"
       ],
-      "score": 7,
       "source": "PubMed",
       "source_id": "42439482",
       "title": "Protein Language Model-Based Fitness Estimates Facilitate Resistance Mutation Identification.",
@@ -1392,7 +1346,6 @@
         "sequence",
         "structure"
       ],
-      "score": 16,
       "source": "PubMed",
       "source_id": "42402023",
       "title": "A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.",
@@ -1427,7 +1380,6 @@
         "enzyme",
         "structure"
       ],
-      "score": 6,
       "source": "PubMed",
       "source_id": "42427182",
       "title": "TPS-Flow: Physics-Guided Flow-Based Generative Modeling of Protein Transition Paths.",
@@ -1454,7 +1406,6 @@
         "antibody",
         "sequence"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42573393",
       "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
@@ -1487,7 +1438,6 @@
         "folding",
         "stability"
       ],
-      "score": 29,
       "source": "PubMed",
       "source_id": "42573394",
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
@@ -1516,7 +1466,6 @@
         "mutation",
         "sequence"
       ],
-      "score": 10,
       "source": "Journal of Chemical Information and Modeling",
       "source_id": "10.1021/acs.jcim.6c01919",
       "title": "Predicting Antibody–Antigen Mutation ΔΔ G via Side-Specific Protein Language Models and Paired Geometric Graph Learning",
@@ -1548,7 +1497,6 @@
         "protein",
         "binding"
       ],
-      "score": 15,
       "source": "Journal of Chemical Information and Modeling",
       "source_id": "10.1021/acs.jcim.6c01920",
       "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
@@ -1573,7 +1521,6 @@
         "graph neural network",
         "protein"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42397283",
       "title": "Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.",
@@ -1599,7 +1546,6 @@
         "protein",
         "structure"
       ],
-      "score": 17,
       "source": "Journal of Chemical Theory and Computation",
       "source_id": "10.1021/acs.jctc.6c01009",
       "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling",
@@ -1628,7 +1574,6 @@
         "peptide",
         "sequence"
       ],
-      "score": 8,
       "source": "PubMed",
       "source_id": "42695896",
       "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
@@ -1659,7 +1604,6 @@
         "graph neural network",
         "protein"
       ],
-      "score": 19,
       "source": "PubMed",
       "source_id": "42359840",
       "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
@@ -1689,7 +1633,6 @@
         "enzyme",
         "sequence"
       ],
-      "score": 9,
       "source": "ACS Synthetic Biology",
       "source_id": "10.1021/acssynbio.6c00633",
       "title": "Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery",
@@ -1722,7 +1665,6 @@
         "chimeric antigen receptor",
         "protein"
       ],
-      "score": 19,
       "source": "PubMed",
       "source_id": "42184340",
       "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
@@ -1750,7 +1692,6 @@
         "de novo design",
         "binding"
       ],
-      "score": 6,
       "source": "Journal of the American Chemical Society",
       "source_id": "10.1021/jacs.6c15828",
       "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
@@ -1774,7 +1715,6 @@
         "protein language model",
         "protein"
       ],
-      "score": 6,
       "source": "PubMed",
       "source_id": "42332060",
       "title": "Functional effect predictions for ion channel missense variants using a protein language model.",
@@ -1809,7 +1749,6 @@
         "protein",
         "enzyme"
       ],
-      "score": 22,
       "source": "PubMed",
       "source_id": "42469205",
       "title": "An enzyme-specific protein language model for catalytic property prediction.",
@@ -1849,7 +1788,6 @@
         "AI-designed",
         "chimeric antigen receptor"
       ],
-      "score": 36,
       "source": "Nat Commun",
       "source_id": "10.1038/s41467-026-76760-5",
       "title": "AI-enabled discovery and biochemical optimization of minibinders targeting cancer cell-surface proteins",
@@ -1875,7 +1813,6 @@
         "protein",
         "sequence"
       ],
-      "score": 7,
       "source": "Nat Commun",
       "source_id": "10.1038/s41467-026-77333-2",
       "title": "Unsupervised discovery of functional sequence patterns from protein language model with MotifAE",
@@ -1905,7 +1842,6 @@
         "deep learning",
         "protein"
       ],
-      "score": 11,
       "source": "Nat Commun",
       "source_id": "10.1038/s41467-026-77406-2",
       "title": "Metabolic engineering and deep learning-driven protein engineering for N-Acetylneuraminic acid biosynthesis in Escherichia coli",
@@ -1932,7 +1868,6 @@
         "protein language model",
         "protein"
       ],
-      "score": 6,
       "source": "Nat Commun",
       "source_id": "10.1038/s41467-026-77557-2",
       "title": "Functional alignment of protein language models via reinforcement learning",
@@ -1959,7 +1894,6 @@
         "mutation",
         "sequence"
       ],
-      "score": 8,
       "source": "PubMed",
       "source_id": "42204343",
       "title": "A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.",
@@ -1991,7 +1925,6 @@
         "generative model",
         "stability"
       ],
-      "score": 28,
       "source": "PubMed",
       "source_id": "42527525",
       "title": "Property guidance for protein sequence generative models with ProteinGuide.",
@@ -2023,7 +1956,6 @@
         "protein",
         "binding"
       ],
-      "score": 17,
       "source": "PubMed",
       "source_id": "42601461",
       "title": "Aligning protein-generative models to experimental fitness with ProteinDPO.",
@@ -2051,7 +1983,6 @@
         "protein",
         "structure"
       ],
-      "score": 7,
       "source": "PubMed",
       "source_id": "42365029",
       "title": "Structural feature-based machine learning benchmarking for protein interface prediction.",
@@ -2078,7 +2009,6 @@
         "protein",
         "structure"
       ],
-      "score": 12,
       "source": "Sci Rep",
       "source_id": "10.1038/s41598-026-64923-9",
       "title": "A systematic evaluation of deep learning-based protein structure prediction for HIV-1 enzymes",
@@ -2104,7 +2034,6 @@
         "protein language model",
         "protein"
       ],
-      "score": 6,
       "source": "Sci Rep",
       "source_id": "10.1038/s41598-026-66642-7",
       "title": "Explainable attention-based multi-omics fusion with protein language models for CML-versus-control classification and biomarker discovery",
@@ -2133,7 +2062,6 @@
         "protein",
         "mutation"
       ],
-      "score": 12,
       "source": "Sci Rep",
       "source_id": "10.1038/s41598-026-66799-1",
       "title": "Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response",
@@ -2171,7 +2099,6 @@
         "enzyme",
         "binding"
       ],
-      "score": 16,
       "source": "Sci Rep",
       "source_id": "10.1038/s41598-026-67951-7",
       "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
@@ -2199,7 +2126,6 @@
         "protein",
         "structure"
       ],
-      "score": 12,
       "source": "Commun Biol",
       "source_id": "10.1038/s42003-026-10725-8",
       "title": "Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models",
@@ -2227,7 +2153,6 @@
         "protein",
         "mutation"
       ],
-      "score": 21,
       "source": "PubMed",
       "source_id": "42443524",
       "title": "Understanding language model scaling for protein fitness prediction.",
@@ -2262,7 +2187,6 @@
         "peptide",
         "binding"
       ],
-      "score": 18,
       "source": "PubMed",
       "source_id": "42441251",
       "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.",
@@ -2290,7 +2214,6 @@
         "protein language model",
         "protein"
       ],
-      "score": 6,
       "source": "PubMed",
       "source_id": "42286792",
       "title": "PEPE: scalable extraction of multi-modal protein language model representations.",
@@ -2317,7 +2240,6 @@
         "protein",
         "sequence"
       ],
-      "score": 7,
       "source": "PubMed",
       "source_id": "42378434",
       "title": "OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.",
@@ -2344,7 +2266,6 @@
         "protein",
         "sequence"
       ],
-      "score": 21,
       "source": "PubMed",
       "source_id": "42581579",
       "title": "Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.",
@@ -2373,7 +2294,6 @@
         "peptide",
         "sequence"
       ],
-      "score": 11,
       "source": "PubMed",
       "source_id": "42608825",
       "title": "Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.",
@@ -2405,7 +2325,6 @@
         "binding",
         "sequence"
       ],
-      "score": 11,
       "source": "Bioinformatics",
       "source_id": "10.1093/bioinformatics/btag642",
       "title": "Semi-supervised Retrieval of Functional Residues Through the Integration of Protein Language Models and Gene Ontology Data",
@@ -2433,7 +2352,6 @@
         "stability",
         "protein"
       ],
-      "score": 25,
       "source": "Bioinformatics",
       "source_id": "10.1093/bioinformatics/btag654",
       "title": "Design of peptides with non-canonical amino acids using flow matching",
@@ -2462,7 +2380,6 @@
         "antibody",
         "structure"
       ],
-      "score": 13,
       "source": "Bioinformatics",
       "source_id": "10.1093/bioinformatics/btag663",
       "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank",
@@ -2494,7 +2411,6 @@
         "protein",
         "mutation"
       ],
-      "score": 22,
       "source": "PubMed",
       "source_id": "42480065",
       "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
@@ -2526,7 +2442,6 @@
         "ESM",
         "stability"
       ],
-      "score": 30,
       "source": "PubMed",
       "source_id": "42405694",
       "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
@@ -2560,7 +2475,6 @@
         "enzyme",
         "sequence"
       ],
-      "score": 17,
       "source": "biorxiv",
       "source_id": "10.1101/2024.10.02.616302",
       "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
@@ -2596,7 +2510,6 @@
         "enzyme",
         "sequence"
       ],
-      "score": 6,
       "source": "biorxiv",
       "source_id": "10.1101/2025.11.02.685536",
       "title": "Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering",
@@ -2626,7 +2539,6 @@
         "protein",
         "sequence"
       ],
-      "score": 19,
       "source": "PubMed",
       "source_id": "42473947",
       "title": "PETIMOT: a novel framework for inferring protein motions from sparse data using SE(3)-equivariant graph neural networks.",
@@ -2662,7 +2574,6 @@
         "peptide",
         "sequence"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42391080",
       "title": "Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.",
@@ -2694,7 +2605,6 @@
         "protein",
         "sequence"
       ],
-      "score": 12,
       "source": "PubMed",
       "source_id": "42647707",
       "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
@@ -2725,7 +2635,6 @@
         "equivariant",
         "target discovery"
       ],
-      "score": 26,
       "source": "PubMed",
       "source_id": "42690977",
       "title": "Retrieval-Augmented Residual Graph Neural Network for Protein-Protein Interaction Site Prediction.",
@@ -2763,7 +2672,6 @@
         "sequence",
         "structure"
       ],
-      "score": 15,
       "source": "Science",
       "source_id": "10.1126/science.adr3817",
       "title": "Membrane protein solubilization and structure determination using de novo–designed proteins",
@@ -2798,7 +2706,6 @@
         "protein",
         "binding"
       ],
-      "score": 17,
       "source": "PubMed",
       "source_id": "42461986",
       "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
@@ -2823,7 +2730,6 @@
         "sequence",
         "structure"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42011844",
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
@@ -2856,7 +2762,6 @@
         "antibody",
         "binding"
       ],
-      "score": 18,
       "source": "PubMed",
       "source_id": "42623408",
       "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
@@ -2884,7 +2789,6 @@
         "peptide",
         "binding"
       ],
-      "score": 13,
       "source": "PubMed",
       "source_id": "42729647",
       "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
@@ -2911,7 +2815,6 @@
         "protein",
         "sequence"
       ],
-      "score": 7,
       "source": "biorxiv",
       "source_id": "10.64898/2026.03.06.710024",
       "title": "The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis",
@@ -2944,7 +2847,6 @@
         "sequence",
         "structure"
       ],
-      "score": 9,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.03.17.712034",
       "title": "ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling",
@@ -2970,7 +2872,6 @@
         "protein",
         "structure"
       ],
-      "score": 11,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.04.03.716278",
       "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
@@ -2997,7 +2898,6 @@
         "antibody",
         "sequence"
       ],
-      "score": 20,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.04.03.716280",
       "title": "A geometry-over-coevolution principle governs protein complex assembly in AlphaFold",
@@ -3025,7 +2925,6 @@
         "peptide",
         "structure"
       ],
-      "score": 12,
       "source": "biorxiv",
       "source_id": "10.64898/2026.06.22.733733",
       "title": "PEPstrMOD2: Next-generation tertiary structure prediction of chemically modified and non-natural peptides",
@@ -3058,7 +2957,6 @@
         "protein",
         "peptide"
       ],
-      "score": 12,
       "source": "biorxiv",
       "source_id": "10.64898/2026.07.01.733993",
       "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
@@ -3101,7 +2999,6 @@
         "binding",
         "sequence"
       ],
-      "score": 14,
       "source": "biorxiv",
       "source_id": "10.64898/2026.07.09.736951",
       "title": "Hybrid quantum-classical de novo design of MHC-binding peptides",
@@ -3149,7 +3046,6 @@
         "AI-designed",
         "protein"
       ],
-      "score": 21,
       "source": "biorxiv",
       "source_id": "10.64898/2026.07.10.737686",
       "title": "Computational design of de novo integrated domains enables rational control of pathogen effector recognition in plant NLR immune receptors.",
@@ -3183,7 +3079,6 @@
         "protein",
         "kinase"
       ],
-      "score": 10,
       "source": "Crossref",
       "source_id": "10.64898/2026.07.10.737808",
       "title": "De novo design of selective kinase modulators",
@@ -3212,7 +3107,6 @@
         "peptide",
         "sequence"
       ],
-      "score": 9,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.07.11.737889",
       "title": "CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo",
@@ -3237,7 +3131,6 @@
         "sequence",
         "kinase"
       ],
-      "score": 12,
       "source": "biorxiv",
       "source_id": "10.64898/2026.07.18.739331",
       "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
@@ -3272,7 +3165,6 @@
         "generative model",
         "motif scaffolding"
       ],
-      "score": 29,
       "source": "biorxiv",
       "source_id": "10.64898/2026.08.02.742339",
       "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
@@ -3308,7 +3200,6 @@
         "protein",
         "binding"
       ],
-      "score": 12,
       "source": "biorxiv",
       "source_id": "10.64898/2026.09.01.748349",
       "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
@@ -3340,7 +3231,6 @@
         "RFdiffusion",
         "de novo design"
       ],
-      "score": 42,
       "source": "Crossref",
       "source_id": "10.64898/2026.09.04.749184",
       "title": "RFOptimization: Guiding Design Optimization with All-Atom Structure Prediction",
@@ -3369,7 +3259,6 @@
         "stability",
         "kinase"
       ],
-      "score": 27,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.04.749196",
       "title": "De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4",
@@ -3404,7 +3293,6 @@
         "folding",
         "protein"
       ],
-      "score": 27,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.04.749267",
       "title": "De novo Rubisco design with protein language models",
@@ -3435,7 +3323,6 @@
         "antibody",
         "sequence"
       ],
-      "score": 18,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.04.749352",
       "title": "AtlasFold: Protein structure prediction with metagenomic-scale language models",
@@ -3459,7 +3346,6 @@
         "deep learning",
         "peptide"
       ],
-      "score": 7,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.05.749393",
       "title": "SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification",
@@ -3484,7 +3370,6 @@
         "protein",
         "sequence"
       ],
-      "score": 8,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.06.749605",
       "title": "Capsid-specialized protein language models reveal higher-order viral architecture from sequence",
@@ -3533,7 +3418,6 @@
         "antibody",
         "binding"
       ],
-      "score": 18,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.06.749651",
       "title": "Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70",
@@ -3568,7 +3452,6 @@
         "sequence",
         "structure"
       ],
-      "score": 13,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.06.749721",
       "title": "Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design",
@@ -3601,7 +3484,6 @@
         "ESM",
         "sequence design"
       ],
-      "score": 36,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.06.749733",
       "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
@@ -3640,7 +3522,6 @@
         "protein",
         "structure"
       ],
-      "score": 13,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.08.750245",
       "title": "De novo design of allosterically controlled enzymes",
@@ -3672,7 +3553,6 @@
         "peptide",
         "binding"
       ],
-      "score": 16,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.10.750670",
       "title": "Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs",
@@ -3696,7 +3576,6 @@
         "binding",
         "sequence"
       ],
-      "score": 9,
       "source": "bioRxiv",
       "source_id": "10.64898/2026.09.10.750674",
       "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",

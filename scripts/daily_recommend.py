@@ -668,7 +668,6 @@ def paper_to_record(paper: Paper, first_seen: str) -> dict:
         "url": paper.url,
         "doi": paper.doi,
         "source_id": paper.source_id,
-        "score": paper.score,
         "topics": paper.topics,
         "reasons": paper.reasons,
         "first_seen": first_seen,
@@ -699,8 +698,6 @@ def update_library(library: dict, papers: list[Paper], target_date: dt.date) -> 
         existing = records.get(paper.key, {})
         first_seen = existing.get("first_seen", today)
         record = paper_to_record(paper, first_seen)
-        if existing and existing.get("score", 0) > record["score"]:
-            record["score"] = existing["score"]
         records[paper.key] = record
     return library
 
@@ -761,7 +758,7 @@ def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
         lines += [
             f"### {idx}. {paper.title}",
             "",
-            f"- **Score:** {paper.score} | **Status:** {status} | **Source:** {paper.source} | **Date:** {paper.published or 'n/a'}",
+            f"- **Status:** {status} | **Source:** {paper.source} | **Date:** {paper.published or 'n/a'}",
             f"- **Authors:** {format_authors(paper.authors)}",
             f"- **Topics:** {', '.join(paper.topics)}",
             f"- **Why it matched:** {', '.join(paper.reasons) if paper.reasons else 'query match'}",
@@ -778,8 +775,8 @@ def render_report(date: dt.date, papers: list[Paper], config: dict) -> str:
 
 def render_paper_table(papers: list[Paper]) -> list[str]:
     lines = [
-        "| # | Paper | Source | Topics | Score |",
-        "|---|---|---|---|---:|",
+        "| # | Paper | Source | Topics |",
+        "|---|---|---|---|",
     ]
     for idx, paper in enumerate(papers, 1):
         title = paper.title.replace("|", "\\|")
@@ -787,7 +784,7 @@ def render_paper_table(papers: list[Paper]) -> list[str]:
         topics = ", ".join(paper.topics).replace("|", "\\|")
         link = paper.url or (f"https://doi.org/{paper.doi}" if paper.doi else "")
         linked_title = f"[{title}]({link})" if link else title
-        lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} | {paper.score} |")
+        lines.append(f"| {idx} | {linked_title}<br><sub>{format_authors(paper.authors)}</sub> | {source} | {topics} |")
     return lines
 
 
@@ -884,7 +881,7 @@ def render_readme_section(date: dt.date, papers: list[Paper], config: dict, libr
             first_seen = records.get(paper.key, {}).get("first_seen", "unknown")
             lines.append(
                 f"- {title} ({paper.source}, {paper.published or 'n/a'}; "
-                f"first seen {first_seen}; {topics}; score {paper.score})"
+                f"first seen {first_seen}; {topics})"
             )
         lines.append("")
 
@@ -1002,7 +999,6 @@ def main() -> int:
             "source": paper.source,
             "url": paper.url,
             "first_seen": target_date.isoformat(),
-            "score": paper.score,
         }
 
     report = render_report(target_date, ranked, config)
