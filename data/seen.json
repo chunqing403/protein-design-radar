@@ -810,11 +810,29 @@
       "title": "Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching",
       "url": "https://doi.org/10.64898/2026.09.06.749733"
     },
+    "doi:10.64898/2026.09.06.749767": {
+      "first_seen": "2026-09-14",
+      "source": "bioRxiv",
+      "title": "ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides",
+      "url": "https://doi.org/10.64898/2026.09.06.749767"
+    },
     "doi:10.64898/2026.09.08.750245": {
       "first_seen": "2026-09-12",
       "source": "bioRxiv",
       "title": "De novo design of allosterically controlled enzymes",
       "url": "https://doi.org/10.64898/2026.09.08.750245"
+    },
+    "doi:10.64898/2026.09.10.750412": {
+      "first_seen": "2026-09-14",
+      "source": "bioRxiv",
+      "title": "Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model",
+      "url": "https://doi.org/10.64898/2026.09.10.750412"
+    },
+    "doi:10.64898/2026.09.10.750588": {
+      "first_seen": "2026-09-14",
+      "source": "bioRxiv",
+      "title": "OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation",
+      "url": "https://doi.org/10.64898/2026.09.10.750588"
     },
     "doi:10.64898/2026.09.10.750670": {
       "first_seen": "2026-09-12",

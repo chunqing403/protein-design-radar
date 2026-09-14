@@ -7,17 +7,15 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
+Updated: **2026-09-14** (`2026-09-14T05:09:56Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/)<br><sub>Qiu S, Sun Y, Ye X</sub> | PubMed<br>2026 01 01 | Protein language models, Binders and therapeutics |
-| 2 | [Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.](https://pubmed.ncbi.nlm.nih.gov/42730944/)<br><sub>Cases I, Valencia A, Rojas AM</sub> | PubMed<br>2026 Sep 12 | Protein language models |
-| 3 | [CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo](https://doi.org/10.64898/2026.07.11.737889)<br><sub>Wen, B., Li, K., Riffle, M. et al.</sub> | bioRxiv<br>2026-09-12 | Binders and therapeutics |
-| 4 | [Functional alignment of protein language models via reinforcement learning](https://www.nature.com/articles/s41467-026-77557-2)<br><sub>Nathaniel Blalock, Srinath Seshadri, Kensuke Nakamura et al.</sub> | Nat Commun<br>2026-09-12 | Protein language models |
-| 5 | [Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods](https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845)<br><sub>Amélie Barozet, Magali Mathieu, David Papin et al.</sub> | Journal of Structural Biology<br>2026-09 | Binders and therapeutics |
+| 1 | [Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model](https://doi.org/10.64898/2026.09.10.750412)<br><sub>Anter, J., Mercer, J., Yakimovich, A.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Enzymes and function, Experimental validation |
+| 2 | [OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation](https://doi.org/10.64898/2026.09.10.750588)<br><sub>Zeng, F., Feng, D., Song, D. et al.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Binders and therapeutics |
+| 3 | [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767)<br><sub>Tripathi, P., Semwal, R., Arya, A. et al.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
@@ -25,7 +23,7 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 33 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 15 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 39 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 42 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 22 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
@@ -36,8 +34,8 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 <a id="paper-category-structure-generation"></a>
 #### Structure Generation / 结构生成 (33)
 
-- [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Experimental validation)
 - [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Binders and therapeutics)
+- [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Experimental validation)
 - [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [De novo design of allosterically controlled enzymes](https://doi.org/10.64898/2026.09.08.750245) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Enzymes and function)
 - [Inverse FoldDir: Structure-conditioned Protein Sequence Design by Dirichlet Flow Matching](https://doi.org/10.64898/2026.09.06.749733) (bioRxiv, 2026-09-11; first seen 2026-09-09; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation)
@@ -90,13 +88,16 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (39)
+#### Protein Language Models / 蛋白质语言模型 (42)
 
+- [Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model](https://doi.org/10.64898/2026.09.10.750412) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Enzymes and function, Experimental validation)
+- [OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation](https://doi.org/10.64898/2026.09.10.750588) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
+- [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
 - [Functional alignment of protein language models via reinforcement learning](https://www.nature.com/articles/s41467-026-77557-2) (Nat Commun, 2026-09-12; first seen 2026-09-13; Protein language models)
 - [Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.](https://pubmed.ncbi.nlm.nih.gov/42730944/) (PubMed, 2026 Sep 12; first seen 2026-09-13; Protein language models)
 - [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/) (PubMed, 2026 01 01; first seen 2026-09-13; Protein language models, Binders and therapeutics)
-- [De novo Rubisco design with protein language models](https://doi.org/10.64898/2026.09.04.749267) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models, Enzymes and function, Experimental validation)
 - [ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling](https://doi.org/10.64898/2026.03.17.712034) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models)
+- [De novo Rubisco design with protein language models](https://doi.org/10.64898/2026.09.04.749267) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models, Enzymes and function, Experimental validation)
 - [NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.](https://pubmed.ncbi.nlm.nih.gov/42721858/) (PubMed, 2026 Sep 09; first seen 2026-09-10; Protein language models, Binders and therapeutics)
 - [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8) (Commun Biol, 2026-09-08; first seen 2026-09-09; Protein language models)
 - [ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification](https://doi.org/10.64898/2026.04.03.716278) (bioRxiv, 2026-09-08; first seen 2026-09-09; Protein language models)
@@ -112,8 +113,8 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 - [CLDN18.2 antibody design with protein language models: A deep learning optimization framework.](https://pubmed.ncbi.nlm.nih.gov/42623408/) (PubMed, 2026 Aug 20; first seen 2026-08-21; Protein language models, Binders and therapeutics, Enzymes and function)
 - [Enzyme Engineering: From Classical Strategies to AI-Driven Biocatalyst Design.](https://pubmed.ncbi.nlm.nih.gov/42616438/) (PubMed, 2026 Aug 19; first seen 2026-08-20; Protein language models, Enzymes and function, Experimental validation)
 - [Aligning protein-generative models to experimental fitness with ProteinDPO.](https://pubmed.ncbi.nlm.nih.gov/42601461/) (PubMed, 2026 Aug 14; first seen 2026-08-16; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
-- [How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models](http://arxiv.org/abs/2608.12192v1) (arXiv, 2026-08-12; first seen 2026-08-13; Protein language models)
 - [Task- and dataset-specific information in protein language models](http://arxiv.org/abs/2608.12090v1) (arXiv, 2026-08-12; first seen 2026-08-13; Protein language models)
+- [How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models](http://arxiv.org/abs/2608.12192v1) (arXiv, 2026-08-12; first seen 2026-08-13; Protein language models)
 - [ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.](https://pubmed.ncbi.nlm.nih.gov/42573393/) (PubMed, 2026 Aug 10; first seen 2026-08-11; Protein language models, Binders and therapeutics, Enzymes and function)
 - [The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis](https://doi.org/10.64898/2026.03.06.710024) (biorxiv, 2026-08-06; first seen 2026-08-08; Protein language models, Enzymes and function)
 - [PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/) (PubMed, 2026 Aug 03; first seen 2026-08-05; Protein language models)
@@ -126,11 +127,11 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 - [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02; first seen 2026-07-03; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [PEPE: scalable extraction of multi-modal protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42286792/) (PubMed, 2026 Jul 01; first seen 2026-07-03; Protein language models)
 - [OTalign: Optimal Transport Alignment for Remote Protein Homologs Using Protein Language Model Embeddings.](https://pubmed.ncbi.nlm.nih.gov/42378434/) (PubMed, 2026 Jun 30; first seen 2026-07-01; Protein language models)
-- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models, Binders and therapeutics, Experimental validation)
 - [DeepSSInter: Protein-protein contact prediction with a structure-aware protein language model.](https://pubmed.ncbi.nlm.nih.gov/42316773/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models, Enzymes and function)
-- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 - [A PLM-based method for predicting protein ion channel modulators for drug discovery and safety evaluation.](https://pubmed.ncbi.nlm.nih.gov/42321971/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models, Binders and therapeutics)
+- [Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.](https://pubmed.ncbi.nlm.nih.gov/41865419/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models, Binders and therapeutics, Experimental validation)
 - [PCTPS: Accurate prediction of phase-separated proteins using protein language model embeddings and a CTN-KAN framework.](https://pubmed.ncbi.nlm.nih.gov/41905267/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
+- [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
 #### Binders & Therapeutics / 结合蛋白与治疗 (22)
@@ -184,7 +185,7 @@ Updated: **2026-09-13** (`2026-09-14T01:36:54Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-13](outputs/daily/2026-09-13.md)
+- [Daily report for 2026-09-14](outputs/daily/2026-09-14.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
