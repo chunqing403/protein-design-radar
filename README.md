@@ -7,15 +7,14 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-14** (`2026-09-14T05:09:56Z`)
+Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model](https://doi.org/10.64898/2026.09.10.750412)<br><sub>Anter, J., Mercer, J., Yakimovich, A.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Enzymes and function, Experimental validation |
-| 2 | [OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation](https://doi.org/10.64898/2026.09.10.750588)<br><sub>Zeng, F., Feng, D., Song, D. et al.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Binders and therapeutics |
-| 3 | [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767)<br><sub>Tripathi, P., Semwal, R., Arya, A. et al.</sub> | bioRxiv<br>2026-09-13 | Protein language models, Binders and therapeutics |
+| 1 | [DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.](https://pubmed.ncbi.nlm.nih.gov/42155622/)<br><sub>Khokhar M, Keskin O, Gursoy A</sub> | PubMed<br>2026 Sep 15 | Protein language models, Enzymes and function |
+| 2 | [LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.](https://pubmed.ncbi.nlm.nih.gov/41611201/)<br><sub>Zeng Z, Wang L</sub> | PubMed<br>2026 Sep 15 | Protein language models, Enzymes and function |
 
 ### Paper Directory / 文献目录
 
@@ -23,7 +22,7 @@ Updated: **2026-09-14** (`2026-09-14T05:09:56Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 33 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 15 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 42 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 44 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 22 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
@@ -88,11 +87,13 @@ Updated: **2026-09-14** (`2026-09-14T05:09:56Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (42)
+#### Protein Language Models / 蛋白质语言模型 (44)
 
+- [DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.](https://pubmed.ncbi.nlm.nih.gov/42155622/) (PubMed, 2026 Sep 15; first seen 2026-09-15; Protein language models, Enzymes and function)
+- [LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.](https://pubmed.ncbi.nlm.nih.gov/41611201/) (PubMed, 2026 Sep 15; first seen 2026-09-15; Protein language models, Enzymes and function)
+- [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
 - [Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model](https://doi.org/10.64898/2026.09.10.750412) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Enzymes and function, Experimental validation)
 - [OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation](https://doi.org/10.64898/2026.09.10.750588) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
-- [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
 - [Functional alignment of protein language models via reinforcement learning](https://www.nature.com/articles/s41467-026-77557-2) (Nat Commun, 2026-09-12; first seen 2026-09-13; Protein language models)
 - [Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.](https://pubmed.ncbi.nlm.nih.gov/42730944/) (PubMed, 2026 Sep 12; first seen 2026-09-13; Protein language models)
 - [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/) (PubMed, 2026 01 01; first seen 2026-09-13; Protein language models, Binders and therapeutics)
@@ -185,7 +186,7 @@ Updated: **2026-09-14** (`2026-09-14T05:09:56Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-14](outputs/daily/2026-09-14.md)
+- [Daily report for 2026-09-15](outputs/daily/2026-09-15.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

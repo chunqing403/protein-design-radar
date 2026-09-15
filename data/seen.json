@@ -240,6 +240,18 @@
       "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
+    "doi:10.1016/j.jmb.2026.169660": {
+      "first_seen": "2026-09-15",
+      "source": "PubMed",
+      "title": "LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41611201/"
+    },
+    "doi:10.1016/j.jmb.2026.169863": {
+      "first_seen": "2026-09-15",
+      "source": "PubMed",
+      "title": "DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42155622/"
+    },
     "doi:10.1016/j.jmb.2026.169939": {
       "first_seen": "2026-07-08",
       "source": "PubMed",

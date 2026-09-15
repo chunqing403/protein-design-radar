@@ -972,6 +972,53 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
     },
+    "doi:10.1016/j.jmb.2026.169660": {
+      "abstract": "The precise localization of proteins within prokaryotic cells is fundamental to understanding their function. However, existing models still struggle with challenging localization classes, such as cell wall or outer membrane proteins. We introduce LocPred-Prok, a novel deep learning framework that redefines performance standards for prokaryotic subcellular localization. LocPred-Prok employs a purpose-built dual-branch architecture that synergistically integrates global and local sequence features extracted from pLM embeddings. On a stringent, homology-partitioned benchmark, LocPred-Prok achieves a state-of-the-art accuracy of 91.2 % and a Matthews Correlation Coefficient (MCC) of 0.889. Critically, it resolves long-standing prediction challenges, demonstrating exceptional performance on notoriously difficult classes like Gram-positive cell wall and Gram-negative outer membrane proteins. It substantially outperforms recent and classic methods across all organismal subgroups, representing a significant leap forward in the field. The LocPred-Prok web server is freely accessible athttps://huggingface.co/spaces/isyslab/LocPred-Prok.",
+      "authors": [
+        "Zeng Z",
+        "Wang L"
+      ],
+      "doi": "10.1016/j.jmb.2026.169660",
+      "first_seen": "2026-09-15",
+      "published": "2026 Sep 15",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "41611201",
+      "title": "LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41611201/"
+    },
+    "doi:10.1016/j.jmb.2026.169863": {
+      "abstract": "Allostery critically influences protein function, presenting unique opportunities in targeted drug development due to reduced side effects compared to orthosteric drugs. This work builds on our previous method, DeepAllo. DeepAlloWeb is an interactive web server to improve user engagement and practical usability for computational biologists and drug discovery researchers. DeepAllo is an advanced computational approach leveraging a fine-tuned protein language model (ProtBERT-BFD) in multitask learning combined with FPocket-extracted features to predict allosteric pockets accurately. Unlike existing allostery prediction servers, which do not utilize protein language models (PLMs), our web server integrates the fine-tuned PLM to achieve better prediction performance and offers an interactive visualization of residue-level attention mechanisms. The DeepAlloWeb resource enables detailed exploration through visualizations of attention mechanisms; an effort for biological interpretability. A case study shows that residue-level attention highlights known allosteric communication in a representative protein, and an additional whole-dataset analysis provides guidance on how layer/head combinations can be interpreted in practice. The webserver may be accessed via: https://3dpath.ku.edu.tr/DeepAllo/.",
+      "authors": [
+        "Khokhar M",
+        "Keskin O",
+        "Gursoy A"
+      ],
+      "doi": "10.1016/j.jmb.2026.169863",
+      "first_seen": "2026-09-15",
+      "published": "2026 Sep 15",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "source": "PubMed",
+      "source_id": "42155622",
+      "title": "DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42155622/"
+    },
     "doi:10.1016/j.jmb.2026.169939": {
       "abstract": "RNA-binding proteins (RBPs) are pivotal regulators of gene expression, and their dysregulation is implicated in a wide range of human diseases. Designing synthetic RNA molecules to modulate RBP activity represents a promising therapeutic strategy, being constrained by the inefficiency of experimental screening and the limited generalization of existing computational models that require RBP-specific interaction data. Here, we present BindRNAgen, a hybrid RNA design framework that couples a variational autoencoder (VAE) with a conditional latent diffusion model (LDM), enabling the generation of binding RNA sequences given the RBP sequence as the input. Using RBP-binding RNAs derived from 168 eCLIP-seq datasets of diverse RBPs, we first pretrain the VAE on RBP-binding RNA sequences to construct a continuous latent representation for RBP binding sequence specificity. The LDM subsequently generates novel RBP-binding RNA sequences within the latent space, conditioned on protein-specific embeddings from the protein language model. For RBPs in the training set, BindRNAgen produces computationally predicted RBP-binding RNA sequences that are biophysically comparable to natural RBP-binding RNAs, outperforming existing benchmarks. Although the generalization for RBP targets outside the training set may be influenced by underlying homology to the training RBPs, BindRNAgen generates RNA sequences with high computationally predicted binding scores, as validated by in silico docking and molecular dynamics (MD) simulations.",
       "authors": [
