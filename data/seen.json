@@ -216,6 +216,12 @@
       "title": "Mapping the combinatorial coding between olfactory receptors and perception with deep learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
+    "doi:10.1016/j.cels.2026.101714": {
+      "first_seen": "2026-09-16",
+      "source": "Cell Systems",
+      "title": "Sampling protein language models for functional protein design",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405471226001961"
+    },
     "doi:10.1016/j.chroma.2026.467271": {
       "first_seen": "2026-07-18",
       "source": "PubMed",
@@ -372,6 +378,12 @@
       "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
     },
+    "doi:10.1021/acs.jcim.6c02102": {
+      "first_seen": "2026-09-16",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
       "source": "PubMed",
@@ -383,6 +395,12 @@
       "source": "Journal of Chemical Theory and Computation",
       "title": "Convergence Mechanisms of Generative Models in Molecular Conformational Sampling",
       "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in"
+    },
+    "doi:10.1021/acs.jctc.6c01233": {
+      "first_seen": "2026-09-16",
+      "source": "Journal of Chemical Theory and Computation",
+      "title": "Mechanistic Dissection of Conformational Transitions in a Bicyclic Peptide via Molecular Modeling and Deep Learning",
+      "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01233/5429776/Mechanistic-Dissection-of-Conformational"
     },
     "doi:10.1021/acs.jproteome.6c00302": {
       "first_seen": "2026-09-05",
@@ -612,6 +630,12 @@
       "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
       "url": "https://doi.org/10.1101/2024.10.02.616302"
     },
+    "doi:10.1101/2025.03.12.642937": {
+      "first_seen": "2026-09-16",
+      "source": "bioRxiv",
+      "title": "Codon language model scores provide information beyond protein language models for missense variant interpretation",
+      "url": "https://doi.org/10.1101/2025.03.12.642937"
+    },
     "doi:10.1101/2025.09.23.676583": {
       "first_seen": "2026-07-02",
       "source": "biorxiv",
@@ -828,6 +852,12 @@
       "title": "ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides",
       "url": "https://doi.org/10.64898/2026.09.06.749767"
     },
+    "doi:10.64898/2026.09.07.749983": {
+      "first_seen": "2026-09-16",
+      "source": "bioRxiv",
+      "title": "ForceFlowAb: physics-aware mixture-of-experts flow matching model for antibody CDRs design",
+      "url": "https://doi.org/10.64898/2026.09.07.749983"
+    },
     "doi:10.64898/2026.09.08.750245": {
       "first_seen": "2026-09-12",
       "source": "bioRxiv",
@@ -839,6 +869,12 @@
       "source": "bioRxiv",
       "title": "Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model",
       "url": "https://doi.org/10.64898/2026.09.10.750412"
+    },
+    "doi:10.64898/2026.09.10.750553": {
+      "first_seen": "2026-09-16",
+      "source": "bioRxiv",
+      "title": "A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies",
+      "url": "https://doi.org/10.64898/2026.09.10.750553"
     },
     "doi:10.64898/2026.09.10.750588": {
       "first_seen": "2026-09-14",

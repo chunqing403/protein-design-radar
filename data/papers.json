@@ -890,6 +890,29 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
+    "doi:10.1016/j.cels.2026.101714": {
+      "abstract": "",
+      "authors": [
+        "Jeremie Theddy Darmawan",
+        "Yarin Gal",
+        "Pascal Notin"
+      ],
+      "doi": "10.1016/j.cels.2026.101714",
+      "first_seen": "2026-09-16",
+      "published": "2026-09",
+      "reasons": [
+        "protein design",
+        "protein language model",
+        "protein"
+      ],
+      "source": "Cell Systems",
+      "source_id": "10.1016/j.cels.2026.101714",
+      "title": "Sampling protein language models for functional protein design",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405471226001961"
+    },
     "doi:10.1016/j.chroma.2026.467271": {
       "abstract": "Computational design has emerged as an important approach for the discovery of peptide ligands in development of affinity chromatography. However, fast and efficient identification of high-affinity and specific ligands is still challenging. Here an artificial intelligence (AI)-based strategy for affinity maturation was proposed for improving the binding affinity of peptide ligands of adeno‒associated virus (AAV). To target AAV receptor-binding region on AAV2 capsid, a de novo design method was applied in the development of peptide ligands and three candidate peptides were identified for affinity maturation. We then introduced a multimodal protein language model, ESM3, to guide peptides generation for the maturation of the binding affinity. After three rounds of docking simulations, a high-affinity peptide A4 with a dissociation constant of 3.8 μmol/L was obtained. Molecular dynamics simulation revealed that the binding of A4 was dominated by electrostatic interactions. By coupling A4 onto Sepharose 4 Fast Flow (Sep4FF) gels, Sep4FF‒A4 gels were synthesized and exhibited good selectivity and serotype specificity to AAV2. AAV2 was adsorbed effectively at pH6.0-8.0 and eluted mildly from the affinity column at 500 mmol/L NaCl. Finally, Sep4FF‒A4 chromatography was successfully used to purify AAV2 with a high transduction efficiency from HEK293 cell culture fluids, and it kept stable with AAV2 yields of 67.4-72.7%, DNA clearance ranging from 47.6-58.7% and HCP clearance ranging from 86.3-91.3% in 20 cycles.",
       "authors": [
@@ -1553,6 +1576,42 @@
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
     },
+    "doi:10.1021/acs.jcim.6c02102": {
+      "abstract": "Abstract Emerging infectious diseases (EIDs) pose a critical threat to global biosecurity. Integrating bio/chemical information and artificial intelligence would bring new strategies for antimicrobial drug discovery. Herein, the Human Pathogenic Microorganisms Chemogenomics Knowledgebase (HPM-CKB) is presented as the largest domain-specific resource, consolidating chemical, genetic, and proteomic data on human-transmissible pathogens, together with multiple computational functional modules. The current release covers 7876 pathogenic proteins from 267 microorganisms (including 13,914 protein 3D structures) and 234,287 associated with bioactive molecules. HPM-CKB enables large-scale virtual screening, target identification, and drug repurposing, and integrates a large language model (LLM) for interactive queries. The computational prediction performance of HPM-CKB is corroborated by known inhibitors targeting SARS-CoV-2 replicase polyprotein 1ab. In wet-lab validations, four approved drugs (cefixime, ceftazidime, saquinavir, and rilapladib) identified via virtual screening show binding activity to SARS-CoV-2 nucleoprotein in affinity assays and inhibit SARS-CoV-2 replication in Vero E6 cells, demonstrating HPM-CKB’s potential in drug repurposing. Meanwhile, two anti-Staphylococcus aureus lead compounds with novel scaffolds (CYC-HXL-9124 and CYC-HXL-9126) are identified via deep learning, and the potential target protein, cell division protein FtsZ, is subsequently prioritized using HPM-CKB (http://cgai.asia/g/pathogenDB) and experimentally validated by affinity assays. Collectively, these findings establish HPM-CKB as both a chemogenomic knowledgebase and a systematic drug development platform against EIDs.",
+      "authors": [
+        "Jiaxiong Kang",
+        "Lei Zhu",
+        "Haibo Li",
+        "Xiangyu Xie",
+        "Cong Liu",
+        "Zhiwei Feng",
+        "Yi Wang",
+        "Ouyang Mo",
+        "Chengsu Wang",
+        "Xinzi Lin",
+        "Ying Xue",
+        "Haibin Liu"
+      ],
+      "doi": "10.1021/acs.jcim.6c02102",
+      "first_seen": "2026-09-16",
+      "published": "2026-09-15",
+      "reasons": [
+        "deep learning",
+        "wet-lab",
+        "AI-driven",
+        "artificial intelligence",
+        "protein",
+        "binding"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c02102",
+      "title": "An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",
       "authors": [
@@ -1602,6 +1661,33 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01009/5422249/Convergence-Mechanisms-of-Generative-Models-in"
+    },
+    "doi:10.1021/acs.jctc.6c01233": {
+      "abstract": "Abstract Molecular conformations play a critical role in determining molecular properties, such as membrane permeability, binding affinity, and ultimately therapeutic efficacy. Experimental and computational approaches can characterize conformations and provide insight into why certain conformations are thermodynamically preferred over others. However, examining static conformations alone may not fully explain why subtle differences, such as a single LEU-to-ILE mutation in a bicyclic peptide, can produce markedly distinct conformational ensembles. Furthermore, analyzing transition pathways between conformations reveals the mechanisms that shape these ensembles. Here, we introduce a deep learning model, termed ICoN-v1, trained on molecular dynamics (MD) simulation data to learn the underlying physics that governs cyclic peptide conformational dynamics. We examined cyclic hexapeptides with Nuclear Magnetic Resonance (NMR)-determined structures, and MYC-targeting bicyclic peptides that are stereo-diversified or have a single LEU-to-ILE mutation. By following minimum-energy pathways in the latent space constructed by ICoN-v1, we efficiently generated smooth conformational transition paths. These pathways reveal sequential sets of concerted backbone and side-chain torsional rotations moving between energy minima. Notably, smooth transition pathways that are absent from MD output were observed using ICoN-v1. Our results identify various sets of concerted torsional motions that are nonlinearly combined during conformational transitions and reveal the key residues governing each stage of the transition, thereby elucidating how the observed conformations are generated and informing molecular design.",
+      "authors": [
+        "Ta I Hung",
+        "Raghu Venkatesan",
+        "Chia-en A. Chang"
+      ],
+      "doi": "10.1021/acs.jctc.6c01233",
+      "first_seen": "2026-09-16",
+      "published": "2026-09-15",
+      "reasons": [
+        "deep learning",
+        "peptide",
+        "binding",
+        "mutation"
+      ],
+      "source": "Journal of Chemical Theory and Computation",
+      "source_id": "10.1021/acs.jctc.6c01233",
+      "title": "Mechanistic Dissection of Conformational Transitions in a Bicyclic Peptide via Molecular Modeling and Deep Learning",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01233/5429776/Mechanistic-Dissection-of-Conformational"
     },
     "doi:10.1021/acs.jproteome.6c00302": {
       "abstract": "Large-scale proteomics relies heavily on target-decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database. Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) decoy generation for peptide identification and benchmark it against classical strategies. We evaluate these approaches using three complementary quality-control layers: sequence-based separability, search-engine-agnostic spectral-space diagnostics, and end-to-end mass spectrometry benchmarks, including pipelines with rescoring. Across these analyses, PLM-based decoys are harder for sequence-only neural networks to distinguish than most classical generators, suggesting fewer obvious sequence-level artifacts. However, this signal is only weakly informative for search performance. Spectral diagnostics further show that short peptides occupy a particularly crowded target-decoy space and are therefore especially prone to local collisions across all generators. In full search pipelines, reverse decoys remain a strong baseline, and current PLM-based generators do not yet provide a clear overall advantage. We therefore view PLM-based decoys not as universal replacements for reverse decoys but as tunable tools for benchmarking, diagnostics, stress testing, and future adaptive decoy optimization, with increasing value as search models become more expressive.",
@@ -2529,6 +2615,32 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2025.03.12.642937": {
+      "abstract": "Predicting variant effects remains a central challenge in genomics. Protein language models (PLMs) capture amino-acid-level sequence constraints, whereas codon language models operate on coding sequences and may retain information that is lost upon translation. Here, we tested whether scores from the codon language model CaLM provide predictive information beyond protein-level representations for missense-variant interpretation. Across 71,436 ClinVar missense variants from 11,554 genes, adding CaLM to PLM baselines produced modest but reproducible improvements under gene-held-out cross-validation. PLM-only ensemble controls and explicit mutational-context analyses indicated that this improvement could not be explained solely by generic ensembling or simple codon-substitution features. Aggregating CaLM probabilities across synonymous codons attenuated codon-degeneracy-associated discordance while preserving most of the broader differences between CaLM and PLM scores. Gene-level analyses further showed that CaLM contribution varied continuously across genes and depended partly on the protein-model background. Across ClinMAVE functional assays, however, improvements were less consistent, indicating that codon-protein complementarity is context dependent rather than universal. Together, these results identify a modest but reproducible component of variant-effect information in CaLM-derived codon-level scores that is not fully captured by protein-level language-model representations.",
+      "authors": [
+        "Chen, R.",
+        "Palpant, N.",
+        "Foley, G.",
+        "Boden, M."
+      ],
+      "doi": "10.1101/2025.03.12.642937",
+      "first_seen": "2026-09-16",
+      "published": "2026-09-14",
+      "reasons": [
+        "protein language model",
+        "variant effect",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.03.12.642937",
+      "title": "Codon language model scores provide information beyond protein language models for missense variant interpretation",
+      "topics": [
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.1101/2025.03.12.642937"
     },
     "doi:10.1101/2025.11.02.685536": {
       "abstract": "Enzyme engineering plays a vital role in tailoring biocatalyst performance to meet the needs of target applications. However, the number of sequence trajectories possible from a single wildtype enzyme sequence is too vast to traverse experimentally. Here we present a novel approach that first expands the experimentally accessible sequence space using ultrahigh throughput screening (uHTS), and then uses indirect and low fidelity assay data to create a \"fingerprint\" for a target enzyme class. Experimental data from microfluidic uHTS are extracted and used to engineer specificity into an unspecific peroxygenase (UPO) from Aspergillus brasiliensis (AbrUPO). We created a library with more than 5 million different variants expressed in Komagataella phaffii (Pichia pastoris). Microfluidic droplet sorting was then used to generate a dataset of >30,000 unique sequences paired with function data. This dataset was then used to train a task-specific generative model using the Variational Search Distributions (VSD) framework. We compared the variants selected by rank aggregation from the screening data (R series) with novel sequences generated by the refined generative model (G series). While the wildtype enzyme produces nearly equal amounts of both the desired styrene oxide and undesired phenylacetaldehyde products, three out of five of the highest scoring G series variants produced product mixtures more enriched in the desired compound. In comparison, only one of the five highest scoring R series variants showed this improvement. Overall, the variant most enriched in desired product, G929, produced 2.4x more styrene oxide than phenylacetaldehyde, while G3 and G167, produced the highest quantities of desired product at 2.3x enrichment over the undesired product. Further analysis confirmed that our task-specific generative model outperforms existing models pre-trained on large publicly available datasets. This unique combination of uHTS and generative protein modelling provides an intelligent exploration mechanism which not only enables efficient enzyme discovery, but also accelerates optimization and enables predictive insights that are difficult to achieve with either approach alone.",
@@ -3571,6 +3683,32 @@
       ],
       "url": "https://doi.org/10.64898/2026.09.06.749767"
     },
+    "doi:10.64898/2026.09.07.749983": {
+      "abstract": "Abstract Motivation: Antibodies are a major class of therapeutic molecules, and their recognition of target antigens is largely mediated by complementarity-determining regions (CDRs), making antigen-conditioned CDR design a central problem in antibody engineering. Recent generative methods have enabled antigen-conditioned co-design of CDR sequences and structures, but their limited capacity to capture local interface heterogeneity and lack explicit energy-based guidance during sampling, which may result in unfavorable antibody-antigen interaction energies. Overcoming these limitations requires methods that better represent diverse interface environments via adaptive routing and incorporate physical guidance to steer sampling toward energetically favorable conformations. Results: We present ForceFlowAb, a physics-aware mixture-of-experts flow-matching framework for antigen-conditioned CDR sequence-structure co-design. The framework models heterogeneous interface environments through specialized expert routing and applies differentiable force-field guidance during sampling to guide CDR generation toward energetically favorable conformations. For CDR-H3 design, ForceFlowAb achieved more favorable antibody-antigen interaction energies than FlowDesign and Diffab, with improvement rates (IMP) of 46.5% versus 35.0% and 35.5%, respectively. For simultaneous six-CDR design, ForceFlowAb also outperformed Diffab, with IMP values of 16% versus 9%. These results suggest complementary roles for interface-adaptive modeling and energy-based guidance, with the former capturing binding-mode diversity and the latter leveraging physical constraints to ensure biophysical feasibility. Availability and implementation: The web server is freely available at http://zhanglab-bioinf.com/ForceFlowAb. The source code and implementation are available at https://github.com/iobio-zjut/ForceFlowAb. Contact: zgj@zjut.edu.cn Supplementary information: Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Li, Z.",
+        "Lv, Z.",
+        "Zhang, G."
+      ],
+      "doi": "10.64898/2026.09.07.749983",
+      "first_seen": "2026-09-16",
+      "published": "2026-09-14",
+      "reasons": [
+        "flow matching",
+        "antibody",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.07.749983",
+      "title": "ForceFlowAb: physics-aware mixture-of-experts flow matching model for antibody CDRs design",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.07.749983"
+    },
     "doi:10.64898/2026.09.08.750245": {
       "abstract": "The ability of enzymes to sense signals and respond by changing their structure and activity underlies cellular processes from signaling to metabolic control. While there have been recent advances in the de novo design of enzymes and conformationally switching proteins, combining these to achieve allosteric regulation of enzymatic activity in a fully designed system remains an outstanding challenge. Here, we show that denoising diffusion models enable the design of compact de novo enzymes whose activity can be allosterically activated or repressed by designed protein effectors. Our results establish a general route to allosteric control over a wide range of catalytic and other protein functions.",
       "authors": [
@@ -3630,6 +3768,30 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.10.750412"
+    },
+    "doi:10.64898/2026.09.10.750553": {
+      "abstract": "Antibody language models learn from large natural repertoires, but whether generic representations capture the constraints of specialized antibody formats remains unclear. We first characterized fully human heavy-chain-only antibodies (HCAbs) independently of HCAb-trained models. Source-aware comparisons with conventional human VH domains revealed a reproducible distributional shift localized predominantly to CDR1/2, CDR3 architecture and, where supported, a restricted framework region rather than widespread framework remodeling. These model-independent differences motivated repertoire-specific pretraining. We developed HCAbLM, to our knowledge the first foundation model pretrained specifically on a large-scale fully human HCAb repertoire, using 31.8 million sequences from 73 independently immunized HCAb mice. HCAbLM learned a region-selective sequence-compatibility prior distinct from conventional antibody language models, and its frozen representations transferred to experimentally measured SEC purity, HIC behavior and thermal stability in grouped internal validation and retrospective cross-project evaluation. These findings identify repertoire composition as an important biological design variable for foundation models of specialized antibody formats.",
+      "authors": [
+        "Nona Biosciences AI4S Team,",
+        "Miao, H."
+      ],
+      "doi": "10.64898/2026.09.10.750553",
+      "first_seen": "2026-09-16",
+      "published": "2026-09-15",
+      "reasons": [
+        "stability",
+        "foundation model",
+        "antibody",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.10.750553",
+      "title": "A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.750553"
     },
     "doi:10.64898/2026.09.10.750588": {
       "abstract": "T cell receptor (TCR) recognition prediction and receptor generation are traditionally modelled separately, leaving vast TCR sequence collections disconnected from smaller TCR-peptide-MHC datasets. Here we present OmniTCR, a 113-million-parameter autoregressive foundation model pretrained on 328 million formatted human immune-sequence records. Sequence-type tokens and complementary component orders enable joint learning from individual TCR chains and partial or complete TCR-pMHC associations. On unseen epitopes, OmniTCR achieved AUPRCs of 0.7009 for peptide-TCR{beta}; recognition and 0.8235 for TCR-pMHC interaction prediction, exceeding the strongest evaluated comparators by 0.3396 and 0.3451, respectively. It distinguishes cancer from healthy repertoires across 11 independent pan-cancer cohorts (mean AUROC, 0.9436). The model achieved the highest sequence recovery on internal and external generation benchmarks. Structural modelling supported the plausibility of selected pMHC-conditioned CDR3{beta}; candidates. OmniTCR bridges heterogeneous immune sequence data, providing a foundation for computational immunology and receptor design.",

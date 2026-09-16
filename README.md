@@ -7,23 +7,27 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
+Updated: **2026-09-16** (`2026-09-16T04:58:08Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.](https://pubmed.ncbi.nlm.nih.gov/42155622/)<br><sub>Khokhar M, Keskin O, Gursoy A</sub> | PubMed<br>2026 Sep 15 | Protein language models, Enzymes and function |
-| 2 | [LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.](https://pubmed.ncbi.nlm.nih.gov/41611201/)<br><sub>Zeng Z, Wang L</sub> | PubMed<br>2026 Sep 15 | Protein language models, Enzymes and function |
+| 1 | [A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies](https://doi.org/10.64898/2026.09.10.750553)<br><sub>Nona Biosciences AI4S Team,, Miao, H.</sub> | bioRxiv<br>2026-09-15 | Protein language models, Binders and therapeutics |
+| 2 | [An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human)<br><sub>Jiaxiong Kang, Lei Zhu, Haibo Li et al.</sub> | Journal of Chemical Information and Modeling<br>2026-09-15 | Binders and therapeutics, Experimental validation |
+| 3 | [Mechanistic Dissection of Conformational Transitions in a Bicyclic Peptide via Molecular Modeling and Deep Learning](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01233/5429776/Mechanistic-Dissection-of-Conformational)<br><sub>Ta I Hung, Raghu Venkatesan, Chia-en A. Chang</sub> | Journal of Chemical Theory and Computation<br>2026-09-15 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
+| 4 | [Codon language model scores provide information beyond protein language models for missense variant interpretation](https://doi.org/10.1101/2025.03.12.642937)<br><sub>Chen, R., Palpant, N., Foley, G. et al.</sub> | bioRxiv<br>2026-09-14 | Sequence design, Protein language models |
+| 5 | [ForceFlowAb: physics-aware mixture-of-experts flow matching model for antibody CDRs design](https://doi.org/10.64898/2026.09.07.749983)<br><sub>Li, Z., Lv, Z., Zhang, G.</sub> | bioRxiv<br>2026-09-14 | Structure generation, Binders and therapeutics |
+| 6 | [Sampling protein language models for functional protein design](https://linkinghub.elsevier.com/retrieve/pii/S2405471226001961)<br><sub>Jeremie Theddy Darmawan, Yarin Gal, Pascal Notin</sub> | Cell Systems<br>2026-09 | Protein language models |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 33 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 15 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 44 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 22 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 35 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 16 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 46 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 23 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
 | [General / 综合](#paper-category-general) | 5 |
@@ -31,8 +35,10 @@ Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (33)
+#### Structure Generation / 结构生成 (35)
 
+- [Mechanistic Dissection of Conformational Transitions in a Bicyclic Peptide via Molecular Modeling and Deep Learning](https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01233/5429776/Mechanistic-Dissection-of-Conformational) (Journal of Chemical Theory and Computation, 2026-09-15; first seen 2026-09-16; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
+- [ForceFlowAb: physics-aware mixture-of-experts flow matching model for antibody CDRs design](https://doi.org/10.64898/2026.09.07.749983) (bioRxiv, 2026-09-14; first seen 2026-09-16; Structure generation, Binders and therapeutics)
 - [SpectroVQ: Noise-Aware Compression of Proteomics Data via Vector-Quantized Deep Learning improves MS/MS data storage and Peptide Identification](https://doi.org/10.64898/2026.09.05.749393) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Binders and therapeutics)
 - [Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features](https://doi.org/10.64898/2026.09.10.750674) (bioRxiv, 2026-09-11; first seen 2026-09-12; Structure generation, Experimental validation)
 - [Generative Language Modeling for Antibody CDR Grafting and Alignment-driven De Novo Design](https://doi.org/10.64898/2026.09.06.749721) (bioRxiv, 2026-09-10; first seen 2026-09-12; Structure generation, Binders and therapeutics, Enzymes and function, Experimental validation)
@@ -68,8 +74,9 @@ Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (15)
+#### Sequence Design / 序列设计 (16)
 
+- [Codon language model scores provide information beyond protein language models for missense variant interpretation](https://doi.org/10.1101/2025.03.12.642937) (bioRxiv, 2026-09-14; first seen 2026-09-16; Sequence design, Protein language models)
 - [Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70](https://doi.org/10.64898/2026.09.06.749651) (bioRxiv, 2026-09-10; first seen 2026-09-12; Sequence design, Binders and therapeutics, Enzymes and function)
 - [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1) (Sci Rep, 2026-09-08; first seen 2026-09-09; Sequence design, Protein language models, Enzymes and function)
 - [De Novo Design and AlphaFold3 Evaluation of Protein Binders Targeting Specific Sites of MAP4K4](https://doi.org/10.64898/2026.09.04.749196) (bioRxiv, 2026-09-07; first seen 2026-09-09; Sequence design, Binders and therapeutics, Experimental validation)
@@ -87,10 +94,12 @@ Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (44)
+#### Protein Language Models / 蛋白质语言模型 (46)
 
-- [DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.](https://pubmed.ncbi.nlm.nih.gov/42155622/) (PubMed, 2026 Sep 15; first seen 2026-09-15; Protein language models, Enzymes and function)
+- [A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies](https://doi.org/10.64898/2026.09.10.750553) (bioRxiv, 2026-09-15; first seen 2026-09-16; Protein language models, Binders and therapeutics)
+- [Sampling protein language models for functional protein design](https://linkinghub.elsevier.com/retrieve/pii/S2405471226001961) (Cell Systems, 2026-09; first seen 2026-09-16; Protein language models)
 - [LocPred-Prok: Prokaryotic protein subcellular localization prediction with a dual-branch architecture and protein language model.](https://pubmed.ncbi.nlm.nih.gov/41611201/) (PubMed, 2026 Sep 15; first seen 2026-09-15; Protein language models, Enzymes and function)
+- [DeepAlloWeb: a web server for interactive allosteric pockets prediction using protein language model.](https://pubmed.ncbi.nlm.nih.gov/42155622/) (PubMed, 2026 Sep 15; first seen 2026-09-15; Protein language models, Enzymes and function)
 - [ABCP_finder: A Transformer Embedding-Based Prediction of Anti-Breast Cancer Peptides](https://doi.org/10.64898/2026.09.06.749767) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
 - [Agentic-AI-ready genome-wide poxvirus-host interaction screen refined by a protein language model](https://doi.org/10.64898/2026.09.10.750412) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Enzymes and function, Experimental validation)
 - [OmniTCR: a foundation model unifying T cell receptor recognition prediction and conditional sequence generation](https://doi.org/10.64898/2026.09.10.750588) (bioRxiv, 2026-09-13; first seen 2026-09-14; Protein language models, Binders and therapeutics)
@@ -135,8 +144,9 @@ Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (22)
+#### Binders & Therapeutics / 结合蛋白与治疗 (23)
 
+- [An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human) (Journal of Chemical Information and Modeling, 2026-09-15; first seen 2026-09-16; Binders and therapeutics, Experimental validation)
 - [CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo](https://doi.org/10.64898/2026.07.11.737889) (bioRxiv, 2026-09-12; first seen 2026-09-13; Binders and therapeutics)
 - [Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods](https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845) (Journal of Structural Biology, 2026-09; first seen 2026-09-13; Binders and therapeutics)
 - [Chemical Descriptors and Deep Learning Embeddings for Scoring de novo Peptide Designs](https://doi.org/10.64898/2026.09.10.750670) (bioRxiv, 2026-09-11; first seen 2026-09-12; Binders and therapeutics)
@@ -186,7 +196,7 @@ Updated: **2026-09-15** (`2026-09-15T05:01:22Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-15](outputs/daily/2026-09-15.md)
+- [Daily report for 2026-09-16](outputs/daily/2026-09-16.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
