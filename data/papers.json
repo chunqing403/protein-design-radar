@@ -875,7 +875,7 @@
       ],
       "doi": "10.1016/j.cels.2026.101711",
       "first_seen": "2026-09-04",
-      "published": "2026 Sep 02",
+      "published": "2026 Sep 16",
       "reasons": [
         "deep learning",
         "graph neural network",
@@ -1611,6 +1611,31 @@
         "Experimental validation"
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human"
+    },
+    "doi:10.1021/acs.jcim.6c02706": {
+      "abstract": "Abstract Polyketides are a major class of bioactive natural products whose activities are often determined by the stereochemistry of β-hydroxyl groups. In type I polyketide synthases (PKSs), ketoreductase (KR) domains establish these stereocenters, making accurate prediction of KR stereochemistry important for natural product discovery and PKS engineering. Existing rule-based methods rely on a limited set of sequence motifs and often perform poorly across phylogenetically diverse taxa. Here, we present KRstereo, a machine learning framework that predicts KR stereochemistry directly from sequence. Analysis of β-modular KR domains from MIBiG 3.1 identified informative sequence features beyond canonical motifs, motivating the use of protein language model embeddings. KRstereo achieved accuracies of up to 95.7% across taxa and 93.0% for non-Streptomyces KRs, consistently outperforming existing rule-based approaches. Validation using newly characterized KR domains from MIBiG 4.0 confirmed strong generalizability, including cases misclassified by current methods. Application of KRstereo to 20,840 β-modular KR domains from antiSMASH enabled large-scale stereochemical annotation of previously uncharacterized PKS systems. By linking sequence to stereochemical function, KRstereo improves reconstruction of polyketide structures from biosynthetic gene clusters and facilitates stereochemistry-aware genome mining and engineering of PKS assembly lines.",
+      "authors": [
+        "Hsin-Ying Tsai",
+        "Wenqiang Xu",
+        "Wen Jun Xie",
+        "Yousong Ding"
+      ],
+      "doi": "10.1021/acs.jcim.6c02706",
+      "first_seen": "2026-09-17",
+      "published": "2026-09-16",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c02706",
+      "title": "KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",
@@ -2554,6 +2579,36 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480065/"
     },
+    "doi:10.1093/plphys/kiag691": {
+      "abstract": "Crop diseases caused by fungal and oomycete pathogens threaten sustainable agricultural production, and the efficient identification of pathogen effectors is essential for understanding virulence mechanisms and developing disease-resistant crops. However, the rapid evolutionary diversification of effectors often obscures conserved motifs, limiting the effectiveness of conventional computational approaches and making experimental prioritization challenging. To address this, we developed DeepEffector, a high-precision predictor for fungal and oomycete effector identification. DeepEffector leverages protein language models (ProtT5 for fungi and esm1b for oomycetes) to generate functional semantic embeddings, integrates G-SMOTE to mitigate class imbalance in the latent feature space, and employs a hybrid multi-head self-attention and convolutional neural network architecture to capture both global contextual dependencies and local functional patterns. Benchmarking on independent test sets showed that DeepEffector outperformed state-of-the-art tools, providing a reliable high-confidence candidate list to reduce downstream experimental screening. Its practical utility was further evaluated in Fusarium oxysporum f. sp. cubense TR4, the causal agent of destructive banana Fusarium wilt. Four prioritized candidates were experimentally confirmed to be secreted proteins, localized to host-relevant subcellular compartments, and significantly suppressed Bax-induced programmed cell death, supporting their potential roles as immune-suppressing effector candidates. DeepEffector is available as a user-friendly web server (https://deepeffector.hainanu.edu.cn/), offering an accessible pipeline to accelerate effector discovery and support crop protection research.",
+      "authors": [
+        "Li T",
+        "Meng Q",
+        "Wang D",
+        "Hu F",
+        "Zhang R",
+        "Chi X",
+        "Li J",
+        "Wang T",
+        "Li H"
+      ],
+      "doi": "10.1093/plphys/kiag691",
+      "first_seen": "2026-09-17",
+      "published": "2026 Sep 16",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein"
+      ],
+      "source": "PubMed",
+      "source_id": "42748470",
+      "title": "DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748470/"
+    },
     "doi:10.1093/protein/gzag016": {
       "abstract": "Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness of two different computational methods as triaging tools for prioritizing target positions and identifying specific mutations that are likely to improve protein thermodynamic stability. Our benchmarking study used a comprehensive dataset consisting of 174,945 mutations across 180 distinct proteins and evaluated the ESM (Evolutionary Scale Modeling) protein language model alongside a physics-based method, MM/GBSA (Molecular Mechanics Generalized Born Surface Area). We found prediction biases in each method but also determined that these biases can be mitigated by applying the two methods in a complementary manner. We propose a hybrid mutation prioritization and selection strategy that achieves better accuracy than either method alone. Through re-ranking, the combined prioritization strategy attained a higher overall average ROC (receiver operating characteristic) AUC (area under curve) of 0.743 across the dataset compared to either MM/GBSA alone (0.685) or ESM Log Odds alone (0.597). The integrated framework can be adapted and applied to newer AI and physics-based models as the field advances.",
       "authors": [
@@ -2641,6 +2696,92 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.1101/2025.03.12.642937"
+    },
+    "doi:10.1101/2025.06.30.662286": {
+      "abstract": "Driven by deep-learning approaches, computational protein design is advancing rapidly, and it is now possible to generate many de novo protein structures quickly and robustly. This sets new frontiers for the field, including designing proteins that bind small molecules tightly and specifically, and understanding the non-covalent interactions that underpin such designs to make binding predictable and tunable. Here we address these challenges with a rapid physics-based computational method to generate isosteric and chemically complementary binding pockets for small-molecule targets in de novo designed proteins. We test this experimentally by constructing and characterizing binding proteins for several synthetic and natural chromophores. By evaluating only single-digit numbers of designs, the pipeline delivers stable proteins with pre-organized binding sites confirmed by X-ray crystallography, which bind the targets selectively with micromolar affinities or better. To illustrate the scope and applications of this approach, we incorporate distinct and coupled chromophore-binding sites in a two-domain de novo protein enabling controlled energy transfer between the two sites, and we develop a small de novo binding protein that can be used in live mammalian cells to visualize sub-cellular structures.",
+      "authors": [
+        "Petrenas, R.",
+        "Ozga, K.",
+        "Chubb, J. J.",
+        "Romanyuk, A. V.",
+        "Alibhai, D.",
+        "McManus, J. J.",
+        "Leggett, G. J.",
+        "Scrutton, N. S.",
+        "Oliver, T. A. A.",
+        "Woolfson, D. N."
+      ],
+      "doi": "10.1101/2025.06.30.662286",
+      "first_seen": "2026-09-17",
+      "published": "2026-09-16",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "de novo design",
+        "protein",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.06.30.662286",
+      "title": "Rapid Assessment of Size, Shape, and Chemical Complementarity of Ligands for Computational Protein Design",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.1101/2025.06.30.662286"
+    },
+    "doi:10.1101/2025.08.18.670751": {
+      "abstract": "The rise of multidrug-resistant bacterial infections necessitates the discovery of novel antimicrobial strategies. Here, we show that protein design provides a generalizable means of generating new antimicrobials by neutralizing the function of bacterial adhesins, which are virulence factors critical in host-pathogen interactions. We de novo designed high-affinity miniprotein binders to FimH and Abp chaperone usher pili adhesins from uropathogenic Escherichia coli and Acinetobacter baumannii, respectively, which are implicated in mediating both uncomplicated and catheter-associated urinary tract infections (UTI) responsible for significant morbidity worldwide. The designed antagonists have high specificity and stability, disrupt bacterial recognition of host receptors, block biofilm formation, and are effective in treating and preventing murine models of uncomplicated and catheter- associated UTIs in vivo.",
+      "authors": [
+        "Chazin-Gray, A. M.",
+        "Thompson, T. R.",
+        "Lopatto, E. D. B.",
+        "Magala, P.",
+        "Erickson, P. W.",
+        "Hunt, A. C.",
+        "Manchenko, A.",
+        "Aprikian, P.",
+        "Tchesnokova, V.",
+        "Basova, I.",
+        "Sanick, D. A.",
+        "Tamadonfar, K. O.",
+        "Timm, M. R.",
+        "Pinkner, J. S.",
+        "Dodson, K. W.",
+        "Kang, A.",
+        "Joyce, E.",
+        "Bera, A. K.",
+        "Schmitz, A. J.",
+        "Ellebedy, A. H.",
+        "Hvorecny, K. L.",
+        "Interlandi, G.",
+        "Cartwright, M. J.",
+        "Vernet, A.",
+        "Bardales, S.",
+        "White, D.",
+        "Klevit, R. E.",
+        "Sokurenko, E. V.",
+        "Hultgren, S. J.",
+        "Baker, D."
+      ],
+      "doi": "10.1101/2025.08.18.670751",
+      "first_seen": "2026-09-17",
+      "published": "2026-09-16",
+      "reasons": [
+        "protein design",
+        "de novo design",
+        "stability",
+        "miniprotein",
+        "protein",
+        "miniprotein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.08.18.670751",
+      "title": "De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins",
+      "topics": [
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.1101/2025.08.18.670751"
     },
     "doi:10.1101/2025.11.02.685536": {
       "abstract": "Enzyme engineering plays a vital role in tailoring biocatalyst performance to meet the needs of target applications. However, the number of sequence trajectories possible from a single wildtype enzyme sequence is too vast to traverse experimentally. Here we present a novel approach that first expands the experimentally accessible sequence space using ultrahigh throughput screening (uHTS), and then uses indirect and low fidelity assay data to create a \"fingerprint\" for a target enzyme class. Experimental data from microfluidic uHTS are extracted and used to engineer specificity into an unspecific peroxygenase (UPO) from Aspergillus brasiliensis (AbrUPO). We created a library with more than 5 million different variants expressed in Komagataella phaffii (Pichia pastoris). Microfluidic droplet sorting was then used to generate a dataset of >30,000 unique sequences paired with function data. This dataset was then used to train a task-specific generative model using the Variational Search Distributions (VSD) framework. We compared the variants selected by rank aggregation from the screening data (R series) with novel sequences generated by the refined generative model (G series). While the wildtype enzyme produces nearly equal amounts of both the desired styrene oxide and undesired phenylacetaldehyde products, three out of five of the highest scoring G series variants produced product mixtures more enriched in the desired compound. In comparison, only one of the five highest scoring R series variants showed this improvement. Overall, the variant most enriched in desired product, G929, produced 2.4x more styrene oxide than phenylacetaldehyde, while G3 and G167, produced the highest quantities of desired product at 2.3x enrichment over the undesired product. Further analysis confirmed that our task-specific generative model outperforms existing models pre-trained on large publicly available datasets. This unique combination of uHTS and generative protein modelling provides an intelligent exploration mechanism which not only enables efficient enzyme discovery, but also accelerates optimization and enables predictive insights that are difficult to achieve with either approach alone.",

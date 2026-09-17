@@ -384,6 +384,12 @@
       "title": "An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human"
     },
+    "doi:10.1021/acs.jcim.6c02706": {
+      "first_seen": "2026-09-17",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in"
+    },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
       "source": "PubMed",
@@ -612,6 +618,12 @@
       "title": "Extending Protein Language Models to a Viral Genomic Scale Using Biologically Induced Sparse Attention.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42480065/"
     },
+    "doi:10.1093/plphys/kiag691": {
+      "first_seen": "2026-09-17",
+      "source": "PubMed",
+      "title": "DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748470/"
+    },
     "doi:10.1093/protein/gzag016": {
       "first_seen": "2026-07-07",
       "source": "PubMed",
@@ -635,6 +647,18 @@
       "source": "bioRxiv",
       "title": "Codon language model scores provide information beyond protein language models for missense variant interpretation",
       "url": "https://doi.org/10.1101/2025.03.12.642937"
+    },
+    "doi:10.1101/2025.06.30.662286": {
+      "first_seen": "2026-09-17",
+      "source": "bioRxiv",
+      "title": "Rapid Assessment of Size, Shape, and Chemical Complementarity of Ligands for Computational Protein Design",
+      "url": "https://doi.org/10.1101/2025.06.30.662286"
+    },
+    "doi:10.1101/2025.08.18.670751": {
+      "first_seen": "2026-09-17",
+      "source": "bioRxiv",
+      "title": "De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins",
+      "url": "https://doi.org/10.1101/2025.08.18.670751"
     },
     "doi:10.1101/2025.09.23.676583": {
       "first_seen": "2026-07-02",
