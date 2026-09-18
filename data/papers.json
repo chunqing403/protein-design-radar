@@ -433,6 +433,30 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
     },
+    "doi:10.1002/pro.70790": {
+      "abstract": "Abstract Distinguishing biological protein–protein interfaces from non‐biological contacts remains an important task in structural biology, particularly as protein complex structures continue to accumulate. Recent advances in protein language models (pLMs) have expanded their use across diverse protein prediction tasks, including sequence‐based protein–protein interaction prediction. Such approaches often pool representations over entire sequences, whereas structure‐based methods commonly rely on more complex graph‐ or geometry‐based integration. We therefore asked how much interface‐relevant information could be extracted by simply pooling pLM embeddings over structurally defined local regions. Here, we revisited biological‐versus‐crystal interface classification as a structurally well‐defined testbed for this question. We developed a framework that compares full‐sequence pooling, interface‐localized pooling of pLM embeddings, and multimodal integration of sequence‐derived embeddings with point‐cloud representations of protein surfaces. On two benchmark datasets, interface‐localized pooling achieved stronger performance than full‐sequence or non‐interacting surface pooling across three pLM backbones. Despite its simplicity, the resulting representation performed within the range of established methods that rely on explicit evolutionary analysis or geometric modeling. Incorporating explicit geometric surface information changed performance slightly, without reaching statistical significance. Because the model is linear, the interface‐level score decomposes exactly into per‐residue contributions, which varied within amino‐acid types. Together, our results indicate that the principal gain arises from localizing pLM embeddings to physically interacting residues, enabling a lightweight and accessible implementation for biological‐versus‐crystal interface classification. Code and scripts are available on GitHub: https://github.com/fukasawa-group/espma .",
+      "authors": [
+        "Sarah Nozawa",
+        "Kentaro Tomii",
+        "Yoshinori Fukasawa"
+      ],
+      "doi": "10.1002/pro.70790",
+      "first_seen": "2026-09-18",
+      "published": "2026-10",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "Protein Science",
+      "source_id": "10.1002/pro.70790",
+      "title": "ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70790"
+    },
     "doi:10.1002/prot.70162": {
       "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
       "authors": [
@@ -1516,6 +1540,34 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
+    },
+    "doi:10.1021/acs.jcim.6c01872": {
+      "abstract": "Abstract Antioxidant peptides are emerging as promising therapeutic and nutraceutical agents because of their capacity to neutralize free radicals, modulate oxidative stress, and contribute to disease prevention in fields ranging from oncology to dermatology and food science. However, traditional computational approaches often fail to capture the biochemical semantics and evolutionary context of peptide sequences, limiting the predictive accuracy and mechanistic interpretability. Here, we present an explainable deep learning framework integrating evolutionary scale modeling (ESM) embeddings with a temporal convolutional network (TCN) and long short-term memory (LSTM) architecture to classify antioxidant peptides and uncover key sequence determinants of activity. ESM embeddings provide rich evolutionary and structural priors, enabling the model to capture both local k-mer motifs and global sequence dependencies. To ensure transparency, we employed a multimethod interpretability strategy using Anchor, LIME, and SHAP, which identified robust, potentially biologically meaningful hypotheses containing residues rich in cysteine (C), arginine (R), lysine (K), histidine (H), aspartic acid (D), glutamic acid (E), threonine (T), glutamine (Q), proline (P), methionine (M), tyrosine (Y), and tryptophan (W) as central to antioxidant activity. Anchor offered deterministic, high-precision motif rules, while LIME and SHAP highlighted redundant and context-dependent contributions, together forming a layered interpretability framework. This study not only achieves state-of-the-art classification performance but also bridges black-box modeling and biochemical understanding, offering a generalizable, hypothesis-generating platform for rational peptide design and discovery that is important in human health.",
+      "authors": [
+        "Maria Carolina J. A. Schneider",
+        "Bárbara Saraiva Souza",
+        "Leonardo Vasconcelos Ferreira",
+        "Marina Geisiely Damaso",
+        "André Silva Pimentel"
+      ],
+      "doi": "10.1021/acs.jcim.6c01872",
+      "first_seen": "2026-09-18",
+      "published": "2026-09-17",
+      "reasons": [
+        "deep learning",
+        "ESM",
+        "artificial intelligence",
+        "peptide",
+        "sequence"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c01872",
+      "title": "Explainable Artificial Intelligence to Unveil Patterns of Antioxidant Peptides for Free Radical Regulation",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01872/5431954/Explainable-Artificial-Intelligence-to-Unveil"
     },
     "doi:10.1021/acs.jcim.6c01919": {
       "abstract": "Abstract Mutation-induced changes in binding free energy (ΔΔG) at antibody–antigen interfaces are important for antibody optimization, mutational scanning, and viral immune escape assessment. However, computational prediction remains challenging because antibodies and antigens have distinct sequence backgrounds, mutation effects are often localized at interfaces, and related complexes may remain across training and evaluation partitions. We present AbAgMut-GNN as a task-oriented paired graph framework that coordinates established sequence and geometric learning components around explicit comparison of wild-type (WT) and mutant (MUT) antibody–antigen complexes. AntiBERTy and ESM2 provide frozen residue-level embeddings for antibody and antigen chains, respectively, while mutation-centered, interface-aware, paired-residue, and contact-delta representations capture local perturbations and interaction remodeling. We evaluate AbAgMut-GNN under four complementary internal settings, including the PDB-based split, the complex-cluster split, the antibody-family preserving validation split, and the antigen-cluster-preserving validation split. Under the complex-cluster split, AbAgMut-GNN achieves Pearson correlation coefficients of 0.5841 on AB-Bind and 0.5480 on SKEMPI v2.0. External validation on SARS-CoV-2 and influenza antibody–antigen systems further shows useful mutation-effect correlation trends, although absolute-error performance varies across target systems. Contact-masking and residue-class enrichment analyses indicate that model-derived importance patterns are associated with biologically relevant interface interactions. Overall, AbAgMut-GNN is best viewed as a task-oriented computational tool for trend-level mutation ranking and pre-experimental candidate prioritization rather than as a high-precision substitute for quantitative biophysical measurement.",
@@ -2913,6 +2965,37 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
+    },
+    "doi:10.1109/tcbbio.2026.3734697": {
+      "abstract": "Allosteric regulation plays a crucial role in modulating protein function, and allosteric pockets represent promising targets for drug discovery. However, identifying allosteric pockets remains challenging due to their structural and evolutionary diversity. In this study, we propose AlloPoc, a novel framework that integrates multi-modal protein language model (PLM) representations with biochemical features for accurate allosteric pocket prediction. Unlike existing PLM-based methods that rely exclusively on sequence-level features, AlloPoc leverages complementary sequence- and structure-based information to capture a more comprehensive view of allosteric pockets. To our knowledge, this represents the first integration of dual-modality PLMs in this field. AlloPoc comprises three core modules: feature extraction, feature processing (including selection and enhancement), and ensemble prediction. By integrating sequence- and structure-based PLM embeddings with physicochemical properties extracted by Fpocket, AlloPoc leverages a hierarchical ensemble strategy to mitigate prediction biases inherent to individual classifiers. Evaluated on an independent test set, AlloPoc achieves state-of-the-art performance with an AUC of 0.927 and an MCC of 0.524, surpassing existing methods including AlloFusion, DeepAllo, and AlloPED. These results demonstrate the effectiveness of integrating multi-modal PLMs with ensemble learning for allosteric pocket identification.",
+      "authors": [
+        "Zhang H",
+        "Wen S",
+        "Xu Z",
+        "Chen X",
+        "Cai S",
+        "Huang G",
+        "Zhao H",
+        "Yin L",
+        "Wei Y"
+      ],
+      "doi": "10.1109/TCBBIO.2026.3734697",
+      "first_seen": "2026-09-18",
+      "published": "2026 Sep 17",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42752417",
+      "title": "Allosteric Pocket Prediction Based on Multi-modal Protein Language Models and Ensemble Learning.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752417/"
     },
     "doi:10.1109/tnnls.2026.3727640": {
       "abstract": "Accurate prediction of protein-protein interaction sites (PPISs) plays a crucial role in understanding protein function, elucidating disease mechanisms, and facilitating drug target discovery. Although conventional approaches based on sequence or structural features have shown promising results, they still face several challenges. These challenges include oversmoothing in deep graph neural networks (GNNs) and poor generalization to domain-specific data. To address these issues, we propose RGLLA-PPIS, a novel multimodal prediction model that integrates retrieval-augmented learning and residual GNNs for PPIS identification. In RGLLA-PPIS, protein graphs are constructed by combining AlphaFold3 (AF3)-predicted protein structures with multiple sequence-derived features. To effectively capture both local and global spatial dependencies, the model employs equivariant GNN (EGNN) and GCN modules with residual connections, which help alleviate the oversmoothing problem and preserve node-level variability. Moreover, during prediction, we used the retrieval-augmented knowledge provided by the pretrained protein language model (PLM) Evolla and ChatGPT-4o to construct semantic priors to supplement potential functional site information and enhance the generalization capacity of the prediction model. Extensive experiments on benchmark datasets show that RGLLA-PPIS outperforms several state-of-the-art baselines in both accuracy and robustness. Furthermore, comparison with wet-lab results on a domain-specific protein system reveals a strong correspondence between experimental functional sites and the high-probability regions predicted by RGLLA-PPIS. This demonstrates the model's potential to guide real-world protein engineering tasks. The source code can be found at: https://github.com/MiJia-ID/RGLLA-PPIS.",

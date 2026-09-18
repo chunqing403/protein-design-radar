@@ -102,6 +102,12 @@
       "title": "De novo design of proteinaceous binders targeting the LEDGF PWWP domain.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
     },
+    "doi:10.1002/pro.70790": {
+      "first_seen": "2026-09-18",
+      "source": "Protein Science",
+      "title": "ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70790"
+    },
     "doi:10.1002/prot.70162": {
       "first_seen": "2026-07-26",
       "source": "PubMed",
@@ -365,6 +371,12 @@
       "source": "PubMed",
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
+    },
+    "doi:10.1021/acs.jcim.6c01872": {
+      "first_seen": "2026-09-18",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Explainable Artificial Intelligence to Unveil Patterns of Antioxidant Peptides for Free Radical Regulation",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01872/5431954/Explainable-Artificial-Intelligence-to-Unveil"
     },
     "doi:10.1021/acs.jcim.6c01919": {
       "first_seen": "2026-08-29",
@@ -695,6 +707,12 @@
       "source": "PubMed",
       "title": "AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42647707/"
+    },
+    "doi:10.1109/tcbbio.2026.3734697": {
+      "first_seen": "2026-09-18",
+      "source": "PubMed",
+      "title": "Allosteric Pocket Prediction Based on Multi-modal Protein Language Models and Ensemble Learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752417/"
     },
     "doi:10.1109/tnnls.2026.3727640": {
       "first_seen": "2026-09-04",

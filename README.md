@@ -7,16 +7,15 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-17** (`2026-09-17T05:00:34Z`)
+Updated: **2026-09-18** (`2026-09-18T04:53:11Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins](https://doi.org/10.1101/2025.08.18.670751)<br><sub>Chazin-Gray, A. M., Thompson, T. R., Lopatto, E. D. B. et al.</sub> | bioRxiv<br>2026-09-16 | Binders and therapeutics, Enzymes and function |
-| 2 | [Rapid Assessment of Size, Shape, and Chemical Complementarity of Ligands for Computational Protein Design](https://doi.org/10.1101/2025.06.30.662286)<br><sub>Petrenas, R., Ozga, K., Chubb, J. J. et al.</sub> | bioRxiv<br>2026-09-16 | General |
-| 3 | [KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in)<br><sub>Hsin-Ying Tsai, Wenqiang Xu, Wen Jun Xie et al.</sub> | Journal of Chemical Information and Modeling<br>2026-09-16 | Protein language models, Enzymes and function |
-| 4 | [DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.](https://pubmed.ncbi.nlm.nih.gov/42748470/)<br><sub>Li T, Meng Q, Wang D et al.</sub> | PubMed<br>2026 Sep 16 | Protein language models, Experimental validation |
+| 1 | [ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models](https://onlinelibrary.wiley.com/doi/10.1002/pro.70790)<br><sub>Sarah Nozawa, Kentaro Tomii, Yoshinori Fukasawa</sub> | Protein Science<br>2026-10 | Protein language models |
+| 2 | [Explainable Artificial Intelligence to Unveil Patterns of Antioxidant Peptides for Free Radical Regulation](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01872/5431954/Explainable-Artificial-Intelligence-to-Unveil)<br><sub>Maria Carolina J. A. Schneider, Bárbara Saraiva Souza, Leonardo Vasconcelos Ferreira et al.</sub> | Journal of Chemical Information and Modeling<br>2026-09-17 | Protein language models, Binders and therapeutics |
+| 3 | [Allosteric Pocket Prediction Based on Multi-modal Protein Language Models and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42752417/)<br><sub>Zhang H, Wen S, Xu Z et al.</sub> | PubMed<br>2026 Sep 17 | Protein language models, Enzymes and function |
 
 ### Paper Directory / 文献目录
 
@@ -24,7 +23,7 @@ Updated: **2026-09-17** (`2026-09-17T05:00:34Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 35 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 16 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 48 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 51 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 24 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 2 |
@@ -92,8 +91,11 @@ Updated: **2026-09-17** (`2026-09-17T05:00:34Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (48)
+#### Protein Language Models / 蛋白质语言模型 (51)
 
+- [ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models](https://onlinelibrary.wiley.com/doi/10.1002/pro.70790) (Protein Science, 2026-10; first seen 2026-09-18; Protein language models)
+- [Explainable Artificial Intelligence to Unveil Patterns of Antioxidant Peptides for Free Radical Regulation](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01872/5431954/Explainable-Artificial-Intelligence-to-Unveil) (Journal of Chemical Information and Modeling, 2026-09-17; first seen 2026-09-18; Protein language models, Binders and therapeutics)
+- [Allosteric Pocket Prediction Based on Multi-modal Protein Language Models and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42752417/) (PubMed, 2026 Sep 17; first seen 2026-09-18; Protein language models, Enzymes and function)
 - [KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in) (Journal of Chemical Information and Modeling, 2026-09-16; first seen 2026-09-17; Protein language models, Enzymes and function)
 - [DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.](https://pubmed.ncbi.nlm.nih.gov/42748470/) (PubMed, 2026 Sep 16; first seen 2026-09-17; Protein language models, Experimental validation)
 - [A foundation model learns the sequence and functional grammar of fully human heavy-chain-only antibodies](https://doi.org/10.64898/2026.09.10.750553) (bioRxiv, 2026-09-15; first seen 2026-09-16; Protein language models, Binders and therapeutics)
@@ -198,7 +200,7 @@ Updated: **2026-09-17** (`2026-09-17T05:00:34Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-17](outputs/daily/2026-09-17.md)
+- [Daily report for 2026-09-18](outputs/daily/2026-09-18.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
