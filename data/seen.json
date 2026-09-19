@@ -240,6 +240,12 @@
       "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
     },
+    "doi:10.1016/j.ejmech.2026.119336": {
+      "first_seen": "2026-09-19",
+      "source": "European Journal of Medicinal Chemistry",
+      "title": "LGBind: A Structure-Guided Deep Learning Framework for Accurate Prediction of Protein-Ligand Binding Sites",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426007816"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "first_seen": "2026-09-12",
       "source": "Engineering Microbiology",
@@ -624,6 +630,18 @@
       "title": "ABAG-Rank: Improving Model Selection of AlphaFold Antibody–Antigen Complexes by Learning to Rank",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291"
     },
+    "doi:10.1093/bioinformatics/btag666": {
+      "first_seen": "2026-09-19",
+      "source": "PubMed",
+      "title": "Developing SCL2205: A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758123/"
+    },
+    "doi:10.1093/bioinformatics/btag692": {
+      "first_seen": "2026-09-19",
+      "source": "PubMed",
+      "title": "VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758138/"
+    },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
       "source": "PubMed",
@@ -755,6 +773,12 @@
       "source": "PubMed",
       "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
+    "doi:10.64898/2026.03.02.709055": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "LLMsFold: Integrating Large Language Models and Biophysical Simulations for De Novo Drug Design",
+      "url": "https://doi.org/10.64898/2026.03.02.709055"
     },
     "doi:10.64898/2026.03.06.710024": {
       "first_seen": "2026-08-08",
@@ -935,6 +959,36 @@
       "source": "bioRxiv",
       "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
       "url": "https://doi.org/10.64898/2026.09.10.750674"
+    },
+    "doi:10.64898/2026.09.12.751118": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "Latent generative search unlocks de novo design of untapped biomolecular interactions at scale",
+      "url": "https://doi.org/10.64898/2026.09.12.751118"
+    },
+    "doi:10.64898/2026.09.15.751537": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "A Unified 3D Generative Model for Synthesizable Structure-Based Drug Design",
+      "url": "https://doi.org/10.64898/2026.09.15.751537"
+    },
+    "doi:10.64898/2026.09.16.752067": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "EM3DFold: accurate de novo protein and nucleic acid model building for cryo-EM maps using language model-powered deep learning",
+      "url": "https://doi.org/10.64898/2026.09.16.752067"
+    },
+    "doi:10.64898/2026.09.16.752217": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "Machine learning reveals sequence and genomic context features underlying Alu-specific effects on genome folding",
+      "url": "https://doi.org/10.64898/2026.09.16.752217"
+    },
+    "doi:10.64898/2026.09.16.752260": {
+      "first_seen": "2026-09-19",
+      "source": "bioRxiv",
+      "title": "BFVD v3-UniProt-complete, improved viral protein structure predictions",
+      "url": "https://doi.org/10.64898/2026.09.16.752260"
     }
   }
 }

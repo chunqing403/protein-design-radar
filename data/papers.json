@@ -994,6 +994,35 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
     },
+    "doi:10.1016/j.ejmech.2026.119336": {
+      "abstract": "",
+      "authors": [
+        "Yunfeng Li",
+        "Xingyu Liu",
+        "Yijia Liu",
+        "Jun Yuan",
+        "Tianhao Liu",
+        "Xiaoqing Wang",
+        "Tiantian Ma",
+        "Qianjin Guo"
+      ],
+      "doi": "10.1016/j.ejmech.2026.119336",
+      "first_seen": "2026-09-19",
+      "published": "2026-09",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "European Journal of Medicinal Chemistry",
+      "source_id": "10.1016/j.ejmech.2026.119336",
+      "title": "LGBind: A Structure-Guided Deep Learning Framework for Accurate Prediction of Protein-Ligand Binding Sites",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426007816"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "abstract": "",
       "authors": [
@@ -2598,6 +2627,61 @@
       ],
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag663/8785291"
     },
+    "doi:10.1093/bioinformatics/btag666": {
+      "abstract": "Deep learning (DL) has substantially advanced protein subcellular localisation (SCL) prediction, yet its potential remains constrained by suboptimal input preparation and limited high-quality reference data. Furthermore, existing state-of-the-art (SoTA) predictors suffer from performance metric inflation due to unmitigated training-to-testing data leakage during homology augmentation. We address these challenges by introducing SCL2205, a leak-minimised benchmark dataset and pipeline curated specifically to support trustworthy, scalable, and reproducible DL-based SCL modelling. SCL2205 was constructed from the universal protein knowledgebase (UniProtKB) using rigorous preprocessing, manual label mapping, and stringent partitioning. When evaluated on independent test sets, SCL2205 yielded up to a 10.8 percentage point improvement in macro area under the precision-recall curve (PR-AUC) over SoTA baselines (mean Δ 95% CI=0.07-0.12 ), with maximum benefits observed when paired with modern protein language models (PLMs). Crucially, we quantify for the first time a systemic 5.2%±0.32 data leakage rate in conventional homology augmentation workflows-even when restricting sequence similarity searches to just 10% of the training set. The dataset is openly available on Dryad under a CC0 1.0 Universal licence (https://doi.org/10.5061/dryad.2ngf1vj1t). The dataset interface is available as an installable Python package, p-scldata (v2026.2.0), under the MIT licence on the Python Package Index (PyPI). Full code and data repositories are hosted on GitHub (https://github.com/ousodaniel/scldata) and archived on Zenodo (https://doi.org/10.5281/zenodo.21796423). Supplementary File S1 contains code snippets, per-class PR-AUC breakdowns, class prevalence details, statistical comparison tests, and supplementary figures. Supplementary File S2 contains the exact mapping used in curation.",
+      "authors": [
+        "Ouso D",
+        "Pollastri G"
+      ],
+      "doi": "10.1093/bioinformatics/btag666",
+      "first_seen": "2026-09-19",
+      "published": "2026 Sep 18",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42758123",
+      "title": "Developing SCL2205: A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758123/"
+    },
+    "doi:10.1093/bioinformatics/btag692": {
+      "abstract": "Human influenza A/H3N2 viruses undergo rapid antigenic evolution primarily driven by the hemagglutinin subunit 1 (HA1). Within HA1, amino acid substitutions under immune pressure cause antigenic drift, necessitating frequent updates to vaccine strains. While hemagglutination inhibition (HI) assays remain the gold standard for assessing antigenic relationships, their labor-intensive and low-throughput nature limits scalability. Fortunately, the rapid accumulation of HA1 sequences enables sequence-based antigenic prediction, yet effectively extracting informative representations from these viral sequences remains challenging. In this study, we present VirPLM, a two-stage framework that adapts the ESM-2 protein language model to H3N2 HA1 sequences for antigenic prediction. VirPLM significantly outperforms representative methods and maintains robust performance under both cross-validation and retrospective time-split evaluations. Moreover, VirPLM identifies highly critical sites enriched in known regions related to antigenic evolution. In the season-specific coverage analysis, VirPLM-prioritized strains achieve higher estimated coverage rates than the corresponding historical strains recommended by the World Health Organization in most evaluated seasons, suggesting that VirPLM can provide complementary sequence-based evidence for candidate strain prioritization. The source code is available at https://github.com/xingyili/VirPLM, and the version used in this study is archived in Zenodo (DOI: 10.5281/zenodo.21650323). Supplementary information is available at Bioinformatics online.",
+      "authors": [
+        "Li X",
+        "Xiao K",
+        "Zhou C",
+        "Jia X",
+        "Zhao D",
+        "Xu J",
+        "Zeng X",
+        "Shi J",
+        "Shang X",
+        "Zhu J",
+        "Kong H"
+      ],
+      "doi": "10.1093/bioinformatics/btag692",
+      "first_seen": "2026-09-19",
+      "published": "2026 Sep 18",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42758138",
+      "title": "VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758138/"
+    },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
       "authors": [
@@ -3180,6 +3264,41 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
+    "doi:10.64898/2026.03.02.709055": {
+      "abstract": "The discovery of novel small molecules is challenging because of the vastness of chemical space and the complexity of protein-ligand interactions, leading to low success rates and time-consuming workflows. Here, we present LLMsFold, a computational framework that combines Large Language Models (LLMs) and biophysical foundation tools to design and validate new small molecules targeting pathogenic proteins. The pipeline starts by identifying viable binding pockets on a target protein through geometry-based pocket detection. A 70-billion-parameter transformer model from the LlaMA family then generates candidate molecules as SMILES strings under prompt constraints that enforce drug-likeness. Each molecule is evaluated by Boltz-2, a diffusion-based model for protein-ligand co-folding that predicts bound 3D structure and binding affinity. Promising candidates are iteratively optimized through a reinforcement learning loop that prioritizes high predicted affinity and synthetic accessibility. We demonstrate the approach on two challenging targets: ACVR1 (Activin A Receptor Type 1), implicated in fibrodysplasia ossificans progressiva (FOP), and CD19, a surface antigen expressed on most B-cell lymphoma and leukemia cells. Top candidates show strong in silico binding predictions and favorable drug-like profiles. All code and models are made available to support reproducibility and further development.",
+      "authors": [
+        "Waththe Liyanage, W. W.",
+        "Rigoni, D.",
+        "Bove, F.",
+        "Righelli, D.",
+        "Romano, S.",
+        "Visone, R.",
+        "Iorio, M. V.",
+        "Grassia, M.",
+        "Mangioni, G.",
+        "Lio, P.",
+        "Taccioli, C."
+      ],
+      "doi": "10.64898/2026.03.02.709055",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "folding",
+        "transformer",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.03.02.709055",
+      "title": "LLMsFold: Integrating Large Language Models and Biophysical Simulations for De Novo Drug Design",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.02.709055"
     },
     "doi:10.64898/2026.03.06.710024": {
       "abstract": "The N-terminal membrane anchor of cytochrome P450s is essential for function yet exceptionally variable--a paradox resistant to alignment-based analysis. Using an alignment-free protein language model (ESM2) pipeline on 345 Sophora tonkinensis P450s, we show the N-terminal 50 residues evolve under pervasive neutral relaxation (mean dispersion 0.62), punctuated by a single constrained island: a PxxG structural hinge (P21, G24 conserved at 98%/99%). Despite lacking sequence-level constraint, embedding-space decomposition resolves this scaffold into two separable channels. DIVA (unsupervised) captures a topological template encoding membrane-anchoring architecture, validated by physicochemical correlations recapitulating ER signal-anchor insertion and confirmed by DeepLoc- 2.1. PIVOT (supervised ablation) captures a family-associated signal whose peak position distinguishes CYP families ({varepsilon}2 = 0.44, permutation p < 0.0001) despite label-free training. The channels are largely separable: PIVOT peaks lie downstream of DIVA peaks in 84.4% of proteins, with mutually exclusive signal-loss sets. The P450 N-terminus thus integrates membrane-topological and family-identity information within a single relaxed region. Neutral evolution is reframed not as absence of information, but as the condition enabling multiplexed functional encoding--a mechanistic rationale for the functional importance of this variable anchor.",
@@ -4099,6 +4218,202 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.10.750674"
+    },
+    "doi:10.64898/2026.09.12.751118": {
+      "abstract": "De novo protein design has advanced rapidly, yet designing binders to polar, solvent-exposed epitopes and small, flexible ligands remains challenging. Such hydrated surfaces and flexible molecules, including carbohydrates, provide few of the hydrophobic contacts favoured by current methods and have largely resisted de novo binders. To address this challenge, here we introduce latent generative search for binder design, a novel framework that uses reward-guided search at inference time to steer the Proteina-Complexa generative model. The model codesigns sequence and structure - generating them together in a continuous latent space - and thereby removes the inverse-folding step on which current methods rely. In a screen of more than one million designs by multiplexed phage display, latent generative search produced more validated binders than every other method tested, its codesigned sequences surpassing post hoc redesign. It delivered high-affinity binders across therapeutic receptors, a viral attachment protein and intracellular signalling targets. Our approach also accessed previously untapped biology, generating the first de novo proteins that bind a free carbohydrate, including one that discriminates between blood-group antigens - a polar, flexible target class beyond the reach of current design methods.",
+      "authors": [
+        "Didi, K.",
+        "Reidenbach, D.",
+        "Penner, M.",
+        "Ravichandran, S.",
+        "Case, M.",
+        "Nichols, M.",
+        "Swanson, E.",
+        "Reis, A.",
+        "Prescott, M.",
+        "Qian, Y.",
+        "Qian, D.",
+        "Yang, J.",
+        "Li, W.",
+        "Li, L.",
+        "Shonai, D.",
+        "Gay, S.",
+        "Basu Mallik, B.",
+        "Chim, H. Y.",
+        "Chen, L.",
+        "Atienza Juanatey, M.",
+        "Klein, H.",
+        "Rieger, D.",
+        "Schlegel, P.",
+        "Macintyre, A. U.",
+        "Secor, M.",
+        "Granata, D.",
+        "Cha, S.",
+        "Cao, Z.",
+        "Zhou, G.",
+        "Geffner, T.",
+        "Chen, X.",
+        "Livne, M.",
+        "Zhang, Z.",
+        "Zhang, T.",
+        "Gion, K.",
+        "Bronstein, M. M.",
+        "Steinegger, M.",
+        "Deibler, K.",
+        "Soderling, S.",
+        "Schoeder, C. T.",
+        "Khmelinskaia, A.",
+        "Hollfelder, F.",
+        "Dallago, C.",
+        "Kucukbenli, E.",
+        "Vahdat, A.",
+        "Ogden, P.",
+        "Kreis, K."
+      ],
+      "doi": "10.64898/2026.09.12.751118",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "binder design",
+        "de novo design",
+        "generative model",
+        "folding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.12.751118",
+      "title": "Latent generative search unlocks de novo design of untapped biomolecular interactions at scale",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.12.751118"
+    },
+    "doi:10.64898/2026.09.15.751537": {
+      "abstract": "Traditional screening-based drug discovery is inherently limited by the astronomical scale of the chemical space. Generative modelling offers a compelling alternative to the classical search paradigm and enables rational, bottom-up design of novel and target-specific small molecules. However, its impact has been hampered by challenges in synthetic accessibility of the designed compounds and lack of large-scale experimental validation. Here, we introduce LDDM (Large Drug Discovery Model), a generative framework that supports a range of drug discovery tasks, including constrained and unconstrained docking, fragment linking and growing, and de novo design. We further introduce a programmable design algorithm that enables accurate design of synthetically accessible compounds satisfying various fine-grained objectives. We experimentally validated the designed or optimised ligands for five therapeutically relevant protein targets. In all cases, LDDM achieved high success rates, allowing us to identify molecules with confirmed binding affinity while synthesizing only a small number of generated compounds. The best designs were structurally characterised through NMR spectroscopy and X-ray crystallography, demonstrating high prediction accuracy. Overall, LDDM provides a scalable and flexible platform for the rapid and tailored design of small molecules and non-natural peptides for therapeutic applications.",
+      "authors": [
+        "Igashov, I.",
+        "Schneuing, A.",
+        "Dobbelstein, A. W.",
+        "Morozova, I.",
+        "Neeser, R. M.",
+        "Zielinski, K.",
+        "Abriata, L. A.",
+        "Petruzzella, A. S.",
+        "Pavel Iosub, D. R.",
+        "Gampp, O.",
+        "Lyubimov, A. Y.",
+        "Elizarova, E.",
+        "Ferrara, I.",
+        "Sousa, P. M. F.",
+        "Lemos, A. R.",
+        "Testori, F.",
+        "Miranda Herrera, P. A.",
+        "Kanis, L.",
+        "Schmidt, J.",
+        "Braza, M. K. E.",
+        "Amaro, R. E.",
+        "Thoma, N.",
+        "Ferraris, D. M.",
+        "Riek, R.",
+        "Fraser, J. S.",
+        "Schwaller, P.",
+        "Bronstein, M.",
+        "Correia, B."
+      ],
+      "doi": "10.64898/2026.09.15.751537",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "experimental validation",
+        "de novo design",
+        "generative model",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.15.751537",
+      "title": "A Unified 3D Generative Model for Synthesizable Structure-Based Drug Design",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.15.751537"
+    },
+    "doi:10.64898/2026.09.16.752067": {
+      "abstract": "Cryo-electron microscopy (cryo-EM) has become one of the most powerful techniques for macromolecular structure determination. However, accurate model building from cryo-EM maps remains challenging, particularly for nucleic acids. Here, we present EM3DFold, a unified de novo model-building framework for accurate structure determination of proteins, nucleic acids, and protein-nucleic acid complexes from cryo-EM maps using a density-aware, large language model-powered three-track attention (TTA) network. The TTA network effectively integrates sequence, density, and structural information to enable accurate all-atom model building. EM3DFold was extensively evaluated on independent benchmarks of 298 experimental cryo-EM maps at < 4.0 [A] resolutions, and achieves an unprecedentedly high median accuracy of 75% completeness (88% coverage and 94% sequence accuracy) for 178 nucleic acid maps, 90% completeness (95% coverage and 96% sequence accuracy) for 124 protein-nucleic acid complexes, and 95% completeness (97% coverage and 98% sequence accuracy) for 120 protein-only targets, substantially outperforming state-of-the-art methods including ModelAngelo, EM2NA, CryoREAD, and EMProt. In addition, EM3DFold also produces models with superior model-to-map fit and stereochemical quality, providing a robust and reliable solution for automated cryo-EM model building. The EM3DFold package is freely available at https://github.com/huang-laboratory/EM3DFold.",
+      "authors": [
+        "Li, T.",
+        "Cao, H.",
+        "Huang, S.-Y."
+      ],
+      "doi": "10.64898/2026.09.16.752067",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "de novo protein",
+        "deep learning",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.16.752067",
+      "title": "EM3DFold: accurate de novo protein and nucleic acid model building for cryo-EM maps using language model-powered deep learning",
+      "topics": [
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.16.752067"
+    },
+    "doi:10.64898/2026.09.16.752217": {
+      "abstract": "The Alu transposable element is among the most abundant classes of mobile DNA in the human genome, and has been linked to gene regulation and chromatin organization. Yet how individual Alu insertions influence nearby chromatin interactions remains poorly understood. To investigate this, we used deep learning to perform a genome-wide in silico deletion screen of ~1.1 million Alus, predicting each element's importance to local genome folding. We identified a subset of high-scoring Alus that span multiple Alu subfamilies and are enriched in loci that are fast-evolving and gene-dense, especially loci encoding genes that are actively transcribed and/or related to Alu biology. We further found that polymorphic Alus preferentially occur in regions tolerant of sequence variation but predicted to be resistant to changes in chromatin structure. Targeted in silico mutagenesis showed that the importance of individual Alus to local chromatin interactions depends on both intrinsic Alu sequence properties and genomic context. Finally, we identified Alu sequences predicted to alter CTCF-mediated boundary strength and, in some cases, to promote the formation of new loops and boundaries. Together, these results position Alus as key modulators of genome architecture, while underscoring that the fate of a new Alu depends on where it inserts and how it interacts with other determinants of chromatin state and structure.",
+      "authors": [
+        "Zhang, S.",
+        "Pollard, K. S."
+      ],
+      "doi": "10.64898/2026.09.16.752217",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "deep learning",
+        "folding",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.16.752217",
+      "title": "Machine learning reveals sequence and genomic context features underlying Alu-specific effects on genome folding",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.16.752217"
+    },
+    "doi:10.64898/2026.09.16.752260": {
+      "abstract": "The Big Fantastic Virus Database (BFVD) v3 is the most comprehensive resource for ColabFold-AlphaFold2-predicted viral protein structures. It holds 5,776,417 structures of nearly all viral sequences in UniProt 2025_03, a 16.4-fold increase compared to the representative-only catalogs of BFVD v1 and v2. Structure prediction quality has also improved, with high-confidence predictions accounting for 75.3% of BFVD v3 entries. This is due to Logan's enormous sequence assembly, now mined for the entire BFVD v3 instead of only for shallow alignments, alongside continued prediction quality improvements. BFVD v3 covers 72.7% of ICTV's virus species, 1.54-fold more than BFVD v2. With this version, the fraction of fully covered viral reference proteomes increases from 1.5% to 72.6%. BFVD v3 thus brings us closer to a structural catalog of the known virosphere and is freely available at bfvd.steineggerlab.workers.dev and bfvd.foldseek.com.",
+      "authors": [
+        "Kim, R. S.",
+        "Pimenova, O.",
+        "Levy Karin, E.",
+        "Mirdita, M.",
+        "Steinegger, M."
+      ],
+      "doi": "10.64898/2026.09.16.752260",
+      "first_seen": "2026-09-19",
+      "published": "2026-09-18",
+      "reasons": [
+        "structure prediction",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.16.752260",
+      "title": "BFVD v3-UniProt-complete, improved viral protein structure predictions",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.16.752260"
     }
   }
 }
