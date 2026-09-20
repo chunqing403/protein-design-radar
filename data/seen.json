@@ -234,6 +234,12 @@
       "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.clnesp.2026.105122": {
+      "first_seen": "2026-09-20",
+      "source": "Clinical Nutrition ESPEN",
+      "title": "REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
+    },
     "doi:10.1016/j.curpro.2026.100150": {
       "first_seen": "2026-09-12",
       "source": "Current Proteomics",
@@ -395,6 +401,12 @@
       "source": "Journal of Chemical Information and Modeling",
       "title": "AI-Driven Drug–Target Interaction Prediction: From Data Representation to Model Design",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
+    },
+    "doi:10.1021/acs.jcim.6c02057": {
+      "first_seen": "2026-09-20",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02057/5433249/REAPS-An-All-Atom-Receptor-Aware-Geometric-Deep"
     },
     "doi:10.1021/acs.jcim.6c02102": {
       "first_seen": "2026-09-16",

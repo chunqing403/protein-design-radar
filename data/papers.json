@@ -968,6 +968,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.clnesp.2026.105122": {
+      "abstract": "",
+      "authors": [
+        "Juan José López Gómez",
+        "Jaime González Gutiérrez",
+        "Olatz Izaola Jauregui",
+        "Ángela Cebriá",
+        "Lucía Estévez Asensio",
+        "David Primo Martín",
+        "Pablo Fernández Velasco",
+        "Paloma Pérez López",
+        "Rebeca Jiménez Sahagún",
+        "Daniel Rico Bargues",
+        "Eduardo Jorge Godoy",
+        "Daniel A. de Luis Román"
+      ],
+      "doi": "10.1016/j.clnesp.2026.105122",
+      "first_seen": "2026-09-20",
+      "published": "2026-09",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Clinical Nutrition ESPEN",
+      "source_id": "10.1016/j.clnesp.2026.105122",
+      "title": "REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
+    },
     "doi:10.1016/j.curpro.2026.100150": {
       "abstract": "",
       "authors": [
@@ -1656,6 +1687,38 @@
         "Experimental validation"
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
+    },
+    "doi:10.1021/acs.jcim.6c02057": {
+      "abstract": "Abstract Peptide therapeutics occupy a critical niche between small molecules and biologics, yet the sequence design of peptide binders remains challenging because their bioactive conformations and interfacial fitness are dictated by the receptor microenvironment. Current computational approaches largely treat this as a generic inverse folding problem that relies on backbone geometry alone, overlooking the detailed physicochemical constraints of the receptor pocket. To bridge this gap, we introduce the REceptor-Aware Peptide Sequence Designer (REAPS), a geometric graph neural network that reframes sequence design for peptide binders by treating the receptor as a fully observable all-atom context. Multidimensional evaluations show that REAPS outperforms the widely used inverse folding model ProteinMPNN in sequence recovery, structural fidelity, and interface-level biophysical metrics across both linear and macrocyclic peptide binders. We further integrate REAPS with structural hallucination in a closed-loop de novo discovery pipeline, yielding peptide candidates with experimentally verified functional activity at the neurokinin-3 receptor (NK3R). The source code, model checkpoints, processed data sets, preprocessing scripts, and an example design workflow are publicly available at https://github.com/Mistletoe-git/REAPS.",
+      "authors": [
+        "Yongkang Qiu",
+        "Jingxin Qiao",
+        "Lengjing Zhu",
+        "Le Du",
+        "Shengyong Yang",
+        "Jun Zou"
+      ],
+      "doi": "10.1021/acs.jcim.6c02057",
+      "first_seen": "2026-09-20",
+      "published": "2026-09-19",
+      "reasons": [
+        "inverse folding",
+        "deep learning",
+        "ProteinMPNN",
+        "de novo design",
+        "sequence design",
+        "folding"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c02057",
+      "title": "REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02057/5433249/REAPS-An-All-Atom-Receptor-Aware-Geometric-Deep"
     },
     "doi:10.1021/acs.jcim.6c02102": {
       "abstract": "Abstract Emerging infectious diseases (EIDs) pose a critical threat to global biosecurity. Integrating bio/chemical information and artificial intelligence would bring new strategies for antimicrobial drug discovery. Herein, the Human Pathogenic Microorganisms Chemogenomics Knowledgebase (HPM-CKB) is presented as the largest domain-specific resource, consolidating chemical, genetic, and proteomic data on human-transmissible pathogens, together with multiple computational functional modules. The current release covers 7876 pathogenic proteins from 267 microorganisms (including 13,914 protein 3D structures) and 234,287 associated with bioactive molecules. HPM-CKB enables large-scale virtual screening, target identification, and drug repurposing, and integrates a large language model (LLM) for interactive queries. The computational prediction performance of HPM-CKB is corroborated by known inhibitors targeting SARS-CoV-2 replicase polyprotein 1ab. In wet-lab validations, four approved drugs (cefixime, ceftazidime, saquinavir, and rilapladib) identified via virtual screening show binding activity to SARS-CoV-2 nucleoprotein in affinity assays and inhibit SARS-CoV-2 replication in Vero E6 cells, demonstrating HPM-CKB’s potential in drug repurposing. Meanwhile, two anti-Staphylococcus aureus lead compounds with novel scaffolds (CYC-HXL-9124 and CYC-HXL-9126) are identified via deep learning, and the potential target protein, cell division protein FtsZ, is subsequently prioritized using HPM-CKB (http://cgai.asia/g/pathogenDB) and experimentally validated by affinity assays. Collectively, these findings establish HPM-CKB as both a chemogenomic knowledgebase and a systematic drug development platform against EIDs.",
