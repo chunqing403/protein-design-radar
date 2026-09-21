@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-20** (`2026-09-20T05:01:42Z`)
+Updated: **2026-09-21** (`2026-09-21T05:06:11Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics |
-|---|---|---|---|
-| 1 | [REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02057/5433249/REAPS-An-All-Atom-Receptor-Aware-Geometric-Deep)<br><sub>Yongkang Qiu, Jingxin Qiao, Lengjing Zhu et al.</sub> | Journal of Chemical Information and Modeling<br>2026-09-19 | Structure generation, Sequence design, Binders and therapeutics, Enzymes and function |
-| 2 | [REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”](https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199)<br><sub>Juan José López Gómez, Jaime González Gutiérrez, Olatz Izaola Jauregui et al.</sub> | Clinical Nutrition ESPEN<br>2026-09 | General |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Paper Directory / 文献目录
 
@@ -210,7 +207,7 @@ Updated: **2026-09-20** (`2026-09-20T05:01:42Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-20](outputs/daily/2026-09-20.md)
+- [Daily report for 2026-09-21](outputs/daily/2026-09-21.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
