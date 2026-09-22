@@ -1054,6 +1054,31 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426007816"
     },
+    "doi:10.1016/j.ejmech.2026.119352": {
+      "abstract": "",
+      "authors": [
+        "Maryam",
+        "Hamza Zahid",
+        "Kil To Chong",
+        "Hilal Tayara"
+      ],
+      "doi": "10.1016/j.ejmech.2026.119352",
+      "first_seen": "2026-09-22",
+      "published": "2026-09",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "peptide"
+      ],
+      "source": "European Journal of Medicinal Chemistry",
+      "source_id": "10.1016/j.ejmech.2026.119352",
+      "title": "AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "abstract": "",
       "authors": [
@@ -1356,6 +1381,28 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42675858/"
+    },
+    "doi:10.1016/s2152-2650(26)03674-8": {
+      "abstract": "",
+      "authors": [
+        "Amazigh Abbaci",
+        "Nathalie Sassine",
+        "Georges Nouadje"
+      ],
+      "doi": "10.1016/s2152-2650(26)03674-8",
+      "first_seen": "2026-09-22",
+      "published": "2026-09",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Clinical Lymphoma Myeloma and Leukemia",
+      "source_id": "10.1016/s2152-2650(26)03674-8",
+      "title": "PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748"
     },
     "doi:10.1021/acs.jafc.6c04272": {
       "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
@@ -1885,6 +1932,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
     },
+    "doi:10.1021/acscatal.6c05133": {
+      "abstract": "Abstract The thermostability of oligomeric enzymes is often limited by the intrinsic flexibility of subunit interfaces. Herein, we report a deep learning-driven interface engineering strategy (DeepIE) to systematically stabilize oligomeric enzymes. Applied to a dimeric formate dehydrogenase, we de novo redesigned six flexible regions at the dimer interface. The lead variant retains wild-type catalytic activity while exhibiting an ∼500-fold increase in half-life at 50 °C. Molecular dynamics analyses revealed that reduced local flexibility and strengthened interfacial hydrophobic packing underpin the enhanced thermostability. This work establishes an artificial intelligence-driven, generalizable framework for rational thermostabilization of oligomeric biocatalysts, effectively overcoming the activity–stability trade-off.",
+      "authors": [
+        "Wei-Jie Zhan",
+        "Yang Zhuo",
+        "Zhi-Hao He",
+        "Xin-Yi Lu",
+        "Zhi-Jun Zhang",
+        "Xiao-Yu You",
+        "Qing-Chao Jiang",
+        "Kun Shi",
+        "Hui-Lei Yu"
+      ],
+      "doi": "10.1021/acscatal.6c05133",
+      "first_seen": "2026-09-22",
+      "published": "2026-09-21",
+      "reasons": [
+        "deep learning",
+        "artificial intelligence",
+        "stability"
+      ],
+      "source": "ACS Catalysis",
+      "source_id": "10.1021/acscatal.6c05133",
+      "title": "Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "abstract": "Microbial cell factories represent sustainable platforms for the production of fuels, chemicals, and therapeutics, but their development is limited by challenges in pathway discovery, enzyme optimization, and metabolic regulation. Recent advances in artificial intelligence and machine learning are reshaping this field by enabling predictive pathway design, enhanced protein engineering, and dynamic network regulation. Emerging strategies such as graph neural networks, generative models, and reinforcement learning (RL) now allow systematic exploration of vast design spaces with enhanced accuracy and scalability. This review highlights recent advancements in microbial engineering. It discusses how AI-driven frameworks are advancing the field from experience-guided and rule-based engineering toward data-driven, model-assisted, and increasingly autonomous workflows. These changes lay the foundation for next-generation biomanufacturing.",
       "authors": [
@@ -2177,6 +2255,35 @@
         "Protein language models"
       ],
       "url": "https://www.nature.com/articles/s41467-026-77557-2"
+    },
+    "doi:10.1038/s41467-026-77607-9": {
+      "abstract": "Abstract Protein hydrogels are promising artificial extracellular matrices (ECMs) for 3D stem cell and organoid culture due to their favorable stress relaxation behavior (a decrease in stress in response to strain). Inter-chain entangled motifs, in which different protein chains are interlaced, represent a powerful strategy to synthesize such hydrogels. However, designing these motifs with tailored properties such as binding energy remains a major challenge due to the difficulty of simultaneously controlling these properties while ensuring entanglement. Here, we introduce TangleDiff, a deep learning framework for the de novo design of homodimeric entangled proteins with programmable features. TangleDiff generates diverse foldable entangled sequences with an in-silico success rate exceeding 70%, markedly outperforming current models (~1%). By conditioning TangleDiff on inter-chain binding energy, we generate novel protein dimers whose binding energies closely match the specified ranges, with approximately 70% of successful designs conforming to expected values. We experimentally validate TangleDiff by designing nine homodimers targeting various binding energies; seven successfully form hydrogels, with stress relaxation dynamics correlated with specified binding energies. This work establishes a general strategy for entangled protein design, opening avenues for entanglement-based biomaterial innovation.",
+      "authors": [
+        "Puqing Deng",
+        "Yutong Wu",
+        "Hong Kiu Francis Fok",
+        "Linyan Li",
+        "Wen-Bin Zhang",
+        "Fei Sun",
+        "Hanyu Gao"
+      ],
+      "doi": "10.1038/s41467-026-77607-9",
+      "first_seen": "2026-09-22",
+      "published": "2026-09-21",
+      "reasons": [
+        "protein design",
+        "deep learning",
+        "de novo design",
+        "protein",
+        "binding"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-77607-9",
+      "title": "Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-77607-9"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
@@ -2745,6 +2852,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42758138/"
     },
+    "doi:10.1093/bioinformatics/btag698": {
+      "abstract": "Abstract Motivation Virulence factors (VFs) mediate host adhesion, invasion, immune evasion and toxin-mediated damage, making accurate VF prediction important for understanding bacterial pathogenesis and antimicrobial intervention. Existing predictors mainly use one-dimensional (1D) protein sequences, overlooking complementary coding DNA sequence (CDS)-level information and three-dimensional (3D) structural topology. Results We propose DeepGVS, a bimodal deep learning framework integrating CDS-derived features with protein sequence and structural representations for VF prediction. DeepGVS extracts multi-scale sequence-composition features from CDS. Concurrently, it employs a parallel graph attention network (GAT) and bidirectional Mamba (Bi-Mamba) architecture to process ESMFold-predicted structures and residue representations, capturing spatial and long-range dependencies. A neural additive model (NAM) functions as a meta-learner to integrate base-classifier predictions. DeepGVS was evaluated on the unchanged accession-level independent test set of Dataset_B and achieved an accuracy of 87.50%, corresponding to absolute improvements of 6.30, 2.60 and 1.40 percentage points over the published benchmark values of DeepVF, GTAE-VF and PLMVF, respectively. The incremental benefit of bimodal integration was dataset- and metric-dependent, and additional taxonomic analyses identified taxonomy as a potential confounding factor that does not fully reproduce the performance of the complete model. Availability and implementation Source code, datasets and pretrained models are available at https://github.com/guoguo26/DeepGVS. The archived code version used for the reported experiments is available at https://doi.org/10.5281/zenodo.21756890. Supplementary information Supplementary data are available online.",
+      "authors": [
+        "Yan Miao",
+        "Tingting Zou",
+        "Zhenyuan Sun",
+        "Yuming Zhao",
+        "Guohua Wang"
+      ],
+      "doi": "10.1093/bioinformatics/btag698",
+      "first_seen": "2026-09-22",
+      "published": "2026-09-21",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "sequence"
+      ],
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag698",
+      "title": "DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction",
+      "topics": [
+        "General"
+      ],
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177"
+    },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
       "authors": [
@@ -2895,6 +3027,37 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.1101/2025.03.12.642937"
+    },
+    "doi:10.1101/2025.06.09.658393": {
+      "abstract": "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues. We compare the performance of PIONEER2 to that of AlphaFold3 and found, using a test set of PDB structures, that their performance is quite similar. However, about 20% of AlphaFold3 predictions for protein-protein complexes in the PDB have AlphaFold3 ranking scores below 0.5, which indicates an uncertain model. For these structures, PIONEER2 outperforms AlphaFold3 at discriminating interfacial from non-interfacial residues. Further, about half of the AlphaFold3 ranking scores on high confidence protein-protein interactions (PPIs) not associated with a PDB structure are below 0.5 indicating that PIONEER2 offers superior interface prediction for a large number of PPIs for which structures are not available. We created a comprehensive 3D structurally informed interactome encompassing all 352,124 experimentally detected binary human PPIs in the current literature and made PIONEER2 interface predictions for each. We experimentally validated these predictions by generating 1,866 mutations and testing their disruptive impact on 5,010 mutation-interaction pairs. PIONEER2-predicted interfaces are found to be comparable to PDB structures in their ability to predict disruptive mutations while AlphaFold3 performance is reduced. Similarly, PIONEER2-predicted interfaces outperform AlphaFold3 in accounting for the depletion of non-deleterious common population variants and the enrichment of disease-related mutations on protein surfaces. Overall, our results suggest that PIONEER2-predicted interfaces provide a valuable tool for studying disease etiology, advancing personalized medicine and for fundamental research. We further implemented PIONEER2 as a user-friendly web server (https://pioneer2.yulab.org) platform for users to explore our 3D interactome models and conduct genome-wide functional genomics studies.",
+      "authors": [
+        "Xiong, D.",
+        "Torres, M.",
+        "Murray, D.",
+        "Zhang, Z.",
+        "Li, L.",
+        "Naravane, A. C.",
+        "Fragoza, R.",
+        "Honig, B.",
+        "Yu, H."
+      ],
+      "doi": "10.1101/2025.06.09.658393",
+      "first_seen": "2026-09-22",
+      "published": "2026-09-21",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "binding",
+        "mutation",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.06.09.658393",
+      "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+      "topics": [
+        "Sequence design"
+      ],
+      "url": "https://doi.org/10.1101/2025.06.09.658393"
     },
     "doi:10.1101/2025.06.30.662286": {
       "abstract": "Driven by deep-learning approaches, computational protein design is advancing rapidly, and it is now possible to generate many de novo protein structures quickly and robustly. This sets new frontiers for the field, including designing proteins that bind small molecules tightly and specifically, and understanding the non-covalent interactions that underpin such designs to make binding predictable and tunable. Here we address these challenges with a rapid physics-based computational method to generate isosteric and chemically complementary binding pockets for small-molecule targets in de novo designed proteins. We test this experimentally by constructing and characterizing binding proteins for several synthetic and natural chromophores. By evaluating only single-digit numbers of designs, the pipeline delivers stable proteins with pre-organized binding sites confirmed by X-ray crystallography, which bind the targets selectively with micromolar affinities or better. To illustrate the scope and applications of this approach, we incorporate distinct and coupled chromophore-binding sites in a two-domain de novo protein enabling controlled energy transfer between the two sites, and we develop a small de novo binding protein that can be used in live mammalian cells to visualize sub-cellular structures.",
@@ -3267,6 +3430,35 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.1371/journal.pbio.3004002": {
+      "abstract": "Recent advances in artificial intelligence have transformed protein structure prediction and design. However, protein function is governed not only by static structures but also by the conformational dynamics that allow proteins to access distinct functional states. Predicting these dynamic transitions, central to many biological processes, remains challenging due to the scarcity of high-resolution experimental data, which limits the training of machine-learning models for dynamic and energetic property prediction. Here, we present AlloPool, a graph neural network (GNN)-based framework that interprets molecular dynamics simulations by iteratively pruning residue-residue interactions to uncover minimal, time-resolved interaction networks that govern protein conformational dynamics and structural responses to chemical or mechanical perturbations, collectively known as allostery. By integrating temporal attention with graph aggregation, AlloPool learns evolving interaction graphs from equilibrium and non-equilibrium molecular dynamics simulations, enabling accurate reconstruction of dynamic trajectories and the interaction networks that drive conformational transitions. Validated across diverse dynamic protein systems, including binding domains, mechanosensors, signaling receptors, and enzymes, AlloPool maps allosteric communication pathways, predicts the effects of ligand binding, mechanical forces, and mutations, discovers transient dynamic states and outperforms existing machine-learning approaches in dynamic trajectory reconstruction. This advance provides a general framework for interpreting protein dynamics with broad implications for drug discovery, synthetic biology, and protein engineering.",
+      "authors": [
+        "Marfoglia M",
+        "Pedraza-Joya MA",
+        "Guirardel L",
+        "Chatzi Souleiman A",
+        "Barth P"
+      ],
+      "doi": "10.1371/journal.pbio.3004002",
+      "first_seen": "2026-09-22",
+      "published": "2026 Sep 01",
+      "reasons": [
+        "protein engineering",
+        "deep learning",
+        "structure prediction",
+        "artificial intelligence",
+        "graph neural network",
+        "protein"
+      ],
+      "source": "PubMed",
+      "source_id": "42766632",
+      "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42766632/"
     },
     "doi:10.1371/journal.pcbi.1014499": {
       "abstract": "CLDN18.2 is a promising tumor-specific antigen; however, the development of therapeutic antibodies against it is challenged by the need for simultaneous optimization of affinity and developability. To address this, we present cdrGPT, a deep learning framework based on GPT-2 for de novo generation of complementarity-determining region H3 (CDRH3) sequences. Our approach integrates pre-training on the Observed Antibody Space (OAS) database with structural templating derived from the known antibody zolbetuximab. Generated sequences were iteratively refined through rejection sampling and fine-tuned against a multi-parameter objective function encompassing predicted affinity and MHC class II binding risk. From an initial set of 50,000 sequences, this screening pipeline yielded 313 high-confidence candidates. Subsequent analysis using evolutionary scale modeling 2 (ESM2) embeddings, principal component analysis (PCA), and clustering revealed three structurally distinct clusters, with intra-cluster cosine similarities exceeding 0.99. Validation of seven representative sequences from the dominant cluster using AlphaFold3 confirmed high structural fidelity to the zolbetuximab template, demonstrating a root mean square deviation (RMSD) of 1.331 Å for the CDRH3 loop and positional deviations of less than 0.4 Å for key paratope residues. These results indicate that the designed variants preserve the core binding mode of the parent antibody. This study establishes a feasible pipeline for integrating AI-generated CDRH3 loops into functional antibody scaffolds, providing a foundation for the accelerated development of therapeutics targeting CLDN18.2 and other clinically relevant antigens.",

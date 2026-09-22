@@ -7,29 +7,38 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-21** (`2026-09-21T05:06:11Z`)
+Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics |
+|---|---|---|---|
+| 1 | [Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome](https://doi.org/10.1101/2025.06.09.658393)<br><sub>Xiong, D., Torres, M., Murray, D. et al.</sub> | bioRxiv<br>2026-09-21 | Sequence design |
+| 2 | [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9)<br><sub>Puqing Deng, Yutong Wu, Hong Kiu Francis Fok et al.</sub> | Nat Commun<br>2026-09-21 | General |
+| 3 | [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177)<br><sub>Yan Miao, Tingting Zou, Zhenyuan Sun et al.</sub> | Bioinformatics<br>2026-09-21 | General |
+| 4 | [Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering)<br><sub>Wei-Jie Zhan, Yang Zhuo, Zhi-Hao He et al.</sub> | ACS Catalysis<br>2026-09-21 | Structure generation, Sequence design, Enzymes and function |
+| 5 | [AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification](https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X)<br><sub>Maryam, Hamza Zahid, Kil To Chong et al.</sub> | European Journal of Medicinal Chemistry<br>2026-09 | Protein language models, Binders and therapeutics |
+| 6 | [PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein](https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748)<br><sub>Amazigh Abbaci, Nathalie Sassine, Georges Nouadje</sub> | Clinical Lymphoma Myeloma and Leukemia<br>2026-09 | General |
+| 7 | [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/)<br><sub>Marfoglia M, Pedraza-Joya MA, Guirardel L et al.</sub> | PubMed<br>2026 Sep 01 | Enzymes and function, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 38 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 16 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 53 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 39 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 54 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 26 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 5 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 6 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
-| [General / 综合](#paper-category-general) | 9 |
+| [General / 综合](#paper-category-general) | 12 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (38)
+#### Structure Generation / 结构生成 (39)
 
+- [Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering) (ACS Catalysis, 2026-09-21; first seen 2026-09-22; Structure generation, Sequence design, Enzymes and function)
 - [REAPS: An All-Atom Receptor-Aware Geometric Deep Learning Framework for De Novo Design of Linear and Macrocyclic Peptide Binders](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02057/5433249/REAPS-An-All-Atom-Receptor-Aware-Geometric-Deep) (Journal of Chemical Information and Modeling, 2026-09-19; first seen 2026-09-20; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function)
 - [LLMsFold: Integrating Large Language Models and Biophysical Simulations for De Novo Drug Design](https://doi.org/10.64898/2026.03.02.709055) (bioRxiv, 2026-09-18; first seen 2026-09-19; Structure generation, Protein language models, Binders and therapeutics)
 - [BFVD v3-UniProt-complete, improved viral protein structure predictions](https://doi.org/10.64898/2026.09.16.752260) (bioRxiv, 2026-09-18; first seen 2026-09-19; Structure generation)
@@ -70,8 +79,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (16)
+#### Sequence Design / 序列设计 (17)
 
+- [Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome](https://doi.org/10.1101/2025.06.09.658393) (bioRxiv, 2026-09-21; first seen 2026-09-22; Sequence design)
 - [Codon language model scores provide information beyond protein language models for missense variant interpretation](https://doi.org/10.1101/2025.03.12.642937) (bioRxiv, 2026-09-14; first seen 2026-09-16; Sequence design, Protein language models)
 - [Deep Learning-based Modeling Enhances Efficacy of Natural Ligand CAR Binders Targeting CD70](https://doi.org/10.64898/2026.09.06.749651) (bioRxiv, 2026-09-10; first seen 2026-09-12; Sequence design, Binders and therapeutics, Enzymes and function)
 - [Mutation E300 recommended by protein language models gives ChrimsonR amplified photocurrent response](https://www.nature.com/articles/s41598-026-66799-1) (Sci Rep, 2026-09-08; first seen 2026-09-09; Sequence design, Protein language models, Enzymes and function)
@@ -90,8 +100,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (53)
+#### Protein Language Models / 蛋白质语言模型 (54)
 
+- [AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification](https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X) (European Journal of Medicinal Chemistry, 2026-09; first seen 2026-09-22; Protein language models, Binders and therapeutics)
 - [Developing SCL2205: A Protein Sequence-based Spatial Modelling Dataset for the Protein Language Model Frontier.](https://pubmed.ncbi.nlm.nih.gov/42758123/) (PubMed, 2026 Sep 18; first seen 2026-09-19; Protein language models)
 - [VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.](https://pubmed.ncbi.nlm.nih.gov/42758138/) (PubMed, 2026 Sep 18; first seen 2026-09-19; Protein language models)
 - [ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models](https://onlinelibrary.wiley.com/doi/10.1002/pro.70790) (Protein Science, 2026-10; first seen 2026-09-18; Protein language models)
@@ -177,8 +188,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (5)
+#### Enzymes & Function / 酶与功能 (6)
 
+- [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/) (PubMed, 2026 Sep 01; first seen 2026-09-22; Enzymes and function, Experimental validation)
 - [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and) (ACS Synthetic Biology, 2026-09-04; first seen 2026-09-05; Enzymes and function, Experimental validation)
 - [From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.](https://pubmed.ncbi.nlm.nih.gov/42002010/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Enzymes and function, Experimental validation)
 - [Generative artificial intelligence for enzyme design and biocatalysis.](https://pubmed.ncbi.nlm.nih.gov/42526208/) (PubMed, 2026 Jul 29; first seen 2026-07-31; Enzymes and function, Experimental validation)
@@ -193,8 +205,11 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (9)
+#### General / 综合 (12)
 
+- [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9) (Nat Commun, 2026-09-21; first seen 2026-09-22; General)
+- [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177) (Bioinformatics, 2026-09-21; first seen 2026-09-22; General)
+- [PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein](https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748) (Clinical Lymphoma Myeloma and Leukemia, 2026-09; first seen 2026-09-22; General)
 - [REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”](https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199) (Clinical Nutrition ESPEN, 2026-09; first seen 2026-09-20; General)
 - [Machine learning reveals sequence and genomic context features underlying Alu-specific effects on genome folding](https://doi.org/10.64898/2026.09.16.752217) (bioRxiv, 2026-09-18; first seen 2026-09-19; General)
 - [LGBind: A Structure-Guided Deep Learning Framework for Accurate Prediction of Protein-Ligand Binding Sites](https://linkinghub.elsevier.com/retrieve/pii/S0223523426007816) (European Journal of Medicinal Chemistry, 2026-09; first seen 2026-09-19; General)
@@ -207,7 +222,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-09-21](outputs/daily/2026-09-21.md)
+- [Daily report for 2026-09-22](outputs/daily/2026-09-22.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

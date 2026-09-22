@@ -252,6 +252,12 @@
       "title": "LGBind: A Structure-Guided Deep Learning Framework for Accurate Prediction of Protein-Ligand Binding Sites",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426007816"
     },
+    "doi:10.1016/j.ejmech.2026.119352": {
+      "first_seen": "2026-09-22",
+      "source": "European Journal of Medicinal Chemistry",
+      "title": "AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "first_seen": "2026-09-12",
       "source": "Engineering Microbiology",
@@ -329,6 +335,12 @@
       "source": "Plant Communications",
       "title": "A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2590346226003962"
+    },
+    "doi:10.1016/s2152-2650(26)03674-8": {
+      "first_seen": "2026-09-22",
+      "source": "Clinical Lymphoma Myeloma and Leukemia",
+      "title": "PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748"
     },
     "doi:10.1021/acs.jafc.5c13640": {
       "first_seen": "2026-07-02",
@@ -444,6 +456,12 @@
       "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
     },
+    "doi:10.1021/acscatal.6c05133": {
+      "first_seen": "2026-09-22",
+      "source": "ACS Catalysis",
+      "title": "Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes",
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "first_seen": "2026-07-18",
       "source": "PubMed",
@@ -509,6 +527,12 @@
       "source": "Nat Commun",
       "title": "Functional alignment of protein language models via reinforcement learning",
       "url": "https://www.nature.com/articles/s41467-026-77557-2"
+    },
+    "doi:10.1038/s41467-026-77607-9": {
+      "first_seen": "2026-09-22",
+      "source": "Nat Commun",
+      "title": "Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design",
+      "url": "https://www.nature.com/articles/s41467-026-77607-9"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
@@ -654,6 +678,12 @@
       "title": "VirPLM: Antigenic prediction of influenza A/H3N2 viruses with a fine-tuned protein language model.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42758138/"
     },
+    "doi:10.1093/bioinformatics/btag698": {
+      "first_seen": "2026-09-22",
+      "source": "Bioinformatics",
+      "title": "DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction",
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177"
+    },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
       "source": "PubMed",
@@ -689,6 +719,12 @@
       "source": "bioRxiv",
       "title": "Codon language model scores provide information beyond protein language models for missense variant interpretation",
       "url": "https://doi.org/10.1101/2025.03.12.642937"
+    },
+    "doi:10.1101/2025.06.09.658393": {
+      "first_seen": "2026-09-22",
+      "source": "bioRxiv",
+      "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+      "url": "https://doi.org/10.1101/2025.06.09.658393"
     },
     "doi:10.1101/2025.06.30.662286": {
       "first_seen": "2026-09-17",
@@ -773,6 +809,12 @@
       "source": "PubMed",
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
+    },
+    "doi:10.1371/journal.pbio.3004002": {
+      "first_seen": "2026-09-22",
+      "source": "PubMed",
+      "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42766632/"
     },
     "doi:10.1371/journal.pcbi.1014499": {
       "first_seen": "2026-08-21",
