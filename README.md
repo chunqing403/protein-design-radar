@@ -7,19 +7,14 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
+Updated: **2026-09-23** (`2026-09-23T04:53:31Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome](https://doi.org/10.1101/2025.06.09.658393)<br><sub>Xiong, D., Torres, M., Murray, D. et al.</sub> | bioRxiv<br>2026-09-21 | Sequence design |
-| 2 | [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9)<br><sub>Puqing Deng, Yutong Wu, Hong Kiu Francis Fok et al.</sub> | Nat Commun<br>2026-09-21 | General |
-| 3 | [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177)<br><sub>Yan Miao, Tingting Zou, Zhenyuan Sun et al.</sub> | Bioinformatics<br>2026-09-21 | General |
-| 4 | [Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering)<br><sub>Wei-Jie Zhan, Yang Zhuo, Zhi-Hao He et al.</sub> | ACS Catalysis<br>2026-09-21 | Structure generation, Sequence design, Enzymes and function |
-| 5 | [AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification](https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X)<br><sub>Maryam, Hamza Zahid, Kil To Chong et al.</sub> | European Journal of Medicinal Chemistry<br>2026-09 | Protein language models, Binders and therapeutics |
-| 6 | [PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein](https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748)<br><sub>Amazigh Abbaci, Nathalie Sassine, Georges Nouadje</sub> | Clinical Lymphoma Myeloma and Leukemia<br>2026-09 | General |
-| 7 | [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/)<br><sub>Marfoglia M, Pedraza-Joya MA, Guirardel L et al.</sub> | PubMed<br>2026 Sep 01 | Enzymes and function, Experimental validation |
+| 1 | [Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins](https://pnas.org/doi/10.1073/pnas.2536559123)<br><sub>Colleen A. Maillie, Minghao Zhang, Nadia Gosiet et al.</sub> | Proc. Natl. Acad. Sci. U.S.A.<br>2026-09-29 | Binders and therapeutics, Enzymes and function |
+| 2 | [Sculpting semisynthetic conducting protein pores by de novo design](https://www.nature.com/articles/s41594-026-01880-x)<br><sub>Unknown authors</sub> | Nat Struct Mol Biol<br>2026-09-22 | General |
 
 ### Paper Directory / 文献目录
 
@@ -28,10 +23,10 @@ Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 39 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 54 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 26 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 27 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 6 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
-| [General / 综合](#paper-category-general) | 12 |
+| [General / 综合](#paper-category-general) | 13 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -158,8 +153,9 @@ Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (26)
+#### Binders & Therapeutics / 结合蛋白与治疗 (27)
 
+- [Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins](https://pnas.org/doi/10.1073/pnas.2536559123) (Proc. Natl. Acad. Sci. U.S.A., 2026-09-29; first seen 2026-09-23; Binders and therapeutics, Enzymes and function)
 - [Latent generative search unlocks de novo design of untapped biomolecular interactions at scale](https://doi.org/10.64898/2026.09.12.751118) (bioRxiv, 2026-09-18; first seen 2026-09-19; Binders and therapeutics)
 - [A Unified 3D Generative Model for Synthesizable Structure-Based Drug Design](https://doi.org/10.64898/2026.09.15.751537) (bioRxiv, 2026-09-18; first seen 2026-09-19; Binders and therapeutics, Experimental validation)
 - [De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins](https://doi.org/10.1101/2025.08.18.670751) (bioRxiv, 2026-09-16; first seen 2026-09-17; Binders and therapeutics, Enzymes and function)
@@ -205,8 +201,9 @@ Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (12)
+#### General / 综合 (13)
 
+- [Sculpting semisynthetic conducting protein pores by de novo design](https://www.nature.com/articles/s41594-026-01880-x) (Nat Struct Mol Biol, 2026-09-22; first seen 2026-09-23; General)
 - [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9) (Nat Commun, 2026-09-21; first seen 2026-09-22; General)
 - [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177) (Bioinformatics, 2026-09-21; first seen 2026-09-22; General)
 - [PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein](https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748) (Clinical Lymphoma Myeloma and Leukemia, 2026-09; first seen 2026-09-22; General)
@@ -222,7 +219,7 @@ Updated: **2026-09-22** (`2026-09-22T05:10:17Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-22](outputs/daily/2026-09-22.md)
+- [Daily report for 2026-09-23](outputs/daily/2026-09-23.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

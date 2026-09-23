@@ -558,6 +558,12 @@
       "title": "Aligning protein-generative models to experimental fitness with ProteinDPO.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42601461/"
     },
+    "doi:10.1038/s41594-026-01880-x": {
+      "first_seen": "2026-09-23",
+      "source": "Nat Struct Mol Biol",
+      "title": "Sculpting semisynthetic conducting protein pores by de novo design",
+      "url": "https://www.nature.com/articles/s41594-026-01880-x"
+    },
     "doi:10.1038/s41598-026-56450-4": {
       "first_seen": "2026-06-30",
       "source": "PubMed",
@@ -617,6 +623,12 @@
       "source": "PubMed",
       "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/"
+    },
+    "doi:10.1073/pnas.2536559123": {
+      "first_seen": "2026-09-23",
+      "source": "Proc. Natl. Acad. Sci. U.S.A.",
+      "title": "Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins",
+      "url": "https://pnas.org/doi/10.1073/pnas.2536559123"
     },
     "doi:10.1080/07388551.2026.2680416": {
       "first_seen": "2026-07-02",
