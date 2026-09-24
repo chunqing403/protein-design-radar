@@ -565,6 +565,30 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42669100/"
     },
+    "doi:10.1007/s10930-026-10354-4": {
+      "abstract": "Nuclear receptors (NRs) are ligand-dependent transcriptional regulators whose ligand-binding residues are crucial for receptor activation and drug-target analysis. In this study, we developed NRB-FusePS, a protein language model-based multimodal framework for predicting BioLiP-defined ligand-binding residues in NRs. Nuclear receptor ligand-binding information was collected from the BioLiP database, and residue-level samples were generated using 21-residue sliding windows. A protein-level independent test strategy was used to reduce information leakage caused by overlapping windows from the same protein. Sequence composition, amino acid pair, structural, evolutionary, and ESM2 protein language model descriptors were extracted and evaluated using conventional machine learning models. Based on these results, a three-branch deep learning model called NRB-Fuse was constructed to integrate sequence statistical descriptors, structural descriptors, and ESM2 embeddings, and protein-level probability smoothing was introduced to obtain NRB-FusePS. On the independent test set, NRB-FusePS-Full achieved an area under the receiver operating characteristic curve (AUC) of 0.814, a Matthews correlation coefficient (MCC) of 0.406, and a sensitivity of 0.964. Shapley additive explanations (SHAP) analysis showed that ESM2 was the main information source, and the structural case of O00482 supported the predictive utility. The NRBsite web server provides three prediction modes for different levels of input information and is freely available at http://47.95.115.29:8501/ .",
+      "authors": [
+        "Qiao T",
+        "Feng Y"
+      ],
+      "doi": "10.1007/s10930-026-10354-4",
+      "first_seen": "2026-09-24",
+      "published": "2026 Sep 23",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "binding",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42776334",
+      "title": "NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776334/"
+    },
     "doi:10.1007/s11030-026-11638-8": {
       "abstract": "Molecular docking is a fundamental task in drug discovery, yet many deep learning-based docking methods still struggle to generate physically valid conformations. Although post-processing with empirical force fields can partially improve physical plausibility, it breaks tightly coupled modeling by introducing a decoupled refinement stage, increases computational cost, and often weakens ligand-protein interactions and leads to pose deviations. In recent years, diffusion-based molecular docking methods have improved both accuracy and physical validity, but they typically require many sampling steps, resulting in inefficient inference. Internal coordinate-based methods can reduce the number of sampling steps, but their complex pipelines significantly increase per-step computational cost, limiting their practical applicability. To address these challenges, we propose MPFDock, a tightly coupled equivariant flow matching method for molecular docking guided by multimodal physical constraints in Cartesian space. By incorporating geometry-grounded ligand-protein physical interactions during training and employing force field-guided flow matching during inference, MPFDock generates physically realistic and high-accuracy docking conformations according to PoseBusters metrics with significantly fewer inference steps. Experiments on the PoseBusters and DeepDockingDare benchmarks show that MPFDock consistently outperforms existing methods in terms of docking accuracy and physical realism on the evaluated benchmarks.",
       "authors": [
@@ -717,6 +741,34 @@
         "Binders and therapeutics"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
+    },
+    "doi:10.1016/j.bbrc.2026.154391": {
+      "abstract": "Protein methylation is a crucial post-translational modification (PTM) responsible for many diseases and accurate prediction of the methylation site is important for understanding the molecular mechanism of the disease. The models have been successful in capturing contextual dependencies in protein sequences, with deep learning models, specifically those based on the Transformer architecture and Multi-Head Attention, exhibiting good performance. However, most existing techniques rely on the sequence-only or hand-crafted features and are unable to capture biochemical properties and positional patterns, thereby limiting cross-species generalization and prediction accuracy. To cater for such demands, PLM-ArgMe is presented that is based on a symmetry-sensitive Transformer framework using context-aware ESM-2 residue embeddings, which is mapped through a novel Bio-Symmetric Mirrored Sinusoidal Encoding (BSMSE) strategy to address the biological symmetry hypothesis of arginine methylation. ESM-2 encodes evolutionary and structural context, while biochemical representations are enhanced by physicochemical features. A symmetry-aware positional encoding strategy and bidirectional multi-head self-attention are used to model structural, sequence-level, and feature-level dependencies. The proposed framework, PLM-ArgMe, achieves prediction accuracies of 90.91%, 93%, 87.44%, and 87.22% on Chimpanzee, Rat, Human, and Mouse datasets, respectively. When trained and evaluated on a combined multi-species dataset, the model attains an overall accuracy of 88.41%. The results reveal good generalization on a variety of datasets and suggest that PLM-ArgMe is a robust method for arginine methylation site prediction.",
+      "authors": [
+        "Bhatt N",
+        "Joshi K",
+        "Rout RK",
+        "Vyas A",
+        "Umer S"
+      ],
+      "doi": "10.1016/j.bbrc.2026.154391",
+      "first_seen": "2026-09-24",
+      "published": "2026 Sep 24",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "ESM",
+        "transformer",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42570489",
+      "title": "PLM-ArgMe: Protein language model for arginine methylation prediction for different species.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570489/"
     },
     "doi:10.1016/j.bbrc.2026.154567": {
       "abstract": "Breast cancer, particularly hormone receptor-positive (HR+) and triple-negative (TNBC) subtypes, is often immunologically \"cold,\" limiting immunotherapy efficacy. Neoantigen-based vaccines hold promise but face challenges from inaccurate identification and overreliance on HLA binding affinity, which poorly captures true immunogenicity. Most approaches focus on patient-specific (private) neoantigens, hindering scalability. In contrast, recurrent driver mutations in ESR1 and PIK3CA produce shared (public) neoantigens suitable for off-the-shelf vaccines, yet systematic discovery and design frameworks for breast cancer are lacking. We developed NeoGen-BC, a synergistic framework advancing from neoantigen prediction to rational design. It integrates protein language model (PLM) embeddings with Retrieval-Augmented Generation (RAG) and a multi-scale MCNN-BiLSTM classifier to capture immunogenic features beyond peptide-HLA binding. A sliding-window strategy maps epitopes from driver mutations, while a controlled ProtGPT2 generative module explores immunogenic peptide space. Candidates are refined via biophysical filtering, structural validation, and immunogenicity screening. NeoGen-BC achieved an AUC of 0.9053 on an independent test set, outperforming other machine learning models. It identified immunogenic peptides difficult to assess by MHC-II binding tools like NetMHCIIpan 4.3 and accurately detected validated MHC class II-restricted shared neoantigens from ESR1 (Y537S, D538G) and PIK3CA (H1047R) mutations, often missed by conventional predictors. De novo generated peptides matched experimentally validated ESR1 neoantigens in physicochemical and structural properties, showing favorable MHC-II binding and immunogenicity. NeoGen-BC provides a computational foundation for next-generation \"tunable antigen\" vaccine design by prioritizing immunogenicity alongside peptide-MHC binding characteristics. The framework enables scalable identification of candidate peptide vaccines targeting shared breast cancer vulnerabilities and may complement emerging therapeutic strategies, including oral SERD-based approaches aimed at enhancing immune modulation and advancing precision immunotherapy.",
@@ -1079,6 +1131,31 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X"
     },
+    "doi:10.1016/j.ejmp.2026.106108": {
+      "abstract": "",
+      "authors": [
+        "M. Santoro",
+        "S. Proto",
+        "A. Farolfi",
+        "R. Ussia",
+        "S. Fanti",
+        "L. Strigari"
+      ],
+      "doi": "10.1016/j.ejmp.2026.106108",
+      "first_seen": "2026-09-24",
+      "published": "2026-09",
+      "reasons": [
+        "artificial intelligence",
+        "CAR-T"
+      ],
+      "source": "Physica Medica",
+      "source_id": "10.1016/j.ejmp.2026.106108",
+      "title": "ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "abstract": "",
       "authors": [
@@ -1103,6 +1180,55 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
+    "doi:10.1016/j.fbio.2026.110064": {
+      "abstract": "",
+      "authors": [
+        "Xintong Li",
+        "Jialong Gao",
+        "Xiaoyu Xia",
+        "Wenhong Cao",
+        "Haisheng Lin",
+        "Huina Zheng",
+        "Zhihong Zheng"
+      ],
+      "doi": "10.1016/j.fbio.2026.110064",
+      "first_seen": "2026-09-24",
+      "published": "2026-09",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "source": "Food Bioscience",
+      "source_id": "10.1016/j.fbio.2026.110064",
+      "title": "Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389"
+    },
+    "doi:10.1016/j.foodchem.2026.151247": {
+      "abstract": "",
+      "authors": [
+        "Haoyu Xiong",
+        "Yuxiao Wang",
+        "Shijie Pu",
+        "Guancheng Shao"
+      ],
+      "doi": "10.1016/j.foodchem.2026.151247",
+      "first_seen": "2026-09-24",
+      "published": "2026-09",
+      "reasons": [
+        "deep learning",
+        "de novo design"
+      ],
+      "source": "Food Chemistry",
+      "source_id": "10.1016/j.foodchem.2026.151247",
+      "title": "Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072"
     },
     "doi:10.1016/j.jmb.2026.169660": {
       "abstract": "The precise localization of proteins within prokaryotic cells is fundamental to understanding their function. However, existing models still struggle with challenging localization classes, such as cell wall or outer membrane proteins. We introduce LocPred-Prok, a novel deep learning framework that redefines performance standards for prokaryotic subcellular localization. LocPred-Prok employs a purpose-built dual-branch architecture that synergistically integrates global and local sequence features extracted from pLM embeddings. On a stringent, homology-partitioned benchmark, LocPred-Prok achieves a state-of-the-art accuracy of 91.2 % and a Matthews Correlation Coefficient (MCC) of 0.889. Critically, it resolves long-standing prediction challenges, demonstrating exceptional performance on notoriously difficult classes like Gram-positive cell wall and Gram-negative outer membrane proteins. It substantially outperforms recent and classic methods across all organismal subgroups, representing a significant leap forward in the field. The LocPred-Prok web server is freely accessible athttps://huggingface.co/spaces/isyslab/LocPred-Prok.",
@@ -1991,6 +2117,36 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
+    },
+    "doi:10.1021/acssynbio.6c00206": {
+      "abstract": "Abstract The recombinant expression of integral membrane proteins is notoriously challenging. One way to address this challenge is via computational genotype-to-phenotype models that determine how particular sequence features correlate with protein expression levels. However, the potential of such approaches is yet to be fully realized, at least partly because so few expression datasets are available. Here, we study the sequence-to-expression relationships of a variant library originally derived from combinatorial computational design. The controlled sequence diversity of this library makes this new dataset directly compatible with lightweight off-the-shelf bioinformatic tools. The expression phenotype of the entire library was first assessed in the widely used recombinant host Escherichia coli. We selected a relatively small and balanced dataset of 2055 protein sequences assigned to binary classes of either “high” or “low” expression and used these sequences to train a sequence-to-expression classifier using supervised machine learning. This trained model was then used to infer the expression of &gt;10,000 unmeasured sequences, and experimental validation of these predictions for 12 test variants achieved a 100% success rate. Using tools from explainable AI, we identified specific sequence positions and substitutions that are most important in dictating cellular expression levels. This analysis was validated by model-guided protein engineering that achieved an 8-fold increase in the purification yield of a poorly expressing variant. Our results show that computational protein design in tandem with supervised learning leads to effective models for the discovery of protein variants with improved expression phenotypes and can decode the molecular basis of membrane protein expression.",
+      "authors": [
+        "Yuxin Shen",
+        "Maddie Lewis",
+        "Juno Underhill",
+        "Adrian J. Mulholland",
+        "Diego A. Oyarzún",
+        "Paul Curnow"
+      ],
+      "doi": "10.1021/acssynbio.6c00206",
+      "first_seen": "2026-09-24",
+      "published": "2026-09-23",
+      "reasons": [
+        "protein design",
+        "protein engineering",
+        "experimental validation",
+        "protein",
+        "sequence"
+      ],
+      "source": "ACS Synthetic Biology",
+      "source_id": "10.1021/acssynbio.6c00206",
+      "title": "Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a"
     },
     "doi:10.1021/acssynbio.6c00633": {
       "abstract": "Abstract The rapid growth of genomic and metagenomic data has created a large gap between protein sequence discovery and enzyme functional characterization. Deep learning has become an important tool for enzyme-related prediction tasks, including EC and GO annotation, substrate specificity, catalytic-residue identification, kinetic-parameter estimation, thermostability, pH optima, and candidate discovery. This review summarizes recent progress with an emphasis on benchmark design rather than reported scores alone. We compare representative methods by input modality, training data, split strategy, leakage control, evaluation metric, and validation evidence. Across tasks, apparent performance gains can arise from dataset scale, annotation quality, homolog overlap, negative sampling, or endpoint definition rather than architecture alone. Current models are valuable for annotation and candidate prioritization, but robust discovery of remote homologs, rare functions, or new catalytic activities still requires low-identity or out-of-distribution evaluation and experimental validation.",

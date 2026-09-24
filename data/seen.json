@@ -138,6 +138,12 @@
       "title": "Ultrasensitive de novo Protein Sandwich Lateral flow Fluorescence Assay for Cortisol in Saliva and Serum using Quantum dots and Europium Nanoparticles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42364004/"
     },
+    "doi:10.1007/s10930-026-10354-4": {
+      "first_seen": "2026-09-24",
+      "source": "PubMed",
+      "title": "NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776334/"
+    },
     "doi:10.1007/s11030-026-11638-8": {
       "first_seen": "2026-07-13",
       "source": "PubMed",
@@ -167,6 +173,12 @@
       "source": "Acta Pharmaceutica Sinica B",
       "title": "De novo design of miniprotein drug conjugates targeting NECTIN-4 for cancer therapy",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211383526005642"
+    },
+    "doi:10.1016/j.bbrc.2026.154391": {
+      "first_seen": "2026-09-24",
+      "source": "PubMed",
+      "title": "PLM-ArgMe: Protein language model for arginine methylation prediction for different species.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42570489/"
     },
     "doi:10.1016/j.bbrc.2026.154567": {
       "first_seen": "2026-09-10",
@@ -258,11 +270,29 @@
       "title": "AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X"
     },
+    "doi:10.1016/j.ejmp.2026.106108": {
+      "first_seen": "2026-09-24",
+      "source": "Physica Medica",
+      "title": "ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394"
+    },
     "doi:10.1016/j.engmic.2026.100305": {
       "first_seen": "2026-09-12",
       "source": "Engineering Microbiology",
       "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
+    "doi:10.1016/j.fbio.2026.110064": {
+      "first_seen": "2026-09-24",
+      "source": "Food Bioscience",
+      "title": "Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389"
+    },
+    "doi:10.1016/j.foodchem.2026.151247": {
+      "first_seen": "2026-09-24",
+      "source": "Food Chemistry",
+      "title": "Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
@@ -467,6 +497,12 @@
       "source": "PubMed",
       "title": "Machine Learning for Microbial Cell Factories: Pathway Design, Enzyme Engineering, and Metabolic Regulation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42359840/"
+    },
+    "doi:10.1021/acssynbio.6c00206": {
+      "first_seen": "2026-09-24",
+      "source": "ACS Synthetic Biology",
+      "title": "Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design",
+      "url": "https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a"
     },
     "doi:10.1021/acssynbio.6c00633": {
       "first_seen": "2026-09-05",
