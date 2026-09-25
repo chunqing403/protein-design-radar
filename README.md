@@ -7,36 +7,34 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-24** (`2026-09-24T05:00:33Z`)
+Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a)<br><sub>Yuxin Shen, Maddie Lewis, Juno Underhill et al.</sub> | ACS Synthetic Biology<br>2026-09-23 | Structure generation, Sequence design, Experimental validation |
-| 2 | [Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389)<br><sub>Xintong Li, Jialong Gao, Xiaoyu Xia et al.</sub> | Food Bioscience<br>2026-09 | Binders and therapeutics |
-| 3 | [ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION](https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394)<br><sub>M. Santoro, S. Proto, A. Farolfi et al.</sub> | Physica Medica<br>2026-09 | Binders and therapeutics |
-| 4 | [Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform](https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072)<br><sub>Haoyu Xiong, Yuxiao Wang, Shijie Pu et al.</sub> | Food Chemistry<br>2026-09 | Structure generation |
-| 5 | [PLM-ArgMe: Protein language model for arginine methylation prediction for different species.](https://pubmed.ncbi.nlm.nih.gov/42570489/)<br><sub>Bhatt N, Joshi K, Rout RK et al.</sub> | PubMed<br>2026 Sep 24 | Protein language models |
-| 6 | [NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.](https://pubmed.ncbi.nlm.nih.gov/42776334/)<br><sub>Qiao T, Feng Y</sub> | PubMed<br>2026 Sep 23 | Protein language models |
+| 1 | [AlphaFold 'goes viral': database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1)<br><sub>Ewen Callaway</sub> | Nature<br>2026-09-24 | General |
+| 2 | [ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.](https://pubmed.ncbi.nlm.nih.gov/42785405/)<br><sub>Bhati U, Gupta S, Kesarwani V et al.</sub> | PubMed<br>2026 Sep 24 | Protein language models |
+| 3 | [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/)<br><sub>Qin Z, Zhao S, Deng Z et al.</sub> | PubMed<br>2026 Sep 24 | Structure generation, Sequence design, Enzymes and function, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 41 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 42 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 56 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 57 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 29 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 6 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
-| [General / 综合](#paper-category-general) | 13 |
+| [General / 综合](#paper-category-general) | 14 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (41)
+#### Structure Generation / 结构生成 (42)
 
+- [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
 - [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a) (ACS Synthetic Biology, 2026-09-23; first seen 2026-09-24; Structure generation, Sequence design, Experimental validation)
 - [Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform](https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072) (Food Chemistry, 2026-09; first seen 2026-09-24; Structure generation)
 - [Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering) (ACS Catalysis, 2026-09-21; first seen 2026-09-22; Structure generation, Sequence design, Enzymes and function)
@@ -101,8 +99,9 @@ Updated: **2026-09-24** (`2026-09-24T05:00:33Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (56)
+#### Protein Language Models / 蛋白质语言模型 (57)
 
+- [ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.](https://pubmed.ncbi.nlm.nih.gov/42785405/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Protein language models)
 - [PLM-ArgMe: Protein language model for arginine methylation prediction for different species.](https://pubmed.ncbi.nlm.nih.gov/42570489/) (PubMed, 2026 Sep 24; first seen 2026-09-24; Protein language models)
 - [NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.](https://pubmed.ncbi.nlm.nih.gov/42776334/) (PubMed, 2026 Sep 23; first seen 2026-09-24; Protein language models)
 - [AVP-GPT2: Prompt-Conditioned Fine-Tuning of a GPT-2 Protein Language Model for Antiviral Peptide Identification](https://linkinghub.elsevier.com/retrieve/pii/S022352342600797X) (European Journal of Medicinal Chemistry, 2026-09; first seen 2026-09-22; Protein language models, Binders and therapeutics)
@@ -163,8 +162,8 @@ Updated: **2026-09-24** (`2026-09-24T05:00:33Z`)
 <a id="paper-category-binders-and-therapeutics"></a>
 #### Binders & Therapeutics / 结合蛋白与治疗 (29)
 
-- [Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389) (Food Bioscience, 2026-09; first seen 2026-09-24; Binders and therapeutics)
 - [ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION](https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394) (Physica Medica, 2026-09; first seen 2026-09-24; Binders and therapeutics)
+- [Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389) (Food Bioscience, 2026-09; first seen 2026-09-24; Binders and therapeutics)
 - [Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins](https://pnas.org/doi/10.1073/pnas.2536559123) (Proc. Natl. Acad. Sci. U.S.A., 2026-09-29; first seen 2026-09-23; Binders and therapeutics, Enzymes and function)
 - [Latent generative search unlocks de novo design of untapped biomolecular interactions at scale](https://doi.org/10.64898/2026.09.12.751118) (bioRxiv, 2026-09-18; first seen 2026-09-19; Binders and therapeutics)
 - [A Unified 3D Generative Model for Synthesizable Structure-Based Drug Design](https://doi.org/10.64898/2026.09.15.751537) (bioRxiv, 2026-09-18; first seen 2026-09-19; Binders and therapeutics, Experimental validation)
@@ -211,8 +210,9 @@ Updated: **2026-09-24** (`2026-09-24T05:00:33Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (13)
+#### General / 综合 (14)
 
+- [AlphaFold 'goes viral': database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1) (Nature, 2026-09-24; first seen 2026-09-25; General)
 - [Sculpting semisynthetic conducting protein pores by de novo design](https://www.nature.com/articles/s41594-026-01880-x) (Nat Struct Mol Biol, 2026-09-22; first seen 2026-09-23; General)
 - [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9) (Nat Commun, 2026-09-21; first seen 2026-09-22; General)
 - [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177) (Bioinformatics, 2026-09-21; first seen 2026-09-22; General)
@@ -229,7 +229,7 @@ Updated: **2026-09-24** (`2026-09-24T05:00:33Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-24](outputs/daily/2026-09-24.md)
+- [Daily report for 2026-09-25](outputs/daily/2026-09-25.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

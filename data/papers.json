@@ -1230,6 +1230,31 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072"
     },
+    "doi:10.1016/j.ijbiomac.2026.154380": {
+      "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
+      "authors": [
+        "Bhati U",
+        "Gupta S",
+        "Kesarwani V",
+        "Shankar R"
+      ],
+      "doi": "10.1016/j.ijbiomac.2026.154380",
+      "first_seen": "2026-09-25",
+      "published": "2026 Sep 24",
+      "reasons": [
+        "deep learning",
+        "transformer",
+        "protein",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42785405",
+      "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
+    },
     "doi:10.1016/j.jmb.2026.169660": {
       "abstract": "The precise localization of proteins within prokaryotic cells is fundamental to understanding their function. However, existing models still struggle with challenging localization classes, such as cell wall or outer membrane proteins. We introduce LocPred-Prok, a novel deep learning framework that redefines performance standards for prokaryotic subcellular localization. LocPred-Prok employs a purpose-built dual-branch architecture that synergistically integrates global and local sequence features extracted from pLM embeddings. On a stringent, homology-partitioned benchmark, LocPred-Prok achieves a state-of-the-art accuracy of 91.2 % and a Matthews Correlation Coefficient (MCC) of 0.889. Critically, it resolves long-standing prediction challenges, demonstrating exceptional performance on notoriously difficult classes like Gram-positive cell wall and Gram-negative outer membrane proteins. It substantially outperforms recent and classic methods across all organismal subgroups, representing a significant leap forward in the field. The LocPred-Prok web server is freely accessible athttps://huggingface.co/spaces/isyslab/LocPred-Prok.",
       "authors": [
@@ -1417,6 +1442,44 @@
         "Binders and therapeutics"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845"
+    },
+    "doi:10.1016/j.molcel.2026.08.028": {
+      "abstract": "Despite the significant progress made in recent years, current AI-driven protein engineering methods often suffer from iterative experimental validation, limited success rates, modest improvements, and/or high computational costs. Moreover, their utility for evolving plant proteins remains unexplored. Here we present unZipro, an efficient, scalable, and generalizable framework for zero-shot, in silico protein evolution. unZipro integrates a compact, pre-trained inverse folding model with meta-learning to derive family-specific fitness landscapes. We demonstrate unZipro's ability to directly identify high-activity variants from minimal libraries (∼10 candidates) with an average success rate of 61% across nine diverse proteins, achieving up to a 28-fold increase in the gene-editing activity of T5E-CasΦ2 fusion variants. Leveraging unZipro, we developed state-of-the-art plant gene-editing nucleases, superior firefly luciferase variants, enhanced rice transcription factors, and barley-derived antiviral proteins with elevated potency. Overall, unZipro represents a new paradigm for cost-effective, widely accessible, and transformative protein engineering in biology, biotechnology, and agriculture.",
+      "authors": [
+        "Qin Z",
+        "Zhao S",
+        "Deng Z",
+        "Si X",
+        "Xing C",
+        "Zhang Z",
+        "Zhang Y",
+        "Han X",
+        "Zhang J",
+        "Chen Y",
+        "Liu X",
+        "Li J"
+      ],
+      "doi": "10.1016/j.molcel.2026.08.028",
+      "first_seen": "2026-09-25",
+      "published": "2026 Sep 24",
+      "reasons": [
+        "inverse folding",
+        "protein engineering",
+        "experimental validation",
+        "AI-driven",
+        "folding",
+        "fitness landscape"
+      ],
+      "source": "PubMed",
+      "source_id": "42785296",
+      "title": "Simplifying in silico protein evolution with minimal screening by unZipro.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42785296/"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.",
@@ -2235,6 +2298,26 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
+    },
+    "doi:10.1038/d41586-026-03022-1": {
+      "abstract": "",
+      "authors": [
+        "Ewen Callaway"
+      ],
+      "doi": "10.1038/d41586-026-03022-1",
+      "first_seen": "2026-09-25",
+      "published": "2026-09-24",
+      "reasons": [
+        "AlphaFold",
+        "protein"
+      ],
+      "source": "Nature",
+      "source_id": "10.1038/d41586-026-03022-1",
+      "title": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/d41586-026-03022-1"
     },
     "doi:10.1038/s10038-026-01484-9": {
       "abstract": "Channelopathies represent a group of diseases often caused by missense variants in ion channels affecting the functioning of tissues like the nervous system, heart, and muscle. The gold standard for functionally characterizing a variant is to measure the electrophysiological changes in channel properties using cell-based heterologous expression systems. As this method is time-consuming and generally unavailable, clinical practice often relies on in-silico models to predict the functional consequences of ion channel variants. We constructed a Missense ION (MissION) channel variant classifier based on a protein language model and trained it on 1996 gain- or loss-of-function variants, the largest set collected to date, in order to predict the functional effects of variants across a broad range of ion channels. MissION achieves a significant increase in predictive performance (Area Under the Receiver Operating Characteristic Curve (ROC-AUC): 0.918, compared to 0.884 and 0.779 for the current leading models). Moreover, the model generalizes well to ion channel genes for which little or no electrophysiological recordings are available. MissION provides functional predictions for over 600,000 ion channel variants, made available through an online interface that allows variant interpretation for a wide range of channelopathies.",

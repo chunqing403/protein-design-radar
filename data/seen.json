@@ -300,6 +300,12 @@
       "title": "Cross-region combinatorial mutagenesis reveals context-dependent enhancement of 3α-hydroxysteroid dehydrogenase catalytic efficiency.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42379440/"
     },
+    "doi:10.1016/j.ijbiomac.2026.154380": {
+      "first_seen": "2026-09-25",
+      "source": "PubMed",
+      "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
+    },
     "doi:10.1016/j.jmb.2026.169660": {
       "first_seen": "2026-09-15",
       "source": "PubMed",
@@ -341,6 +347,12 @@
       "source": "Journal of Structural Biology",
       "title": "Antibody CDR-H3 loop flexibility: Insights from X-ray crystallography, structural bioinformatics, and the limits of current deep learning methods",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047847726000845"
+    },
+    "doi:10.1016/j.molcel.2026.08.028": {
+      "first_seen": "2026-09-25",
+      "source": "PubMed",
+      "title": "Simplifying in silico protein evolution with minimal screening by unZipro.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42785296/"
     },
     "doi:10.1016/j.molp.2026.08.002": {
       "first_seen": "2026-08-05",
@@ -521,6 +533,12 @@
       "source": "Journal of the American Chemical Society",
       "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
+    },
+    "doi:10.1038/d41586-026-03022-1": {
+      "first_seen": "2026-09-25",
+      "source": "Nature",
+      "title": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
+      "url": "https://www.nature.com/articles/d41586-026-03022-1"
     },
     "doi:10.1038/s10038-026-01484-9": {
       "first_seen": "2026-09-01",
