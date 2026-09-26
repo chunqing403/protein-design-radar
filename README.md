@@ -7,15 +7,14 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
+Updated: **2026-09-26** (`2026-09-26T05:08:07Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [AlphaFold 'goes viral': database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1)<br><sub>Ewen Callaway</sub> | Nature<br>2026-09-24 | General |
-| 2 | [ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.](https://pubmed.ncbi.nlm.nih.gov/42785405/)<br><sub>Bhati U, Gupta S, Kesarwani V et al.</sub> | PubMed<br>2026 Sep 24 | Protein language models |
-| 3 | [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/)<br><sub>Qin Z, Zhao S, Deng Z et al.</sub> | PubMed<br>2026 Sep 24 | Structure generation, Sequence design, Enzymes and function, Experimental validation |
+| 1 | [A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions](https://www.nature.com/articles/s41467-026-78063-1)<br><sub>Kai Cao, Rui Li, Martin Stražar et al.</sub> | Nat Commun<br>2026-09-25 | Binders and therapeutics |
+| 2 | [Evaluation of protein sequence retrieval via protein language model embeddings and FAISS](https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384)<br><sub>Can Wu, Haoran Zhang, Liqiong Chen</sub> | Computational Biology and Chemistry<br>2026-09 | Protein language models |
 
 ### Paper Directory / 文献目录
 
@@ -23,8 +22,8 @@ Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 42 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 57 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 29 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 58 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 30 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 6 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
 | [General / 综合](#paper-category-general) | 14 |
@@ -99,8 +98,9 @@ Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (57)
+#### Protein Language Models / 蛋白质语言模型 (58)
 
+- [Evaluation of protein sequence retrieval via protein language model embeddings and FAISS](https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384) (Computational Biology and Chemistry, 2026-09; first seen 2026-09-26; Protein language models)
 - [ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.](https://pubmed.ncbi.nlm.nih.gov/42785405/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Protein language models)
 - [PLM-ArgMe: Protein language model for arginine methylation prediction for different species.](https://pubmed.ncbi.nlm.nih.gov/42570489/) (PubMed, 2026 Sep 24; first seen 2026-09-24; Protein language models)
 - [NRB-FusePS: A Protein Language Model-Based Multimodal Framework for Predicting Ligand-Binding Residues in Nuclear Receptors.](https://pubmed.ncbi.nlm.nih.gov/42776334/) (PubMed, 2026 Sep 23; first seen 2026-09-24; Protein language models)
@@ -160,8 +160,9 @@ Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (29)
+#### Binders & Therapeutics / 结合蛋白与治疗 (30)
 
+- [A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions](https://www.nature.com/articles/s41467-026-78063-1) (Nat Commun, 2026-09-25; first seen 2026-09-26; Binders and therapeutics)
 - [ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION](https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394) (Physica Medica, 2026-09; first seen 2026-09-24; Binders and therapeutics)
 - [Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389) (Food Bioscience, 2026-09; first seen 2026-09-24; Binders and therapeutics)
 - [Programmed inhibition of an innate immune receptor via de novo designed transmembrane proteins](https://pnas.org/doi/10.1073/pnas.2536559123) (Proc. Natl. Acad. Sci. U.S.A., 2026-09-29; first seen 2026-09-23; Binders and therapeutics, Enzymes and function)
@@ -212,7 +213,7 @@ Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 <a id="paper-category-general"></a>
 #### General / 综合 (14)
 
-- [AlphaFold 'goes viral': database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1) (Nature, 2026-09-24; first seen 2026-09-25; General)
+- [AlphaFold ‘goes viral’: database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1) (Nature, 2026-09-24; first seen 2026-09-25; General)
 - [Sculpting semisynthetic conducting protein pores by de novo design](https://www.nature.com/articles/s41594-026-01880-x) (Nat Struct Mol Biol, 2026-09-22; first seen 2026-09-23; General)
 - [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9) (Nat Commun, 2026-09-21; first seen 2026-09-22; General)
 - [DeepGVS: a bimodal deep learning framework integrating coding-sequence and protein-structural representations for virulence factor prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177) (Bioinformatics, 2026-09-21; first seen 2026-09-22; General)
@@ -229,7 +230,7 @@ Updated: **2026-09-25** (`2026-09-25T05:04:43Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-25](outputs/daily/2026-09-25.md)
+- [Daily report for 2026-09-26](outputs/daily/2026-09-26.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

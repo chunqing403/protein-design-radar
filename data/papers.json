@@ -1051,6 +1051,29 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
     },
+    "doi:10.1016/j.compbiolchem.2026.109411": {
+      "abstract": "",
+      "authors": [
+        "Can Wu",
+        "Haoran Zhang",
+        "Liqiong Chen"
+      ],
+      "doi": "10.1016/j.compbiolchem.2026.109411",
+      "first_seen": "2026-09-26",
+      "published": "2026-09",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "Computational Biology and Chemistry",
+      "source_id": "10.1016/j.compbiolchem.2026.109411",
+      "title": "Evaluation of protein sequence retrieval via protein language model embeddings and FAISS",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384"
+    },
     "doi:10.1016/j.curpro.2026.100150": {
       "abstract": "",
       "authors": [
@@ -2313,7 +2336,7 @@
       ],
       "source": "Nature",
       "source_id": "10.1038/d41586-026-03022-1",
-      "title": "AlphaFold 'goes viral': database adds protein complexes of common viruses",
+      "title": "AlphaFold ‘goes viral’: database adds protein complexes of common viruses",
       "topics": [
         "General"
       ],
@@ -2523,6 +2546,37 @@
         "General"
       ],
       "url": "https://www.nature.com/articles/s41467-026-77607-9"
+    },
+    "doi:10.1038/s41467-026-78063-1": {
+      "abstract": "",
+      "authors": [
+        "Kai Cao",
+        "Rui Li",
+        "Martin Stražar",
+        "Eric M. Brown",
+        "Phuong N. U. Nguyen",
+        "Marie-Madlen Pust",
+        "Jihye Park",
+        "Daniel B. Graham",
+        "Orr Ashenberg",
+        "Caroline Uhler",
+        "Ramnik J. Xavier"
+      ],
+      "doi": "10.1038/s41467-026-78063-1",
+      "first_seen": "2026-09-26",
+      "published": "2026-09-25",
+      "reasons": [
+        "deep learning",
+        "peptide",
+        "structure"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-78063-1",
+      "title": "A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-78063-1"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",

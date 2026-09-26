@@ -252,6 +252,12 @@
       "title": "REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
     },
+    "doi:10.1016/j.compbiolchem.2026.109411": {
+      "first_seen": "2026-09-26",
+      "source": "Computational Biology and Chemistry",
+      "title": "Evaluation of protein sequence retrieval via protein language model embeddings and FAISS",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384"
+    },
     "doi:10.1016/j.curpro.2026.100150": {
       "first_seen": "2026-09-12",
       "source": "Current Proteomics",
@@ -587,6 +593,12 @@
       "source": "Nat Commun",
       "title": "Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design",
       "url": "https://www.nature.com/articles/s41467-026-77607-9"
+    },
+    "doi:10.1038/s41467-026-78063-1": {
+      "first_seen": "2026-09-26",
+      "source": "Nat Commun",
+      "title": "A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions",
+      "url": "https://www.nature.com/articles/s41467-026-78063-1"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
