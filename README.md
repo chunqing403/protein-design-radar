@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-26** (`2026-09-26T05:08:07Z`)
+Updated: **2026-09-27** (`2026-09-27T05:25:49Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics |
-|---|---|---|---|
-| 1 | [A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions](https://www.nature.com/articles/s41467-026-78063-1)<br><sub>Kai Cao, Rui Li, Martin Stražar et al.</sub> | Nat Commun<br>2026-09-25 | Binders and therapeutics |
-| 2 | [Evaluation of protein sequence retrieval via protein language model embeddings and FAISS](https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384)<br><sub>Can Wu, Haoran Zhang, Liqiong Chen</sub> | Computational Biology and Chemistry<br>2026-09 | Protein language models |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Paper Directory / 文献目录
 
@@ -230,7 +227,7 @@ Updated: **2026-09-26** (`2026-09-26T05:08:07Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-26](outputs/daily/2026-09-26.md)
+- [Daily report for 2026-09-27](outputs/daily/2026-09-27.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
