@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/claude-optimizes-36-bio-models.html",
+      "cover": "assets/wechat/claude-optimizes-36-bio-models/cover.jpg",
+      "description": "看 Anthropic 这篇报告，先看到的是一笔算力账。",
+      "featured": true,
+      "published": "2026-09-19",
+      "slug": "claude-optimizes-36-bio-models",
+      "source_url": "https://mp.weixin.qq.com/s/4mtIbOLJrq90iuz8KOlQXA",
+      "title": "Claude 优化并开源了 36 个生物模型，蛋白设计终于能少烧一点卡了吗",
+      "topics": [
+        "蛋白设计",
+        "模型优化",
+        "Claude"
+      ]
+    }
+  ]
+}
