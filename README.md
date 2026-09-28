@@ -7,29 +7,33 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-27** (`2026-09-27T05:25:49Z`)
+Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics |
+|---|---|---|---|
+| 1 | [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960)<br><sub>ZHANG, Z., Jin, R., Liu, J. et al.</sub> | bioRxiv<br>2026-09-26 | Enzymes and function |
+| 2 | [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551)<br><sub>Hu, J., Wang, W., Zhang, B. et al.</sub> | bioRxiv<br>2026-09-26 | Structure generation, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 42 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 43 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 58 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 30 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 6 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 7 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
 | [General / 综合](#paper-category-general) | 14 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (42)
+#### Structure Generation / 结构生成 (43)
 
+- [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551) (bioRxiv, 2026-09-26; first seen 2026-09-28; Structure generation, Experimental validation)
 - [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
 - [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a) (ACS Synthetic Biology, 2026-09-23; first seen 2026-09-24; Structure generation, Sequence design, Experimental validation)
 - [Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform](https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072) (Food Chemistry, 2026-09; first seen 2026-09-24; Structure generation)
@@ -144,7 +148,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.](https://pubmed.ncbi.nlm.nih.gov/42423121/) (PubMed, 2026 Aug 01; first seen 2026-08-01; Protein language models, Binders and therapeutics, Enzymes and function)
 - [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331) (biorxiv, 2026-07-21; first seen 2026-07-23; Protein language models, Binders and therapeutics, Enzymes and function)
 - [DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1) (arXiv, 2026-07-21; first seen 2026-07-22; Protein language models, Binders and therapeutics)
-- [Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.](https://pubmed.ncbi.nlm.nih.gov/42462410/) (PubMed, 2026 Jul 16; first seen 2026-07-18; Protein language models, Binders and therapeutics)
+- [Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.](https://pubmed.ncbi.nlm.nih.gov/42462410/) (PubMed, 2026 Sep 27; first seen 2026-07-18; Protein language models, Binders and therapeutics)
 - [A Unified Molecular Graph and Protein Language Model Framework for Predicting Human Drug-Hormone Receptor Interactions with Structure-Aware Validation.](https://pubmed.ncbi.nlm.nih.gov/42402023/) (PubMed, 2026 Jul 27; first seen 2026-07-06; Protein language models, Binders and therapeutics, Enzymes and function)
 - [Knowledge Distillation of a Protein Language Model Yields a Foundational Implicit Solvent Model.](https://pubmed.ncbi.nlm.nih.gov/42397283/) (PubMed, 2026 Jul 28; first seen 2026-07-04; Protein language models)
 - [Integrating Multi-View Residue Graph and Protein Language Model for Cell-Penetrating Peptide Prediction via Global-Local Graph Aggregation and Cross-Attentive Fusion.](https://pubmed.ncbi.nlm.nih.gov/42391080/) (PubMed, 2026 Jul 02; first seen 2026-07-03; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
@@ -191,8 +195,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (6)
+#### Enzymes & Function / 酶与功能 (7)
 
+- [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960) (bioRxiv, 2026-09-26; first seen 2026-09-28; Enzymes and function)
 - [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/) (PubMed, 2026 Sep 01; first seen 2026-09-22; Enzymes and function, Experimental validation)
 - [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and) (ACS Synthetic Biology, 2026-09-04; first seen 2026-09-05; Enzymes and function, Experimental validation)
 - [From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.](https://pubmed.ncbi.nlm.nih.gov/42002010/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Enzymes and function, Experimental validation)
@@ -227,7 +232,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-09-27](outputs/daily/2026-09-27.md)
+- [Daily report for 2026-09-28](outputs/daily/2026-09-28.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

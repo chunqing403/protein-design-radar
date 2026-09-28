@@ -780,6 +780,12 @@
       "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
     },
+    "doi:10.1101/2024.02.02.578551": {
+      "first_seen": "2026-09-28",
+      "source": "bioRxiv",
+      "title": "Cerebra: a computationally efficient framework for accurate protein structure prediction",
+      "url": "https://doi.org/10.1101/2024.02.02.578551"
+    },
     "doi:10.1101/2024.03.09.583681": {
       "first_seen": "2026-06-30",
       "source": "biorxiv",
@@ -791,6 +797,12 @@
       "source": "biorxiv",
       "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2024.10.23.619960": {
+      "first_seen": "2026-09-28",
+      "source": "bioRxiv",
+      "title": "FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking",
+      "url": "https://doi.org/10.1101/2024.10.23.619960"
     },
     "doi:10.1101/2025.03.12.642937": {
       "first_seen": "2026-09-16",

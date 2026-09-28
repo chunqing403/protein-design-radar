@@ -1002,7 +1002,7 @@
       ],
       "doi": "10.1016/j.chroma.2026.467271",
       "first_seen": "2026-07-18",
-      "published": "2026 Jul 16",
+      "published": "2026 Sep 27",
       "reasons": [
         "protein language model",
         "artificial intelligence",
@@ -3311,6 +3311,35 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
     },
+    "doi:10.1101/2024.02.02.578551": {
+      "abstract": "Remarkable progress has been made in the field of protein structure prediction. Representative methods like AlphaFold and RoseTTAFold achieve prediction accuracy close to experimental structural determination, but at the cost of heavy computational consumption for model training. In this work, we propose a new framework, Cerebra, for improving the computational efficiency of protein structure prediction. In this network architecture, multiple sets of atomic coordinates are predicted parallelly and their mutual complementarity is leveraged to rapidly improve the quality of predicted structures through a new attention mechanism named Path Synthesis Attention (PSA). Consequently, Cerebra markedly reduces the computational consumption, achieving evident acceleration on both model training and inference, in comparison to OpenFold, the academic version of AlphaFold2. When evaluated on the CAMEO 2025 dataset, the Cerebra model trained on a limited number of GPUs shows a comparable performance to the published OpenFold model that has been thoroughly optimized using a plethora of computational resources. Moreover, ablation studies confirm that the PSA mechanism efficiently accelerates the network convergence, suggesting its potential in handling the many-body effects of protein geometries in graph-based models. Finally, the fast inference of Cerebra effectively assists hallucination-based de novo protein backbone design, allowing the production of abundant backbone structures with sufficient designability and novelty.",
+      "authors": [
+        "Hu, J.",
+        "Wang, W.",
+        "Zhang, B.",
+        "Cao, Y.",
+        "Gong, H."
+      ],
+      "doi": "10.1101/2024.02.02.578551",
+      "first_seen": "2026-09-28",
+      "published": "2026-09-26",
+      "reasons": [
+        "de novo protein",
+        "structure prediction",
+        "AlphaFold",
+        "RoseTTAFold",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2024.02.02.578551",
+      "title": "Cerebra: a computationally efficient framework for accurate protein structure prediction",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.1101/2024.02.02.578551"
+    },
     "doi:10.1101/2024.10.02.616302": {
       "abstract": "From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
       "authors": [
@@ -3341,6 +3370,38 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2024.10.02.616302"
+    },
+    "doi:10.1101/2024.10.23.619960": {
+      "abstract": "Proteins are the principal architects of life, fueling advances in bioengineering, drug discovery, and synthetic biology. The integration of generative AI with computational protein science has revolutionized protein design while also posing dual-use risks, such as enabling the creation of pandemic-capable proteins that require strong biosecurity safeguards. Here, we introduce FoldMark, a first-of-its-kind watermarking strategy leveraging distributional and evolutionary principles tailored for protein generative models, balancing watermark capacity and structural quality. FoldMark achieves over 95% watermark bit accuracy at 32 bits with minimal impact on structural quality (>0.9 scTM scores) for leading models including AlphaFold3, ESMFold, RFDiffusion, and RFDiffusionAA. For user tracing, FoldMark can successfully trace up to 1 million users. To validate FoldMark in wet lab, we applied it to structure-based design of EGFP and CRISPR-Cas13, showing wildtype-level function (98% fluorescence, 95% editing efficiency) and >90% watermark detection, demonstrating its practical utility for safeguarding AI-driven protein research.",
+      "authors": [
+        "ZHANG, Z.",
+        "Jin, R.",
+        "Liu, J.",
+        "Xu, G.",
+        "Wang, X.",
+        "Zitnik, M.",
+        "Zhao, H.",
+        "Cong, L.",
+        "Wang, M."
+      ],
+      "doi": "10.1101/2024.10.23.619960",
+      "first_seen": "2026-09-28",
+      "published": "2026-09-26",
+      "reasons": [
+        "protein design",
+        "RFdiffusion",
+        "AI-driven",
+        "generative model",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2024.10.23.619960",
+      "title": "FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.1101/2024.10.23.619960"
     },
     "doi:10.1101/2025.03.12.642937": {
       "abstract": "Predicting variant effects remains a central challenge in genomics. Protein language models (PLMs) capture amino-acid-level sequence constraints, whereas codon language models operate on coding sequences and may retain information that is lost upon translation. Here, we tested whether scores from the codon language model CaLM provide predictive information beyond protein-level representations for missense-variant interpretation. Across 71,436 ClinVar missense variants from 11,554 genes, adding CaLM to PLM baselines produced modest but reproducible improvements under gene-held-out cross-validation. PLM-only ensemble controls and explicit mutational-context analyses indicated that this improvement could not be explained solely by generic ensembling or simple codon-substitution features. Aggregating CaLM probabilities across synonymous codons attenuated codon-degeneracy-associated discordance while preserving most of the broader differences between CaLM and PLM scores. Gene-level analyses further showed that CaLM contribution varied continuously across genes and depended partly on the protein-model background. Across ClinMAVE functional assays, however, improvements were less consistent, indicating that codon-protein complementarity is context dependent rather than universal. Together, these results identify a modest but reproducible component of variant-effect information in CaLM-derived codon-level scores that is not fully captured by protein-level language-model representations.",
