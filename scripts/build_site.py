@@ -213,9 +213,9 @@ def build_home(articles: list[dict], news: list[dict], papers: list[dict], news_
   <div class="paper-list">{latest_papers}</div>
 </section>
 <section class="magazine-about" id="about">
-  <div><span>Editorial scope</span><h2>我们在追踪什么</h2></div>
-  <p>从模型发布到湿实验结果，记录蛋白设计领域真正值得继续关注的论文、工具和产业变化。</p>
-  <a href="articles.html">阅读中文解读 →</a>
+  <div><span>编辑手记</span><h2>从模型到实验，追踪一条完整的设计链</h2></div>
+  <p>关注生成模型、序列与结构设计、功能验证、开源工具和产业动向；重要进展会进入论文库，也会写成中文解读。</p>
+  <a href="articles.html">浏览全部文章 →</a>
 </section>
 </div>"""
 
