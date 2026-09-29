@@ -212,7 +212,11 @@ def build_home(articles: list[dict], news: list[dict], papers: list[dict], news_
   <div class="magazine-section-head"><span>Paper radar</span><a href="papers.html">完整文献库 →</a></div>
   <div class="paper-list">{latest_papers}</div>
 </section>
-<section class="magazine-about" id="about"><span>CAOM</span><p>AI、蛋白设计与计算生物学的中文独立归档。</p></section>
+<section class="magazine-about" id="about">
+  <div><span>Editorial scope</span><h2>我们在追踪什么</h2></div>
+  <p>从模型发布到湿实验结果，记录蛋白设计领域真正值得继续关注的论文、工具和产业变化。</p>
+  <a href="articles.html">阅读中文解读 →</a>
+</section>
 </div>"""
 
 

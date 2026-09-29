@@ -101,9 +101,11 @@ img { display: block; max-width: 100%; }
 .signal-attribution { margin: 18px 0 0; color: var(--muted); font-size: .68rem; }
 .research-section { border-top: 1px solid #bfcac6; }
 .research-section .paper-row { grid-template-columns: 110px 1fr; }
-.magazine-about { padding: 58px max(24px, calc((100vw - 1120px) / 2)); background: var(--home-green); color: var(--white); display: flex; justify-content: space-between; align-items: baseline; gap: 30px; }
-.magazine-about span { font-family: Georgia, serif; font-size: 2.5rem; font-weight: 700; }
-.magazine-about p { margin: 0; color: #d4ece6; }
+.magazine-about { width: calc(100% - 48px); max-width: 1120px; margin: 0 auto 76px; padding: 42px 0; border-top: 1px solid #9dafaa; border-bottom: 1px solid #d7dfdc; display: grid; grid-template-columns: minmax(260px, .8fr) minmax(360px, 1.2fr) auto; gap: 52px; align-items: center; }
+.magazine-about span { color: var(--home-coral); text-transform: uppercase; font-size: .7rem; font-weight: 800; }
+.magazine-about h2 { margin: 6px 0 0; font-family: Georgia, "Noto Serif SC", serif; font-size: 2rem; }
+.magazine-about p { margin: 0; color: var(--muted); font-size: .98rem; }
+.magazine-about a { color: var(--home-green); white-space: nowrap; font-size: .78rem; font-weight: 800; }
 
 .section-band { padding: 72px clamp(20px, 7vw, 100px); border-bottom: 1px solid var(--line); }
 .section-band.compact { padding-top: 18px; }
@@ -220,7 +222,8 @@ img { display: block; max-width: 100%; }
   .magazine-story h3 { font-size: 1.25rem; }
   .signal-column { padding: 22px 20px; }
   .research-section .paper-row { grid-template-columns: 1fr; }
-  .magazine-about { padding: 42px 20px; align-items: flex-start; flex-direction: column; gap: 8px; }
+  .magazine-about { width: calc(100% - 40px); margin-bottom: 54px; padding: 34px 0; grid-template-columns: 1fr; gap: 18px; align-items: start; }
+  .magazine-about h2 { font-size: 1.75rem; }
   .story-row { grid-template-columns: 1fr 42px; gap: 16px; }
   .story-meta { grid-column: 1 / -1; flex-direction: row; gap: 10px; }
   .paper-row { grid-template-columns: 1fr; gap: 6px; }
