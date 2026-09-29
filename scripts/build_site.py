@@ -127,6 +127,14 @@ def news_row(record: dict) -> str:
 </article>"""
 
 
+def news_brief(record: dict) -> str:
+    return f"""
+<article class="brief-row">
+  <div><span>{esc(record.get('source'))}</span><time>{esc(record.get('published') or record.get('first_seen'))}</time></div>
+  <h3><a href="{esc(record.get('url'))}" target="_blank" rel="noopener noreferrer">{esc(record.get('title'))}</a></h3>
+</article>"""
+
+
 def sorted_papers(library: dict) -> list[dict]:
     return sorted(
         library.get("papers", {}).values(),
@@ -147,37 +155,43 @@ def build_home(articles: list[dict], news: list[dict], papers: list[dict], news_
     featured = next((article for article in articles if article.get("featured")), articles[0])
     cover = featured.get("cover", "")
     hero_style = f' style="background-image: url(\'{esc(cover)}\')"' if cover else ""
-    latest_stories = "".join(article_row(article) for article in articles[:4])
-    latest_news = "".join(news_row(item) for item in news[: int(news_config.get("homepage_limit", 8))])
-    latest_papers = "".join(paper_row(paper) for paper in papers[:8])
+    latest_articles = [item for item in articles if item.get("slug") != featured.get("slug")][:4]
+    latest_stories = "".join(article_row(article) for article in latest_articles)
+    latest_news = "".join(news_brief(item) for item in news[:6])
+    latest_papers = "".join(paper_row(paper) for paper in papers[:6])
     return f"""
-<section class="hero"{hero_style}>
-  <div class="hero-shade"></div>
-  <div class="hero-content">
-    <div class="eyebrow">CAOM · 公众号文章归档</div>
-    <h1>CAOM</h1>
-    <p class="hero-story">{esc(featured.get('title'))}</p>
-    <div class="hero-meta">{esc(featured.get('published'))} · {esc(featured.get('author'))}</div>
-    <a class="primary-link" href="{article_href(featured)}">阅读全文 <span>↗</span></a>
-  </div>
+<section class="front-grid">
+  <article class="lead-story"{hero_style}>
+    <div class="lead-shade"></div>
+    <div class="lead-content">
+      <span class="eyebrow">Latest from CAOM</span>
+      <h1>{esc(featured.get('title'))}</h1>
+      <p>{esc(featured.get('description'))}</p>
+      <div class="lead-meta">{esc(featured.get('published'))} · {esc(featured.get('author'))}</div>
+      <a class="primary-link" href="{article_href(featured)}">阅读全文 <span>↗</span></a>
+    </div>
+  </article>
+  <aside class="briefing">
+    <div class="briefing-head"><div><span class="eyebrow dark">Live Radar</span><h2>最新资讯</h2></div><span>{len(news)} 条</span></div>
+    <div class="brief-list">{latest_news}</div>
+    <a class="text-link" href="news.html">进入资讯雷达 →</a>
+  </aside>
 </section>
-<section class="signal-strip" aria-label="站点内容概览">
+<section class="dashboard-strip" aria-label="站点内容概览">
   <div><strong>{len(articles)}</strong><span>公众号文章</span></div>
   <div><strong>{len(news)}</strong><span>行业资讯</span></div>
   <div><strong>{len(papers)}</strong><span>累计论文</span></div>
-  <div><strong>Daily</strong><span>自动更新</span></div>
+  <div><strong>08:20</strong><span>每日更新</span></div>
 </section>
-<section class="section-band">
-  <div class="section-heading"><div><span class="eyebrow dark">Stories</span><h2>最新文章</h2></div><a href="articles.html">查看全部 →</a></div>
-  <div class="story-list">{latest_stories}</div>
-</section>
-<section class="section-band news-band">
-  <div class="section-heading"><div><span class="eyebrow dark">Field Signals</span><h2>行业资讯</h2></div><a href="news.html">查看全部 →</a></div>
-  <div class="news-list">{latest_news}</div>
-</section>
-<section class="section-band papers-band">
-  <div class="section-heading"><div><span class="eyebrow dark">Paper Radar</span><h2>每日论文</h2></div><a href="papers.html">进入文献库 →</a></div>
-  <div class="paper-list">{latest_papers}</div>
+<section class="home-columns">
+  <section class="home-panel">
+    <div class="section-heading"><div><span class="eyebrow dark">Writing</span><h2>最新文章</h2></div><a href="articles.html">全部文章 →</a></div>
+    <div class="story-list">{latest_stories}</div>
+  </section>
+  <section class="home-panel">
+    <div class="section-heading"><div><span class="eyebrow dark">Research</span><h2>论文雷达</h2></div><a href="papers.html">文献库 →</a></div>
+    <div class="paper-list">{latest_papers}</div>
+  </section>
 </section>
 <section class="about-band" id="about">
   <div><span class="eyebrow dark">About</span><h2>关于 CAOM</h2></div>
@@ -201,9 +215,14 @@ def build_news_page(news: list[dict], config: dict) -> str:
         if items
     )
     return f"""
-<section class="page-intro"><span class="eyebrow dark">Industry Radar</span><h1>行业资讯</h1><p>聚合蛋白设计实验室、模型工具、产业媒体和开源项目动态。标题与摘要经过领域过滤，点击后进入来源原文。</p></section>
-<nav class="paper-directory" aria-label="资讯分类目录">{directory}</nav>
-<div class="news-categories">{sections}</div>"""
+<section class="archive-header">
+  <div><span class="eyebrow dark">Industry Radar</span><h1>行业资讯</h1></div>
+  <p>来自蛋白设计实验室、模型工具、产业媒体和开源项目的每日信号。保留来源，直达原文。</p>
+</section>
+<div class="news-browser">
+  <aside class="news-sidebar"><div><span class="sidebar-label">浏览目录</span><nav aria-label="资讯分类目录">{directory}</nav><p>共 {len(news)} 条，经领域与来源质量过滤。</p></div></aside>
+  <div class="news-categories">{sections}</div>
+</div>"""
 
 
 def build_articles_page(articles: list[dict]) -> str:
