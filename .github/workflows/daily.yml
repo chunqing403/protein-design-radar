@@ -31,10 +31,8 @@ jobs:
       - name: Collect protein design news
         run: python scripts/daily_news.py
 
-      - name: Sync WeChat articles and build website
-        run: |
-          python scripts/sync_wechat.py
-          python scripts/build_site.py
+      - name: Sync WeChat articles
+        run: python scripts/sync_wechat.py
 
       - name: Commit updates
         run: |

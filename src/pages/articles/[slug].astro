@@ -1,0 +1,43 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getArticles, readArticleBody, type Article } from "@/lib/data";
+import { assetHref, rewriteArticleHtml } from "@/lib/urls";
+
+export function getStaticPaths() {
+  return getArticles().map((article) => ({
+    params: { slug: article.slug },
+    props: { article, body: rewriteArticleHtml(readArticleBody(article)) }
+  }));
+}
+
+interface Props {
+  article: Article;
+  body: string;
+}
+
+const { article, body } = Astro.props;
+---
+
+<BaseLayout title={`${article.title} · CAOM`} description={article.description} active="articles" article>
+  <article class="article-shell">
+    <header class="article-head">
+      <span class="kicker">FIELD NOTE / {article.published}</span>
+      <h1>{article.title}</h1>
+      <p class="article-deck">{article.description}</p>
+      <div class="article-meta">
+        <span>{article.account}</span><span>{article.author}</span><span>{article.published}</span>
+      </div>
+      <div class="tag-row">{article.topics.map((topic) => <span class="tag">{topic}</span>)}</div>
+    </header>
+
+    {article.cover && <img class="article-cover" src={assetHref(article.cover)} alt={article.title} />}
+
+    <div class="article-grid">
+      <aside class="article-source">
+        <span>SOURCE LINK</span>
+        <a href={article.source_url} target="_blank" rel="noreferrer">微信原文 ↗</a>
+      </aside>
+      <div class="article-body" set:html={body}></div>
+    </div>
+  </article>
+</BaseLayout>

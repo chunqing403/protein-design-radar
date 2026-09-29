@@ -1,0 +1,61 @@
+---
+import { withBase } from "@/lib/urls";
+
+interface Props {
+  active: "home" | "articles" | "news" | "papers";
+  counts: { articles: number; news: number; papers: number };
+}
+
+const { active, counts } = Astro.props;
+const navItems = [
+  { id: "01", key: "home", label: "首页", sub: "DAILY BRIEF", href: "" },
+  { id: "02", key: "articles", label: "文章", sub: "FIELD NOTES", href: "articles.html" },
+  { id: "03", key: "news", label: "资讯", sub: "SIGNAL FEED", href: "news.html" },
+  { id: "04", key: "papers", label: "论文", sub: "RESEARCH INDEX", href: "papers.html" }
+] as const;
+---
+
+<aside class="lab-sidebar">
+  <a class="lab-brand" href={withBase()} aria-label="CAOM 首页">
+    <span class="lab-mark">C</span>
+    <span><strong>CAOM</strong><small>PROTEIN DESIGN RADAR</small></span>
+  </a>
+
+  <div class="lab-status">
+    <span><i></i> SYSTEM ONLINE</span>
+    <time>DAILY / 08:20 CST</time>
+  </div>
+
+  <nav class="lab-nav" aria-label="主导航">
+    {navItems.map((item) => (
+      <a href={withBase(item.href)} class:list={{ active: item.key === active }}>
+        <span class="nav-id">{item.id}</span>
+        <span><strong>{item.label}</strong><small>{item.sub}</small></span>
+        <span class="nav-arrow">↗</span>
+      </a>
+    ))}
+  </nav>
+
+  <div class="lab-index">
+    <p>LIVE INDEX</p>
+    <div><span>ESSAYS</span><strong>{counts.articles.toString().padStart(3, "0")}</strong></div>
+    <div><span>SIGNALS</span><strong>{counts.news.toString().padStart(3, "0")}</strong></div>
+    <div><span>PAPERS</span><strong>{counts.papers.toString().padStart(3, "0")}</strong></div>
+  </div>
+
+  <p class="lab-signature">INDEPENDENT BIOLOGICAL DESIGN INTELLIGENCE</p>
+</aside>
+
+<header class="mobile-header">
+  <a class="mobile-brand" href={withBase()}><span>C</span><strong>CAOM</strong></a>
+  <details>
+    <summary aria-label="打开导航"><span></span><span></span></summary>
+    <nav aria-label="移动端导航">
+      {navItems.map((item) => (
+        <a href={withBase(item.href)} class:list={{ active: item.key === active }}>
+          <span>{item.id}</span>{item.label}<small>{item.sub}</small>
+        </a>
+      ))}
+    </nav>
+  </details>
+</header>

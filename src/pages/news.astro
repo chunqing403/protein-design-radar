@@ -1,0 +1,46 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getNews, getNewsConfig, groupNews } from "@/lib/data";
+
+const news = getNews();
+const config = getNewsConfig();
+const groups = groupNews(news, config.category_order);
+const anchor = (value: string) => encodeURIComponent(value);
+---
+
+<BaseLayout title="行业资讯 · CAOM" description="AI 蛋白设计行业资讯、研究机构动态和开源工具更新。" active="news">
+  <div class="page-shell">
+    <header class="archive-head">
+      <div><span class="kicker">SIGNAL FEED / EXTERNAL SOURCES</span><h1>行业资讯</h1></div>
+      <div>
+        <p>持续收集实验室、模型团队、产业媒体与开源项目的新信号。每条记录保留来源并直达原文。</p>
+        <div class="archive-meta"><span>{news.length} SIGNALS</span><span>DAILY FILTERED</span></div>
+      </div>
+    </header>
+
+    <nav class="directory" aria-label="资讯分类目录">
+      {[...groups].map(([category, items]) => (
+        <a href={`#${anchor(category)}`}><span>{category}</span><strong>{String(items.length).padStart(2, "0")}</strong></a>
+      ))}
+    </nav>
+
+    {[...groups].map(([category, items]) => (
+      <section class="category-block" id={anchor(category)}>
+        <div class="category-title"><h2>{category}</h2><span>{items.length} SIGNALS</span></div>
+        <div class="archive-list">
+          {items.map((item, index) => (
+            <article class="archive-row">
+              <span class="row-id">{String(index + 1).padStart(2, "0")}</span>
+              <div class="row-meta"><time>{item.published || item.first_seen}</time><span>{item.source}</span></div>
+              <div class="row-body">
+                <h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>
+                {item.summary && <p>{item.summary}</p>}
+              </div>
+              <a class="external" href={item.url} target="_blank" rel="noreferrer" aria-label="打开资讯原文">↗</a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

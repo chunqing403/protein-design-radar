@@ -7,13 +7,14 @@ on:
       - "data/**"
       - "config/**"
       - "site/**"
-      - "scripts/build_site.py"
-      - "scripts/daily_news.py"
-      - "requirements-site.txt"
+      - "src/**"
+      - "public/**"
+      - "scripts/prepare_web_assets.mjs"
+      - "astro.config.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.json"
       - ".github/workflows/pages.yml"
-  workflow_run:
-    workflows: ["Daily paper radar"]
-    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -27,26 +28,24 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          ref: main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+          node-version: "22"
+          cache: npm
       - name: Build website
         run: |
-          python -m pip install -r requirements-site.txt
-          python scripts/build_site.py
+          npm ci
+          npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

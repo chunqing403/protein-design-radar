@@ -1,0 +1,23 @@
+{
+  "name": "protein-design-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:assets": "node scripts/prepare_web_assets.mjs",
+    "predev": "npm run prepare:assets",
+    "dev": "astro dev",
+    "prebuild": "npm run prepare:assets",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.10",
+    "astro": "^7.3.5",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}

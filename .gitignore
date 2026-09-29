@@ -6,3 +6,9 @@ venv/
 work/
 .playwright-cli/
 docs/
+dist/
+node_modules/
+.astro/
+public/assets/
+public/favicon.svg
+output/

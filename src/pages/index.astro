@@ -1,0 +1,108 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getArticles, getNews, getPapers, paperUrl } from "@/lib/data";
+import { articleHref, assetHref, withBase } from "@/lib/urls";
+
+const articles = getArticles();
+const news = getNews();
+const papers = getPapers();
+const featured = articles.find((article) => article.featured) || articles[0];
+const latestArticles = articles.filter((article) => article.slug !== featured.slug).slice(0, 6);
+const latestNews = news.slice(0, 7);
+const latestPapers = papers.slice(0, 6);
+const today = papers[0]?.first_seen || new Date().toISOString().slice(0, 10);
+---
+
+<BaseLayout
+  title="CAOM · Protein Design Radar"
+  description="追踪 AI 蛋白质设计、生成式生物学、研究工具与实验验证。"
+  active="home"
+>
+  <section class="command-hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="hero-code">PDR / DAILY INTELLIGENCE / {today}</span>
+        <h1>Protein Design <span>Radar</span></h1>
+        <p>追踪生成模型、序列与结构设计、实验验证和开源工具。每天从论文、实验室与产业信号中，筛出真正值得继续阅读的内容。</p>
+      </div>
+      <a
+        class="hero-feature"
+        href={articleHref(featured.slug)}
+        style={`background-image: url("${assetHref(featured.cover)}")`}
+      >
+        <small>FEATURED REPORT / 01</small>
+        <h2>{featured.title}</h2>
+        <p>{featured.description}</p>
+        <span>READ FIELD NOTE ↗</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="telemetry" aria-label="站点数据概览">
+    <div><span>ESSAYS / 中文文章</span><strong>{articles.length.toString().padStart(3, "0")}</strong></div>
+    <div><span>SIGNALS / 行业资讯</span><strong>{news.length.toString().padStart(3, "0")}</strong></div>
+    <div><span>RESEARCH / 精选论文</span><strong>{papers.length.toString().padStart(3, "0")}</strong></div>
+    <div><span>PIPELINE STATUS</span><strong class="status-value">● OPERATIONAL</strong></div>
+  </section>
+
+  <div class="dashboard">
+    <div class="dashboard-grid">
+      <section>
+        <div class="section-heading">
+          <div><span class="section-code">SEC. 01</span><h2>最新文章</h2></div>
+          <a href={withBase("articles.html")}>OPEN ARCHIVE ↗</a>
+        </div>
+        <div class="story-feed">
+          {latestArticles.map((article, index) => (
+            <article class="story-item">
+              <span class="story-number">{String(index + 2).padStart(2, "0")}</span>
+              <div>
+                <div><time>{article.published}</time> <span class="topic">/ {article.topics[0] || "蛋白设计"}</span></div>
+                <h3><a href={articleHref(article.slug)}>{article.title}</a></h3>
+                <p>{article.description}</p>
+              </div>
+              <a href={articleHref(article.slug)} aria-label={`阅读${article.title}`}>↗</a>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <aside class="signal-panel">
+        <div class="section-heading">
+          <div><span class="section-code">LIVE</span><h2>信号流</h2></div>
+          <a href={withBase("news.html")}>ALL ↗</a>
+        </div>
+        <div class="signal-feed">
+          {latestNews.map((item) => (
+            <article class="signal-item">
+              <div><span>{item.source || "SOURCE"}</span><time>{item.published || item.first_seen}</time></div>
+              <h3><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h3>
+            </article>
+          ))}
+        </div>
+      </aside>
+    </div>
+
+    <section class="home-papers">
+      <div class="section-heading">
+        <div><span class="section-code">SEC. 02</span><h2>论文雷达</h2></div>
+        <a href={withBase("papers.html")}>RESEARCH INDEX ↗</a>
+      </div>
+      <div class="paper-feed">
+        {latestPapers.map((paper) => (
+          <article class="paper-item">
+            <time>{paper.first_seen}</time>
+            <div>
+              <h3><a href={paperUrl(paper)} target="_blank" rel="noreferrer">{paper.title}</a></h3>
+              <p>{paper.source} / {paper.published || "DATE UNKNOWN"}</p>
+              <div class="tag-row">
+                {(paper.topics || []).map((topic) => <span class="tag">{topic}</span>)}
+              </div>
+            </div>
+            <a class="external" href={paperUrl(paper)} target="_blank" rel="noreferrer" aria-label="打开论文">↗</a>
+          </article>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

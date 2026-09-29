@@ -1,0 +1,50 @@
+---
+import Sidebar from "@/components/Sidebar.astro";
+import { getArticles, getNews, getPapers } from "@/lib/data";
+import { withBase } from "@/lib/urls";
+import "@/styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  active: "home" | "articles" | "news" | "papers";
+  article?: boolean;
+}
+
+const { title, description, active, article = false } = Astro.props;
+const counts = {
+  articles: getArticles().length,
+  news: getNews().length,
+  papers: getPapers().length
+};
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#101715" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={withBase("favicon.svg")} />
+    <meta property="og:type" content={article ? "article" : "website"} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Sidebar active={active} counts={counts} />
+    <div class="site-frame">
+      <main><slot /></main>
+      <footer class="site-footer">
+        <div><strong>CAOM</strong><span>PROTEIN DESIGN RADAR</span></div>
+        <p>公众号文章、行业资讯与蛋白设计前沿论文的独立归档。</p>
+        <a href="https://github.com/chunqing403/protein-design-radar" target="_blank" rel="noreferrer">GITHUB ↗</a>
+      </footer>
+    </div>
+  </body>
+</html>

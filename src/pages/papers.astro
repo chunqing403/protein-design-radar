@@ -1,0 +1,47 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getPaperConfig, getPapers, groupPapers, paperUrl } from "@/lib/data";
+
+const papers = getPapers();
+const config = getPaperConfig();
+const groups = groupPapers(papers, config.paper_category_order);
+const labels = config.paper_category_labels || {};
+const anchor = (value: string) => value.toLowerCase().replaceAll(" ", "-");
+---
+
+<BaseLayout title="每日论文 · CAOM" description="AI 蛋白设计每日论文和分类研究索引。" active="papers">
+  <div class="page-shell">
+    <header class="archive-head">
+      <div><span class="kicker">RESEARCH INDEX / CURATED DAILY</span><h1>论文雷达</h1></div>
+      <div>
+        <p>聚合期刊、预印本与学术搜索结果，按研究方向归档。相关性评分仅用于内部筛选，不在站内展示。</p>
+        <div class="archive-meta"><span>{papers.length} PAPERS</span><span>HIGH-CONFIDENCE LIBRARY</span></div>
+      </div>
+    </header>
+
+    <nav class="directory" aria-label="论文分类目录">
+      {[...groups].map(([category, items]) => (
+        <a href={`#${anchor(category)}`}><span>{labels[category] || category}</span><strong>{String(items.length).padStart(2, "0")}</strong></a>
+      ))}
+    </nav>
+
+    {[...groups].map(([category, items]) => (
+      <section class="category-block" id={anchor(category)}>
+        <div class="category-title"><h2>{labels[category] || category}</h2><span>{items.length} PAPERS</span></div>
+        <div class="paper-feed">
+          {items.map((paper) => (
+            <article class="paper-item">
+              <time>{paper.first_seen}</time>
+              <div>
+                <h3><a href={paperUrl(paper)} target="_blank" rel="noreferrer">{paper.title}</a></h3>
+                <p>{paper.source} / {paper.published || "DATE UNKNOWN"}</p>
+                <div class="tag-row">{(paper.topics || []).map((topic) => <span class="tag">{topic}</span>)}</div>
+              </div>
+              <a class="external" href={paperUrl(paper)} target="_blank" rel="noreferrer" aria-label="打开论文">↗</a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

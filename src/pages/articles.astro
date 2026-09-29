@@ -1,0 +1,34 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getArticles } from "@/lib/data";
+import { articleHref } from "@/lib/urls";
+
+const articles = getArticles();
+---
+
+<BaseLayout title="公众号文章 · CAOM" description="CAOM 公众号文章和蛋白设计中文解读归档。" active="articles">
+  <div class="page-shell">
+    <header class="archive-head">
+      <div><span class="kicker">FIELD NOTES / ESSAY ARCHIVE</span><h1>中文文章</h1></div>
+      <div>
+        <p>从论文结论到工具实操，保存完整正文与配图，也保留微信原文入口。</p>
+        <div class="archive-meta"><span>{articles.length} ENTRIES</span><span>UPDATED BY SOURCE SYNC</span></div>
+      </div>
+    </header>
+
+    <section class="archive-list">
+      {articles.map((article, index) => (
+        <article class="archive-row">
+          <span class="row-id">{String(index + 1).padStart(2, "0")}</span>
+          <div class="row-meta"><time>{article.published}</time><span>{article.author}</span></div>
+          <div class="row-body">
+            <h2><a href={articleHref(article.slug)}>{article.title}</a></h2>
+            <p>{article.description}</p>
+            <div class="tag-row">{article.topics.map((topic) => <span class="tag">{topic}</span>)}</div>
+          </div>
+          <a class="external" href={articleHref(article.slug)} aria-label={`阅读${article.title}`}>↗</a>
+        </article>
+      ))}
+    </section>
+  </div>
+</BaseLayout>
