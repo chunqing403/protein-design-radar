@@ -137,10 +137,10 @@ def news_brief(record: dict) -> str:
 
 def home_article_card(article: dict) -> str:
     return f"""
-<article class="home-story-card">
+<article class="magazine-story">
+  <div><time>{esc(article.get('published'))}</time><span>{esc((article.get('topics') or ['CAOM'])[0])}</span></div>
   <h3><a href="{article_href(article)}">{esc(article.get('title'))}</a></h3>
   <p>{esc(article.get('description'))}</p>
-  <footer><time>{esc(article.get('published'))}</time><div class="tag-row">{topic_tags(article.get('topics', []))}</div></footer>
 </article>"""
 
 
@@ -162,56 +162,57 @@ def sorted_news(library: dict) -> list[dict]:
 
 def build_home(articles: list[dict], news: list[dict], papers: list[dict], news_config: dict) -> str:
     featured = next((article for article in articles if article.get("featured")), articles[0])
-    latest_paper = papers[0] if papers else {}
     cover = featured.get("cover", "")
-    cover_style = f' style="background-image: url(\'{esc(cover)}\')"' if cover else ""
-    latest_stories = "".join(home_article_card(article) for article in articles[:8])
+    hero_style = f' style="background-image: url(\'{esc(cover)}\')"' if cover else ""
+    latest_articles = [item for item in articles if item.get("slug") != featured.get("slug")][:6]
+    latest_stories = "".join(home_article_card(article) for article in latest_articles)
     latest_news = "".join(news_brief(item) for item in news[:8])
-    paper_url = esc(paper_link(latest_paper))
-    paper_title = esc(latest_paper.get("title") or "今日暂无新增高置信度论文")
-    paper_title_html = f'<a href="{paper_url}" target="_blank" rel="noopener noreferrer">{paper_title}</a>' if paper_url else paper_title
-    paper_topic = (latest_paper.get("topics") or ["Protein Design"])[0]
+    latest_papers = "".join(paper_row(paper) for paper in papers[:6])
     return f"""
-<div class="home-portal">
-<section class="portal-hero">
-  <article class="radar-card">
-    <header><span>PAPER RADAR / LATEST</span><strong><i></i> LIVE</strong></header>
-    <div class="radar-card-body">
-      <span class="portal-kicker">LATEST HIGH-CONFIDENCE PAPER</span>
-      <h1>{paper_title_html}</h1>
-      <p>{esc(latest_paper.get('source'))} · {esc(latest_paper.get('published') or latest_paper.get('first_seen'))}</p>
-      <dl>
-        <div><dt>TOPIC</dt><dd>{esc(paper_topic)}</dd></div>
-        <div><dt>INDEXED</dt><dd>{len(papers)} PAPERS</dd></div>
-        <div><dt>UPDATED</dt><dd>DAILY / 08:20</dd></div>
-      </dl>
-      <div class="radar-pulse"><span>LIBRARY STATUS</span><strong>{len(papers)} <small>curated papers</small></strong></div>
-      <a class="portal-link" href="papers.html">OPEN PAPER LIBRARY ↗</a>
-    </div>
-  </article>
-  <article class="field-note-card">
-    <div class="field-note-cover"{cover_style}></div>
-    <div class="field-note-body">
-      <span class="portal-kicker">LATEST FIELD NOTE / {esc(featured.get('published'))}</span>
+<div class="magazine-home">
+<section class="magazine-hero"{hero_style}>
+  <div class="magazine-hero-shade"></div>
+  <div class="magazine-hero-copy">
+    <span class="magazine-kicker">Independent notes on AI and protein design</span>
+    <h1>CAOM</h1>
+    <p>追踪生成式生物学、蛋白质设计模型与实验验证。</p>
+    <a href="{article_href(featured)}"><small>本期头条</small><strong>{esc(featured.get('title'))}</strong><span>阅读全文 →</span></a>
+  </div>
+</section>
+<section class="edition-strip">
+  <div><span>ESSAYS</span><strong>{len(articles)}</strong><small>公众号文章</small></div>
+  <div><span>SIGNALS</span><strong>{len(news)}</strong><small>行业资讯</small></div>
+  <div><span>RESEARCH</span><strong>{len(papers)}</strong><small>精选论文</small></div>
+  <p>每日 08:20 更新</p>
+</section>
+<section class="magazine-feature">
+  <div class="magazine-section-head"><span>Featured</span><a href="articles.html">全部文章 →</a></div>
+  <div class="feature-layout">
+    <a class="feature-image" href="{article_href(featured)}"{hero_style} aria-label="阅读本期精选文章"></a>
+    <article>
+      <div class="feature-meta">{esc((featured.get('topics') or ['CAOM'])[0])} · {esc(featured.get('published'))}</div>
       <h2><a href="{article_href(featured)}">{esc(featured.get('title'))}</a></h2>
       <p>{esc(featured.get('description'))}</p>
-      <div class="tag-row">{topic_tags(featured.get('topics', []))}</div>
-      <a class="portal-link" href="{article_href(featured)}">阅读全文 →</a>
-    </div>
-  </article>
+      <a class="editorial-link" href="{article_href(featured)}">继续阅读 →</a>
+    </article>
+  </div>
 </section>
-<section class="portal-grid">
-  <section class="portal-column">
-    <div class="portal-section-head"><div><h2>公众号文章</h2><span>原创长文</span></div><a href="articles.html">全部 →</a></div>
-    <div class="home-story-list">{latest_stories}</div>
+<section class="magazine-columns">
+  <section class="writing-column">
+    <div class="magazine-section-head"><span>Latest writing</span><a href="articles.html">文章归档 →</a></div>
+    <div class="magazine-story-list">{latest_stories}</div>
   </section>
-  <aside class="portal-news">
-    <div class="portal-section-head"><div><h2>蛋白设计圈现在</h2><span>{len(news)} 条已归档</span></div><a href="news.html">更多 →</a></div>
+  <aside class="signal-column">
+    <div class="magazine-section-head"><span>Signals now</span><a href="news.html">全部资讯 →</a></div>
     <div class="brief-list">{latest_news}</div>
-    <p class="portal-attribution">来源包括研究机构、产业媒体与 GitHub Releases</p>
+    <p class="signal-attribution">来源包括研究机构、产业媒体与 GitHub Releases</p>
   </aside>
 </section>
-<section class="portal-about" id="about"><strong>CAOM</strong><p>AI、蛋白设计与计算生物学的中文独立归档。</p></section>
+<section class="research-section">
+  <div class="magazine-section-head"><span>Paper radar</span><a href="papers.html">完整文献库 →</a></div>
+  <div class="paper-list">{latest_papers}</div>
+</section>
+<section class="magazine-about" id="about"><span>CAOM</span><p>AI、蛋白设计与计算生物学的中文独立归档。</p></section>
 </div>"""
 
 
