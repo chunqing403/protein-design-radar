@@ -129,6 +129,33 @@ def publication_date(page_html: str) -> str:
     return dt.datetime.fromtimestamp(timestamp, timezone).date().isoformat()
 
 
+def infer_topics(title: str) -> list[str]:
+    topics = ["蛋白设计"]
+    rules = [
+        (("RFdiffusion",), "RFdiffusion"),
+        (("AlphaFold", "Alphafold"), "结构预测"),
+        (("肽", "Pep", "RAPiDock", "CPL-Diff"), "肽类设计"),
+        (("MPNN", "BindCraft", "ColabDesign", "BoltzGen"), "设计工具"),
+        (("实战", "指南", "安装", "json"), "工具教程"),
+        (("Science", "Nature"), "前沿论文"),
+        (("ESM", "预训练模型", "语言模型"), "蛋白语言模型"),
+    ]
+    for keywords, topic in rules:
+        if any(keyword.lower() in title.lower() for keyword in keywords) and topic not in topics:
+            topics.append(topic)
+        if len(topics) == 3:
+            break
+    return topics
+
+
+def text_excerpt(value: str, limit: int = 110) -> str:
+    text = BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+    text = re.sub(r"\s+", " ", text)
+    if len(text) <= limit:
+        return text
+    return text[:limit].rstrip("，。；：、,. ") + "……"
+
+
 def sanitize_content(
     content,
     session: requests.Session,
@@ -212,17 +239,18 @@ def import_article(session: requests.Session, source: dict, content_root: Path) 
 
     account_node = soup.select_one("#js_name")
     author_node = soup.select_one("#js_author_name")
+    title = meta_content(soup, "og:title") or soup.title.get_text(strip=True)
     return {
         "slug": slug,
-        "title": meta_content(soup, "og:title") or soup.title.get_text(strip=True),
-        "description": meta_content(soup, "og:description"),
+        "title": title,
+        "description": meta_content(soup, "og:description") or text_excerpt(content.decode_contents()),
         "account": account_node.get_text(" ", strip=True) if account_node else "",
         "author": author_node.get_text(" ", strip=True) if author_node else "",
         "published": publication_date(page_html),
         "source_url": url,
         "cover": cover_path,
         "featured": bool(source.get("featured", False)),
-        "topics": source.get("topics", []),
+        "topics": source.get("topics") or infer_topics(title),
         "body_file": f"articles/{slug}.html",
     }
 
@@ -231,6 +259,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES)
     parser.add_argument("--content", type=Path, default=DEFAULT_CONTENT)
+    parser.add_argument("--refresh", action="store_true", help="re-download articles already stored locally")
     args = parser.parse_args()
 
     sources = load_json(args.sources, [])
@@ -247,10 +276,20 @@ def main() -> int:
     articles = []
     for source in sources:
         print(f"importing {source['url']}")
+        existing = existing_by_slug.get(source.get("slug"))
+        existing_body = args.content / existing.get("body_file", "") if existing else None
+        if not args.refresh and existing and existing_body and existing_body.is_file():
+            retained = dict(existing)
+            retained["featured"] = bool(source.get("featured", False))
+            retained["topics"] = source.get("topics") or existing.get("topics") or infer_topics(existing.get("title", ""))
+            if not retained.get("description"):
+                retained["description"] = text_excerpt(existing_body.read_text(encoding="utf-8"))
+            articles.append(retained)
+            print("using previously imported article")
+            continue
         try:
             articles.append(import_article(session, source, args.content))
         except (requests.RequestException, RuntimeError) as exc:
-            existing = existing_by_slug.get(source.get("slug"))
             if existing:
                 print(f"warning: keeping previously imported article: {exc}")
                 articles.append(existing)
