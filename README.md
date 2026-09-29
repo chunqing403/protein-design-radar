@@ -7,32 +7,37 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
+Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960)<br><sub>ZHANG, Z., Jin, R., Liu, J. et al.</sub> | bioRxiv<br>2026-09-26 | Enzymes and function |
-| 2 | [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551)<br><sub>Hu, J., Wang, W., Zhang, B. et al.</sub> | bioRxiv<br>2026-09-26 | Structure generation, Experimental validation |
+| 1 | [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223)<br><sub>Dai, S. A., Cavanagh, P. E., Qiang, A. et al.</sub> | bioRxiv<br>2026-09-28 | Enzymes and function |
+| 2 | [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145)<br><sub>Yi, K., Chen, Q., Zhang, D. et al.</sub> | bioRxiv<br>2026-09-28 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
+| 3 | [Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics](https://doi.org/10.64898/2026.09.25.754509)<br><sub>Garimella, S. S., Lauro, G., Peddamallu, V. et al.</sub> | bioRxiv<br>2026-09-28 | Binders and therapeutics |
+| 4 | [AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design](https://doi.org/10.64898/2026.09.23.753608)<br><sub>Kitaygorodsky, A., Hostallero, D. E., Broom, A. et al.</sub> | bioRxiv<br>2026-09-28 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
+| 5 | [Genome-wide-scale prediction of compound−protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216)<br><sub>Yuga Moriyama, Yuki Matsukiyo, Tsuyoshi Kimura et al.</sub> | Bioinformatics<br>2026-09-28 | Protein language models |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 43 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 45 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 58 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 30 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 7 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 59 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 31 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 8 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
 | [General / 综合](#paper-category-general) | 14 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (43)
+#### Structure Generation / 结构生成 (45)
 
+- [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
+- [AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design](https://doi.org/10.64898/2026.09.23.753608) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551) (bioRxiv, 2026-09-26; first seen 2026-09-28; Structure generation, Experimental validation)
 - [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
 - [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a) (ACS Synthetic Biology, 2026-09-23; first seen 2026-09-24; Structure generation, Sequence design, Experimental validation)
@@ -99,8 +104,9 @@ Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (58)
+#### Protein Language Models / 蛋白质语言模型 (59)
 
+- [Genome-wide-scale prediction of compound−protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216) (Bioinformatics, 2026-09-28; first seen 2026-09-29; Protein language models)
 - [Evaluation of protein sequence retrieval via protein language model embeddings and FAISS](https://linkinghub.elsevier.com/retrieve/pii/S1476927126005384) (Computational Biology and Chemistry, 2026-09; first seen 2026-09-26; Protein language models)
 - [ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.](https://pubmed.ncbi.nlm.nih.gov/42785405/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Protein language models)
 - [PLM-ArgMe: Protein language model for arginine methylation prediction for different species.](https://pubmed.ncbi.nlm.nih.gov/42570489/) (PubMed, 2026 Sep 24; first seen 2026-09-24; Protein language models)
@@ -161,8 +167,9 @@ Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (30)
+#### Binders & Therapeutics / 结合蛋白与治疗 (31)
 
+- [Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics](https://doi.org/10.64898/2026.09.25.754509) (bioRxiv, 2026-09-28; first seen 2026-09-29; Binders and therapeutics)
 - [A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions](https://www.nature.com/articles/s41467-026-78063-1) (Nat Commun, 2026-09-25; first seen 2026-09-26; Binders and therapeutics)
 - [ARTIFICIAL INTELLIGENCE–BASED TOTAL METABOLIC TUMOUR VOLUME SEGMENTATION IN 18F-FDG PET/CT FOR CAR-T–TREATED DIFFUSE LARGE B- CELL LYMPHOMA: VALIDATION AND PERFORMANCE ASSESSMENT FOR CLINICAL INTEGRATION](https://linkinghub.elsevier.com/retrieve/pii/S1120179726004394) (Physica Medica, 2026-09; first seen 2026-09-24; Binders and therapeutics)
 - [Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389) (Food Bioscience, 2026-09; first seen 2026-09-24; Binders and therapeutics)
@@ -195,8 +202,9 @@ Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (7)
+#### Enzymes & Function / 酶与功能 (8)
 
+- [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223) (bioRxiv, 2026-09-28; first seen 2026-09-29; Enzymes and function)
 - [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960) (bioRxiv, 2026-09-26; first seen 2026-09-28; Enzymes and function)
 - [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/) (PubMed, 2026 Sep 01; first seen 2026-09-22; Enzymes and function, Experimental validation)
 - [Deep Learning in Enzyme Function Prediction and Novel Enzyme Discovery](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00633/5421291/Deep-Learning-in-Enzyme-Function-Prediction-and) (ACS Synthetic Biology, 2026-09-04; first seen 2026-09-05; Enzymes and function, Experimental validation)
@@ -232,7 +240,7 @@ Updated: **2026-09-28** (`2026-09-28T05:32:36Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-28](outputs/daily/2026-09-28.md)
+- [Daily report for 2026-09-29](outputs/daily/2026-09-29.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

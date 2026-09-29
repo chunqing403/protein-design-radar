@@ -3217,6 +3217,37 @@
       ],
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag698/8826177"
     },
+    "doi:10.1093/bioinformatics/btag710": {
+      "abstract": "Abstract Motivation The identification of compound–protein interactions (CPIs) is crucial in the early stages of drug discovery. However, machine-learning (ML)-based methods based on one- and two-dimensional representations cannot capture important geometric information on the binding sites of CPIs, which limits their predictive accuracy. Results We propose DESTIN (dual structure-guided estimation of substance–target interaction networks), an ML framework for CPI prediction on a genome-wide scale from the three-dimensional (3D) structures of compounds and proteins. We constructed compound feature vectors that spatially reflect stable 3D conformations from a quantum–chemical perspective by fine-tuning a 3D structure-based foundation model. Furthermore, we constructed protein feature vectors leveraging sequence-based structure representations and protein language models, even for proteins that do not have 3D structures determined experimentally. CPI prediction was performed using an integrative ML model on 3D structure-aware feature vectors for compounds and proteins. The effectiveness of the proposed model was validated via rigorous benchmark tests on practical scenarios. DESTIN exhibited good predictive performance, even for structurally complex and pharmacologically important membrane proteins. These results show that DESTIN is promising for various pharmaceutical applications. Availability All source code and data supporting this study are publicly available on GitHub and archived on Zenodo (https://doi.org/10.5281/zenodo.21759701). Supplementary information Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Yuga Moriyama",
+        "Yuki Matsukiyo",
+        "Tsuyoshi Kimura",
+        "Hiyori Yamamoto",
+        "Yuko Sakajiri",
+        "Tomokazu Shibata",
+        "Ryusuke Sawada",
+        "Yoshihiro Yamanishi"
+      ],
+      "doi": "10.1093/bioinformatics/btag710",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "reasons": [
+        "protein language model",
+        "foundation model",
+        "protein",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "Bioinformatics",
+      "source_id": "10.1093/bioinformatics/btag710",
+      "title": "Genome-wide-scale prediction of compound−protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216"
+    },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
       "authors": [
@@ -5070,6 +5101,145 @@
         "Structure generation"
       ],
       "url": "https://doi.org/10.64898/2026.09.16.752260"
+    },
+    "doi:10.64898/2026.09.23.753608": {
+      "abstract": "Fixed-backbone sequence discovery, or inverse folding, is a critical recurring task in the development of new polypeptide therapeutics. Once promising backbones are established for a target pocket, computational inverse folding methods greatly help accelerate generation of candidate sequences. Such methods are mature for the traditional case of limiting to the fixed twenty-letter canonical vocabulary; however, they cannot access the broader space of non-canonical amino acids (NCAAs). This design constraint is exacerbated for peptide binders, a fast-growing modality that readily incorporates NCAAs, though in practice non-canonical design frequently depends on laborious medicinal-chemistry campaigns. An extension of inverse folding to NCAAs is thus critical to accelerating design of novel therapeutic peptides. AtomWeaver uses a joint all-site, atom-level generative scheme that does not restrict side-chain categorical assignment by either predetermined or co-resolving residue identity. Conditioned only on a fixed peptide backbone and its target protein, its multi-component flow guides side-chain atoms as unlabeled points in R3 from a nested shell prior to a variable-count final atom cloud. Identity is then read by matching each predicted cloud against a reference library of canonical and non-canonical templates. Since identity is decided only at decode time, the addressable vocabulary is a property of the library rather than of the trained weights: a new NCAA costs one reference structure and no retraining, and the model can select residues it was never prompted for and never saw in training. On a deep mutational scan of two peptide-target systems, AtomWeaver's canonical readout shows high observed mean agreement with experimental values among the compared inverse-folding methods. In the mixed canonical-noncanonical setting that canonical-only baselines cannot support at all, it likewise retains ranking signal across both systems. AtomWeaver also displayed self-consistent designs on de novo binder backbones, with the highest interface confidence among compared methods. Notably, it reached these metrics while achieving broad empirical coverage of our 300-residue vocabulary, including four non-canonical types never visible in training. AtomWeaver thus serves canonical and non-canonical peptide design alike, while transforming residue vocabulary to an expandable inference-time choice.",
+      "authors": [
+        "Kitaygorodsky, A.",
+        "Hostallero, D. E.",
+        "Broom, A.",
+        "Layne, E.",
+        "Hwang, S.",
+        "Kanawaty, A. K.",
+        "Babej, T.",
+        "Butterfoss, G. L.",
+        "Fingerhuth, M."
+      ],
+      "doi": "10.64898/2026.09.23.753608",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "reasons": [
+        "inverse folding",
+        "flow matching",
+        "folding",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.23.753608",
+      "title": "AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.23.753608"
+    },
+    "doi:10.64898/2026.09.24.754223": {
+      "abstract": "The ability to map protein interactomes and organelle proteomes is foundational for achieving a molecular understanding of living cells. Proximity labeling (PL) provides a powerful strategy for this, but existing enzymes and photocatalysts are limited by their spatial resolution, reliance on biotin, and/or in vivo compatibility. Here we report FlexID, an engineered promiscuous ligase that catalyzes the rapid attachment of diverse small-molecule probes to proximal endogenous proteins. Critically, FlexID operates through a zero-radius, direct-contact mechanism, offering superior spatial precision compared to existing PL tools. We engineered FlexID by combining the strengths of sequence- and structure-trained computational models to enhance its catalytic activity and structural stability. Biophysical analysis revealed that specific conformational changes in FlexID improve its ability to recognize diverse target proteins while simultaneously preventing the premature release of the reactive intermediate. We demonstrate FlexID's versatility through in vivo proximity labeling, comprehensive organelle proteome mapping, and a high-throughput, fluorescence-based screen for molecular glues. Our work shows that computational methods can be harnessed to create mechanistically distinct PL enzymes and establishes FlexID as a flexible, high-resolution tool for mapping protein interactions and proteomes in living cells.",
+      "authors": [
+        "Dai, S. A.",
+        "Cavanagh, P. E.",
+        "Qiang, A.",
+        "Zhang, Z.",
+        "Geng, Q.",
+        "Anguiano, M.",
+        "Xue, A. G.",
+        "Matsui, T.",
+        "Nguyen, K.",
+        "Udeshi, N.",
+        "Pellock, S.",
+        "hie, b.",
+        "Carr, S. A.",
+        "Kim, C.",
+        "Gray, N.",
+        "Qin, W.",
+        "Ting, A. Y."
+      ],
+      "doi": "10.64898/2026.09.24.754223",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "reasons": [
+        "stability",
+        "protein",
+        "enzyme",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.24.754223",
+      "title": "Computational design of a versatile, zero-radius proximity labeling enzyme",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.24.754223"
+    },
+    "doi:10.64898/2026.09.25.754509": {
+      "abstract": "A critical step in the emergence of a virus is the ability of the viral protein to bind a host receptor and mediate cell entry. For many coronaviruses, this interaction occurs between the Spike S1 subunit and the human ACE2 receptor. Whether this binding interface can be computationally distinguished across unstudied viruses without experimentally resolved protein structures remains an open question. We predicted how 28 emerging coronaviruses may bind to human ACE2 using structural predictions, static interaction prediction programs, and molecular dynamics simulations. To screen the emerging coronaviruses, we predicted a library of S1 structures using AlphaFold. These predicted structures were then used to model the S1-ACE2 interaction with AlphaFold, ClusPro, and HADDOCK. We used known ACE2-binding sarbecoviruses as positive controls and coronaviruses that bind other receptors as negative controls to threshold predicted binding. Contact analysis quantified the predicted binding and revealed that these static interaction prediction methods varied in discriminative power. Less restrained static predictions separated binders from non-binders, whereas heavily restrained docking did not, potentially forcing an interaction where none should exist. This analysis highlighted an emerging coronavirus, Zhejiang2013, as a potential ACE2 binder. We used molecular dynamics simulations to further assess the static predictions and model the interaction over time. Overall, our results indicate that Zhejiang2013 exhibits dynamic interaction patterns consistent with ACE2 binding. Given that two ACE2-binding coronaviruses have caused global pandemics within the past two decades, identifying potential ACE2 binders is critical for early warning and pandemic preparedness.",
+      "authors": [
+        "Garimella, S. S.",
+        "Lauro, G.",
+        "Peddamallu, V.",
+        "Bandivadekar, P. R.",
+        "Thyagatur Kidigannappa, A.",
+        "Faller, R.",
+        "Ahn, S.-H.",
+        "Shah, P. S."
+      ],
+      "doi": "10.64898/2026.09.25.754509",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.25.754509",
+      "title": "Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.25.754509"
+    },
+    "doi:10.64898/2026.09.27.754145": {
+      "abstract": "De novo design of protein binders requires a target structure. However, for flexible targets, such as intrinsically disordered proteins, this structure does not exist until the binder has stabilized the interaction. Such targets are therefore difficult for methods that separate structure generation from sequence design. We introduce GuideFlip, which co-designs structure and sequence through guided discrete flow matching: binder residues are assigned progressively while the complex is re-predicted at each step, allowing the evolving interface to affect the design process. GuideFlip reduces the hydrophobic bias of direct AlphaFold optimization and improves in silico success rates over existing approaches. We release a database of binder candidates for 177 human disordered proteins. Experimentally, we obtain de novo binders to the C-terminus of -synuclein and the disordered amino terminus of RBX1 with hit rates of 13.5% and 41.7%, respectively, and we confirm the epitopes of selected binders by NMR and mutagenesis. Applying GuideFlip to flexibility on the binder side, we design a nanobody that binds the agonist-bound {beta}1-adrenergic receptor in the active state, but not the receptor in its inactive state, with a 75% hit rate and cryo-EM structure confirming the design. GuideFlip enables protein design where bound structures emerge only upon binding.",
+      "authors": [
+        "Yi, K.",
+        "Chen, Q.",
+        "Zhang, D.",
+        "Tian, P.",
+        "Wagstaff, J. L.",
+        "McLaughlin, S. H.",
+        "Tate, C. G.",
+        "Jamali, K.",
+        "Scheres, S. H. W."
+      ],
+      "doi": "10.64898/2026.09.27.754145",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "reasons": [
+        "protein design",
+        "flow matching",
+        "AlphaFold",
+        "de novo design",
+        "sequence design",
+        "structure generation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.27.754145",
+      "title": "De novo design of flexible protein interactions with GuideFlip",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.27.754145"
     }
   }
 }
