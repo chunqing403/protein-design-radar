@@ -1,0 +1,590 @@
+{
+  "items": {
+    "02f3791bc567c4c72960b626ea9f79d1487d852c": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-10-15",
+      "source": "Institute for Protein Design",
+      "summary": "Combining the speed of mRNA and potency of design proteins yielded up to 28-fold more antibodies — and a platform technology that could transform how we respond to viral threats. The post Delivering protein nanoparticle vaccines via mRNA f…",
+      "title": "Delivering protein nanoparticle vaccines via mRNA",
+      "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/"
+    },
+    "05375d847b6320c3dfba0346c61664df3b2dbabb": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-08-28",
+      "source": "GitHub · NVIDIA/bionemo-framework",
+      "summary": "NVIDIA BioNeMo Framework v2.7rc1",
+      "title": "bionemo-framework · v2.7rc1",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/v2.7rc1"
+    },
+    "05b7f9783ee9b14345f93fc4b78cc9c4088a5ca1": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-05-11",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "mga esm v3.2.4.a2",
+      "title": "esm · v3.2.4.a2-mga-folding-bridge",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.2.4.a2-mga-folding-bridge"
+    },
+    "06c8b0222d8aaf605a18d4cc46e7d96ed595f2cb": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-10-27",
+      "source": "GitHub · NVIDIA/bionemo-framework",
+      "summary": "Signed-off-by: Timur Rvachov trvachov@nvidia.com",
+      "title": "bionemo-framework · v2.7.1: Updated Version",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/v2.7.1"
+    },
+    "072a13b24fd799251713b54eb72c95d5de127a9e": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-07-17",
+      "source": "Institute for Protein Design",
+      "summary": "Custom proteins made with AI bind disordered proteins and peptides with atomic precision. The post Hitting ‘undruggable’ disease targets first appeared on Institute for Protein Design .",
+      "title": "Hitting ‘undruggable’ disease targets",
+      "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/"
+    },
+    "0c36298288e5c9676ef6c0788b9dde05d1e4c077": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-03-23",
+      "source": "GitHub · bytedance/Protenix",
+      "summary": "What's changed Check if current directory is writable before compiling layer_norm cuda extension Fallback to torch cache directory if not writable",
+      "title": "Protenix · v1.1.0: Support fallback to torch cache dir for layer_norm",
+      "url": "https://github.com/bytedance/Protenix/releases/tag/v1.1.0"
+    },
+    "1495944a140c2e655ca0c6440a2f28888d2c85a6": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-06-24",
+      "source": "GitHub · NVIDIA/bionemo-framework",
+      "summary": "This marks the first release from BioNeMo Recipes, a lighter-weight version of the BioNeMo model training framework which demonstrates NVIDIA-optimized reference architectures for biological foundation models. This release drops support fo…",
+      "title": "bionemo-framework · v3.0.0 - BioNeMo Recipes",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/v3.0.0"
+    },
+    "160935f5a5502e9708b2132c78cff5992e40152a": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-24",
+      "source": "Mirage News",
+      "summary": "AlphaFold Adds Viral Protein Complexes for Pandemic Prep Mirage News",
+      "title": "AlphaFold Adds Viral Protein Complexes for Pandemic Prep",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSkxFaWlRM1R0ZXV1NEpSTmFvRy02cGI1NVRSeGYxLUtCbERKclBfOG9ON2F5RldZU1d4VENUMlZKSzhhRFB4YWQ5Qmo5ZnVYTzRWSDV1Q2o3SzdjUHlEYlVtd3lGTTBab0pOYnlCOVVnMVNzbHdwQnN1Z29oUlVDblJFSEI?oc=5"
+    },
+    "1f6521088546f29ff551145811a8ac038c0d078c": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-09",
+      "source": "Labmate Online",
+      "summary": "Test of AlphaFold 3 exposes limitations in amyloid structure prediction models Labmate Online",
+      "title": "Test of AlphaFold 3 exposes limitations in amyloid structure prediction models",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYWtiZWtWamxrdktxSGZUanBaZjJRc0hCVGJlZjBkR3BLOEtPNW56U1VITGpZT0F0a3BmekZLeFVkWDN6Ykk0SmY3UTNHc1ZIb0YzUzlPV2hZTmVzSHFUdkhFVEV4czBJYmdIakRPMHVSOXVPQTZUc285M19OejRjVEF3QjgybGs3TzBjNXp3cXZFRHkyVW5zcmM3UGZwOTdJM19ROHlrQTZhR1dlSWhyLWM2WTEzS1hJUTVGZjF4MmlJZWZoeWJBMXlZX2VGblBzcGVFR3pRdjRpak9fM1JIVmRkQUhFaHZ3RGtR?oc=5"
+    },
+    "25bfd3c10b731c47a1d5235abe55480258a8cb27": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-10",
+      "source": "36Kr",
+      "summary": "GPT-6 Topped Rankings: The Groundbreaking AI Antibody Prediction Powerhouse – A Stunning Breakthrough Since AlphaFold 36Kr",
+      "title": "GPT-6 Topped Rankings: The Groundbreaking AI Antibody Prediction Powerhouse – A Stunning Breakthrough Since AlphaFold",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5MUh3Skt4ekl6RnVKeUFhQ3VBdUVBVUVqamxfWXozRE82SkxpOFVSRktHaHo3M3BSMWZPVlJCMllDMXJ3Wm5oa05oWUNVODVTM25J?oc=5"
+    },
+    "26778de70cdf7f3db1d7632d64297d8e0d0aecbc": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2024-11-11",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "Initial release of AlphaFold 3. PiperOrigin-RevId: 695257954",
+      "title": "alphafold3 · AlphaFold v3.0.0",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.0"
+    },
+    "2bb69707455a7c09ce24d479354ff9c73f8e0fa1": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2024-12-24",
+      "source": "GitHub · chaidiscovery/chai-lab",
+      "summary": "This release accumulates improvements over the past two weeks: Better CIFs and better output names, bugfix for multiple ligands, lower memory consumption by default, arbitrary number of diffusion samples; What's Changed CLI command to merg…",
+      "title": "chai-lab · v0.5.2: multiple small improvements",
+      "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.2"
+    },
+    "307b6f726346dee2f70c3cec833032f97e6c52fc": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-03-18",
+      "source": "GitHub · chaidiscovery/chai-lab",
+      "summary": "What's Changed reflect python >= 3.10 in readme by @arogozhnikov in #316 Misc. improvements to templates by @wukevin in #315 Remove incorrect check on template bounds by @wukevin in #323 Use centralized downloading logic for RCSB by @wukev…",
+      "title": "chai-lab · v0.6.1",
+      "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.6.1"
+    },
+    "36c0f51fcc35b143a37d0d6fcd430c3b7fc0cdd7": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-22",
+      "source": "Dealroom.co",
+      "summary": "Anthropic and Adaptyv Bio launch protein design competition with 5,000+ experimental validations Dealroom.co",
+      "title": "Anthropic and Adaptyv Bio launch protein design competition with 5,000+ experimental validations",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd3owQWM1dEs4dTZsbUIwb2RidXRhdXZMM1JBMm9USGV2aG5kSXIzOXVDUFU0VUxXRHV6VnowdzkzNzEtY0pZMmNDSzZ1bEVMNlJDQi1OUG0yd0hyQ3RvbTZjcDdVNko5TUZiSl9iNzdNLVpDT1l0ak1oUC02SjBoQWo1d1ZPRUhWTHJUaFVnQ1Izd2xwc3RSNU13ci02ZDNGMFQyMEZmdVFvNkVfVWhkWW5ZNHFSZC1JVWdaUEZEYXZzV1VJeFJYSw?oc=5"
+    },
+    "3932977cbeaec306afa73d5b76c8b416bf9ccc31": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-25",
+      "source": "pharmaphorum",
+      "summary": "The Claude effect: In AI drug discovery, commoditisation leads to collaboration pharmaphorum",
+      "title": "The Claude effect: In AI drug discovery, commoditisation leads to collaboration",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbFFMOFNXRHlOZ21WUEZTUzd3b09iVEVReHBkUTdMX0pDZXZDMUoxUEFnRTJmU2ZKUFJURlE0VlpYaTE0RUJrQy1kdVY0NEQtc0RLZ1pCZ1VJMnc1bFc4Rl81WDFOR3Y0M3BQNDJkUlBST2FoTGliVDlKWVlVXzk1S1liQU92VHdMS0dZazlEbFhZWnJDNE5heDg2VjlnSGFuMDJ2VA?oc=5"
+    },
+    "39652ecec7575fb5279c314c76061d164c9354a7": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-08-27",
+      "source": "GitHub · NVIDIA/bionemo-framework",
+      "summary": "Merge branch 'main' into release-v2.7rc1",
+      "title": "bionemo-framework · 2.7",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/2.7"
+    },
+    "3c91f9e28480350540d0c6320d219ffcf9214061": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-06-09",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "Version 3.0.3 changes the AlphaFold 3 code license from CC BY-NC-SA 4.0 to Apache 2.0. Moreover, it provides bug fixes and a performance improvement for large inputs. We thank everyone who reported issues, proposed new features, and submit…",
+      "title": "alphafold3 · AlphaFold v3.0.3",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.3"
+    },
+    "3df6b188424c4090462c481a95e8b901fd80250b": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-18",
+      "source": "WIRED",
+      "summary": "He Won the Nobel Prize for Protein Design. Now He Uses AI to Create Molecules Not Found in Nature WIRED",
+      "title": "He Won the Nobel Prize for Protein Design. Now He Uses AI to Create Molecules Not Found in Nature",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHZvcU1fUjVJdzRHN1VjYmpMSkUzWTR6eklGTU9LZVNJSlo2VjhLY2NLUUFVRzM4QUl0cmdsM0I4R3p6Z2lsWm91MGVfejZmWXVTZW03djRkYmloaDdhSG5CeU82bFV3aE9VLUhqczZjdWFxYVN3VzdSTzRDYjlIRmNkc21jY1dpSldhXzdQYVRTbDREX2gtblNYc1lfX2w3QTljbw?oc=5"
+    },
+    "3fbceed81ec9f0274ae01fd65ae371ae3ccc4d7a": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-07-15",
+      "source": "GitHub · jwohlwend/boltz",
+      "summary": "Highlight Fixes for contact and pocket conditioning which was not fully functional for Boltz2 New potentials Kernels are now optional to avoid installation issues on non-linux platforms New security features for use of the MSA server (than…",
+      "title": "boltz · Boltz v2.2.0: Contact conditioning fixes, new potentials",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.2.0"
+    },
+    "406147def0aeea6525f2d974f2bc0317ecbae138": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2026-06-23",
+      "source": "Institute for Protein Design",
+      "summary": "The IPD is collaborating with NVIDIA to deliver the accelerations necessary for protein design pipelines to meet global grand challenges The post Custom computing for the next generation of protein design first appeared on Institute for Pr…",
+      "title": "Custom computing for the next generation of protein design",
+      "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/"
+    },
+    "40bf7276b4b8f3c63e360c5e0f3a050e5da11550": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-21",
+      "source": "MobiHealthNews",
+      "summary": "Iambic, AbbVie partner on AI drug discovery MobiHealthNews",
+      "title": "Iambic, AbbVie partner on AI drug discovery",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ3YwcFhIUFFLcjFlcXBMaUJYUWpDOTZoZlRpTjc4aUZHNWtGOTBxSFJuSEt1dEJHY2F1Vld3Q3pDNlI5ZkNRcmdMNnM1VTZBTDh5UHowV2RSd25iSUhpSm1xZWZqRnFoWms1a3RCQUJTREd1QjVycEVUV0pqeVVMNw?oc=5"
+    },
+    "446c431f29d47f88ab45cd222c1093871211a421": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-25",
+      "source": "AI Insider",
+      "summary": "BigHat Biosciences Closes $75M Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design AI Insider",
+      "title": "BigHat Biosciences Closes $75M Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYnJwLUNPY1NsWm9sdDdHTDBrNW5IUnJoT0xZa1dYOThwVnZUaEhfY25kRlRFOGRmQThOanJMSTBzR19hWWhqdEtMaWhaTDZvdkNGUkF2QzkyWEVXczJMN3U3S0s1RHlWNHVHTTl0UGNqVTVxRmlSNUpVRzBCUTVWLUJpVVZUTkJMUWJobk1vbUd3VzhpazhEeDNUNXkxRHVJbnc3ZTZpb0ktTEZmNkZxMUpLcjh6RTNoRkV6bXA2ckgxZTYwOUhVa0VhTWhodEtiZkVDRGxzWHVlSl9jeUdFTjN6Uks1Q0VhQTBKMjR0eHlHWURJTVMxUThqZFNzWkRuQTRzOHMycTRKaGxvMlE?oc=5"
+    },
+    "4e7c6d0dd4cc0154ebbedfb22eeedfaf1bd8580b": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-06-07",
+      "source": "GitHub · jwohlwend/boltz",
+      "summary": "No content.",
+      "title": "boltz · Boltz v2.0.3: Patch CCD affinity",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.0.3"
+    },
+    "4eb395b2e42f09a3fb80e779f43a3f78615502b0": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-03-15",
+      "source": "GitHub · bytedance/Protenix",
+      "summary": "What's Changed Add protenix/version.py to store version string Update setup.py to read version dynamically Update runner/batch_inference.py to use shared version Expose version in protenix/ init .py",
+      "title": "Protenix · v1.0.7: Refactor: consolidate version management and bump to 1.0.7",
+      "url": "https://github.com/bytedance/Protenix/releases/tag/v1.0.7"
+    },
+    "4f933a3d467a3aeebc1a898c0a73214f29818f90": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-08",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "Added support for FoldCP Added support for loading HF-style checkpoints (ESMFold2) Various minor bug-fixes",
+      "title": "esm · v3.4.1",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.4.1"
+    },
+    "5061524ff3e9fcababa5f86514852edff4cb8772": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-28",
+      "source": "36Kr",
+      "summary": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold 36Kr",
+      "title": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMHlPd1ZIQ2ZxSGVqVnRCVFZrcmlvelVNcnF2M2N5YXNwa3h3WEU3U25mbDBHN3VCSGlPcWp3RUFpUFAwSWdFRHFoWFdNa05GaGdZ?oc=5"
+    },
+    "5a0be3192114064825f95b3a2091c9b6c4c76042": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-02-18",
+      "source": "GitHub · chaidiscovery/chai-lab",
+      "summary": "What's Changed Major changes Template support by @wukevin in #300 Support for subsampling different MSAs at each recycle and running multiple trunks by @wukevin in #302 #305 #306 Minor changes Update README.md, mention L40s (48 GB is enoug…",
+      "title": "chai-lab · v0.6.0",
+      "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.6.0"
+    },
+    "5ff5ddf6c73b39be3aac352bdf1e6e9dd7ebc9fc": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-04-07",
+      "source": "GitHub · bytedance/Protenix",
+      "summary": "What's changed 🚀 Key Highlights • Protenix-v2 Model Released: Introduced protenix-v2, an enhanced-capacity model (464M parameters). It delivers significant accuracy improvements in predicting challenging antibody-antigen complex structures…",
+      "title": "Protenix · v2.0.0: Protenix-v2 Model Released",
+      "url": "https://github.com/bytedance/Protenix/releases/tag/v2.0.0"
+    },
+    "6669e175b59bd6b37ac322e15c16261135946b40": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-22",
+      "source": "헤럴드경제",
+      "summary": "The AlphaFold judge who built an AI drug company 헤럴드경제",
+      "title": "The AlphaFold judge who built an AI drug company",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96dTJfNmE2ZGNKd3RSdk1OcVZwRG5mbG9Qbzd3d2ZuR0RaTmE4cmdWdzBoZVhpazlyS3FTd3NsYzNVR0s2TnpyTEg5eFV3WlZlQ2M4dkVrcw?oc=5"
+    },
+    "69eebf90f3f9f61a26d0fc0d53824fe92f99dbd8": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-08",
+      "source": "Institute for Protein Design",
+      "summary": "A new Seattle-based research coalition, AI BioDesign, was announced on September 3, bringing together scientists from the University of Washington, the Allen Institute, and Fred Hutch Cancer Center. The post New Seattle-based coalition eme…",
+      "title": "New Seattle-based coalition emerges to learn and codify nature’s design rules",
+      "url": "https://www.ipd.uw.edu/2026/09/new-seattle-based-coalition-emerges-to-learn-and-codify-natures-design-rules/"
+    },
+    "6fcd290f183886a734c7d2c2d0844eee5cd7d43a": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-16",
+      "source": "PR Newswire",
+      "summary": "Zymo Research Ranks Among Top Performers in International AI Antibody Design Challenge PR Newswire",
+      "title": "Zymo Research Ranks Among Top Performers in International AI Antibody Design Challenge",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUnBRZXRySGd5dVJIaEFndFkxQXVHYV9IdUM5Nm9QZnJqRVYzazFPaDZ2QzVJRy1pM3NrdmJRTUFGcV9CWnlYS0dLelRWRlZ4bEZ3X19ZU3JPRE1MeWk5bHR3OUt0a1AwekxyaVJyRVNxMTRxWG84RmNuS3JOWUk4dzBNSkNGc0NhME9ENVRYdWJvWXYxbTZyZFRiWTFlVUlXUjhaUTlZQ0NyM2ZPb0dHZEFFcTNOS0ZCWXhXYmQtUVlsLUpwYm9MVnY4R2czaURhUjMwdTdjeDgyZw?oc=5"
+    },
+    "70c87c39138b25c411fdf5cce666f3ead87cc98e": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-04-20",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "Version 3.0.2 provides new features, improves performance, improves documentation, and fixes bugs. AlphaFold v3.0.2 supports NVIDIA Blackwell GPUs out of the box. We thank everyone who reported issues, proposed new features, and submitted…",
+      "title": "alphafold3 · AlphaFold v3.0.2",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.2"
+    },
+    "7e87da5170cbb816969cd4766952e88a5d1c7ad0": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-03-16",
+      "source": "GitHub · bytedance/Protenix",
+      "summary": "What's Changed Triton fused ops for dropout residual are now disabled by default as they cause a slight drop in foldbench performance. They can be enabled via the FUSED_DROPOUT_RESIDUAL environment variable.",
+      "title": "Protenix · v1.0.8: Disable triton fused ops by default",
+      "url": "https://github.com/bytedance/Protenix/releases/tag/v1.0.8"
+    },
+    "7e93248cd0407c38d621dfa08c530cf7daa87ec3": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-11-05",
+      "source": "Institute for Protein Design",
+      "summary": "Generating antibodies entirely on computers — no animal immunizations required — could unlock treatments for countless diseases. The post Teaching AI to build antibodies from scratch first appeared on Institute for Protein Design .",
+      "title": "Teaching AI to build antibodies from scratch",
+      "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/"
+    },
+    "860db636fb2e50304ce8b0a7b4a227ce512390a7": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-18",
+      "source": "Pasquale Pillitteri",
+      "summary": "Claude speeds up 30 biology models and cuts protein design costs 100x Pasquale Pillitteri",
+      "title": "Claude speeds up 30 biology models and cuts protein design costs 100x",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb3p3MmpmdUhHLTZSazc3cWk5cVl5YjZtczZtcVlnei1SQllma2hhbUhUZWRnYjRhR0dsYUFkY2UwMlJEV1Y2Q1hsX05wbEdwa1BNLXA3RlpzYnBtcnlPSjhfZ1NHcG5FOVdEbFBHWi16eVJqcUpORHhZZTNXZnhJYUIwU25pd0RBR0ZLMGZaaG9JMW96?oc=5"
+    },
+    "86908561935fbbb63abfd6851401db5720ae7cff": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-08-27",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "Added full support for ESMC and ESMFold2 Added test suite for both ESMC and ESMFold2 Added compatibility layer for huggingface port of ESMC and ESMFold2 Maintained back compatibility with legacy models such as ESMC and support legacy model…",
+      "title": "esm · v3.4.0",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.4.0"
+    },
+    "88b81cd54678c0adf1c75e2385fa9d1eac279cc1": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-23",
+      "source": "Manufacturing Chemist",
+      "summary": "NIS and Proteos launch TrueCourse Biosciences to support AI drug discovery Manufacturing Chemist",
+      "title": "NIS and Proteos launch TrueCourse Biosciences to support AI drug discovery",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWnJ3NHRuMUc5NjRsS04zWkZKUWdBYklUM2FmMm5xb1VPamJoNlBOZjd3MngwRlNVUTJFWkp2X3RidzVYdVlHV1c3cDhwcGRKMWJyb21OMHhBMXNIb09NdHRkelNBckZ3V0tWTWtZLVpEenQ0Zzl1Z1d6b3RlWHdxUm8wNF9RTzU5ZVl1S2NOTHBMdGJDUDg0?oc=5"
+    },
+    "8a071d843c38fe2b297fb352eaddd08782e70f34": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-10",
+      "source": "Inverse",
+      "summary": "Beyond AI Drug Discovery: Astromech and the Rise of Predictive Biology Inverse",
+      "title": "Beyond AI Drug Discovery: Astromech and the Rise of Predictive Biology",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGhMS3hfWDdvcVdRUHZTaUFNb1daem1ON1BMSEF3QURSRDRpaXVyWi1FMHVkeUdjcTJ4YmZQLW5xRTVwMG9ibzZKUXVwLWptWE9haGpib0dLeU1HOGpTM05OaGJScjB1UFRWSzFxVm9UVGVzMnZFNS1qd1FScEZxUmFRX0dMMmkwZTB0dnA2eUx5YnVRQkxjSXBKYnI0Zw?oc=5"
+    },
+    "8bfe8f800d255fd243c8e4034c6de0b4cbeda1ea": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-08-31",
+      "source": "analyticsindiamag.com",
+      "summary": "This 24-Year-Old From Bengaluru Is Betting Against Expensive AI Drug Discovery analyticsindiamag.com",
+      "title": "This 24-Year-Old From Bengaluru Is Betting Against Expensive AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZTl1bkdPaDIxTzdTaVpRRmhjNnpNcDJLVnBrVXEwZ29PUHBfLWh4bW5QOTRQM0x3d2hwUzZoalZ5ZFc2c19EdG9RYmR0Q1FmUXlYcTQyYVdyWlRWXzZnWWd4TkgyZ3ZtdFI0MFNuYVp6UUxsMWpHcE9pTWNDYXdCUjV2V3hvd3Z0UXhIb0doc1djekVOWW5kSXpDRXpWQ0dRX3BSd1NSQUtJMm5GUFVPS0h3Y21JTklBZEh5Yw?oc=5"
+    },
+    "95a338d45db4330b13de4e9ae0914e4e5440041f": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-16",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "This releases brings better compatibility between different implementations (HF / esm / mlx_lm) and allows use of a single set of model weights for all implementations. It also fixes multiple bugs mol_type compared against MOL_TYPE_NONPOLY…",
+      "title": "esm · v3.4.1.post1",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.4.1.post1"
+    },
+    "9beba5e95f5b43455a8f83ca7ef669960c9686ac": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-01-23",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "Version 3.0.1 provides new features, improves performance, improves documentation, and fixes bugs. We thank everyone who reported issues, proposed new features, and submitted PRs! Change log Below is a selection of new features, performanc…",
+      "title": "alphafold3 · AlphaFold v3.0.1",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.1"
+    },
+    "9e8fe4eb017d5ce5d5583ad84955c6357a0e363e": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-22",
+      "source": "the-scientist.com",
+      "summary": "Connecting AI Protein Design with Experimental Data the-scientist.com",
+      "title": "Connecting AI Protein Design with Experimental Data",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalhfQlRSZW41aExJRi1WWWxmWGJCTVNuZjFPNzBwOHJMRXRlVk0xM05obTQ4WXgtVXFIdUt1bmJnV3daZFZXcm5Za3gwUFpLVmI2QnRLeHE1UFQtZGU5MEVIUGVZTXZnVy0zMGd2ZURyRVRONzNJeV9Dc19PUUxxOXRQemZYUFlQSDlxTzc4OG4?oc=5"
+    },
+    "a32168a24a6f503199f6fbc1c15ebc783ab7d10d": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-25",
+      "source": "Manufacturing Chemist",
+      "summary": "AI agents target drug safety, protein discovery and secure health data analysis Manufacturing Chemist",
+      "title": "AI agents target drug safety, protein discovery and secure health data analysis",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbWFRQ2VnM0RHMEJkWUpzd1A4MmoySktXODRrZml0QmlvckRaanFUdDJSRkxsZ2hMVlF0T0pRMHJvUTFQckptRW5GcHZVQm9mLTlTbUNJbHE4blFrRjF0bVRRVi1PcV90TWpLaHFvSEFOa0I3bmdabDFiTl90d29mbmItWlYzN2lpNC04?oc=5"
+    },
+    "abaa728de8617c351f81449b3ec945e0b1bbf923": {
+      "category": "综合资讯",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-24",
+      "source": "NVIDIA Blog（RSS）",
+      "summary": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
+      "title": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset"
+    },
+    "b092fe7c2e42ac7715d49df513e704e07b8d326b": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-05",
+      "source": "Phys.org",
+      "summary": "Breaking through AlphaFold's limits to predict how proteins change shape Phys.org",
+      "title": "Breaking through AlphaFold's limits to predict how proteins change shape",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85dTBZLS10Wkc0YTlhS2h1OWJ6VERWVWdpMW5uUUpNdUk0UGJSS21SQzlkUXVKNkVEanNCZzF0S0NVYUVVU0xFdm14eUNHVE00X3JGYWxSak5EREpaVEQzbE9Ua2hLcVF6WVRzcQ?oc=5"
+    },
+    "b1103fb8a33a31dd46f3acae0b9f72ed7b8fbd1b": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-08-30",
+      "source": "36Kr",
+      "summary": "Swiss Biotech Nerai Bioscience Develops AI-Powered High-Throughput Protein Engineering for Novel CRISPR Gene Editing Tools | Top 100 Swiss Innovations 36Kr",
+      "title": "Swiss Biotech Nerai Bioscience Develops AI-Powered High-Throughput Protein Engineering for Novel CRISPR Gene Editing Tools | Top 100 Swiss Innovations",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mcUVJTmlfVFpqQ3pQUXVmd2JmRFFLN2Z0c0llYTR6VVBYaktZV2VGc2tMTjRyazJGVW1iT056Um5WaVFlZ0ZTYzlza291cTA4OFpR?oc=5"
+    },
+    "b779001e0f3ec1d7cc74637a0d53949dc13f064a": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2026-02-03",
+      "source": "Institute for Protein Design",
+      "summary": "The computer-designed vaccine aims to protect against coronaviruses that haven't yet emerged, including pandemic threats The post First vaccine targeting SARS virus family enters human trials first appeared on Institute for Protein Design .",
+      "title": "First vaccine targeting SARS virus family enters human trials",
+      "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/"
+    },
+    "c031cc89226a97d7cde5020099ce9cf1f6634907": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-07-28",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "Version 3.0.4 makes AlphaFold 3 runnable on CPU-only machines and on Apple Silicon. Moreover, there are some performance improvements and small bug fixes. We thank everyone who reported issues, proposed new features, and submitted PRs! Cha…",
+      "title": "alphafold3 · AlphaFold v3.0.4",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.4"
+    },
+    "c235d2227136e7c3e91310d38e9d162abc35c40f": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-06-11",
+      "source": "GitHub · jwohlwend/boltz",
+      "summary": "New Features This release introduces two novel kernels from NVIDIA for the triangular attention and triangular multiplication layers, achieve 2x speedup and large memory savings! Changes The kernels are on by default for CUDA users with Am…",
+      "title": "boltz · Boltz v2.1.1: New CUDA kernels from NVIDIA",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.1.1"
+    },
+    "c7d66f0d47327f2f219d973a607dba391646cedd": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2024-12-05",
+      "source": "GitHub · chaidiscovery/chai-lab",
+      "summary": "What's Changed Major changes Support for specifying covalent bonds and glycans by @wukevin in #205 Improve colabfold MSAs to include unpaired MSA hits by @wukevin in #213 Minor changes Don't warn on missing MSAs for non-protein entities. b…",
+      "title": "chai-lab · v0.5.0: Covalent bonds, glycans, and improved MSA pairing",
+      "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.0"
+    },
+    "cebbe95c6a990bea0104c490521498f36c922fcc": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-10-14",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "Release Notes - ESM 3.2.3 bugfix: added chain ids to MolecularComplex bugfix: use biotite for mmcif conversion in MolecularComplex bugfix: updated sequence filtering in esm/utils/msa/filter_sequences.py for better handling of edge cases",
+      "title": "esm · v3.2.3",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.2.3"
+    },
+    "d00ed97cd99c261ec4ef681f38b5fa958add3df1": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-06-11",
+      "source": "GitHub · jwohlwend/boltz",
+      "summary": "No content.",
+      "title": "boltz · Boltz v2.1.0",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.1.0"
+    },
+    "d2a9f066c56c35317689fc94b5fae8ab139c0f1e": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-08-01",
+      "source": "Institute for Protein Design",
+      "summary": "Protein design is expanding from building single molecules to generating entire systems from scratch with parts that work together in ways nature never explored. The post Creating multi-protein systems with atomic precision first appeared…",
+      "title": "Creating multi-protein systems with atomic precision",
+      "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/"
+    },
+    "d8d90d39d479922f5339b83097fb62797caf4dcc": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-15",
+      "source": "Business Wire",
+      "summary": "Enveda Is Launching the Next AlphaFold Contest. This Time, to Solve the Structures of 90% of Biological Molecules That No One Can Identify. Business Wire",
+      "title": "Enveda Is Launching the Next AlphaFold Contest. This Time, to Solve the Structures of 90% of Biological Molecules That No One Can Identify.",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOb1FsYkcxdjdWWHNtdzIydWZYbHlHTUN0bm1PT3VHUXQ2VTYyWXoydEpfN2VLLVhMc3puakhaVlczb3ZhQWl2bVZobW9QSmlnWHpIeENyR2xjdnBsbHpJQ2lGOW9IQ1VzYmVHWFlGZUJnMmg0X3dzQkQxMlc3Y251QjVrZ3ZtOC1rNzJfXy02aEl2eWhYZjVwdmZNYkxEWXh0cG1fUU90dC14bnZzU3Aza2J3aDdkNllucHdHTzFYRkRiVkRWLWt1Wk51bW1lTi1ZTzc3X1NZcXBqMWtKTmxvU2dRbENPRG1UT2drZkRhVnF5UVQ1WjJUMzdadmJsNHZMRl9iSDZOdlM1U3BPOHU4UGUybW9nZTlzYXZHSXV0TQ?oc=5"
+    },
+    "e0843d709947ab9d6a1a43313a082f8aaa08bbbd": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-24",
+      "source": "36Kr",
+      "summary": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges 36Kr",
+      "title": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjR0E0Q0syNVlyQmNhblJYUmVxaWR4WUc2bTdpdFdOX2lmeGtTNGx1LVZnS3YtOEQxVFZMNHlrRmJobWRsamFEcTFmNVpxdldtbURZ?oc=5"
+    },
+    "ee4d6d8c6079ec5e34d74858c80e687c5cf5b6c5": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2026-03-17",
+      "source": "GitHub · bytedance/Protenix",
+      "summary": "What's changed Add a include_discont_poly_poly_bonds switch for protenix json command",
+      "title": "Protenix · v1.0.9: Add a include_discont_poly_poly_bonds switch for 'protenix json' command",
+      "url": "https://github.com/bytedance/Protenix/releases/tag/v1.0.9"
+    },
+    "f3c2894b96eaa84c55710814b14c0d212514ca8d": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-16",
+      "source": "Dealroom.co",
+      "summary": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation Dealroom.co",
+      "title": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWZ2ZXAtTFpfMXpBemNQdmlZM0tvZ0dFV19maTR2MVN0ekx3WGprcDhzTmhfYnpSNWFid3FIZDctWUtCOUNQaEE3bHJsOVRpSDY5MnhYTldoaWhaa01ld2JEa0NXZ3Y2UkFta2o3cUlyQ0NscktSZWlSWmphNTNnOF93OUNraXRTejBYQ0NqZkNpRVZ6NTBPVU54Mks2MENCT2V4RXdKbUdlTHM?oc=5"
+    },
+    "f900ad2b97287c1f94e2ed6cae892f44e30de17f": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2026-05-28",
+      "source": "Institute for Protein Design",
+      "summary": "Dr. Green Ahn joins the University of Washington Department of Biochemistry and the Institute for Protein Design as an Assistant Professor. The post A New Era for Protein Design in Oncology: Dr. Ahn Joins the IPD first appeared on Institut…",
+      "title": "A New Era for Protein Design in Oncology: Dr. Ahn Joins the IPD",
+      "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/"
+    },
+    "f91a90a4420557ff10f95f686a393a4d3233a5ad": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-10-01",
+      "source": "GitHub · NVIDIA/bionemo-framework",
+      "summary": "Updates & Improvements Evo2 model improvements: Context, tensor and data parallelism support in the prediction endpoint as well as support for context lengths over 8192 #1123 . Fixes #910 and #1048 . LoRA fine-tuning by @gabenavarro : #980…",
+      "title": "bionemo-framework · NVIDIA BioNeMo Framework v2.7",
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/v2.7"
+    },
+    "f967df2bd232f8a438fd94e55e54ffde5417db95": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-12-03",
+      "source": "Institute for Protein Design",
+      "summary": "This foundation model for biodesign can generate proteins that interact with any type of molecule commonly found inside cells. The post RFdiffusion3 now available first appeared on Institute for Protein Design .",
+      "title": "RFdiffusion3 now available",
+      "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/"
+    },
+    "fac206285a44b44274a2c1c6ea04fe976b923820": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2025-09-08",
+      "source": "GitHub · jwohlwend/boltz",
+      "summary": "What's Changed fix: redundant PoseBustersPotential bounds by @simonlevine in #478 Fix help message in --use_potentials flag by @Alberto024 in #487 Minor simplification of Diffusion Loss by @shenoynikhil in #486 Fix: update filter_inputs_af…",
+      "title": "boltz · Boltz v2.2.1: Minor bug fixes",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.2.1"
+    },
+    "fb9c9b4681e8c88012500b00044645ba76235a15": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-18",
+      "source": "Healthcare Digital",
+      "summary": "Novo & Anthropic: Partnering on Claude AI Drug Discovery Healthcare Digital",
+      "title": "Novo & Anthropic: Partnering on Claude AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNGQxSkU2cHFDRzdVRFZDQ2tyR2M1bTlWVklEbTIxcFU5QnpZMkJaVWVJOEJ4YXpFcS1Qblh0X25VSEpiVWY0aC1zQnlaMlpGMWRKcTZVdEFfQzl4UjlvMlUtZFN2NmR3V3RTVnVLT3BOQV9lSVQzWXFqTUlPay1ubEZGU3JFMC1vR1VBQ0hNT2N1WU0?oc=5"
+    },
+    "fd2071c8417c35fbb602b91b3cc0c4320ad47e3c": {
+      "category": "产业动态",
+      "first_seen": "2026-09-29",
+      "published": "2026-09-08",
+      "source": "SynBioBeta",
+      "summary": "OpenProtein.AI Selected to Build Next-Generation Protein Foundation Models Under DARPA Program SynBioBeta",
+      "title": "OpenProtein.AI Selected to Build Next-Generation Protein Foundation Models Under DARPA Program",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTnlTS2pLMHNFZFI5YldHeUZlUXpqbGpuX214RGJsVVNEczRyRE9Ib01GYXAyRnd4SklnNXY4dUVHbExadkUxekdwU1U5aWZBeTFNUEhlVzl2cEVNWkE1eV9fRl9PTjZMbjZla2c1aVNDZVlTUXdjRU5LRV9NSWhGektlYmdQSi0zdjVuNDlUXzVnNmpHRWNaMG9DWHoxa0JEU2hTbVVoNnJ6R1oxMm9tV2xkTWpPT1VQcVdpZVJmd045SzBv?oc=5"
+    },
+    "fe444ff8d97f390915a4277708c0e48242b60413": {
+      "category": "研究机构",
+      "first_seen": "2026-09-29",
+      "published": "2025-12-03",
+      "source": "Institute for Protein Design",
+      "summary": "AI model that creates catalysts in weeks instead of years opens the door to degrading pollutants and building new medicines. The post RFdiffusion2: efficient enzymes from prompts first appeared on Institute for Protein Design .",
+      "title": "RFdiffusion2: efficient enzymes from prompts",
+      "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/"
+    },
+    "ff4c39df99a706655716c2d6c2636a5057f0b4d5": {
+      "category": "模型与工具",
+      "first_seen": "2026-09-29",
+      "published": "2024-12-20",
+      "source": "GitHub · chaidiscovery/chai-lab",
+      "summary": "What's Changed Minor fixes to glycan parsing by @wukevin in #219 Additional fixes for glycans by @wukevin in #221 (tag and release were updated because previous did not deploy correctly to pypi) Full Changelog : v0.5.0...v0.5.1",
+      "title": "chai-lab · v0.5.1: fixes for glycan parsing",
+      "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
+    }
+  },
+  "updated_at": "2026-09-29T01:46:33+00:00"
+}

@@ -15,7 +15,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONTENT = ROOT / "site" / "content"
 DEFAULT_OUTPUT = ROOT / "docs"
 DEFAULT_PAPERS = ROOT / "data" / "papers.json"
+DEFAULT_NEWS = ROOT / "data" / "news.json"
 DEFAULT_CONFIG = ROOT / "config" / "topics.json"
+DEFAULT_NEWS_CONFIG = ROOT / "config" / "news_sources.json"
 
 
 def load_json(path: Path, default):
@@ -32,6 +34,7 @@ def page_shell(title: str, description: str, body: str, prefix: str = "", active
     nav_items = [
         ("首页", f"{prefix}index.html", "home"),
         ("文章", f"{prefix}articles.html", "articles"),
+        ("资讯", f"{prefix}news.html", "news"),
         ("每日论文", f"{prefix}papers.html", "papers"),
         ("关于", f"{prefix}index.html#about", "about"),
     ]
@@ -60,7 +63,7 @@ def page_shell(title: str, description: str, body: str, prefix: str = "", active
   <main>{body}</main>
   <footer class="site-footer">
     <strong>CAOM</strong>
-    <span>公众号文章与蛋白设计前沿论文的独立归档。</span>
+    <span>公众号文章、行业资讯与蛋白设计前沿论文的独立归档。</span>
   </footer>
 </body>
 </html>
@@ -108,6 +111,22 @@ def paper_row(record: dict) -> str:
 </article>"""
 
 
+def news_row(record: dict) -> str:
+    title = esc(record.get("title"))
+    link = esc(record.get("url"))
+    linked_title = f'<a href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>' if link else title
+    return f"""
+<article class="news-row">
+  <div class="news-date">{esc(record.get('published') or record.get('first_seen'))}</div>
+  <div>
+    <div class="news-source"><span>{esc(record.get('category'))}</span>{esc(record.get('source'))}</div>
+    <h3>{linked_title}</h3>
+    <p>{esc(record.get('summary'))}</p>
+  </div>
+  <a class="arrow-link" href="{link}" target="_blank" rel="noopener noreferrer" aria-label="查看资讯原文">↗</a>
+</article>"""
+
+
 def sorted_papers(library: dict) -> list[dict]:
     return sorted(
         library.get("papers", {}).values(),
@@ -116,11 +135,20 @@ def sorted_papers(library: dict) -> list[dict]:
     )
 
 
-def build_home(articles: list[dict], papers: list[dict]) -> str:
+def sorted_news(library: dict) -> list[dict]:
+    return sorted(
+        library.get("items", {}).values(),
+        key=lambda record: (record.get("published", ""), record.get("first_seen", ""), record.get("title", "")),
+        reverse=True,
+    )
+
+
+def build_home(articles: list[dict], news: list[dict], papers: list[dict], news_config: dict) -> str:
     featured = next((article for article in articles if article.get("featured")), articles[0])
     cover = featured.get("cover", "")
     hero_style = f' style="background-image: url(\'{esc(cover)}\')"' if cover else ""
     latest_stories = "".join(article_row(article) for article in articles[:4])
+    latest_news = "".join(news_row(item) for item in news[: int(news_config.get("homepage_limit", 8))])
     latest_papers = "".join(paper_row(paper) for paper in papers[:8])
     return f"""
 <section class="hero"{hero_style}>
@@ -135,12 +163,17 @@ def build_home(articles: list[dict], papers: list[dict]) -> str:
 </section>
 <section class="signal-strip" aria-label="站点内容概览">
   <div><strong>{len(articles)}</strong><span>公众号文章</span></div>
+  <div><strong>{len(news)}</strong><span>行业资讯</span></div>
   <div><strong>{len(papers)}</strong><span>累计论文</span></div>
   <div><strong>Daily</strong><span>自动更新</span></div>
 </section>
 <section class="section-band">
   <div class="section-heading"><div><span class="eyebrow dark">Stories</span><h2>最新文章</h2></div><a href="articles.html">查看全部 →</a></div>
   <div class="story-list">{latest_stories}</div>
+</section>
+<section class="section-band news-band">
+  <div class="section-heading"><div><span class="eyebrow dark">Field Signals</span><h2>行业资讯</h2></div><a href="news.html">查看全部 →</a></div>
+  <div class="news-list">{latest_news}</div>
 </section>
 <section class="section-band papers-band">
   <div class="section-heading"><div><span class="eyebrow dark">Paper Radar</span><h2>每日论文</h2></div><a href="papers.html">进入文献库 →</a></div>
@@ -150,6 +183,27 @@ def build_home(articles: list[dict], papers: list[dict]) -> str:
   <div><span class="eyebrow dark">About</span><h2>关于 CAOM</h2></div>
   <p>关注 AI、蛋白设计与计算生物学。公众号长文负责解释技术变化，Paper Radar 负责保存每日值得继续阅读的原始论文。</p>
 </section>"""
+
+
+def build_news_page(news: list[dict], config: dict) -> str:
+    order = config.get("category_order", [])
+    grouped: OrderedDict[str, list[dict]] = OrderedDict((category, []) for category in order)
+    for item in news:
+        grouped.setdefault(item.get("category") or "综合资讯", []).append(item)
+    directory = "".join(
+        f'<a href="#{esc(category)}"><span>{esc(category)}</span><strong>{len(items)}</strong></a>'
+        for category, items in grouped.items()
+        if items
+    )
+    sections = "".join(
+        f'<section class="news-category" id="{esc(category)}"><div class="category-heading"><h2>{esc(category)}</h2><span>{len(items)} 条</span></div><div class="news-list">{"".join(news_row(item) for item in items)}</div></section>'
+        for category, items in grouped.items()
+        if items
+    )
+    return f"""
+<section class="page-intro"><span class="eyebrow dark">Industry Radar</span><h1>行业资讯</h1><p>聚合蛋白设计实验室、模型工具、产业媒体和开源项目动态。标题与摘要经过领域过滤，点击后进入来源原文。</p></section>
+<nav class="paper-directory" aria-label="资讯分类目录">{directory}</nav>
+<div class="news-categories">{sections}</div>"""
 
 
 def build_articles_page(articles: list[dict]) -> str:
@@ -211,7 +265,9 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--content", type=Path, default=DEFAULT_CONTENT)
     parser.add_argument("--papers", type=Path, default=DEFAULT_PAPERS)
+    parser.add_argument("--news", type=Path, default=DEFAULT_NEWS)
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    parser.add_argument("--news-config", type=Path, default=DEFAULT_NEWS_CONFIG)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
@@ -220,7 +276,9 @@ def main() -> int:
     if not articles:
         raise RuntimeError("no imported WeChat articles; run scripts/sync_wechat.py first")
     papers = sorted_papers(load_json(args.papers, {"papers": {}}))
+    news = sorted_news(load_json(args.news, {"items": {}}))
     config = load_json(args.config, {})
+    news_config = load_json(args.news_config, {})
 
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "articles").mkdir(parents=True, exist_ok=True)
@@ -230,11 +288,15 @@ def main() -> int:
     shutil.copy2(ROOT / "site" / "static" / "favicon.svg", args.output / "assets" / "favicon.svg")
 
     (args.output / "index.html").write_text(
-        page_shell("CAOM · AI × Protein Design Notes", "CAOM 公众号文章与蛋白设计论文索引。", build_home(articles, papers), active="home"),
+        page_shell("CAOM · AI × Protein Design Notes", "CAOM 公众号文章、行业资讯与蛋白设计论文索引。", build_home(articles, news, papers, news_config), active="home"),
         encoding="utf-8",
     )
     (args.output / "articles.html").write_text(
         page_shell("公众号文章 · CAOM", "CAOM 公众号文章归档。", build_articles_page(articles), active="articles"),
+        encoding="utf-8",
+    )
+    (args.output / "news.html").write_text(
+        page_shell("行业资讯 · CAOM", "AI 蛋白设计行业资讯与工具动态。", build_news_page(news, news_config), active="news"),
         encoding="utf-8",
     )
     (args.output / "papers.html").write_text(
@@ -253,7 +315,7 @@ def main() -> int:
         (args.output / "articles" / f"{article['slug']}.html").write_text(page, encoding="utf-8")
 
     (args.output / ".nojekyll").write_text("", encoding="utf-8")
-    print(f"built site with {len(articles)} articles and {len(papers)} papers")
+    print(f"built site with {len(articles)} articles, {len(news)} news items, and {len(papers)} papers")
     return 0
 
 

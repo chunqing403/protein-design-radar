@@ -5,8 +5,10 @@ on:
     branches: [main]
     paths:
       - "data/**"
+      - "config/**"
       - "site/**"
       - "scripts/build_site.py"
+      - "scripts/daily_news.py"
       - "requirements-site.txt"
       - ".github/workflows/pages.yml"
   workflow_run:

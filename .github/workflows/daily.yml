@@ -28,6 +28,9 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scripts/daily_recommend.py
 
+      - name: Collect protein design news
+        run: python scripts/daily_news.py
+
       - name: Sync WeChat articles and build website
         run: |
           python scripts/sync_wechat.py

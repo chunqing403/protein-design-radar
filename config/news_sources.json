@@ -1,0 +1,128 @@
+{
+  "project_name": "Protein Design News Radar",
+  "history_limit": 400,
+  "homepage_limit": 8,
+  "category_order": [
+    "研究机构",
+    "模型与工具",
+    "产业动态",
+    "综合资讯"
+  ],
+  "feeds": [
+    {
+      "name": "Institute for Protein Design",
+      "url": "https://www.ipd.uw.edu/feed/",
+      "category": "研究机构",
+      "trusted": true,
+      "limit": 16
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "category": "研究机构",
+      "limit": 30
+    },
+    {
+      "name": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "category": "研究机构",
+      "limit": 30
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "模型与工具",
+      "limit": 40
+    }
+  ],
+  "google_news_queries": [
+    "(\"protein design\" OR \"protein engineering\") (AI OR \"machine learning\") when:30d",
+    "(AlphaFold OR RFdiffusion OR ProteinMPNN OR \"protein language model\") when:30d",
+    "(\"generative biology\" OR \"AI drug discovery\") protein when:30d"
+  ],
+  "ai_hot": {
+    "enabled": true,
+    "url": "https://aihot.virxact.com/api/v1/items?mode=selected&window=7d&limit=100",
+    "category": "综合资讯"
+  },
+  "github_releases": [
+    "google-deepmind/alphafold3",
+    "jwohlwend/boltz",
+    "chaidiscovery/chai-lab",
+    "bytedance/Protenix",
+    "NVIDIA/bionemo-framework",
+    "EvolutionaryScale/esm"
+  ],
+  "github_release_limit": 5,
+  "blocked_sources": [
+    "Crypto Briefing",
+    "EIN News",
+    "finance.biggo.com",
+    "fortunebusinessinsights.com",
+    "Grand View Research",
+    "KuCoin",
+    "Markets Herald",
+    "NAI500",
+    "NewsBytes",
+    "openPR.com",
+    "Root-Nation.com",
+    "scanx.trade",
+    "tbreak.com"
+  ],
+  "high_relevance_terms": [
+    "protein design",
+    "protein engineering",
+    "de novo protein",
+    "protein language model",
+    "protein foundation model",
+    "inverse folding",
+    "binder design",
+    "enzyme design",
+    "antibody design",
+    "peptide design",
+    "structure prediction",
+    "generative biology",
+    "alphafold",
+    "rfdiffusion",
+    "rosettafold",
+    "proteinmpnn",
+    "ligandmpnn",
+    "boltz",
+    "chai-1",
+    "esm3",
+    "esm c"
+  ],
+  "domain_terms": [
+    "protein",
+    "peptide",
+    "antibody",
+    "enzyme",
+    "amino acid",
+    "binder",
+    "biomolecule",
+    "folding",
+    "molecular structure",
+    "drug discovery"
+  ],
+  "ai_terms": [
+    "artificial intelligence",
+    "machine learning",
+    "deep learning",
+    "foundation model",
+    "language model",
+    "diffusion",
+    "generative",
+    "neural network",
+    "computational design",
+    "in silico",
+    " ai "
+  ],
+  "negative_terms": [
+    "food protein",
+    "dietary protein",
+    "protein intake",
+    "nutrition",
+    "whey protein",
+    "plant protein market"
+  ]
+}
