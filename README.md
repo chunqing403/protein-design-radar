@@ -7,17 +7,16 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
+Updated: **2026-09-30** (`2026-09-30T05:41:35Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223)<br><sub>Dai, S. A., Cavanagh, P. E., Qiang, A. et al.</sub> | bioRxiv<br>2026-09-28 | Enzymes and function |
-| 2 | [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145)<br><sub>Yi, K., Chen, Q., Zhang, D. et al.</sub> | bioRxiv<br>2026-09-28 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
-| 3 | [Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics](https://doi.org/10.64898/2026.09.25.754509)<br><sub>Garimella, S. S., Lauro, G., Peddamallu, V. et al.</sub> | bioRxiv<br>2026-09-28 | Binders and therapeutics |
-| 4 | [AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design](https://doi.org/10.64898/2026.09.23.753608)<br><sub>Kitaygorodsky, A., Hostallero, D. E., Broom, A. et al.</sub> | bioRxiv<br>2026-09-28 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
-| 5 | [Genome-wide-scale prediction of compound−protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216)<br><sub>Yuga Moriyama, Yuki Matsukiyo, Tsuyoshi Kimura et al.</sub> | Bioinformatics<br>2026-09-28 | Protein language models |
+| 1 | [What deep learning can and cannot (yet) do for enzyme design](https://linkinghub.elsevier.com/retrieve/pii/S1367593126001195)<br><sub>Judith A. Ahr, Moor M. de Waal, Tudor-Stefan Cotet et al.</sub> | Current Opinion in Chemical Biology<br>2026-12 | Enzymes and function |
+| 2 | [Rhomboid tiling-based topological deep learning for protein complex structure quality assessment beyond pairwise contacts](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004704)<br><sub>Bingqing Han, Yipeng Zhang, Mei Zheng et al.</sub> | Cell Reports Physical Science<br>2026-10 | General |
+| 3 | [De novo design of protein antagonists of bacterial pathogen type III secretion system needle assembly](https://www.nature.com/articles/s41598-026-73853-5)<br><sub>Ruoqing Jia, Ji Yoon Jung, Aashi Inani et al.</sub> | Sci Rep<br>2026-09-29 | General |
+| 4 | ["EXPERT" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.](https://pubmed.ncbi.nlm.nih.gov/42810683/)<br><sub>Cooper CDO, Tankhilevich E, Remans K et al.</sub> | PubMed<br>2026 Sep 29 | Experimental validation |
 
 ### Paper Directory / 文献目录
 
@@ -27,17 +26,17 @@ Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 17 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 59 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 31 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 8 |
-| [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 3 |
-| [General / 综合](#paper-category-general) | 14 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
+| [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
+| [General / 综合](#paper-category-general) | 16 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
 #### Structure Generation / 结构生成 (45)
 
-- [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design](https://doi.org/10.64898/2026.09.23.753608) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
+- [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551) (bioRxiv, 2026-09-26; first seen 2026-09-28; Structure generation, Experimental validation)
 - [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
 - [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a) (ACS Synthetic Biology, 2026-09-23; first seen 2026-09-24; Structure generation, Sequence design, Experimental validation)
@@ -202,8 +201,9 @@ Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (8)
+#### Enzymes & Function / 酶与功能 (9)
 
+- [What deep learning can and cannot (yet) do for enzyme design](https://linkinghub.elsevier.com/retrieve/pii/S1367593126001195) (Current Opinion in Chemical Biology, 2026-12; first seen 2026-09-30; Enzymes and function)
 - [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223) (bioRxiv, 2026-09-28; first seen 2026-09-29; Enzymes and function)
 - [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960) (bioRxiv, 2026-09-26; first seen 2026-09-28; Enzymes and function)
 - [AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations.](https://pubmed.ncbi.nlm.nih.gov/42766632/) (PubMed, 2026 Sep 01; first seen 2026-09-22; Enzymes and function, Experimental validation)
@@ -214,15 +214,18 @@ Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://doi.org/10.1101/2024.10.02.616302) (biorxiv, 2026-06-27; first seen 2026-06-30; Enzymes and function)
 
 <a id="paper-category-experimental-validation"></a>
-#### Experimental Validation / 实验验证 (3)
+#### Experimental Validation / 实验验证 (4)
 
+- ["EXPERT" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.](https://pubmed.ncbi.nlm.nih.gov/42810683/) (PubMed, 2026 Sep 29; first seen 2026-09-30; Experimental validation)
 - [EM3DFold: accurate de novo protein and nucleic acid model building for cryo-EM maps using language model-powered deep learning](https://doi.org/10.64898/2026.09.16.752067) (bioRxiv, 2026-09-18; first seen 2026-09-19; Experimental validation)
 - [Machine Learning Models for Local Optimization of Red Fluorescent Protein Variants in a Low-Data Setting.](https://pubmed.ncbi.nlm.nih.gov/42443100/) (PubMed, 2026 Jul 27; first seen 2026-07-28; Experimental validation)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (14)
+#### General / 综合 (16)
 
+- [Rhomboid tiling-based topological deep learning for protein complex structure quality assessment beyond pairwise contacts](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004704) (Cell Reports Physical Science, 2026-10; first seen 2026-09-30; General)
+- [De novo design of protein antagonists of bacterial pathogen type III secretion system needle assembly](https://www.nature.com/articles/s41598-026-73853-5) (Sci Rep, 2026-09-29; first seen 2026-09-30; General)
 - [AlphaFold ‘goes viral’: database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1) (Nature, 2026-09-24; first seen 2026-09-25; General)
 - [Sculpting semisynthetic conducting protein pores by de novo design](https://www.nature.com/articles/s41594-026-01880-x) (Nat Struct Mol Biol, 2026-09-22; first seen 2026-09-23; General)
 - [Generating protein hydrogels with customizable stress relaxation behavior via deep learning-driven entanglement design](https://www.nature.com/articles/s41467-026-77607-9) (Nat Commun, 2026-09-21; first seen 2026-09-22; General)
@@ -240,7 +243,7 @@ Updated: **2026-09-29** (`2026-09-29T05:51:30Z`)
 
 ### Archive
 
-- [Daily report for 2026-09-29](outputs/daily/2026-09-29.md)
+- [Daily report for 2026-09-30](outputs/daily/2026-09-30.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

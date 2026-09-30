@@ -216,6 +216,12 @@
       "title": "Generative artificial intelligence for enzyme design and biocatalysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
     },
+    "doi:10.1016/j.cbpa.2026.102770": {
+      "first_seen": "2026-09-30",
+      "source": "Current Opinion in Chemical Biology",
+      "title": "What deep learning can and cannot (yet) do for enzyme design",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1367593126001195"
+    },
     "doi:10.1016/j.cclet.2026.113345": {
       "first_seen": "2026-08-27",
       "source": "Chinese Chemical Letters",
@@ -312,6 +318,12 @@
       "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
     },
+    "doi:10.1016/j.jbc.2026.113610": {
+      "first_seen": "2026-09-30",
+      "source": "PubMed",
+      "title": "\"EXPERT\" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42810683/"
+    },
     "doi:10.1016/j.jmb.2026.169660": {
       "first_seen": "2026-09-15",
       "source": "PubMed",
@@ -377,6 +389,12 @@
       "source": "Cell Reports Physical Science",
       "title": "Engineering conditional peptide self-assembly using AlphaFold",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666386426004571"
+    },
+    "doi:10.1016/j.xcrp.2026.103564": {
+      "first_seen": "2026-09-30",
+      "source": "Cell Reports Physical Science",
+      "title": "Rhomboid tiling-based topological deep learning for protein complex structure quality assessment beyond pairwise contacts",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666386426004704"
     },
     "doi:10.1016/j.xplc.2026.102088": {
       "first_seen": "2026-09-01",
@@ -659,6 +677,12 @@
       "source": "Sci Rep",
       "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
       "url": "https://www.nature.com/articles/s41598-026-67951-7"
+    },
+    "doi:10.1038/s41598-026-73853-5": {
+      "first_seen": "2026-09-30",
+      "source": "Sci Rep",
+      "title": "De novo design of protein antagonists of bacterial pathogen type III secretion system needle assembly",
+      "url": "https://www.nature.com/articles/s41598-026-73853-5"
     },
     "doi:10.1038/s42003-026-10725-8": {
       "first_seen": "2026-09-09",
