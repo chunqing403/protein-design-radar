@@ -222,6 +222,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42655993/"
     },
+    "doi:10.1002/nbm.70381": {
+      "abstract": "Gadolinium-based contrast agents (GBCAs) are indispensable tools in magnetic resonance imaging (MRI), yet their clinical use is limited by non-specific tissue accumulation, low molecular specificity, and safety concerns. Protein and peptide scaffolds provide a promising alternative because they can bind metal ions with high selectivity and enable precise molecular targeting. However, identifying short peptide motifs with optimal gadolinium (Gd3+) coordination and high relaxivity remains a major challenge. Here, we used a machine-learning-driven peptide evolution platform, the Protein Optimization Engineering Tool (POET), to design and optimize short Gd-binding motifs that enhance longitudinal relaxivity (r1). Two algorithmic strategies were tested: motif-based and regular-expression-based representations. Both algorithms were trained on an initial set of 74 twelve-amino-acid peptides derived from natural EF-hand scaffolds. Through two rounds of directed evolution and experimental screening, POET predicted peptides with up to a 24% increase in r1 ratio compared with the best natural EF-hand. Further analysis revealed that peptides exhibiting higher relaxivity generally possessed a more negative net charge and lower isoelectric point than the buffer pH, indicating stronger electrostatic stabilization of Gd3+. Sequence enrichment analysis showed that acidic and small polar residues, particularly aspartic acid, glycine, and threonine, were selectively favored during evolution, while bulky hydrophobic and basic residues were depleted. These compositional trends align with improved solubility and enhanced metal coordination. Together, these results demonstrate a generalizable framework that integrates computational evolution with biophysical screening to discover new biologically derived Gd-binding motifs. This approach provides a scalable route to engineer responsive, tunable, and biocompatible MRI contrast tags for precision imaging and molecular diagnostics.",
+      "authors": [
+        "Dayan NA",
+        "Long M",
+        "Scalzitti N",
+        "Miralavy I",
+        "Holmes D",
+        "Kocherovsky M",
+        "Banzhaf W",
+        "Gilad AA"
+      ],
+      "doi": "10.1002/nbm.70381",
+      "first_seen": "2026-10-01",
+      "published": "2026 Oct 01",
+      "reasons": [
+        "directed evolution",
+        "protein",
+        "peptide",
+        "binding",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42728757",
+      "title": "Machine Learning-Based Development of Gadolinium Binding Peptides.",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42728757/"
+    },
     "doi:10.1002/pro.70667": {
       "abstract": "Accurate prediction of the interface residue-residue contacts between interacting proteins is valuable for determining the structure and function of protein complexes. Recent deep learning methods have drastically improved the accuracy of predicting the interface contacts of protein complexes. However, existing methods rely on Multiple Sequence Alignments (MSA) features which pose limitations on prediction accuracy, speed, and computational efficiency. Here, we propose a transformer-powered deep learning method to predict the inter-protein residue-residue contacts using single-sequence and structure-aware protein language models (PLM), called DeepSSInter. Utilizing the intra-protein distance and graph representations and the ESM2 and SaProt PLM, we are able to generate the structure-aware features for the protein receptor, ligand, and complex. These structure-aware features are passed into the ResNet Inception module and the Triangle-aware module to effectively produce the predicted inter-protein contact map. Extensive experiments on both homo- and hetero-dimeric complexes show that our DeepSSInter model significantly improves the performance in both accuracy and speed compared with previous state-of-the-art methods. Integrating predicted contacts significantly improves the docking performance. The DeepSSInter is available at https://github.com/huang-laboratory/DeepSSInter/.",
       "authors": [
@@ -434,28 +465,58 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42489162/"
     },
     "doi:10.1002/pro.70790": {
-      "abstract": "Abstract Distinguishing biological protein–protein interfaces from non‐biological contacts remains an important task in structural biology, particularly as protein complex structures continue to accumulate. Recent advances in protein language models (pLMs) have expanded their use across diverse protein prediction tasks, including sequence‐based protein–protein interaction prediction. Such approaches often pool representations over entire sequences, whereas structure‐based methods commonly rely on more complex graph‐ or geometry‐based integration. We therefore asked how much interface‐relevant information could be extracted by simply pooling pLM embeddings over structurally defined local regions. Here, we revisited biological‐versus‐crystal interface classification as a structurally well‐defined testbed for this question. We developed a framework that compares full‐sequence pooling, interface‐localized pooling of pLM embeddings, and multimodal integration of sequence‐derived embeddings with point‐cloud representations of protein surfaces. On two benchmark datasets, interface‐localized pooling achieved stronger performance than full‐sequence or non‐interacting surface pooling across three pLM backbones. Despite its simplicity, the resulting representation performed within the range of established methods that rely on explicit evolutionary analysis or geometric modeling. Incorporating explicit geometric surface information changed performance slightly, without reaching statistical significance. Because the model is linear, the interface‐level score decomposes exactly into per‐residue contributions, which varied within amino‐acid types. Together, our results indicate that the principal gain arises from localizing pLM embeddings to physically interacting residues, enabling a lightweight and accessible implementation for biological‐versus‐crystal interface classification. Code and scripts are available on GitHub: https://github.com/fukasawa-group/espma .",
+      "abstract": "Distinguishing biological protein-protein interfaces from non-biological contacts remains an important task in structural biology, particularly as protein complex structures continue to accumulate. Recent advances in protein language models (pLMs) have expanded their use across diverse protein prediction tasks, including sequence-based protein-protein interaction prediction. Such approaches often pool representations over entire sequences, whereas structure-based methods commonly rely on more complex graph- or geometry-based integration. We therefore asked how much interface-relevant information could be extracted by simply pooling pLM embeddings over structurally defined local regions. Here, we revisited biological-versus-crystal interface classification as a structurally well-defined testbed for this question. We developed a framework that compares full-sequence pooling, interface-localized pooling of pLM embeddings, and multimodal integration of sequence-derived embeddings with point-cloud representations of protein surfaces. On two benchmark datasets, interface-localized pooling achieved stronger performance than full-sequence or non-interacting surface pooling across three pLM backbones. Despite its simplicity, the resulting representation performed within the range of established methods that rely on explicit evolutionary analysis or geometric modeling. Incorporating explicit geometric surface information changed performance slightly, without reaching statistical significance. Because the model is linear, the interface-level score decomposes exactly into per-residue contributions, which varied within amino-acid types. Together, our results indicate that the principal gain arises from localizing pLM embeddings to physically interacting residues, enabling a lightweight and accessible implementation for biological-versus-crystal interface classification. Code and scripts are available on GitHub: https://github.com/fukasawa-group/espma.",
       "authors": [
-        "Sarah Nozawa",
-        "Kentaro Tomii",
-        "Yoshinori Fukasawa"
+        "Nozawa S",
+        "Tomii K",
+        "Fukasawa Y"
       ],
       "doi": "10.1002/pro.70790",
       "first_seen": "2026-09-18",
-      "published": "2026-10",
+      "published": "2026 Oct 01",
       "reasons": [
         "protein language model",
         "protein",
         "sequence",
         "structure"
       ],
-      "source": "Protein Science",
-      "source_id": "10.1002/pro.70790",
-      "title": "ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models",
+      "source": "PubMed",
+      "source_id": "42752891",
+      "title": "ESpma: A method for assessing biological/non-biological interfaces using point-clouds-based structural features and protein language models.",
       "topics": [
         "Protein language models"
       ],
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70790"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752891/"
+    },
+    "doi:10.1002/pro.70800": {
+      "abstract": "Abstract De novo protein design often produces thermostable proteins that denature above 100°C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of 35 de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower Δ C p and m ‐values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt .",
+      "authors": [
+        "Vili Lampinen",
+        "Osvaldo Burastero",
+        "Iara Plácido Guazzelli",
+        "Florian Vögele",
+        "Francisca Pinheiro",
+        "Jan S. Nowak",
+        "Maria M. Garcia Alai",
+        "Magnus Kjaergaard"
+      ],
+      "doi": "10.1002/pro.70800",
+      "first_seen": "2026-10-01",
+      "published": "2026-11",
+      "reasons": [
+        "protein design",
+        "de novo protein",
+        "de novo design",
+        "stability",
+        "protein"
+      ],
+      "source": "Protein Science",
+      "source_id": "10.1002/pro.70800",
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "topics": [
+        "General"
+      ],
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70800"
     },
     "doi:10.1002/prot.70162": {
       "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
@@ -540,6 +601,33 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42730944/"
+    },
+    "doi:10.1007/s00894-026-06968-1": {
+      "abstract": "Arachidonate 15-lipoxygenase (ALOX15) metabolises polyunsaturated fatty acids into lipid mediators that regulate inflammation. Depending on the cell type and substrate, ALOX15 influences both pro-inflammatory and pro-resolving pathways. Its dysregulation is associated with asthma, atherosclerosis, neurodegeneration, ferroptosis, inflammation, oxidative stress and disrupted lipid homeostasis. Therefore, targeting ALOX15 offers a promising strategy for modulating pathological lipid oxidation. In this study, a hybrid ligand-based and structure-based machine learning (ML) framework was developed that combines physicochemical and 3D ligand features with interacting features (including SIFts) derived from protein-ligand interactions for the discovery of putative ALOX15 inhibitors. To identify potent human ALOX15 inhibitors, predictive machine learning (ML) models were developed, a dataset was obtained from BindingDB and multiple molecular representations (1-D, 2-D, 3-D descriptors, fingerprints and post-docking features) were computed. Two classes of ML models, Type A and Type B, were developed using 8 regression algorithms. The best Type A model, XGBoost, achieved training R2 of 0.915 (RMSE = 0.299; MAE = 0.224) and test R2 of 0.688 (RMSE = 0.581; MAE = 0.456), whereas the best Type B model, Random Forest, attained training R2 of 0.938 (RMSE = 0.254; MAE = 0.195) and test R2 of 0.659 (RMSE = 0.607; MAE = 0.473). Over 5 million compounds from various databases were screened, and five compounds were identified. ADME predictions and molecular dynamics simulations suggest favourable pharmacokinetic properties and stable binding within the active site of human ALOX15. These compounds are proposed as putative inhibitors and require further experimental validation.",
+      "authors": [
+        "Grewal S",
+        "Ghosh B",
+        "Karnati R",
+        "Kumar TH",
+        "Aparoy P"
+      ],
+      "doi": "10.1007/s00894-026-06968-1",
+      "first_seen": "2026-10-01",
+      "published": "2026 Sep 30",
+      "reasons": [
+        "experimental validation",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42814179",
+      "title": "A molecular modeling and machine learning-based approach for the identification of potential human ALOX15 inhibitors.",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814179/"
     },
     "doi:10.1007/s10822-026-00934-y": {
       "abstract": "Lysine crotonylation (Kcr) is a vital posttranslational modification that plays a significant role in diverse biological processes such as DNA replication, the cell cycle, spermatogenesis, and embryonic stem cell differentiation. Abnormal Kcr levels are associated with multiple diseases including cancer, neurological disorders, and metabolic diseases, making it crucial for understanding disease pathogenesis and progression. In this study, we introduce ESM2-Kcr, a novel computational model designed for predicting Kcr sites. This model integrates the protein language model ESM2 with advanced deep learning techniques including LSTM, multi-head attention mechanism, and CNN. We elaborate on the specific feature extraction contributions of each deep learning module in ESM2-Kcr: LSTM captures the long-distance sequential dependency information of amino acid residues in protein sequences, CNN extracts the local short-range structural and functional features centered on lysine residues, and the multi-head attention mechanism adaptively assigns weight coefficients to key residue positions to highlight Kcr-related critical sequence information and filter out redundant noise. ESM2-Kcr encodes the protein sequences using ESM2_t30_150M_UR50D and further extracts comprehensive features. Through extensive comparisons with other protein language models like ProteinBERT and ProtT5, as well as different models within the ESM2 family, ESM2-Kcr demonstrates superior generalization ability and performance. The ESM2-Kcr model not only enhances our understanding of protein regulation but also holds great potential in identifying disease biomarkers and facilitating drug development. Future research directions may involve extending this framework to other posttranslational modifications. Data and codes are available at https://github.com/liukai23157/ESM2-Kcr .",
@@ -859,6 +947,32 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42002010/"
     },
+    "doi:10.1016/j.biotechadv.2026.108945": {
+      "abstract": "Following advances in the field of natural language processing related to the transformer and the attention mechanism, many large language models have been trained using DNA and protein databases. While these models are designed for next-token prediction with the goal of generating novel sequences, researchers have found that the intermediate representations, or embeddings, of the DNA and amino acid sequences as they pass through these models can be mined for biological insights. Recently, more emphasis has been placed on studying the models' embeddings than model outputs. Genome language model embeddings have been used to predict the severity of single nucleotide variants, intron/exon boundaries, and anti-CRISPR activity. Protein language model embeddings have been used for predicting remote homology, protein structure, and protein function. These findings demonstrate that model embeddings provide a high-resolution, alignment-free framework for understanding the genome and proteome, and offer a transformative approach to enzyme engineering and functional genomics.",
+      "authors": [
+        "May LE",
+        "White JB",
+        "Roell GW"
+      ],
+      "doi": "10.1016/j.biotechadv.2026.108945",
+      "first_seen": "2026-10-01",
+      "published": "2026 Oct 01",
+      "reasons": [
+        "protein language model",
+        "transformer",
+        "protein",
+        "enzyme",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42252067",
+      "title": "Interpreting embeddings from genome and protein language models.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42252067/"
+    },
     "doi:10.1016/j.cbpa.2026.102728": {
       "abstract": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
       "authors": [
@@ -867,7 +981,7 @@
       ],
       "doi": "10.1016/j.cbpa.2026.102728",
       "first_seen": "2026-07-31",
-      "published": "2026 Jul 29",
+      "published": "2026 Oct 01",
       "reasons": [
         "protein design",
         "enzyme design",
@@ -886,29 +1000,35 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42526208/"
     },
     "doi:10.1016/j.cbpa.2026.102770": {
-      "abstract": "",
+      "abstract": "Deep learning has substantially advanced structure-based enzyme design, yet reliably creating highly efficient enzymes remains out of reach. One emerging enzyme design strategy combines diffusion-based scaffold generation around active-site models with sequence design. Such structure-based approaches have expanded the accessible reaction space and enabled the emergence of enzymes with diverse catalytic functions and complex catalytic motifs. Despite notable catalytic efficiencies (kcat/KM), turnover rates (kcat) often remain limited, suggesting that current approaches typically yield tight substrate binders rather than enzymes that selectively stabilize the chemical transition state. Computational design of electrostatic catalysis, multistate behavior, and conformational dynamics could potentially enhance transition-state stabilization and improve catalytic activity. More reliable activity oracles, integration of evolutionary information, protein language models, and lab-in-the-loop optimization could further enhance design performance. Ultimately, advancing structure-based enzyme design will require directly targeting the physicochemical drivers of catalysis to move beyond substrate binding toward the reliable design of efficient catalysts.",
       "authors": [
-        "Judith A. Ahr",
-        "Moor M. de Waal",
-        "Tudor-Stefan Cotet",
-        "Daniel C. Howell",
-        "H. Adrian Bunzel"
+        "Ahr JA",
+        "de Waal MM",
+        "Cotet TS",
+        "Howell DC",
+        "Bunzel HA"
       ],
       "doi": "10.1016/j.cbpa.2026.102770",
       "first_seen": "2026-09-30",
-      "published": "2026-12",
+      "published": "2026 Sep 30",
       "reasons": [
+        "protein language model",
         "deep learning",
         "enzyme design",
+        "sequence design",
+        "protein",
         "enzyme"
       ],
-      "source": "Current Opinion in Chemical Biology",
-      "source_id": "10.1016/j.cbpa.2026.102770",
-      "title": "What deep learning can and cannot (yet) do for enzyme design",
+      "source": "PubMed",
+      "source_id": "42815447",
+      "title": "What deep learning can and cannot (yet) do for enzyme design.",
       "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
         "Enzymes and function"
       ],
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1367593126001195"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42815447/"
     },
     "doi:10.1016/j.cclet.2026.113345": {
       "abstract": "",
@@ -1075,6 +1195,59 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
+    },
+    "doi:10.1016/j.compbiolchem.2026.109130": {
+      "abstract": "Protein-RNA interactions are central to post-transcriptional regulation, yet residue-level identification of RNA-binding sites remains challenging. Sequence-based predictors often have limited ability to capture long-range dependencies, whereas structure-based pipelines commonly depend on explicit geometric modeling and additional structural preprocessing. Here, we present SPLiNet, a lightweight framework for residue-level protein-RNA binding-site prediction that combines structure-informed protein language model representations with a compact downstream predictor. In the SaProt setting, structural information is introduced through Foldseek 3Di-based tokenization, whereas the downstream predictor does not use explicit coordinates, surface meshes, or geometric graphs. When no reliable structure source is available, we additionally evaluate a fully sequence-only variant based on ESM2. SPLiNet integrates a 1D branch that combines local residue windows with global BiLSTM context and a 2D branch that compresses attention-derived relational patterns. To address severe class imbalance, we evaluate both fixed-threshold and validation-calibrated operating points using temperature scaling, threshold selection, and model ensembling. Across the evaluated benchmarks, the SaProt-based SPLiNet variant generally achieved higher MCC and AUPR than the sequence-only ESM2 variant and remained competitive with representative published baselines. These results support the value of combining structure-informed protein language model representations with lightweight downstream modeling for residue-level protein-RNA interface prediction.",
+      "authors": [
+        "Ye H",
+        "Zheng C",
+        "Wang L",
+        "Wang Y",
+        "Xue Z"
+      ],
+      "doi": "10.1016/j.compbiolchem.2026.109130",
+      "first_seen": "2026-10-01",
+      "published": "2026 Oct 01",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42190366",
+      "title": "SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.",
+      "topics": [
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42190366/"
+    },
+    "doi:10.1016/j.compbiolchem.2026.109152": {
+      "abstract": "",
+      "authors": [
+        "Ye H",
+        "Zheng C",
+        "Wang L",
+        "Wang Y",
+        "Xue Z"
+      ],
+      "doi": "10.1016/j.compbiolchem.2026.109152",
+      "first_seen": "2026-10-01",
+      "published": "2026 Oct 01",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42285882",
+      "title": "Corrigendum to \"SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network\" [Comput. Biol. Chem. 124 (2026) 109130].",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42285882/"
     },
     "doi:10.1016/j.compbiolchem.2026.109411": {
       "abstract": "",
@@ -1395,7 +1568,7 @@
       ],
       "doi": "10.1016/j.jmb.2026.169939",
       "first_seen": "2026-07-08",
-      "published": "2026 Jul 06",
+      "published": "2026 Oct 01",
       "reasons": [
         "protein language model",
         "diffusion model",
@@ -1405,7 +1578,7 @@
       ],
       "source": "PubMed",
       "source_id": "42409279",
-      "title": "BindRNAgen: Protein-binding RNA sequence generation using latent diffusion models.",
+      "title": "BindRNAgen: Protein-binding RNA Sequence Generation Using Latent Diffusion Models.",
       "topics": [
         "Structure generation",
         "Protein language models",
@@ -1587,6 +1760,34 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
+    },
+    "doi:10.1016/j.sbi.2026.103326": {
+      "abstract": "Adaptive immune receptors (AIRs), including antibodies and T-cell receptors (TCRs), mediate antigen recognition and represent a major class of therapeutic biomolecules. Their unique architecture, combining conserved framework with highly diverse complementarity-determining regions (CDRs), poses challenges for structure prediction and design. Recent advances in deep learning have transformed these fields, yet AIR-antigen interactions remain difficult targets due to limited structural data, weak co-evolutionary signals, and conformational heterogeneity. Herein, we review recent progress in structure-based deep learning approaches for AIRs, including AIR-specific language models, structure prediction, and epitope-conditioned design. We discuss commonly used datasets, evaluation metrics, and sources of bias that complicate cross-study comparisons and highlight the need for improved benchmarks. We also review emerging generative design strategies such as inverse folding, diffusion-based backbone generation, sequence-space diffusion, and sequence-structure co-design, and outline key challenges, including accurate modeling of flexible CDR loops, reliable ranking of AIR-antigen complexes, and scalable epitope-specific AIR design.",
+      "authors": [
+        "Cohen T",
+        "Hochner T",
+        "Schneidman-Duhovny D"
+      ],
+      "doi": "10.1016/j.sbi.2026.103326",
+      "first_seen": "2026-10-01",
+      "published": "2026 Oct 01",
+      "reasons": [
+        "inverse folding",
+        "deep learning",
+        "structure prediction",
+        "folding",
+        "sequence",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "42430862",
+      "title": "Progress in structure prediction and design of adaptive immune receptors.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42430862/"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
@@ -4066,6 +4267,39 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
     },
+    "doi:10.64898/2026.01.15.699719": {
+      "abstract": "Understanding how bacterial diversity at strain level resolution shapes host physiology is a central challenge in microbiome research. The vast, functionally unknown genetic diversity within a species pangenome makes it difficult to connect genes to function and their impact on host physiology. Here, we explore how the functional landscape of the Escherichia coli pangenome impacts transcriptional responses in Caenorhabditis elegans and show that traditional gene-centric methods fail to provide significant functional associations with the host. Thus, we developed a pangenome framework that leverages the protein language model ProtT5 and generates unique strain embeddings representing the functional potential of each 9,558 E. coli isolate. Stratification of the pangenome into distinct functional guilds aligned with key host processes such as cell division, metabolism and proteostasis. Through mGWAS analysis we identify a critical interplay between the extensive network of bacterial chaperones and proteases in regulating host proteostasis. We find that the bacterial chaperone DNAK/HSP70 and protease ClpX fine-tune the host ubiquitin-proteasome system by controlling propionate and vitamin B12 availability. These findings reveal a conserved 'co-proteostasis' mechanism as a key phenomenon modulating host-microbe interactions through metabolic communication. Our pangenome-to-phenotype approach offers a powerful strategy to decode bacterial pangenome functional diversity, directly linking microbial genomic variation to host proteostasis.",
+      "authors": [
+        "Martinez, D. M.",
+        "Backes, C.",
+        "Zecic, A.",
+        "Aprodu, A.",
+        "Doherty|, H.",
+        "Widder, J.",
+        "Andrew, I.",
+        "Game, L.",
+        "Kaneva, I.",
+        "Roumellioti, G.",
+        "Montoya, A.",
+        "Kramer, H.",
+        "Cabreiro, F."
+      ],
+      "doi": "10.64898/2026.01.15.699719",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-30",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.01.15.699719",
+      "title": "A protein language model links the E. coli pangenome functional landscape geometry to host proteostasis",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.01.15.699719"
+    },
     "doi:10.64898/2026.03.02.709055": {
       "abstract": "The discovery of novel small molecules is challenging because of the vastness of chemical space and the complexity of protein-ligand interactions, leading to low success rates and time-consuming workflows. Here, we present LLMsFold, a computational framework that combines Large Language Models (LLMs) and biophysical foundation tools to design and validate new small molecules targeting pathogenic proteins. The pipeline starts by identifying viable binding pockets on a target protein through geometry-based pocket detection. A 70-billion-parameter transformer model from the LlaMA family then generates candidate molecules as SMILES strings under prompt constraints that enforce drug-likeness. Each molecule is evaluated by Boltz-2, a diffusion-based model for protein-ligand co-folding that predicts bound 3D structure and binding affinity. Promising candidates are iteratively optimized through a reinforcement learning loop that prioritizes high predicted affinity and synthetic accessibility. We demonstrate the approach on two challenging targets: ACVR1 (Activin A Receptor Type 1), implicated in fibrodysplasia ossificans progressiva (FOP), and CD19, a surface antigen expressed on most B-cell lymphoma and leukemia cells. Top candidates show strong in silico binding predictions and favorable drug-like profiles. All code and models are made available to support reproducibility and further development.",
       "authors": [
@@ -5335,7 +5569,7 @@
       ],
       "doi": "10.64898/2026.09.27.754145",
       "first_seen": "2026-09-29",
-      "published": "2026-09-28",
+      "published": "2026-09-30",
       "reasons": [
         "protein design",
         "flow matching",

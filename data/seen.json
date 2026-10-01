@@ -60,6 +60,12 @@
       "title": "De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42655993/"
     },
+    "doi:10.1002/nbm.70381": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "Machine Learning-Based Development of Gadolinium Binding Peptides.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42728757/"
+    },
     "doi:10.1002/pro.70667": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -108,6 +114,12 @@
       "title": "ESpma : A method for assessing biological/non‐biological interfaces using point‐clouds‐based structural features and protein language models",
       "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70790"
     },
+    "doi:10.1002/pro.70800": {
+      "first_seen": "2026-10-01",
+      "source": "Protein Science",
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70800"
+    },
     "doi:10.1002/prot.70162": {
       "first_seen": "2026-07-26",
       "source": "PubMed",
@@ -125,6 +137,12 @@
       "source": "PubMed",
       "title": "Protein Language Model Embeddings Recover Evolutionary and Functional Organization Across the Ras Superfamily.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42730944/"
+    },
+    "doi:10.1007/s00894-026-06968-1": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "A molecular modeling and machine learning-based approach for the identification of potential human ALOX15 inhibitors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814179/"
     },
     "doi:10.1007/s10822-026-00934-y": {
       "first_seen": "2026-08-31",
@@ -204,6 +222,12 @@
       "title": "From evolution to rational design: AI-driven engineering of safe and highly efficient food enzymes.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42002010/"
     },
+    "doi:10.1016/j.biotechadv.2026.108945": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "Interpreting embeddings from genome and protein language models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42252067/"
+    },
     "doi:10.1016/j.canlet.2026.218699": {
       "first_seen": "2026-07-01",
       "source": "PubMed",
@@ -257,6 +281,18 @@
       "source": "Clinical Nutrition ESPEN",
       "title": "REPLY-LETTER TO EDITOR/COMMENT ON: “Nutritional impact of leucine-enriched supplements: evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022199"
+    },
+    "doi:10.1016/j.compbiolchem.2026.109130": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42190366/"
+    },
+    "doi:10.1016/j.compbiolchem.2026.109152": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "Corrigendum to \"SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network\" [Comput. Biol. Chem. 124 (2026) 109130].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42285882/"
     },
     "doi:10.1016/j.compbiolchem.2026.109411": {
       "first_seen": "2026-09-26",
@@ -383,6 +419,12 @@
       "source": "PubMed",
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
+    },
+    "doi:10.1016/j.sbi.2026.103326": {
+      "first_seen": "2026-10-01",
+      "source": "PubMed",
+      "title": "Progress in structure prediction and design of adaptive immune receptors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42430862/"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
@@ -947,6 +989,12 @@
       "source": "PubMed",
       "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
+    "doi:10.64898/2026.01.15.699719": {
+      "first_seen": "2026-10-01",
+      "source": "bioRxiv",
+      "title": "A protein language model links the E. coli pangenome functional landscape geometry to host proteostasis",
+      "url": "https://doi.org/10.64898/2026.01.15.699719"
     },
     "doi:10.64898/2026.03.02.709055": {
       "first_seen": "2026-09-19",

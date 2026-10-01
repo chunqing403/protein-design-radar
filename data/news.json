@@ -94,8 +94,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-30",
       "published": "2026-09-11",
-      "source": "9to5mac.com",
-      "summary": "Apple researchers unveil SimpleDesign, a new AI model for protein design 9to5mac.com",
+      "source": "9to5Mac",
+      "summary": "Apple researchers unveil SimpleDesign, a new AI model for protein design 9to5Mac",
       "title": "Apple researchers unveil SimpleDesign, a new AI model for protein design",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcUhWNFltbFhUSGx6Vkl2OWNpM2xVQmdRS3ZBR053RUVlYVZINlBOVWlrRGdhc2ZaaFU1R29qbDhDSFUza2tsSm50LXIxMXpvMzRPYVZta1VIbHg5emhONzZUR05tbUpncjc2VnY0M1NDUXlwcDU2Z0ZDdlkzaElKT29PTDBHSHlIQVpINmR6dTJrcGRRbEV0RVBObWJxTFFqbjRseHhn?oc=5"
     },
@@ -112,8 +112,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-10",
-      "source": "eu.36kr.com",
-      "summary": "GPT-6 Topped Rankings: The Groundbreaking AI Antibody Prediction Powerhouse – A Stunning Breakthrough Since AlphaFold eu.36kr.com",
+      "source": "36 Kr",
+      "summary": "GPT-6 Topped Rankings: The Groundbreaking AI Antibody Prediction Powerhouse – A Stunning Breakthrough Since AlphaFold 36 Kr",
       "title": "GPT-6 Topped Rankings: The Groundbreaking AI Antibody Prediction Powerhouse – A Stunning Breakthrough Since AlphaFold",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5MUh3Skt4ekl6RnVKeUFhQ3VBdUVBVUVqamxfWXozRE82SkxpOFVSRktHaHo3M3BSMWZPVlJCMllDMXJ3Wm5oa05oWUNVODVTM25J?oc=5"
     },
@@ -148,8 +148,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-22",
-      "source": "Dealroom.co",
-      "summary": "Anthropic and Adaptyv Bio launch protein design competition with 5,000+ experimental validations Dealroom.co",
+      "source": "Dealroom",
+      "summary": "Anthropic and Adaptyv Bio launch protein design competition with 5,000+ experimental validations Dealroom",
       "title": "Anthropic and Adaptyv Bio launch protein design competition with 5,000+ experimental validations",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd3owQWM1dEs4dTZsbUIwb2RidXRhdXZMM1JBMm9USGV2aG5kSXIzOXVDUFU0VUxXRHV6VnowdzkzNzEtY0pZMmNDSzZ1bEVMNlJDQi1OUG0yd0hyQ3RvbTZjcDdVNko5TUZiSl9iNzdNLVpDT1l0ak1oUC02SjBoQWo1d1ZPRUhWTHJUaFVnQ1Izd2xwc3RSNU13ci02ZDNGMFQyMEZmdVFvNkVfVWhkWW5ZNHFSZC1JVWdaUEZEYXZzV1VJeFJYSw?oc=5"
     },
@@ -170,6 +170,15 @@
       "summary": "Merge branch 'main' into release-v2.7rc1",
       "title": "bionemo-framework · 2.7",
       "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/2.7"
+    },
+    "3a365fca93b761491319a7e7b557c4caab2c5de5": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-17",
+      "source": "AI Magazine",
+      "summary": "How Anthropic & Novo Will Use Claude AI for Drug Discovery AI Magazine",
+      "title": "How Anthropic & Novo Will Use Claude AI for Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ0gyOVlWamEtR0VQUHJzMjN3OXhqZjRxMHFTbWlaR1o5YjJZc2lZRnBsVm5fWnlkeUNvejFWTjB5eFFXVWtkdGlmR0NfQXFRTEE4QmFleTEtQ0NVZldRRXF6LWE0bHlWSko2enhKQlp0VUxRUlVKNHBZRlN1UmJ2WHVzRGdjbEZraC1Bbg?oc=5"
     },
     "3c91f9e28480350540d0c6320d219ffcf9214061": {
       "category": "模型与工具",
@@ -225,6 +234,24 @@
       "title": "BigHat Biosciences Closes $75M Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQYnJwLUNPY1NsWm9sdDdHTDBrNW5IUnJoT0xZa1dYOThwVnZUaEhfY25kRlRFOGRmQThOanJMSTBzR19hWWhqdEtMaWhaTDZvdkNGUkF2QzkyWEVXczJMN3U3S0s1RHlWNHVHTTl0UGNqVTVxRmlSNUpVRzBCUTVWLUJpVVZUTkJMUWJobk1vbUd3VzhpazhEeDNUNXkxRHVJbnc3ZTZpb0ktTEZmNkZxMUpLcjh6RTNoRkV6bXA2ckgxZTYwOUhVa0VhTWhodEtiZkVDRGxzWHVlSl9jeUdFTjN6Uks1Q0VhQTBKMjR0eHlHWURJTVMxUThqZFNzWkRuQTRzOHMycTRKaGxvMlE?oc=5"
     },
+    "4560179ca128664809437af8dd10f6b23b5fb643": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-24",
+      "source": "StocksToTrade",
+      "summary": "Twist Bioscience Stock Jumps On Lilly AI Drug Discovery Deal StocksToTrade",
+      "title": "Twist Bioscience Stock Jumps On Lilly AI Drug Discovery Deal",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN1Y4Vk1RYjBtNFZXMmx1dVIzRWJ1QmsxZDhrSGZXc2RPNEFOeEFtdjlrNTB3TnNDTGpWOUY5YmJ5b1k3ZEEzV3JWSWc0T0Jpalc4NVJjRjA2VE1YbDQtY0hKT1VFZ0ZTSmdyRnVYbHVaQXlPeWJkWmNWa2I5Qld5NHdkM0dVY0VY?oc=5"
+    },
+    "4a76a327c698fcc7839509e80c2bbab48de8dc06": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-25",
+      "source": "grandviewresearch.com",
+      "summary": "AI Protein Design Market Size And Share Report, 2026-2033 grandviewresearch.com",
+      "title": "AI Protein Design Market Size And Share Report, 2026-2033",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPenltNjI0T3lJUUNNY09hY0dGaGoxLXNVZGR4MTR2TWY3dWQxVEpILUtUcU1TUGxnWWNORHFrVXhkWjFIZlBYMVoxWmlVeXZvOTdaeDA5MGk5bGxBVi1hZkJQNzd3amN5ay0yRE1HMFNmM1UtdFVHQWJUSF9xdzJqQnF0R0FxaUUyb1Q0?oc=5"
+    },
     "4e7c6d0dd4cc0154ebbedfb22eeedfaf1bd8580b": {
       "category": "模型与工具",
       "first_seen": "2026-09-29",
@@ -256,8 +283,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-28",
-      "source": "eu.36kr.com",
-      "summary": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold eu.36kr.com",
+      "source": "36 Kr",
+      "summary": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold 36 Kr",
       "title": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMHlPd1ZIQ2ZxSGVqVnRCVFZrcmlvelVNcnF2M2N5YXNwa3h3WEU3U25mbDBHN3VCSGlPcWp3RUFpUFAwSWdFRHFoWFdNa05GaGdZ?oc=5"
     },
@@ -269,6 +296,15 @@
       "summary": "Anthropic and Danish Company behind Ozempic announce AI drug discovery collaboration Washington Examiner",
       "title": "Anthropic and Danish Company behind Ozempic announce AI drug discovery collaboration",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVEdKN1ZpbG45QzY4ZjNhZm1mQW1iMHF4MVlqNDZiOU9TTWo5eFBmYzZtTERNSHVEZVBMcmZJMlJUQ1dvT2NJLThUYU5oQ1pyZE96dWtZdmFsZmN5YS12T1JaOUdVWWtvWGxwNnZWNDhJYXpoTWJGbnlDOFY1R2JhY21jTkFkTEQ2UzE3a3RnYUFrZWVLOVFsR213QllBZ2ZtYVY5UWZKSGktdzRDbS1RMg?oc=5"
+    },
+    "58f625d2aa2b1aa9868ce50c1d8221e72439217a": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-30",
+      "source": "FirstWord PHARMA",
+      "summary": "Topos Bio launches two AI models for hard-to-target proteins FirstWord PHARMA",
+      "title": "Topos Bio launches two AI models for hard-to-target proteins",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kUGlITmtNN1BibjhpQ2hyQWNCdVd6WkJTdDlBUF9oYnRIR2Yxa0JhN3JRekJuUjI3NFM0MDFWSUgyN1ZGX2RETXRmM0lRMmFXb3g4?oc=5"
     },
     "5a0be3192114064825f95b3a2091c9b6c4c76042": {
       "category": "模型与工具",
@@ -323,6 +359,15 @@
       "summary": "Version 3.0.2 provides new features, improves performance, improves documentation, and fixes bugs. AlphaFold v3.0.2 supports NVIDIA Blackwell GPUs out of the box. We thank everyone who reported issues, proposed new features, and submitted…",
       "title": "alphafold3 · AlphaFold v3.0.2",
       "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.2"
+    },
+    "78f47a96bdefb927faa61535ffae36d34e03ebc8": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-30",
+      "source": "BioTecNika",
+      "summary": "AlphaFold Database Adds 2,800+ Viruses to Help Prepare for Future Pandemics BioTecNika",
+      "title": "AlphaFold Database Adds 2,800+ Viruses to Help Prepare for Future Pandemics",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUEhBYUc5bFdGZWQ4clN4b1hYc2pPQ21Tb190OHBPQ2g3SEdyTm9HamtQTnpYS1Z5amVFakw2Y0hfUVA2b0liX05wUVhnRVE4SFJ5QlpfX3hXZnI4cnpTNDJaT3J0M0lldkstcldLMU53T19JdDZ0c2N4aXdLQVNac0RPQVZFQnc3dWI1MlFB0gGOAUFVX3lxTE5QSEFhRzlsV0ZlZDhyU3hvWFhzak9DbVNvX3Q4cE9DaDdIR3JOb0dqa1BOelhLVnlqZUVqTDZjSF9RUDZvSWJfTnBRWGdFUThIUnlCWl9feFdmcjhyelM0MlpPcnQzSWV2Sy1yV0sxTndPX0l0NnRzY3hpd0tBU1pzRE9BVkVCdzd1YjUyUUE?oc=5"
     },
     "7e87da5170cbb816969cd4766952e88a5d1c7ad0": {
       "category": "模型与工具",
@@ -423,6 +468,15 @@
       "title": "Connecting AI Protein Design with Experimental Data",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalhfQlRSZW41aExJRi1WWWxmWGJCTVNuZjFPNzBwOHJMRXRlVk0xM05obTQ4WXgtVXFIdUt1bmJnV3daZFZXcm5Za3gwUFpLVmI2QnRLeHE1UFQtZGU5MEVIUGVZTXZnVy0zMGd2ZURyRVRONzNJeV9Dc19PUUxxOXRQemZYUFlQSDlxTzc4OG4?oc=5"
     },
+    "9f42c2209239644eff110592282366b54a770b2d": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-28",
+      "source": "kucoin.com",
+      "summary": "Nobel Laureate Bets $94.6 Million on AI-Driven Protein Design Beyond Nature kucoin.com",
+      "title": "Nobel Laureate Bets $94.6 Million on AI-Driven Protein Design Beyond Nature",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1k5dmdOMjVtT2FkWDhYRE5FdUhRcTB0S1QzaXk5YWx5SU5VN0V2VWdpLWotSDItdU8yOWVjTGtic1YxLVFGSURtbHgwamZEQTc4b2U4YnhrNlpBMEtzQW5aVjNZeUlYZS1IUU50ZDQ2SC1GVU5XcTQ3bXVJYzNFdGl4YlJUWXo5OEo2OWxiVmtjZ0ZHOTgtOVZmVUhDNEdwbUJZ?oc=5"
+    },
     "a32168a24a6f503199f6fbc1c15ebc783ab7d10d": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -431,6 +485,15 @@
       "summary": "AI agents target drug safety, protein discovery and secure health data analysis Manufacturing Chemist",
       "title": "AI agents target drug safety, protein discovery and secure health data analysis",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbWFRQ2VnM0RHMEJkWUpzd1A4MmoySktXODRrZml0QmlvckRaanFUdDJSRkxsZ2hMVlF0T0pRMHJvUTFQckptRW5GcHZVQm9mLTlTbUNJbHE4blFrRjF0bVRRVi1PcV90TWpLaHFvSEFOa0I3bmdabDFiTl90d29mbmItWlYzN2lpNC04?oc=5"
+    },
+    "ab3626e9bb8e7b1b569e31f31e42dc65b4918d51": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-10-01",
+      "source": "Bioengineer.org",
+      "summary": "AI Model Reads Proteins in Parallel to Predict How Mutations Reshape Stability Bioengineer.org",
+      "title": "AI Model Reads Proteins in Parallel to Predict How Mutations Reshape Stability",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3Q3dWt2Q1AyRUtSRUlzMHJzSUUyX1pPejAwOF9aMDRuQ0NwZE1KRS1RVlN5Y0pSZXgwQndna2Q2dndDbERlUzlZNUVKRnNkcU40TEJrUGMzRlFMR0o5S29RQTFNUjhQcEVrNTJnb3JYTC0wZmphRTNGcENCcXZzM2FLZXRtZ3V5cWdhTGN3cnc5NFdHS2V3aFg5WHFGWnUyU2pLcTZ3?oc=5"
     },
     "abaa728de8617c351f81449b3ec945e0b1bbf923": {
       "category": "综合资讯",
@@ -467,6 +530,15 @@
       "summary": "The computer-designed vaccine aims to protect against coronaviruses that haven't yet emerged, including pandemic threats The post First vaccine targeting SARS virus family enters human trials first appeared on Institute for Protein Design .",
       "title": "First vaccine targeting SARS virus family enters human trials",
       "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/"
+    },
+    "b9397a8495ca22cb09e59dd1a334c8934bfcc670": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-30",
+      "source": "아시아경제",
+      "summary": "Donga ST and Galaxy Launch Joint Research on ADC Drug Discovery Based on AI Antibody Design 아시아경제",
+      "title": "Donga ST and Galaxy Launch Joint Research on ADC Drug Discovery Based on AI Antibody Design",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfNy00T0lKZGg3VDFsV0M4NTIzOWVzS2JRMWVuU3BKNVdfc1dBUXFCemJVa2d6M2owaUg1MXlXdUUtbVgya2hkUEZoa1E3cDU3SWxYNWdDUGd3NG1Ob1IzVmt2a18?oc=5"
     },
     "c031cc89226a97d7cde5020099ce9cf1f6634907": {
       "category": "模型与工具",
@@ -522,6 +594,15 @@
       "title": "Creating multi-protein systems with atomic precision",
       "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/"
     },
+    "d2c76d087805d309fa17c0f7a84b19ccae3da67e": {
+      "category": "产业动态",
+      "first_seen": "2026-10-01",
+      "published": "2026-09-30",
+      "source": "FirstWord PHARMA",
+      "summary": "BioMarin brings Profluent's AI into enzyme therapy pipeline FirstWord PHARMA",
+      "title": "BioMarin brings Profluent's AI into enzyme therapy pipeline",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FbUhNcVJ2NHhvTEYxdzlkNjJyVnpTR1lla1hPcHI2c2xjX3VCdGNqUnprVElieGJBVWczMDVDcVdwYmlUVmhXOWZNMzNpVWN0eVA4?oc=5"
+    },
     "d8d90d39d479922f5339b83097fb62797caf4dcc": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -535,8 +616,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-24",
-      "source": "eu.36kr.com",
-      "summary": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges eu.36kr.com",
+      "source": "36 Kr",
+      "summary": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges 36 Kr",
       "title": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjR0E0Q0syNVlyQmNhblJYUmVxaWR4WUc2bTdpdFdOX2lmeGtTNGx1LVZnS3YtOEQxVFZMNHlrRmJobWRsamFEcTFmNVpxdldtbURZ?oc=5"
     },
@@ -553,8 +634,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-16",
-      "source": "Dealroom.co",
-      "summary": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation Dealroom.co",
+      "source": "Dealroom",
+      "summary": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation Dealroom",
       "title": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWZ2ZXAtTFpfMXpBemNQdmlZM0tvZ0dFV19maTR2MVN0ekx3WGprcDhzTmhfYnpSNWFid3FIZDctWUtCOUNQaEE3bHJsOVRpSDY5MnhYTldoaWhaa01ld2JEa0NXZ3Y2UkFta2o3cUlyQ0NscktSZWlSWmphNTNnOF93OUNraXRTejBYQ0NqZkNpRVZ6NTBPVU54Mks2MENCT2V4RXdKbUdlTHM?oc=5"
     },
@@ -631,5 +712,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-09-30T05:41:39+00:00"
+  "updated_at": "2026-10-01T06:07:07+00:00"
 }
