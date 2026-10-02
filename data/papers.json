@@ -1451,6 +1451,33 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072"
     },
+    "doi:10.1016/j.foodres.2026.120951": {
+      "abstract": "",
+      "authors": [
+        "Yi Zhang",
+        "Guandi Qin",
+        "Le Jiang",
+        "Zhiyou Yang",
+        "Zhongqin Chen",
+        "Meicai Yue",
+        "Chongpeng Gu",
+        "Longjian Zhou"
+      ],
+      "doi": "10.1016/j.foodres.2026.120951",
+      "first_seen": "2026-10-02",
+      "published": "2026-10",
+      "reasons": [
+        "deep learning",
+        "structure"
+      ],
+      "source": "Food Research International",
+      "source_id": "10.1016/j.foodres.2026.120951",
+      "title": "SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396"
+    },
     "doi:10.1016/j.ijbiomac.2026.154380": {
       "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
       "authors": [
@@ -2228,6 +2255,38 @@
         "Experimental validation"
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01920/5288232/AI-Driven-Drug-Target-Interaction-Prediction-From"
+    },
+    "doi:10.1021/acs.jcim.6c01926": {
+      "abstract": "Abstract Accurately predicting the thermostability changes induced by single-point mutations is a core challenge in protein engineering and industrial enzyme modification. However, current computational methods often struggle to jointly integrate evolutionary information, structural context, and the interactions between mutation sites and their local microenvironments, presenting obvious limitations in guiding protein modification practice. To this end, this paper proposes the Equivariant Contrastive Learning Network (ECL-Net) for effectively predicting protein thermostability changes. Firstly, this method employs a joint sequence-structure representation strategy, deeply integrating sequence embeddings extracted by protein language models (PLMs) with spatial structural information captured by residue interaction networks, while an Equivariant Graph Neural Network (EGNN) is utilized for feature propagation and structural modeling. Furthermore, the self-attention mechanism of the language model is utilized to determine critical residues highly correlated with the mutation, thereby introducing structural microenvironment information. Building upon this, a contrastive learning method jointly guided by the mutation site and local microenvironment is designed, aiming to guide the model to learn more robust feature representations. Experimental results demonstrate that ECL-Net outperforms existing baseline models. Among the four predicted transglutaminase mutants, the model’s predictions for three mutants were consistent with the experimental outcomes, demonstrating the potential applicability of ECL-Net in guiding protein engineering.",
+      "authors": [
+        "Kai Han",
+        "Kai Zhong",
+        "Xiaoping Song",
+        "Weihua Wang",
+        "Yannan Bin",
+        "Ruifen Cao"
+      ],
+      "doi": "10.1021/acs.jcim.6c01926",
+      "first_seen": "2026-10-02",
+      "published": "2026-10-01",
+      "reasons": [
+        "protein engineering",
+        "protein language model",
+        "graph neural network",
+        "equivariant",
+        "protein",
+        "enzyme"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c01926",
+      "title": "Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with"
     },
     "doi:10.1021/acs.jcim.6c02057": {
       "abstract": "Abstract Peptide therapeutics occupy a critical niche between small molecules and biologics, yet the sequence design of peptide binders remains challenging because their bioactive conformations and interfacial fitness are dictated by the receptor microenvironment. Current computational approaches largely treat this as a generic inverse folding problem that relies on backbone geometry alone, overlooking the detailed physicochemical constraints of the receptor pocket. To bridge this gap, we introduce the REceptor-Aware Peptide Sequence Designer (REAPS), a geometric graph neural network that reframes sequence design for peptide binders by treating the receptor as a fully observable all-atom context. Multidimensional evaluations show that REAPS outperforms the widely used inverse folding model ProteinMPNN in sequence recovery, structural fidelity, and interface-level biophysical metrics across both linear and macrocyclic peptide binders. We further integrate REAPS with structural hallucination in a closed-loop de novo discovery pipeline, yielding peptide candidates with experimentally verified functional activity at the neurokinin-3 receptor (NK3R). The source code, model checkpoints, processed data sets, preprocessing scripts, and an example design workflow are publicly available at https://github.com/Mistletoe-git/REAPS.",
@@ -5523,6 +5582,31 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.09.24.754223"
+    },
+    "doi:10.64898/2026.09.25.754455": {
+      "abstract": "In many neurodegenerative and systemic disorders, proteins can form insoluble protein aggregates called amyloids. Identification of amyloid forming regions in a protein remains central to understanding of its aggregation behaviour. Many predictors have been formed in the past and until recently which to estimate the aggregation-prone regions, which may not correspond to total residues found in actual disease associated fibril structures. To address this, we formed a sequence-based based predictor to ascertain structural amyloid-core propensity. The predictor was developed using experimentally determined fibril structures obtained from Amyloid Atlas. Ordered residues in the experimental structures were designated as core, and unresolved sampled from the same proteins as matched controls as non-core. Core and non-core regions were encoded using various physicochemical descriptors and protein language model (PLM) embeddings (ESM-2, ANKH, ProtT5) and evaluated using protein-grouped cross-validation. PLMs consistently outperformed physicochemical descriptors, with the best models reaching AUROC values of ~0.88 and AUPRC values of ~0.85. Locked full-length protein scans further localized experimental cores, with ESM-2/ExtraTrees W21 achieving AUROC 0.833, AUPRC 0.751, and a mean peak distance of 12.4 residues. In comparative benchmarking, our predictor showed better performance metrics than CrossBeta and AggrescanAI. The framework therefore provides residue-resolved prediction of structurally incorporated amyloid-core regions directly from sequence. AmyloCore-ML is easily accessible through an interactive Google Colab notebook, enabling sequence-based amyloid fibril-core prediction without local installation or dedicated computing infrastructure.",
+      "authors": [
+        "Singh, J.",
+        "Jangid, R.",
+        "Srivastava, A."
+      ],
+      "doi": "10.64898/2026.09.25.754455",
+      "first_seen": "2026-10-02",
+      "published": "2026-10-01",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.25.754455",
+      "title": "AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.25.754455"
     },
     "doi:10.64898/2026.09.25.754509": {
       "abstract": "A critical step in the emergence of a virus is the ability of the viral protein to bind a host receptor and mediate cell entry. For many coronaviruses, this interaction occurs between the Spike S1 subunit and the human ACE2 receptor. Whether this binding interface can be computationally distinguished across unstudied viruses without experimentally resolved protein structures remains an open question. We predicted how 28 emerging coronaviruses may bind to human ACE2 using structural predictions, static interaction prediction programs, and molecular dynamics simulations. To screen the emerging coronaviruses, we predicted a library of S1 structures using AlphaFold. These predicted structures were then used to model the S1-ACE2 interaction with AlphaFold, ClusPro, and HADDOCK. We used known ACE2-binding sarbecoviruses as positive controls and coronaviruses that bind other receptors as negative controls to threshold predicted binding. Contact analysis quantified the predicted binding and revealed that these static interaction prediction methods varied in discriminative power. Less restrained static predictions separated binders from non-binders, whereas heavily restrained docking did not, potentially forcing an interaction where none should exist. This analysis highlighted an emerging coronavirus, Zhejiang2013, as a potential ACE2 binder. We used molecular dynamics simulations to further assess the static predictions and model the interaction over time. Overall, our results indicate that Zhejiang2013 exhibits dynamic interaction patterns consistent with ACE2 binding. Given that two ACE2-binding coronaviruses have caused global pandemics within the past two decades, identifying potential ACE2 binders is critical for early warning and pandemic preparedness.",
