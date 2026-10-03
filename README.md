@@ -7,23 +7,22 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-02** (`2026-10-02T05:50:29Z`)
+Updated: **2026-10-03** (`2026-10-03T05:26:30Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455)<br><sub>Singh, J., Jangid, R., Srivastava, A.</sub> | bioRxiv<br>2026-10-01 | Protein language models, Experimental validation |
-| 2 | [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with)<br><sub>Kai Han, Kai Zhong, Xiaoping Song et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-01 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
-| 3 | [SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships](https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396)<br><sub>Yi Zhang, Guandi Qin, Le Jiang et al.</sub> | Food Research International<br>2026-10 | General |
+| 1 | [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1)<br><sub>Jason X. Liu, Sebastian Ibarraran, Frank Hu et al.</sub> | arXiv<br>2026-10-01 | Protein language models, Enzymes and function |
+| 2 | [pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42826899/)<br><sub>Ao C, Jiao S, Su X et al.</sub> | PubMed<br>2026 Oct 02 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 47 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 48 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 19 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 63 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 64 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 32 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -32,8 +31,9 @@ Updated: **2026-10-02** (`2026-10-02T05:50:29Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (47)
+#### Structure Generation / 结构生成 (48)
 
+- [pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42826899/) (PubMed, 2026 Oct 02; first seen 2026-10-03; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [Progress in structure prediction and design of adaptive immune receptors.](https://pubmed.ncbi.nlm.nih.gov/42430862/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Structure generation, Sequence design, Binders and therapeutics)
 - [What deep learning can and cannot (yet) do for enzyme design.](https://pubmed.ncbi.nlm.nih.gov/42815447/) (PubMed, 2026 Sep 30; first seen 2026-09-30; Structure generation, Sequence design, Protein language models, Enzymes and function)
 - [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145) (bioRxiv, 2026-09-30; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
@@ -106,8 +106,9 @@ Updated: **2026-10-02** (`2026-10-02T05:50:29Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (63)
+#### Protein Language Models / 蛋白质语言模型 (64)
 
+- [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1) (arXiv, 2026-10-01; first seen 2026-10-03; Protein language models, Enzymes and function)
 - [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455) (bioRxiv, 2026-10-01; first seen 2026-10-02; Protein language models, Experimental validation)
 - [A protein language model links the E. coli pangenome functional landscape geometry to host proteostasis](https://doi.org/10.64898/2026.01.15.699719) (bioRxiv, 2026-09-30; first seen 2026-10-01; Protein language models, Enzymes and function)
 - [Interpreting embeddings from genome and protein language models.](https://pubmed.ncbi.nlm.nih.gov/42252067/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Protein language models, Enzymes and function)
@@ -253,7 +254,7 @@ Updated: **2026-10-02** (`2026-10-02T05:50:29Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-02](outputs/daily/2026-10-02.md)
+- [Daily report for 2026-10-03](outputs/daily/2026-10-03.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

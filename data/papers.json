@@ -132,6 +132,40 @@
       ],
       "url": "http://arxiv.org/abs/2608.12192v1"
     },
+    "arxiv:2610.02189v1": {
+      "abstract": "Intrinsically disordered protein regions (IDRs) play central roles in cellular processes such as transcriptional regulation, signal transduction, and subcellular localization, yet their functional design remains challenging. Structure-based design methods do not readily apply to IDRs, and existing protein language models are trained on full-length protein sequences, thus learning a prior that is biased towards folded domains. Here, we present IDiom, an autoregressive protein language model trained on IDiom-DB, a dataset of 54 million predicted IDRs curated from the AlphaFold Database. IDiom generates diverse sequences that recapitulate the composition, patterning, motifs, and predicted disorder of natural IDRs. To control function-associated sequence patterns, we also introduce reinforcement learning with sparse autoencoder features (RL-SAE), a post-training method that rewards the generation of sequences that activate specified feature sets. Across eight IDR design tasks, RL-SAE sequences activate, on average, 90% of 30 targeted features, compared to 24% for activation steering. We demonstrate that RL-SAE improves the predicted subcellular localization and transcriptional activity of generated IDRs compared to steering and supervised fine-tuning, and enables features associated with distinct biological functions to be combined within individual sequences. Thus, IDiom and RL-SAE enable interpretable and composable IDR design through explicit control of function-associated sequence features. More broadly, RL-SAE could extend to other protein design settings where interpretable features provide useful design targets. Code is available at https://github.com/rotskoff-group/idiom.",
+      "authors": [
+        "Jason X. Liu",
+        "Sebastian Ibarraran",
+        "Frank Hu",
+        "Soojung Yang",
+        "Xinyu A. Feng",
+        "Abigail Park",
+        "Anagha Aneesh",
+        "Lacramioara Bintu",
+        "Alexander R. Dunn",
+        "Grant M. Rotskoff"
+      ],
+      "doi": "",
+      "first_seen": "2026-10-03",
+      "published": "2026-10-01",
+      "reasons": [
+        "protein design",
+        "protein language model",
+        "AlphaFold",
+        "generative model",
+        "protein",
+        "sequence"
+      ],
+      "source": "arXiv",
+      "source_id": "2610.02189v1",
+      "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "http://arxiv.org/abs/2610.02189v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -1502,6 +1536,36 @@
         "Protein language models"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
+    },
+    "doi:10.1016/j.jare.2026.10.002": {
+      "abstract": "Peptide hormones play key roles in metabolic regulation, growth and development, and the maintenance of homeostasis and are important targets for drug discovery and design. However, traditional experimental methods for screening and identifying peptide hormones are costly and inefficient. Although existing machine learning methods have made some progress, they pay limited attention to class imbalance, and there is still room to improve prediction performance. This study aimed to develop an effective deep learning framework for imbalanced peptide hormone prediction and to improve the recognition of hormone peptides as the minority class. We developed pLM-HP, a deep learning framework based on a pre-trained protein language model. The framework combines the ESM2 protein language model with a bidirectional long short-term memory network. ESM2 was first used to obtain high-dimensional global contextual embeddings from peptide sequences, and BiLSTM was then applied to model sequential dependencies between residues. Class weights were incorporated into the loss function to reduce bias caused by class imbalance. Compared with traditional feature-based methods, pLM-HP achieved a BACC of 95.61% and an MCC of 0.802 in five-fold cross-validation, and a BACC of 95.64% and an MCC of 0.824 on the independent test set. The model also maintained stable and strong performance under imbalanced data conditions. These results indicate that combining protein language models with sequence modeling and class-imbalance learning strategies is an effective way to improve peptide hormone prediction. pLM-HP may provide a useful tool for high-throughput functional peptide screening and prioritization of candidate peptide hormones. The source code of pLM-HP is freely available at https://github.com/aochunyan123/pLM-HP.git.",
+      "authors": [
+        "Ao C",
+        "Jiao S",
+        "Su X",
+        "Yang H"
+      ],
+      "doi": "10.1016/j.jare.2026.10.002",
+      "first_seen": "2026-10-03",
+      "published": "2026 Oct 02",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42826899",
+      "title": "pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42826899/"
     },
     "doi:10.1016/j.jbc.2026.113610": {
       "abstract": "As machine learning (ML) becomes increasingly important in protein engineering, synthetic biology, and bioprocess optimisation, the lack of consistent, complete, and standardised experimental reporting remains a major barrier to building effective models. EXPERT (EXpression and Purification Experimental Reporting Template) defines a structured framework for capturing protein expression and purification data across the community, to increase reproducibility across laboratories and support downstream ML applications. We propose here the essential data that should be recorded during expression and purification workflows by both novice and experienced protein production scientists. Its recommendations are informed by expert contributions from across academia and industry. The reporting requirements were distilled to a focused set of parameters deemed sufficient for workflow reproducibility and constructing robust ML models aimed at improving protein production. By deploying these guidelines, we hope to enable the collection of larger data sets to support future model building.",

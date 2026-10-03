@@ -42,6 +42,12 @@
       "title": "How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models",
       "url": "http://arxiv.org/abs/2608.12192v1"
     },
+    "arxiv:2610.02189v1": {
+      "first_seen": "2026-10-03",
+      "source": "arXiv",
+      "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+      "url": "http://arxiv.org/abs/2610.02189v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "source": "Cell",
@@ -359,6 +365,12 @@
       "source": "PubMed",
       "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
+    },
+    "doi:10.1016/j.jare.2026.10.002": {
+      "first_seen": "2026-10-03",
+      "source": "PubMed",
+      "title": "pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42826899/"
     },
     "doi:10.1016/j.jbc.2026.113610": {
       "first_seen": "2026-09-30",
