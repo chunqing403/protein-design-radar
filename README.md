@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-03** (`2026-10-03T05:26:30Z`)
+Updated: **2026-10-04** (`2026-10-04T06:02:46Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics |
-|---|---|---|---|
-| 1 | [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1)<br><sub>Jason X. Liu, Sebastian Ibarraran, Frank Hu et al.</sub> | arXiv<br>2026-10-01 | Protein language models, Enzymes and function |
-| 2 | [pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42826899/)<br><sub>Ao C, Jiao S, Su X et al.</sub> | PubMed<br>2026 Oct 02 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Paper Directory / 文献目录
 
@@ -254,7 +251,7 @@ Updated: **2026-10-03** (`2026-10-03T05:26:30Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-03](outputs/daily/2026-10-03.md)
+- [Daily report for 2026-10-04](outputs/daily/2026-10-04.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
