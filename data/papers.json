@@ -1825,7 +1825,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785296/"
     },
     "doi:10.1016/j.molp.2026.08.002": {
-      "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, the identification of PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep learning framework for predicting nine PTM types in plants. By combining protein language models (PLMs) with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean AUROC of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house MS data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service and source code freely available at https://ai4bio.online/PlantPTM and https://github.com/wky0422/PlantPTM, respectively.",
+      "abstract": "Post-translational modifications (PTMs) play crucial regulatory roles in plants, orchestrating protein functions to maintain metabolic homeostasis, enable adaptation to dynamic environments, and regulate diverse cellular processes. Thus, identifying PTM sites is essential for elucidating the mechanisms underlying plant growth, development, and stress responses. However, reliable and cost-effective computational approaches for predicting PTM sites in plants remain lacking. Here, we present PlantPTM, an integrated deep-learning framework for predicting nine PTM types in plants. By combining protein language models with evolutionary information, PlantPTM demonstrates robust generalizability across a wide range of PTM types and plant species. Our method achieves state-of-the-art performance, with a mean area under the receiver operating characteristic curve (AUROC) of 0.8640 and a peak AUROC of 0.9699 across the nine PTM types. Notably, PlantPTM maintains strong performance even under low-data scenarios and unseen species. Extensive comparative benchmarks demonstrate that PlantPTM outperforms existing PTM prediction tools by an average of 15.46%, with improvements ranging from 2.90% to 19.08% over the best-performing tools for each PTM type. Furthermore, independent in-house mass spectrometry data confirmed the accuracy of PlantPTM for ubiquitination, acetylation, and N-glycosylation sites, with all AUROC values exceeding 0.8. To facilitate PTM studies in plants, we provide the PlantPTM online service freely available at https://ai4bio.online/PlantPTM.",
       "authors": [
         "Dou G",
         "Wang K",
@@ -1838,15 +1838,14 @@
       ],
       "doi": "10.1016/j.molp.2026.08.002",
       "first_seen": "2026-08-05",
-      "published": "2026 Aug 03",
+      "published": "2026 Oct 05",
       "reasons": [
         "protein language model",
-        "deep learning",
         "protein"
       ],
       "source": "PubMed",
       "source_id": "42548048",
-      "title": "PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
+      "title": "PlantPTM: A deep-learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.",
       "topics": [
         "Protein language models"
       ],
@@ -2548,6 +2547,40 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
+    },
+    "doi:10.1021/acscatal.6c04637": {
+      "abstract": "Abstract A key challenge in enzymatic electrocatalysis is the precise control of enzyme orientation on electrode surfaces to enable efficient direct electron transfer. Binding peptides have been reported to be helpful in assisting the favorable orientation of multicopper oxidases, while seeking and engineering natural binding peptides for various oxidoreductases is a huge workload. De novo peptide design may provide a versatile and promising approach to tailor binding peptides. Here, we combine de novo design with molecular dynamics (MD) simulations to generate binding peptides that guide laccase into an optimal orientation on the electrode surface. Specifically, we present a rational design pipeline driven by ESM-2 clustering, RFdiffusion, and MD. For experimental validation, the direct bioelectrocatalytic index of laccase from Bacillus pumilus (BpL) was used as a probe to reflect the interaction between binding peptides and carbon nanotubes (CNTs). Consequently, almost half (7/14) of the designed peptides exhibited improved bioelectrocatalytic performance. Notably, BpL-DP-6-11 (de novo designed peptide) assisted the highest electrocatalytic activity of BpL, with a 35.5% increase in current density compared to the wild type, approaching the upper limit of the interfacial electron transfer rate of BpL. Moreover, BpL-DP-6-5 and BpL-DP-1-9, compared to BpL only, improved enzyme loading by 5.7-fold and 3.9-fold, respectively, reaching geometric loadings of 62.9 ± 8.6 and 42.3 ± 11.9 pmol·cm–2, which are 12.3 ± 1.7-fold and 8.2 ± 2.3-fold higher than the theoretical monolayer density of BpL (5.13 pmol·cm–2), respectively. This is attributed to the synergistic effects of oriented immobilization and surface roughness of CNT-modified electrodes. Molecular-level analyses indicate that synergistic π–π stacking and van der Waals interactions enable a reoriented binding configuration that effectively displaces the interfacial hydration layer, thereby enhancing direct electron transfer efficiency. This work establishes a generalizable framework for binding peptide design to reprogram enzyme–material interactions, overcoming the limitations of random physical adsorption and enabling next-generation high-performance bioelectrocatalytic systems.",
+      "authors": [
+        "Xiufeng Wang",
+        "Meng Zhang",
+        "Hejian Zhang",
+        "Weisong Liu",
+        "Shuaiqi Meng",
+        "Lingling Zhang",
+        "Haiyang Cui"
+      ],
+      "doi": "10.1021/acscatal.6c04637",
+      "first_seen": "2026-10-06",
+      "published": "2026-10-05",
+      "reasons": [
+        "experimental validation",
+        "RFdiffusion",
+        "ESM",
+        "de novo design",
+        "peptide",
+        "enzyme"
+      ],
+      "source": "ACS Catalysis",
+      "source_id": "10.1021/acscatal.6c04637",
+      "title": "Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo"
     },
     "doi:10.1021/acscatal.6c05133": {
       "abstract": "Abstract The thermostability of oligomeric enzymes is often limited by the intrinsic flexibility of subunit interfaces. Herein, we report a deep learning-driven interface engineering strategy (DeepIE) to systematically stabilize oligomeric enzymes. Applied to a dimeric formate dehydrogenase, we de novo redesigned six flexible regions at the dimer interface. The lead variant retains wild-type catalytic activity while exhibiting an ∼500-fold increase in half-life at 50 °C. Molecular dynamics analyses revealed that reduced local flexibility and strengthened interfacial hydrophobic packing underpin the enhanced thermostability. This work establishes an artificial intelligence-driven, generalizable framework for rational thermostabilization of oligomeric biocatalysts, effectively overcoming the activity–stability trade-off.",
@@ -3383,6 +3416,30 @@
         "Enzymes and function"
       ],
       "url": "https://pnas.org/doi/10.1073/pnas.2536559123"
+    },
+    "doi:10.1080/07391102.2026.2741122": {
+      "abstract": "Interleukin-2 (IL-2) is a pleiotropic cytokine central to T-cell activation, proliferation, and immunological tolerance, yet existing computational tools for predicting IL-2-inducing peptides suffer from near-zero sensitivity under realistic class-imbalanced conditions, rendering them impractical for positive-class discovery. Here we present DeepRAGIL-2, a sequence-based framework integrating ESM-2 protein language model embeddings, dual-window convolutional feature extraction, and retrieval-augmented embedding fusion (RAG) into a unified classification pipeline. Trained on 3,825 redundancy-filtered experimentally validated sequences from IEDB and evaluated on an independent test set under a 1:4 class imbalance, DeepRAGIL-2 achieves a sensitivity of 0.7501, specificity of 0.9708, MCC of 0.7605, and AUC of 0.8654, outperforming conventional machine learning classifiers and published IL-2 prediction tools on sensitivity and MCC. Across ten independent runs, performance was stable at MCC of 0.7555 ± 0.0173, confirming that the reported result is representative rather than an artefact of a single weight initialisation. Ablation experiments identify RAG integration as the single most consequential architectural component, with MCC rising from 0.3453 to 0.7605 upon its inclusion, demonstrating that retrieval of experimentally validated reference sequences at inference time substantially compensates for the limited positive-class training data available for this task. DeepRAGIL-2 represents the first IL-2 prediction framework with demonstrated sensitivity for positive-class recovery under realistic conditions, establishing a framework applicable in principle to cytokine-specific immunological sequence classification.",
+      "authors": [
+        "Yuune JPT",
+        "Le VT",
+        "Ou YY"
+      ],
+      "doi": "10.1080/07391102.2026.2741122",
+      "first_seen": "2026-10-06",
+      "published": "2026 Oct 04",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42830522",
+      "title": "DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830522/"
     },
     "doi:10.1093/bioinformatics/btag375": {
       "abstract": "Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for feature extraction and downstream analyses. Large-scale embedding generation is further limited by inefficiencies in computation and memory: (i) accumulating all model outputs in memory before writing to disk causes severe bottlenecks, and (ii) repeatedly embedding identical sequences to extract different modes introduces redundant computation and drastically reduces throughput and scalability. We introduce PEPE (Parallel Extraction for Protein Embeddings), a command-line tool and Python library that enables efficient, high-throughput, and multimodal extraction from protein language models. PEPE's parallelized and streaming-based architecture achieves runtimes several orders of magnitude faster than sequential approaches. Unlike conventional methods-whose peak memory usage scales linearly with output size and fails when memory capacity is exceeded-PEPE maintains stable, low memory consumption, enabling multimodal embedding extraction even beyond available RAM. PEPE supports a wide range of state-of-the-art and custom PLMs through a simple, flexible interface. By combining scalability, robustness, and ease of use, PEPE allows researchers to generate massive, information-rich embedding datasets efficiently, and facilitate the discovery of optimal representations for structural, functional, and evolutionary downstream tasks. By streamlining the generation of diverse embedding configurations, PEPE provides researchers with the necessary data to identify high-performing latent states for specific biological contexts without requiring additional computational resources. PEPE is a command-line tool written in Python and published under MIT license. The source code and documentation are available at https://github.com/csi-greifflab/pepe-cli. PEPE is also available for installation from PyPI under https://pypi.org/project/pepe-cli and deposited on Zenodo at https://zenodo.org/records/20268104.",
@@ -5736,6 +5793,58 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.27.754145"
+    },
+    "doi:10.64898/2026.10.02.756250": {
+      "abstract": "Generative models of protein structures have accelerated scientific discovery. However, the leading structure-prediction models are trained primarily on crystal structures, limiting their ability to sample the conformations of intrinsically disordered proteins (IDPs). All-atom molecular dynamics (MD) simulations can probe the diversity of IDP conformational ensembles, but these simulations are slow and costly. Leveraging the speed of generative models and the accuracy of MD, we develop Zephyr, an SE(3) equivariant diffusion model trained on simulated IDP ensembles. The model generates the structure of a single protein sequence in two phases: a coarse-grained structure is first sampled and heavy atoms are subsequently denoised onto this structure. We evaluate our method on two fronts: ensemble accuracy and sampling efficiency. Across five test systems, the model reproduces key geometric and energetic metrics of the MD ensembles, while sampling at least 63 times faster.",
+      "authors": [
+        "Trottier, O.",
+        "Gwozdecky, J. H.",
+        "Rauscher, S."
+      ],
+      "doi": "10.64898/2026.10.02.756250",
+      "first_seen": "2026-10-06",
+      "published": "2026-10-04",
+      "reasons": [
+        "diffusion model",
+        "generative model",
+        "equivariant",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.02.756250",
+      "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.02.756250"
+    },
+    "doi:10.64898/2026.10.03.756422": {
+      "abstract": "Generating diverse, all-atom protein conformations remains challenging, especially for recovering alternative functional states and modeling conformational ensembles. We present trFlow, an ultrafast approach for generating all-atom conformations using geometry-guided flow matching. trFlow leverages three core innovations: (1) a hybrid single- and multi-step sampling scheme that balances accuracy and speed; (2) a decoupled representation-generation architecture that maximizes computational efficiency; and (3) fine-tuning on NMR ensembles to better capture conformational heterogeneity. Extensive benchmarking across dual-conformation proteins, NMR ensembles, and a CASP16 dynamic target shows that trFlow outperforms competing methods in recovering challenging states and reproducing experimental heterogeneity, while being an order of magnitude faster than existing all-atom approaches. These results establish trFlow as a practical and scalable framework for large-scale generation of all-atom conformational ensembles.",
+      "authors": [
+        "Xiang, C.",
+        "Zhao, K.",
+        "Peng, Z.",
+        "Wang, W.",
+        "Yang, J."
+      ],
+      "doi": "10.64898/2026.10.03.756422",
+      "first_seen": "2026-10-06",
+      "published": "2026-10-05",
+      "reasons": [
+        "flow matching",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.03.756422",
+      "title": "trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.03.756422"
     }
   }
 }

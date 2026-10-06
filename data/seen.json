@@ -588,6 +588,12 @@
       "title": "Protein Language Model Decoys for Target Decoy Competition in Proteomics: Quality Assessment and Benchmarks.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42695896/"
     },
+    "doi:10.1021/acscatal.6c04637": {
+      "first_seen": "2026-10-06",
+      "source": "ACS Catalysis",
+      "title": "Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction",
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo"
+    },
     "doi:10.1021/acscatal.6c05133": {
       "first_seen": "2026-09-22",
       "source": "ACS Catalysis",
@@ -791,6 +797,12 @@
       "source": "PubMed",
       "title": "Advances, challenges, and opportunities in engineering C5 and C6 sugar transporters in yeast for bio-based industrial biotechnology.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42386498/"
+    },
+    "doi:10.1080/07391102.2026.2741122": {
+      "first_seen": "2026-10-06",
+      "source": "PubMed",
+      "title": "DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830522/"
     },
     "doi:10.1093/bioinformatics/btag375": {
       "first_seen": "2026-07-03",
@@ -1265,6 +1277,18 @@
       "source": "bioRxiv",
       "title": "De novo design of flexible protein interactions with GuideFlip",
       "url": "https://doi.org/10.64898/2026.09.27.754145"
+    },
+    "doi:10.64898/2026.10.02.756250": {
+      "first_seen": "2026-10-06",
+      "source": "bioRxiv",
+      "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
+      "url": "https://doi.org/10.64898/2026.10.02.756250"
+    },
+    "doi:10.64898/2026.10.03.756422": {
+      "first_seen": "2026-10-06",
+      "source": "bioRxiv",
+      "title": "trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching",
+      "url": "https://doi.org/10.64898/2026.10.03.756422"
     }
   }
 }

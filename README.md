@@ -7,19 +7,24 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-05** (`2026-10-05T05:51:13Z`)
+Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics |
+|---|---|---|---|
+| 1 | [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422)<br><sub>Xiang, C., Zhao, K., Peng, Z. et al.</sub> | bioRxiv<br>2026-10-05 | Structure generation, Experimental validation |
+| 2 | [Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo)<br><sub>Xiufeng Wang, Meng Zhang, Hejian Zhang et al.</sub> | ACS Catalysis<br>2026-10-05 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
+| 3 | [Generating Structural Ensembles of Disordered Proteins with Diffusion Models](https://doi.org/10.64898/2026.10.02.756250)<br><sub>Trottier, O., Gwozdecky, J. H., Rauscher, S.</sub> | bioRxiv<br>2026-10-04 | Structure generation, Experimental validation |
+| 4 | [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/)<br><sub>Yuune JPT, Le VT, Ou YY</sub> | PubMed<br>2026 Oct 04 | Protein language models |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 48 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 51 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 19 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 64 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 65 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 32 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -28,8 +33,11 @@ No newly collected high-confidence papers today. The cumulative library below is
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (48)
+#### Structure Generation / 结构生成 (51)
 
+- [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422) (bioRxiv, 2026-10-05; first seen 2026-10-06; Structure generation, Experimental validation)
+- [Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo) (ACS Catalysis, 2026-10-05; first seen 2026-10-06; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
+- [Generating Structural Ensembles of Disordered Proteins with Diffusion Models](https://doi.org/10.64898/2026.10.02.756250) (bioRxiv, 2026-10-04; first seen 2026-10-06; Structure generation, Experimental validation)
 - [pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42826899/) (PubMed, 2026 Oct 02; first seen 2026-10-03; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [Progress in structure prediction and design of adaptive immune receptors.](https://pubmed.ncbi.nlm.nih.gov/42430862/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Structure generation, Sequence design, Binders and therapeutics)
 - [What deep learning can and cannot (yet) do for enzyme design.](https://pubmed.ncbi.nlm.nih.gov/42815447/) (PubMed, 2026 Sep 30; first seen 2026-09-30; Structure generation, Sequence design, Protein language models, Enzymes and function)
@@ -103,8 +111,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (64)
+#### Protein Language Models / 蛋白质语言模型 (65)
 
+- [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/) (PubMed, 2026 Oct 04; first seen 2026-10-06; Protein language models)
 - [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1) (arXiv, 2026-10-01; first seen 2026-10-03; Protein language models, Enzymes and function)
 - [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455) (bioRxiv, 2026-10-01; first seen 2026-10-02; Protein language models, Experimental validation)
 - [A protein language model links the E. coli pangenome functional landscape geometry to host proteostasis](https://doi.org/10.64898/2026.01.15.699719) (bioRxiv, 2026-09-30; first seen 2026-10-01; Protein language models, Enzymes and function)
@@ -154,7 +163,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [How to Spend Your Oracle Budget: Practical Guidance for Protein Structure Prediction Models](http://arxiv.org/abs/2608.12192v1) (arXiv, 2026-08-12; first seen 2026-08-13; Protein language models)
 - [ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.](https://pubmed.ncbi.nlm.nih.gov/42573393/) (PubMed, 2026 Aug 10; first seen 2026-08-11; Protein language models, Binders and therapeutics, Enzymes and function)
 - [The N-Terminus of Sophora tonkinensis Cytochrome P450s Evolves Neutrally yet Encodes Rich Functional Information: A Protein Language Model Analysis](https://doi.org/10.64898/2026.03.06.710024) (biorxiv, 2026-08-06; first seen 2026-08-08; Protein language models, Enzymes and function)
-- [PlantPTM: A deep learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/) (PubMed, 2026 Aug 03; first seen 2026-08-05; Protein language models)
+- [PlantPTM: A deep-learning framework integrating protein language models with multi-view features for predicting diverse post-translational modification sites in plants.](https://pubmed.ncbi.nlm.nih.gov/42548048/) (PubMed, 2026 Oct 05; first seen 2026-08-05; Protein language models)
 - [Decoding the allosteric grammar of protein kinases: A dual-stream framework integrating protein language models and energy landscape frustration analysis.](https://pubmed.ncbi.nlm.nih.gov/42423121/) (PubMed, 2026 Aug 01; first seen 2026-08-01; Protein language models, Binders and therapeutics, Enzymes and function)
 - [ProtSyntax: a protein large language model for decoding post-translational modification syntax and function](https://doi.org/10.64898/2026.07.18.739331) (biorxiv, 2026-07-21; first seen 2026-07-23; Protein language models, Binders and therapeutics, Enzymes and function)
 - [DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models](http://arxiv.org/abs/2607.19237v1) (arXiv, 2026-07-21; first seen 2026-07-22; Protein language models, Binders and therapeutics)
@@ -251,7 +260,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-10-05](outputs/daily/2026-10-05.md)
+- [Daily report for 2026-10-06](outputs/daily/2026-10-06.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
