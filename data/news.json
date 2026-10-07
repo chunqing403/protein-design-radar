@@ -90,6 +90,15 @@
       "title": "Protenix · v1.1.0: Support fallback to torch cache dir for layer_norm",
       "url": "https://github.com/bytedance/Protenix/releases/tag/v1.1.0"
     },
+    "132e66e9dccd84f55bda20edb12c942778380613": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-09-12",
+      "source": "Tbreak UAE",
+      "summary": "SimpleDesign protein design: Apple’s AI model explained Tbreak UAE",
+      "title": "SimpleDesign protein design: Apple’s AI model explained",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UUTJfeFhkZjlEVUZMSTRZOGxDRWVRaHlNcVkzQXV2OTJ2LTJPRzRZTGhFazJkLXZiUy05cFJFbkFJSTZDRlk5aWxrUVJMbUl2T0FYMHJGcWNXU0pieXFwb3VSaw?oc=5"
+    },
     "1495944a140c2e655ca0c6440a2f28888d2c85a6": {
       "category": "模型与工具",
       "first_seen": "2026-09-29",
@@ -117,12 +126,21 @@
       "title": "Apple researchers unveil SimpleDesign, a new AI model for protein design",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcUhWNFltbFhUSGx6Vkl2OWNpM2xVQmdRS3ZBR053RUVlYVZINlBOVWlrRGdhc2ZaaFU1R29qbDhDSFUza2tsSm50LXIxMXpvMzRPYVZta1VIbHg5emhONzZUR05tbUpncjc2VnY0M1NDUXlwcDU2Z0ZDdlkzaElKT29PTDBHSHlIQVpINmR6dTJrcGRRbEV0RVBObWJxTFFqbjRseHhn?oc=5"
     },
+    "1df0e08d968aaa31e03168dfe8d224d7e2914e17": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-09-21",
+      "source": "Yahoo Finance",
+      "summary": "Nvidia-Backed AI Drug Discovery Company Iambic Therapeutics Files for Nasdaq IPO, to Use Proceeds for Cancer Drug Development Yahoo Finance",
+      "title": "Nvidia-Backed AI Drug Discovery Company Iambic Therapeutics Files for Nasdaq IPO, to Use Proceeds for Cancer Drug Development",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUVVWek9sbjdLdFBkVTd1UUFOYXZGTGs1akVNeHpXYWlGbnI2Z1A2UFJrNmc1SFREejN5OC11dzh6R19aN3hzUXdJS01RME9MTVdURDZtR1VGdHdRZUVTLUVOdVc5eWZIUEQyeWpMZ0trTkQ1ZHFlQXFneFJhc1l3cy1ETlEwWFJNY3NOekRfNm5GRElfOGM0?oc=5"
+    },
     "1f6521088546f29ff551145811a8ac038c0d078c": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-09",
-      "source": "labmate-online.com",
-      "summary": "Test of AlphaFold 3 exposes limitations in amyloid structure prediction models labmate-online.com",
+      "source": "Labmate Online",
+      "summary": "Test of AlphaFold 3 exposes limitations in amyloid structure prediction models Labmate Online",
       "title": "Test of AlphaFold 3 exposes limitations in amyloid structure prediction models",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYWtiZWtWamxrdktxSGZUanBaZjJRc0hCVGJlZjBkR3BLOEtPNW56U1VITGpZT0F0a3BmekZLeFVkWDN6Ykk0SmY3UTNHc1ZIb0YzUzlPV2hZTmVzSHFUdkhFVEV4czBJYmdIakRPMHVSOXVPQTZUc285M19OejRjVEF3QjgybGs3TzBjNXp3cXZFRHkyVW5zcmM3UGZwOTdJM19ROHlrQTZhR1dlSWhyLWM2WTEzS1hJUTVGZjF4MmlJZWZoeWJBMXlZX2VGblBzcGVFR3pRdjRpak9fM1JIVmRkQUhFaHZ3RGtR?oc=5"
     },
@@ -337,8 +355,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-28",
-      "source": "36 Kr",
-      "summary": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold 36 Kr",
+      "source": "eu.36kr.com",
+      "summary": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold eu.36kr.com",
       "title": "No More Waiting for Natural Evolution: Nobel Laureate Backs $94.6M Bet on the Untrodden Path Beyond AlphaFold",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uMHlPd1ZIQ2ZxSGVqVnRCVFZrcmlvelVNcnF2M2N5YXNwa3h3WEU3U25mbDBHN3VCSGlPcWp3RUFpUFAwSWdFRHFoWFdNa05GaGdZ?oc=5"
     },
@@ -355,8 +373,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-03",
       "published": "2026-10-02",
-      "source": "app.dealroom.co",
-      "summary": "Hansa Biopharma and Cradle partner to apply AI-driven protein design to autoimmune disease drugs app.dealroom.co",
+      "source": "Dealroom",
+      "summary": "Hansa Biopharma and Cradle partner to apply AI-driven protein design to autoimmune disease drugs Dealroom",
       "title": "Hansa Biopharma and Cradle partner to apply AI-driven protein design to autoimmune disease drugs",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObE16WkpoOXF1N2lEdVRYZFpPSjdad2pNdEUyWEEyN1BXSjU0X3dKbElDQUd1MmQyXzVPMUt4OEM2am1nTGtNNUtGRTJQa3J1LURiQ3NLY25iYk5haXNtRWdzREYzanhpb3E0a3Z0dl9BMkpKWkRDTXBCNk93dFBKNGpINnVkanM4M0NpNDZ2b0ZIenZNNFUwMXlQNy0wN0xXZWg0RUV6WkRuQVctSmh6dHNWczRKX0NKN3M2OEdoV09FeXFrZkVWUTFR?oc=5"
     },
@@ -454,8 +472,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-06",
       "published": "2026-10-05",
-      "source": "startupfortune.com",
-      "summary": "DeepMind unveils AI system that designs enzymes no living cell ever made startupfortune.com",
+      "source": "Startup Fortune",
+      "summary": "DeepMind unveils AI system that designs enzymes no living cell ever made Startup Fortune",
       "title": "DeepMind unveils AI system that designs enzymes no living cell ever made",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVG9LQ2FGZEVpQk53V3I1b0ZWT0tzVDdmLVNWbW0wMHhoYWp3YXFyQlRjalItYldXQXdUaUtkTXFDYlJpaHJNMHJkWl9TaEhOVzh4cnIxdWdKWDFmdHlWeFhwNUZtNTdVR0lLenU3eGFOYTJMemtnMEN0Y1dfTHEyR1htbTdnekh3VzNvWlZPaC1VLWJpWmh5REp4cHNfZVpyamc?oc=5"
     },
@@ -481,8 +499,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-18",
-      "source": "pasqualepillitteri.it",
-      "summary": "Claude speeds up 30 biology models and cuts protein design costs 100x pasqualepillitteri.it",
+      "source": "Pasquale Pillitteri",
+      "summary": "Claude speeds up 30 biology models and cuts protein design costs 100x Pasquale Pillitteri",
       "title": "Claude speeds up 30 biology models and cuts protein design costs 100x",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb3p3MmpmdUhHLTZSazc3cWk5cVl5YjZtczZtcVlnei1SQllma2hhbUhUZWRnYjRhR0dsYUFkY2UwMlJEV1Y2Q1hsX05wbEdwa1BNLXA3RlpzYnBtcnlPSjhfZ1NHcG5FOVdEbFBHWi16eVJqcUpORHhZZTNXZnhJYUIwU25pd0RBR0ZLMGZaaG9JMW96?oc=5"
     },
@@ -526,8 +544,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-06",
       "published": "2026-10-04",
-      "source": "t.co",
-      "summary": "AI Drug Discovery Is Becoming a Bottleneck Trade t.co",
+      "source": "Howl.link",
+      "summary": "AI Drug Discovery Is Becoming a Bottleneck Trade Howl.link",
       "title": "AI Drug Discovery Is Becoming a Bottleneck Trade",
       "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBuejZLelBhVUhhNW1haDdGZy13VU1oNk5sWU9EaERQdjZQVEVjTlBUNndCSGlLOWd5RDlZ?oc=5"
     },
@@ -549,14 +567,23 @@
       "title": "This 24-Year-Old From Bengaluru Is Betting Against Expensive AI Drug Discovery",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZTl1bkdPaDIxTzdTaVpRRmhjNnpNcDJLVnBrVXEwZ29PUHBfLWh4bW5QOTRQM0x3d2hwUzZoalZ5ZFc2c19EdG9RYmR0Q1FmUXlYcTQyYVdyWlRWXzZnWWd4TkgyZ3ZtdFI0MFNuYVp6UUxsMWpHcE9pTWNDYXdCUjV2V3hvd3Z0UXhIb0doc1djekVOWW5kSXpDRXpWQ0dRX3BSd1NSQUtJMm5GUFVPS0h3Y21JTklBZEh5Yw?oc=5"
     },
+    "8d800cdeef4f0f0388cd3c872049ae18852a371f": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-09-16",
+      "source": "BigGo Finance",
+      "summary": "AI Drug Discovery Demand Surges: Synthetic Biology Leader Expects Orders to Double to $100 Million Next Year BigGo Finance",
+      "title": "AI Drug Discovery Demand Surges: Synthetic Biology Leader Expects Orders to Double to $100 Million Next Year",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDdXhJUC0yVjlBTzJDbGZzU3drT3d5aXl4SFlZMWcteHlSWWRlc1RXV1ltYXNJUmRCMFQwY3lVRWc5a0JlS2g1bnFDTlpZV3o3N2VocFByN0drdC01c1NOTk90NFZ2V0FRTzZDNW53eXZjSlN4S3c?oc=5"
+    },
     "930e9a185b2c37cec31b05ec6c25086108d8530f": {
       "category": "产业动态",
       "first_seen": "2026-09-30",
       "published": "2026-09-24",
-      "source": "BioSpace",
-      "summary": "BigHat Biosciences Announces $75 Million Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design BioSpace",
+      "source": "Business Wire",
+      "summary": "BigHat Biosciences Announces $75 Million Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design Business Wire",
       "title": "BigHat Biosciences Announces $75 Million Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU21DeTUxWk1mSXVlTGJUSUdEdTZaNE9aNm9pQmNwWTI5alVfdnc4ODMzOGNxbUJLN3hXQk13TXdDOWFnV25zMC1fVk5fbkZpaHJsLW9RNmxMRHY4LUxuLWRFb1l2MVVHcThaNGlIbVlYQkNsY1V5VFE0Mi15cHpLSjlpYktPV0tjUjFCNFY5Y1Z5TXdyalRZN2U0NnQzdzU3MS1FTmN5SWNuNFJJVXR0dVNrTHVWazRHZnRrejJVNGhEc1BMOUlaa2hwamdXU0s1QmpPeEQ4a2FkQlA1eF9QdzlWSmRDNW5zQ2hhbUg5enU3WUR4TE90WmlwZ0EzdDd6NGxXZzZxSk85dlViLXNaUHJrZjBhUVdhbl9idlBn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOc3lJUGptTEtvSnUwOGJvX2ZNbXY3MVFCa1ZXeFI4eXNVUXM5UVpDb0tGeXFGTzdYbVRUcmlOclpsNEVYOHhoaGZqMTViaUdGZXJRajBOQml5bUNzeDR0RW1EMmkzZFBITmExZEtuRklCa1UxTVFFSVNyaC1nMmlieFJCRlBIdkZLQ295SkZiVEtDazl1ejBubVFBTDkyUHJKZGp0QWp5X3V1eVR6Nzhkb0h2OG9UOHNEd3ZYRllnazBEeEtPcDJwbWRUN2V2Mm9IaW5heUlGWThFMlVKRHZkTk5HSGR0eGRndGpnY3AtRkV5c284RTlsdXF4RFFKckZIaW1VUGZNSmdtR1pXMzRDcVlmeWthSmRMTFk0S3JMcmgxZ0tqSGVkOE40bEZjRGdaMGkzVWJ5S2o?oc=5"
     },
     "93fb7e683c9f6c713781296ace034dc4781b8d58": {
       "category": "产业动态",
@@ -652,8 +679,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-06",
       "published": "2026-10-05",
-      "source": "timothysykes.com",
-      "summary": "Twist Bioscience (TWST) Stock Rallies On AI Drug Discovery Deals And Target Hikes timothysykes.com",
+      "source": "Timothy Sykes",
+      "summary": "Twist Bioscience (TWST) Stock Rallies On AI Drug Discovery Deals And Target Hikes Timothy Sykes",
       "title": "Twist Bioscience (TWST) Stock Rallies On AI Drug Discovery Deals And Target Hikes",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc3FOb2NCeG5fd1A3MnRsR1g1TWJ1MVdJUUZEUjEydHZ1U0xFNW1QcG1MYWx0QTV6NTZOQ0FvTjZ6WUNFeGJKXzF4TWhWM0ExRzJ6dlluYkxKSDFLd3p6MzZRelhKdnFNSEdUM1E1eV9UYnlla3dZbmpVakNhS1VIR0dVcE9PeGxORFozajR0VQ?oc=5"
     },
@@ -693,6 +720,24 @@
       "title": "Swiss Biotech Nerai Bioscience Develops AI-Powered High-Throughput Protein Engineering for Novel CRISPR Gene Editing Tools | Top 100 Swiss Innovations",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mcUVJTmlfVFpqQ3pQUXVmd2JmRFFLN2Z0c0llYTR6VVBYaktZV2VGc2tMTjRyazJGVW1iT056Um5WaVFlZ0ZTYzlza291cTA4OFpR?oc=5"
     },
+    "b2551dca4dedad3a1c936e9037df04fb72ae178c": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-09-16",
+      "source": "BigGo Finance",
+      "summary": "Novo Nordisk Partners with Anthropic, ByteDance Spin-off Anew Labs Raises $290 Million, Igniting AI Drug Discovery Stocks BigGo Finance",
+      "title": "Novo Nordisk Partners with Anthropic, ByteDance Spin-off Anew Labs Raises $290 Million, Igniting AI Drug Discovery Stocks",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fc2pPSzlwcXJwdnkzZHBndUVTdUFjWUdSREtFc25MQTNtVVpBYWF6Tnh0OGF1RzZ0dTJmbW9OdklwUHZOQjlrQkRlXzZ6V0xsQnBWZGQzb2tGYTY1UGh1ODBxSTBEZ00yT3A0NENHQjlFMnR1eWc?oc=5"
+    },
+    "b6a54f40b847a0df7d6d04ad49945246b84db38b": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-05",
+      "source": "富途牛牛",
+      "summary": "Replicating the \"Semiconductor Moment\": An AI Drug Discovery Version of the \"Bottleneck Trade\" Is Taking Shape—Who Will Be the Next \"Shovel Seller\"? 富途牛牛",
+      "title": "Replicating the \"Semiconductor Moment\": An AI Drug Discovery Version of the \"Bottleneck Trade\" Is Taking Shape—Who Will Be the Next \"Shovel Seller\"?",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQkhRMzZ3bjJ6c2ozeTRod3FaUHlYazdZYk9vUElmZjdUdi1Fcll5VGdZU3ZnTFNfczhFZFllRXQtR0R6VXk3ZWhrbWFOMkdYUTJaOWJnRURxNXVWNHhRcjR6dWhVclRyNC1VOVBlRGh1SUdOcjN6UDJ5aWEzLWhiMnpVZkNIZXJNQWxobWxRbmpyTUdMU0lIN3ZYeVY5c1hDYjNXSlZmRVM2bzhNdVBIXw?oc=5"
+    },
     "b779001e0f3ec1d7cc74637a0d53949dc13f064a": {
       "category": "研究机构",
       "first_seen": "2026-09-29",
@@ -728,6 +773,15 @@
       "summary": "SynthID Bio protein watermark: how it works in AI NeoTeo",
       "title": "SynthID Bio protein watermark: how it works in AI",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXhaT19RbW00cFlqTGtYZmhpZnJzSElUYlpzMmRvMExsSEUxSWFEYTdqWGdhTE1FS3RVM2RFb2d1RHRTamdjN0l2ZnFMRHp2VG5RUDNVblc5RVNPdmx4aVNvSmdPcmhPT0N5OVJhUE9YajdoYzVIM09zS3I5dXhlaVRLVnNNMFFMbVdCMFJmUTVCUQ?oc=5"
+    },
+    "bf091ac75ab0be4417c42a5ed380363ea2612618": {
+      "category": "产业动态",
+      "first_seen": "2026-10-07",
+      "published": "2026-09-17",
+      "source": "BigGo Finance",
+      "summary": "ByteDance Spins Off AI Drug Discovery Unit; Anew Labs Secures $290 Million in First Funding Round BigGo Finance",
+      "title": "ByteDance Spins Off AI Drug Discovery Unit; Anew Labs Secures $290 Million in First Funding Round",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80YkRyX05BLXFPOGd0WWJ4QlUyS3N4TnU1SWZ5NGl6amZjSXVkVjZoT0YxMGxiTFlIUTJPSlg1RGJLYWZkSWc2S0xRUHV4S0pYZXJHSXFfakxWcEtoUS1LRnlUYkZRM0RfVlQzZ2FHSnE4WUhhd3c?oc=5"
     },
     "c031cc89226a97d7cde5020099ce9cf1f6634907": {
       "category": "模型与工具",
@@ -868,8 +922,8 @@
       "category": "产业动态",
       "first_seen": "2026-09-29",
       "published": "2026-09-16",
-      "source": "app.dealroom.co",
-      "summary": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation app.dealroom.co",
+      "source": "Dealroom",
+      "summary": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation Dealroom",
       "title": "ByteDance's Anew Labs raises $290M for AI drug discovery at $1.5B valuation",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWZ2ZXAtTFpfMXpBemNQdmlZM0tvZ0dFV19maTR2MVN0ekx3WGprcDhzTmhfYnpSNWFid3FIZDctWUtCOUNQaEE3bHJsOVRpSDY5MnhYTldoaWhaa01ld2JEa0NXZ3Y2UkFta2o3cUlyQ0NscktSZWlSWmphNTNnOF93OUNraXRTejBYQ0NqZkNpRVZ6NTBPVU54Mks2MENCT2V4RXdKbUdlTHM?oc=5"
     },
@@ -946,5 +1000,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-06T06:30:53+00:00"
+  "updated_at": "2026-10-07T06:10:06+00:00"
 }

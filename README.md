@@ -7,36 +7,41 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
+Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422)<br><sub>Xiang, C., Zhao, K., Peng, Z. et al.</sub> | bioRxiv<br>2026-10-05 | Structure generation, Experimental validation |
-| 2 | [Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo)<br><sub>Xiufeng Wang, Meng Zhang, Hejian Zhang et al.</sub> | ACS Catalysis<br>2026-10-05 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
-| 3 | [Generating Structural Ensembles of Disordered Proteins with Diffusion Models](https://doi.org/10.64898/2026.10.02.756250)<br><sub>Trottier, O., Gwozdecky, J. H., Rauscher, S.</sub> | bioRxiv<br>2026-10-04 | Structure generation, Experimental validation |
-| 4 | [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/)<br><sub>Yuune JPT, Le VT, Ou YY</sub> | PubMed<br>2026 Oct 04 | Protein language models |
+| 1 | [EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models](https://doi.org/10.64898/2026.10.03.756411)<br><sub>Gahlot, P. S., Shendre, A., Raghava, G. P. S.</sub> | bioRxiv<br>2026-10-06 | Structure generation, Protein language models |
+| 2 | [WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction](https://doi.org/10.64898/2026.09.01.748564)<br><sub>Han, K.-S., Hwang, K., O, S.-M. et al.</sub> | bioRxiv<br>2026-10-06 | General |
+| 3 | [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://doi.org/10.64898/2026.10.05.756719)<br><sub>Hong, L., Ho, T.-C., Tseng, Y.-S. et al.</sub> | bioRxiv<br>2026-10-06 | Protein language models, Binders and therapeutics |
+| 4 | [Mechanistic classification of the AAA superfamily with protein language models](https://doi.org/10.64898/2026.10.05.756829)<br><sub>Swan, J. A., Hill, C. P.</sub> | bioRxiv<br>2026-10-06 | Protein language models, Enzymes and function |
+| 5 | [RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction](https://doi.org/10.64898/2026.10.05.756905)<br><sub>Hori, T., Moriwaki, Y., Ishitani, R.</sub> | bioRxiv<br>2026-10-06 | Structure generation, Experimental validation |
+| 6 | [Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design](https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X)<br><sub>Xinwei Li, Yu Chen, Heng Chen et al.</sub> | Drug Discovery Today<br>2026-10 | Binders and therapeutics |
+| 7 | [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/)<br><sub>Irshad A, Ur-Rehman A, Koser T et al.</sub> | PubMed<br>2026 Oct 06 | Sequence design, Binders and therapeutics, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 51 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 19 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 65 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 32 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 53 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 67 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 33 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 18 |
+| [General / 综合](#paper-category-general) | 19 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (51)
+#### Structure Generation / 结构生成 (53)
 
-- [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422) (bioRxiv, 2026-10-05; first seen 2026-10-06; Structure generation, Experimental validation)
+- [EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models](https://doi.org/10.64898/2026.10.03.756411) (bioRxiv, 2026-10-06; first seen 2026-10-07; Structure generation, Protein language models)
+- [RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction](https://doi.org/10.64898/2026.10.05.756905) (bioRxiv, 2026-10-06; first seen 2026-10-07; Structure generation, Experimental validation)
 - [Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo) (ACS Catalysis, 2026-10-05; first seen 2026-10-06; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
+- [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422) (bioRxiv, 2026-10-05; first seen 2026-10-06; Structure generation, Experimental validation)
 - [Generating Structural Ensembles of Disordered Proteins with Diffusion Models](https://doi.org/10.64898/2026.10.02.756250) (bioRxiv, 2026-10-04; first seen 2026-10-06; Structure generation, Experimental validation)
 - [pLM-HP: Peptide hormone prediction using pre-trained protein language model representations.](https://pubmed.ncbi.nlm.nih.gov/42826899/) (PubMed, 2026 Oct 02; first seen 2026-10-03; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [Progress in structure prediction and design of adaptive immune receptors.](https://pubmed.ncbi.nlm.nih.gov/42430862/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Structure generation, Sequence design, Binders and therapeutics)
@@ -88,8 +93,9 @@ Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (19)
+#### Sequence Design / 序列设计 (20)
 
+- [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/) (PubMed, 2026 Oct 06; first seen 2026-10-07; Sequence design, Binders and therapeutics, Experimental validation)
 - [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with) (Journal of Chemical Information and Modeling, 2026-10-01; first seen 2026-10-02; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.](https://pubmed.ncbi.nlm.nih.gov/42190366/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Sequence design, Protein language models)
 - [Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome](https://doi.org/10.1101/2025.06.09.658393) (bioRxiv, 2026-09-21; first seen 2026-09-22; Sequence design)
@@ -111,8 +117,10 @@ Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (65)
+#### Protein Language Models / 蛋白质语言模型 (67)
 
+- [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://doi.org/10.64898/2026.10.05.756719) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Binders and therapeutics)
+- [Mechanistic classification of the AAA superfamily with protein language models](https://doi.org/10.64898/2026.10.05.756829) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Enzymes and function)
 - [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/) (PubMed, 2026 Oct 04; first seen 2026-10-06; Protein language models)
 - [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1) (arXiv, 2026-10-01; first seen 2026-10-03; Protein language models, Enzymes and function)
 - [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455) (bioRxiv, 2026-10-01; first seen 2026-10-02; Protein language models, Experimental validation)
@@ -180,8 +188,9 @@ Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (32)
+#### Binders & Therapeutics / 结合蛋白与治疗 (33)
 
+- [Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design](https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X) (Drug Discovery Today, 2026-10; first seen 2026-10-07; Binders and therapeutics)
 - [Machine Learning-Based Development of Gadolinium Binding Peptides.](https://pubmed.ncbi.nlm.nih.gov/42728757/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Binders and therapeutics, Experimental validation)
 - [Discriminating betacoronavirus receptor usage across subgenera using protein structure prediction and molecular dynamics](https://doi.org/10.64898/2026.09.25.754509) (bioRxiv, 2026-09-28; first seen 2026-09-29; Binders and therapeutics)
 - [A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions](https://www.nature.com/articles/s41467-026-78063-1) (Nat Commun, 2026-09-25; first seen 2026-09-26; Binders and therapeutics)
@@ -237,8 +246,9 @@ Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (18)
+#### General / 综合 (19)
 
+- [WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction](https://doi.org/10.64898/2026.09.01.748564) (bioRxiv, 2026-10-06; first seen 2026-10-07; General)
 - [SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships](https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396) (Food Research International, 2026-10; first seen 2026-10-02; General)
 - [Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins](https://onlinelibrary.wiley.com/doi/10.1002/pro.70800) (Protein Science, 2026-11; first seen 2026-10-01; General)
 - [Rhomboid tiling-based topological deep learning for protein complex structure quality assessment beyond pairwise contacts](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004704) (Cell Reports Physical Science, 2026-10; first seen 2026-09-30; General)
@@ -260,7 +270,7 @@ Updated: **2026-10-06** (`2026-10-06T06:30:50Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-06](outputs/daily/2026-10-06.md)
+- [Daily report for 2026-10-07](outputs/daily/2026-10-07.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

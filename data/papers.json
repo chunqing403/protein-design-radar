@@ -1332,6 +1332,30 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
     },
+    "doi:10.1016/j.drudis.2026.104826": {
+      "abstract": "",
+      "authors": [
+        "Xinwei Li",
+        "Yu Chen",
+        "Heng Chen",
+        "Jian Huang",
+        "Bifang He"
+      ],
+      "doi": "10.1016/j.drudis.2026.104826",
+      "first_seen": "2026-10-07",
+      "published": "2026-10",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "source": "Drug Discovery Today",
+      "source_id": "10.1016/j.drudis.2026.104826",
+      "title": "Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X"
+    },
     "doi:10.1016/j.ejmech.2026.119336": {
       "abstract": "",
       "authors": [
@@ -3441,6 +3465,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42830522/"
     },
+    "doi:10.1080/07391102.2026.2741688": {
+      "abstract": "The rapid emergence of SARS-CoV-2 has renewed interest in cross-reactive antibody therapeutics targeting conserved epitopes across divergent coronaviruses. Building on our deep-learning driven protein engineering pipeline, we sought to redirect experimentally validated MERS-CoV antibodies toward the SARS-CoV-2 receptor-binding domain. A structural comparison identified a conserved Site 2 epitope capable of supporting cross-neutralizing interactions and three MERS-CoV antibodies showing measurable compatibility with this region were selected as templates. Using the customized ProteinMPNN based design framework, with multi-parameter biophysical filtering, we introduced context-specific substitutions to strengthen interfacial complementarity with the SARS-CoV-2 RBD. The study extends our earlier workflow by adding two evaluation parameters, antigen processing and T cell immunogenicity, to assess mutational impact on developability and immune compatibility. Top-ranked variants underwent molecular dynamics simulations and post-trajectory analyses, including stability profiling, hydrogen-bond and hydrophobic network evaluation, and per-residue binding energetics. Developability assessments, including aggregation propensity and immunogenicity profiling, were integrated to ensure therapeutic readiness. Across all scaffolds, several engineered variants, most notably D12(T721E), MERS27(D722N), and JC57-14(S618G), exhibited enhanced interface organization, favorable energy landscapes, and can improved structural stability relative to their parental antibodies. Many also showed reduced aggregation potential and lower predicted antigen presentation across MHC class I and II alleles, further refined by the added processing and immunogenicity metrics. Together, these findings suggest that MERS-CoV antibody scaffolds can be repurposed to target SARS-CoV-2 through a conserved epitope, highlighting a promising strategy for broad-spectrum coronavirus antibodies and providing strengthened leads for experimental development. AI-guided inverse design was used to re-engineer MERS-CoV antibodies for recognition of a conserved SARS-CoV-2 RBD.Structural mapping identified a stable cross-reactive region (Site 2) enabling targeted antibody redesign.Deep-learning sequence proposals coupled with biophysical filtering yielded optimized antibody variants.Molecular dynamics simulations indicated strengthened interfacial interactions and improved stability in lead designs.",
+      "authors": [
+        "Irshad A",
+        "Ur-Rehman A",
+        "Koser T",
+        "Alvi M",
+        "Usman H",
+        "Khalid RR"
+      ],
+      "doi": "10.1080/07391102.2026.2741688",
+      "first_seen": "2026-10-07",
+      "published": "2026 Oct 06",
+      "reasons": [
+        "protein engineering",
+        "deep learning",
+        "ProteinMPNN",
+        "stability",
+        "protein",
+        "antibody"
+      ],
+      "source": "PubMed",
+      "source_id": "42836566",
+      "title": "Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42836566/"
+    },
     "doi:10.1093/bioinformatics/btag375": {
       "abstract": "Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for feature extraction and downstream analyses. Large-scale embedding generation is further limited by inefficiencies in computation and memory: (i) accumulating all model outputs in memory before writing to disk causes severe bottlenecks, and (ii) repeatedly embedding identical sequences to extract different modes introduces redundant computation and drastically reduces throughput and scalability. We introduce PEPE (Parallel Extraction for Protein Embeddings), a command-line tool and Python library that enables efficient, high-throughput, and multimodal extraction from protein language models. PEPE's parallelized and streaming-based architecture achieves runtimes several orders of magnitude faster than sequential approaches. Unlike conventional methods-whose peak memory usage scales linearly with output size and fails when memory capacity is exceeded-PEPE maintains stable, low memory consumption, enabling multimodal embedding extraction even beyond available RAM. PEPE supports a wide range of state-of-the-art and custom PLMs through a simple, flexible interface. By combining scalability, robustness, and ease of use, PEPE allows researchers to generate massive, information-rich embedding datasets efficiently, and facilitate the discovery of optimal representations for structural, functional, and evolutionary downstream tasks. By streamlining the generation of diverse embedding configurations, PEPE provides researchers with the necessary data to identify high-performing latent states for specific biological contexts without requiring additional computational resources. PEPE is a command-line tool written in Python and published under MIT license. The source code and documentation are available at https://github.com/csi-greifflab/pepe-cli. PEPE is also available for installation from PyPI under https://pypi.org/project/pepe-cli and deposited on Zenodo at https://zenodo.org/records/20268104.",
       "authors": [
@@ -4926,6 +4981,32 @@
       ],
       "url": "https://doi.org/10.64898/2026.09.01.748349"
     },
+    "doi:10.64898/2026.09.01.748564": {
+      "abstract": "The authors are withdrawing this preprint after discovering an error in the abstract of the paper: the PredIDR3 series programs were not posted at a specific network address. Although the conclusions remain largely unchanged, this program version does not exist and therefore should not be cited. In addition, one of the authors refused to have his/her name included in the author list. A corrected and substantially revised version of this work will be posted as a separate preprint with an updated author list.",
+      "authors": [
+        "Han, K.-S.",
+        "Hwang, K.",
+        "O, S.-M.",
+        "Kim, S.-J.",
+        "Ri, P.-Z.",
+        "Choe, M.-M.",
+        "Damiano, P."
+      ],
+      "doi": "10.64898/2026.09.01.748564",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-06",
+      "reasons": [
+        "deep learning",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.01.748564",
+      "title": "WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.01.748564"
+    },
     "doi:10.64898/2026.09.04.749184": {
       "abstract": "Abstract Biomolecular interactions, including protein–protein interactions, protein–nucleic acid recognition, and protein–small molecule binding, underlie a wide range of biological processes and therapeutic mechanisms. Although recent de novo design methods can generate candidate binders for diverse molecular targets, practical design campaigns remain limited by low filter-passing rates and model-specific biases that arise when designs are optimized against a single predictor. Here, we present RFOptimization (RFO), a training-free framework for all-atom biomolecular binder optimization. RFO formulates binder improvement as a residue-wise mutational search problem, sampling candidate substitutions alternately using gradient-guided sequence optimization through all-atom structure prediction models and a cycling-based sequence redesign strategy that alternates structure generation with an orthogonal predictor and structure-conditioned inverse folding, thereby improving the in silico success rate of RFdiffusion-generated binders within minutes of computation. To reduce overfitting to any individual structure model, candidate mutations are further evaluated with orthogonal AlphaFold3 metrics as final filters. We demonstrate the generality of RFO across diverse design settings, including classical protein binder design, ligand-binding biosensor design, cyclic peptide design, and active site-aware enzyme design.",
       "authors": [
@@ -5821,6 +5902,30 @@
       ],
       "url": "https://doi.org/10.64898/2026.10.02.756250"
     },
+    "doi:10.64898/2026.10.03.756411": {
+      "abstract": "Ensuring the safety and suitability of proteins considered for food and biotechnology applications is an important challenge. Computational approaches can facilitate the prioritisation of candidate proteins for further investigation, particularly given the rapid growth of genomic and metagenomic sequence datasets. In this study, we developed computational models to distinguish edible plant tissue-associated (EPTA) proteins from non-EPTA proteins. The positive class comprised 939 proteins with experimentally validated evidence of expression in plant tissues commonly consumed by humans, hereafter referred to as EPTA proteins. The negative class comprised 939 proteins annotated in UniProt as toxic, allergenic, or antinutritional, hereafter referred to as non-EPTA proteins. Models were evaluated using five-fold cross-validation with a cluster-based partitioning strategy, ensuring that no protein in the validation set shared more than 40% sequence identity with proteins in the corresponding training set. First, composition-based sequence features were evaluated to establish a baseline for EPTA or non-EPTA classification, with the Extra Trees (ET) classifier achieving a validation AUROC of 0.848. To incorporate evolutionary information beyond amino acid composition, PSSM profiles were subsequently evaluated, yielding an AUROC of 0.842 with an SVM classifier. Finally, to capture richer sequence patterns and contextual information using protein language modelling, we evaluated ESM2-based models. The fine-tuned ESM2-T33 model achieved the highest validation AUROC of 0.925 and was selected as the final predictive model. The resulting approach was implemented as the EdiProPred web server (https://webs.iiitd.edu.in/raghava/edipropred/) and standalone software for computational classification of plant proteins. The EdiProPred framework provides a useful computational tool for prioritising candidate plant proteins and facilitating the exploration of novel protein resources for food and biotechnology applications.",
+      "authors": [
+        "Gahlot, P. S.",
+        "Shendre, A.",
+        "Raghava, G. P. S."
+      ],
+      "doi": "10.64898/2026.10.03.756411",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-06",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.03.756411",
+      "title": "EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models",
+      "topics": [
+        "Structure generation",
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.03.756411"
+    },
     "doi:10.64898/2026.10.03.756422": {
       "abstract": "Generating diverse, all-atom protein conformations remains challenging, especially for recovering alternative functional states and modeling conformational ensembles. We present trFlow, an ultrafast approach for generating all-atom conformations using geometry-guided flow matching. trFlow leverages three core innovations: (1) a hybrid single- and multi-step sampling scheme that balances accuracy and speed; (2) a decoupled representation-generation architecture that maximizes computational efficiency; and (3) fine-tuning on NMR ensembles to better capture conformational heterogeneity. Extensive benchmarking across dual-conformation proteins, NMR ensembles, and a CASP16 dynamic target shows that trFlow outperforms competing methods in recovering challenging states and reproducing experimental heterogeneity, while being an order of magnitude faster than existing all-atom approaches. These results establish trFlow as a practical and scalable framework for large-scale generation of all-atom conformational ensembles.",
       "authors": [
@@ -5845,6 +5950,87 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.03.756422"
+    },
+    "doi:10.64898/2026.10.05.756719": {
+      "abstract": "Phosphorylation is a fast, reversible layer of post-translational control that directly governs protein activity, signaling flux, and cell state. Kinases and phosphatases collectively establish these phosphorylation states, but their dysregulation drives cancer, neurodegenerative diseases, and developmental disorders. Selectively manipulating the phosphorylation of individual proteins in cells remains challenging, particularly for disordered substrates. Here, we introduce Peptide-Retargeted Phosphatases (PepRePs), a genetically encoded system that fuses a peptide binder to a serine/threonine phosphatase subunit to localize phosphatase activity to a target protein. We first establish the PepReP architecture using characterized tau-binding peptides, then apply protein language model-guided peptide design to target Rab8A, PTEN, and STAT3. Across endogenous and exogenous targets, PepRePs reduce phosphorylation, with downstream effects on tau aggregation, Rab8A-associated protein interactions, and cellular proliferation following PTEN and STAT3 targeting. Sequence-based peptide design enables targeting without structural inputs, supporting application to substrates with disordered regions that challenge conventional structure-based binder design. By coupling programmable peptide binders with modular phosphatase subunits, PepRePs enable targeted control of protein phosphorylation to probe cellular signaling and develop strategies for correcting disease-associated protein dysfunction.",
+      "authors": [
+        "Hong, L.",
+        "Ho, T.-C.",
+        "Tseng, Y.-S.",
+        "Vincoff, S.",
+        "Chen, T.",
+        "Donahue, T. C.",
+        "DeLisa, M. P.",
+        "Chen, P.-H.",
+        "Chatterjee, P."
+      ],
+      "doi": "10.64898/2026.10.05.756719",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-06",
+      "reasons": [
+        "protein language model",
+        "binder design",
+        "protein",
+        "peptide",
+        "binding",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.05.756719",
+      "title": "PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756719"
+    },
+    "doi:10.64898/2026.10.05.756829": {
+      "abstract": "The ATPases Associated with various cellular Activites (AAA) are a class of proteins with diverse structure-function relationships whereby conserved 3-dimensional architecture is employed in varied mechanistic contexts. While cryo-electron microscopy has revealed extensive mechanistic data, predicting how specific sequence elements dictate unique biochemical mechanisms remains a challenge. Here, we present a machine learning framework to resolve these sequence-function relationships. We established a hierarchical classification scheme based on five distinct modes of coupling ATP hydrolysis to mechanical work. Using CatFunc, a lightweight protein language model (PLM)-based pipeline, we leveraged evolutionary context from millions of protein sequences for supervised classification of AAA domains based on mechanism. We observed excellent recall of our mechanistic annotations in masked validation studies, demonstrating that domain level context is sufficient to encapsulate the various observed mechanisms. Notably, systematic misclassifications revealed a shared evolutionary and mechanistic ancestry within the rotary motor class. Applying the model to out-of-distribution proteomic datasets, we established metrics to detect unrepresented functions. Our framework provides a scalable strategy for decoding molecular function from sequence data, offering a transferable approach for other biomedically important families such as membrane transporters, G protein-coupled receptors and kinases.",
+      "authors": [
+        "Swan, J. A.",
+        "Hill, C. P."
+      ],
+      "doi": "10.64898/2026.10.05.756829",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-06",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.05.756829",
+      "title": "Mechanistic classification of the AAA superfamily with protein language models",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756829"
+    },
+    "doi:10.64898/2026.10.05.756905": {
+      "abstract": "Diffusion-based models have substantially advanced biomolecular structure prediction. Within this framework, restraint-guided inference (RGI) corrects the denoiser output at each reverse-diffusion step using a differentiable restraint loss, allowing available experimental information, stereochemical requirements, or a specified target conformational state to be incorporated into predictions without retraining the model. Here, we present RGI-Toolkit, a general-purpose Python library that makes RGI available for a range of structure predictors. The toolkit consolidates restraint definition, atom selection, loss evaluation, and coordinate optimization into a shared, backend-agnostic engine, limiting predictor-specific code to a thin preprocessing adapter and a single hook in the denoising loop. Restraints on distances, angles, and dihedrals, on deviations from reference structures, and on user-defined reaction coordinates, together with ligand conformer restraints, are all specified in a common configuration format. The toolkit currently supports six predictors, including AlphaFold3. Across all six predictors, conformer restraints eliminated chirality and cis/trans errors in the predicted ligands and improved their local geometry, while geometric and custom restraints systematically shifted the sampled protein conformations toward the specified target states. RGI-Toolkit thus provides a unified framework for integrating experimental information and prior geometric knowledge into structure prediction and for generating biomolecular structures with specified conformational and stereochemical properties.",
+      "authors": [
+        "Hori, T.",
+        "Moriwaki, Y.",
+        "Ishitani, R."
+      ],
+      "doi": "10.64898/2026.10.05.756905",
+      "first_seen": "2026-10-07",
+      "published": "2026-10-06",
+      "reasons": [
+        "structure prediction",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.05.756905",
+      "title": "RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756905"
     }
   }
 }

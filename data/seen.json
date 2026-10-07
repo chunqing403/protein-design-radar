@@ -312,6 +312,12 @@
       "title": "Artificial intelligence-assisted computational identification of peptide candidates against various key targets for combating hyperpigmentation and skin aging",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570164626000883"
     },
+    "doi:10.1016/j.drudis.2026.104826": {
+      "first_seen": "2026-10-07",
+      "source": "Drug Discovery Today",
+      "title": "Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X"
+    },
     "doi:10.1016/j.ejmech.2026.119336": {
       "first_seen": "2026-09-19",
       "source": "European Journal of Medicinal Chemistry",
@@ -804,6 +810,12 @@
       "title": "DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42830522/"
     },
+    "doi:10.1080/07391102.2026.2741688": {
+      "first_seen": "2026-10-07",
+      "source": "PubMed",
+      "title": "Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42836566/"
+    },
     "doi:10.1093/bioinformatics/btag375": {
       "first_seen": "2026-07-03",
       "source": "PubMed",
@@ -1116,6 +1128,12 @@
       "title": "De novo designed single-domain antibodies protect against lethal cobra venom neurotoxicity in vivo",
       "url": "https://doi.org/10.64898/2026.09.01.748349"
     },
+    "doi:10.64898/2026.09.01.748564": {
+      "first_seen": "2026-10-07",
+      "source": "bioRxiv",
+      "title": "WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction",
+      "url": "https://doi.org/10.64898/2026.09.01.748564"
+    },
     "doi:10.64898/2026.09.04.749184": {
       "first_seen": "2026-09-09",
       "source": "bioRxiv",
@@ -1284,11 +1302,35 @@
       "title": "Generating Structural Ensembles of Disordered Proteins with Diffusion Models",
       "url": "https://doi.org/10.64898/2026.10.02.756250"
     },
+    "doi:10.64898/2026.10.03.756411": {
+      "first_seen": "2026-10-07",
+      "source": "bioRxiv",
+      "title": "EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models",
+      "url": "https://doi.org/10.64898/2026.10.03.756411"
+    },
     "doi:10.64898/2026.10.03.756422": {
       "first_seen": "2026-10-06",
       "source": "bioRxiv",
       "title": "trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching",
       "url": "https://doi.org/10.64898/2026.10.03.756422"
+    },
+    "doi:10.64898/2026.10.05.756719": {
+      "first_seen": "2026-10-07",
+      "source": "bioRxiv",
+      "title": "PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models",
+      "url": "https://doi.org/10.64898/2026.10.05.756719"
+    },
+    "doi:10.64898/2026.10.05.756829": {
+      "first_seen": "2026-10-07",
+      "source": "bioRxiv",
+      "title": "Mechanistic classification of the AAA superfamily with protein language models",
+      "url": "https://doi.org/10.64898/2026.10.05.756829"
+    },
+    "doi:10.64898/2026.10.05.756905": {
+      "first_seen": "2026-10-07",
+      "source": "bioRxiv",
+      "title": "RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction",
+      "url": "https://doi.org/10.64898/2026.10.05.756905"
     }
   }
 }
