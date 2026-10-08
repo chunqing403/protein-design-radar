@@ -1,10 +1,14 @@
 import unittest
+from unittest.mock import Mock, patch
+
+import requests
 
 from scripts.discover_wechat import (
     add_links,
     article_identity,
     extract_feed_items,
     extract_feed_links,
+    fetch_feed,
     slug_for_url,
 )
 
@@ -51,6 +55,19 @@ class WeChatFeedTests(unittest.TestCase):
     def test_builds_stable_slug_for_primary_and_secondary_articles(self):
         self.assertEqual("caom-2247485000", slug_for_url(FULL_URL))
         self.assertEqual("caom-2247485000-2", slug_for_url(FULL_URL.replace("idx=1", "idx=2")))
+
+    @patch("scripts.discover_wechat.time.sleep")
+    @patch("scripts.discover_wechat.requests.get")
+    def test_retries_feed_until_rsshub_is_ready(self, mock_get, mock_sleep):
+        failed = Mock()
+        failed.raise_for_status.side_effect = requests.HTTPError("starting")
+        ready = Mock()
+        ready.raise_for_status.return_value = None
+        ready.text = "<rss />"
+        mock_get.side_effect = [failed, ready]
+
+        self.assertEqual("<rss />", fetch_feed("http://127.0.0.1:1200/feed"))
+        mock_sleep.assert_called_once_with(10)
 
 
 if __name__ == "__main__":

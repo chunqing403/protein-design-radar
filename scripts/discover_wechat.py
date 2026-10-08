@@ -8,6 +8,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import time
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse, urlunparse
@@ -152,6 +153,24 @@ def load_sources(path: Path) -> list[dict]:
     return value
 
 
+def fetch_feed(url: str, attempts: int = 4) -> str:
+    last_error: requests.RequestException | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=90)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt == attempts:
+                break
+            delay = attempt * 10
+            print(f"Feed request failed ({attempt}/{attempts}); retrying in {delay}s: {exc}")
+            time.sleep(delay)
+    assert last_error is not None
+    raise last_error
+
+
 def add_links(
     sources: list[dict],
     links: list[str],
@@ -205,9 +224,7 @@ def main() -> int:
     links = [url for url in args.article_url if normalize_url(url)]
     feed_items: list[dict] = []
     if args.feed_url:
-        response = requests.get(args.feed_url, headers={"User-Agent": USER_AGENT}, timeout=60)
-        response.raise_for_status()
-        feed_items = extract_feed_items(response.text)
+        feed_items = extract_feed_items(fetch_feed(args.feed_url))
         links.extend(item["url"] for item in feed_items)
     if not links:
         print("No WeChat feed or article URL configured; nothing to discover.")
