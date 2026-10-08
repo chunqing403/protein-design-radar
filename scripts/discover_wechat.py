@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCES = ROOT / "site" / "wechat_sources.json"
 DEFAULT_CACHE = ROOT / "work" / "wechat_feed_items.json"
 USER_AGENT = "protein-design-radar/1.0 (+https://github.com/chunqing403/protein-design-radar)"
+WECHAT_API = "https://api.weixin.qq.com/cgi-bin"
 
 
 def local_name(tag: str) -> str:
@@ -171,6 +172,66 @@ def fetch_feed(url: str, attempts: int = 4) -> str:
     raise last_error
 
 
+def fetch_official_items(app_id: str, app_secret: str) -> list[dict]:
+    token_response = requests.get(
+        f"{WECHAT_API}/token",
+        params={
+            "grant_type": "client_credential",
+            "appid": app_id,
+            "secret": app_secret,
+        },
+        headers={"User-Agent": USER_AGENT},
+        timeout=60,
+    )
+    token_response.raise_for_status()
+    token_data = token_response.json()
+    access_token = token_data.get("access_token")
+    if not access_token:
+        raise RuntimeError(
+            f"WeChat access token failed: {token_data.get('errcode', 'unknown')} "
+            f"{token_data.get('errmsg', 'missing access_token')}"
+        )
+
+    articles_response = requests.post(
+        f"{WECHAT_API}/freepublish/batchget",
+        params={"access_token": access_token},
+        json={"offset": 0, "count": 20, "no_content": 0},
+        headers={"User-Agent": USER_AGENT},
+        timeout=90,
+    )
+    articles_response.raise_for_status()
+    payload = articles_response.json()
+    if payload.get("errcode"):
+        raise RuntimeError(
+            f"WeChat publication list failed: {payload['errcode']} "
+            f"{payload.get('errmsg', '')}"
+        )
+
+    timezone = dt.timezone(dt.timedelta(hours=8))
+    items: list[dict] = []
+    for publication in payload.get("item", []):
+        content = publication.get("content", {})
+        timestamp = content.get("update_time") or content.get("create_time") or 0
+        published = dt.datetime.fromtimestamp(timestamp, timezone).date().isoformat() if timestamp else ""
+        for article in content.get("news_item", []):
+            url = normalize_url(article.get("url", ""))
+            if not url:
+                continue
+            items.append(
+                {
+                    "url": url,
+                    "title": article.get("title", ""),
+                    "description": article.get("digest", ""),
+                    "content": article.get("content", ""),
+                    "published": published,
+                    "author": article.get("author", ""),
+                    "account": "CAOM",
+                    "cover": article.get("thumb_url", ""),
+                }
+            )
+    return items
+
+
 def add_links(
     sources: list[dict],
     links: list[str],
@@ -213,6 +274,8 @@ def parse_bool(value: str) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--feed-url", default=os.environ.get("WECHAT_FEED_URL", ""))
+    parser.add_argument("--wechat-app-id", default=os.environ.get("WECHAT_APP_ID", ""))
+    parser.add_argument("--wechat-app-secret", default=os.environ.get("WECHAT_APP_SECRET", ""))
     parser.add_argument("--article-url", action="append", default=[])
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES)
     parser.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
@@ -226,9 +289,15 @@ def main() -> int:
     if args.feed_url:
         feed_items = extract_feed_items(fetch_feed(args.feed_url))
         links.extend(item["url"] for item in feed_items)
+    if bool(args.wechat_app_id) != bool(args.wechat_app_secret):
+        raise RuntimeError("WECHAT_APP_ID and WECHAT_APP_SECRET must be configured together")
+    if args.wechat_app_id:
+        official_items = fetch_official_items(args.wechat_app_id, args.wechat_app_secret)
+        feed_items.extend(official_items)
+        links.extend(item["url"] for item in official_items)
     if not links:
-        if args.feed_url:
-            print(f"Feed returned no WeChat article links: {args.feed_url}")
+        if args.feed_url or args.wechat_app_id:
+            print("Configured WeChat sources returned no article links.")
         else:
             print("No WeChat feed or article URL configured; nothing to discover.")
         return 0

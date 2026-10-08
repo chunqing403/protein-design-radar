@@ -9,6 +9,7 @@ from scripts.discover_wechat import (
     extract_feed_items,
     extract_feed_links,
     fetch_feed,
+    fetch_official_items,
     slug_for_url,
 )
 
@@ -68,6 +69,43 @@ class WeChatFeedTests(unittest.TestCase):
 
         self.assertEqual("<rss />", fetch_feed("http://127.0.0.1:1200/feed"))
         mock_sleep.assert_called_once_with(10)
+
+    @patch("scripts.discover_wechat.requests.post")
+    @patch("scripts.discover_wechat.requests.get")
+    def test_maps_official_publication_records_to_feed_items(self, mock_get, mock_post):
+        token_response = Mock()
+        token_response.raise_for_status.return_value = None
+        token_response.json.return_value = {"access_token": "token"}
+        mock_get.return_value = token_response
+
+        publication_response = Mock()
+        publication_response.raise_for_status.return_value = None
+        publication_response.json.return_value = {
+            "item": [
+                {
+                    "content": {
+                        "update_time": 1791417600,
+                        "news_item": [
+                            {
+                                "title": "Official article",
+                                "author": "ZCQ",
+                                "digest": "Summary",
+                                "content": "<p>Full text</p>",
+                                "url": FULL_URL,
+                                "thumb_url": "https://mmbiz.qpic.cn/cover.jpg",
+                            }
+                        ],
+                    }
+                }
+            ]
+        }
+        mock_post.return_value = publication_response
+
+        item = fetch_official_items("app", "secret")[0]
+        self.assertEqual("Official article", item["title"])
+        self.assertEqual("CAOM", item["account"])
+        self.assertEqual("2026-10-08", item["published"])
+        self.assertIn("Full text", item["content"])
 
 
 if __name__ == "__main__":

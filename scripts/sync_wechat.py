@@ -270,6 +270,14 @@ def import_feed_article(
     content = soup.select_one("#feed-content")
     assets = content_root / "assets" / "wechat" / slug
     assets.mkdir(parents=True, exist_ok=True)
+    cover_path = ""
+    cover_url = canonical_image_url(feed_item.get("cover", ""))
+    if cover_url:
+        try:
+            downloaded_cover = download_image(session, cover_url, assets / "cover")
+            cover_path = f"assets/wechat/{slug}/{downloaded_cover.name}"
+        except requests.RequestException as exc:
+            print(f"warning: failed to download feed cover {cover_url}: {exc}")
     body_html = sanitize_content(
         content,
         session,
@@ -279,6 +287,8 @@ def import_feed_article(
     article_path = content_root / "articles" / f"{slug}.html"
     write_text_if_changed(article_path, body_html + "\n")
     first_image = next(iter(sorted(assets.glob("image-*"))), None)
+    if not cover_path and first_image:
+        cover_path = f"assets/wechat/{slug}/{first_image.name}"
     return {
         "slug": slug,
         "title": feed_item.get("title") or slug,
@@ -287,7 +297,7 @@ def import_feed_article(
         "author": feed_item.get("author") or "",
         "published": feed_item.get("published") or "",
         "source_url": source["url"],
-        "cover": f"assets/wechat/{slug}/{first_image.name}" if first_image else "",
+        "cover": cover_path,
         "featured": bool(source.get("featured", False)),
         "topics": source.get("topics") or infer_topics(feed_item.get("title", "")),
         "body_file": f"articles/{slug}.html",

@@ -38,6 +38,8 @@ jobs:
       - name: Discover new WeChat articles
         env:
           WECHAT_FEED_URL: ${{ secrets.WECHAT_FEED_URL || vars.WECHAT_FEED_URL }}
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
           WECHAT_SLUG_PREFIX: caom
         run: python scripts/discover_wechat.py
 
