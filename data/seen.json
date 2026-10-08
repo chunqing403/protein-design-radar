@@ -444,6 +444,12 @@
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
     },
+    "doi:10.1016/j.omtn.2026.103133": {
+      "first_seen": "2026-10-08",
+      "source": "Molecular Therapy Nucleic Acids",
+      "title": "Aptamers without SELEX: de novo design from protein structure in hours",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2162253126003045"
+    },
     "doi:10.1016/j.sbi.2026.103326": {
       "first_seen": "2026-10-01",
       "source": "PubMed",
@@ -606,6 +612,12 @@
       "title": "Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes",
       "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering"
     },
+    "doi:10.1021/acscatal.6c07060": {
+      "first_seen": "2026-10-08",
+      "source": "ACS Catalysis",
+      "title": "Machine Learning Empowers Enzyme Discovery, Structure Prediction, Engineering, and Design",
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c07060/5446335/Machine-Learning-Empowers-Enzyme-Discovery"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "first_seen": "2026-07-18",
       "source": "PubMed",
@@ -695,6 +707,12 @@
       "source": "Nat Commun",
       "title": "A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions",
       "url": "https://www.nature.com/articles/s41467-026-78063-1"
+    },
+    "doi:10.1038/s41538-026-01159-x": {
+      "first_seen": "2026-10-08",
+      "source": "npj Sci Food",
+      "title": "An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems",
+      "url": "https://www.nature.com/articles/s41538-026-01159-x"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
@@ -816,6 +834,12 @@
       "title": "Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42836566/"
     },
+    "doi:10.1093/bib/bbag516": {
+      "first_seen": "2026-10-08",
+      "source": "Briefings in Bioinformatics",
+      "title": "ToxMamba: a novel method for toxic peptide prediction based on the fusion of pretrained embeddings and multi-scale state space models",
+      "url": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag516/8876010"
+    },
     "doi:10.1093/bioinformatics/btag375": {
       "first_seen": "2026-07-03",
       "source": "PubMed",
@@ -893,6 +917,12 @@
       "source": "PubMed",
       "title": "DeepEffector: A Protein Language Model-Driven Deep Learning Framework for Effector Prediction in Fungi and Oomycetes.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42748470/"
+    },
+    "doi:10.1093/plphys/kiag755": {
+      "first_seen": "2026-10-08",
+      "source": "PubMed",
+      "title": "AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842924/"
     },
     "doi:10.1093/protein/gzag016": {
       "first_seen": "2026-07-07",
@@ -1295,6 +1325,12 @@
       "source": "bioRxiv",
       "title": "De novo design of flexible protein interactions with GuideFlip",
       "url": "https://doi.org/10.64898/2026.09.27.754145"
+    },
+    "doi:10.64898/2026.09.27.754816": {
+      "first_seen": "2026-10-08",
+      "source": "bioRxiv",
+      "title": "Protein Language Model-Conditioned Graph Neural Networks for Multitask GPCR Ligand Activity Prediction",
+      "url": "https://doi.org/10.64898/2026.09.27.754816"
     },
     "doi:10.64898/2026.10.02.756250": {
       "first_seen": "2026-10-06",

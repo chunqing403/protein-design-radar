@@ -1875,6 +1875,38 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
     },
+    "doi:10.1016/j.omtn.2026.103133": {
+      "abstract": "",
+      "authors": [
+        "Vladislava A. Dolgusheva",
+        "Iosif V. Leibin",
+        "Natalia O. Kudryashova",
+        "Artem R. Mukanov",
+        "Ivan I. Kuznetsov",
+        "Artem L. Manasyan",
+        "Gleb A. Pavlyuk",
+        "Ivan V. Mishkorez",
+        "Anna M. Keremet",
+        "Pavel R. Podlesnyi",
+        "Alexey N. Kalinkin",
+        "Kirill S. Avdeev"
+      ],
+      "doi": "10.1016/j.omtn.2026.103133",
+      "first_seen": "2026-10-08",
+      "published": "2026-10",
+      "reasons": [
+        "de novo design",
+        "protein",
+        "structure"
+      ],
+      "source": "Molecular Therapy Nucleic Acids",
+      "source_id": "10.1016/j.omtn.2026.103133",
+      "title": "Aptamers without SELEX: de novo design from protein structure in hours",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2162253126003045"
+    },
     "doi:10.1016/j.sbi.2026.103326": {
       "abstract": "Adaptive immune receptors (AIRs), including antibodies and T-cell receptors (TCRs), mediate antigen recognition and represent a major class of therapeutic biomolecules. Their unique architecture, combining conserved framework with highly diverse complementarity-determining regions (CDRs), poses challenges for structure prediction and design. Recent advances in deep learning have transformed these fields, yet AIR-antigen interactions remain difficult targets due to limited structural data, weak co-evolutionary signals, and conformational heterogeneity. Herein, we review recent progress in structure-based deep learning approaches for AIRs, including AIR-specific language models, structure prediction, and epitope-conditioned design. We discuss commonly used datasets, evaluation metrics, and sources of bias that complicate cross-study comparisons and highlight the need for improved benchmarks. We also review emerging generative design strategies such as inverse folding, diffusion-based backbone generation, sequence-space diffusion, and sequence-structure co-design, and outline key challenges, including accurate modeling of flexible CDR loops, reliable ranking of AIR-antigen complexes, and scalable epitope-specific AIR design.",
       "authors": [
@@ -2637,6 +2669,37 @@
       ],
       "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering"
     },
+    "doi:10.1021/acscatal.6c07060": {
+      "abstract": "Abstract Enzymes are efficient and selective biocatalysts, yet obtaining enzymes with desired properties remains challenging due to vast sequence spaces, incomplete functional annotation, limited structural information, and costly experimental screening. Machine learning (ML) offers a powerful complement to address these limitations. For enzyme discovery, sequence and structural representations enhance candidate retrieval and functional annotation, while property predictors support further prioritization. For structure prediction, ML methods have progressed from the use of evolutionary information to protein language model-based prediction and all-atom biomolecular modeling, broadening computational access from individual protein structures to multicomponent assemblies. For enzyme engineering, ML-guided strategies leverage experimental measurements and pretrained representations to predict and prioritize variants, supporting iterative optimization of fitness landscapes. Beyond optimizing existing enzymes, ML-enabled enzyme design further enables the construction of sequences and structures whose functional, structural, or catalytic properties are specified by design constraints. Despite these advances, persistent challenges remain in data quality, model generalization, conformational dynamics, and the correspondence between computational predictions and catalytic function. We conclude that closer integration of ML with mechanistic analysis and experimental validation is essential for developing robust and applicable workflows that span enzyme discovery, structure prediction, engineering, and design.",
+      "authors": [
+        "Wang Muqiang",
+        "Jiang Ling",
+        "Yu Haoran",
+        "Yu Jiachen",
+        "Zheng Wenlong",
+        "Wu Jianping"
+      ],
+      "doi": "10.1021/acscatal.6c07060",
+      "first_seen": "2026-10-08",
+      "published": "2026-10-07",
+      "reasons": [
+        "protein language model",
+        "structure prediction",
+        "enzyme design",
+        "experimental validation",
+        "fitness landscape",
+        "protein"
+      ],
+      "source": "ACS Catalysis",
+      "source_id": "10.1021/acscatal.6c07060",
+      "title": "Machine Learning Empowers Enzyme Discovery, Structure Prediction, Engineering, and Design",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c07060/5446335/Machine-Learning-Empowers-Enzyme-Discovery"
+    },
     "doi:10.1021/acssynbio.6c00199": {
       "abstract": "Microbial cell factories represent sustainable platforms for the production of fuels, chemicals, and therapeutics, but their development is limited by challenges in pathway discovery, enzyme optimization, and metabolic regulation. Recent advances in artificial intelligence and machine learning are reshaping this field by enabling predictive pathway design, enhanced protein engineering, and dynamic network regulation. Emerging strategies such as graph neural networks, generative models, and reinforcement learning (RL) now allow systematic exploration of vast design spaces with enhanced accuracy and scalability. This review highlights recent advancements in microbial engineering. It discusses how AI-driven frameworks are advancing the field from experience-guided and rule-based engineering toward data-driven, model-assisted, and increasingly autonomous workflows. These changes lay the foundation for next-generation biomanufacturing.",
       "authors": [
@@ -3039,6 +3102,27 @@
         "Binders and therapeutics"
       ],
       "url": "https://www.nature.com/articles/s41467-026-78063-1"
+    },
+    "doi:10.1038/s41538-026-01159-x": {
+      "abstract": "",
+      "authors": [
+        "Eunyeong Lee",
+        "Hee Yang"
+      ],
+      "doi": "10.1038/s41538-026-01159-x",
+      "first_seen": "2026-10-08",
+      "published": "2026-10-08",
+      "reasons": [
+        "AI-enabled",
+        "protein"
+      ],
+      "source": "npj Sci Food",
+      "source_id": "10.1038/s41538-026-01159-x",
+      "title": "An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41538-026-01159-x"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
@@ -3496,6 +3580,38 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42836566/"
     },
+    "doi:10.1093/bib/bbag516": {
+      "abstract": "Abstract Peptide therapeutics offer great promise in drug discovery, yet the accurate identification of peptide toxicity remains essential for both safety assessment and biodefense. We developed ToxMamba, a toxic peptide prediction framework that integrates Implicit Structure Model (ISM)-derived pretrained embeddings, state space models, multi-scale feature learning, and ensemble inference. Built upon the Mamba architecture, ToxMamba enables efficient sequence modeling and captures contextual patterns across multiple receptive fields from parallel branches. On the independent test set, ToxMamba consistently surpasses existing methods, improving the F1 score and Matthews Correlation Coefficient by 3.9–18.3 and 7.5–46.9 percentage points, respectively. Ablation analyses further showed that Mamba-based models generally achieved stronger overall performance than Transformer-, Convolutional Neural Network-Long Short-Term Memory-Attention-, and Kolmogorov–Arnold Network-based variants. Feature visualization showed that ISM embeddings yielded clearer separation between toxic and non-toxic peptides in the latent space. Intermediate-layer feature analysis highlighted residue-level regions associated with toxicity-related sequence motifs, supporting the biological interpretability of ToxMamba. Overall, this study provides an efficient and interpretable computational framework for high-throughput toxic peptide screening.",
+      "authors": [
+        "Jingya Fang",
+        "Wenqi Shen",
+        "Yanru Li",
+        "Yu Jin",
+        "Haodong Li",
+        "Yuanyuan Chen",
+        "Zhihui Xu",
+        "Jinhu Huang",
+        "Cong Pian",
+        "Zutan Li"
+      ],
+      "doi": "10.1093/bib/bbag516",
+      "first_seen": "2026-10-08",
+      "published": "2026-09-01",
+      "reasons": [
+        "transformer",
+        "peptide",
+        "sequence",
+        "structure"
+      ],
+      "source": "Briefings in Bioinformatics",
+      "source_id": "10.1093/bib/bbag516",
+      "title": "ToxMamba: a novel method for toxic peptide prediction based on the fusion of pretrained embeddings and multi-scale state space models",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbag516/8876010"
+    },
     "doi:10.1093/bioinformatics/btag375": {
       "abstract": "Protein language models (PLMs) capture intricate amino-acid dependencies, producing embeddings that encode rich structural, functional, and evolutionary information. Despite their potential, current extraction workflows rely on arbitrary choices, with respect to embedding layer, pooling, and padding, that frequently yield suboptimal representations for feature extraction and downstream analyses. Large-scale embedding generation is further limited by inefficiencies in computation and memory: (i) accumulating all model outputs in memory before writing to disk causes severe bottlenecks, and (ii) repeatedly embedding identical sequences to extract different modes introduces redundant computation and drastically reduces throughput and scalability. We introduce PEPE (Parallel Extraction for Protein Embeddings), a command-line tool and Python library that enables efficient, high-throughput, and multimodal extraction from protein language models. PEPE's parallelized and streaming-based architecture achieves runtimes several orders of magnitude faster than sequential approaches. Unlike conventional methods-whose peak memory usage scales linearly with output size and fails when memory capacity is exceeded-PEPE maintains stable, low memory consumption, enabling multimodal embedding extraction even beyond available RAM. PEPE supports a wide range of state-of-the-art and custom PLMs through a simple, flexible interface. By combining scalability, robustness, and ease of use, PEPE allows researchers to generate massive, information-rich embedding datasets efficiently, and facilitate the discovery of optimal representations for structural, functional, and evolutionary downstream tasks. By streamlining the generation of diverse embedding configurations, PEPE provides researchers with the necessary data to identify high-performing latent states for specific biological contexts without requiring additional computational resources. PEPE is a command-line tool written in Python and published under MIT license. The source code and documentation are available at https://github.com/csi-greifflab/pepe-cli. PEPE is also available for installation from PyPI under https://pypi.org/project/pepe-cli and deposited on Zenodo at https://zenodo.org/records/20268104.",
       "authors": [
@@ -3860,6 +3976,36 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42748470/"
+    },
+    "doi:10.1093/plphys/kiag755": {
+      "abstract": "Plant-virus protein-protein interactions (PPIs) play crucial roles in viral infection and host immune responses. However, large-scale experimental characterization of plant-virus PPIs is costly and labor-intensive, suggesting the need to develop computational methods. Recent advances in biological sequence language models are offering unprecedented opportunities to develop machine learning-based plant-virus PPI predictors. In this study, we collected publicly available PPI data between Arabidopsis thaliana (A. thaliana) and viruses, establishing a robust dataset for method development. Based on this dataset, we developed AraVirusPPI, a machine learning framework for predicting A. thaliana-virus PPIs. AraVirusPPI employs the protein language model ESM Cambrian (ESMC) to encode sequence features and combines these representations with Extreme Gradient Boosting (XGBoost) to build the prediction model. Furthermore, we systematically evaluated multiple protein and genomic language models combined with various classification algorithms, thereby justifying the optimal model architecture adopted in AraVirusPPI. We applied AraVirusPPI to predict PPIs in the A. thaliana-Cabbage leaf curl virus (CabLCV) system. Predicted viral target proteins were compared with experimental datasets from A. thaliana-Turnip mosaic virus (TuMV) and A. thaliana-Pseudomonas syringae (Psy) systems. Network topology and functional enrichment analyses showed that the predicted CabLCV targets in A. thaliana were more similar to TuMV than Psy targets. These results suggest potential shared and distinct host-targeting patterns among pathogens and provide computational evidence supporting the biological significance of the proposed AraVirusPPI predictor.",
+      "authors": [
+        "Zhang S",
+        "Li J",
+        "Yuan M",
+        "Jiang L",
+        "Li Z",
+        "Wang C",
+        "Shi W",
+        "Zhang Z"
+      ],
+      "doi": "10.1093/plphys/kiag755",
+      "first_seen": "2026-10-08",
+      "published": "2026 Oct 07",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42842924",
+      "title": "AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842924/"
     },
     "doi:10.1093/protein/gzag016": {
       "abstract": "Directed evolution for protein engineering, as currently practiced in the biotechnology and pharmaceutical industries, is both tedious and expensive. Computationally driven protein design has the potential to expedite the engineering process and generate high-quality variants at a lower cost than traditional approaches. We investigated the effectiveness of two different computational methods as triaging tools for prioritizing target positions and identifying specific mutations that are likely to improve protein thermodynamic stability. Our benchmarking study used a comprehensive dataset consisting of 174,945 mutations across 180 distinct proteins and evaluated the ESM (Evolutionary Scale Modeling) protein language model alongside a physics-based method, MM/GBSA (Molecular Mechanics Generalized Born Surface Area). We found prediction biases in each method but also determined that these biases can be mitigated by applying the two methods in a complementary manner. We propose a hybrid mutation prioritization and selection strategy that achieves better accuracy than either method alone. Through re-ranking, the combined prioritization strategy attained a higher overall average ROC (receiver operating characteristic) AUC (area under curve) of 0.743 across the dataset compared to either MM/GBSA alone (0.685) or ESM Log Odds alone (0.597). The integrated framework can be adapted and applied to newer AI and physics-based models as the field advances.",
@@ -5874,6 +6020,32 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.09.27.754145"
+    },
+    "doi:10.64898/2026.09.27.754816": {
+      "abstract": "Predicting ligand activity across G protein-coupled receptors (GPCRs) requires models that capture both molecular structure and receptor-specific information while remaining robust to chemical and target-domain shift. We developed a multimodal graph neural network that combines explicit ligand molecular graphs with frozen protein language model representations of GPCR sequences and jointly predicts quantitative pActivity and binary activity. The model was trained on 271,739 curated ligand-GPCR pairs spanning 183,694 ligands and 216 human GPCRs and evaluated using random, Bemis-Murcko scaffold, and strict cold-ligand partitions. With ESM-2 650M receptor embeddings, the selected model achieved mean absolute errors of 0.513 {+/-} 0.006, 0.540 {+/-} 0.006, and 0.641 {+/-} 0.005 pActivity units under random, cold-ligand, and scaffold evaluation, respectively, substantially outperforming a protein-aware fixed-feature multilayer perceptron and consistently improving quantitative prediction over a matched GINE reference. Removing receptor embeddings markedly degraded both regression and classification, whereas differences among ESM-2 35M, ESM-2 650M, and ProtT5 were comparatively small. Independent evaluation on 6,319 ChEMBL 37/BindingDB pairs revealed a substantial external domain shift, with mean absolute error increasing to approximately 0.94-0.95 despite chemically stringent internal validation. Nevertheless, receptor-specific information remained highly informative in a DRD2-DRD3 selectivity analysis: the cold-ligand ensemble achieved R2 = 0.853, Spearman{rho} = 0.916, and ROC-AUC = 0.966 for strong DRD3 selectivity, whereas the receptor-independent ablation approached chance-level discrimination. These results establish protein-language-model-conditioned molecular graph learning as a scalable strategy for GPCR bioactivity prediction while identifying chemotype novelty, external-domain transfer, and richer ligand-receptor interaction representations as key remaining challenges.",
+      "authors": [
+        "De, M.",
+        "Lodh, E.",
+        "Majumder, S.",
+        "Chowdhury, T."
+      ],
+      "doi": "10.64898/2026.09.27.754816",
+      "first_seen": "2026-10-08",
+      "published": "2026-10-07",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "graph neural network",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.27.754816",
+      "title": "Protein Language Model-Conditioned Graph Neural Networks for Multitask GPCR Ligand Activity Prediction",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.27.754816"
     },
     "doi:10.64898/2026.10.02.756250": {
       "abstract": "Generative models of protein structures have accelerated scientific discovery. However, the leading structure-prediction models are trained primarily on crystal structures, limiting their ability to sample the conformations of intrinsically disordered proteins (IDPs). All-atom molecular dynamics (MD) simulations can probe the diversity of IDP conformational ensembles, but these simulations are slow and costly. Leveraging the speed of generative models and the accuracy of MD, we develop Zephyr, an SE(3) equivariant diffusion model trained on simulated IDP ensembles. The model generates the structure of a single protein sequence in two phases: a coarse-grained structure is first sampled and heavy atoms are subsequently denoised onto this structure. We evaluate our method on two fronts: ensemble accuracy and sampling efficiency. Across five test systems, the model reproduces key geometric and energetic metrics of the MD ensembles, while sampling at least 63 times faster.",

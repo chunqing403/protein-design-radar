@@ -7,19 +7,18 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
+Updated: **2026-10-08** (`2026-10-08T06:16:41Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models](https://doi.org/10.64898/2026.10.03.756411)<br><sub>Gahlot, P. S., Shendre, A., Raghava, G. P. S.</sub> | bioRxiv<br>2026-10-06 | Structure generation, Protein language models |
-| 2 | [WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction](https://doi.org/10.64898/2026.09.01.748564)<br><sub>Han, K.-S., Hwang, K., O, S.-M. et al.</sub> | bioRxiv<br>2026-10-06 | General |
-| 3 | [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://doi.org/10.64898/2026.10.05.756719)<br><sub>Hong, L., Ho, T.-C., Tseng, Y.-S. et al.</sub> | bioRxiv<br>2026-10-06 | Protein language models, Binders and therapeutics |
-| 4 | [Mechanistic classification of the AAA superfamily with protein language models](https://doi.org/10.64898/2026.10.05.756829)<br><sub>Swan, J. A., Hill, C. P.</sub> | bioRxiv<br>2026-10-06 | Protein language models, Enzymes and function |
-| 5 | [RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction](https://doi.org/10.64898/2026.10.05.756905)<br><sub>Hori, T., Moriwaki, Y., Ishitani, R.</sub> | bioRxiv<br>2026-10-06 | Structure generation, Experimental validation |
-| 6 | [Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design](https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X)<br><sub>Xinwei Li, Yu Chen, Heng Chen et al.</sub> | Drug Discovery Today<br>2026-10 | Binders and therapeutics |
-| 7 | [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/)<br><sub>Irshad A, Ur-Rehman A, Koser T et al.</sub> | PubMed<br>2026 Oct 06 | Sequence design, Binders and therapeutics, Experimental validation |
+| 1 | [An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems](https://www.nature.com/articles/s41538-026-01159-x)<br><sub>Eunyeong Lee, Hee Yang</sub> | npj Sci Food<br>2026-10-08 | General |
+| 2 | [Protein Language Model-Conditioned Graph Neural Networks for Multitask GPCR Ligand Activity Prediction](https://doi.org/10.64898/2026.09.27.754816)<br><sub>De, M., Lodh, E., Majumder, S. et al.</sub> | bioRxiv<br>2026-10-07 | Protein language models |
+| 3 | [Machine Learning Empowers Enzyme Discovery, Structure Prediction, Engineering, and Design](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c07060/5446335/Machine-Learning-Empowers-Enzyme-Discovery)<br><sub>Wang Muqiang, Jiang Ling, Yu Haoran et al.</sub> | ACS Catalysis<br>2026-10-07 | Protein language models, Enzymes and function, Experimental validation |
+| 4 | [Aptamers without SELEX: de novo design from protein structure in hours](https://linkinghub.elsevier.com/retrieve/pii/S2162253126003045)<br><sub>Vladislava A. Dolgusheva, Iosif V. Leibin, Natalia O. Kudryashova et al.</sub> | Molecular Therapy Nucleic Acids<br>2026-10 | General |
+| 5 | [ToxMamba: a novel method for toxic peptide prediction based on the fusion of pretrained embeddings and multi-scale state space models](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag516/8876010)<br><sub>Jingya Fang, Wenqi Shen, Yanru Li et al.</sub> | Briefings in Bioinformatics<br>2026-09-01 | Protein language models, Binders and therapeutics |
+| 6 | [AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.](https://pubmed.ncbi.nlm.nih.gov/42842924/)<br><sub>Zhang S, Li J, Yuan M et al.</sub> | PubMed<br>2026 Oct 07 | Protein language models, Experimental validation |
 
 ### Paper Directory / 文献目录
 
@@ -27,11 +26,11 @@ Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 53 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 67 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 71 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 33 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 19 |
+| [General / 综合](#paper-category-general) | 21 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -117,8 +116,12 @@ Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (67)
+#### Protein Language Models / 蛋白质语言模型 (71)
 
+- [Protein Language Model-Conditioned Graph Neural Networks for Multitask GPCR Ligand Activity Prediction](https://doi.org/10.64898/2026.09.27.754816) (bioRxiv, 2026-10-07; first seen 2026-10-08; Protein language models)
+- [Machine Learning Empowers Enzyme Discovery, Structure Prediction, Engineering, and Design](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c07060/5446335/Machine-Learning-Empowers-Enzyme-Discovery) (ACS Catalysis, 2026-10-07; first seen 2026-10-08; Protein language models, Enzymes and function, Experimental validation)
+- [ToxMamba: a novel method for toxic peptide prediction based on the fusion of pretrained embeddings and multi-scale state space models](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag516/8876010) (Briefings in Bioinformatics, 2026-09-01; first seen 2026-10-08; Protein language models, Binders and therapeutics)
+- [AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.](https://pubmed.ncbi.nlm.nih.gov/42842924/) (PubMed, 2026 Oct 07; first seen 2026-10-08; Protein language models, Experimental validation)
 - [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://doi.org/10.64898/2026.10.05.756719) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Binders and therapeutics)
 - [Mechanistic classification of the AAA superfamily with protein language models](https://doi.org/10.64898/2026.10.05.756829) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Enzymes and function)
 - [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/) (PubMed, 2026 Oct 04; first seen 2026-10-06; Protein language models)
@@ -246,8 +249,10 @@ Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (19)
+#### General / 综合 (21)
 
+- [An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems](https://www.nature.com/articles/s41538-026-01159-x) (npj Sci Food, 2026-10-08; first seen 2026-10-08; General)
+- [Aptamers without SELEX: de novo design from protein structure in hours](https://linkinghub.elsevier.com/retrieve/pii/S2162253126003045) (Molecular Therapy Nucleic Acids, 2026-10; first seen 2026-10-08; General)
 - [WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction](https://doi.org/10.64898/2026.09.01.748564) (bioRxiv, 2026-10-06; first seen 2026-10-07; General)
 - [SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships](https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396) (Food Research International, 2026-10; first seen 2026-10-02; General)
 - [Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins](https://onlinelibrary.wiley.com/doi/10.1002/pro.70800) (Protein Science, 2026-11; first seen 2026-10-01; General)
@@ -270,7 +275,7 @@ Updated: **2026-10-07** (`2026-10-07T06:10:02Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-07](outputs/daily/2026-10-07.md)
+- [Daily report for 2026-10-08](outputs/daily/2026-10-08.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
