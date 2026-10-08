@@ -20,14 +20,6 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    services:
-      rsshub:
-        image: diygod/rsshub:latest
-        env:
-          DISABLE_IPV6: "true"
-          CACHE_TYPE: memory
-        ports:
-          - 1200:1200
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +32,7 @@ jobs:
 
       - name: Discover new WeChat articles
         env:
-          WECHAT_FEED_URL: ${{ inputs.feed_url || secrets.WECHAT_FEED_URL || vars.WECHAT_FEED_URL || 'http://127.0.0.1:1200/wechat/sogou/gh_9904ba145cc5' }}
+          WECHAT_FEED_URL: ${{ inputs.feed_url || secrets.WECHAT_FEED_URL || vars.WECHAT_FEED_URL }}
           WECHAT_SLUG_PREFIX: caom
         run: python scripts/discover_wechat.py
 
