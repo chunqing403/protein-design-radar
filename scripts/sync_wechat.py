@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup, Comment
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCES = ROOT / "site" / "wechat_sources.json"
 DEFAULT_CONTENT = ROOT / "site" / "content"
+DEFAULT_FEED_CACHE = ROOT / "work" / "wechat_feed_items.json"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
@@ -255,10 +256,49 @@ def import_article(session: requests.Session, source: dict, content_root: Path) 
     }
 
 
+def import_feed_article(
+    session: requests.Session,
+    source: dict,
+    content_root: Path,
+    feed_item: dict,
+) -> dict:
+    slug = source["slug"]
+    raw_body = feed_item.get("content") or feed_item.get("description") or ""
+    if not raw_body.strip():
+        raise RuntimeError(f"feed has no fallback article body: {source['url']}")
+    soup = BeautifulSoup(f'<div id="feed-content">{raw_body}</div>', "html.parser")
+    content = soup.select_one("#feed-content")
+    assets = content_root / "assets" / "wechat" / slug
+    assets.mkdir(parents=True, exist_ok=True)
+    body_html = sanitize_content(
+        content,
+        session,
+        assets,
+        f"../assets/wechat/{slug}",
+    )
+    article_path = content_root / "articles" / f"{slug}.html"
+    write_text_if_changed(article_path, body_html + "\n")
+    first_image = next(iter(sorted(assets.glob("image-*"))), None)
+    return {
+        "slug": slug,
+        "title": feed_item.get("title") or slug,
+        "description": text_excerpt(feed_item.get("description") or raw_body),
+        "account": feed_item.get("account") or "CAOM",
+        "author": feed_item.get("author") or "",
+        "published": feed_item.get("published") or "",
+        "source_url": source["url"],
+        "cover": f"assets/wechat/{slug}/{first_image.name}" if first_image else "",
+        "featured": bool(source.get("featured", False)),
+        "topics": source.get("topics") or infer_topics(feed_item.get("title", "")),
+        "body_file": f"articles/{slug}.html",
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES)
     parser.add_argument("--content", type=Path, default=DEFAULT_CONTENT)
+    parser.add_argument("--feed-cache", type=Path, default=DEFAULT_FEED_CACHE)
     parser.add_argument("--refresh", action="store_true", help="re-download articles already stored locally")
     args = parser.parse_args()
 
@@ -269,6 +309,12 @@ def main() -> int:
         article["slug"]: article
         for article in existing_manifest.get("articles", [])
         if article.get("slug")
+    }
+    feed_cache = load_json(args.feed_cache, {"items": []})
+    feed_by_slug = {
+        item["slug"]: item
+        for item in feed_cache.get("items", [])
+        if item.get("slug")
     }
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT, "Referer": "https://mp.weixin.qq.com/"})
@@ -293,6 +339,11 @@ def main() -> int:
             if existing:
                 print(f"warning: keeping previously imported article: {exc}")
                 articles.append(existing)
+                continue
+            feed_item = feed_by_slug.get(source.get("slug"))
+            if feed_item:
+                print(f"warning: using RSS fallback after WeChat fetch failed: {exc}")
+                articles.append(import_feed_article(session, source, args.content, feed_item))
                 continue
             raise
     articles.sort(key=lambda article: article.get("published", ""), reverse=True)
