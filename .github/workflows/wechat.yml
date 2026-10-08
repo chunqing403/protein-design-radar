@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 */2 * * *"
   workflow_dispatch:
+    inputs:
+      feed_url:
+        description: "Optional RSS/Atom URL for testing"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -35,7 +40,7 @@ jobs:
 
       - name: Discover new WeChat articles
         env:
-          WECHAT_FEED_URL: ${{ secrets.WECHAT_FEED_URL || vars.WECHAT_FEED_URL || 'http://127.0.0.1:1200/wechat/sogou/gh_9904ba145cc5' }}
+          WECHAT_FEED_URL: ${{ inputs.feed_url || secrets.WECHAT_FEED_URL || vars.WECHAT_FEED_URL || 'http://127.0.0.1:1200/wechat/sogou/gh_9904ba145cc5' }}
           WECHAT_SLUG_PREFIX: caom
         run: python scripts/discover_wechat.py
 

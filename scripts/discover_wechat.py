@@ -227,7 +227,10 @@ def main() -> int:
         feed_items = extract_feed_items(fetch_feed(args.feed_url))
         links.extend(item["url"] for item in feed_items)
     if not links:
-        print("No WeChat feed or article URL configured; nothing to discover.")
+        if args.feed_url:
+            print(f"Feed returned no WeChat article links: {args.feed_url}")
+        else:
+            print("No WeChat feed or article URL configured; nothing to discover.")
         return 0
 
     sources = load_sources(args.sources)
