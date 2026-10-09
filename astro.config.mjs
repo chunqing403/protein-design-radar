@@ -1,8 +1,8 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://chunqing403.github.io",
-  base: "/protein-design-radar",
+  site: "https://www.caom.online",
+  base: "/",
   output: "static",
   trailingSlash: "never",
   build: {
