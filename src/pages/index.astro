@@ -6,7 +6,7 @@ import { articleHref, assetHref, withBase } from "@/lib/urls";
 const articles = getArticles();
 const news = getNews();
 const papers = getPapers();
-const featured = articles.find((article) => article.featured) || articles[0];
+const featured = articles[0];
 const latestArticles = articles.filter((article) => article.slug !== featured.slug).slice(0, 6);
 const latestNews = news.slice(0, 7);
 const latestPapers = papers.slice(0, 6);
@@ -30,7 +30,7 @@ const today = papers[0]?.first_seen || new Date().toISOString().slice(0, 10);
         href={articleHref(featured.slug)}
         style={`background-image: url("${assetHref(featured.cover)}")`}
       >
-        <small>FEATURED REPORT / 01</small>
+        <small>LATEST FIELD NOTE / 01</small>
         <h2>{featured.title}</h2>
         <p>{featured.description}</p>
         <span>READ FIELD NOTE ↗</span>
