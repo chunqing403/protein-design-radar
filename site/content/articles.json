@@ -3,6 +3,22 @@
     {
       "account": "CAOM",
       "author": "ZCQ",
+      "body_file": "articles/caom-2247484534.html",
+      "cover": "assets/wechat/caom-2247484534/cover.jpg",
+      "description": "我最近把 HighFold 1 到 4 连着看了一遍。四篇文章从 2024 年排到 2026 年，题目都围绕环肽结构预测，读起来很像同一个团队在持续修一处老问题。",
+      "featured": false,
+      "published": "2026-10-02",
+      "slug": "caom-2247484534",
+      "source_url": "https://mp.weixin.qq.com/s/s7xk2oIIxSa8uS0GWEWO7A",
+      "title": "HighFold 1 到 4，环肽预测走到了“键级别”",
+      "topics": [
+        "蛋白设计",
+        "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
       "body_file": "articles/claude-optimizes-36-bio-models.html",
       "cover": "assets/wechat/claude-optimizes-36-bio-models/cover.jpg",
       "description": "看 Anthropic 这篇报告，先看到的是一笔算力账。",
@@ -15,6 +31,183 @@
         "蛋白设计",
         "模型优化",
         "Claude"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484490.html",
+      "cover": "assets/wechat/caom-2247484490/cover.jpg",
+      "description": "2026 年 9 月 7 日，David Baker 团队在 bioRxiv 挂出预印本 RFOptimiza",
+      "featured": false,
+      "published": "2026-09-09",
+      "slug": "caom-2247484490",
+      "source_url": "https://mp.weixin.qq.com/s/VvJSga1pVh2UuxLYkpnC1A",
+      "title": "Baker 团队的新 RFO，能把差一点的蛋白设计救回来吗",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484469.html",
+      "cover": "assets/wechat/caom-2247484469/cover.jpg",
+      "description": "这篇 MotifAE 论文已于 2026 年 9 月 2 日以 Early Access 形式上线 Natur",
+      "featured": false,
+      "published": "2026-09-05",
+      "slug": "caom-2247484469",
+      "source_url": "https://mp.weixin.qq.com/s/-5hfOids-LP1Qz0g3aSSxA",
+      "title": "蛋白语言模型学会了什么，NC上刚刚发表的MotifAE 试着把它翻译出来",
+      "topics": [
+        "蛋白设计",
+        "蛋白语言模型"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484413.html",
+      "cover": "assets/wechat/caom-2247484413/cover.jpg",
+      "description": "AlphaFold团队重组之后：AI制药的下一站，不再只是“预测”真正的分水岭，不是谁拥有下一个 AlphaF",
+      "featured": false,
+      "published": "2026-07-29",
+      "slug": "caom-2247484413",
+      "source_url": "https://mp.weixin.qq.com/s/thndS7UXMOk0JGSyLk2S-g",
+      "title": "AlphaFold团队重组后，AI制药的下一站在哪里？",
+      "topics": [
+        "蛋白设计",
+        "结构预测"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484408.html",
+      "cover": "assets/wechat/caom-2247484408/cover.jpg",
+      "description": "一、问题不是从论文里来的，是从数据里来的 上个月我在跑 TFR1 的环肽 binder 项目，流程走到 TFR1_binder_bicyclic2 这一步时，我打开 afcyc_score_results.sc ，第一眼……",
+      "featured": false,
+      "published": "2026-07-27",
+      "slug": "caom-2247484408",
+      "source_url": "https://mp.weixin.qq.com/s/BOAsUSNda2jz1HZ-9OBlUA",
+      "title": "环肽 binder 项目复盘：一个参数让 RMSD 从 40 Å 掉到 1 Å，但我并不推荐这么用",
+      "topics": [
+        "蛋白设计",
+        "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484391.html",
+      "cover": "assets/wechat/caom-2247484391/cover.jpg",
+      "description": "当肽药物越来越依赖非天然氨基酸、PTM 和环化设计，结构预测工具也必须升级了。肽类药物正在成为药物研发里越来越重要的一类分子。",
+      "featured": false,
+      "published": "2026-07-16",
+      "slug": "caom-2247484391",
+      "source_url": "https://mp.weixin.qq.com/s/JwLce0kAmsPioaXwatj4uA",
+      "title": "PEPstrMOD2：把 AlphaFold、AMBER 和分子动力学接起来，专攻化学修饰肽结构预测",
+      "topics": [
+        "蛋白设计",
+        "结构预测",
+        "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484379.html",
+      "cover": "assets/wechat/caom-2247484379/cover.jpg",
+      "description": "近五年，抗菌肽（antimicrobial peptides, AMPs）生成从早期的 VAE、RNN、GAN",
+      "featured": false,
+      "published": "2026-06-29",
+      "slug": "caom-2247484379",
+      "source_url": "https://mp.weixin.qq.com/s/7WePg-TwrzRMcJMl162feA",
+      "title": "AI 发现抗菌肽：从生成模型到强化学习",
+      "topics": [
+        "蛋白设计",
+        "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484359.html",
+      "cover": "assets/wechat/caom-2247484359/cover.jpg",
+      "description": "如果正文是在告诉你“这项工作很强”，那方法与实验细节负责回答另一个更重要的问题：它为什么不是一篇靠叙事撑起来的",
+      "featured": false,
+      "published": "2026-06-21",
+      "slug": "caom-2247484359",
+      "source_url": "https://mp.weixin.qq.com/s/Mffjdnlh3e0G4dFdcuZosg",
+      "title": "这篇 ESM 新论文真正难啃的地方",
+      "topics": [
+        "蛋白设计",
+        "蛋白语言模型"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484358.html",
+      "cover": "assets/wechat/caom-2247484358/cover.jpg",
+      "description": "一、环肽在药物设计中的优势在药物研发领域，小分子和抗体之间一直存在一个“空白地带”——多肽药物。",
+      "featured": false,
+      "published": "2026-06-14",
+      "slug": "caom-2247484358",
+      "source_url": "https://mp.weixin.qq.com/s/dNaacXxQyyY1NPAUOJywYQ",
+      "title": "清华 CP-Composer：零样本环肽生成",
+      "topics": [
+        "蛋白设计",
+        "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484328.html",
+      "cover": "assets/wechat/caom-2247484328/cover.jpg",
+      "description": "本文基于 ESM (Evolutionary Scale Modeling) 官方代码库的最新 cookboo",
+      "featured": false,
+      "published": "2026-06-07",
+      "slug": "caom-2247484328",
+      "source_url": "https://mp.weixin.qq.com/s/STnDTPdzxHt8jQ-rkHhtiA",
+      "title": "ESM 蛋白质 AI 工具箱实战指南：从理解序列到设计全新蛋白",
+      "topics": [
+        "蛋白设计",
+        "工具教程",
+        "蛋白语言模型"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484321.html",
+      "cover": "assets/wechat/caom-2247484321/cover.jpg",
+      "description": "一直以来，ESM2 还被称为\\x26quot;蛋白质版的GPT\\x26quot;。而现在，它的创造者交出了一份完全不一样的答卷。",
+      "featured": false,
+      "published": "2026-05-31",
+      "slug": "caom-2247484321",
+      "source_url": "https://mp.weixin.qq.com/s/9R7qFVTCzfUYAx1-OCzFVw",
+      "title": "ESM 这篇新论文到底厉害在哪",
+      "topics": [
+        "蛋白设计",
+        "蛋白语言模型"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484283.html",
+      "cover": "assets/wechat/caom-2247484283/cover.jpg",
+      "description": "在环肽药物设计领域，环肽因其独特的构象约束特性而备受关注。",
+      "featured": false,
+      "published": "2026-04-26",
+      "slug": "caom-2247484283",
+      "source_url": "https://mp.weixin.qq.com/s/C55qutsDzFKMNSl9aB9nGA",
+      "title": "AI如何设计“更容易进细胞”的环肽",
+      "topics": [
+        "蛋白设计",
+        "肽类设计"
       ]
     },
     {
@@ -42,6 +235,23 @@
       "published": "2026-03-10",
       "slug": "caom-2247484249",
       "source_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1790583614&ver=6993&signature=xdtxMxxb5yZzgNFSc43Srdh3ScPMxpshG-hpARecLaNGyEfk9tnFhHbr1OGphoZGAIvyyhekhV40ST*xTJRF*6nwYvFGeDLt96ORV3e1T8VtzIAIMjrY8MuynqZb3Tku&new=1",
+      "title": "不只是ESM2：六款专为非规范氨基酸设计的肽预训练模型盘点",
+      "topics": [
+        "蛋白设计",
+        "肽类设计",
+        "蛋白语言模型"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
+      "body_file": "articles/caom-2247484249-bb3032.html",
+      "cover": "assets/wechat/caom-2247484249-bb3032/cover.jpg",
+      "description": "当小分子药物在“不可成药”靶点面前束手无策，当大分子抗体难以穿透细胞膜这道屏障，治疗性肽正以其独特的“中庸之道",
+      "featured": false,
+      "published": "2026-03-10",
+      "slug": "caom-2247484249-bb3032",
+      "source_url": "https://mp.weixin.qq.com/s/60ocBRWaqJy2ZcPBw7Xp0Q",
       "title": "不只是ESM2：六款专为非规范氨基酸设计的肽预训练模型盘点",
       "topics": [
         "蛋白设计",
