@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import html
 import json
 import re
 from pathlib import Path
@@ -264,8 +265,14 @@ def import_feed_article(
 ) -> dict:
     slug = source["slug"]
     raw_body = feed_item.get("content") or feed_item.get("description") or ""
-    if not raw_body.strip():
-        raise RuntimeError(f"feed has no fallback article body: {source['url']}")
+    incomplete = not raw_body.strip()
+    if incomplete:
+        source_url = html.escape(source["url"], quote=True)
+        raw_body = (
+            "<p>这篇文章已收录，但微信暂时限制了自动读取正文。</p>"
+            f'<p><a href="{source_url}">阅读微信公众号原文</a></p>'
+            "<p>后台会定期重试，获取成功后将自动补全本站正文。</p>"
+        )
     soup = BeautifulSoup(f'<div id="feed-content">{raw_body}</div>', "html.parser")
     content = soup.select_one("#feed-content")
     assets = content_root / "assets" / "wechat" / slug
@@ -292,7 +299,7 @@ def import_feed_article(
     return {
         "slug": slug,
         "title": feed_item.get("title") or slug,
-        "description": text_excerpt(feed_item.get("description") or raw_body),
+        "description": text_excerpt(feed_item.get("description") or feed_item.get("title") or raw_body),
         "account": feed_item.get("account") or "CAOM",
         "author": feed_item.get("author") or "",
         "published": feed_item.get("published") or "",
@@ -301,6 +308,7 @@ def import_feed_article(
         "featured": bool(source.get("featured", False)),
         "topics": source.get("topics") or infer_topics(feed_item.get("title", "")),
         "body_file": f"articles/{slug}.html",
+        "incomplete": incomplete,
     }
 
 
@@ -335,7 +343,13 @@ def main() -> int:
         print(f"importing {source['url']}")
         existing = existing_by_slug.get(source.get("slug"))
         existing_body = args.content / existing.get("body_file", "") if existing else None
-        if not args.refresh and existing and existing_body and existing_body.is_file():
+        if (
+            not args.refresh
+            and existing
+            and existing_body
+            and existing_body.is_file()
+            and not existing.get("incomplete")
+        ):
             retained = dict(existing)
             retained["featured"] = bool(source.get("featured", False))
             retained["topics"] = source.get("topics") or existing.get("topics") or infer_topics(existing.get("title", ""))
