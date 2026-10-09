@@ -11,7 +11,7 @@ $WechRssPath = Join-Path $InstallRoot "wechrss"
 $VenvPath = Join-Path $InstallRoot "venv"
 $PythonPath = Join-Path $VenvPath "Scripts\python.exe"
 $LogPath = Join-Path $InstallRoot "logs"
-$CurrentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+$StartupPath = [Environment]::GetFolderPath("Startup")
 
 function Assert-Command([string]$Name) {
     if (-not (Get-Command $Name -ErrorAction SilentlyContinue)) {
@@ -41,45 +41,23 @@ if (-not (Test-Path $PythonPath)) {
 }
 & $PythonPath -m pip install --disable-pip-version-check -r (Join-Path $RepositoryPath "requirements-site.txt")
 
-$WechRssLog = Join-Path $LogPath "wechrss.log"
-$WechRssArguments = '/d /c "start.bat >> ""{0}"" 2>&1"' -f $WechRssLog
-$WechRssAction = New-ScheduledTaskAction `
-    -Execute "cmd.exe" `
-    -Argument $WechRssArguments `
-    -WorkingDirectory $WechRssPath
-$WechRssTrigger = New-ScheduledTaskTrigger -AtLogOn -User $CurrentUser
-$Principal = New-ScheduledTaskPrincipal -UserId $CurrentUser -LogonType Interactive -RunLevel Limited
-$Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew
-Register-ScheduledTask `
-    -TaskName "ProteinDesignRadar-WechRss" `
-    -Action $WechRssAction `
-    -Trigger $WechRssTrigger `
-    -Principal $Principal `
-    -Settings $Settings `
-    -Force | Out-Null
+$DaemonScript = Join-Path $RepositoryPath "scripts\local_wechat_daemon.ps1"
+$StartupFile = Join-Path $StartupPath "ProteinDesignRadar-WeChat.cmd"
+$StartupCommand = '@start "" powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "{0}" -InstallRoot "{1}" -AccountName "{2}"' -f `
+    $DaemonScript, $InstallRoot, $AccountName
+Set-Content -LiteralPath $StartupFile -Value $StartupCommand -Encoding Ascii
 
-$SyncScript = Join-Path $RepositoryPath "scripts\local_wechat_sync.py"
-$SyncLog = Join-Path $LogPath "sync.log"
-$SyncArguments = '/d /c ""{0}" "{1}" --account "{2}" >> "{3}" 2>&1"' -f `
-    $PythonPath, $SyncScript, $AccountName, $SyncLog
-$SyncAction = New-ScheduledTaskAction `
-    -Execute "cmd.exe" `
-    -Argument $SyncArguments `
-    -WorkingDirectory $RepositoryPath
-$SyncTrigger = New-ScheduledTaskTrigger `
-    -Once `
-    -At (Get-Date).AddMinutes(5) `
-    -RepetitionInterval (New-TimeSpan -Minutes 30) `
-    -RepetitionDuration (New-TimeSpan -Days 3650)
-Register-ScheduledTask `
-    -TaskName "ProteinDesignRadar-WeChatSync" `
-    -Action $SyncAction `
-    -Trigger $SyncTrigger `
-    -Principal $Principal `
-    -Settings $Settings `
-    -Force | Out-Null
-
-Start-ScheduledTask -TaskName "ProteinDesignRadar-WechRss"
+Start-Process `
+    -FilePath "powershell.exe" `
+    -ArgumentList @(
+        "-NoProfile",
+        "-WindowStyle", "Hidden",
+        "-ExecutionPolicy", "Bypass",
+        "-File", $DaemonScript,
+        "-InstallRoot", $InstallRoot,
+        "-AccountName", $AccountName
+    ) `
+    -WindowStyle Hidden
 $deadline = (Get-Date).AddMinutes(5)
 do {
     Start-Sleep -Seconds 3
