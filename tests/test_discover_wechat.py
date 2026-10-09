@@ -4,6 +4,7 @@ from unittest.mock import Mock, patch
 import requests
 
 from scripts.discover_wechat import (
+    add_feed_items,
     add_links,
     article_identity,
     extract_feed_items,
@@ -11,6 +12,7 @@ from scripts.discover_wechat import (
     fetch_feed,
     fetch_official_items,
     slug_for_url,
+    short_url_from_guid,
 )
 
 
@@ -45,6 +47,36 @@ class WeChatFeedTests(unittest.TestCase):
         self.assertEqual("New protein design article", item["title"])
         self.assertEqual("2026-10-08", item["published"])
         self.assertIn("Article summary", item["description"])
+
+    def test_prefers_werss_review_short_url_for_fetching(self):
+        rss = f"""<rss><channel><title>CAOM</title><item>
+        <title>HighFold</title>
+        <link>{FULL_URL.replace('&', '&amp;')}</link>
+        <guid>MP_WXS_3944824045_short-token_123</guid>
+        </item></channel></rss>"""
+        item = extract_feed_items(rss)[0]
+        self.assertEqual("https://mp.weixin.qq.com/s/short-token_123", item["short_url"])
+        sources = []
+        added = add_feed_items(sources, [item], prefix="caom")
+        self.assertEqual("https://mp.weixin.qq.com/s/short-token_123", added[0]["url"])
+        self.assertEqual("caom-2247485000", added[0]["slug"])
+        self.assertEqual(added[0]["slug"], item["slug"])
+
+    def test_matches_existing_source_through_feed_url_alias(self):
+        sources = [{"url": FULL_URL, "slug": "caom-2247485000"}]
+        item = {
+            "url": FULL_URL,
+            "short_url": "https://mp.weixin.qq.com/s/short-token",
+        }
+        self.assertEqual([], add_feed_items(sources, [item], prefix="caom"))
+        self.assertEqual("caom-2247485000", item["slug"])
+
+    def test_builds_short_url_from_werss_guid(self):
+        self.assertEqual(
+            "https://mp.weixin.qq.com/s/s7xk2oIIxSa8uS0GWEWO7A",
+            short_url_from_guid("MP_WXS_3944824045_s7xk2oIIxSa8uS0GWEWO7A"),
+        )
+        self.assertEqual("", short_url_from_guid("ordinary-guid"))
 
     def test_deduplicates_rotating_query_parameters_by_mid(self):
         first = FULL_URL

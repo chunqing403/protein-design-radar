@@ -330,6 +330,7 @@ def main() -> int:
     session.headers.update({"User-Agent": USER_AGENT, "Referer": "https://mp.weixin.qq.com/"})
 
     articles = []
+    skipped = 0
     for source in sources:
         print(f"importing {source['url']}")
         existing = existing_by_slug.get(source.get("slug"))
@@ -353,16 +354,21 @@ def main() -> int:
             feed_item = feed_by_slug.get(source.get("slug"))
             if feed_item:
                 print(f"warning: using RSS fallback after WeChat fetch failed: {exc}")
-                articles.append(import_feed_article(session, source, args.content, feed_item))
+                try:
+                    articles.append(import_feed_article(session, source, args.content, feed_item))
+                except (requests.RequestException, RuntimeError) as fallback_exc:
+                    skipped += 1
+                    print(f"warning: skipping article until a later sync: {fallback_exc}")
                 continue
-            raise
+            skipped += 1
+            print(f"warning: skipping article until a later sync: {exc}")
     articles.sort(key=lambda article: article.get("published", ""), reverse=True)
     manifest = {"articles": articles}
     write_text_if_changed(
         args.content / "articles.json",
         json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
     )
-    print(f"imported {len(articles)} WeChat articles")
+    print(f"imported {len(articles)} WeChat articles; skipped {skipped}")
     return 0
 
 

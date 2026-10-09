@@ -8,10 +8,11 @@ import datetime as dt
 import hashlib
 import json
 import os
+import re
 import time
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse, urlunparse
+from urllib.parse import parse_qs, quote, urlparse, urlunparse
 from xml.etree import ElementTree
 
 import requests
@@ -37,6 +38,17 @@ def normalize_url(value: str) -> str:
     if host != "mp.weixin.qq.com":
         return ""
     return urlunparse(("https", "mp.weixin.qq.com", parsed.path, "", parsed.query, ""))
+
+
+def short_url_from_guid(value: str) -> str:
+    """Turn a WeRSS review GUID into the public WeChat short URL."""
+    match = re.fullmatch(r"MP_WXS_\d+_(.+)", (value or "").strip())
+    if not match:
+        return ""
+    token = match.group(1).strip()
+    if not token or any(char in token for char in "/?#&"):
+        return ""
+    return f"https://mp.weixin.qq.com/s/{quote(token, safe='._~-')}"
 
 
 def article_identity(url: str) -> str:
@@ -100,6 +112,7 @@ def extract_feed_items(xml_text: str) -> list[dict]:
         if local_name(entry.tag) not in {"item", "entry"}:
             continue
         candidates: list[str] = []
+        guid = ""
         fields: dict[str, str] = {}
         for child in entry:
             name = local_name(child.tag)
@@ -111,7 +124,7 @@ def extract_feed_items(xml_text: str) -> list[dict]:
                 elif child.text:
                     candidates.append(child.text.strip())
             elif name == "guid" and child.text:
-                candidates.append(child.text.strip())
+                guid = child.text.strip()
             elif name in {"title", "description", "summary", "content", "encoded", "pubdate", "published", "updated"}:
                 fields[name] = element_value(child)
             elif name == "author":
@@ -119,12 +132,14 @@ def extract_feed_items(xml_text: str) -> list[dict]:
                     (element_value(grandchild) for grandchild in child if local_name(grandchild.tag) == "name"),
                     element_value(child),
                 )
-        for candidate in candidates:
+        short_url = short_url_from_guid(guid)
+        for candidate in [*candidates, short_url]:
             normalized = normalize_url(candidate)
             if normalized:
                 items.append(
                     {
                         "url": normalized,
+                        "short_url": short_url,
                         "title": fields.get("title", ""),
                         "description": fields.get("description", "") or fields.get("summary", ""),
                         "content": fields.get("encoded", "") or fields.get("content", ""),
@@ -267,6 +282,52 @@ def add_links(
     return added
 
 
+def add_feed_items(
+    sources: list[dict],
+    items: list[dict],
+    *,
+    prefix: str,
+    featured: bool = False,
+    topics: list[str] | None = None,
+) -> list[dict]:
+    """Add feed items while treating resolved long and review short URLs as aliases."""
+    source_by_identity = {
+        article_identity(normalized): source
+        for source in sources
+        if (normalized := normalize_url(source.get("url", "")))
+    }
+    existing_slugs = {source.get("slug", "") for source in sources}
+    added: list[dict] = []
+    for item in items:
+        long_url = normalize_url(item.get("url", ""))
+        short_url = normalize_url(item.get("short_url", ""))
+        aliases = [url for url in (short_url, long_url) if url]
+        if not aliases:
+            continue
+        source = next(
+            (source_by_identity[identity] for url in aliases if (identity := article_identity(url)) in source_by_identity),
+            None,
+        )
+        if source is None:
+            preferred_url = short_url or long_url
+            slug = slug_for_url(long_url or preferred_url, prefix)
+            if slug in existing_slugs:
+                slug = f"{slug}-{hashlib.sha256(preferred_url.encode('utf-8')).hexdigest()[:6]}"
+            source = {
+                "url": preferred_url,
+                "slug": slug,
+                "featured": featured,
+                "topics": topics or [],
+            }
+            sources.append(source)
+            added.append(source)
+            existing_slugs.add(slug)
+        item["slug"] = source["slug"]
+        for url in aliases:
+            source_by_identity[article_identity(url)] = source
+    return added
+
+
 def parse_bool(value: str) -> bool:
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
@@ -288,14 +349,12 @@ def main() -> int:
     feed_items: list[dict] = []
     if args.feed_url:
         feed_items = extract_feed_items(fetch_feed(args.feed_url))
-        links.extend(item["url"] for item in feed_items)
     if bool(args.wechat_app_id) != bool(args.wechat_app_secret):
         raise RuntimeError("WECHAT_APP_ID and WECHAT_APP_SECRET must be configured together")
     if args.wechat_app_id:
         official_items = fetch_official_items(args.wechat_app_id, args.wechat_app_secret)
         feed_items.extend(official_items)
-        links.extend(item["url"] for item in official_items)
-    if not links:
+    if not links and not feed_items:
         if args.feed_url or args.wechat_app_id:
             print("Configured WeChat sources returned no article links.")
         else:
@@ -311,17 +370,21 @@ def main() -> int:
         featured=parse_bool(args.featured),
         topics=topics,
     )
+    added.extend(
+        add_feed_items(
+            sources,
+            feed_items,
+            prefix=args.slug_prefix,
+            featured=parse_bool(args.featured),
+            topics=topics,
+        )
+    )
     if added:
         args.sources.write_text(
             json.dumps(sources, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-    added_by_identity = {article_identity(source["url"]): source for source in added}
-    cached_items = []
-    for item in feed_items:
-        source = added_by_identity.get(article_identity(item["url"]))
-        if source:
-            cached_items.append({**item, "slug": source["slug"]})
+    cached_items = [item for item in feed_items if item.get("slug")]
     args.cache.parent.mkdir(parents=True, exist_ok=True)
     args.cache.write_text(
         json.dumps({"items": cached_items}, ensure_ascii=False, indent=2) + "\n",
