@@ -95,11 +95,11 @@ def sync(feed_url: str, *, pull: bool = True, push: bool = True) -> bool:
         run(["git", "pull", "--rebase"])
 
     run([sys.executable, "scripts/discover_wechat.py", "--feed-url", feed_url])
+    run([sys.executable, "scripts/sync_wechat.py"])
     if not content_changes():
-        print("No new WeChat articles.")
+        print("No new or retryable WeChat articles.")
         return False
 
-    run([sys.executable, "scripts/sync_wechat.py"])
     run(["git", "add", *TRACKED_PATHS])
     if not git_output("diff", "--cached", "--name-only"):
         print("No publishable WeChat changes.")

@@ -1,9 +1,9 @@
 import unittest
-from unittest.mock import Mock
+from unittest.mock import ANY, Mock, call, patch
 
 import requests
 
-from scripts.local_wechat_sync import feed_title, find_feed_url
+from scripts.local_wechat_sync import feed_title, find_feed_url, sync
 
 
 def response(status_code: int, text: str = "") -> Mock:
@@ -49,6 +49,19 @@ class LocalWeChatSyncTests(unittest.TestCase):
             probe_limit=1,
         )
         self.assertEqual("http://127.0.0.1:8080/feeds/1.xml", found)
+
+    @patch("scripts.local_wechat_sync.content_changes", side_effect=["", ""])
+    @patch("scripts.local_wechat_sync.run")
+    def test_retries_article_import_when_discovery_has_no_changes(self, mock_run, _mock_changes):
+        self.assertFalse(sync("http://127.0.0.1:8080/feeds/1.xml", push=False))
+        self.assertIn(
+            call(["git", "pull", "--rebase"]),
+            mock_run.call_args_list,
+        )
+        self.assertIn(
+            call([ANY, "scripts/sync_wechat.py"]),
+            mock_run.call_args_list,
+        )
 
 
 if __name__ == "__main__":
