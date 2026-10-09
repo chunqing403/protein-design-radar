@@ -39,6 +39,32 @@ function Start-WechRss {
         -WindowStyle Hidden
 }
 
+function Invoke-LocalSync {
+    $processInfo = New-Object System.Diagnostics.ProcessStartInfo
+    $processInfo.FileName = $PythonPath
+    $processInfo.Arguments = '"{0}" --account "{1}"' -f $SyncScript, $AccountName
+    $processInfo.WorkingDirectory = $RepositoryPath
+    $processInfo.UseShellExecute = $false
+    $processInfo.CreateNoWindow = $true
+    $processInfo.RedirectStandardOutput = $true
+    $processInfo.RedirectStandardError = $true
+    $processInfo.StandardOutputEncoding = [System.Text.Encoding]::UTF8
+    $processInfo.StandardErrorEncoding = [System.Text.Encoding]::UTF8
+
+    $process = New-Object System.Diagnostics.Process
+    $process.StartInfo = $processInfo
+    $null = $process.Start()
+    $stdout = $process.StandardOutput.ReadToEnd()
+    $stderr = $process.StandardError.ReadToEnd()
+    $process.WaitForExit()
+    if ($stdout) {
+        $stdout.TrimEnd() | Out-File -FilePath $SyncLog -Append -Encoding utf8
+    }
+    if ($stderr) {
+        $stderr.TrimEnd() | Out-File -FilePath $SyncLog -Append -Encoding utf8
+    }
+}
+
 try {
     while ($true) {
         if (-not (Test-WechRss)) {
@@ -52,7 +78,7 @@ try {
         if (Test-WechRss) {
             $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
             "[$timestamp] Starting local WeChat sync" | Out-File -FilePath $SyncLog -Append -Encoding utf8
-            & $PythonPath $SyncScript --account $AccountName *>> $SyncLog
+            Invoke-LocalSync
         }
         else {
             $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"

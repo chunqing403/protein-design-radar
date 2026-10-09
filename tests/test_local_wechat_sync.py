@@ -25,7 +25,7 @@ class LocalWeChatSyncTests(unittest.TestCase):
         session = Mock()
         session.get.side_effect = [
             response(200, '{"ok": true}'),
-            response(404),
+            response(400),
             response(200, "<rss><channel><title>CAOM</title></channel></rss>"),
         ]
         found = find_feed_url(

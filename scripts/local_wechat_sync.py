@@ -49,7 +49,7 @@ def find_feed_url(
     for source_id in range(1, probe_limit + 1):
         url = urljoin(base_url, f"feeds/{source_id}.xml")
         response = session.get(url, timeout=15)
-        if response.status_code == 404:
+        if response.status_code in {400, 404}:
             continue
         response.raise_for_status()
         try:
