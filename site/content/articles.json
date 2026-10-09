@@ -66,6 +66,38 @@
     },
     {
       "account": "CAOM",
+      "author": "",
+      "body_file": "articles/caom-2247484447.html",
+      "cover": "",
+      "description": "亲和力做到 2 nM 以后，AI 设计的 minibinder 还差哪一步",
+      "featured": false,
+      "incomplete": true,
+      "published": "2026-08-30",
+      "slug": "caom-2247484447",
+      "source_url": "https://mp.weixin.qq.com/s/XizKgIj85jym3Xxf~tv1VA",
+      "title": "亲和力做到 2 nM 以后，AI 设计的 minibinder 还差哪一步",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "",
+      "body_file": "articles/caom-2247484422.html",
+      "cover": "",
+      "description": "AI 很快找到了分子，为什么新药仍然这么难做",
+      "featured": false,
+      "incomplete": true,
+      "published": "2026-08-17",
+      "slug": "caom-2247484422",
+      "source_url": "https://mp.weixin.qq.com/s/mhk7dyvygN9m22~0Fe2NRA",
+      "title": "AI 很快找到了分子，为什么新药仍然这么难做",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
       "author": "ZCQ",
       "body_file": "articles/caom-2247484413.html",
       "cover": "assets/wechat/caom-2247484413/cover.jpg",
@@ -94,6 +126,23 @@
       "topics": [
         "蛋白设计",
         "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "",
+      "body_file": "articles/caom-2247484401.html",
+      "cover": "",
+      "description": "别再只看 ipTM：ipSAE如何修正 AlphaFold 复合物评分的盲点",
+      "featured": false,
+      "incomplete": true,
+      "published": "2026-07-18",
+      "slug": "caom-2247484401",
+      "source_url": "https://mp.weixin.qq.com/s/dv4uRy~DpHO4z6UdWT5d-w",
+      "title": "别再只看 ipTM：ipSAE如何修正 AlphaFold 复合物评分的盲点",
+      "topics": [
+        "蛋白设计",
+        "结构预测"
       ]
     },
     {
@@ -196,6 +245,22 @@
     },
     {
       "account": "CAOM",
+      "author": "",
+      "body_file": "articles/caom-2247484311.html",
+      "cover": "",
+      "description": "诺贝尔化学奖之后，David Baker 再谈 AI 蛋白质设计的过去、现在与未来",
+      "featured": false,
+      "incomplete": true,
+      "published": "2026-05-17",
+      "slug": "caom-2247484311",
+      "source_url": "https://mp.weixin.qq.com/s/SH5cNfcQYLpYS~b4MNrDkg",
+      "title": "诺贝尔化学奖之后，David Baker 再谈 AI 蛋白质设计的过去、现在与未来",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
       "author": "ZCQ",
       "body_file": "articles/caom-2247484283.html",
       "cover": "assets/wechat/caom-2247484283/cover.jpg",
@@ -208,6 +273,22 @@
       "topics": [
         "蛋白设计",
         "肽类设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "",
+      "body_file": "articles/caom-2247484267.html",
+      "cover": "",
+      "description": "AI开始自己做药了？",
+      "featured": false,
+      "incomplete": true,
+      "published": "2026-04-19",
+      "slug": "caom-2247484267",
+      "source_url": "https://mp.weixin.qq.com/s/tuxEPP2kIx6~APfvCzD9-A",
+      "title": "AI开始自己做药了？",
+      "topics": [
+        "蛋白设计"
       ]
     },
     {
