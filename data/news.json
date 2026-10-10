@@ -90,6 +90,15 @@
       "title": "Protenix · v1.1.0: Support fallback to torch cache dir for layer_norm",
       "url": "https://github.com/bytedance/Protenix/releases/tag/v1.1.0"
     },
+    "0d8703ff2c2f8cfc1e5db33e784f0e6e6dc88c9c": {
+      "category": "产业动态",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-09",
+      "source": "Moomoo",
+      "summary": "AI Drug Discovery: Is the Next Focus on Experimental Processes? Potential Demand Spillover to DNA Synthesis and Validation Services, and Stocks to Watch Moomoo",
+      "title": "AI Drug Discovery: Is the Next Focus on Experimental Processes? Potential Demand Spillover to DNA Synthesis and Validation Services, and Stocks to Watch",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRGZLdGdMU0tVaUVfWmtaR1dQekc0dmtyRkFqNmZyY3hGVm9JV3Y1eUxZSDJVbF9sXzIwNDk1ZmpXTlJIdnlqNmRfdTZCX0NPbHZlYlhkb2s5SHloV0ZlNElQa3VNWmVTTV9DRkhIeWtiOW91R2dxMEVWbjlrcnI5QzREWW1HcWQzMmU0SU53dTRBOFhvVGlCMGpsNEU2UFJtdkZYbTdSX0cwNlpzaEhQc25nZGhkQQ?oc=5"
+    },
     "132e66e9dccd84f55bda20edb12c942778380613": {
       "category": "产业动态",
       "first_seen": "2026-10-07",
@@ -139,10 +148,10 @@
       "category": "产业动态",
       "first_seen": "2026-10-07",
       "published": "2026-09-21",
-      "source": "Yahoo Finance",
-      "summary": "Nvidia-Backed AI Drug Discovery Company Iambic Therapeutics Files for Nasdaq IPO, to Use Proceeds for Cancer Drug Development Yahoo Finance",
+      "source": "AOL.com",
+      "summary": "Nvidia-Backed AI Drug Discovery Company Iambic Therapeutics Files for Nasdaq IPO, to Use Proceeds for Cancer Drug Development AOL.com",
       "title": "Nvidia-Backed AI Drug Discovery Company Iambic Therapeutics Files for Nasdaq IPO, to Use Proceeds for Cancer Drug Development",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUVVWek9sbjdLdFBkVTd1UUFOYXZGTGs1akVNeHpXYWlGbnI2Z1A2UFJrNmc1SFREejN5OC11dzh6R19aN3hzUXdJS01RME9MTVdURDZtR1VGdHdRZUVTLUVOdVc5eWZIUEQyeWpMZ0trTkQ1ZHFlQXFneFJhc1l3cy1ETlEwWFJNY3NOekRfNm5GRElfOGM0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbm5adnUyY0d0SUcxVkhFUmFtcGNLdU8xYUx3bldWR2RUaW1qcDhURVp6S2RsU2JFN3phX2MzN1JLMGo2WTFaanNnT2hKVjF0SGttUmt4Wkp6b25hdGZWY0xpc19ROV9vVzRuMnRReTUwS1lFR2dKOU5sRFlaekFSag?oc=5"
     },
     "1f6521088546f29ff551145811a8ac038c0d078c": {
       "category": "产业动态",
@@ -179,6 +188,15 @@
       "summary": "Initial release of AlphaFold 3. PiperOrigin-RevId: 695257954",
       "title": "alphafold3 · AlphaFold v3.0.0",
       "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.0"
+    },
+    "27030cb49262090244e8bef15565aa78e65a77ad": {
+      "category": "产业动态",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-09",
+      "source": "Konsulteer",
+      "summary": "Isomorphic Labs Seeks Funding at $40 Billion Valuation as AI Drug Discovery Advances Konsulteer",
+      "title": "Isomorphic Labs Seeks Funding at $40 Billion Valuation as AI Drug Discovery Advances",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWm5yM0lwNmR2RHF5UXRqTDRNand1NVRGeG9BSE5JUVJuWmdjNDd5c2NpaGF6dXFPZmxTMU5vN3dBenAwTFhVZGR5d0tTNXIzeGdhbm1Wd2liaWZkYnUyeVRYLTIxUmp6SlY5OG9qOGNWSDZSY3lYSGgxbGU3YjFVRnFKbnNUSG9pQkNCa0F4cVhzblRrM3Vnc08yZW0wOG8zWkcyT1k1MGRRN2hfdDlrUER1OWUxSUhJU1E?oc=5"
     },
     "2bb69707455a7c09ce24d479354ff9c73f8e0fa1": {
       "category": "模型与工具",
@@ -418,8 +436,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-02",
       "published": "2026-10-01",
-      "source": "FirstWord Pharma",
-      "summary": "Talus Bio looks beyond protein structures with new AI drug discovery model FirstWord Pharma",
+      "source": "FirstWord PHARMA",
+      "summary": "Talus Bio looks beyond protein structures with new AI drug discovery model FirstWord PHARMA",
       "title": "Talus Bio looks beyond protein structures with new AI drug discovery model",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWWjJVdE1hZXZvTDJDZS1kb3NiRXRtZmlFMTBLb3dRTktYREd0SzNZc2tvd245S1ZUNFo0RnlGVjUtX2JSREduNlVjUVVPc1A2REFB?oc=5"
     },
@@ -1117,5 +1135,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-09T06:19:09+00:00"
+  "updated_at": "2026-10-10T06:03:14+00:00"
 }

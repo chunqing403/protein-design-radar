@@ -288,6 +288,12 @@
       "title": "Leveraging protein language model for maturation of high-affinity peptide ligand in the purification of an adeno‒associated virus vector.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.clnesp.2026.105121": {
+      "first_seen": "2026-10-10",
+      "source": "Clinical Nutrition ESPEN",
+      "title": "Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187"
+    },
     "doi:10.1016/j.clnesp.2026.105122": {
       "first_seen": "2026-09-20",
       "source": "Clinical Nutrition ESPEN",
@@ -546,6 +552,12 @@
       "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
     },
+    "doi:10.1021/acs.jcim.6c01545": {
+      "first_seen": "2026-10-10",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy"
+    },
     "doi:10.1021/acs.jcim.6c01697": {
       "first_seen": "2026-08-11",
       "source": "PubMed",
@@ -725,6 +737,12 @@
       "source": "Nat Commun",
       "title": "A structure-informed deep learning framework for modeling TCR-peptide-HLA interactions",
       "url": "https://www.nature.com/articles/s41467-026-78063-1"
+    },
+    "doi:10.1038/s41467-026-78123-6": {
+      "first_seen": "2026-10-10",
+      "source": "Nat Commun",
+      "title": "De novo design of miniprotein inhibitors of bacterial adhesins",
+      "url": "https://www.nature.com/articles/s41467-026-78123-6"
     },
     "doi:10.1038/s41538-026-01159-x": {
       "first_seen": "2026-10-08",
@@ -1386,6 +1404,12 @@
       "title": "trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching",
       "url": "https://doi.org/10.64898/2026.10.03.756422"
     },
+    "doi:10.64898/2026.10.04.755611": {
+      "first_seen": "2026-10-10",
+      "source": "bioRxiv",
+      "title": "A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke",
+      "url": "https://doi.org/10.64898/2026.10.04.755611"
+    },
     "doi:10.64898/2026.10.05.756719": {
       "first_seen": "2026-10-07",
       "source": "bioRxiv",
@@ -1397,6 +1421,12 @@
       "source": "bioRxiv",
       "title": "Mechanistic classification of the AAA superfamily with protein language models",
       "url": "https://doi.org/10.64898/2026.10.05.756829"
+    },
+    "doi:10.64898/2026.10.05.756861": {
+      "first_seen": "2026-10-10",
+      "source": "bioRxiv",
+      "title": "Frustration Quenching and Network Topology of the Energy Landscape as Primary Determinants of Protein-Ligand Binding Pose Prediction by Deep Learning Models",
+      "url": "https://doi.org/10.64898/2026.10.05.756861"
     },
     "doi:10.64898/2026.10.05.756905": {
       "first_seen": "2026-10-07",

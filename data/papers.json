@@ -1229,6 +1229,28 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42462410/"
     },
+    "doi:10.1016/j.clnesp.2026.105121": {
+      "abstract": "",
+      "authors": [
+        "Boddu Shashipreetham",
+        "M. Kishore Kumar",
+        "T. Durga Aparna"
+      ],
+      "doi": "10.1016/j.clnesp.2026.105121",
+      "first_seen": "2026-10-10",
+      "published": "2026-10",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Clinical Nutrition ESPEN",
+      "source_id": "10.1016/j.clnesp.2026.105121",
+      "title": "Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187"
+    },
     "doi:10.1016/j.clnesp.2026.105122": {
       "abstract": "",
       "authors": [
@@ -1444,26 +1466,26 @@
       "abstract": "",
       "authors": [
         "Maryam",
-        "Hamza Zahid",
-        "Kil To Chong",
-        "Hilal Tayara"
+        "Zahid H",
+        "Chong KT",
+        "Tayara H"
       ],
       "doi": "10.1016/j.ejmech.2026.119409",
       "first_seen": "2026-10-09",
-      "published": "2026-10",
+      "published": "2026 Oct 09",
       "reasons": [
         "protein language model",
         "protein",
         "peptide"
       ],
-      "source": "European Journal of Medicinal Chemistry",
-      "source_id": "10.1016/j.ejmech.2026.119409",
-      "title": "Corrigendum to “AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification” [Eur. J. Med. Chem. 320 (2026) 119352]",
+      "source": "PubMed",
+      "source_id": "42855405",
+      "title": "Corrigendum to \"AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification\" [Eur. J. Med. Chem. 320 (2026) 119352].",
       "topics": [
         "Protein language models",
         "Binders and therapeutics"
       ],
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426008548"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42855405/"
     },
     "doi:10.1016/j.ejmp.2026.106108": {
       "abstract": "",
@@ -2339,6 +2361,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
     },
+    "doi:10.1021/acs.jcim.6c01545": {
+      "abstract": "Abstract Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription, and assembly through interfaces that often lack a defined geometry, making the prediction of their binding energies challenging for methods developed primarily for folded complexes. Here, we introduce FlexENN, an interface-focused message-passing graph neural network framework comprising two independently trained models: FlexENN-F for folded protein complexes and FlexENN-I for complexes containing a disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates the relative geometry, flexibility-related structural descriptors, and sequence information, allowing the network to learn structure-affinity relationships from a single resolved bound conformation. We also construct an IDP-containing dataset for training the FlexENN-I model. Benchmarked across folded complexes and IDP-containing systems, including tubulin–tubulin interfaces within microtubules (MTs) and MTs in complex with microtubule-associated proteins (MAPs), with reference binding affinity values extracted from our experiments, the models reproduce physically reasonable energetic profiles, including the stronger interdimer relative to the lateral MT interactions, while feature-ablation analyses reveal system-dependent contributions of selected descriptors to the predictions. More broadly, this work delivers an accurate, structure-aware approach to predicting binding free energies for complexes of folded protein and complexes that contain ordered or partially ordered IDP regions for which a sufficiently well-defined bound structure is available.",
+      "authors": [
+        "Maryum Irshad",
+        "Kassandra Ori-McKenney",
+        "Ruxandra I. Dima"
+      ],
+      "doi": "10.1021/acs.jcim.6c01545",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-10",
+      "reasons": [
+        "graph neural network",
+        "protein",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c01545",
+      "title": "FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy"
+    },
     "doi:10.1021/acs.jcim.6c01697": {
       "abstract": "Designing protein sequences with favorable predicted energetic properties is an important challenge in protein inverse folding, because many existing deep learning methods are primarily trained by maximizing sequence recovery and do not explicitly incorporate energy-related preferences during generation. In this work, we propose EnerBridge-DPO, an energy-aware inverse folding framework that integrates Markov bridge sequence generation with preference optimization for protein complex design. The framework builds on the Markov bridge inverse-folding process to generate structure-compatible sequences from an informative prior sequence. It then introduces a Bridge-DPO objective that uses energy-related winner-loser preference pairs to bias the generator toward sequences favored by computational or experimental energy-related signals. In addition, we incorporate a quantitative energy-constrained loss based on mutation-induced binding free-energy changes to provide continuous ΔΔG supervision. Evaluations show that EnerBridge-DPO maintains competitive inverse-folding performance while obtaining lower predicted energy scores under selected computational scoring functions for protein complexes. On SKEMPI, EnerBridge-DPO achieves competitive ΔΔG prediction performance, with small numerical gains in several overall metrics that are not statistically conclusive under paired bootstrap analysis. These results suggest that incorporating energy-related preferences into Markov bridge inverse folding can improve computationally predicted energetic profiles, although experimental validation is required to confirm thermodynamic stability.",
       "authors": [
@@ -3185,6 +3232,38 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-78063-1"
     },
+    "doi:10.1038/s41467-026-78123-6": {
+      "abstract": "",
+      "authors": [
+        "Adam M. Chazin-Gray",
+        "Tuscan R. Thompson",
+        "Edward D. B. Lopatto",
+        "Pearl Magala",
+        "Patrick W. Erickson",
+        "Andrew C. Hunt",
+        "Anna Manchenko",
+        "Pavel Aprikian",
+        "Veronika Tchesnokova",
+        "Irina Basova",
+        "Denise A. Sanick",
+        "Kevin O. Tamadonfar"
+      ],
+      "doi": "10.1038/s41467-026-78123-6",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-09",
+      "reasons": [
+        "de novo design",
+        "miniprotein",
+        "miniprotein"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-78123-6",
+      "title": "De novo design of miniprotein inhibitors of bacterial adhesins",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-78123-6"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "abstract": "",
       "authors": [
@@ -3545,23 +3624,23 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443524/"
     },
     "doi:10.1038/s44320-026-00246-1": {
-      "abstract": "Abstract Artificial intelligence (AI) methods for proteins have advanced rapidly, improving structure prediction and design, particularly for de novo binders. However, most evaluations emphasize binding affinity rather than higher-order biological function. We present Bits to Binders , a global competition evaluating de novo binder design in the context of chimeric antigen receptor (CAR) T cells. Teams from 42 countries submitted 12,000 designs of 80-amino acid de novo minibinders targeting human CD20 as CAR binding domains. Designs were screened by pooled CAR-T proliferation, identifying 707 designs exhibiting significant CD20-specific enrichment, with team hit rates from 0.6% to 38.4%. Top-performing candidates were validated as individual constructs, measuring CD20-specific proliferation, expansion, cytokine production, and targeted cell lysis. We identified common design methodologies and factors correlated with DNA synthesis, expression, and target-specific T cell activation which nearly double the success rates when applied as a retrospective filter. We release this dataset as an open resource, with practical recommendations to support more effective AI-driven binder design.",
+      "abstract": "Artificial intelligence (AI) methods for proteins have advanced rapidly, improving structure prediction and design, particularly for de novo binders. However, most evaluations emphasize binding affinity rather than higher-order biological function. We present Bits to Binders, a global competition evaluating de novo binder design in the context of chimeric antigen receptor (CAR) T cells. Teams from 42 countries submitted 12,000 designs of 80-amino acid de novo minibinders targeting human CD20 as CAR binding domains. Designs were screened by pooled CAR-T proliferation, identifying 707 designs exhibiting significant CD20-specific enrichment, with team hit rates from 0.6% to 38.4%. Top-performing candidates were validated as individual constructs, measuring CD20-specific proliferation, expansion, cytokine production, and targeted cell lysis. We identified common design methodologies and factors correlated with DNA synthesis, expression, and target-specific T cell activation which nearly double the success rates when applied as a retrospective filter. We release this dataset as an open resource, with practical recommendations to support more effective AI-driven binder design.",
       "authors": [
-        "Clayton W Kosonocky",
-        "Alex M Abel",
-        "Aaron L Feller",
-        "Amanda E Cifuentes Rieffer",
-        "Phillip R Woolley",
-        "Jakub Lála",
-        "Daryl R Barth",
-        "Tynan Gardner",
-        "Daniel Acosta",
-        "Stefano Angioletti-Uberti",
-        "Vinayak Annapure"
+        "Kosonocky CW",
+        "Abel AM",
+        "Feller AL",
+        "Cifuentes Rieffer AE",
+        "Woolley PR",
+        "Lála J",
+        "Barth DR",
+        "Gardner T",
+        "Ekker SC",
+        "Ellington AD",
+        "Wierson WA"
       ],
       "doi": "10.1038/s44320-026-00246-1",
       "first_seen": "2026-10-09",
-      "published": "2026-10-08",
+      "published": "2026 Oct 08",
       "reasons": [
         "structure prediction",
         "binder design",
@@ -3570,14 +3649,14 @@
         "CAR-T",
         "chimeric antigen receptor"
       ],
-      "source": "Mol Syst Biol",
-      "source_id": "10.1038/s44320-026-00246-1",
-      "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition",
+      "source": "PubMed",
+      "source_id": "42850288",
+      "title": "Validation and analysis of 12,000 AI-driven CAR-T designs in the Bits to Binders competition.",
       "topics": [
         "Binders and therapeutics",
         "Enzymes and function"
       ],
-      "url": "https://link.springer.com/10.1038/s44320-026-00246-1"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42850288/"
     },
     "doi:10.1038/s44320-026-00249-y": {
       "abstract": "",
@@ -6288,6 +6367,44 @@
       ],
       "url": "https://doi.org/10.64898/2026.10.03.756422"
     },
+    "doi:10.64898/2026.10.04.755611": {
+      "abstract": "Ion channels remain notoriously recalcitrant drug targets despite their extensive pathophysiological significance. Acid-sensing ion channels (ASICs) are proton-gated cation channels that cause neuronal death when excessively activated, such as during ischaemic stroke. This acidosis-driven injury pathway remains unchallenged by existing therapeutics. Here we generate two de novo designed hASIC1a-specific miniproteins by developing a platform that integrates computational miniprotein design, high-throughput automated patch clamp screening, biophysical and structural characterisation, and in vivo validation. We identify a subtype-selective hASIC1a inhibitor, Denasin1, which achieves near-complete inhibition with nanomolar potency. Denasin1 is disordered in solution but adopts the computationally predicted helix-turn-helix fold when bound to the extracellular acidic pocket of hASIC1a. Crucially, Denasin1 reduces infarct volume by > 50% in a murine model of ischaemic stroke. We thereby establish our de novo design platform as a route to develop potent and selective ion channel modulators.",
+      "authors": [
+        "Sormann, J.",
+        "Epitropaki, K.",
+        "Vicino, M. F.",
+        "Fjorbak, C. L.",
+        "Pugh, C. F.",
+        "Lang, B.",
+        "Beyer, E. K.",
+        "Comaposada-Baro, R.",
+        "Hink, F.",
+        "Friis, S.",
+        "Usher, S. G.",
+        "Cai, C.",
+        "Autzen, H. E.",
+        "Rogers, J. M.",
+        "Pless, S."
+      ],
+      "doi": "10.64898/2026.10.04.755611",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-09",
+      "reasons": [
+        "protein design",
+        "deep learning",
+        "de novo design",
+        "miniprotein",
+        "miniprotein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.04.755611",
+      "title": "A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.04.755611"
+    },
     "doi:10.64898/2026.10.05.756719": {
       "abstract": "Phosphorylation is a fast, reversible layer of post-translational control that directly governs protein activity, signaling flux, and cell state. Kinases and phosphatases collectively establish these phosphorylation states, but their dysregulation drives cancer, neurodegenerative diseases, and developmental disorders. Selectively manipulating the phosphorylation of individual proteins in cells remains challenging, particularly for disordered substrates. Here, we introduce Peptide-Retargeted Phosphatases (PepRePs), a genetically encoded system that fuses a peptide binder to a serine/threonine phosphatase subunit to localize phosphatase activity to a target protein. We first establish the PepReP architecture using characterized tau-binding peptides, then apply protein language model-guided peptide design to target Rab8A, PTEN, and STAT3. Across endogenous and exogenous targets, PepRePs reduce phosphorylation, with downstream effects on tau aggregation, Rab8A-associated protein interactions, and cellular proliferation following PTEN and STAT3 targeting. Sequence-based peptide design enables targeting without structural inputs, supporting application to substrates with disordered regions that challenge conventional structure-based binder design. By coupling programmable peptide binders with modular phosphatase subunits, PepRePs enable targeted control of protein phosphorylation to probe cellular signaling and develop strategies for correcting disease-associated protein dysfunction.",
       "authors": [
@@ -6344,6 +6461,34 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.10.05.756829"
+    },
+    "doi:10.64898/2026.10.05.756861": {
+      "abstract": "Deep learning co-folding and docking models accurately predict ligand binding poses at orthosteric sites yet systematically underperform at allosteric pockets. Here, we demonstrate that this accuracy gap reflects a fundamental biophysical property of local energy landscape topology specifically, the magnitude of frustration quenching upon ligand binding rather than an intrinsic algorithmic defect. By evaluating leading co-folding and docking paradigms across curated benchmarks and large-scale uncurated datasets, we show that AI prediction success strongly tracks frustration quenching which the degree to which ligand binding relieves local energetic strain to form a steep energy funnel. Topologically, frustration-weighted residue interaction networks reveal that orthosteric pockets act as high-betweenness communication hubs embedded within contiguous, minimally frustrated pathways. In contrast, allosteric sites reside in low-betweenness peripheral regions with fragmented frustration profiles, presenting flatter, entropy-dominated landscapes that challenge structure prediction algorithms. Comparing generative diffusion with single-shot regression demonstrates that multi-pose sampling capacity is required to cross energy barriers and discover the frustration funnel, whereas joint receptor-ligand coordinate co-adaptation governs local optimization within the funnel. Collectively, this study reframes the allosteric \"blind spot\" as a quantitative property of energy landscape architecture rather than a defect of any specific predictive framework. We demonstrate that frustration quenching magnitude and structural network centrality serve as physical descriptors that define the intrinsic limits of AI performance, reframing AI accuracy from a benchmark metric into a physics-grounded quantitative reporter of macromolecular binding landscape architecture.",
+      "authors": [
+        "Turano, L.",
+        "Foley, B.",
+        "Dennis, R.",
+        "Gatlin, W.",
+        "Verkhivker, G."
+      ],
+      "doi": "10.64898/2026.10.05.756861",
+      "first_seen": "2026-10-10",
+      "published": "2026-10-09",
+      "reasons": [
+        "deep learning",
+        "structure prediction",
+        "folding",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.05.756861",
+      "title": "Frustration Quenching and Network Topology of the Energy Landscape as Primary Determinants of Protein-Ligand Binding Pose Prediction by Deep Learning Models",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756861"
     },
     "doi:10.64898/2026.10.05.756905": {
       "abstract": "Diffusion-based models have substantially advanced biomolecular structure prediction. Within this framework, restraint-guided inference (RGI) corrects the denoiser output at each reverse-diffusion step using a differentiable restraint loss, allowing available experimental information, stereochemical requirements, or a specified target conformational state to be incorporated into predictions without retraining the model. Here, we present RGI-Toolkit, a general-purpose Python library that makes RGI available for a range of structure predictors. The toolkit consolidates restraint definition, atom selection, loss evaluation, and coordinate optimization into a shared, backend-agnostic engine, limiting predictor-specific code to a thin preprocessing adapter and a single hook in the denoising loop. Restraints on distances, angles, and dihedrals, on deviations from reference structures, and on user-defined reaction coordinates, together with ligand conformer restraints, are all specified in a common configuration format. The toolkit currently supports six predictors, including AlphaFold3. Across all six predictors, conformer restraints eliminated chirality and cis/trans errors in the predicted ligands and improved their local geometry, while geometric and custom restraints systematically shifted the sampled protein conformations toward the specified target states. RGI-Toolkit thus provides a unified framework for integrating experimental information and prior geometric knowledge into structure prediction and for generating biomolecular structures with specified conformational and stereochemical properties.",
