@@ -39,10 +39,27 @@ const today = papers[0]?.first_seen || new Date().toISOString().slice(0, 10);
   </section>
 
   <section class="telemetry" aria-label="站点数据概览">
-    <div><span>ESSAYS / 中文文章</span><strong>{articles.length.toString().padStart(3, "0")}</strong></div>
-    <div><span>SIGNALS / 行业资讯</span><strong>{news.length.toString().padStart(3, "0")}</strong></div>
-    <div><span>RESEARCH / 精选论文</span><strong>{papers.length.toString().padStart(3, "0")}</strong></div>
-    <div><span>PIPELINE STATUS</span><strong class="status-value">● OPERATIONAL</strong></div>
+    <a href={withBase("articles.html")} aria-label={`查看全部 ${articles.length} 篇中文文章`}>
+      <span>ESSAYS / 中文文章</span>
+      <strong>{articles.length.toString().padStart(3, "0")}</strong>
+    </a>
+    <a href={withBase("news.html")} aria-label={`查看全部 ${news.length} 条行业资讯`}>
+      <span>SIGNALS / 行业资讯</span>
+      <strong>{news.length.toString().padStart(3, "0")}</strong>
+    </a>
+    <a href={withBase("papers.html")} aria-label={`查看全部 ${papers.length} 篇精选论文`}>
+      <span>RESEARCH / 精选论文</span>
+      <strong>{papers.length.toString().padStart(3, "0")}</strong>
+    </a>
+    <a
+      href="https://github.com/chunqing403/protein-design-radar/actions"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="查看 GitHub 自动更新运行状态（在新窗口打开）"
+    >
+      <span>PIPELINE STATUS</span>
+      <strong class="status-value">● OPERATIONAL</strong>
+    </a>
   </section>
 
   <div class="dashboard">

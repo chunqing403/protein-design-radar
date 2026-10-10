@@ -109,8 +109,11 @@ button, input { font: inherit; }
 .hero-feature span { color: var(--signal); font: 700 .64rem/1 ui-monospace, monospace; }
 
 .telemetry { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid var(--line); background: var(--surface); }
-.telemetry > div { min-height: 105px; padding: 22px clamp(18px, 3vw, 40px); border-right: 1px solid var(--line); }
-.telemetry > div:last-child { border-right: 0; }
+.telemetry > a { min-height: 105px; padding: 22px clamp(18px, 3vw, 40px); border-right: 1px solid var(--line); transition: background-color 180ms ease; }
+.telemetry > a:last-child { border-right: 0; }
+.telemetry > a:hover { background: var(--panel); }
+.telemetry > a:focus-visible { outline: 2px solid var(--signal-dark); outline-offset: -2px; }
+.telemetry > a:hover strong, .telemetry > a:focus-visible strong { color: var(--signal-dark); }
 .telemetry span { display: block; color: var(--ink-soft); font: 650 .58rem/1 ui-monospace, monospace; letter-spacing: .1em; }
 .telemetry strong { display: block; margin-top: 12px; font: 500 1.9rem/1 ui-monospace, monospace; }
 .telemetry .status-value { color: var(--signal-dark); font-size: .9rem; }
@@ -216,8 +219,8 @@ button, input { font: inherit; }
   .hero-copy h1 { font-size: 3rem; }
   .hero-feature { min-height: 320px; padding: 24px; }
   .telemetry { grid-template-columns: 1fr 1fr; }
-  .telemetry > div:nth-child(2) { border-right: 0; }
-  .telemetry > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .telemetry > a:nth-child(2) { border-right: 0; }
+  .telemetry > a:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .dashboard, .page-shell, .article-shell { width: calc(100% - 40px); }
   .dashboard { padding-top: 40px; }
   .dashboard-grid { gap: 36px; }
@@ -238,7 +241,7 @@ button, input { font: inherit; }
 @media (max-width: 430px) {
   .hero-copy h1 { font-size: 2.55rem; }
   .hero-feature { min-height: 350px; }
-  .telemetry > div { min-height: 92px; padding: 18px 16px; }
+  .telemetry > a { min-height: 92px; padding: 18px 16px; }
   .telemetry strong { font-size: 1.55rem; }
   .section-heading { align-items: flex-start; }
   .archive-head h1 { font-size: 2.55rem; }
