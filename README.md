@@ -7,17 +7,13 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-10** (`2026-10-10T06:03:12Z`)
+Updated: **2026-10-11** (`2026-10-11T05:58:00Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy)<br><sub>Maryum Irshad, Kassandra Ori-McKenney, Ruxandra I. Dima</sub> | Journal of Chemical Information and Modeling<br>2026-10-10 | Binders and therapeutics |
-| 2 | [A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke](https://doi.org/10.64898/2026.10.04.755611)<br><sub>Sormann, J., Epitropaki, K., Vicino, M. F. et al.</sub> | bioRxiv<br>2026-10-09 | Structure generation, Binders and therapeutics |
-| 3 | [Frustration Quenching and Network Topology of the Energy Landscape as Primary Determinants of Protein-Ligand Binding Pose Prediction by Deep Learning Models](https://doi.org/10.64898/2026.10.05.756861)<br><sub>Turano, L., Foley, B., Dennis, R. et al.</sub> | bioRxiv<br>2026-10-09 | Structure generation |
-| 4 | [De novo design of miniprotein inhibitors of bacterial adhesins](https://www.nature.com/articles/s41467-026-78123-6)<br><sub>Adam M. Chazin-Gray, Tuscan R. Thompson, Edward D. B. Lopatto et al.</sub> | Nat Commun<br>2026-10-09 | Binders and therapeutics |
-| 5 | [Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”](https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187)<br><sub>Boddu Shashipreetham, M. Kishore Kumar, T. Durga Aparna</sub> | Clinical Nutrition ESPEN<br>2026-10 | General |
+| 1 | [Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404)<br><sub>Honglin Xu, Ruyue Mi, Ganggang Bai et al.</sub> | mAbs<br>2026-12-31 | Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
@@ -26,7 +22,7 @@ Updated: **2026-10-10** (`2026-10-10T06:03:12Z`)
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 56 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 73 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 37 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 38 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 23 |
@@ -122,8 +118,8 @@ Updated: **2026-10-10** (`2026-10-10T06:03:12Z`)
 
 - [Corrigendum to "AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification" [Eur. J. Med. Chem. 320 (2026) 119352].](https://pubmed.ncbi.nlm.nih.gov/42855405/) (PubMed, 2026 Oct 09; first seen 2026-10-09; Protein language models, Binders and therapeutics)
 - [LoRA-N-Gly: Sequence-based Prediction of N-Linked Glycosylation Sites by Tuning Protein Language Models with Low-rank Adaptation.](https://pubmed.ncbi.nlm.nih.gov/42849609/) (PubMed, 2026 Oct 08; first seen 2026-10-09; Protein language models)
+- [Protein Language Model-Conditioned Graph Neural Networks for Multitask Ligand Activity Prediction Across Human GPCRs](https://doi.org/10.64898/2026.09.27.754816) (bioRxiv, 2026-10-10; first seen 2026-10-08; Protein language models)
 - [Machine Learning Empowers Enzyme Discovery, Structure Prediction, Engineering, and Design](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c07060/5446335/Machine-Learning-Empowers-Enzyme-Discovery) (ACS Catalysis, 2026-10-07; first seen 2026-10-08; Protein language models, Enzymes and function, Experimental validation)
-- [Protein Language Model-Conditioned Graph Neural Networks for Multitask GPCR Ligand Activity Prediction](https://doi.org/10.64898/2026.09.27.754816) (bioRxiv, 2026-10-07; first seen 2026-10-08; Protein language models)
 - [ToxMamba: a novel method for toxic peptide prediction based on the fusion of pretrained embeddings and multi-scale state space models](https://academic.oup.com/bib/article/doi/10.1093/bib/bbag516/8876010) (Briefings in Bioinformatics, 2026-09-01; first seen 2026-10-08; Protein language models, Binders and therapeutics)
 - [AraVirusPPI: A protein language model-powered method for predicting Arabidopsis thaliana-virus protein-protein interactions.](https://pubmed.ncbi.nlm.nih.gov/42842924/) (PubMed, 2026 Oct 07; first seen 2026-10-08; Protein language models, Experimental validation)
 - [PepRePs: Peptide-Retargeted Phosphatases Designed with Generative Language Models](https://doi.org/10.64898/2026.10.05.756719) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Binders and therapeutics)
@@ -195,8 +191,9 @@ Updated: **2026-10-10** (`2026-10-10T06:03:12Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (37)
+#### Binders & Therapeutics / 结合蛋白与治疗 (38)
 
+- [Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404) (mAbs, 2026-12-31; first seen 2026-10-11; Binders and therapeutics)
 - [FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy) (Journal of Chemical Information and Modeling, 2026-10-10; first seen 2026-10-10; Binders and therapeutics)
 - [De novo design of miniprotein inhibitors of bacterial adhesins](https://www.nature.com/articles/s41467-026-78123-6) (Nat Commun, 2026-10-09; first seen 2026-10-10; Binders and therapeutics)
 - [Crowdsourcing functional cell therapy binders from generative artificial intelligence](https://link.springer.com/10.1038/s44320-026-00249-y) (Mol Syst Biol, 2026-10-08; first seen 2026-10-09; Binders and therapeutics)
@@ -285,7 +282,7 @@ Updated: **2026-10-10** (`2026-10-10T06:03:12Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-10](outputs/daily/2026-10-10.md)
+- [Daily report for 2026-10-11](outputs/daily/2026-10-11.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

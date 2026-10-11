@@ -882,6 +882,12 @@
       "title": "Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42836566/"
     },
+    "doi:10.1080/19420862.2026.2743404": {
+      "first_seen": "2026-10-11",
+      "source": "mAbs",
+      "title": "Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404"
+    },
     "doi:10.1093/bib/bbag516": {
       "first_seen": "2026-10-08",
       "source": "Briefings in Bioinformatics",

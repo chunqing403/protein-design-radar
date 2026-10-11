@@ -1,58 +1,16 @@
-# Protein Design Paper Radar - 2026-10-10
+# Protein Design Paper Radar - 2026-10-11
 
-Generated on 2026-10-10T06:03:12Z.
+Generated on 2026-10-11T05:58:00Z.
 
-Found 5 recommended papers.
+Found 1 recommended papers.
 
 ## Highlights
 
-### 1. A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke
+### 1. Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-09
-- **Authors:** Sormann, J., Epitropaki, K., Vicino, M. F. et al.
-- **Topics:** Structure generation, Binders and therapeutics
-- **Why it matched:** protein design, deep learning, de novo design, miniprotein, miniprotein
-- **Link:** https://doi.org/10.64898/2026.10.04.755611
-- **DOI:** 10.64898/2026.10.04.755611
-
-Ion channels remain notoriously recalcitrant drug targets despite their extensive pathophysiological significance. Acid-sensing ion channels (ASICs) are proton-gated cation channels that cause neuronal death when excessively activated, such as during ischaemic stroke. This acidosis-driven injury pathway remains unchallenged by existing therapeutics. Here we...
-
-### 2. Frustration Quenching and Network Topology of the Energy Landscape as Primary Determinants of Protein-Ligand Binding Pose Prediction by Deep Learning Models
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-09
-- **Authors:** Turano, L., Foley, B., Dennis, R. et al.
-- **Topics:** Structure generation
-- **Why it matched:** deep learning, structure prediction, folding, protein, binding, structure
-- **Link:** https://doi.org/10.64898/2026.10.05.756861
-- **DOI:** 10.64898/2026.10.05.756861
-
-Deep learning co-folding and docking models accurately predict ligand binding poses at orthosteric sites yet systematically underperform at allosteric pockets. Here, we demonstrate that this accuracy gap reflects a fundamental biophysical property of local energy landscape topology specifically, the magnitude of frustration quenching upon ligand binding...
-
-### 3. De novo design of miniprotein inhibitors of bacterial adhesins
-
-- **Status:** NEW | **Source:** Nat Commun | **Date:** 2026-10-09
-- **Authors:** Adam M. Chazin-Gray, Tuscan R. Thompson, Edward D. B. Lopatto et al.
+- **Status:** NEW | **Source:** mAbs | **Date:** 2026-12-31
+- **Authors:** Honglin Xu, Ruyue Mi, Ganggang Bai et al.
 - **Topics:** Binders and therapeutics
-- **Why it matched:** de novo design, miniprotein, miniprotein
-- **Link:** https://www.nature.com/articles/s41467-026-78123-6
-- **DOI:** 10.1038/s41467-026-78123-6
-
-### 4. FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins
-
-- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-10
-- **Authors:** Maryum Irshad, Kassandra Ori-McKenney, Ruxandra I. Dima
-- **Topics:** Binders and therapeutics
-- **Why it matched:** graph neural network, protein, binding, sequence, structure
-- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy
-- **DOI:** 10.1021/acs.jcim.6c01545
-
-Abstract Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription, and assembly through interfaces that often lack a defined geometry, making the prediction of their binding energies challenging for methods developed primarily for folded complexes. Here, we introduce FlexENN, an interface-focused message-passing...
-
-### 5. Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”
-
-- **Status:** NEW | **Source:** Clinical Nutrition ESPEN | **Date:** 2026-10
-- **Authors:** Boddu Shashipreetham, M. Kishore Kumar, T. Durga Aparna
-- **Topics:** General
-- **Why it matched:** artificial intelligence, protein
-- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187
-- **DOI:** 10.1016/j.clnesp.2026.105121
+- **Why it matched:** AI-driven, antibody
+- **Link:** https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404
+- **DOI:** 10.1080/19420862.2026.2743404
