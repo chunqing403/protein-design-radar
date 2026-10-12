@@ -6432,6 +6432,32 @@
       ],
       "url": "https://doi.org/10.64898/2026.10.04.755611"
     },
+    "doi:10.64898/2026.10.04.756538": {
+      "abstract": "Membrane proteins drive vital cellular signaling and bioenergetics yet resolving their physical interaction interfaces remains hindered by the paucity of experimental complexes and the breakdown of sequence alignments across hydrophobic bilayers. Here, we present CHORUS, a sequence-only deep-learning framework that decodes interaction sites across membrane proteins without requiring 3D structures, multiple sequence alignments (MSAs), or predefined partner identities. By systematically synthesizing complementary latent representations across diverse protein language model (pLM) families and functional layer depths, CHORUS outperforms 18 established sequence- and structure-based methods across 4,655 homology-isolated test contexts (average precision: 0.643), demonstrating amplified predictive capacity within the lipid-embedded core (0.746). We show that CHORUS delineates quaternary contact boundaries across megadalton respiratory supercomplexes directly from sequences alone (0.984). We deliver the CHORUS Atlas (https://chorus.atlas.sunnylab.org), providing precomputed, residue-resolved interaction landscapes for 80,619 reviewed transmembrane proteins spanning 4,918 species and 33.7 million residues to empower interactome-scale discovery and allosteric therapeutic design.",
+      "authors": [
+        "Zhao, J.",
+        "Huang, S.",
+        "Sun, J."
+      ],
+      "doi": "10.64898/2026.10.04.756538",
+      "first_seen": "2026-10-12",
+      "published": "2026-10-11",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.04.756538",
+      "title": "CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.04.756538"
+    },
     "doi:10.64898/2026.10.05.756719": {
       "abstract": "Phosphorylation is a fast, reversible layer of post-translational control that directly governs protein activity, signaling flux, and cell state. Kinases and phosphatases collectively establish these phosphorylation states, but their dysregulation drives cancer, neurodegenerative diseases, and developmental disorders. Selectively manipulating the phosphorylation of individual proteins in cells remains challenging, particularly for disordered substrates. Here, we introduce Peptide-Retargeted Phosphatases (PepRePs), a genetically encoded system that fuses a peptide binder to a serine/threonine phosphatase subunit to localize phosphatase activity to a target protein. We first establish the PepReP architecture using characterized tau-binding peptides, then apply protein language model-guided peptide design to target Rab8A, PTEN, and STAT3. Across endogenous and exogenous targets, PepRePs reduce phosphorylation, with downstream effects on tau aggregation, Rab8A-associated protein interactions, and cellular proliferation following PTEN and STAT3 targeting. Sequence-based peptide design enables targeting without structural inputs, supporting application to substrates with disordered regions that challenge conventional structure-based binder design. By coupling programmable peptide binders with modular phosphatase subunits, PepRePs enable targeted control of protein phosphorylation to probe cellular signaling and develop strategies for correcting disease-associated protein dysfunction.",
       "authors": [
@@ -6540,6 +6566,72 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.05.756905"
+    },
+    "doi:10.64898/2026.10.05.756918": {
+      "abstract": "Protein inverse folding, which infers compatible amino acid sequences from a given backbone structure, is central to rational protein design. Current methods rely largely on sequence recovery rate as the evaluation metric, emphasizing structural compatibility but seldom addressing function. Yet functional activity depends on the proper network of non-covalent interactions-protein-ligand contacts being a prime example. We argue that function-oriented protein design is governed by three complementary constraints: structural, interaction, and evolutionary, none of which are handled in a unified manner by existing pretrained models. To bridge this gap, we introduce zPolaron, a graph neural network built on protein-ligand complexes for functional protein design. zPolaron represents residues and ligand atoms as a heterogeneous graph and jointly encodes structural, interaction, and evolutionary information by fusing physical-interaction-enhanced graph representations with ESM-2 embeddings. Across multiple fitness prediction benchmarks, zPolaron outperforms all baselines, with gains evident across structural, interaction, and evolutionary dimensions. Wet-lab experiments further confirm its utility in functional enzyme screening and design: the optimized CalA6-D205A-S160G mutant achieves a 17.84-fold improvement in activity, while the CalB-I121M mutant yields a 1.91-fold increase. Together, these results show that integrating interaction and evolutionary information fills the missing puzzle of inverse folding, enhancing protein fitness prediction beyond structural compatibility. zPolaron is available at https://github.com/zelixirSH/zPolaron.",
+      "authors": [
+        "Wang, Z.",
+        "Zhang, Z.",
+        "Yang, Y.",
+        "Qu, Y.",
+        "Mu, Y.",
+        "Wang, S.",
+        "Han, N.",
+        "Zheng, L.",
+        "Li, W."
+      ],
+      "doi": "10.64898/2026.10.05.756918",
+      "first_seen": "2026-10-12",
+      "published": "2026-10-11",
+      "reasons": [
+        "protein design",
+        "inverse folding",
+        "wet-lab",
+        "ESM",
+        "folding",
+        "graph neural network"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.05.756918",
+      "title": "Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756918"
+    },
+    "doi:10.64898/2026.10.07.757254": {
+      "abstract": "Drug targets and vaccines for bacterial diseases are challenging to develop. Computational subtractive genomics and reverse vaccinology offer a viable substitute for conventional drug and vaccine development approaches. In recent years, Pasteurella multocida, a Gram-negative pathogen responsible for severe infections in humans along with major diseases in livestock and poultry, has developed resistance to multiple drugs. As a result, there is an urgent demand for research into reliable, efficient, highly potent, and cost-effective strategies to combat the rise of Pasteurella multocida infections. To address this, the present study integrated an in silico subtractive genomics and reverse vaccinology workflow to pinpoint proteins with potential value as both drug and vaccine targets. From the complete Pasteurella multocida Pm70 proteome, we identified 446 proteins that had no similarities with human proteins, out of which 129 were found to be essential for the pathogens survival. These 129 proteins are therefore potential candidates for drug development. Further metabolic pathway analysis, virulence potential, subcellular localization, and structural analyses revealed two outer membrane proteins, namely, 47 kDa outer membrane protein and lipopolysaccharide-assembly protein LptD, as promising candidates for therapeutic development. Subsequent antigenicity analysis revealed both outer membrane proteins as potential vaccine targets, exhibiting highly favorable antigenicity scores. Candidate B- and T-cell epitopes were systematically mapped from these two targets based on antigenicity, immunogenicity, toxicity, and allergenicity potential and only high-confidence epitopes were assembled using adjuvants and class-specific linkers to construct the final multi-epitope vaccine (MEV). The designed MEV construct was demonstrated to be highly antigenic, non-toxic and non-allergenic to humans, while possessing favorable structural and physicochemical properties, and exhibited strong binding interactions with human toll-like receptors with minimal molecular deformability. Although further experimental validation is recommended to fully assess their efficacy, the present study establishes a solid foundation for the development of novel therapeutics and vaccine candidates against P. multocida, ultimately contributing to the reduction of its rising infections.",
+      "authors": [
+        "Khan Chowdhury, A. R.",
+        "Islam, S.",
+        "Farid, A.",
+        "Lamia, F.",
+        "Ahmad, T. F.",
+        "Hossain, N. J.",
+        "Paul, A. R.",
+        "Afrin, T.",
+        "Elias, S. M."
+      ],
+      "doi": "10.64898/2026.10.07.757254",
+      "first_seen": "2026-10-12",
+      "published": "2026-10-11",
+      "reasons": [
+        "experimental validation",
+        "protein",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.07.757254",
+      "title": "In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.07.757254"
     }
   }
 }

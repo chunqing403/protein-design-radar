@@ -1416,6 +1416,12 @@
       "title": "A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke",
       "url": "https://doi.org/10.64898/2026.10.04.755611"
     },
+    "doi:10.64898/2026.10.04.756538": {
+      "first_seen": "2026-10-12",
+      "source": "bioRxiv",
+      "title": "CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone",
+      "url": "https://doi.org/10.64898/2026.10.04.756538"
+    },
     "doi:10.64898/2026.10.05.756719": {
       "first_seen": "2026-10-07",
       "source": "bioRxiv",
@@ -1439,6 +1445,18 @@
       "source": "bioRxiv",
       "title": "RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction",
       "url": "https://doi.org/10.64898/2026.10.05.756905"
+    },
+    "doi:10.64898/2026.10.05.756918": {
+      "first_seen": "2026-10-12",
+      "source": "bioRxiv",
+      "title": "Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding",
+      "url": "https://doi.org/10.64898/2026.10.05.756918"
+    },
+    "doi:10.64898/2026.10.07.757254": {
+      "first_seen": "2026-10-12",
+      "source": "bioRxiv",
+      "title": "In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70",
+      "url": "https://doi.org/10.64898/2026.10.07.757254"
     }
   }
 }
