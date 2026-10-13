@@ -7,15 +7,14 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-12** (`2026-10-12T06:09:00Z`)
+Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70](https://doi.org/10.64898/2026.10.07.757254)<br><sub>Khan Chowdhury, A. R., Islam, S., Farid, A. et al.</sub> | bioRxiv<br>2026-10-11 | Binders and therapeutics, Experimental validation |
-| 2 | [Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding](https://doi.org/10.64898/2026.10.05.756918)<br><sub>Wang, Z., Zhang, Z., Yang, Y. et al.</sub> | bioRxiv<br>2026-10-11 | Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation |
-| 3 | [CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone](https://doi.org/10.64898/2026.10.04.756538)<br><sub>Zhao, J., Huang, S., Sun, J.</sub> | bioRxiv<br>2026-10-11 | Protein language models, Binders and therapeutics, Experimental validation |
+| 1 | [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337)<br><sub>Farshid Farhadzadeh, Amirhossien Borji, Cena Aram et al.</sub> | iScience<br>2026-11 | Binders and therapeutics |
+| 2 | [Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces](https://www.nature.com/articles/s44386-026-00069-y)<br><sub>Yixiang Mao, Ruibo Zhang, Robert Sheridan et al.</sub> | npj Drug Discov.<br>2026-10-12 | Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
@@ -24,7 +23,7 @@ Updated: **2026-10-12** (`2026-10-12T06:09:00Z`)
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 57 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 74 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 39 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 41 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 23 |
@@ -130,7 +129,7 @@ Updated: **2026-10-12** (`2026-10-12T06:09:00Z`)
 - [Mechanistic classification of the AAA superfamily with protein language models](https://doi.org/10.64898/2026.10.05.756829) (bioRxiv, 2026-10-06; first seen 2026-10-07; Protein language models, Enzymes and function)
 - [DeepRAGIL-2: a retrieval-augmented protein language model framework for sensitive and accurate prediction of IL-2-inducing peptides.](https://pubmed.ncbi.nlm.nih.gov/42830522/) (PubMed, 2026 Oct 04; first seen 2026-10-06; Protein language models)
 - [Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features](http://arxiv.org/abs/2610.02189v1) (arXiv, 2026-10-01; first seen 2026-10-03; Protein language models, Enzymes and function)
-- [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455) (bioRxiv, 2026-10-01; first seen 2026-10-02; Protein language models, Experimental validation)
+- [AmyloCore-ML: AI/Machine Learning Enabled Identification of Amyloid Fibril Core Regions Using Protein Language Models](https://doi.org/10.64898/2026.09.25.754455) (bioRxiv, 2026-10-12; first seen 2026-10-02; Protein language models, Experimental validation)
 - [A protein language model links the E. coli pangenome functional landscape geometry to host proteostasis](https://doi.org/10.64898/2026.01.15.699719) (bioRxiv, 2026-09-30; first seen 2026-10-01; Protein language models, Enzymes and function)
 - [Interpreting embeddings from genome and protein language models.](https://pubmed.ncbi.nlm.nih.gov/42252067/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Protein language models, Enzymes and function)
 - [Corrigendum to "SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network" [Comput. Biol. Chem. 124 (2026) 109130].](https://pubmed.ncbi.nlm.nih.gov/42285882/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Protein language models)
@@ -195,8 +194,10 @@ Updated: **2026-10-12** (`2026-10-12T06:09:00Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (39)
+#### Binders & Therapeutics / 结合蛋白与治疗 (41)
 
+- [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337) (iScience, 2026-11; first seen 2026-10-13; Binders and therapeutics)
+- [Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces](https://www.nature.com/articles/s44386-026-00069-y) (npj Drug Discov., 2026-10-12; first seen 2026-10-13; Binders and therapeutics)
 - [In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70](https://doi.org/10.64898/2026.10.07.757254) (bioRxiv, 2026-10-11; first seen 2026-10-12; Binders and therapeutics, Experimental validation)
 - [Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404) (mAbs, 2026-12-31; first seen 2026-10-11; Binders and therapeutics)
 - [FlexENN: A Graph Neural Network for Binding Energy Prediction of Globular and Intrinsically Disordered Proteins](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01545/5448434/FlexENN-A-Graph-Neural-Network-for-Binding-Energy) (Journal of Chemical Information and Modeling, 2026-10-10; first seen 2026-10-10; Binders and therapeutics)
@@ -287,7 +288,7 @@ Updated: **2026-10-12** (`2026-10-12T06:09:00Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-12](outputs/daily/2026-10-12.md)
+- [Daily report for 2026-10-13](outputs/daily/2026-10-13.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

@@ -1638,6 +1638,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
     },
+    "doi:10.1016/j.isci.2026.117255": {
+      "abstract": "",
+      "authors": [
+        "Farshid Farhadzadeh",
+        "Amirhossien Borji",
+        "Cena Aram",
+        "Ali Alishvandi",
+        "Mohammad Javad Kamali",
+        "Mona Rahimi"
+      ],
+      "doi": "10.1016/j.isci.2026.117255",
+      "first_seen": "2026-10-13",
+      "published": "2026-11",
+      "reasons": [
+        "AI-driven",
+        "CAR-T"
+      ],
+      "source": "iScience",
+      "source_id": "10.1016/j.isci.2026.117255",
+      "title": "Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337"
+    },
     "doi:10.1016/j.jare.2026.10.002": {
       "abstract": "Peptide hormones play key roles in metabolic regulation, growth and development, and the maintenance of homeostasis and are important targets for drug discovery and design. However, traditional experimental methods for screening and identifying peptide hormones are costly and inefficient. Although existing machine learning methods have made some progress, they pay limited attention to class imbalance, and there is still room to improve prediction performance. This study aimed to develop an effective deep learning framework for imbalanced peptide hormone prediction and to improve the recognition of hormone peptides as the minority class. We developed pLM-HP, a deep learning framework based on a pre-trained protein language model. The framework combines the ESM2 protein language model with a bidirectional long short-term memory network. ESM2 was first used to obtain high-dimensional global contextual embeddings from peptide sequences, and BiLSTM was then applied to model sequential dependencies between residues. Class weights were incorporated into the loss function to reduce bias caused by class imbalance. Compared with traditional feature-based methods, pLM-HP achieved a BACC of 95.61% and an MCC of 0.802 in five-fold cross-validation, and a BACC of 95.64% and an MCC of 0.824 on the independent test set. The model also maintained stable and strong performance under imbalanced data conditions. These results indicate that combining protein language models with sequence modeling and class-imbalance learning strategies is an effective way to improve peptide hormone prediction. pLM-HP may provide a useful tool for high-throughput functional peptide screening and prioritization of candidate peptide hormones. The source code of pLM-HP is freely available at https://github.com/aochunyan123/pLM-HP.git.",
       "authors": [
@@ -3678,6 +3703,39 @@
         "Binders and therapeutics"
       ],
       "url": "https://link.springer.com/10.1038/s44320-026-00249-y"
+    },
+    "doi:10.1038/s44386-026-00069-y": {
+      "abstract": "Abstract In modern peptide drug discovery, the incorporation of noncanonical amino acids (ncAAs) has become a powerful strategy to improve potency and key developability properties, including stability, solubility, and oral bioavailability. This shift has expanded peptide chemical diversity and design spaces well beyond natural residues, creating fundamental challenges for predictive methods (e.g., quantitative structure-activity relationship modeling) used in lead optimization: limited transferability from natural residues to novel ncAAs, limited interpretability, and poor scalability to ultralarge peptide spaces (>10 50 ). We present PepOpt, an interpretable machine learning framework that unifies molecule-based and sequence-based peptide representations in linear models and exploits dynamic programming to efficiently explore ultralarge peptide spaces. PepOpt achieves high predictive accuracy and interpretability, supports training and inference across diverse ncAAs, including ncAAs absent from the training set whose constituent substructures are represented in the training data. Its linear structure decomposes predictions into residue-specific contributions, enabling systematic optimization without exhaustive sequence enumeration. Notably, PepOpt is inherently capable of multi-parameter optimization without specialized modifications. Together, these capabilities position PepOpt as a valuable platform for prediction, interpretation, ideation, and rapid exploration in ncAA-rich ultralarge peptide chemical spaces, accelerating the rational design of novel peptide therapeutics.",
+      "authors": [
+        "Yixiang Mao",
+        "Ruibo Zhang",
+        "Robert Sheridan",
+        "Dan Sindhikara",
+        "Dipannita Kalyani",
+        "Li Xiao",
+        "Amy B. McCracken",
+        "Bryant Kim",
+        "Shasha Feng",
+        "Tianxiong Mi",
+        "Christopher W. Plummer",
+        "Jennifer M. Johnston"
+      ],
+      "doi": "10.1038/s44386-026-00069-y",
+      "first_seen": "2026-10-13",
+      "published": "2026-10-12",
+      "reasons": [
+        "stability",
+        "peptide",
+        "sequence",
+        "structure"
+      ],
+      "source": "npj Drug Discov.",
+      "source_id": "10.1038/s44386-026-00069-y",
+      "title": "Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.nature.com/articles/s44386-026-00069-y"
     },
     "doi:10.1039/d6sc02631a": {
       "abstract": "Cyclic peptides are promising scaffolds for targeting protein surfaces due to their unique structural and functional advantages. However, the limited availability of cyclic peptide-protein complex structures severely restricts the design of target-specific cyclic peptides. Here, we introduce HFGuidedDesign, a de novo cyclic peptide design framework that integrates a discrete diffusion model with external structure guidance. By incorporating the high-accuracy complex structure predictor HighFold, the framework performs real-time structural evaluation during reverse diffusion sampling and dynamically steers sequence generation toward cyclic peptides with favorable structural plausibility and binding potential. The discrete diffusion model is trained using a two-stage strategy, including pre-training on peptide monomers and fine-tuning on peptide-protein complex structures. In design tasks targeting two distinct proteins, we evaluate two classical cyclization strategies-head-to-tail and disulfide bond cyclization. The resulting cyclic peptides achieved sequence design success rates of 75% and 66.7% for the two targets, demonstrating the effectiveness and generalizability of the framework. This study establishes an innovative and scalable computational framework for sequence-based cyclic peptide design, facilitating the development of peptide-based ligands for protein targeting.",
@@ -6176,7 +6234,7 @@
       "url": "https://doi.org/10.64898/2026.09.24.754223"
     },
     "doi:10.64898/2026.09.25.754455": {
-      "abstract": "In many neurodegenerative and systemic disorders, proteins can form insoluble protein aggregates called amyloids. Identification of amyloid forming regions in a protein remains central to understanding of its aggregation behaviour. Many predictors have been formed in the past and until recently which to estimate the aggregation-prone regions, which may not correspond to total residues found in actual disease associated fibril structures. To address this, we formed a sequence-based based predictor to ascertain structural amyloid-core propensity. The predictor was developed using experimentally determined fibril structures obtained from Amyloid Atlas. Ordered residues in the experimental structures were designated as core, and unresolved sampled from the same proteins as matched controls as non-core. Core and non-core regions were encoded using various physicochemical descriptors and protein language model (PLM) embeddings (ESM-2, ANKH, ProtT5) and evaluated using protein-grouped cross-validation. PLMs consistently outperformed physicochemical descriptors, with the best models reaching AUROC values of ~0.88 and AUPRC values of ~0.85. Locked full-length protein scans further localized experimental cores, with ESM-2/ExtraTrees W21 achieving AUROC 0.833, AUPRC 0.751, and a mean peak distance of 12.4 residues. In comparative benchmarking, our predictor showed better performance metrics than CrossBeta and AggrescanAI. The framework therefore provides residue-resolved prediction of structurally incorporated amyloid-core regions directly from sequence. AmyloCore-ML is easily accessible through an interactive Google Colab notebook, enabling sequence-based amyloid fibril-core prediction without local installation or dedicated computing infrastructure.",
+      "abstract": "Identification of amyloid forming regions in proteins remains central to understanding of their aggregation behaviour, which are central to various neurodegenerative and systemic disorders. Many predictors have been designed to identify amyloid forming regions, however they may not necessarily identify total residues found in actual disease associated fibril structures. To address this, we formed a sequence-based based predictor-AmyloCore-ML to ascertain structural amyloid-core propensity. The predictor was developed using experimentally determined fibril structures obtained from Amyloid Atlas. Ordered residues in the experimental structures were designated as core, and unresolved sampled from the same proteins as matched controls as non-core. Core and non-core regions were encoded using various physicochemical descriptors and protein language model (PLM) embeddings (ESM-2, ANKH, ProtT5) and evaluated using protein-grouped cross-validation. PLMs consistently outperformed physicochemical descriptors, with the best models reaching AUROC values of ~0.88 and AUPRC values of ~0.85. Locked full-length protein scans further localized experimental cores, with ESM-2/ExtraTrees achieving AUROC 0.833, AUPRC 0.751, and a mean peak distance of 12.4 residues. In comparative benchmarking, our predictor showed better performance metrics than CrossBeta and AggrescanAI. The framework therefore provides residue-resolved prediction of structurally incorporated amyloid-core regions directly from sequence.",
       "authors": [
         "Singh, J.",
         "Jangid, R.",
@@ -6184,7 +6242,7 @@
       ],
       "doi": "10.64898/2026.09.25.754455",
       "first_seen": "2026-10-02",
-      "published": "2026-10-01",
+      "published": "2026-10-12",
       "reasons": [
         "protein language model",
         "ESM",

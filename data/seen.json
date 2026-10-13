@@ -390,6 +390,12 @@
       "title": "ProMaya: A hierarchical universal deep learning framework for accurate and interpretable protein-protein interaction identification.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42785405/"
     },
+    "doi:10.1016/j.isci.2026.117255": {
+      "first_seen": "2026-10-13",
+      "source": "iScience",
+      "title": "Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337"
+    },
     "doi:10.1016/j.jare.2026.10.002": {
       "first_seen": "2026-10-03",
       "source": "PubMed",
@@ -851,6 +857,12 @@
       "source": "Mol Syst Biol",
       "title": "Crowdsourcing functional cell therapy binders from generative artificial intelligence",
       "url": "https://link.springer.com/10.1038/s44320-026-00249-y"
+    },
+    "doi:10.1038/s44386-026-00069-y": {
+      "first_seen": "2026-10-13",
+      "source": "npj Drug Discov.",
+      "title": "Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces",
+      "url": "https://www.nature.com/articles/s44386-026-00069-y"
     },
     "doi:10.1039/d6sc02631a": {
       "first_seen": "2026-08-21",
