@@ -7,14 +7,15 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
+Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337)<br><sub>Farshid Farhadzadeh, Amirhossien Borji, Cena Aram et al.</sub> | iScience<br>2026-11 | Binders and therapeutics |
-| 2 | [Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces](https://www.nature.com/articles/s44386-026-00069-y)<br><sub>Yixiang Mao, Ruibo Zhang, Robert Sheridan et al.</sub> | npj Drug Discov.<br>2026-10-12 | Binders and therapeutics |
+| 1 | [Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946)<br><sub>Jingwei Weng, Wenning Wang</sub> | Current Opinion in Structural Biology<br>2026-12 | General |
+| 2 | [Computational design of protein conformational landscapes for metamorphic behavior](https://doi.org/10.64898/2026.10.13.758820)<br><sub>Khramushin, A., Elia, M., Schellhaas, C. et al.</sub> | bioRxiv<br>2026-10-13 | Enzymes and function |
+| 3 | [Missense3D: leveraging protein structures, including AlphaFold models, to understand the effect of missense variants](https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390)<br><sub>Ifigenia Tsitsa, Gordon Hanna, Anja Conev et al.</sub> | Journal of Molecular Biology<br>2026-10 | General |
 
 ### Paper Directory / 文献目录
 
@@ -24,9 +25,9 @@ Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 74 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 41 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 9 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 10 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 23 |
+| [General / 综合](#paper-category-general) | 25 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -239,8 +240,9 @@ Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (9)
+#### Enzymes & Function / 酶与功能 (10)
 
+- [Computational design of protein conformational landscapes for metamorphic behavior](https://doi.org/10.64898/2026.10.13.758820) (bioRxiv, 2026-10-13; first seen 2026-10-14; Enzymes and function)
 - [A molecular modeling and machine learning-based approach for the identification of potential human ALOX15 inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42814179/) (PubMed, 2026 Sep 30; first seen 2026-10-01; Enzymes and function, Experimental validation)
 - [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223) (bioRxiv, 2026-09-28; first seen 2026-09-29; Enzymes and function)
 - [FoldMark: Safeguarding Protein Structure Generative Models with Distributional and Evolutionary Watermarking](https://doi.org/10.1101/2024.10.23.619960) (bioRxiv, 2026-09-26; first seen 2026-09-28; Enzymes and function)
@@ -260,8 +262,10 @@ Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (23)
+#### General / 综合 (25)
 
+- [Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946) (Current Opinion in Structural Biology, 2026-12; first seen 2026-10-14; General)
+- [Missense3D: leveraging protein structures, including AlphaFold models, to understand the effect of missense variants](https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390) (Journal of Molecular Biology, 2026-10; first seen 2026-10-14; General)
 - [Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”](https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187) (Clinical Nutrition ESPEN, 2026-10; first seen 2026-10-10; General)
 - [SIMORGH: Ensemble-Aware Geometric Deep Learning for Apo-State and Cryptic Ligand Binding Site Prediction](https://doi.org/10.64898/2026.10.02.756215) (bioRxiv, 2026-10-08; first seen 2026-10-09; General)
 - [An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems](https://www.nature.com/articles/s41538-026-01159-x) (npj Sci Food, 2026-10-08; first seen 2026-10-08; General)
@@ -288,7 +292,7 @@ Updated: **2026-10-13** (`2026-10-13T06:52:49Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-13](outputs/daily/2026-10-13.md)
+- [Daily report for 2026-10-14](outputs/daily/2026-10-14.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

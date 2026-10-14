@@ -1,27 +1,36 @@
-# Protein Design Paper Radar - 2026-10-13
+# Protein Design Paper Radar - 2026-10-14
 
-Generated on 2026-10-13T06:52:49Z.
+Generated on 2026-10-14T05:03:45Z.
 
-Found 2 recommended papers.
+Found 3 recommended papers.
 
 ## Highlights
 
-### 1. Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies
+### 1. Computational design of protein conformational landscapes for metamorphic behavior
 
-- **Status:** NEW | **Source:** iScience | **Date:** 2026-11
-- **Authors:** Farshid Farhadzadeh, Amirhossien Borji, Cena Aram et al.
-- **Topics:** Binders and therapeutics
-- **Why it matched:** AI-driven, CAR-T
-- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337
-- **DOI:** 10.1016/j.isci.2026.117255
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-13
+- **Authors:** Khramushin, A., Elia, M., Schellhaas, C. et al.
+- **Topics:** Enzymes and function
+- **Why it matched:** protein design, structure prediction, de novo design, protein, sequence, structure
+- **Link:** https://doi.org/10.64898/2026.10.13.758820
+- **DOI:** 10.64898/2026.10.13.758820
 
-### 2. Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces
+Protein function is governed by its three-dimensional structure and intrinsic conformational dynamics. Recent advances in generative protein design have enabled the computational design of increasingly diverse protein structures. However, designing sequences that populate multiple conformations and controlling their relative populations remains challenging....
 
-- **Status:** NEW | **Source:** npj Drug Discov. | **Date:** 2026-10-12
-- **Authors:** Yixiang Mao, Ruibo Zhang, Robert Sheridan et al.
-- **Topics:** Binders and therapeutics
-- **Why it matched:** stability, peptide, sequence, structure
-- **Link:** https://www.nature.com/articles/s44386-026-00069-y
-- **DOI:** 10.1038/s44386-026-00069-y
+### 2. Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation
 
-Abstract In modern peptide drug discovery, the incorporation of noncanonical amino acids (ncAAs) has become a powerful strategy to improve potency and key developability properties, including stability, solubility, and oral bioavailability. This shift has expanded peptide chemical diversity and design spaces well beyond natural residues, creating...
+- **Status:** NEW | **Source:** Current Opinion in Structural Biology | **Date:** 2026-12
+- **Authors:** Jingwei Weng, Wenning Wang
+- **Topics:** General
+- **Why it matched:** artificial intelligence, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946
+- **DOI:** 10.1016/j.sbi.2026.103412
+
+### 3. Missense3D: leveraging protein structures, including AlphaFold models, to understand the effect of missense variants
+
+- **Status:** NEW | **Source:** Journal of Molecular Biology | **Date:** 2026-10
+- **Authors:** Ifigenia Tsitsa, Gordon Hanna, Anja Conev et al.
+- **Topics:** General
+- **Why it matched:** AlphaFold, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390
+- **DOI:** 10.1016/j.jmb.2026.170066
