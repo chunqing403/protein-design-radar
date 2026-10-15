@@ -15,6 +15,12 @@ on:
       - "package-lock.json"
       - "tsconfig.json"
       - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows:
+      - Daily paper radar
+      - Sync WeChat articles
+      - Publish a WeChat article
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -28,6 +34,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
