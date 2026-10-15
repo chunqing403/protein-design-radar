@@ -408,6 +408,12 @@
       "title": "\"EXPERT\" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42810683/"
     },
+    "doi:10.1016/j.jfoodeng.2026.113373": {
+      "first_seen": "2026-10-15",
+      "source": "Journal of Food Engineering",
+      "title": "AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115"
+    },
     "doi:10.1016/j.jmb.2026.169660": {
       "first_seen": "2026-09-15",
       "source": "PubMed",
@@ -857,6 +863,12 @@
       "source": "PubMed",
       "title": "Understanding language model scaling for protein fitness prediction.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42443524/"
+    },
+    "doi:10.1038/s43588-026-01062-1": {
+      "first_seen": "2026-10-15",
+      "source": "Nat Comput Sci",
+      "title": "HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly",
+      "url": "https://www.nature.com/articles/s43588-026-01062-1"
     },
     "doi:10.1038/s44320-026-00246-1": {
       "first_seen": "2026-10-09",
@@ -1481,6 +1493,12 @@
       "source": "bioRxiv",
       "title": "In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70",
       "url": "https://doi.org/10.64898/2026.10.07.757254"
+    },
+    "doi:10.64898/2026.10.13.758789": {
+      "first_seen": "2026-10-15",
+      "source": "bioRxiv",
+      "title": "Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence",
+      "url": "https://doi.org/10.64898/2026.10.13.758789"
     },
     "doi:10.64898/2026.10.13.758820": {
       "first_seen": "2026-10-14",

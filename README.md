@@ -7,15 +7,15 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
+Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946)<br><sub>Jingwei Weng, Wenning Wang</sub> | Current Opinion in Structural Biology<br>2026-12 | General |
-| 2 | [Computational design of protein conformational landscapes for metamorphic behavior](https://doi.org/10.64898/2026.10.13.758820)<br><sub>Khramushin, A., Elia, M., Schellhaas, C. et al.</sub> | bioRxiv<br>2026-10-13 | Enzymes and function |
-| 3 | [Missense3D: leveraging protein structures, including AlphaFold models, to understand the effect of missense variants](https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390)<br><sub>Ifigenia Tsitsa, Gordon Hanna, Anja Conev et al.</sub> | Journal of Molecular Biology<br>2026-10 | General |
+| 1 | [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789)<br><sub>Tetteroo, S. L., Tawiah, C., Dekkers, G. et al.</sub> | bioRxiv<br>2026-10-14 | Binders and therapeutics |
+| 2 | [HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly](https://www.nature.com/articles/s43588-026-01062-1)<br><sub>Xuan Yao, Yifan Ya, Hao Li et al.</sub> | Nat Comput Sci<br>2026-10-14 | General |
+| 3 | [AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes](https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115)<br><sub>Glynis Zolk, Gabriela I. Saavedra Isusi, Luca Torresi et al.</sub> | Journal of Food Engineering<br>2026-10 | General |
 
 ### Paper Directory / 文献目录
 
@@ -24,10 +24,10 @@ Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 57 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 74 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 41 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 42 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 10 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 25 |
+| [General / 综合](#paper-category-general) | 27 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -195,8 +195,9 @@ Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (41)
+#### Binders & Therapeutics / 结合蛋白与治疗 (42)
 
+- [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789) (bioRxiv, 2026-10-14; first seen 2026-10-15; Binders and therapeutics)
 - [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337) (iScience, 2026-11; first seen 2026-10-13; Binders and therapeutics)
 - [Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces](https://www.nature.com/articles/s44386-026-00069-y) (npj Drug Discov., 2026-10-12; first seen 2026-10-13; Binders and therapeutics)
 - [In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70](https://doi.org/10.64898/2026.10.07.757254) (bioRxiv, 2026-10-11; first seen 2026-10-12; Binders and therapeutics, Experimental validation)
@@ -262,8 +263,10 @@ Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (25)
+#### General / 综合 (27)
 
+- [HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly](https://www.nature.com/articles/s43588-026-01062-1) (Nat Comput Sci, 2026-10-14; first seen 2026-10-15; General)
+- [AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes](https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115) (Journal of Food Engineering, 2026-10; first seen 2026-10-15; General)
 - [Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946) (Current Opinion in Structural Biology, 2026-12; first seen 2026-10-14; General)
 - [Missense3D: leveraging protein structures, including AlphaFold models, to understand the effect of missense variants](https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390) (Journal of Molecular Biology, 2026-10; first seen 2026-10-14; General)
 - [Comment on “Nutritional impact of leucine-enriched supplements: Evaluating protein type through artificial intelligence (AI)-augmented muscle ultrasonography in hypercaloric, hyperproteic support”](https://linkinghub.elsevier.com/retrieve/pii/S2405457726022187) (Clinical Nutrition ESPEN, 2026-10; first seen 2026-10-10; General)
@@ -292,7 +295,7 @@ Updated: **2026-10-14** (`2026-10-14T05:03:45Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-14](outputs/daily/2026-10-14.md)
+- [Daily report for 2026-10-15](outputs/daily/2026-10-15.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
