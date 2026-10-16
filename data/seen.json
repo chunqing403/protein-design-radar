@@ -870,6 +870,12 @@
       "title": "HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly",
       "url": "https://www.nature.com/articles/s43588-026-01062-1"
     },
+    "doi:10.1038/s43588-026-01067-w": {
+      "first_seen": "2026-10-16",
+      "source": "Nat Comput Sci",
+      "title": "Hybrid modeling for improved structure prediction of large protein complexes",
+      "url": "https://www.nature.com/articles/s43588-026-01067-w"
+    },
     "doi:10.1038/s44320-026-00246-1": {
       "first_seen": "2026-10-09",
       "source": "Mol Syst Biol",
@@ -1242,6 +1248,12 @@
       "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
       "url": "https://doi.org/10.64898/2026.08.02.742339"
     },
+    "doi:10.64898/2026.08.28.747942": {
+      "first_seen": "2026-10-16",
+      "source": "bioRxiv",
+      "title": "OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning",
+      "url": "https://doi.org/10.64898/2026.08.28.747942"
+    },
     "doi:10.64898/2026.09.01.748349": {
       "first_seen": "2026-09-05",
       "source": "biorxiv",
@@ -1493,6 +1505,12 @@
       "source": "bioRxiv",
       "title": "In silico subtractive genomics and reverse vaccinology approach reveal outer membrane proteins OMP47 and LptD as dual-purpose drug and vaccine targets in Pasteurella multocida Pm70",
       "url": "https://doi.org/10.64898/2026.10.07.757254"
+    },
+    "doi:10.64898/2026.10.08.757741": {
+      "first_seen": "2026-10-16",
+      "source": "bioRxiv",
+      "title": "NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets",
+      "url": "https://doi.org/10.64898/2026.10.08.757741"
     },
     "doi:10.64898/2026.10.13.758789": {
       "first_seen": "2026-10-15",

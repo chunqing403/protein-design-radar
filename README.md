@@ -7,15 +7,15 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
+Updated: **2026-10-16** (`2026-10-16T04:41:29Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789)<br><sub>Tetteroo, S. L., Tawiah, C., Dekkers, G. et al.</sub> | bioRxiv<br>2026-10-14 | Binders and therapeutics |
-| 2 | [HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly](https://www.nature.com/articles/s43588-026-01062-1)<br><sub>Xuan Yao, Yifan Ya, Hao Li et al.</sub> | Nat Comput Sci<br>2026-10-14 | General |
-| 3 | [AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes](https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115)<br><sub>Glynis Zolk, Gabriela I. Saavedra Isusi, Luca Torresi et al.</sub> | Journal of Food Engineering<br>2026-10 | General |
+| 1 | [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741)<br><sub>Almeida, G. O., Albuquerque, M. C., Silva, B. M. et al.</sub> | bioRxiv<br>2026-10-15 | Protein language models, Binders and therapeutics, Experimental validation |
+| 2 | [Hybrid modeling for improved structure prediction of large protein complexes](https://www.nature.com/articles/s43588-026-01067-w)<br><sub>Unknown authors</sub> | Nat Comput Sci<br>2026-10-15 | General |
+| 3 | [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942)<br><sub>Bui, T.-C., Hong, Y., Song, J. et al.</sub> | bioRxiv<br>2026-10-14 | Binders and therapeutics, Enzymes and function |
 
 ### Paper Directory / 文献目录
 
@@ -23,11 +23,11 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 57 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 74 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 42 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 75 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 10 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 27 |
+| [General / 综合](#paper-category-general) | 28 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -49,7 +49,7 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 - [De novo design of flexible protein interactions with GuideFlip](https://doi.org/10.64898/2026.09.27.754145) (bioRxiv, 2026-09-30; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [AtomWeaver: Multi-Component Flow Matching with a Structured Geometric Prior Facilitates Non-Canonical Peptide Design](https://doi.org/10.64898/2026.09.23.753608) (bioRxiv, 2026-09-28; first seen 2026-09-29; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [Cerebra: a computationally efficient framework for accurate protein structure prediction](https://doi.org/10.1101/2024.02.02.578551) (bioRxiv, 2026-09-26; first seen 2026-09-28; Structure generation, Experimental validation)
-- [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Sep 24; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
+- [Simplifying in silico protein evolution with minimal screening by unZipro.](https://pubmed.ncbi.nlm.nih.gov/42785296/) (PubMed, 2026 Oct 15; first seen 2026-09-25; Structure generation, Sequence design, Enzymes and function, Experimental validation)
 - [Effective Sequence-to-Expression Prediction for a Model Membrane Protein Using Machine Learning and Computational Protein Design](https://pubs.acs.org/asbcd6/article/doi/10.1021/acssynbio.6c00206/5436745/Effective-Sequence-to-Expression-Prediction-for-a) (ACS Synthetic Biology, 2026-09-23; first seen 2026-09-24; Structure generation, Sequence design, Experimental validation)
 - [Intelligent De novo Design of Multifunctional Taste Peptides via an integrated deep learning, conditional diffusion, and reinforcement learning platform](https://linkinghub.elsevier.com/retrieve/pii/S0308814626034072) (Food Chemistry, 2026-09; first seen 2026-09-24; Structure generation)
 - [Deep Learning-Guided Interface Engineering Stabilizes Oligomeric Enzymes](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c05133/5434710/Deep-Learning-Guided-Interface-Engineering) (ACS Catalysis, 2026-09-21; first seen 2026-09-22; Structure generation, Sequence design, Enzymes and function)
@@ -117,8 +117,9 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (74)
+#### Protein Language Models / 蛋白质语言模型 (75)
 
+- [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741) (bioRxiv, 2026-10-15; first seen 2026-10-16; Protein language models, Binders and therapeutics, Experimental validation)
 - [CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone](https://doi.org/10.64898/2026.10.04.756538) (bioRxiv, 2026-10-11; first seen 2026-10-12; Protein language models, Binders and therapeutics, Experimental validation)
 - [Corrigendum to "AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification" [Eur. J. Med. Chem. 320 (2026) 119352].](https://pubmed.ncbi.nlm.nih.gov/42855405/) (PubMed, 2026 Oct 09; first seen 2026-10-09; Protein language models, Binders and therapeutics)
 - [LoRA-N-Gly: Sequence-based Prediction of N-Linked Glycosylation Sites by Tuning Protein Language Models with Low-rank Adaptation.](https://pubmed.ncbi.nlm.nih.gov/42849609/) (PubMed, 2026 Oct 08; first seen 2026-10-09; Protein language models)
@@ -195,8 +196,9 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (42)
+#### Binders & Therapeutics / 结合蛋白与治疗 (43)
 
+- [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942) (bioRxiv, 2026-10-14; first seen 2026-10-16; Binders and therapeutics, Enzymes and function)
 - [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789) (bioRxiv, 2026-10-14; first seen 2026-10-15; Binders and therapeutics)
 - [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337) (iScience, 2026-11; first seen 2026-10-13; Binders and therapeutics)
 - [Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces](https://www.nature.com/articles/s44386-026-00069-y) (npj Drug Discov., 2026-10-12; first seen 2026-10-13; Binders and therapeutics)
@@ -263,8 +265,9 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (27)
+#### General / 综合 (28)
 
+- [Hybrid modeling for improved structure prediction of large protein complexes](https://www.nature.com/articles/s43588-026-01067-w) (Nat Comput Sci, 2026-10-15; first seen 2026-10-16; General)
 - [HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly](https://www.nature.com/articles/s43588-026-01062-1) (Nat Comput Sci, 2026-10-14; first seen 2026-10-15; General)
 - [AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes](https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115) (Journal of Food Engineering, 2026-10; first seen 2026-10-15; General)
 - [Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946) (Current Opinion in Structural Biology, 2026-12; first seen 2026-10-14; General)
@@ -295,7 +298,7 @@ Updated: **2026-10-15** (`2026-10-15T04:51:27Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-15](outputs/daily/2026-10-15.md)
+- [Daily report for 2026-10-16](outputs/daily/2026-10-16.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
