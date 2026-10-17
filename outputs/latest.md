@@ -1,38 +1,38 @@
-# Protein Design Paper Radar - 2026-10-16
+# Protein Design Paper Radar - 2026-10-17
 
-Generated on 2026-10-16T04:41:29Z.
+Generated on 2026-10-17T04:38:21Z.
 
 Found 3 recommended papers.
 
 ## Highlights
 
-### 1. NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets
+### 1. Protein Deimmunization with a Generative Diffusion Model
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-15
-- **Authors:** Almeida, G. O., Albuquerque, M. C., Silva, B. M. et al.
-- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
-- **Why it matched:** protein language model, deep learning, ESM, graph neural network, protein, peptide
-- **Link:** https://doi.org/10.64898/2026.10.08.757741
-- **DOI:** 10.64898/2026.10.08.757741
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-16
+- **Authors:** Chen, Z., Yu, C.-c., Zhou, C. et al.
+- **Topics:** Structure generation, Binders and therapeutics, Enzymes and function
+- **Why it matched:** diffusion model, de novo design, protein, enzyme, structure
+- **Link:** https://doi.org/10.64898/2026.10.09.758136
+- **DOI:** 10.64898/2026.10.09.758136
 
-Motivation: Peptide toxicity remains a major bottleneck in drug development, as small sequence variations can drastically alter cytotoxic profiles. Experimental assessment is costly and time-consuming, motivating computational predictors. Existing approaches often rely on single black-box architectures, limiting interpretability and obscuring the...
+Protein immunogenicity is a major cause of biologic drug failure, leading to the production of anti-drug antibodies (ADA) that accelerate drug clearance, rejection of repeated doses, abolished efficacy, and sometimes life threatening anaphylaxis in patients. These responses constrain the clinical use of synthetic protein therapeutics from non-human origin....
 
-### 2. Hybrid modeling for improved structure prediction of large protein complexes
+### 2. Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction
 
-- **Status:** NEW | **Source:** Nat Comput Sci | **Date:** 2026-10-15
-- **Authors:** Unknown authors
-- **Topics:** General
-- **Why it matched:** structure prediction, protein, structure
-- **Link:** https://www.nature.com/articles/s43588-026-01067-w
-- **DOI:** 10.1038/s43588-026-01067-w
+- **Status:** NEW | **Source:** Bioinformatics | **Date:** 2026-10-16
+- **Authors:** Vít Škrhák, Lukáš Polák, Marian Novotný et al.
+- **Topics:** Sequence design, Protein language models
+- **Why it matched:** protein language model, ESM, protein, binding, structure
+- **Link:** https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593
+- **DOI:** 10.1093/bioinformatics/btag778
 
-### 3. OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning
+Abstract Motivation Protein-ligand binding site prediction (LBS) is important for many areas of structural biology and molecular modeling, where, as in other tasks, protein language models (pLMs) have shown great promise. In their application to LBS, the pLM classifies each amino acid as binding or not, but translating these predictions into...
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-14
-- **Authors:** Bui, T.-C., Hong, Y., Song, J. et al.
-- **Topics:** Binders and therapeutics, Enzymes and function
-- **Why it matched:** equivariant, peptide, antibody, structure
-- **Link:** https://doi.org/10.64898/2026.08.28.747942
-- **DOI:** 10.64898/2026.08.28.747942
+### 3. Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks
 
-Biomolecular structures provide a common physical basis for understanding molecular function and interactions. However, computational models typically specialize in individual molecular classes or tasks, hindering a unified representation of structural information across biological systems. Here we introduce OmniScore, a universal geometric encoder that...
+- **Status:** NEW | **Source:** Sci Rep | **Date:** 2026-10-16
+- **Authors:** Chanoknun Phunnasorn, Narupat Hongdilokkul, Wasakorn Laesanklang et al.
+- **Topics:** Enzymes and function
+- **Why it matched:** graph neural network, protein, sequence, structure
+- **Link:** https://www.nature.com/articles/s41598-026-67952-6
+- **DOI:** 10.1038/s41598-026-67952-6

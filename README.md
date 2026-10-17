@@ -7,39 +7,40 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-16** (`2026-10-16T04:41:29Z`)
+Updated: **2026-10-17** (`2026-10-17T04:38:21Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741)<br><sub>Almeida, G. O., Albuquerque, M. C., Silva, B. M. et al.</sub> | bioRxiv<br>2026-10-15 | Protein language models, Binders and therapeutics, Experimental validation |
-| 2 | [Hybrid modeling for improved structure prediction of large protein complexes](https://www.nature.com/articles/s43588-026-01067-w)<br><sub>Unknown authors</sub> | Nat Comput Sci<br>2026-10-15 | General |
-| 3 | [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942)<br><sub>Bui, T.-C., Hong, Y., Song, J. et al.</sub> | bioRxiv<br>2026-10-14 | Binders and therapeutics, Enzymes and function |
+| 1 | [Protein Deimmunization with a Generative Diffusion Model](https://doi.org/10.64898/2026.10.09.758136)<br><sub>Chen, Z., Yu, C.-c., Zhou, C. et al.</sub> | bioRxiv<br>2026-10-16 | Structure generation, Binders and therapeutics, Enzymes and function |
+| 2 | [Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks](https://www.nature.com/articles/s41598-026-67952-6)<br><sub>Chanoknun Phunnasorn, Narupat Hongdilokkul, Wasakorn Laesanklang et al.</sub> | Sci Rep<br>2026-10-16 | Enzymes and function |
+| 3 | [Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593)<br><sub>Vít Škrhák, Lukáš Polák, Marian Novotný et al.</sub> | Bioinformatics<br>2026-10-16 | Sequence design, Protein language models |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 57 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 20 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 58 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 21 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 75 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 10 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 28 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (57)
+#### Structure Generation / 结构生成 (58)
 
+- [Protein Deimmunization with a Generative Diffusion Model](https://doi.org/10.64898/2026.10.09.758136) (bioRxiv, 2026-10-16; first seen 2026-10-17; Structure generation, Binders and therapeutics, Enzymes and function)
 - [Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding](https://doi.org/10.64898/2026.10.05.756918) (bioRxiv, 2026-10-11; first seen 2026-10-12; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke](https://doi.org/10.64898/2026.10.04.755611) (bioRxiv, 2026-10-09; first seen 2026-10-10; Structure generation, Binders and therapeutics)
 - [Frustration Quenching and Network Topology of the Energy Landscape as Primary Determinants of Protein-Ligand Binding Pose Prediction by Deep Learning Models](https://doi.org/10.64898/2026.10.05.756861) (bioRxiv, 2026-10-09; first seen 2026-10-10; Structure generation)
 - [PNBind: Prediction of Nucleic Acid-Binding Sites Using Protein Structure and Protein Language Models.](https://pubmed.ncbi.nlm.nih.gov/42847460/) (PubMed, 2026 Oct 08; first seen 2026-10-09; Structure generation, Protein language models, Enzymes and function)
+- [RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction](https://doi.org/10.64898/2026.10.05.756905) (bioRxiv, 2026-10-16; first seen 2026-10-07; Structure generation, Experimental validation)
 - [EdiProPred: Prediction of Edible Plant Tissue-Associated Proteins Using Large Language Models](https://doi.org/10.64898/2026.10.03.756411) (bioRxiv, 2026-10-06; first seen 2026-10-07; Structure generation, Protein language models)
-- [RGI-Toolkit: Differentiable Restraints for Controllable Biomolecular Structure Prediction](https://doi.org/10.64898/2026.10.05.756905) (bioRxiv, 2026-10-06; first seen 2026-10-07; Structure generation, Experimental validation)
 - [Molecular Dynamics Simulations Empowered De Novo Design of Binding Peptide for Enhanced Direct Bioelectrocatalytic Oxygen Reduction](https://pubs.acs.org/accacs/article/doi/10.1021/acscatal.6c04637/5444894/Molecular-Dynamics-Simulations-Empowered-De-Novo) (ACS Catalysis, 2026-10-05; first seen 2026-10-06; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [trFlow: ultrafast all-atom protein conformational ensemble generation via conditional flow matching](https://doi.org/10.64898/2026.10.03.756422) (bioRxiv, 2026-10-05; first seen 2026-10-06; Structure generation, Experimental validation)
 - [Generating Structural Ensembles of Disordered Proteins with Diffusion Models](https://doi.org/10.64898/2026.10.02.756250) (bioRxiv, 2026-10-04; first seen 2026-10-06; Structure generation, Experimental validation)
@@ -93,8 +94,9 @@ Updated: **2026-10-16** (`2026-10-16T04:41:29Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (20)
+#### Sequence Design / 序列设计 (21)
 
+- [Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593) (Bioinformatics, 2026-10-16; first seen 2026-10-17; Sequence design, Protein language models)
 - [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/) (PubMed, 2026 Oct 06; first seen 2026-10-07; Sequence design, Binders and therapeutics, Experimental validation)
 - [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with) (Journal of Chemical Information and Modeling, 2026-10-01; first seen 2026-10-02; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.](https://pubmed.ncbi.nlm.nih.gov/42190366/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Sequence design, Protein language models)
@@ -243,8 +245,9 @@ Updated: **2026-10-16** (`2026-10-16T04:41:29Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (10)
+#### Enzymes & Function / 酶与功能 (11)
 
+- [Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks](https://www.nature.com/articles/s41598-026-67952-6) (Sci Rep, 2026-10-16; first seen 2026-10-17; Enzymes and function)
 - [Computational design of protein conformational landscapes for metamorphic behavior](https://doi.org/10.64898/2026.10.13.758820) (bioRxiv, 2026-10-13; first seen 2026-10-14; Enzymes and function)
 - [A molecular modeling and machine learning-based approach for the identification of potential human ALOX15 inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42814179/) (PubMed, 2026 Sep 30; first seen 2026-10-01; Enzymes and function, Experimental validation)
 - [Computational design of a versatile, zero-radius proximity labeling enzyme](https://doi.org/10.64898/2026.09.24.754223) (bioRxiv, 2026-09-28; first seen 2026-09-29; Enzymes and function)
@@ -298,7 +301,7 @@ Updated: **2026-10-16** (`2026-10-16T04:41:29Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-16](outputs/daily/2026-10-16.md)
+- [Daily report for 2026-10-17](outputs/daily/2026-10-17.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

@@ -834,6 +834,12 @@
       "title": "Exploration of novel anti-TB agents targeting the serine/threonine kinase enzyme (PknE) in Mycobacterium tuberculosis: an in silico study",
       "url": "https://www.nature.com/articles/s41598-026-67951-7"
     },
+    "doi:10.1038/s41598-026-67952-6": {
+      "first_seen": "2026-10-17",
+      "source": "Sci Rep",
+      "title": "Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks",
+      "url": "https://www.nature.com/articles/s41598-026-67952-6"
+    },
     "doi:10.1038/s41598-026-73853-5": {
       "first_seen": "2026-09-30",
       "source": "Sci Rep",
@@ -1001,6 +1007,12 @@
       "source": "Bioinformatics",
       "title": "Genome-wide-scale prediction of compound−protein interactions using foundation and language models based on three-dimensional structures of compounds and proteins",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag710/8841216"
+    },
+    "doi:10.1093/bioinformatics/btag778": {
+      "first_seen": "2026-10-17",
+      "source": "Bioinformatics",
+      "title": "Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction",
+      "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593"
     },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
@@ -1511,6 +1523,12 @@
       "source": "bioRxiv",
       "title": "NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets",
       "url": "https://doi.org/10.64898/2026.10.08.757741"
+    },
+    "doi:10.64898/2026.10.09.758136": {
+      "first_seen": "2026-10-17",
+      "source": "bioRxiv",
+      "title": "Protein Deimmunization with a Generative Diffusion Model",
+      "url": "https://doi.org/10.64898/2026.10.09.758136"
     },
     "doi:10.64898/2026.10.13.758789": {
       "first_seen": "2026-10-15",
