@@ -2055,6 +2055,31 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42548048/"
     },
+    "doi:10.1016/j.neunet.2026.109770": {
+      "abstract": "",
+      "authors": [
+        "Zhiguang Fan",
+        "Yuedong Yang",
+        "Xiang Li",
+        "Hongming Chen",
+        "Lili Fan"
+      ],
+      "doi": "10.1016/j.neunet.2026.109770",
+      "first_seen": "2026-10-18",
+      "published": "2026-10",
+      "reasons": [
+        "flow matching",
+        "equivariant",
+        "protein"
+      ],
+      "source": "Neural Networks",
+      "source_id": "10.1016/j.neunet.2026.109770",
+      "title": "Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256"
+    },
     "doi:10.1016/j.omtn.2026.103133": {
       "abstract": "",
       "authors": [
@@ -3381,6 +3406,27 @@
         "General"
       ],
       "url": "https://www.nature.com/articles/s41538-026-01159-x"
+    },
+    "doi:10.1038/s41538-026-01202-x": {
+      "abstract": "",
+      "authors": [
+        "Saisai Ding",
+        "Yi Zhang"
+      ],
+      "doi": "10.1038/s41538-026-01202-x",
+      "first_seen": "2026-10-18",
+      "published": "2026-10-17",
+      "reasons": [
+        "de novo design",
+        "protein"
+      ],
+      "source": "npj Sci Food",
+      "source_id": "10.1038/s41538-026-01202-x",
+      "title": "De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41538-026-01202-x"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",

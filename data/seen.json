@@ -486,6 +486,12 @@
       "title": "RIT-HetGE: A residue interaction type-aware heterogeneous graph-embedding model for predicting protein thermal stability.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41687237/"
     },
+    "doi:10.1016/j.neunet.2026.109770": {
+      "first_seen": "2026-10-18",
+      "source": "Neural Networks",
+      "title": "Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256"
+    },
     "doi:10.1016/j.omtn.2026.103133": {
       "first_seen": "2026-10-08",
       "source": "Molecular Therapy Nucleic Acids",
@@ -773,6 +779,12 @@
       "source": "npj Sci Food",
       "title": "An AI-enabled proteome-scale framework for identifying sustainable protein alternatives for future food systems",
       "url": "https://www.nature.com/articles/s41538-026-01159-x"
+    },
+    "doi:10.1038/s41538-026-01202-x": {
+      "first_seen": "2026-10-18",
+      "source": "npj Sci Food",
+      "title": "De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins",
+      "url": "https://www.nature.com/articles/s41538-026-01202-x"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",

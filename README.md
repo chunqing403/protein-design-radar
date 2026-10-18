@@ -7,33 +7,33 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-17** (`2026-10-17T04:38:21Z`)
+Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Protein Deimmunization with a Generative Diffusion Model](https://doi.org/10.64898/2026.10.09.758136)<br><sub>Chen, Z., Yu, C.-c., Zhou, C. et al.</sub> | bioRxiv<br>2026-10-16 | Structure generation, Binders and therapeutics, Enzymes and function |
-| 2 | [Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks](https://www.nature.com/articles/s41598-026-67952-6)<br><sub>Chanoknun Phunnasorn, Narupat Hongdilokkul, Wasakorn Laesanklang et al.</sub> | Sci Rep<br>2026-10-16 | Enzymes and function |
-| 3 | [Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593)<br><sub>Vít Škrhák, Lukáš Polák, Marian Novotný et al.</sub> | Bioinformatics<br>2026-10-16 | Sequence design, Protein language models |
+| 1 | [De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins](https://www.nature.com/articles/s41538-026-01202-x)<br><sub>Saisai Ding, Yi Zhang</sub> | npj Sci Food<br>2026-10-17 | General |
+| 2 | [Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions](https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256)<br><sub>Zhiguang Fan, Yuedong Yang, Xiang Li et al.</sub> | Neural Networks<br>2026-10 | Structure generation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 58 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 59 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 21 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 75 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 28 |
+| [General / 综合](#paper-category-general) | 29 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (58)
+#### Structure Generation / 结构生成 (59)
 
+- [Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions](https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256) (Neural Networks, 2026-10; first seen 2026-10-18; Structure generation)
 - [Protein Deimmunization with a Generative Diffusion Model](https://doi.org/10.64898/2026.10.09.758136) (bioRxiv, 2026-10-16; first seen 2026-10-17; Structure generation, Binders and therapeutics, Enzymes and function)
 - [Filling the Missing Puzzle: Integrating Interaction and Evolutionary Information to Enhance Protein Fitness Prediction in Inverse Folding](https://doi.org/10.64898/2026.10.05.756918) (bioRxiv, 2026-10-11; first seen 2026-10-12; Structure generation, Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [A deep learning-generated hASIC1a miniprotein inhibitor confers neuroprotection in stroke](https://doi.org/10.64898/2026.10.04.755611) (bioRxiv, 2026-10-09; first seen 2026-10-10; Structure generation, Binders and therapeutics)
@@ -268,8 +268,9 @@ Updated: **2026-10-17** (`2026-10-17T04:38:21Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (28)
+#### General / 综合 (29)
 
+- [De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins](https://www.nature.com/articles/s41538-026-01202-x) (npj Sci Food, 2026-10-17; first seen 2026-10-18; General)
 - [Hybrid modeling for improved structure prediction of large protein complexes](https://www.nature.com/articles/s43588-026-01067-w) (Nat Comput Sci, 2026-10-15; first seen 2026-10-16; General)
 - [HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly](https://www.nature.com/articles/s43588-026-01062-1) (Nat Comput Sci, 2026-10-14; first seen 2026-10-15; General)
 - [AI-Driven Optimization of Plant-Based Substitutes: Improving Texture Development of Pea-Protein-based Meat Analogues during Extrusion Processes](https://linkinghub.elsevier.com/retrieve/pii/S0260877426004115) (Journal of Food Engineering, 2026-10; first seen 2026-10-15; General)
@@ -301,7 +302,7 @@ Updated: **2026-10-17** (`2026-10-17T04:38:21Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-17](outputs/daily/2026-10-17.md)
+- [Daily report for 2026-10-18](outputs/daily/2026-10-18.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
