@@ -216,6 +216,12 @@
       "title": "NeoGen-BC: A Synergistic Framework Combining Generative Protein Language Models and Multi-Window Deep Learning for Designing Shared Neoantigens in Breast Cancer",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X26013318"
     },
+    "doi:10.1016/j.bej.2026.110442": {
+      "first_seen": "2026-10-19",
+      "source": "Biochemical Engineering Journal",
+      "title": "Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "first_seen": "2026-09-01",
       "source": "PubMed",

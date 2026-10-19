@@ -198,6 +198,15 @@
       "title": "AI in Protein Engineering Market worth $3.82 billion by 2031 - Exclusive Report by MarketsandMarkets™",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjZrYXQxZWd3X2tEaW1ZaWVpTk8wQjJDMXViNFkwVnNreUVfTm9QOFlGU2tPNnJZelpKb05aTnBSckNvRnp1SjZ2UURvSVdVS2hiMGtubFg5YnZRWnpLd3YwU0FfLXI4QlE1alFBbTBSaFVuRl9QWFZ5aWVPQ3dER1NTMXVyNXVpaFpUVHR1MzJRWUY1YkVVTm5ZVU5kSHM1?oc=5"
     },
+    "22bef3adc65eb9cc458322114b00094a2b75af47": {
+      "category": "产业动态",
+      "first_seen": "2026-10-19",
+      "published": "2026-10-16",
+      "source": "Labiotech.eu",
+      "summary": "13 AI drug discovery companies you need to watch in 2025 Labiotech.eu",
+      "title": "13 AI drug discovery companies you need to watch in 2025",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11RFlnMERhTk5QVW1wZXNQSXRRM2x3UndBaFc3TXdlVXI2WmhkZE9EWnVUODNqcjdEeXl1UFlxN2haM1d4dkYwVUdEQS1LemEySVBTdnpFMGV2NHBPMmFObFVwcWp6RkQ4d296ekVzcjdaZC11?oc=5"
+    },
     "25bfd3c10b731c47a1d5235abe55480258a8cb27": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -450,6 +459,15 @@
       "title": "Protenix · v1.0.7: Refactor: consolidate version management and bump to 1.0.7",
       "url": "https://github.com/bytedance/Protenix/releases/tag/v1.0.7"
     },
+    "4f550e6c5ba392ab87b89c343c79f815bb779b30": {
+      "category": "产业动态",
+      "first_seen": "2026-10-19",
+      "published": "2026-10-14",
+      "source": "Ars Technica",
+      "summary": "Researchers use AI to design proteins that cut up other proteins Ars Technica",
+      "title": "Researchers use AI to design proteins that cut up other proteins",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORVlhd0RBV3NhdWhVZGFFa2dpa3h4d1ZDX3lGYkVSMThYQzhidktweGdPVy1qdkF3NXhpYTQzZ1pzZjJmSlNKYnBydVJjM0hRR0RRcko4NTFlVmJXbm1RVVJ6aXVXWElGdHRyV3o0TXhPQndVWmROYlFIc19PY2tEYmJNZ1NKXzliNkNYYUYxSDFfV3p3SllOZWhzQ1BoYzVPSTczbjdZa3I?oc=5"
+    },
     "4f933a3d467a3aeebc1a898c0a73214f29818f90": {
       "category": "模型与工具",
       "first_seen": "2026-09-29",
@@ -530,6 +548,15 @@
       "summary": "What's Changed Major changes Template support by @wukevin in #300 Support for subsampling different MSAs at each recycle and running multiple trunks by @wukevin in #302 #305 #306 Minor changes Update README.md, mention L40s (48 GB is enoug…",
       "title": "chai-lab · v0.6.0",
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.6.0"
+    },
+    "5bdb711ef3d0eb93f78024476f44e611cafba8ab": {
+      "category": "产业动态",
+      "first_seen": "2026-10-19",
+      "published": "2026-09-24",
+      "source": "Nature",
+      "summary": "AlphaFold ‘goes viral’: database adds protein complexes of common viruses Nature",
+      "title": "AlphaFold ‘goes viral’: database adds protein complexes of common viruses",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04S3h1b1BKdDNSRkpVQ3lHSXVVVEkwODNEakhranozb2hEMnhITnJfU0Z2ZWg0X1I5VXhHUjJ6enRFeVFsVllBOW1rMHZDVTk2Wm1nZE5fd3JFYWlPeHRZ?oc=5"
     },
     "5c448b6d32a50962ffbb1b343bf558abf7e3b0c6": {
       "category": "产业动态",
@@ -643,8 +670,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-18",
       "published": "2026-10-17",
-      "source": "Bioengineer.org",
-      "summary": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines Bioengineer.org",
+      "source": "bioengineer.org",
+      "summary": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines bioengineer.org",
       "title": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3VmbUljb2Etc202Ym5kU19peG05ZHQ1R3hzc0pLbTdkN2xXYldmWXZWSE10bjNaa2l0SEJYenlHRy1KM1Z6aDR2bXBFdkZOblU2c0ctUjZKVWEtbkZmU1otaTJsVWxfQVhlNTkyY2RyeGd5eTBzbFh3MWIxZjhvcmRub2daajVJQ1J5b19scXF0bjE1Y0hqZkZnNFctUQ?oc=5"
     },
@@ -1134,6 +1161,15 @@
       "title": "A More Efficient Approach to Cancer-Fighting Protein Design",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa09mdVl5UUZOQm5MREtCNXlWRldzWjNXU1dGaW9yNUtEUHh6a25xN2lNU1liMUVfWXE0OWQzQ3dEMEJqVmpIMDV3c1dRaVA0bE55dks5aGNTTXFJZzJLeFAycUhvdEpCMlIxaTNBM2dDVl8xNXNGc2s4LUY4V3I1UTFnODc0WU8xT0dKSA?oc=5"
     },
+    "ca8793fcdf03a486803d1f015a72c8b28ce8cc46": {
+      "category": "产业动态",
+      "first_seen": "2026-10-19",
+      "published": "2026-10-19",
+      "source": "The Scientist",
+      "summary": "A Microfluidic Bacterial Display Platform Reimagines Protein Engineering The Scientist",
+      "title": "A Microfluidic Bacterial Display Platform Reimagines Protein Engineering",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVE5FRHBZT1R2WXYtY3ZFZGFtelR6c1NQSGJpVG1MX0FnbzR1UG05TTJrdncxT3FaMUVmMVZiQWxzejgyQzlHRGN4V1d1NEVreGNwWFBMWWJxYnlHSFJtZkROeHpiVG1WenpFa3pwVFd1X1dGcEZMRG50bGhZajVIZzJDTTExTkR6SFZrQXd3U19lekxacU5fSlhFM2ZWWEM0ejR2ZVVFTElQaXRJ?oc=5"
+    },
     "cb14e80ae6a47ad17281faa735f84f6639d98860": {
       "category": "产业动态",
       "first_seen": "2026-10-18",
@@ -1423,5 +1459,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-18T04:43:48+00:00"
+  "updated_at": "2026-10-19T04:51:32+00:00"
 }

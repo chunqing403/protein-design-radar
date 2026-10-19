@@ -7,14 +7,13 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
+Updated: **2026-10-19** (`2026-10-19T04:51:30Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins](https://www.nature.com/articles/s41538-026-01202-x)<br><sub>Saisai Ding, Yi Zhang</sub> | npj Sci Food<br>2026-10-17 | General |
-| 2 | [Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions](https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256)<br><sub>Zhiguang Fan, Yuedong Yang, Xiang Li et al.</sub> | Neural Networks<br>2026-10 | Structure generation |
+| 1 | [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748)<br><sub>Qiuyang Gong, Qinghong Shi</sub> | Biochemical Engineering Journal<br>2026-10 | Protein language models, Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
@@ -22,7 +21,7 @@ Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 59 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 21 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 75 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 76 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -71,7 +70,7 @@ Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
 - [Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.](https://pubmed.ncbi.nlm.nih.gov/42162937/) (PubMed, 2026 Sep 01; first seen 2026-09-01; Structure generation, Protein language models, Enzymes and function, Experimental validation)
 - [A computational framework integrating a protein language model with alchemical simulation for gain-of-function enzyme design.](https://pubmed.ncbi.nlm.nih.gov/42675858/) (PubMed, 2026 Aug 31; first seen 2026-09-01; Structure generation, Sequence design, Protein language models, Binders and therapeutics, Enzymes and function)
 - [Bridging linguistic reasoning and biophysical reality toward peptide engineering via instruction-tuned language modeling.](https://pubmed.ncbi.nlm.nih.gov/42608825/) (PubMed, 2026 Aug 31; first seen 2026-09-01; Structure generation, Sequence design, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
-- [De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.](https://pubmed.ncbi.nlm.nih.gov/42655993/) (PubMed, 2026 Aug 26; first seen 2026-08-27; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function, Experimental validation)
+- [De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe]-Hydrogenase.](https://pubmed.ncbi.nlm.nih.gov/42655993/) (PubMed, 2026 Oct 19; first seen 2026-08-27; Structure generation, Sequence design, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [AcrPLMEvo: A Two-Stage Framework Integrating Evolutionary Profiles with Protein Language Models for Anti-CRISPR Prediction.](https://pubmed.ncbi.nlm.nih.gov/42647707/) (PubMed, 2026 Aug 26; first seen 2026-08-27; Structure generation, Protein language models)
 - [HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion.](https://pubmed.ncbi.nlm.nih.gov/42441251/) (PubMed, 2026 Aug 19; first seen 2026-08-21; Structure generation, Sequence design, Binders and therapeutics)
 - [Synthetic sequence alignments as programmable probes of learned conformational landscapes in deep learning protein structure predictors.](https://pubmed.ncbi.nlm.nih.gov/42581579/) (PubMed, 2026 Aug 11; first seen 2026-08-13; Structure generation, Sequence design, Enzymes and function)
@@ -119,8 +118,9 @@ Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (75)
+#### Protein Language Models / 蛋白质语言模型 (76)
 
+- [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748) (Biochemical Engineering Journal, 2026-10; first seen 2026-10-19; Protein language models, Binders and therapeutics)
 - [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741) (bioRxiv, 2026-10-15; first seen 2026-10-16; Protein language models, Binders and therapeutics, Experimental validation)
 - [CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone](https://doi.org/10.64898/2026.10.04.756538) (bioRxiv, 2026-10-11; first seen 2026-10-12; Protein language models, Binders and therapeutics, Experimental validation)
 - [Corrigendum to "AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification" [Eur. J. Med. Chem. 320 (2026) 119352].](https://pubmed.ncbi.nlm.nih.gov/42855405/) (PubMed, 2026 Oct 09; first seen 2026-10-09; Protein language models, Binders and therapeutics)
@@ -302,7 +302,7 @@ Updated: **2026-10-18** (`2026-10-18T04:43:42Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-18](outputs/daily/2026-10-18.md)
+- [Daily report for 2026-10-19](outputs/daily/2026-10-19.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

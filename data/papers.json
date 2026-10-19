@@ -235,7 +235,7 @@
       ],
       "doi": "10.1002/anie.6395554",
       "first_seen": "2026-08-27",
-      "published": "2026 Aug 26",
+      "published": "2026 Oct 19",
       "reasons": [
         "de novo protein",
         "binder design",
@@ -948,6 +948,28 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42721858/"
+    },
+    "doi:10.1016/j.bej.2026.110442": {
+      "abstract": "",
+      "authors": [
+        "Qiuyang Gong",
+        "Qinghong Shi"
+      ],
+      "doi": "10.1016/j.bej.2026.110442",
+      "first_seen": "2026-10-19",
+      "published": "2026-10",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "source": "Biochemical Engineering Journal",
+      "source_id": "10.1016/j.bej.2026.110442",
+      "title": "Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748"
     },
     "doi:10.1016/j.biortech.2026.134897": {
       "abstract": "Amentoflavone-type biflavonoids exhibit potent neuroprotective activities but are limited by scarce natural abundance and inefficient chemical synthesis routes. Here, we establish a stable Escherichia coli platform for de novo amentoflavone biosynthesis through multilevel engineering of a cytochrome P450-dependent oxidative coupling module. Systematic optimization of redox partner pairing, N-terminal expression regulation, and intrinsic catalytic activity substantially enhances the performance of the key P450 enzyme GbCYP90J6. Protein language model-guided directed evolution identifies high-activity variants that, when combined with an optimized expression tag, markedly improve in vivo catalysis. Integration of precursor flux balancing, expression optimization, and enzyme evolution results in an overall 8.34-fold increase in de novo amentoflavone production, reaching 6.59 mg/L in shake-flask cultivation. Fed-batch fermentation in a 5-L bioreactor increases the amentoflavone titer to 22.01 mg/L, demonstrating pathway scalability while revealing cellular tolerance as a remaining bottleneck. Together, this study establishes a framework for engineering P450-dependent intermolecular C-C coupling and highlights the necessity of balancing catalytic efficiency with cellular robustness in microbial cell factories.",
