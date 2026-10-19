@@ -1,0 +1,47 @@
+<script>
+  const endpoint = document
+    .querySelector<HTMLMetaElement>('meta[name="caom-visitor-endpoint"]')
+    ?.content.trim();
+
+  const STORAGE_KEY = "caom:visitor-notified-at";
+  const COOLDOWN_MS = 30 * 60 * 1000;
+
+  function referrerOrigin() {
+    if (!document.referrer) return "";
+    try {
+      return new URL(document.referrer).origin;
+    } catch {
+      return "";
+    }
+  }
+
+  function reportVisit() {
+    if (!endpoint || navigator.webdriver || navigator.doNotTrack === "1") return;
+    if (location.hostname === "localhost" || location.hostname === "127.0.0.1") return;
+
+    const lastSent = Number(localStorage.getItem(STORAGE_KEY) || 0);
+    if (Date.now() - lastSent < COOLDOWN_MS) return;
+
+    localStorage.setItem(STORAGE_KEY, String(Date.now()));
+    void fetch(endpoint, {
+      method: "POST",
+      mode: "cors",
+      keepalive: true,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        path: location.pathname,
+        referrer: referrerOrigin(),
+        language: navigator.language,
+        viewport: `${window.innerWidth}x${window.innerHeight}`,
+      }),
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Visitor notification failed: ${response.status}`);
+      })
+      .catch(() => {
+        localStorage.removeItem(STORAGE_KEY);
+      });
+  }
+
+  window.setTimeout(reportVisit, 1500);
+</script>

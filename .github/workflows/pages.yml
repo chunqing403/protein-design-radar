@@ -46,6 +46,8 @@ jobs:
           node-version: "22"
           cache: npm
       - name: Build website
+        env:
+          PUBLIC_VISITOR_NOTIFY_ENDPOINT: ${{ vars.VISITOR_NOTIFY_ENDPOINT }}
         run: |
           npm ci
           npm run build

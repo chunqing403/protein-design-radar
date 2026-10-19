@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "caom-visitor-notifier",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-10-19",
+  "vars": {
+    "ALLOWED_ORIGINS": "https://www.caom.online,https://caom.online",
+    "NOTIFY_COOLDOWN_SECONDS": "1800"
+  }
+}

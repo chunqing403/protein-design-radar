@@ -10,7 +10,8 @@
     "prebuild": "npm run prepare:assets",
     "build": "astro build",
     "preview": "astro preview",
-    "check": "astro check"
+    "check": "astro check",
+    "test:visitor": "node --test tests/visitor-notifier.test.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
