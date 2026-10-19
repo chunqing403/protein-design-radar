@@ -112,10 +112,11 @@ async function sendPushPlus(env, details) {
     }),
   });
 
-  if (!response.ok) throw new Error(`PushPlus returned HTTP ${response.status}`);
+  if (!response.ok) throw new Error(`pushplus_http_${response.status}`);
   const result = await response.json().catch(() => ({}));
   if (result.code !== undefined && result.code !== 200) {
-    throw new Error(`PushPlus rejected the request: ${result.msg || result.code}`);
+    const message = safeText(result.msg, "unknown", 80);
+    throw new Error(`pushplus_code_${result.code}:${message}`);
   }
 }
 

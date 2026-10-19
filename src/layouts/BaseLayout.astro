@@ -19,7 +19,9 @@ const counts = {
   papers: getPapers().length
 };
 const canonical = new URL(Astro.url.pathname, Astro.site);
-const visitorEndpoint = import.meta.env.PUBLIC_VISITOR_NOTIFY_ENDPOINT?.trim() ?? "";
+const visitorEndpoint =
+  import.meta.env.PUBLIC_VISITOR_NOTIFY_ENDPOINT?.trim() ||
+  "https://notify.caom.online/visit";
 ---
 
 <!doctype html>

@@ -4,6 +4,7 @@ import worker from "../workers/visitor-notifier/src/index.mjs";
 
 const originalFetch = globalThis.fetch;
 const originalCaches = globalThis.caches;
+const originalConsoleError = console.error;
 
 function visitRequest(origin = "https://www.caom.online", ip = "203.0.113.8") {
   return new Request("https://worker.example/visit", {
@@ -40,6 +41,7 @@ beforeEach(() => {
 afterEach(() => {
   globalThis.fetch = originalFetch;
   globalThis.caches = originalCaches;
+  console.error = originalConsoleError;
 });
 
 test("rejects requests from unapproved origins", async () => {
@@ -87,4 +89,14 @@ test("reports whether the Worker has been configured", async () => {
   const response = await worker.fetch(new Request("https://worker.example/health"), {});
   assert.equal(response.status, 200);
   assert.deepEqual(await response.json(), { ok: true, configured: false });
+});
+
+test("does not expose PushPlus errors to the browser", async () => {
+  console.error = () => {};
+  globalThis.fetch = async () => Response.json({ code: 905, msg: "account verification required" });
+
+  const response = await worker.fetch(visitRequest(), { PUSHPLUS_TOKEN: "secret-token" });
+
+  assert.equal(response.status, 502);
+  assert.deepEqual(await response.json(), { ok: false, error: "notification_failed" });
 });
