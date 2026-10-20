@@ -3,6 +3,21 @@
     {
       "account": "CAOM",
       "author": "ZCQ",
+      "body_file": "articles/caom-7580113cff20.html",
+      "cover": "assets/wechat/caom-7580113cff20/image-01.png",
+      "description": "蛋白设计里，做出一个能结合靶点的蛋白，和做出一个能在指定位置切开底物的蛋白，中间隔着很长一段路。",
+      "featured": true,
+      "published": "2026-10-19",
+      "slug": "caom-7580113cff20",
+      "source_url": "https://mp.weixin.qq.com/s/wn5SwW8bw_O7yZFDj4yGAA",
+      "title": "Baker Lab 同期两篇 Nature，AI 设计蛋白酶走到哪一步了",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
       "body_file": "articles/caom-2247484534.html",
       "cover": "assets/wechat/caom-2247484534/cover.jpg",
       "description": "我最近把 HighFold 1 到 4 连着看了一遍。四篇文章从 2024 年排到 2026 年，题目都围绕环肽结构预测，读起来很像同一个团队在持续修一处老问题。",

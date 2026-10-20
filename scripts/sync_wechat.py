@@ -238,6 +238,9 @@ def import_article(session: requests.Session, source: dict, content_root: Path) 
     )
     article_path = content_root / "articles" / f"{slug}.html"
     write_text_if_changed(article_path, body_html + "\n")
+    first_image = next(iter(sorted(assets.glob("image-*"))), None)
+    if not cover_path and first_image:
+        cover_path = f"assets/wechat/{slug}/{first_image.name}"
 
     account_node = soup.select_one("#js_name")
     author_node = soup.select_one("#js_author_name")
