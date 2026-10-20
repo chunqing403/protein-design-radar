@@ -166,6 +166,35 @@
       ],
       "url": "http://arxiv.org/abs/2610.02189v1"
     },
+    "arxiv:2610.26747v1": {
+      "abstract": "Protein language models (pLMs) are powerful tools for protein annotation and mutation-effect prediction, but progress has largely depended on scaling model size and data, making them expensive and prone to memorization. Test-time scaling offers a complementary path, but methods developed for autoregressive LLMs do not transfer directly: masked encoders lack a generation loop, and amino acids do not verbalize in a reasoning language. Instead, we adapt recursive pretraining to masked pLMs, where a weight-tied Transformer core refines residue-aligned hidden states over an adjustable number of cycles. We instantiate this recipe as recAMPLIFY, a pLM with 155M unique parameters trained on the same 2T tokens as AMPLIFY-350M. Despite 56% fewer parameters, it improves CASP contact recovery and three out of four supervised tasks, notably raising fold accuracy by 22.5%. Because optimal depth for recAMPLIFY varies across tasks and assays, we then introduce Gated Mixture Recurrence (GMR), a framework that decodes each protein from a probability-weighted mixture of hidden states visited during recursion. GMR employs a learned residual gate at scalar, low-rank, or per-dimension resolution to control how much of each cycle's proposed update is accepted into the state. This unifies halting and gating into a single adaptive computation objective while recovering PonderNet-style halting as a special case without gates. Layered on top of recAMPLIFY, GMR further reduces expected layer depth by up to 37%, although the accuracy trade-off varies by task. Mechanistic analyses show that residual gating controls recurrence stability beyond the trained depth and that halt depth tracks biological properties.",
+      "authors": [
+        "Saurav Jha",
+        "Qianli Liao",
+        "Robert Vernon",
+        "Sarath Chandar",
+        "Quentin Fournier"
+      ],
+      "doi": "",
+      "first_seen": "2026-10-20",
+      "published": "2026-10-19",
+      "reasons": [
+        "protein language model",
+        "stability",
+        "transformer",
+        "protein",
+        "mutation"
+      ],
+      "source": "arXiv",
+      "source_id": "2610.26747v1",
+      "title": "recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "http://arxiv.org/abs/2610.26747v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -957,7 +986,7 @@
       ],
       "doi": "10.1016/j.bej.2026.110442",
       "first_seen": "2026-10-19",
-      "published": "2026-10",
+      "published": "2027-01",
       "reasons": [
         "protein language model",
         "protein"
@@ -7083,6 +7112,29 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.10.13.758820"
+    },
+    "doi:10.64898/2026.10.19.757941": {
+      "abstract": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug prioritization remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved similar aggregate disease ranking performance to BANDOCK+, with differences among individual indications. These results support the evaluation of AF3 interaction confidence as a source of information for proteome scale drug prioritization.",
+      "authors": [
+        "Akabari, R.",
+        "Mangione, W.",
+        "Falls, Z.",
+        "Samudrala, R."
+      ],
+      "doi": "10.64898/2026.10.19.757941",
+      "first_seen": "2026-10-20",
+      "published": "2026-10-19",
+      "reasons": [
+        "AlphaFold",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.19.757941",
+      "title": "Proteome scale drug prioritization from AlphaFold 3 interaction confidence",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.19.757941"
     }
   }
 }

@@ -48,6 +48,12 @@
       "title": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
       "url": "http://arxiv.org/abs/2610.02189v1"
     },
+    "arxiv:2610.26747v1": {
+      "first_seen": "2026-10-20",
+      "source": "arXiv",
+      "title": "recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models",
+      "url": "http://arxiv.org/abs/2610.26747v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "source": "Cell",
@@ -1559,6 +1565,12 @@
       "source": "bioRxiv",
       "title": "Computational design of protein conformational landscapes for metamorphic behavior",
       "url": "https://doi.org/10.64898/2026.10.13.758820"
+    },
+    "doi:10.64898/2026.10.19.757941": {
+      "first_seen": "2026-10-20",
+      "source": "bioRxiv",
+      "title": "Proteome scale drug prioritization from AlphaFold 3 interaction confidence",
+      "url": "https://doi.org/10.64898/2026.10.19.757941"
     }
   }
 }
