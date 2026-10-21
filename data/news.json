@@ -405,6 +405,15 @@
       "title": "Plain-English AI Produces Validated Drug-Candidate Proteins Against Rare Disease Target",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOak1hN09MY1hZWkx3QlNMUFl1RWFuWEgta3BCd1QwdWxiNVU1Ym1jdVEtOW1rQU1qd0p4dksyZEN6QzNCbXlZTlZEdnY3SlNGU0JUZUZrQUZuTEFaaGhVX280ZUZlbU9xYlc4MWpuR3ZSOWhmb3hEMVNEWXNiR3pwZGRHTE1ES25zLVM0dnBmNU5qNzZVeE16MzllRzY1THo4Wk1mMXVBaVQyT1FOZ0gwaFZsckV3emRHakpIbWFjTlZudVVHSnU2U3BMZ3ZCWlFuZTdqYnJEeGdIdw?oc=5"
     },
+    "48989244a849eb27df745299eeff8f53ca785aa6": {
+      "category": "产业动态",
+      "first_seen": "2026-10-21",
+      "published": "2026-10-20",
+      "source": "citybiz",
+      "summary": "Sinopia Biosciences Awarded $2.5 Million NIH Grant to Advance AI Drug Discovery citybiz",
+      "title": "Sinopia Biosciences Awarded $2.5 Million NIH Grant to Advance AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMkxXeWl4WVVSVFVqaEcxN09ZYlZsMUs3czM4U3ZUcmZKV2pTTzNWRXc3NThNb1ZkNnB6VG9FbEFIRlVPLXRsM2JyNHZ6OUZMRGhVeWJiRXNLMDNfR3VBTmtGMF9VNGtVUW1CcDkyUXBkaHJaRFZFOFBELWJjMms1eDhvcTFKR2JLdEtSUEdnVE44RHJIUDA2NVdIWEdRQWE2NS1vV2p6VEZCYXczS1JNRjhrV3ctZ1F0?oc=5"
+    },
     "4a76a327c698fcc7839509e80c2bbab48de8dc06": {
       "category": "产业动态",
       "first_seen": "2026-10-01",
@@ -656,6 +665,15 @@
       "summary": "Version 3.0.2 provides new features, improves performance, improves documentation, and fixes bugs. AlphaFold v3.0.2 supports NVIDIA Blackwell GPUs out of the box. We thank everyone who reported issues, proposed new features, and submitted…",
       "title": "alphafold3 · AlphaFold v3.0.2",
       "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.2"
+    },
+    "70d8b3ec7e1efc1234f905f302f4db3440956787": {
+      "category": "产业动态",
+      "first_seen": "2026-10-21",
+      "published": "2026-10-20",
+      "source": "citybiz",
+      "summary": "Abiologics Appoints Per Jr. Greisen Chief AI Officer to Advance Protein Therapeutics Platform citybiz",
+      "title": "Abiologics Appoints Per Jr. Greisen Chief AI Officer to Advance Protein Therapeutics Platform",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTjhNQWF5djEzTDUtb2pZVGd0WXVkcEQ5SVVucXVVeFFpcTNzcXZ6LVY0TC13RExyVkY0QTlRcmJIYWlaYVZnd2YwcTVDOW1aNXB3V2duZkFtOHA0TGFuLUZXazkyVW9iR09qUHQwb2E3OXc4alBodWVLdXQtaUFjaEZIVS1ENTUyeS1PZ3dJSjNWcEZCQlVURkxTTG9UZnNCd2lhdkVOTEVqdzltUGxidEQ1QUNaS1pya0doR0E4c1cxZy1uTkxhUjBrTQ?oc=5"
     },
     "71324adc7a4d7ea4b3dcdad2854bb40f39953c6f": {
       "category": "产业动态",
@@ -1459,5 +1477,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-20T04:59:58+00:00"
+  "updated_at": "2026-10-21T04:59:10+00:00"
 }

@@ -1566,11 +1566,29 @@
       "title": "Computational design of protein conformational landscapes for metamorphic behavior",
       "url": "https://doi.org/10.64898/2026.10.13.758820"
     },
+    "doi:10.64898/2026.10.13.758966": {
+      "first_seen": "2026-10-21",
+      "source": "bioRxiv",
+      "title": "Decision benchmarking reveals when protein foundation models add experimental value",
+      "url": "https://doi.org/10.64898/2026.10.13.758966"
+    },
     "doi:10.64898/2026.10.19.757941": {
       "first_seen": "2026-10-20",
       "source": "bioRxiv",
       "title": "Proteome scale drug prioritization from AlphaFold 3 interaction confidence",
       "url": "https://doi.org/10.64898/2026.10.19.757941"
+    },
+    "doi:10.64898/2026.10.19.759856": {
+      "first_seen": "2026-10-21",
+      "source": "bioRxiv",
+      "title": "A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data",
+      "url": "https://doi.org/10.64898/2026.10.19.759856"
+    },
+    "doi:10.64898/2026.10.19.760098": {
+      "first_seen": "2026-10-21",
+      "source": "bioRxiv",
+      "title": "What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve",
+      "url": "https://doi.org/10.64898/2026.10.19.760098"
     }
   }
 }

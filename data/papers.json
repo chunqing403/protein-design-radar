@@ -7113,6 +7113,34 @@
       ],
       "url": "https://doi.org/10.64898/2026.10.13.758820"
     },
+    "doi:10.64898/2026.10.13.758966": {
+      "abstract": "Protein engineering is shifting from model-based variant scoring to deciding what to measure next. This exposes a limitation of fixed-dataset benchmarks, which rank predictors without showing when their advantage survives as evidence accumulates. We therefore introduce decision benchmarking across 217 ProteinGym assays, 2.47 million variants and 95 predictors to evaluate whether models and measurements improve decisions at matched cost. Zero-shot accuracy explained less than one-fifth of the variation in discovery after calibration. Calibrated priors exceeded budget-matched additivity at 20-100 measurements, but the advantage narrowed as component measurements accumulated. Measured additivity then overtook zero-shot models after 50-100 measurements for top-variant discovery and around 500 for global ranking. The same principle showed that double-mutant measurements improved prediction in models using mutation identity, whereas prediction-guided acquisition improved discovery. Evidence-based routing improved strategy selection. Decision benchmarking thus identifies which strategy adds value given the information already available and the decision that follows.",
+      "authors": [
+        "Ding, W.",
+        "Lu, C.",
+        "Li, Y.",
+        "Gong, H.",
+        "Wang, Z."
+      ],
+      "doi": "10.64898/2026.10.13.758966",
+      "first_seen": "2026-10-21",
+      "published": "2026-10-20",
+      "reasons": [
+        "protein engineering",
+        "foundation model",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.13.758966",
+      "title": "Decision benchmarking reveals when protein foundation models add experimental value",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.13.758966"
+    },
     "doi:10.64898/2026.10.19.757941": {
       "abstract": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug prioritization remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved similar aggregate disease ranking performance to BANDOCK+, with differences among individual indications. These results support the evaluation of AF3 interaction confidence as a source of information for proteome scale drug prioritization.",
       "authors": [
@@ -7135,6 +7163,73 @@
         "General"
       ],
       "url": "https://doi.org/10.64898/2026.10.19.757941"
+    },
+    "doi:10.64898/2026.10.19.759856": {
+      "abstract": "De novo protein binders can now be generated far faster than they can be tested. Current validation routes - display selection, cell-free two-hybrid assays, or surface-based biophysics - require cell culture, colony picking, protein purification, target labeling or sensor immobilisation, take 2 to 8 weeks, and require additional methods for affinity and kinetics characterisation. Here we report an end-to-end, cell- and purification-free pipeline that goes from gene to binding affinity and kinetics in three days without genetically modified organisms, cell culture, purification, labelling or immobilisation. An automated, metric-driven loop of RFdiffusion, ProteinMPNN and AlphaFold2 initial-guess generates and filters designs, which are ranked by Boltz-2 ipSAE, assembled by Golden Gate cloning from linear DNA, expressed in a cell-free protein synthesis lysate as fluorescent protein fusions, and screened directly in the unpurified product by flow-induced dispersion analysis (FIDA). Against human growth hormone, 11 of 30 designs (37%) bound, and the four strongest had equilibrium dissociation constants of 0.93-9.98 nM with on- and off-rates resolved from the same cell-free material. Each sample run measures expression level, hydrodynamic radius, oligomeric and aggregation state alongside the binding readout, producing the standardised, per-design datasets that model training requires.",
+      "authors": [
+        "Ruiz Espi, D.",
+        "Avelar Molina, G.",
+        "Sonne Buch, O.",
+        "Heyd, J.",
+        "Unger, A.",
+        "Winther Gormsen, L.",
+        "Boldsen Lund, K.",
+        "Sahni Ray, K.",
+        "Williams, C.",
+        "Hald, A.",
+        "Jenkins, T. P.",
+        "Rivera-de-Torre, E."
+      ],
+      "doi": "10.64898/2026.10.19.759856",
+      "first_seen": "2026-10-21",
+      "published": "2026-10-20",
+      "reasons": [
+        "de novo protein",
+        "RFdiffusion",
+        "ProteinMPNN",
+        "de novo design",
+        "protein",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.19.759856",
+      "title": "A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.19.759856"
+    },
+    "doi:10.64898/2026.10.19.760098": {
+      "abstract": "Small signalling peptides (SSPs) coordinate development and stress response in plants, and the computational tools that identify them represent sequences using general-purpose protein language models trained across all known proteins. How much a representation learned on the SSP sequence space itself is worth, measured against generalist embeddings of varying size, has not to our knowledge been quantified. We pretrain PhytoPepBERT, a 169,567-parameter masked language model implemented from scratch with no deep-learning framework, on 1,469 plant SSP precursors retrieved from UniProtKB spanning five peptide families (RALF, PSK, CLE, PEP, RGF) and a length-matched negative class of non-SSP plant proteins. Sequences are clustered at 70% alignment identity and every cross-validation fold is grouped by cluster, so no homologue of a held-out sequence appears in training. Domain pretraining is worth a great deal relative to where it starts. Family classification by k-nearest neighbours over frozen embeddings reaches 85.2% +/- 2.4% against 58.0% +/- 4.3% for an architecturally identical, identically initialised untrained backbone (chance 16.7%), and against 75.1% for dipeptide composition and 67.6% for BLOSUM62. The advantage is largest where the backbone stays frozen: linear probing gives 82.9% against 67.6% untrained, while full fine-tuning narrows the gap to 85.4% against 83.6%. Masked-residue accuracy is 20.5% against 3.4% untrained, elevated across all five peptide families and lowest on the non-SSP negatives. Benchmarked against ESM-2 at four scales under an identical protocol, those 169,567 domain-pretrained parameters buy approximately what 7.5M generalist parameters buy: PhytoPepBERT ties esm2_t6_8M_UR50D (86.1% +/- 2.8\\%, two of five paired folds) and is overtaken thereafter, by 2.5 points at 35M, 7.0 at 150M and 11.6 at 650M, losing every paired fold above the smallest checkpoint. TAPE, the second representation the reference pipeline uses, leads by 3.6 points at 92M. Generalist scale therefore continues to pay on this task well beyond the point where a domain model of this size can follow. We report an exchange rate rather than a victory: domain pretraining delivers roughly a forty-fold parameter efficiency against the generalist curve, and nothing beyond it.",
+      "authors": [
+        "Vomo-Donfack, K. L.",
+        "Aberbache, M.",
+        "Cantez, A.",
+        "Hoszu, A.",
+        "Ginot, G.",
+        "Gonzalez Doblas, V.",
+        "Morilla, I."
+      ],
+      "doi": "10.64898/2026.10.19.760098",
+      "first_seen": "2026-10-21",
+      "published": "2026-10-20",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.19.760098",
+      "title": "What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.19.760098"
     }
   }
 }

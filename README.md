@@ -7,21 +7,22 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-20** (`2026-10-20T04:59:55Z`)
+Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models](http://arxiv.org/abs/2610.26747v1)<br><sub>Saurav Jha, Qianli Liao, Robert Vernon et al.</sub> | arXiv<br>2026-10-19 | Structure generation, Sequence design, Protein language models |
-| 2 | [Proteome scale drug prioritization from AlphaFold 3 interaction confidence](https://doi.org/10.64898/2026.10.19.757941)<br><sub>Akabari, R., Mangione, W., Falls, Z. et al.</sub> | bioRxiv<br>2026-10-19 | General |
+| 1 | [Decision benchmarking reveals when protein foundation models add experimental value](https://doi.org/10.64898/2026.10.13.758966)<br><sub>Ding, W., Lu, C., Li, Y. et al.</sub> | bioRxiv<br>2026-10-20 | Sequence design, Protein language models, Experimental validation |
+| 2 | [What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve](https://doi.org/10.64898/2026.10.19.760098)<br><sub>Vomo-Donfack, K. L., Aberbache, M., Cantez, A. et al.</sub> | bioRxiv<br>2026-10-20 | Structure generation, Protein language models, Binders and therapeutics |
+| 3 | [A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data](https://doi.org/10.64898/2026.10.19.759856)<br><sub>Ruiz Espi, D., Avelar Molina, G., Sonne Buch, O. et al.</sub> | bioRxiv<br>2026-10-20 | Sequence design, Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 60 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 21 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 61 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 23 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 76 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
@@ -31,8 +32,9 @@ Updated: **2026-10-20** (`2026-10-20T04:59:55Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (60)
+#### Structure Generation / 结构生成 (61)
 
+- [What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve](https://doi.org/10.64898/2026.10.19.760098) (bioRxiv, 2026-10-20; first seen 2026-10-21; Structure generation, Protein language models, Binders and therapeutics)
 - [recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models](http://arxiv.org/abs/2610.26747v1) (arXiv, 2026-10-19; first seen 2026-10-20; Structure generation, Sequence design, Protein language models)
 - [Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions](https://linkinghub.elsevier.com/retrieve/pii/S0893608026012256) (Neural Networks, 2026-10; first seen 2026-10-18; Structure generation)
 - [Protein Deimmunization with a Generative Diffusion Model](https://doi.org/10.64898/2026.10.09.758136) (bioRxiv, 2026-10-16; first seen 2026-10-17; Structure generation, Binders and therapeutics, Enzymes and function)
@@ -95,8 +97,10 @@ Updated: **2026-10-20** (`2026-10-20T04:59:55Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (21)
+#### Sequence Design / 序列设计 (23)
 
+- [Decision benchmarking reveals when protein foundation models add experimental value](https://doi.org/10.64898/2026.10.13.758966) (bioRxiv, 2026-10-20; first seen 2026-10-21; Sequence design, Protein language models, Experimental validation)
+- [A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data](https://doi.org/10.64898/2026.10.19.759856) (bioRxiv, 2026-10-20; first seen 2026-10-21; Sequence design, Binders and therapeutics)
 - [Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593) (Bioinformatics, 2026-10-16; first seen 2026-10-17; Sequence design, Protein language models)
 - [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/) (PubMed, 2026 Oct 06; first seen 2026-10-07; Sequence design, Binders and therapeutics, Experimental validation)
 - [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with) (Journal of Chemical Information and Modeling, 2026-10-01; first seen 2026-10-02; Sequence design, Protein language models, Enzymes and function, Experimental validation)
@@ -305,7 +309,7 @@ Updated: **2026-10-20** (`2026-10-20T04:59:55Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-20](outputs/daily/2026-10-20.md)
+- [Daily report for 2026-10-21](outputs/daily/2026-10-21.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
