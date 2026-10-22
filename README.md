@@ -7,15 +7,13 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
+Updated: **2026-10-22** (`2026-10-22T05:00:47Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Decision benchmarking reveals when protein foundation models add experimental value](https://doi.org/10.64898/2026.10.13.758966)<br><sub>Ding, W., Lu, C., Li, Y. et al.</sub> | bioRxiv<br>2026-10-20 | Sequence design, Protein language models, Experimental validation |
-| 2 | [What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve](https://doi.org/10.64898/2026.10.19.760098)<br><sub>Vomo-Donfack, K. L., Aberbache, M., Cantez, A. et al.</sub> | bioRxiv<br>2026-10-20 | Structure generation, Protein language models, Binders and therapeutics |
-| 3 | [A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data](https://doi.org/10.64898/2026.10.19.759856)<br><sub>Ruiz Espi, D., Avelar Molina, G., Sonne Buch, O. et al.</sub> | bioRxiv<br>2026-10-20 | Sequence design, Binders and therapeutics |
+| 1 | [Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior](https://doi.org/10.64898/2026.10.15.759522)<br><sub>Babu, D., Pandurangan, S., Agilisium Consulting,</sub> | bioRxiv<br>2026-10-21 | Protein language models, Binders and therapeutics, Experimental validation |
 
 ### Paper Directory / 文献目录
 
@@ -23,7 +21,7 @@ Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 61 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 23 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 76 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 77 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -124,8 +122,9 @@ Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (76)
+#### Protein Language Models / 蛋白质语言模型 (77)
 
+- [Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior](https://doi.org/10.64898/2026.10.15.759522) (bioRxiv, 2026-10-21; first seen 2026-10-22; Protein language models, Binders and therapeutics, Experimental validation)
 - [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748) (Biochemical Engineering Journal, 2027-01; first seen 2026-10-19; Protein language models, Binders and therapeutics)
 - [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741) (bioRxiv, 2026-10-15; first seen 2026-10-16; Protein language models, Binders and therapeutics, Experimental validation)
 - [CHORUS: A proteome-scale atlas of membrane interaction interfaces constructed using cross-protein language model embeddings from sequences alone](https://doi.org/10.64898/2026.10.04.756538) (bioRxiv, 2026-10-11; first seen 2026-10-12; Protein language models, Binders and therapeutics, Experimental validation)
@@ -168,7 +167,7 @@ Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
 - [BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.](https://pubmed.ncbi.nlm.nih.gov/42729647/) (PubMed, 2026 01 01; first seen 2026-09-13; Protein language models, Binders and therapeutics)
 - [ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling](https://doi.org/10.64898/2026.03.17.712034) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models)
 - [De novo Rubisco design with protein language models](https://doi.org/10.64898/2026.09.04.749267) (bioRxiv, 2026-09-09; first seen 2026-09-10; Protein language models, Enzymes and function, Experimental validation)
-- [NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.](https://pubmed.ncbi.nlm.nih.gov/42721858/) (PubMed, 2026 Sep 09; first seen 2026-09-10; Protein language models, Binders and therapeutics)
+- [NeoGen-BC: A synergistic framework combining generative protein language models and multi-window deep learning for designing shared neoantigens in breast cancer.](https://pubmed.ncbi.nlm.nih.gov/42721858/) (PubMed, 2026 Oct 22; first seen 2026-09-10; Protein language models, Binders and therapeutics)
 - [Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models](https://www.nature.com/articles/s42003-026-10725-8) (Commun Biol, 2026-09-08; first seen 2026-09-09; Protein language models)
 - [ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification](https://doi.org/10.64898/2026.04.03.716278) (bioRxiv, 2026-09-08; first seen 2026-09-09; Protein language models)
 - [AtlasFold: Protein structure prediction with metagenomic-scale language models](https://doi.org/10.64898/2026.09.04.749352) (bioRxiv, 2026-09-07; first seen 2026-09-09; Protein language models, Binders and therapeutics)
@@ -309,7 +308,7 @@ Updated: **2026-10-21** (`2026-10-21T04:59:08Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-21](outputs/daily/2026-10-21.md)
+- [Daily report for 2026-10-22](outputs/daily/2026-10-22.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

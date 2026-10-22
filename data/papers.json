@@ -961,7 +961,7 @@
       ],
       "doi": "10.1016/j.bbrc.2026.154567",
       "first_seen": "2026-09-10",
-      "published": "2026 Sep 09",
+      "published": "2026 Oct 22",
       "reasons": [
         "protein language model",
         "deep learning",
@@ -7140,6 +7140,34 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.13.758966"
+    },
+    "doi:10.64898/2026.10.15.759522": {
+      "abstract": "Mapping which antigen residues an antibody contacts (the epitope) and which antibody residues do the contacting (the paratope) is central to therapeutic antibody engineering, yet most accurate methods require a solved or predicted three dimensional complex. We address a sequence only formulation: predict the HER2 epitope and the single domain antibody (VHH, or nanobody) paratope from the two sequences alone, with no three dimensional structure prediction at any stage. We pair a frozen ESM2 650M protein language model, used strictly as a feature extractor, with a lightweight trainable module per chain encoders, a shared cross attention block, and epitope, paratope and binder heads (12.2M trainable parameters) trained jointly on three public sources: HER2 binding and blocking competition assays (\"AVIDa hHER2\" to be published by organizers of SEPIQ 2026 The authors have no right to share the dataset to public ), residue level antibody antigen contacts (SAbDab2), and two reference antibody crystal structures. The blocking competition signal is de confounded into a trastuzumab minus pertuzumab contrast whose sign encodes the HER2 domain and which is used only as a training target, never as a model input. Under a three way, sequence cluster level split with a test set opened exactly once, the binder head reaches PR AUC 0.999 and the paratope head 0.659, while residue level epitope prediction on novel antigens remains near baseline (0.070) a limitation the sealed split exposes rather than hides. Sequence alone recovers the competition derived HER2 domain (the competitor class) for 87.7% of held out clones, a leakage free result. For HER2 specifically, a residue prior built from 25 mined HER2 antibody complexes and validated by leave one out reaches 0.26 to 0.29 residue PR AUC once the domain is correct, roughly 3.6 times the language model head alone. We release and report two submission variants per test clone, a fully sequence only prediction and a competition informed one ,and document which data were used where. Keywords: epitope prediction; paratope prediction; nanobody; VHH; HER2; protein language model; ESM2; cross attention; antibody antigen interface; leakage safe evaluation.",
+      "authors": [
+        "Babu, D.",
+        "Pandurangan, S.",
+        "Agilisium Consulting,"
+      ],
+      "doi": "10.64898/2026.10.15.759522",
+      "first_seen": "2026-10-22",
+      "published": "2026-10-21",
+      "reasons": [
+        "protein language model",
+        "structure prediction",
+        "protein",
+        "antibody",
+        "binding",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.15.759522",
+      "title": "Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.15.759522"
     },
     "doi:10.64898/2026.10.19.757941": {
       "abstract": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug prioritization remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved similar aggregate disease ranking performance to BANDOCK+, with differences among individual indications. These results support the evaluation of AF3 interaction confidence as a source of information for proteome scale drug prioritization.",

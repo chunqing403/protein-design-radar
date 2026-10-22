@@ -1572,6 +1572,12 @@
       "title": "Decision benchmarking reveals when protein foundation models add experimental value",
       "url": "https://doi.org/10.64898/2026.10.13.758966"
     },
+    "doi:10.64898/2026.10.15.759522": {
+      "first_seen": "2026-10-22",
+      "source": "bioRxiv",
+      "title": "Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior",
+      "url": "https://doi.org/10.64898/2026.10.15.759522"
+    },
     "doi:10.64898/2026.10.19.757941": {
       "first_seen": "2026-10-20",
       "source": "bioRxiv",
