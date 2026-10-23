@@ -1227,27 +1227,33 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42685697/"
     },
     "doi:10.1016/j.cels.2026.101714": {
-      "abstract": "",
+      "abstract": "Protein language models have emerged as powerful tools for learning rich protein representations, improving tasks like structure prediction, mutation effect estimation, and homology detection. Their ability to model complex sequence distributions also holds promise for designing novel, functional proteins with applications in therapeutics, materials, and sustainability. Given the vastness of sequence space, efficient exploration is essential. However, most existing design approaches rely on single-mutant sampling strategies borrowed from natural language processing, which fail to capture epistatic interactions critical for function. Here, we develop an in silico framework to systematically compare sampling methods and introduce several approaches tailored for protein design. We show that sampling multiple mutations simultaneously substantially outperforms single-mutant approaches by better capturing epistatic effects. We evaluate these strategies across three protein families spanning eukaryotic, prokaryotic, and viral origins, examine key hyperparameters, and validate our findings on a de novo binder design task against a major therapeutic target.",
       "authors": [
-        "Jeremie Theddy Darmawan",
-        "Yarin Gal",
-        "Pascal Notin"
+        "Darmawan JT",
+        "Gal Y",
+        "Notin P"
       ],
       "doi": "10.1016/j.cels.2026.101714",
       "first_seen": "2026-09-16",
-      "published": "2026-09",
+      "published": "2026 Oct 21",
       "reasons": [
         "protein design",
         "protein language model",
-        "protein"
+        "structure prediction",
+        "binder design",
+        "protein",
+        "mutation"
       ],
-      "source": "Cell Systems",
-      "source_id": "10.1016/j.cels.2026.101714",
-      "title": "Sampling protein language models for functional protein design",
+      "source": "PubMed",
+      "source_id": "42743923",
+      "title": "Sampling protein language models for functional protein design.",
       "topics": [
-        "Protein language models"
+        "Sequence design",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
       ],
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405471226001961"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42743923/"
     },
     "doi:10.1016/j.chroma.2026.467271": {
       "abstract": "Computational design has emerged as an important approach for the discovery of peptide ligands in development of affinity chromatography. However, fast and efficient identification of high-affinity and specific ligands is still challenging. Here an artificial intelligence (AI)-based strategy for affinity maturation was proposed for improving the binding affinity of peptide ligands of adeno‒associated virus (AAV). To target AAV receptor-binding region on AAV2 capsid, a de novo design method was applied in the development of peptide ligands and three candidate peptides were identified for affinity maturation. We then introduced a multimodal protein language model, ESM3, to guide peptides generation for the maturation of the binding affinity. After three rounds of docking simulations, a high-affinity peptide A4 with a dissociation constant of 3.8 μmol/L was obtained. Molecular dynamics simulation revealed that the binding of A4 was dominated by electrostatic interactions. By coupling A4 onto Sepharose 4 Fast Flow (Sep4FF) gels, Sep4FF‒A4 gels were synthesized and exhibited good selectivity and serotype specificity to AAV2. AAV2 was adsorbed effectively at pH6.0-8.0 and eluted mildly from the affinity column at 500 mmol/L NaCl. Finally, Sep4FF‒A4 chromatography was successfully used to purify AAV2 with a high transduction efficiency from HEK293 cell culture fluids, and it kept stable with AAV2 yields of 67.4-72.7%, DNA clearance ranging from 47.6-58.7% and HCP clearance ranging from 86.3-91.3% in 20 cycles.",
@@ -2320,6 +2326,34 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748"
+    },
+    "doi:10.1021/acs.bioconjchem.6c00309": {
+      "abstract": "Protein filaments, including silk, collagen, and amyloids, are natural building blocks whose hierarchical self-assembly produces adaptive mechanics and diverse functions. Conventional protein engineering has had limited success in resolving sequence-structure-function relationships across length scales. Recent advances in artificial intelligence (AI) now provide a framework for physics-informed multiscale design, from molecular motifs to functional macroscopic architectures. Machine-learning models can encode biophysical principles and guide the generation of protein-based materials. When combined with high-throughput experimentation, generative AI can integrate sequence design, structure prediction, and functional validation into closed-loop workflows. These workflows can accelerate the development of programmable biomaterials. This review summarizes AI-driven advances in protein-based materials and emerging links with autonomous robotics.",
+      "authors": [
+        "Zhou X",
+        "Zhao C",
+        "Zhang Q",
+        "Yao Y"
+      ],
+      "doi": "10.1021/acs.bioconjchem.6c00309",
+      "first_seen": "2026-10-23",
+      "published": "2026 Oct 21",
+      "reasons": [
+        "protein engineering",
+        "structure prediction",
+        "AI-driven",
+        "artificial intelligence",
+        "sequence design",
+        "protein"
+      ],
+      "source": "PubMed",
+      "source_id": "42902938",
+      "title": "Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42902938/"
     },
     "doi:10.1021/acs.jafc.6c04272": {
       "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
@@ -4786,6 +4820,35 @@
       ],
       "url": "https://doi.org/10.1101/2025.06.30.662286"
     },
+    "doi:10.1101/2025.07.01.662578": {
+      "abstract": "It is often useful, in the field of molecular evolution, to identify the selective pressures acting on a particular site of a protein to better understand its function. This is typically done with likelihood-based approaches applied to codon sequences in a phylogenetic context. However, these approaches are computationally costly. Here we adapt a linear transformer neural network architecture, which has been shown to be able to reconstruct accurate pairwise distances from sequence alignments, to identify selective pressures acting on individual amino acid sites, in the mutation-selection framework. We design different versions of the architecture and train and test them on simulations. We compare the results of one of our models to state-of-the-art likelihood-based methods and find that it outperforms them when it is applied to data that resemble its training data. Its performance decreases however when it is applied to datasets simulated with different parameter values. In all cases, our approach operates at a fraction of the computational cost of likelihood-based methods. These results suggest that such a neural network architecture can compare very favorably to state-of-the-art approaches to characterize selection pressures acting on coding sequences, but that it must be trained on datasets representative of empirical data.",
+      "authors": [
+        "Bergiron, E.",
+        "Nesterenko, L.",
+        "Barnier, J.",
+        "Veber, P.",
+        "Boussau, B."
+      ],
+      "doi": "10.1101/2025.07.01.662578",
+      "first_seen": "2026-10-23",
+      "published": "2026-10-22",
+      "reasons": [
+        "deep learning",
+        "transformer",
+        "protein",
+        "mutation",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.07.01.662578",
+      "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.1101/2025.07.01.662578"
+    },
     "doi:10.1101/2025.08.18.670751": {
       "abstract": "The rise of multidrug-resistant bacterial infections necessitates the discovery of novel antimicrobial strategies. Here, we show that protein design provides a generalizable means of generating new antimicrobials by neutralizing the function of bacterial adhesins, which are virulence factors critical in host-pathogen interactions. We de novo designed high-affinity miniprotein binders to FimH and Abp chaperone usher pili adhesins from uropathogenic Escherichia coli and Acinetobacter baumannii, respectively, which are implicated in mediating both uncomplicated and catheter-associated urinary tract infections (UTI) responsible for significant morbidity worldwide. The designed antagonists have high specificity and stability, disrupt bacterial recognition of host receptors, block biofilm formation, and are effective in treating and preventing murine models of uncomplicated and catheter- associated UTIs in vivo.",
       "authors": [
@@ -5390,6 +5453,38 @@
         "Binders and therapeutics"
       ],
       "url": "https://doi.org/10.64898/2026.04.03.716280"
+    },
+    "doi:10.64898/2026.04.29.721692": {
+      "abstract": "Protein dynamics captures the interactions between residues and the conformational changes they undergo. Encoding such information could enhance a deep learning model's ability to predict protein properties. Here we introduce a dynamics-aware protein language model (DPLM) that encodes protein dynamics into a sequence-derived representation. We represent each molecular dynamics (MD) trajectory as a sequence of backbone C contact maps and encode it with a Video Vision Transformer (ViViT). We then align the ViViT-derived dynamics embedding with the ESM2-derived sequence embedding using dual-view contrastive learning. The root-mean-square fluctuation correlation and dynamic cross-correlation matrix reconstruction confirm that contrastive learning incorporates dynamics information into the sequence embedding. We applied DPLM as a protein representation backbone for predicting diverse dynamics-related downstream tasks, including liquid-liquid phase separation, cryptic-site detection, and mutation effect on protein thermal stability. DPLM shows strong performance, especially where the evolutionary or structural signal is weak. These results show that learning the geometry of molecular motion yields transferable dynamic information that complements the evolutionary and structural features of existing PLMs.",
+      "authors": [
+        "Jiang, Y.",
+        "Wang, D.",
+        "Ihoeghian, N.",
+        "Imam, I. A.",
+        "Chen, J.",
+        "Xu, D.",
+        "Shao, Q."
+      ],
+      "doi": "10.64898/2026.04.29.721692",
+      "first_seen": "2026-10-23",
+      "published": "2026-10-22",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "stability",
+        "transformer",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.04.29.721692",
+      "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.04.29.721692"
     },
     "doi:10.64898/2026.06.22.733733": {
       "abstract": "While most existing methods are limited to predicting the tertiary structures of proteins containing only canonical residues, the PEPstrMOD server (developed in 2015) pioneered structure prediction for chemically modified and non-natural peptides. Despite its widespread use, the original framework was restricted to peptides of 7 to 25 residues and relied on older backbone-prediction algorithms. To address these limitations, we present PEPstrMOD2, which introduces three major advancements over its predecessor. First, it replaces the original in-house coordinate generation with state-of-the-art deep learning (DL) algorithms, leveraging AlphaFold2 and ESMFold for highly accurate initial structure prediction. Secondly, it greatly expands the accessible chemical space through incorporation of new, AMBER force-field compatible library of 257 post-translational modifications (PTMs), 428 non-canonical amino acids (NCAAs), and 243 terminal modifications. Lastly, through the application of native scalability of AlphaFold2 (AF2) and ESMFold (EF), PEPstrMOD2 eliminates the original restrictions of the length, enabling the structural modeling of longer, complex therapeutic peptides and small proteins. We evaluated the performance of PEPstrMOD2 against state-of-the-art methods across three distinct peptide datasets. For the AfCyc dataset consisting of 80 cyclic peptides, PEPstrMOD2 obtained a competitive average atom-level Root Mean Square Deviation (RMSD) of 2.05 [A], compared to 1.13 [A] by AlphaFold3 (AF3) and 1.82 [A] by AfCycDesign. Remarkably, for the modified peptide ModPep433 dataset, PEPstrMOD2 outperformed AF3, achieving the lower average RMSD score of 4.49 [A] against 4.67 [A] of AF3. Furthermore, in the case of the ModPep16 benchmark, PEPstrMOD2 achieved 2.50 [A] average RMSD value, which is two times more accurate than that of the original PEPstrMOD (5.84 [A]). In summary, PEPstrMOD2 provides a powerful, high-throughput, and highly accurate platform to facilitate peptide-based drug development and structural biology research. While the original PEPstrMOD was restricted to a web server interface, PEPstrMOD2 is available as both an intuitive webserver and a standalone command-line tool via GitHub, featuring Docker support for easy deployment and reproducible, large-scale modeling pipelines (https://webs.iiitd.edu.in/raghava/pepstrmod/). HighlightsO_LIPEPstrMOD2 predicts structures of chemically modified peptides using deep learning and molecular dynamics refinement. C_LIO_LISupports 928 chemical modifications through custom AMBER based force-field libraries including PTMs, NCAAs, terminal, D- as well as cyclic modifications. C_LIO_LIRemoves peptide length restrictions through AlphaFold2 and ESMFold integration. C_LIO_LIOutperforms PEPstrMOD and is competitive with AF3 on different benchmark datasets. C_LIO_LIAvailable as both a web server and a standalone platform via GitHub and Docker. C_LI",
@@ -7169,8 +7264,38 @@
       ],
       "url": "https://doi.org/10.64898/2026.10.15.759522"
     },
+    "doi:10.64898/2026.10.16.759664": {
+      "abstract": "Proteins are complex macromolecules that drive functionality in cells across all life on Earth. Protein engineering and AI-based designs facilitate exploration of the vast search space. Herein, we explore and compare mutagenic methodologies in combination with fast and efficient phenotypic evaluation of a pink fluorophore (Magenta) to map protein search space and inform AI-based designer algorithms. We binned mutated variants as neutral, deleterious, or catastrophic based on the observed phenotype and fitness measurement (relative fluorescent units, RFUs). Importantly, we found that for a given fluorophore, about 80% of random mutations were deleterious for the artificially selected phenotype resulting in decreased fitness, 20% were neutral mutations, and 0.8% enhanced the artificially selected phenotype. Using error prone PCR (epPCR), we were able to identify four candidates in the first round and one candidate in the second round of epPCR for enhanced fluorescence and in toto enhanced RFUs by 35% after two rounds of epPCR. We compared these rates of true positive enhanced RFU generated sequences against a state of the art evolutionary algorithm approach and found that biological computation beats it in its current state. We conclude with suggestions for key improvements to enhance algorithm performance in the future. Taken together, we demonstrated that iterative rounds of variant prediction improved our algorithm, and our study can serve as a reference point for future AI driven modeling studies in red fluorescent protein engineering.",
+      "authors": [
+        "Ramamoorthy, S.",
+        "Browning, R.",
+        "Brandt, J.",
+        "Tisdale, K.",
+        "Schultz, A.",
+        "Dalinger, M. V. L.",
+        "Hengartner, N.",
+        "Tauritz, D. R.",
+        "Beckmann, J. F."
+      ],
+      "doi": "10.64898/2026.10.16.759664",
+      "first_seen": "2026-10-23",
+      "published": "2026-10-22",
+      "reasons": [
+        "protein engineering",
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.16.759664",
+      "title": "Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.16.759664"
+    },
     "doi:10.64898/2026.10.19.757941": {
-      "abstract": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug prioritization remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved similar aggregate disease ranking performance to BANDOCK+, with differences among individual indications. These results support the evaluation of AF3 interaction confidence as a source of information for proteome scale drug prioritization.",
+      "abstract": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug discovery remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved slightly higher observed aggregate disease ranking scores in a matched 1,103 protein comparison, with performance varying among individual indications. BANDOCK+ enabled substantially broader protein coverage using a computationally less demanding approach, including a 20,158 protein reference library. These findings highlight the potential of AF3 confidence scores for computational drug discovery and the tradeoffs between predictive performance and scalability.",
       "authors": [
         "Akabari, R.",
         "Mangione, W.",
@@ -7179,14 +7304,14 @@
       ],
       "doi": "10.64898/2026.10.19.757941",
       "first_seen": "2026-10-20",
-      "published": "2026-10-19",
+      "published": "2026-10-22",
       "reasons": [
         "AlphaFold",
         "protein"
       ],
       "source": "bioRxiv",
       "source_id": "10.64898/2026.10.19.757941",
-      "title": "Proteome scale drug prioritization from AlphaFold 3 interaction confidence",
+      "title": "How AlphaFold 3 helps with multiscale drug discovery",
       "topics": [
         "General"
       ],

@@ -546,6 +546,12 @@
       "title": "PA-311 Multicentric Evaluation of SPIRIT IT: Artificial Intelligence to Detect and Characterize M-Protein",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2152265026036748"
     },
+    "doi:10.1021/acs.bioconjchem.6c00309": {
+      "first_seen": "2026-10-23",
+      "source": "PubMed",
+      "title": "Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42902938/"
+    },
     "doi:10.1021/acs.jafc.5c13640": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -1104,6 +1110,12 @@
       "title": "Rapid Assessment of Size, Shape, and Chemical Complementarity of Ligands for Computational Protein Design",
       "url": "https://doi.org/10.1101/2025.06.30.662286"
     },
+    "doi:10.1101/2025.07.01.662578": {
+      "first_seen": "2026-10-23",
+      "source": "bioRxiv",
+      "title": "Characterization of selective pressures acting on protein sites with Deep Learning",
+      "url": "https://doi.org/10.1101/2025.07.01.662578"
+    },
     "doi:10.1101/2025.08.18.670751": {
       "first_seen": "2026-09-17",
       "source": "bioRxiv",
@@ -1235,6 +1247,12 @@
       "source": "bioRxiv",
       "title": "A geometry-over-coevolution principle governs protein complex assembly in AlphaFold",
       "url": "https://doi.org/10.64898/2026.04.03.716280"
+    },
+    "doi:10.64898/2026.04.29.721692": {
+      "first_seen": "2026-10-23",
+      "source": "bioRxiv",
+      "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
+      "url": "https://doi.org/10.64898/2026.04.29.721692"
     },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
@@ -1577,6 +1595,12 @@
       "source": "bioRxiv",
       "title": "Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior",
       "url": "https://doi.org/10.64898/2026.10.15.759522"
+    },
+    "doi:10.64898/2026.10.16.759664": {
+      "first_seen": "2026-10-23",
+      "source": "bioRxiv",
+      "title": "Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs",
+      "url": "https://doi.org/10.64898/2026.10.16.759664"
     },
     "doi:10.64898/2026.10.19.757941": {
       "first_seen": "2026-10-20",
