@@ -7,16 +7,16 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
+Updated: **2026-10-24** (`2026-10-24T04:46:41Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Characterization of selective pressures acting on protein sites with Deep Learning](https://doi.org/10.1101/2025.07.01.662578)<br><sub>Bergiron, E., Nesterenko, L., Barnier, J. et al.</sub> | bioRxiv<br>2026-10-22 | Sequence design, Protein language models, Enzymes and function |
-| 2 | [Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs](https://doi.org/10.64898/2026.10.16.759664)<br><sub>Ramamoorthy, S., Browning, R., Brandt, J. et al.</sub> | bioRxiv<br>2026-10-22 | Sequence design, Enzymes and function |
-| 3 | [DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory](https://doi.org/10.64898/2026.04.29.721692)<br><sub>Jiang, Y., Wang, D., Ihoeghian, N. et al.</sub> | bioRxiv<br>2026-10-22 | Structure generation, Sequence design, Protein language models |
-| 4 | [Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.](https://pubmed.ncbi.nlm.nih.gov/42902938/)<br><sub>Zhou X, Zhao C, Zhang Q et al.</sub> | PubMed<br>2026 Oct 21 | Sequence design, Enzymes and function |
+| 1 | [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034)<br><sub>Ta I. Hung, Raghu Venkatesan, Chia-en A. Chang</sub> | Current Opinion in Structural Biology<br>2027-02 | General |
+| 2 | [HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention)<br><sub>Ngai Hei Ernest Ho, Chao Tung Yang, I-Son Ng et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-23 | Protein language models |
+| 3 | [In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation](https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357)<br><sub>Jindong Liu, Sibo Huang, Xi Gao et al.</sub> | Future Foods<br>2026-10 | Binders and therapeutics, Experimental validation |
+| 4 | [Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217)<br><sub>E. Bouallegue, M. Barbirou, A. Krir et al.</sub> | Clinica Chimica Acta<br>2026-10 | General |
 
 ### Paper Directory / 文献目录
 
@@ -24,11 +24,11 @@ Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 62 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 76 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 43 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 77 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 44 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 30 |
+| [General / 综合](#paper-category-general) | 32 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -130,8 +130,9 @@ Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (76)
+#### Protein Language Models / 蛋白质语言模型 (77)
 
+- [HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention) (Journal of Chemical Information and Modeling, 2026-10-23; first seen 2026-10-24; Protein language models)
 - [Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior](https://doi.org/10.64898/2026.10.15.759522) (bioRxiv, 2026-10-21; first seen 2026-10-22; Protein language models, Binders and therapeutics, Experimental validation)
 - [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748) (Biochemical Engineering Journal, 2027-01; first seen 2026-10-19; Protein language models, Binders and therapeutics)
 - [NoiTox: A Machine Learning Strategy for Peptide Toxicity Prediction Reveals Label Noise in Benchmark Datasets](https://doi.org/10.64898/2026.10.08.757741) (bioRxiv, 2026-10-15; first seen 2026-10-16; Protein language models, Binders and therapeutics, Experimental validation)
@@ -210,8 +211,9 @@ Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (43)
+#### Binders & Therapeutics / 结合蛋白与治疗 (44)
 
+- [In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation](https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357) (Future Foods, 2026-10; first seen 2026-10-24; Binders and therapeutics, Experimental validation)
 - [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942) (bioRxiv, 2026-10-14; first seen 2026-10-16; Binders and therapeutics, Enzymes and function)
 - [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789) (bioRxiv, 2026-10-14; first seen 2026-10-15; Binders and therapeutics)
 - [Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies](https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337) (iScience, 2026-11; first seen 2026-10-13; Binders and therapeutics)
@@ -280,8 +282,10 @@ Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (30)
+#### General / 综合 (32)
 
+- [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-24; General)
+- [Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217) (Clinica Chimica Acta, 2026-10; first seen 2026-10-24; General)
 - [How AlphaFold 3 helps with multiscale drug discovery](https://doi.org/10.64898/2026.10.19.757941) (bioRxiv, 2026-10-22; first seen 2026-10-20; General)
 - [De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins](https://www.nature.com/articles/s41538-026-01202-x) (npj Sci Food, 2026-10-17; first seen 2026-10-18; General)
 - [Hybrid modeling for improved structure prediction of large protein complexes](https://www.nature.com/articles/s43588-026-01067-w) (Nat Comput Sci, 2026-10-15; first seen 2026-10-16; General)
@@ -315,7 +319,7 @@ Updated: **2026-10-23** (`2026-10-23T05:03:37Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-23](outputs/daily/2026-10-23.md)
+- [Daily report for 2026-10-24](outputs/daily/2026-10-24.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

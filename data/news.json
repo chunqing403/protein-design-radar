@@ -340,7 +340,7 @@
       "source": "Technology Networks",
       "summary": "AI Protein Watermarks Preserve Function in New Study Technology Networks",
       "title": "AI Protein Watermarks Preserve Function in New Study",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakpIVEdPejBvb2loWWt5bEVJQng3XzZ1YzV1QVhnai1NRjdDcUtNYmtTM2NWa051SERlUHktR2pHN29sZllhNjhob3k4UG9mdk1QR1drek5PSlNQYXNjZEpLMGhtTGF5cUk5M2dJWUdQc0FzZzI2QVlPY3pqdjhxWUE4R08tTi13c2trQXhNVVdHOXJuN19VNzNvNU00VVF6MHhhT09lNjZnY2NUdUFZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU3N6Z1lsZDAzNXRFUHFwQlpOaUN0SWx0UjNGb1ctbWVhLWpObXZ0UzdVcnhGYVctWmZibDRKTU9Tc1VSeVY4N0ZTc2ZZdHF1MzNjRlVEVkwxYlRuUE0xdVlLMmszTzR5bUZzb2JadUk3ZlkxNkFPZTBETGU5YVZxQWF2MUl1QWJiMVNuTHpUZ00xQlV6Zzh1b0I1dXBnWUszdTE5X2dzSWtreW9IUjdtbnFNWFMzUmgtVHJTZkJwSQ?oc=5"
     },
     "406147def0aeea6525f2d974f2bc0317ecbae138": {
       "category": "研究机构",
@@ -895,8 +895,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-16",
       "published": "2026-10-16",
-      "source": "36Kr",
-      "summary": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level 36Kr",
+      "source": "eu.36kr.com",
+      "summary": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level eu.36kr.com",
       "title": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CZjQzSC1ibHB3UVpNaGpmdUlqeVFPejRtbk5oMEZBaXNxajFBdjloUjM3SExlR3ozUUZMQVBCNlhHNW5idkZsZmlsNkhEaHdRR0J3?oc=5"
     },
@@ -1395,6 +1395,15 @@
       "title": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjR0E0Q0syNVlyQmNhblJYUmVxaWR4WUc2bTdpdFdOX2lmeGtTNGx1LVZnS3YtOEQxVFZMNHlrRmJobWRsamFEcTFmNVpxdldtbURZ?oc=5"
     },
+    "e2eced612a472aaa22a73276d23217294b3ce307": {
+      "category": "产业动态",
+      "first_seen": "2026-10-24",
+      "published": "2026-10-23",
+      "source": "Digital Health News",
+      "summary": "NVIDIA Expands Healthcare AI With Protein Design & Cancer Treatment Partnerships Digital Health News",
+      "title": "NVIDIA Expands Healthcare AI With Protein Design & Cancer Treatment Partnerships",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNanF5X09HMG1RdmhOTV96NjR6NHppTXRrRUNZYkdjajl5UHJoTU1JSXFwcnBhdTd1czZQeFJfQkhNYklhS3FKdGlWTU9wbUdTMUJfTkNwUWNJZmpoWjA0V2FYMGptUkNJVmFyRGhwR2pZX201aUo0ZDZldmM4VUw1RTZid0ZPWWw5MFphQ3l4NHk2Y1pKMUlBOXpsbkh4Zjd5N0djMDNpNmtNTE03S0VUTDNUalhlRkE?oc=5"
+    },
     "e77a163d2f107ac5911cd30dabaacfd6d70ad656": {
       "category": "产业动态",
       "first_seen": "2026-10-23",
@@ -1548,6 +1557,15 @@
       "title": "Novo & Anthropic: Partnering on Claude AI Drug Discovery",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNGQxSkU2cHFDRzdVRFZDQ2tyR2M1bTlWVklEbTIxcFU5QnpZMkJaVWVJOEJ4YXpFcS1Qblh0X25VSEpiVWY0aC1zQnlaMlpGMWRKcTZVdEFfQzl4UjlvMlUtZFN2NmR3V3RTVnVLT3BOQV9lSVQzWXFqTUlPay1ubEZGU3JFMC1vR1VBQ0hNT2N1WU0?oc=5"
     },
+    "fbb53744025382a1fc8a91ec95136578ccc480d5": {
+      "category": "产业动态",
+      "first_seen": "2026-10-24",
+      "published": "2026-10-21",
+      "source": "GeekWire",
+      "summary": "UW protein institute led by Nobel winner unveils its first AI model co-developed with Nvidia GeekWire",
+      "title": "UW protein institute led by Nobel winner unveils its first AI model co-developed with Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcU9kTmU4ZWhOak1LSThDZ1BWTHF1T2NLeE9kamcxaFEzYjlDVWI3SlB5bllNNnJoWnVQRlBEZUxnY3B0dzNDemRqUk55Wi0xRlVTZXdlTG1MZllnVC03MTBYR2JKZVpONDJmU08xOWhzVWJwbTQ3NUs0SWtiQUprMDZzXzNZX2VyelVBaDJRVUdjNURaZHNIRE1kM1FWcTdaUk9aOUprY2QzRk9LcXdBeTNuekVKNXpOXzdPb0lUQ3c?oc=5"
+    },
     "fd2071c8417c35fbb602b91b3cc0c4320ad47e3c": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -1576,5 +1594,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-23T05:03:40+00:00"
+  "updated_at": "2026-10-24T04:46:45+00:00"
 }

@@ -270,6 +270,12 @@
       "title": "What deep learning can and cannot (yet) do for enzyme design",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1367593126001195"
     },
+    "doi:10.1016/j.cca.2026.121539": {
+      "first_seen": "2026-10-24",
+      "source": "Clinica Chimica Acta",
+      "title": "Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217"
+    },
     "doi:10.1016/j.cclet.2026.113345": {
       "first_seen": "2026-08-27",
       "source": "Chinese Chemical Letters",
@@ -389,6 +395,12 @@
       "source": "Food Research International",
       "title": "SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396"
+    },
+    "doi:10.1016/j.fufo.2026.101235": {
+      "first_seen": "2026-10-24",
+      "source": "Future Foods",
+      "title": "In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
@@ -522,6 +534,12 @@
       "title": "Unraveling membrane protein conformational landscapes: Enhanced sampling, membrane regulation, and artificial intelligence–assisted simulation",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946"
     },
+    "doi:10.1016/j.sbi.2026.103421": {
+      "first_seen": "2026-10-24",
+      "source": "Current Opinion in Structural Biology",
+      "title": "Revealing protein structural transitions in the era of generative artificial intelligence",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034"
+    },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
       "source": "Cell Reports Physical Science",
@@ -611,6 +629,12 @@
       "source": "PubMed",
       "title": "EnerBridge-DPO: Energy-Aware Markov Bridge Inverse Folding for Protein Sequence Design.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
+    },
+    "doi:10.1021/acs.jcim.6c01844": {
+      "first_seen": "2026-10-24",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention"
     },
     "doi:10.1021/acs.jcim.6c01872": {
       "first_seen": "2026-09-18",

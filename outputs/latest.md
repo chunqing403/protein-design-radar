@@ -1,51 +1,45 @@
-# Protein Design Paper Radar - 2026-10-23
+# Protein Design Paper Radar - 2026-10-24
 
-Generated on 2026-10-23T05:03:37Z.
+Generated on 2026-10-24T04:46:41Z.
 
 Found 4 recommended papers.
 
 ## Highlights
 
-### 1. Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.
+### 1. HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3
 
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Oct 21
-- **Authors:** Zhou X, Zhao C, Zhang Q et al.
-- **Topics:** Sequence design, Enzymes and function
-- **Why it matched:** protein engineering, structure prediction, AI-driven, artificial intelligence, sequence design, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42902938/
-- **DOI:** 10.1021/acs.bioconjchem.6c00309
+- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-23
+- **Authors:** Ngai Hei Ernest Ho, Chao Tung Yang, I-Son Ng et al.
+- **Topics:** Protein language models
+- **Why it matched:** protein language model, structure prediction, de novo design, stability, protein, structure
+- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention
+- **DOI:** 10.1021/acs.jcim.6c01844
 
-Protein filaments, including silk, collagen, and amyloids, are natural building blocks whose hierarchical self-assembly produces adaptive mechanics and diverse functions. Conventional protein engineering has had limited success in resolving sequence-structure-function relationships across length scales. Recent advances in artificial intelligence (AI) now...
+Abstract Protein language models have achieved remarkable success in structure prediction and de novo design. However, their understanding of physical interactions remains limited. For structure-based models, we hypothesize that this limitation stems from the absence of explicit solvent modeling: water mediates hydrogen bonding, hydrophobic burial, and...
 
-### 2. DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory
+### 2. Revealing protein structural transitions in the era of generative artificial intelligence
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-22
-- **Authors:** Jiang, Y., Wang, D., Ihoeghian, N. et al.
-- **Topics:** Structure generation, Sequence design, Protein language models
-- **Why it matched:** protein language model, deep learning, stability, transformer, protein, mutation
-- **Link:** https://doi.org/10.64898/2026.04.29.721692
-- **DOI:** 10.64898/2026.04.29.721692
+- **Status:** NEW | **Source:** Current Opinion in Structural Biology | **Date:** 2027-02
+- **Authors:** Ta I. Hung, Raghu Venkatesan, Chia-en A. Chang
+- **Topics:** General
+- **Why it matched:** artificial intelligence, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034
+- **DOI:** 10.1016/j.sbi.2026.103421
 
-Protein dynamics captures the interactions between residues and the conformational changes they undergo. Encoding such information could enhance a deep learning model's ability to predict protein properties. Here we introduce a dynamics-aware protein language model (DPLM) that encodes protein dynamics into a sequence-derived representation. We represent...
+### 3. In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation
 
-### 3. Characterization of selective pressures acting on protein sites with Deep Learning
+- **Status:** NEW | **Source:** Future Foods | **Date:** 2026-10
+- **Authors:** Jindong Liu, Sibo Huang, Xi Gao et al.
+- **Topics:** Binders and therapeutics, Experimental validation
+- **Why it matched:** experimental validation, peptide
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357
+- **DOI:** 10.1016/j.fufo.2026.101235
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-22
-- **Authors:** Bergiron, E., Nesterenko, L., Barnier, J. et al.
-- **Topics:** Sequence design, Protein language models, Enzymes and function
-- **Why it matched:** deep learning, transformer, protein, mutation, sequence
-- **Link:** https://doi.org/10.1101/2025.07.01.662578
-- **DOI:** 10.1101/2025.07.01.662578
+### 4. Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence
 
-It is often useful, in the field of molecular evolution, to identify the selective pressures acting on a particular site of a protein to better understand its function. This is typically done with likelihood-based approaches applied to codon sequences in a phylogenetic context. However, these approaches are computationally costly. Here we adapt a linear...
-
-### 4. Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-22
-- **Authors:** Ramamoorthy, S., Browning, R., Brandt, J. et al.
-- **Topics:** Sequence design, Enzymes and function
-- **Why it matched:** protein engineering, artificial intelligence, protein
-- **Link:** https://doi.org/10.64898/2026.10.16.759664
-- **DOI:** 10.64898/2026.10.16.759664
-
-Proteins are complex macromolecules that drive functionality in cells across all life on Earth. Protein engineering and AI-based designs facilitate exploration of the vast search space. Herein, we explore and compare mutagenic methodologies in combination with fast and efficient phenotypic evaluation of a pink fluorophore (Magenta) to map protein search...
+- **Status:** NEW | **Source:** Clinica Chimica Acta | **Date:** 2026-10
+- **Authors:** E. Bouallegue, M. Barbirou, A. Krir et al.
+- **Topics:** General
+- **Why it matched:** artificial intelligence, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217
+- **DOI:** 10.1016/j.cca.2026.121539

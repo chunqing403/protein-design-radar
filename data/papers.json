@@ -1145,6 +1145,30 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42815447/"
     },
+    "doi:10.1016/j.cca.2026.121539": {
+      "abstract": "",
+      "authors": [
+        "E. Bouallegue",
+        "M. Barbirou",
+        "A. Krir",
+        "A. Bahlous",
+        "M. Mrad"
+      ],
+      "doi": "10.1016/j.cca.2026.121539",
+      "first_seen": "2026-10-24",
+      "published": "2026-10",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Clinica Chimica Acta",
+      "source_id": "10.1016/j.cca.2026.121539",
+      "title": "Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217"
+    },
     "doi:10.1016/j.cclet.2026.113345": {
       "abstract": "",
       "authors": [
@@ -1669,6 +1693,36 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396"
+    },
+    "doi:10.1016/j.fufo.2026.101235": {
+      "abstract": "",
+      "authors": [
+        "Jindong Liu",
+        "Sibo Huang",
+        "Xi Gao",
+        "Zubaidai Zikela",
+        "Liuying Li",
+        "Ting Yang",
+        "Keyu Jiang",
+        "Honghui Guo",
+        "Jindong Ni",
+        "Enqin Xia"
+      ],
+      "doi": "10.1016/j.fufo.2026.101235",
+      "first_seen": "2026-10-24",
+      "published": "2026-10",
+      "reasons": [
+        "experimental validation",
+        "peptide"
+      ],
+      "source": "Future Foods",
+      "source_id": "10.1016/j.fufo.2026.101235",
+      "title": "In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357"
     },
     "doi:10.1016/j.ijbiomac.2026.154380": {
       "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
@@ -2218,6 +2272,28 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26001946"
     },
+    "doi:10.1016/j.sbi.2026.103421": {
+      "abstract": "",
+      "authors": [
+        "Ta I. Hung",
+        "Raghu Venkatesan",
+        "Chia-en A. Chang"
+      ],
+      "doi": "10.1016/j.sbi.2026.103421",
+      "first_seen": "2026-10-24",
+      "published": "2027-02",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Current Opinion in Structural Biology",
+      "source_id": "10.1016/j.sbi.2026.103421",
+      "title": "Revealing protein structural transitions in the era of generative artificial intelligence",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034"
+    },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
       "authors": [
@@ -2623,6 +2699,33 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
+    },
+    "doi:10.1021/acs.jcim.6c01844": {
+      "abstract": "Abstract Protein language models have achieved remarkable success in structure prediction and de novo design. However, their understanding of physical interactions remains limited. For structure-based models, we hypothesize that this limitation stems from the absence of explicit solvent modeling: water mediates hydrogen bonding, hydrophobic burial, and electrostatic interactions that govern protein thermodynamics and kinetics, yet current structure-based models treat proteins as if they exist in a vacuum. Using thermophilic protein classification as a proxy task for force-field awareness, per-residue logit mis-correlated with H-bonds as a destabilizing attribute and exhibits significant solvent-accessible surface area (SASA)-dependent error, despite high overall classification accuracy. These artifacts point to the water–protein interface as a source of systematic bias. To address this, we propose HEIWA (HybridExplicit-Implicit Water Attention), a novel attention module that injects solvent-mediated force-field information into static ESM3 residue embeddings via an all-query-to-all-key water–residue attention. Biophysics-guided model selection identifies configurations whose residue-level outputs are more consistent with the RMSF benchmark and selected biophysical attributes, while classification performance remains broadly comparable to the baseline. By forcing the model to predict the protein thermophilicity from the contributions of individual residues, HEIWA learns biophysical patterns that can be extended to SUPFAM absent from the training data set. HEIWA also largely preserves the embedding structure of ESM3. Molecular dynamics simulations show improved kinetic stability under thermophilic conditions, suggesting the potential to generate structures with greater kinetic stability. To our knowledge, this is the first study to incorporate explicit solvent encoding into a residue-resolution protein language model.",
+      "authors": [
+        "Ngai Hei Ernest Ho",
+        "Chao Tung Yang",
+        "I-Son Ng",
+        "Jo-Shu Chang"
+      ],
+      "doi": "10.1021/acs.jcim.6c01844",
+      "first_seen": "2026-10-24",
+      "published": "2026-10-23",
+      "reasons": [
+        "protein language model",
+        "structure prediction",
+        "de novo design",
+        "stability",
+        "protein",
+        "structure"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c01844",
+      "title": "HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention"
     },
     "doi:10.1021/acs.jcim.6c01872": {
       "abstract": "Abstract Antioxidant peptides are emerging as promising therapeutic and nutraceutical agents because of their capacity to neutralize free radicals, modulate oxidative stress, and contribute to disease prevention in fields ranging from oncology to dermatology and food science. However, traditional computational approaches often fail to capture the biochemical semantics and evolutionary context of peptide sequences, limiting the predictive accuracy and mechanistic interpretability. Here, we present an explainable deep learning framework integrating evolutionary scale modeling (ESM) embeddings with a temporal convolutional network (TCN) and long short-term memory (LSTM) architecture to classify antioxidant peptides and uncover key sequence determinants of activity. ESM embeddings provide rich evolutionary and structural priors, enabling the model to capture both local k-mer motifs and global sequence dependencies. To ensure transparency, we employed a multimethod interpretability strategy using Anchor, LIME, and SHAP, which identified robust, potentially biologically meaningful hypotheses containing residues rich in cysteine (C), arginine (R), lysine (K), histidine (H), aspartic acid (D), glutamic acid (E), threonine (T), glutamine (Q), proline (P), methionine (M), tyrosine (Y), and tryptophan (W) as central to antioxidant activity. Anchor offered deterministic, high-precision motif rules, while LIME and SHAP highlighted redundant and context-dependent contributions, together forming a layered interpretability framework. This study not only achieves state-of-the-art classification performance but also bridges black-box modeling and biochemical understanding, offering a generalizable, hypothesis-generating platform for rational peptide design and discovery that is important in human health.",
