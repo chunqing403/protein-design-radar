@@ -7,24 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-24** (`2026-10-24T04:46:41Z`)
+Updated: **2026-10-25** (`2026-10-25T04:53:21Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034)<br><sub>Ta I. Hung, Raghu Venkatesan, Chia-en A. Chang</sub> | Current Opinion in Structural Biology<br>2027-02 | General |
-| 2 | [HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention)<br><sub>Ngai Hei Ernest Ho, Chao Tung Yang, I-Son Ng et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-23 | Protein language models |
-| 3 | [In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation](https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357)<br><sub>Jindong Liu, Sibo Huang, Xi Gao et al.</sub> | Future Foods<br>2026-10 | Binders and therapeutics, Experimental validation |
-| 4 | [Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217)<br><sub>E. Bouallegue, M. Barbirou, A. Krir et al.</sub> | Clinica Chimica Acta<br>2026-10 | General |
+| 1 | [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234)<br><sub>Shoaib, M., Ali, W.</sub> | bioRxiv<br>2026-10-24 | Protein language models |
+| 2 | [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y)<br><sub>Mingzhe Shen, Guy W. Dayhoff II, Daniel Kortzak et al.</sub> | Nat Commun<br>2026-10-24 | Protein language models, Enzymes and function |
+| 3 | [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/)<br><sub>Ma J, Yang H, Wang X et al.</sub> | PubMed<br>2026 Oct 25 | Structure generation, Protein language models, Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 62 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 63 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 77 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 79 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 44 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -33,8 +32,9 @@ Updated: **2026-10-24** (`2026-10-24T04:46:41Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (62)
+#### Structure Generation / 结构生成 (63)
 
+- [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/) (PubMed, 2026 Oct 25; first seen 2026-10-25; Structure generation, Protein language models, Binders and therapeutics)
 - [DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory](https://doi.org/10.64898/2026.04.29.721692) (bioRxiv, 2026-10-22; first seen 2026-10-23; Structure generation, Sequence design, Protein language models)
 - [What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve](https://doi.org/10.64898/2026.10.19.760098) (bioRxiv, 2026-10-20; first seen 2026-10-21; Structure generation, Protein language models, Binders and therapeutics)
 - [recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models](http://arxiv.org/abs/2610.26747v1) (arXiv, 2026-10-19; first seen 2026-10-20; Structure generation, Sequence design, Protein language models)
@@ -130,8 +130,10 @@ Updated: **2026-10-24** (`2026-10-24T04:46:41Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (77)
+#### Protein Language Models / 蛋白质语言模型 (79)
 
+- [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234) (bioRxiv, 2026-10-24; first seen 2026-10-25; Protein language models)
+- [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y) (Nat Commun, 2026-10-24; first seen 2026-10-25; Protein language models, Enzymes and function)
 - [HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention) (Journal of Chemical Information and Modeling, 2026-10-23; first seen 2026-10-24; Protein language models)
 - [Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior](https://doi.org/10.64898/2026.10.15.759522) (bioRxiv, 2026-10-21; first seen 2026-10-22; Protein language models, Binders and therapeutics, Experimental validation)
 - [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748) (Biochemical Engineering Journal, 2027-01; first seen 2026-10-19; Protein language models, Binders and therapeutics)
@@ -319,7 +321,7 @@ Updated: **2026-10-24** (`2026-10-24T04:46:41Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-24](outputs/daily/2026-10-24.md)
+- [Daily report for 2026-10-25](outputs/daily/2026-10-25.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

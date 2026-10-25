@@ -816,6 +816,12 @@
       "title": "De novo design of miniprotein inhibitors of bacterial adhesins",
       "url": "https://www.nature.com/articles/s41467-026-78123-6"
     },
+    "doi:10.1038/s41467-026-78406-y": {
+      "first_seen": "2026-10-25",
+      "source": "Nat Commun",
+      "title": "Predicting protein electrostatics with protein language models",
+      "url": "https://www.nature.com/articles/s41467-026-78406-y"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "first_seen": "2026-10-08",
       "source": "npj Sci Food",
@@ -1218,6 +1224,12 @@
       "title": "Evaluating Protein Language Model Embeddings for Viral Clade Assignment.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     },
+    "doi:10.13345/j.cjb.260422": {
+      "first_seen": "2026-10-25",
+      "source": "PubMed",
+      "title": "[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920233/"
+    },
     "doi:10.1371/journal.pbio.3004002": {
       "first_seen": "2026-09-22",
       "source": "PubMed",
@@ -1325,6 +1337,12 @@
       "source": "biorxiv",
       "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
       "url": "https://doi.org/10.64898/2026.08.02.742339"
+    },
+    "doi:10.64898/2026.08.26.747234": {
+      "first_seen": "2026-10-25",
+      "source": "bioRxiv",
+      "title": "Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence",
+      "url": "https://doi.org/10.64898/2026.08.26.747234"
     },
     "doi:10.64898/2026.08.28.747942": {
       "first_seen": "2026-10-16",

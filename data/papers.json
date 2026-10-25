@@ -3574,6 +3574,34 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-78123-6"
     },
+    "doi:10.1038/s41467-026-78406-y": {
+      "abstract": "Abstract Ionization states are crucial to protein function, yet predicting their equilibrium constants remains challenging. Here we present KaML-ESMs, sequence-based neural networks built on the ESM protein language models and trained on the GAINES-augmented PKAD-3r dataset. KaML-ESM2/ESMC outperform alternative approaches across four benchmarks, achieving root-mean-square errors of about 0.5 units for Asp/Glu/His/Cys/Tyr/Lys residues in native proteins. Performance degrades on 89 buried engineered mutations lacking evolutionary support, revealing a limitation that supervised training may help overcome. These results suggest that protein sequence, through its evolutionary context, encodes not only structure and function but also, indirectly, electrostatic characteristics. Applying KaML-ESM2 to the entire human proteome, we show that predicted p K a values can identify functional sites and infer catalytic mechanisms. We offer KaML, a sequence-based p K a prediction platform supporting biological exploration, protein engineering, and biomolecular simulation. With further development, GAINES could provide a general framework for addressing data scarcity in machine learning.",
+      "authors": [
+        "Mingzhe Shen",
+        "Guy W. Dayhoff II",
+        "Daniel Kortzak",
+        "Jana Shen"
+      ],
+      "doi": "10.1038/s41467-026-78406-y",
+      "first_seen": "2026-10-25",
+      "published": "2026-10-24",
+      "reasons": [
+        "protein engineering",
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-78406-y",
+      "title": "Predicting protein electrostatics with protein language models",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-78406-y"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "abstract": "",
       "authors": [
@@ -5292,6 +5320,36 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42011844/"
     },
+    "doi:10.13345/j.cjb.260422": {
+      "abstract": "Major histocompatibility complex class I (MHC I) molecules initiate CD8+ T cell immune responses by presenting antigenic peptides, a process fundamentally governed by the spatial interaction network mediated by multi-residue synergy between the binding groove and the peptide. Accurate modeling of this mechanism is crucial for tumor neoantigen screening and personalized immunotherapy. However, existing methods are largely confined to sequence-level modeling, failing to capture cross-residue higher-order structural dependencies and fine-grained binding interface interactions. To address these challenges, we propose pMHCBind, a prediction model that integrates a protein language model with a hypergraph neural network. The model employs ESM-MSA-1b and ESM-2 to extract evolution-aware residue-level embeddings for MHC I molecules and antigenic peptides, respectively, and constructs a peptide-specific hypergraph based on spatial contact relationships to model higher-order interactions via hypergraph convolution. Subsequently, cross-molecular feature fusion is employed to characterize the interaction patterns on the binding interface for presentation ability prediction. In five-fold cross-validation on the NetMHCpan-4.1 benchmark dataset and the test performance on the Anthem independent test dataset, pMHCBind consistently outperforms a variety of state-of-the-art methods across multiple metrics, including the area under receiver operating characteristic curve (AUC) and area under the precision-recall curve (AUPR). Furthermore, interpretability analysis reveals that the model effectively identifies key interaction modes, such as hydrogen bonds, salt bridges, and hydrophobic interactions, between the binding groove and the peptide, demonstrating strong structural interpretability. Collectively, pMHCBind provides a promising and biologically interpretable computational tool for neoantigen recognition in precision cancer immunotherapy. 主要组织相容性复合体I类分子(major histocompatibility complex class I, MHC I)通过呈递抗原肽激活CD8+ T细胞免疫应答，其结合槽与抗原肽之间的多位点残基协同互作决定了抗原呈递的特异性。准确刻画这一互作过程对于肿瘤新抗原筛选和个体化免疫治疗至关重要。然而，现有预测方法多基于序列信息建模，难以充分表征结合过程中复杂的高阶结构依赖及跨分子残基互作。为此，本文提出融合蛋白质大语言模型与超图神经网络的MHC I-抗原肽互作预测模型pMHCBind。该模型利用ESM-MSA-1b与ESM-2分别提取MHC分子与抗原肽的残基级表示，并基于空间接触关系构建抗原肽超图，通过超图卷积建模残基间高阶关联;随后融合MHC与抗原肽特征，刻画结合界面的互作模式，实现抗原呈递能力预测。在NetMHCpan-4.1基准数据集的五折交叉验证以及Anthem独立测试集上的实验结果表明，pMHCBind在受试者工作特征曲线下面积(area under the receiver operating characteristic curve, AUC)、精确率-召回率曲线下面积(area under the precision-recall curve, AUPR)等评价指标上均优于多种主流方法。可解释性分析进一步表明，该模型能够有效识别结合槽与抗原肽之间的氢键、盐桥及疏水相互作用等关键结合模式，展现出良好的结构解析能力。综上，pMHCBind能够兼顾预测性能与生物学可解释性，可为精准肿瘤免疫治疗中的新抗原筛选提供有效的计算工具。.",
+      "authors": [
+        "Ma J",
+        "Yang H",
+        "Wang X",
+        "Zhang Y",
+        "Zheng Y"
+      ],
+      "doi": "10.13345/j.cjb.260422",
+      "first_seen": "2026-10-25",
+      "published": "2026 Oct 25",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "graph neural network",
+        "protein",
+        "peptide",
+        "binding"
+      ],
+      "source": "PubMed",
+      "source_id": "42920233",
+      "title": "[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920233/"
+    },
     "doi:10.1371/journal.pbio.3004002": {
       "abstract": "Recent advances in artificial intelligence have transformed protein structure prediction and design. However, protein function is governed not only by static structures but also by the conformational dynamics that allow proteins to access distinct functional states. Predicting these dynamic transitions, central to many biological processes, remains challenging due to the scarcity of high-resolution experimental data, which limits the training of machine-learning models for dynamic and energetic property prediction. Here, we present AlloPool, a graph neural network (GNN)-based framework that interprets molecular dynamics simulations by iteratively pruning residue-residue interactions to uncover minimal, time-resolved interaction networks that govern protein conformational dynamics and structural responses to chemical or mechanical perturbations, collectively known as allostery. By integrating temporal attention with graph aggregation, AlloPool learns evolving interaction graphs from equilibrium and non-equilibrium molecular dynamics simulations, enabling accurate reconstruction of dynamic trajectories and the interaction networks that drive conformational transitions. Validated across diverse dynamic protein systems, including binding domains, mechanosensors, signaling receptors, and enzymes, AlloPool maps allosteric communication pathways, predicts the effects of ligand binding, mechanical forces, and mutations, discovers transient dynamic states and outperforms existing machine-learning approaches in dynamic trajectory reconstruction. This advance provides a general framework for interpreting protein dynamics with broad implications for drug discovery, synthetic biology, and protein engineering.",
       "authors": [
@@ -5857,6 +5915,28 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.08.02.742339"
+    },
+    "doi:10.64898/2026.08.26.747234": {
+      "abstract": "Dynamic programming (DP) yields exact quadratic-time (O(NM)) pairwise sequence alignments. Static banding heuristics (O(NW)) fail catastrophically on low-identity ( 98.9% of exact unconstrained alignment scores and core-block SP accuracy across static banding failure modes (Twilight Zone, Asymmetric Indels, Extreme Aspect Ratios) while eliminating 55.3%-78.8% of active DP cells. On large protein sequence matrices (N, M >= 3,700), AB-NW eliminates 87.6%-91.7% of cells, achieving speedups of 9.79x-13.30x (pure DP) and 1.73x-2.94x (end-to-end), reaching up to 18.12x on unbiased controls (p < 0.05 to p < 10^-15), making AB-NW practical for large-scale, high-throughput sequence alignment pipelines.",
+      "authors": [
+        "Shoaib, M.",
+        "Ali, W."
+      ],
+      "doi": "10.64898/2026.08.26.747234",
+      "first_seen": "2026-10-25",
+      "published": "2026-10-24",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.08.26.747234",
+      "title": "Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.26.747234"
     },
     "doi:10.64898/2026.08.28.747942": {
       "abstract": "Biomolecular structures provide a common physical basis for understanding molecular function and interactions. However, computational models typically specialize in individual molecular classes or tasks, hindering a unified representation of structural information across biological systems. Here we introduce OmniScore, a universal geometric encoder that learns shared representations of proteins, nucleic acids, small molecules and their complexes. Pretraining integrates geometric graph encoding, sequential modeling and tokenization with structural and physicochemical supervision. The frozen pretrained encoder supports complex-level model quality assessment and interaction prediction, as well as residue-level prediction, through task-specific heads. OmniScore outperforms the evaluated antibody--antigen quality-assessment baselines and also improves RNA structure ranking over baselines. For peptide-major histocompatibility complex interaction prediction, the OmniScore embeddings complement structure-prediction confidence metrics to improve predictive performance. Together, these findings support OmniScore as a shared geometric foundation for biomolecular representation and scoring across molecular classes and prediction scales, which may facilitate multi-component therapeutics development.",
