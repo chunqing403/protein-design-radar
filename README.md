@@ -7,23 +7,22 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-25** (`2026-10-25T04:53:21Z`)
+Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234)<br><sub>Shoaib, M., Ali, W.</sub> | bioRxiv<br>2026-10-24 | Protein language models |
-| 2 | [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y)<br><sub>Mingzhe Shen, Guy W. Dayhoff II, Daniel Kortzak et al.</sub> | Nat Commun<br>2026-10-24 | Protein language models, Enzymes and function |
-| 3 | [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/)<br><sub>Ma J, Yang H, Wang X et al.</sub> | PubMed<br>2026 Oct 25 | Structure generation, Protein language models, Binders and therapeutics |
+| 1 | [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553)<br><sub>Stump, E., Dennison, H., Strobbia, P. et al.</sub> | bioRxiv<br>2026-10-25 | Protein language models, Experimental validation |
+| 2 | [Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19](http://arxiv.org/abs/2610.32779v1)<br><sub>Raghav Paladugu, Fardina Fathmiul Alam</sub> | arXiv<br>2026-10-23 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 63 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 64 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 79 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 80 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 44 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -32,8 +31,9 @@ Updated: **2026-10-25** (`2026-10-25T04:53:21Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (63)
+#### Structure Generation / 结构生成 (64)
 
+- [Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19](http://arxiv.org/abs/2610.32779v1) (arXiv, 2026-10-23; first seen 2026-10-26; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/) (PubMed, 2026 Oct 25; first seen 2026-10-25; Structure generation, Protein language models, Binders and therapeutics)
 - [DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory](https://doi.org/10.64898/2026.04.29.721692) (bioRxiv, 2026-10-22; first seen 2026-10-23; Structure generation, Sequence design, Protein language models)
 - [What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve](https://doi.org/10.64898/2026.10.19.760098) (bioRxiv, 2026-10-20; first seen 2026-10-21; Structure generation, Protein language models, Binders and therapeutics)
@@ -130,10 +130,11 @@ Updated: **2026-10-25** (`2026-10-25T04:53:21Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (79)
+#### Protein Language Models / 蛋白质语言模型 (80)
 
-- [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234) (bioRxiv, 2026-10-24; first seen 2026-10-25; Protein language models)
+- [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553) (bioRxiv, 2026-10-25; first seen 2026-10-26; Protein language models, Experimental validation)
 - [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y) (Nat Commun, 2026-10-24; first seen 2026-10-25; Protein language models, Enzymes and function)
+- [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234) (bioRxiv, 2026-10-24; first seen 2026-10-25; Protein language models)
 - [HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention) (Journal of Chemical Information and Modeling, 2026-10-23; first seen 2026-10-24; Protein language models)
 - [Sequence-only prediction of VHH nanobody epitopes and paratopes on HER2 with a frozen protein language model ( ESM2) and a structure-derived residue prior](https://doi.org/10.64898/2026.10.15.759522) (bioRxiv, 2026-10-21; first seen 2026-10-22; Protein language models, Binders and therapeutics, Experimental validation)
 - [Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein](https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748) (Biochemical Engineering Journal, 2027-01; first seen 2026-10-19; Protein language models, Binders and therapeutics)
@@ -321,7 +322,7 @@ Updated: **2026-10-25** (`2026-10-25T04:53:21Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-25](outputs/daily/2026-10-25.md)
+- [Daily report for 2026-10-26](outputs/daily/2026-10-26.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

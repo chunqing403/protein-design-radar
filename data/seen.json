@@ -54,6 +54,12 @@
       "title": "recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models",
       "url": "http://arxiv.org/abs/2610.26747v1"
     },
+    "arxiv:2610.32779v1": {
+      "first_seen": "2026-10-26",
+      "source": "arXiv",
+      "title": "Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19",
+      "url": "http://arxiv.org/abs/2610.32779v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "source": "Cell",
@@ -1661,6 +1667,12 @@
       "source": "bioRxiv",
       "title": "What does domain-specific pretraining buy? A 170,000-parameter plant peptide language model against the ESM-2 scaling curve",
       "url": "https://doi.org/10.64898/2026.10.19.760098"
+    },
+    "doi:10.64898/2026.10.20.760553": {
+      "first_seen": "2026-10-26",
+      "source": "bioRxiv",
+      "title": "Building from the ground up: augmentation strategies to improve protein language model performance on protein sets",
+      "url": "https://doi.org/10.64898/2026.10.20.760553"
     }
   }
 }
