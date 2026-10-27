@@ -1,28 +1,47 @@
-# Protein Design Paper Radar - 2026-10-26
+# Protein Design Paper Radar - 2026-10-27
 
-Generated on 2026-10-26T04:57:50Z.
+Generated on 2026-10-27T05:15:52Z.
 
-Found 2 recommended papers.
+Found 4 recommended papers.
 
 ## Highlights
 
-### 1. Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19
+### 1. Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design
 
-- **Status:** NEW | **Source:** arXiv | **Date:** 2026-10-23
-- **Authors:** Raghav Paladugu, Fardina Fathmiul Alam
-- **Topics:** Structure generation, Sequence design, Binders and therapeutics, Experimental validation
-- **Why it matched:** experimental validation, AlphaFold, RFdiffusion, ProteinMPNN, de novo design, miniprotein
-- **Link:** http://arxiv.org/abs/2610.32779v1
+- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-27
+- **Authors:** Amira Alakhdar, Barnabas Poczos, Newell Washburn et al.
+- **Topics:** Structure generation, Protein language models
+- **Why it matched:** diffusion model, transformer, protein, structure
+- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for
+- **DOI:** 10.1021/acs.jcim.6c01046
 
-Interleukin-23 (IL-23) drives T-helper-17 inflammation underlying inflammatory bowel disease and psoriasis; anti-p19 antibodies are clinically effective but large, costly, and injectable. De novo miniproteins are an attractive alternative, yet published designs target the IL-23 receptor; the IL-23 cytokine itself has not been addressed. A further obstacle...
+Abstract Developing bioactive molecules remains a central, time- and cost-heavy challenge in drug discovery, particularly for novel targets lacking structural or functional data. Pharmacophore modeling presents an alternative for capturing the key features required for molecular bioactivity against a biological target. In this work, we present PharmaDiff, a...
 
-### 2. Building from the ground up: augmentation strategies to improve protein language model performance on protein sets
+### 2. Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-25
-- **Authors:** Stump, E., Dennison, H., Strobbia, P. et al.
-- **Topics:** Protein language models, Experimental validation
-- **Why it matched:** protein language model, deep learning, ESM, active learning, protein
-- **Link:** https://doi.org/10.64898/2026.10.20.760553
-- **DOI:** 10.64898/2026.10.20.760553
+- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-26
+- **Authors:** Alina Bazarova, Gennady M. Verkhivker
+- **Topics:** Protein language models, Enzymes and function
+- **Why it matched:** foundation model, protein, binding, sequence, structure
+- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and
+- **DOI:** 10.1021/acs.jcim.6c03114
 
-An important underlying requirement for deep learning models is the availability of large datasets, however, in sciences such as chemistry and biology, generating experimental data of sufficient size represents a significant bottleneck. In this work, we probed the extent and nature of limited input data, characterize how several protein language models...
+Abstract Allosteric regulation represents a fundamental mechanism of protein function, yet distinguishing allosteric from orthosteric protein-binding sites remains a persistent computational challenge. While multimodal protein foundation models offer the potential to integrate complementary biological signals, including sequence, structure, functional...
+
+### 3. HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization
+
+- **Status:** NEW | **Source:** iScience | **Date:** 2026-11
+- **Authors:** Chuanxi Zhang, Yinghui Feng, Ying Ji et al.
+- **Topics:** Enzymes and function
+- **Why it matched:** AI-driven, enzyme
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566
+- **DOI:** 10.1016/j.isci.2026.117873
+
+### 4. Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT
+
+- **Status:** NEW | **Source:** Commun Biol | **Date:** 2026-10-26
+- **Authors:** Minhao Li, Songzhe He, T. Sang et al.
+- **Topics:** Protein language models
+- **Why it matched:** protein language model, protein
+- **Link:** https://www.nature.com/articles/s42003-026-10816-6
+- **DOI:** 10.1038/s42003-026-10816-6

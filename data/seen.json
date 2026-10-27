@@ -426,6 +426,12 @@
       "title": "Intelligent immunotherapy: AI-driven optimization of CAR-T therapy in hematologic malignancies",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589004226026337"
     },
+    "doi:10.1016/j.isci.2026.117873": {
+      "first_seen": "2026-10-27",
+      "source": "iScience",
+      "title": "HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566"
+    },
     "doi:10.1016/j.jare.2026.10.002": {
       "first_seen": "2026-10-03",
       "source": "PubMed",
@@ -624,6 +630,12 @@
       "title": "ARID-sf: A Physics-Informed Deep Learning Scoring Function to Improve Antibody-Antigen Docking Model Ranking.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
     },
+    "doi:10.1021/acs.jcim.6c01046": {
+      "first_seen": "2026-10-27",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for"
+    },
     "doi:10.1021/acs.jcim.6c01545": {
       "first_seen": "2026-10-10",
       "source": "Journal of Chemical Information and Modeling",
@@ -683,6 +695,12 @@
       "source": "Journal of Chemical Information and Modeling",
       "title": "KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in"
+    },
+    "doi:10.1021/acs.jcim.6c03114": {
+      "first_seen": "2026-10-27",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
@@ -917,6 +935,12 @@
       "source": "Commun Biol",
       "title": "Enhancing protein structure prediction accuracy by prioritizing important residues using protein language models",
       "url": "https://www.nature.com/articles/s42003-026-10725-8"
+    },
+    "doi:10.1038/s42003-026-10816-6": {
+      "first_seen": "2026-10-27",
+      "source": "Commun Biol",
+      "title": "Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT",
+      "url": "https://www.nature.com/articles/s42003-026-10816-6"
     },
     "doi:10.1038/s43018-026-01194-3": {
       "first_seen": "2026-07-02",

@@ -7,32 +7,35 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
+Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553)<br><sub>Stump, E., Dennison, H., Strobbia, P. et al.</sub> | bioRxiv<br>2026-10-25 | Protein language models, Experimental validation |
-| 2 | [Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19](http://arxiv.org/abs/2610.32779v1)<br><sub>Raghav Paladugu, Fardina Fathmiul Alam</sub> | arXiv<br>2026-10-23 | Structure generation, Sequence design, Binders and therapeutics, Experimental validation |
+| 1 | [HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization](https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566)<br><sub>Chuanxi Zhang, Yinghui Feng, Ying Ji et al.</sub> | iScience<br>2026-11 | Enzymes and function |
+| 2 | [Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for)<br><sub>Amira Alakhdar, Barnabas Poczos, Newell Washburn et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-27 | Structure generation, Protein language models |
+| 3 | [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6)<br><sub>Minhao Li, Songzhe He, T. Sang et al.</sub> | Commun Biol<br>2026-10-26 | Protein language models |
+| 4 | [Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and)<br><sub>Alina Bazarova, Gennady M. Verkhivker</sub> | Journal of Chemical Information and Modeling<br>2026-10-26 | Protein language models, Enzymes and function |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 64 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 65 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 80 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 82 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 44 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 11 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 12 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 32 |
 
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (64)
+#### Structure Generation / 结构生成 (65)
 
+- [Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for) (Journal of Chemical Information and Modeling, 2026-10-27; first seen 2026-10-27; Structure generation, Protein language models)
 - [Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19](http://arxiv.org/abs/2610.32779v1) (arXiv, 2026-10-23; first seen 2026-10-26; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/) (PubMed, 2026 Oct 25; first seen 2026-10-25; Structure generation, Protein language models, Binders and therapeutics)
 - [DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory](https://doi.org/10.64898/2026.04.29.721692) (bioRxiv, 2026-10-22; first seen 2026-10-23; Structure generation, Sequence design, Protein language models)
@@ -108,7 +111,7 @@ Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
 - [A rapid, automation-friendly, cell-free and purification-free pipeline for binding and kinetic characterisation of de novo designed binders with high quality standardised per-design data](https://doi.org/10.64898/2026.10.19.759856) (bioRxiv, 2026-10-20; first seen 2026-10-21; Sequence design, Binders and therapeutics)
 - [Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593) (Bioinformatics, 2026-10-16; first seen 2026-10-17; Sequence design, Protein language models)
 - [Integrating deep learning model for precision design of MERS antibodies with augmented affinity against SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/42836566/) (PubMed, 2026 Oct 06; first seen 2026-10-07; Sequence design, Binders and therapeutics, Experimental validation)
-- [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01926/5443515/Predicting-Protein-Thermostability-with) (Journal of Chemical Information and Modeling, 2026-10-01; first seen 2026-10-02; Sequence design, Protein language models, Enzymes and function, Experimental validation)
+- [Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning.](https://pubmed.ncbi.nlm.nih.gov/42929549/) (PubMed, 2026 Oct 26; first seen 2026-10-02; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [SPLiNet: Lightweight prediction of protein-RNA interaction sites by integrating a structure-aware protein language model with a dual-branch network.](https://pubmed.ncbi.nlm.nih.gov/42190366/) (PubMed, 2026 Oct 01; first seen 2026-10-01; Sequence design, Protein language models)
 - [Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome](https://doi.org/10.1101/2025.06.09.658393) (bioRxiv, 2026-09-21; first seen 2026-09-22; Sequence design)
 - [Codon language model scores provide information beyond protein language models for missense variant interpretation](https://doi.org/10.1101/2025.03.12.642937) (bioRxiv, 2026-09-14; first seen 2026-09-16; Sequence design, Protein language models)
@@ -130,8 +133,10 @@ Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (80)
+#### Protein Language Models / 蛋白质语言模型 (82)
 
+- [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6) (Commun Biol, 2026-10-26; first seen 2026-10-27; Protein language models)
+- [Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and) (Journal of Chemical Information and Modeling, 2026-10-26; first seen 2026-10-27; Protein language models, Enzymes and function)
 - [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553) (bioRxiv, 2026-10-25; first seen 2026-10-26; Protein language models, Experimental validation)
 - [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y) (Nat Commun, 2026-10-24; first seen 2026-10-25; Protein language models, Enzymes and function)
 - [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234) (bioRxiv, 2026-10-24; first seen 2026-10-25; Protein language models)
@@ -262,8 +267,9 @@ Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (11)
+#### Enzymes & Function / 酶与功能 (12)
 
+- [HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization](https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566) (iScience, 2026-11; first seen 2026-10-27; Enzymes and function)
 - [Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks](https://www.nature.com/articles/s41598-026-67952-6) (Sci Rep, 2026-10-16; first seen 2026-10-17; Enzymes and function)
 - [Computational design of protein conformational landscapes for metamorphic behavior](https://doi.org/10.64898/2026.10.13.758820) (bioRxiv, 2026-10-13; first seen 2026-10-14; Enzymes and function)
 - [A molecular modeling and machine learning-based approach for the identification of potential human ALOX15 inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42814179/) (PubMed, 2026 Sep 30; first seen 2026-10-01; Enzymes and function, Experimental validation)
@@ -322,7 +328,7 @@ Updated: **2026-10-26** (`2026-10-26T04:57:50Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-26](outputs/daily/2026-10-26.md)
+- [Daily report for 2026-10-27](outputs/daily/2026-10-27.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
