@@ -930,6 +930,12 @@
       "title": "De novo design of protein antagonists of bacterial pathogen type III secretion system needle assembly",
       "url": "https://www.nature.com/articles/s41598-026-73853-5"
     },
+    "doi:10.1038/s41598-026-77507-4": {
+      "first_seen": "2026-10-28",
+      "source": "Sci Rep",
+      "title": "CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction",
+      "url": "https://www.nature.com/articles/s41598-026-77507-4"
+    },
     "doi:10.1038/s42003-026-10725-8": {
       "first_seen": "2026-09-09",
       "source": "Commun Biol",
@@ -1320,6 +1326,12 @@
       "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
       "url": "https://doi.org/10.64898/2026.04.29.721692"
     },
+    "doi:10.64898/2026.05.26.727927": {
+      "first_seen": "2026-10-28",
+      "source": "bioRxiv",
+      "title": "Species phylogenetics using intraprotein residue dependence inferred with protein foundation models",
+      "url": "https://doi.org/10.64898/2026.05.26.727927"
+    },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
       "source": "biorxiv",
@@ -1697,6 +1709,18 @@
       "source": "bioRxiv",
       "title": "Building from the ground up: augmentation strategies to improve protein language model performance on protein sets",
       "url": "https://doi.org/10.64898/2026.10.20.760553"
+    },
+    "doi:10.64898/2026.10.23.761425": {
+      "first_seen": "2026-10-28",
+      "source": "bioRxiv",
+      "title": "AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.",
+      "url": "https://doi.org/10.64898/2026.10.23.761425"
+    },
+    "doi:10.64898/2026.10.24.761574": {
+      "first_seen": "2026-10-28",
+      "source": "bioRxiv",
+      "title": "Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3",
+      "url": "https://doi.org/10.64898/2026.10.24.761574"
     }
   }
 }

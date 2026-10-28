@@ -1,47 +1,49 @@
-# Protein Design Paper Radar - 2026-10-27
+# Protein Design Paper Radar - 2026-10-28
 
-Generated on 2026-10-27T05:15:52Z.
+Generated on 2026-10-28T05:53:54Z.
 
 Found 4 recommended papers.
 
 ## Highlights
 
-### 1. Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design
+### 1. Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3
 
-- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-27
-- **Authors:** Amira Alakhdar, Barnabas Poczos, Newell Washburn et al.
-- **Topics:** Structure generation, Protein language models
-- **Why it matched:** diffusion model, transformer, protein, structure
-- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for
-- **DOI:** 10.1021/acs.jcim.6c01046
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-27
+- **Authors:** Sragovicz, E. R., Tobias, A. V.
+- **Topics:** Binders and therapeutics, Experimental validation
+- **Why it matched:** protein design, de novo protein, experimental validation, AI-driven, miniprotein, minibinders
+- **Link:** https://doi.org/10.64898/2026.10.24.761574
+- **DOI:** 10.64898/2026.10.24.761574
 
-Abstract Developing bioactive molecules remains a central, time- and cost-heavy challenge in drug discovery, particularly for novel targets lacking structural or functional data. Pharmacophore modeling presents an alternative for capturing the key features required for molecular bioactivity against a biological target. In this work, we present PharmaDiff, a...
+STAT3 is a transcription factor involved in the progression of many types of cancer, which makes it an attractive therapeutic target. Small-molecule STAT3 inhibitors have experienced a high failure rate in clinical trials, indicating alternative approaches may be warranted. To address these limitations, we used BindCraft, a modern AI-driven protein design...
 
-### 2. Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites
+### 2. Species phylogenetics using intraprotein residue dependence inferred with protein foundation models
 
-- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-10-26
-- **Authors:** Alina Bazarova, Gennady M. Verkhivker
-- **Topics:** Protein language models, Enzymes and function
-- **Why it matched:** foundation model, protein, binding, sequence, structure
-- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and
-- **DOI:** 10.1021/acs.jcim.6c03114
-
-Abstract Allosteric regulation represents a fundamental mechanism of protein function, yet distinguishing allosteric from orthosteric protein-binding sites remains a persistent computational challenge. While multimodal protein foundation models offer the potential to integrate complementary biological signals, including sequence, structure, functional...
-
-### 3. HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization
-
-- **Status:** NEW | **Source:** iScience | **Date:** 2026-11
-- **Authors:** Chuanxi Zhang, Yinghui Feng, Ying Ji et al.
-- **Topics:** Enzymes and function
-- **Why it matched:** AI-driven, enzyme
-- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566
-- **DOI:** 10.1016/j.isci.2026.117873
-
-### 4. Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT
-
-- **Status:** NEW | **Source:** Commun Biol | **Date:** 2026-10-26
-- **Authors:** Minhao Li, Songzhe He, T. Sang et al.
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-27
+- **Authors:** Alibutud, R. F., Mowlaei, M. E., Kumar, S.
 - **Topics:** Protein language models
-- **Why it matched:** protein language model, protein
-- **Link:** https://www.nature.com/articles/s42003-026-10816-6
-- **DOI:** 10.1038/s42003-026-10816-6
+- **Why it matched:** deep learning, ESM, foundation model, transformer, protein, sequence
+- **Link:** https://doi.org/10.64898/2026.05.26.727927
+- **DOI:** 10.64898/2026.05.26.727927
+
+Traditional molecular phylogenetic inference uses multiple sequence alignments and amino acid substitution models that generally assume that sites evolve independently. In contrast, protein foundation models (pFMs) are deep learning models that reveal residue dependence patterns within sequences. There are two types of pFMs: Evolutionary Scale Models...
+
+### 3. CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction
+
+- **Status:** NEW | **Source:** Sci Rep | **Date:** 2026-10-27
+- **Authors:** Ridwan Uz Zaman Pandit, Jagjit Singh Dhatterwal, Gyana Ranjana Panigrahi et al.
+- **Topics:** Protein language models
+- **Why it matched:** structure prediction, transformer, protein, structure
+- **Link:** https://www.nature.com/articles/s41598-026-77507-4
+- **DOI:** 10.1038/s41598-026-77507-4
+
+### 4. AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-10-27
+- **Authors:** Amburn, J. A., Stempel, J. C., Chang-Gonzalez, A. C. et al.
+- **Topics:** Protein language models, Enzymes and function, Experimental validation
+- **Why it matched:** protein language model, protein, sequence, structure
+- **Link:** https://doi.org/10.64898/2026.10.23.761425
+- **DOI:** 10.64898/2026.10.23.761425
+
+Protein function prediction is increasingly important as the rapid growth of sequence databases outpaces the capacity of experimental pipelines to characterize protein function. Here we introduce AltereGO, a framework that combines molecular function predictions from three sequence representations, ESM2-3B, ProtT5 and Ankh, and a structure representation,...

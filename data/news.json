@@ -99,6 +99,15 @@
       "title": "Protenix · v1.1.0: Support fallback to torch cache dir for layer_norm",
       "url": "https://github.com/bytedance/Protenix/releases/tag/v1.1.0"
     },
+    "0cf7abc78c99171cdc3430d02c8709d376111394": {
+      "category": "产业动态",
+      "first_seen": "2026-10-28",
+      "published": "2026-10-27",
+      "source": "Bioengineer.org",
+      "summary": "AI model designs working proteins from plain-language descriptions Bioengineer.org",
+      "title": "AI model designs working proteins from plain-language descriptions",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYlp2TUJ0a29EV0xYVVlfdzFvV0J2SF9PMmJNVU52czBjTHFtSms3ZlNmME5yZUZQd0Zka2dQS21jczdXemQxcGdrUFJMOTdlNEZSWmFhLUd0T2g4X1RaTFJRY296b3BvXzZfbG1ickw1T1hyV0M4UTNSc29uQWs4YnlxektsazBHYVpNbEpxUHcwWWZCeGc?oc=5"
+    },
     "0d8703ff2c2f8cfc1e5db33e784f0e6e6dc88c9c": {
       "category": "产业动态",
       "first_seen": "2026-10-10",
@@ -656,6 +665,15 @@
       "summary": "New AIX Study Demonstrates Seed IQ's Higher-Order Intelligence Across AlphaFold, AlphaEvolve & Dream-RSI Benchmarks EIN Presswire",
       "title": "New AIX Study Demonstrates Seed IQ's Higher-Order Intelligence Across AlphaFold, AlphaEvolve & Dream-RSI Benchmarks",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVkozVmUtVndPcGs1ejFqWGdMVURzM3dJcnN3d2dKTUdfdEk0YTkxMFFkN29jUU1kOF9lcmdyQVVRd1hzZjhlNWdJNmRsbFhvdW9jblRuLVk2Y3RXTTRGZ2JTaHhqTDZaOFA2UEVIUmlNM2VxM1pXV0lZVGI2eDViTldvbk9OczVDSTNnYlVrQmMyWEg5WUE1QU1sQTZWOE9kRmJERWliVU9BM1V1eGZxYkJNbTVMeXNiWHI4Z2RYUkVkeWEtd3hnYWRveV9zbzdsTkVFY0MxQXZTYjlXR2VvdHZ3U1RXWkRLbjZHSXFaR2M?oc=5"
+    },
+    "6300523da92871235c85b0025141c98fd29abb79": {
+      "category": "产业动态",
+      "first_seen": "2026-10-28",
+      "published": "2026-10-27",
+      "source": "UA.NEWS",
+      "summary": "Researchers from China unveil AI for protein design from text descriptions — Ars Technica UA.NEWS",
+      "title": "Researchers from China unveil AI for protein design from text descriptions — Ars Technica",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc3A4OU94YXlSME5sekhxd3E5dXFOREZQcVhjdUVkc3daVEFoVlBfVWl0ZEVxclpTdzJYQ3d5c0NYQWNVdHBXVlpuVGt2bndyclpaZ2dFLVZXVUFvWHU1eU11Q2k2NE9uNy1VOEhwanR1eDZNenZQUDN3cFQzcTRQSmJUSjBCQkRqOFFMYjJlUnJydlFmekZ4Z3dpc1A0VDIzQS1aNnctOWJXaTQyMWgtRHdLRms3elJQRTh1ZUViN19FbHpVblE?oc=5"
     },
     "6669e175b59bd6b37ac322e15c16261135946b40": {
       "category": "产业动态",
@@ -1666,5 +1684,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-27T05:15:55+00:00"
+  "updated_at": "2026-10-28T05:53:59+00:00"
 }

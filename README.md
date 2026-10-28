@@ -7,16 +7,16 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
+Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization](https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566)<br><sub>Chuanxi Zhang, Yinghui Feng, Ying Ji et al.</sub> | iScience<br>2026-11 | Enzymes and function |
-| 2 | [Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for)<br><sub>Amira Alakhdar, Barnabas Poczos, Newell Washburn et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-27 | Structure generation, Protein language models |
-| 3 | [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6)<br><sub>Minhao Li, Songzhe He, T. Sang et al.</sub> | Commun Biol<br>2026-10-26 | Protein language models |
-| 4 | [Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and)<br><sub>Alina Bazarova, Gennady M. Verkhivker</sub> | Journal of Chemical Information and Modeling<br>2026-10-26 | Protein language models, Enzymes and function |
+| 1 | [Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3](https://doi.org/10.64898/2026.10.24.761574)<br><sub>Sragovicz, E. R., Tobias, A. V.</sub> | bioRxiv<br>2026-10-27 | Binders and therapeutics, Experimental validation |
+| 2 | [AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.](https://doi.org/10.64898/2026.10.23.761425)<br><sub>Amburn, J. A., Stempel, J. C., Chang-Gonzalez, A. C. et al.</sub> | bioRxiv<br>2026-10-27 | Protein language models, Enzymes and function, Experimental validation |
+| 3 | [Species phylogenetics using intraprotein residue dependence inferred with protein foundation models](https://doi.org/10.64898/2026.05.26.727927)<br><sub>Alibutud, R. F., Mowlaei, M. E., Kumar, S.</sub> | bioRxiv<br>2026-10-27 | Protein language models |
+| 4 | [CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction](https://www.nature.com/articles/s41598-026-77507-4)<br><sub>Ridwan Uz Zaman Pandit, Jagjit Singh Dhatterwal, Gyana Ranjana Panigrahi et al.</sub> | Sci Rep<br>2026-10-27 | Protein language models |
 
 ### Paper Directory / 文献目录
 
@@ -24,8 +24,8 @@ Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 65 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 82 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 44 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 85 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 45 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 12 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 32 |
@@ -133,10 +133,13 @@ Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (82)
+#### Protein Language Models / 蛋白质语言模型 (85)
 
-- [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6) (Commun Biol, 2026-10-26; first seen 2026-10-27; Protein language models)
+- [AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.](https://doi.org/10.64898/2026.10.23.761425) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models, Enzymes and function, Experimental validation)
+- [Species phylogenetics using intraprotein residue dependence inferred with protein foundation models](https://doi.org/10.64898/2026.05.26.727927) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models)
+- [CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction](https://www.nature.com/articles/s41598-026-77507-4) (Sci Rep, 2026-10-27; first seen 2026-10-28; Protein language models)
 - [Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and) (Journal of Chemical Information and Modeling, 2026-10-26; first seen 2026-10-27; Protein language models, Enzymes and function)
+- [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6) (Commun Biol, 2026-10-26; first seen 2026-10-27; Protein language models)
 - [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553) (bioRxiv, 2026-10-25; first seen 2026-10-26; Protein language models, Experimental validation)
 - [Predicting protein electrostatics with protein language models](https://www.nature.com/articles/s41467-026-78406-y) (Nat Commun, 2026-10-24; first seen 2026-10-25; Protein language models, Enzymes and function)
 - [Pruning the Search, Not the Signal: Adaptive-Banding Needleman-Wunsch Sequence Alignment via Protein Language Model Confidence](https://doi.org/10.64898/2026.08.26.747234) (bioRxiv, 2026-10-24; first seen 2026-10-25; Protein language models)
@@ -219,8 +222,9 @@ Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (44)
+#### Binders & Therapeutics / 结合蛋白与治疗 (45)
 
+- [Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3](https://doi.org/10.64898/2026.10.24.761574) (bioRxiv, 2026-10-27; first seen 2026-10-28; Binders and therapeutics, Experimental validation)
 - [In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation](https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357) (Future Foods, 2026-10; first seen 2026-10-24; Binders and therapeutics, Experimental validation)
 - [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942) (bioRxiv, 2026-10-14; first seen 2026-10-16; Binders and therapeutics, Enzymes and function)
 - [Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence](https://doi.org/10.64898/2026.10.13.758789) (bioRxiv, 2026-10-14; first seen 2026-10-15; Binders and therapeutics)
@@ -328,7 +332,7 @@ Updated: **2026-10-27** (`2026-10-27T05:15:52Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-27](outputs/daily/2026-10-27.md)
+- [Daily report for 2026-10-28](outputs/daily/2026-10-28.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
