@@ -3,6 +3,21 @@
     {
       "account": "CAOM",
       "author": "ZCQ",
+      "body_file": "articles/caom-7bc23e59ac8b.html",
+      "cover": "assets/wechat/caom-7bc23e59ac8b/cover.jpg",
+      "description": "10 月 21 日公开的《Biomolecular design through latent reasoni",
+      "featured": true,
+      "published": "2026-10-28",
+      "slug": "caom-7bc23e59ac8b",
+      "source_url": "https://mp.weixin.qq.com/s/f0RNTeK9hs6sr0a8NE4y3g",
+      "title": "从 RFD3 到 RFD4-Proteina，AI 蛋白设计到底改了什么",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
       "body_file": "articles/caom-7580113cff20.html",
       "cover": "assets/wechat/caom-7580113cff20/image-01.png",
       "description": "蛋白设计里，做出一个能结合靶点的蛋白，和做出一个能在指定位置切开底物的蛋白，中间隔着很长一段路。",
