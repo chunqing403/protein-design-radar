@@ -636,6 +636,12 @@
       "title": "Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for"
     },
+    "doi:10.1021/acs.jcim.6c01200": {
+      "first_seen": "2026-10-29",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01200/5460312/Benchmarking-and-Experimental-Validation-of"
+    },
     "doi:10.1021/acs.jcim.6c01545": {
       "first_seen": "2026-10-10",
       "source": "Journal of Chemical Information and Modeling",
@@ -689,6 +695,12 @@
       "source": "Journal of Chemical Information and Modeling",
       "title": "An AI-Driven Chemogenomics Knowledgebase for Human-Transmissible Pathogens: A Platform for Antimicrobial Drug Discovery",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02102/5429808/An-AI-Driven-Chemogenomics-Knowledgebase-for-Human"
+    },
+    "doi:10.1021/acs.jcim.6c02183": {
+      "first_seen": "2026-10-29",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Machine Learning Predictions of Experimental Mössbauer Properties of Fe-Containing Molecular Complexes and Protein Models",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02183/5460523/Machine-Learning-Predictions-of-Experimental-Mo"
     },
     "doi:10.1021/acs.jcim.6c02706": {
       "first_seen": "2026-09-17",
@@ -1710,6 +1722,18 @@
       "title": "Building from the ground up: augmentation strategies to improve protein language model performance on protein sets",
       "url": "https://doi.org/10.64898/2026.10.20.760553"
     },
+    "doi:10.64898/2026.10.22.760799": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction",
+      "url": "https://doi.org/10.64898/2026.10.22.760799"
+    },
+    "doi:10.64898/2026.10.23.761395": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "Multi-resolution humanness scoring of antibodies via a region-isolated language model",
+      "url": "https://doi.org/10.64898/2026.10.23.761395"
+    },
     "doi:10.64898/2026.10.23.761425": {
       "first_seen": "2026-10-28",
       "source": "bioRxiv",
@@ -1721,6 +1745,30 @@
       "source": "bioRxiv",
       "title": "Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3",
       "url": "https://doi.org/10.64898/2026.10.24.761574"
+    },
+    "doi:10.64898/2026.10.26.761880": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "De novo design of light-controlled conformational protein switches",
+      "url": "https://doi.org/10.64898/2026.10.26.761880"
+    },
+    "doi:10.64898/2026.10.26.761954": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "Disruption of R2TP-mediated PIKK maturation with de novo designed binders",
+      "url": "https://doi.org/10.64898/2026.10.26.761954"
+    },
+    "doi:10.64898/2026.10.26.762004": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "High-throughput mapping of kinase-substrate interactions with protein language models and phospho-PCA",
+      "url": "https://doi.org/10.64898/2026.10.26.762004"
+    },
+    "doi:10.64898/2026.10.27.762190": {
+      "first_seen": "2026-10-29",
+      "source": "bioRxiv",
+      "title": "De novo Protein Generating Model via Structure-Aware Graph Neural Networks",
+      "url": "https://doi.org/10.64898/2026.10.27.762190"
     }
   }
 }

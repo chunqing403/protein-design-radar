@@ -7,25 +7,29 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
+Updated: **2026-10-29** (`2026-10-29T05:58:00Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3](https://doi.org/10.64898/2026.10.24.761574)<br><sub>Sragovicz, E. R., Tobias, A. V.</sub> | bioRxiv<br>2026-10-27 | Binders and therapeutics, Experimental validation |
-| 2 | [AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.](https://doi.org/10.64898/2026.10.23.761425)<br><sub>Amburn, J. A., Stempel, J. C., Chang-Gonzalez, A. C. et al.</sub> | bioRxiv<br>2026-10-27 | Protein language models, Enzymes and function, Experimental validation |
-| 3 | [Species phylogenetics using intraprotein residue dependence inferred with protein foundation models](https://doi.org/10.64898/2026.05.26.727927)<br><sub>Alibutud, R. F., Mowlaei, M. E., Kumar, S.</sub> | bioRxiv<br>2026-10-27 | Protein language models |
-| 4 | [CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction](https://www.nature.com/articles/s41598-026-77507-4)<br><sub>Ridwan Uz Zaman Pandit, Jagjit Singh Dhatterwal, Gyana Ranjana Panigrahi et al.</sub> | Sci Rep<br>2026-10-27 | Protein language models |
+| 1 | [Machine Learning Predictions of Experimental Mössbauer Properties of Fe-Containing Molecular Complexes and Protein Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02183/5460523/Machine-Learning-Predictions-of-Experimental-Mo)<br><sub>Ioannis Skoulidas, Somayeh Tavasolikejani, Daisy Morgan et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-29 | Structure generation, Experimental validation |
+| 2 | [De novo design of light-controlled conformational protein switches](https://doi.org/10.64898/2026.10.26.761880)<br><sub>Hilditch, A. T., Goldbach, N. M., Liu, C. et al.</sub> | bioRxiv<br>2026-10-28 | Structure generation, Binders and therapeutics, Enzymes and function |
+| 3 | [Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction](https://doi.org/10.64898/2026.10.22.760799)<br><sub>Jagannathan, D., Kim, P. M.</sub> | bioRxiv<br>2026-10-28 | Structure generation, Binders and therapeutics |
+| 4 | [High-throughput mapping of kinase-substrate interactions with protein language models and phospho-PCA](https://doi.org/10.64898/2026.10.26.762004)<br><sub>Yu, C., Pao, E., Van Valen, D.</sub> | bioRxiv<br>2026-10-28 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
+| 5 | [Disruption of R2TP-mediated PIKK maturation with de novo designed binders](https://doi.org/10.64898/2026.10.26.761954)<br><sub>Gonzalez-Rodriguez, N., Lopez-Perrote, A., Reglero, C. et al.</sub> | bioRxiv<br>2026-10-28 | Binders and therapeutics |
+| 6 | [De novo Protein Generating Model via Structure-Aware Graph Neural Networks](https://doi.org/10.64898/2026.10.27.762190)<br><sub>Gammill, C. M., Tamil, L.</sub> | bioRxiv<br>2026-10-28 | Structure generation, Sequence design, Enzymes and function |
+| 7 | [Multi-resolution humanness scoring of antibodies via a region-isolated language model](https://doi.org/10.64898/2026.10.23.761395)<br><sub>Liu, H., Chen, P., Zhou, S. et al.</sub> | bioRxiv<br>2026-10-28 | Binders and therapeutics |
+| 8 | [Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01200/5460312/Benchmarking-and-Experimental-Validation-of)<br><sub>Zishuo Zeng, Jiao Jin, Rufang Xu et al.</sub> | Journal of Chemical Information and Modeling<br>2026-10-28 | Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 65 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 69 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 85 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 45 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 87 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 47 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 12 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 32 |
@@ -33,8 +37,12 @@ Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (65)
+#### Structure Generation / 结构生成 (69)
 
+- [Machine Learning Predictions of Experimental Mössbauer Properties of Fe-Containing Molecular Complexes and Protein Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02183/5460523/Machine-Learning-Predictions-of-Experimental-Mo) (Journal of Chemical Information and Modeling, 2026-10-29; first seen 2026-10-29; Structure generation, Experimental validation)
+- [De novo design of light-controlled conformational protein switches](https://doi.org/10.64898/2026.10.26.761880) (bioRxiv, 2026-10-28; first seen 2026-10-29; Structure generation, Binders and therapeutics, Enzymes and function)
+- [Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction](https://doi.org/10.64898/2026.10.22.760799) (bioRxiv, 2026-10-28; first seen 2026-10-29; Structure generation, Binders and therapeutics)
+- [De novo Protein Generating Model via Structure-Aware Graph Neural Networks](https://doi.org/10.64898/2026.10.27.762190) (bioRxiv, 2026-10-28; first seen 2026-10-29; Structure generation, Sequence design, Enzymes and function)
 - [Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for) (Journal of Chemical Information and Modeling, 2026-10-27; first seen 2026-10-27; Structure generation, Protein language models)
 - [Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19](http://arxiv.org/abs/2610.32779v1) (arXiv, 2026-10-23; first seen 2026-10-26; Structure generation, Sequence design, Binders and therapeutics, Experimental validation)
 - [[pMHCBind: predicting major histocompatibility complex class I-peptide interactions via protein large language models and hypergraph neural networks].](https://pubmed.ncbi.nlm.nih.gov/42920233/) (PubMed, 2026 Oct 25; first seen 2026-10-25; Structure generation, Protein language models, Binders and therapeutics)
@@ -133,11 +141,13 @@ Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (85)
+#### Protein Language Models / 蛋白质语言模型 (87)
 
-- [AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.](https://doi.org/10.64898/2026.10.23.761425) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models, Enzymes and function, Experimental validation)
-- [Species phylogenetics using intraprotein residue dependence inferred with protein foundation models](https://doi.org/10.64898/2026.05.26.727927) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models)
+- [High-throughput mapping of kinase-substrate interactions with protein language models and phospho-PCA](https://doi.org/10.64898/2026.10.26.762004) (bioRxiv, 2026-10-28; first seen 2026-10-29; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
+- [Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01200/5460312/Benchmarking-and-Experimental-Validation-of) (Journal of Chemical Information and Modeling, 2026-10-28; first seen 2026-10-29; Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [CBAT-Net: a unified CNN–BiLSTM–MultiHead transformer architecture for joint Q3/Q8 protein secondary structure prediction](https://www.nature.com/articles/s41598-026-77507-4) (Sci Rep, 2026-10-27; first seen 2026-10-28; Protein language models)
+- [Species phylogenetics using intraprotein residue dependence inferred with protein foundation models](https://doi.org/10.64898/2026.05.26.727927) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models)
+- [AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.](https://doi.org/10.64898/2026.10.23.761425) (bioRxiv, 2026-10-27; first seen 2026-10-28; Protein language models, Enzymes and function, Experimental validation)
 - [Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and) (Journal of Chemical Information and Modeling, 2026-10-26; first seen 2026-10-27; Protein language models, Enzymes and function)
 - [Efficient structural information integration into protein language models with implicit mixture-of-experts ProBEiT](https://www.nature.com/articles/s42003-026-10816-6) (Commun Biol, 2026-10-26; first seen 2026-10-27; Protein language models)
 - [Building from the ground up: augmentation strategies to improve protein language model performance on protein sets](https://doi.org/10.64898/2026.10.20.760553) (bioRxiv, 2026-10-25; first seen 2026-10-26; Protein language models, Experimental validation)
@@ -222,8 +232,10 @@ Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (45)
+#### Binders & Therapeutics / 结合蛋白与治疗 (47)
 
+- [Disruption of R2TP-mediated PIKK maturation with de novo designed binders](https://doi.org/10.64898/2026.10.26.761954) (bioRxiv, 2026-10-28; first seen 2026-10-29; Binders and therapeutics)
+- [Multi-resolution humanness scoring of antibodies via a region-isolated language model](https://doi.org/10.64898/2026.10.23.761395) (bioRxiv, 2026-10-28; first seen 2026-10-29; Binders and therapeutics)
 - [Computational Design and Evaluation of De Novo Protein Minibinders Targeting Specific Sites of STAT3](https://doi.org/10.64898/2026.10.24.761574) (bioRxiv, 2026-10-27; first seen 2026-10-28; Binders and therapeutics, Experimental validation)
 - [In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation](https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357) (Future Foods, 2026-10; first seen 2026-10-24; Binders and therapeutics, Experimental validation)
 - [OmniScore: Universal Scoring of Diverse Biomolecular Complexes via Equivariant Geometry-Aware Discrete Representation Learning](https://doi.org/10.64898/2026.08.28.747942) (bioRxiv, 2026-10-14; first seen 2026-10-16; Binders and therapeutics, Enzymes and function)
@@ -332,7 +344,7 @@ Updated: **2026-10-28** (`2026-10-28T05:53:54Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-28](outputs/daily/2026-10-28.md)
+- [Daily report for 2026-10-29](outputs/daily/2026-10-29.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
