@@ -769,8 +769,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-18",
       "published": "2026-10-17",
-      "source": "bioengineer.org",
-      "summary": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines bioengineer.org",
+      "source": "Bioengineer.org",
+      "summary": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines Bioengineer.org",
       "title": "AI protein design lessons from COVID-19 point to pandemic-ready vaccines",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3VmbUljb2Etc202Ym5kU19peG05ZHQ1R3hzc0pLbTdkN2xXYldmWXZWSE10bjNaa2l0SEJYenlHRy1KM1Z6aDR2bXBFdkZOblU2c0ctUjZKVWEtbkZmU1otaTJsVWxfQVhlNTkyY2RyeGd5eTBzbFh3MWIxZjhvcmRub2daajVJQ1J5b19scXF0bjE1Y0hqZkZnNFctUQ?oc=5"
     },
@@ -1143,6 +1143,15 @@
       "title": "NVIDIA details RFD4-Proteina protein design search workflow",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUmMzdWhIQmlSMTdUa1ktMTl2ei1zNFJwRkVoTWZXVDB1VFkzQzRvWVotZUdWaXM5cHg2dl9uc21UUDNRWUwwMkh1UWJwV1ZvNWsxUC1FZXlPUWxGN0Fta3NGVHRvcWFvZmFKMWxPOS1oczBzNVBrMTM2LVJUQTlwa0xZMENwb3M?oc=5"
     },
+    "b0651c7d41d8a9cf323ebf4c41fc854ca1b7f503": {
+      "category": "产业动态",
+      "first_seen": "2026-10-30",
+      "published": "2026-10-29",
+      "source": "Bioengineer.org",
+      "summary": "AlphaFold 3 Structures Can Guide T-Cell Receptor Engineering, With Caveats Bioengineer.org",
+      "title": "AlphaFold 3 Structures Can Guide T-Cell Receptor Engineering, With Caveats",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS2xubG5PSHlpbjFNNURiemxOM3FfLThJZ3NuQ1FwSTFkU2t6dl9FcFYwT01QSWJWS3dzT3JwcUdXZkhQRmlKZ3NoTF9PaGVIUl93SHdjNzUyb3RtQkgwZmpTNVd0bHZQSi1NbGFvV2trNnJOSzhwTHBtSzBCTW92UlZZbk0xS1hpcFd2U3JPeExlbEVNMTM5SkF6VC03S3M?oc=5"
+    },
     "b092fe7c2e42ac7715d49df513e704e07b8d326b": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -1395,14 +1404,23 @@
       "title": "AI Designs De Novo Design Of Protein Binders To Combat Scorpion Toxins With Claude",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByWjNxLWdXM0FlbHVRNUpWZEtvdGNrR1JvOGQ2TXBJNVRha1p2VHZiVHJSX2RZWl9PeXBxMkNGZUFkb3BxSUFocUpPWl93TDFOTjh2aHdOWXlCMWJoTTNnWmx3SldvZ3A2M1MxME9TUHp4YzQyTTBXOEVKanQ?oc=5"
     },
+    "d50b70d4b43fd9bb8e16a370456560d41f55d518": {
+      "category": "产业动态",
+      "first_seen": "2026-10-30",
+      "published": "2026-10-20",
+      "source": "Chemical & Engineering News",
+      "summary": "Researchers use AI to design protein-digesting enzymes Chemical & Engineering News",
+      "title": "Researchers use AI to design protein-digesting enzymes",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWtBX25uVmFQYjBKX2xsbkphRzNscDZfc3Rwa251bEMyakV2eUNHQjIzRmZBLU5wb05ZdHp0ai1zS3VLdVB5cldZM2V2TUstbkpYSzdTem1jNHIwQi1CQU9KTG8xSE1hUG14dXJScmU4MUxST0JSRXNhLXVmcmZNRXUxUVM3OUZiM3N3Tnl0SUh4d1p5Snl1Sk1Ga1dQdw?oc=5"
+    },
     "d6bcd6db7022dc70ebd2978817939f37ef119f1e": {
       "category": "产业动态",
       "first_seen": "2026-10-23",
       "published": "2026-10-21",
-      "source": "marketscreener.com",
-      "summary": "Nvidia Enters Healthcare AI Partnerships; Unveils Open Protein Design Model marketscreener.com",
+      "source": "Yahoo Finance",
+      "summary": "Nvidia Enters Healthcare AI Partnerships; Unveils Open Protein Design Model Yahoo Finance",
       "title": "Nvidia Enters Healthcare AI Partnerships; Unveils Open Protein Design Model",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWjZKbGU0ZmJ5MDkyQ2JwOVlzd3ZEUEQ0NjZudDJCR2dOVERyWTcxSHVYdmJ1bDZCbURRaGpMYjhQc3ZDRkpSbHg0Vk5BbW9YZDJTdVljT2RPMjFpX0lpd2w3dWp6cVl4UDBZeGpKVWNOd0xyZlFqZmNEc0xrNnpPTjJGalFmZFdSbWg5ZmthckF4WHhuYzB6U3NqTFFHaEJfdHRZOUVjdUJGa0FlSEhQTU9qeGd5TV9iWmxaYXplUGlwNzVBeGc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNakFXcG1SMHhnWWRoWXdVTDBYLVdkTW5jd3Y1MWJKakpnamdTSG4xUjdCN0JLbDhDanZXZzFUQ1RHaUJyV3cyUnlkZ3BqOHVXWHRtZC1ReTBWQXAwenpiSWYtYk9RRDZrWHlLcnRtVzE2Wl85UmpndVYxVGpkVGM1N3Fxb0dWR0V4ZHZGMGU1ODZfdXRWR21INk4wYno2Z3RyWVg0ZGEzVQ?oc=5"
     },
     "d7e56dd1a3e43d72dac0259ffedbb39b81456dfe": {
       "category": "产业动态",
@@ -1602,6 +1620,15 @@
       "title": "AI Drug Discovery Forecasts Vary Widely as Sector Shifts to Deployment",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFNGaFM2X3V5dGVYUWFiMWdhajd6dUZlV2JHQ21oYUtnbklNek5pUEFiOTBaNGNzcmVzdi1HMUllNmlkYTk2aUl0UVRRc2NmTWlmYmJZa08tMUFwU2ZPc19hU1RZRnliUHd4VmFOcW03SFB4UlhQem9fMHZBR1RMT1NURW9xbEJrRmFZbUtKbjRxeGFJcmt1aGlBblpTSjU1bk4xblgyVnRwbnBCZmlJUWlkZ1JmVk9YWHcxd0FaMWNVVEFOeklQeVBRRQ?oc=5"
     },
+    "f67bfd9e3c3bd005ac414334e427127f9a2b8cac": {
+      "category": "模型与工具",
+      "first_seen": "2026-10-30",
+      "published": "2026-10-30",
+      "source": "GitHub · EvolutionaryScale/esm",
+      "summary": "Added the Batch API ( ForgeBatchClient ) for folding, plus max-accuracy folding with ESMFold2 Pro (see cookbook/snippets/batch.md and cookbook/snippets/fold_max_accuracy.md ) Released the 2025-cutoff ESMFold2 model fp8 inference for the ES…",
+      "title": "esm · v3.4.2",
+      "url": "https://github.com/Biohub/esm/releases/tag/v3.4.2"
+    },
     "f830f9d92bed7d81f9b4013b0d503fa6a373ca45": {
       "category": "产业动态",
       "first_seen": "2026-10-13",
@@ -1693,5 +1720,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-29T05:58:02+00:00"
+  "updated_at": "2026-10-30T05:59:20+00:00"
 }

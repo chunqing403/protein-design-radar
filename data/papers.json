@@ -1672,6 +1672,33 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389"
     },
+    "doi:10.1016/j.fbio.2026.110396": {
+      "abstract": "",
+      "authors": [
+        "Minh Quoc Ha",
+        "Ha Xuan Son",
+        "Rothman Kam",
+        "Brent Seale",
+        "Claus Heiner Bang-Berthelsen",
+        "Thao T. Le"
+      ],
+      "doi": "10.1016/j.fbio.2026.110396",
+      "first_seen": "2026-10-30",
+      "published": "2026-10",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "peptide"
+      ],
+      "source": "Food Bioscience",
+      "source_id": "10.1016/j.fbio.2026.110396",
+      "title": "A multi-task learning framework with a frozen protein language model for unified prediction of food-derived peptide functions",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226021723"
+    },
     "doi:10.1016/j.foodchem.2026.151247": {
       "abstract": "",
       "authors": [
@@ -2352,6 +2379,27 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034"
+    },
+    "doi:10.1016/j.sbi.2026.103422": {
+      "abstract": "",
+      "authors": [
+        "Alfie-Louise R. Brownless",
+        "Shina C.L. Kamerlin"
+      ],
+      "doi": "10.1016/j.sbi.2026.103422",
+      "first_seen": "2026-10-30",
+      "published": "2027-02",
+      "reasons": [
+        "artificial intelligence",
+        "enzyme"
+      ],
+      "source": "Current Opinion in Structural Biology",
+      "source_id": "10.1016/j.sbi.2026.103422",
+      "title": "Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
@@ -7870,7 +7918,7 @@
       "url": "https://doi.org/10.64898/2026.10.22.760799"
     },
     "doi:10.64898/2026.10.23.761395": {
-      "abstract": "Antibodies recognized as foreign can elicit anti-drug antibodies that compromise efficacy and safety, making humanness scoring---estimating how human-like a sequence appears---an early, repeated step in antibody development. Widely used scores reduce a variable domain to one framework-dominated number, leaving the complementarity-determining regions (CDRs)---grafted during humanization, diversified by generative models---weakly supervised and rarely audited. Here we introduce IgScope, a 23-million-parameter antibody language model trained from scratch that scores humanness at chain, IMGT-region and residue resolution; a region-isolated attention module confines attention to within-region pairs, and chimeric-sequence training supplies region-level supervision. On 2.38 million held-out chains, masking all framework tokens leaves CDR accuracy unchanged, and back-mutated murine residues in human frameworks are detected at 93.4\\% accuracy. At chain level, IgScope matches the strongest published correlation with clinical anti-drug-antibody incidence (r = $-$0.567, n = 217) and outperforms a same-protocol recomputation. Region-level scoring exposes what chain-level scoring conceals: antibodies designed de novo by four generative models pass whole-chain humanness (0.966--0.988) while their CDRs score far below natural (P $<$ 1e-30) in every chain class. Quality control turns the same resolution to the mirror-image question: in humanized-mouse platforms, whose domains are human by design, IgScope scores the domain as human and, in HUGO-Nano chimeric VHHs, isolates only the FR2 signal of four camelid hallmark residues deliberately retained to stabilise the VHH. IgScope gives antibody humanization a verified foundation and generative design an audit.",
+      "abstract": "Antibodies recognized as foreign can elicit anti-drug antibodies that compromise efficacy and safety, making humanness scoring, estimating how human-like a sequence appears, an early, repeated step in antibody development. Widely used scores reduce a variable domain to a single framework-dominated number, leaving the complementarity-determining regions (CDRs) grafted during humanization, diversified by generative models weakly supervised and rarely audited. Here we introduce IgScope, a 23-million-parameter antibody language model trained from scratch that scores humanness at chain, IMGT-region, and residue resolution; a region-isolated attention module confines attention to within-region pairs, and chimeric-sequence training supplies region-level supervision. On 2.38 million held-out chains, masking all framework tokens leaves CDR accuracy unchanged, and back-mutated murine residues in human frameworks are detected at 93.4% accuracy. At chain level, IgScope matches the strongest published correlation with clinical anti-drug-antibody incidence (r = 0.567, n = 217) and outperforms a same-protocol recomputation. Region-level scoring exposes what chain-level scoring conceals: antibodies designed de novo by four generative models pass whole-chain humanness (0.966-0.988), while their CDRs score far below natural (P < 1e-30) in every chain class. Quality control turns the same resolution to the mirror-image question: in humanized-mouse platforms, whose domains are human by design, IgScope scores the domain as human and, in HUGO-Nano chimeric VHHs, isolates only the FR2 signal of four camelid hallmark residues deliberately retained to stabilize the VHH. IgScope gives antibody humanization a verified foundation and generative design an audit.",
       "authors": [
         "Liu, H.",
         "Chen, P.",

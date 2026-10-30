@@ -390,6 +390,12 @@
       "title": "Artificial Intelligence in Food Bioactive Peptide Discovery: An Integrated Dual-Workflow for Predictive Screening and Generative Design, Advances, Challenges, and Future Directions",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226018389"
     },
+    "doi:10.1016/j.fbio.2026.110396": {
+      "first_seen": "2026-10-30",
+      "source": "Food Bioscience",
+      "title": "A multi-task learning framework with a frozen protein language model for unified prediction of food-derived peptide functions",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2212429226021723"
+    },
     "doi:10.1016/j.foodchem.2026.151247": {
       "first_seen": "2026-09-24",
       "source": "Food Chemistry",
@@ -551,6 +557,12 @@
       "source": "Current Opinion in Structural Biology",
       "title": "Revealing protein structural transitions in the era of generative artificial intelligence",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034"
+    },
+    "doi:10.1016/j.sbi.2026.103422": {
+      "first_seen": "2026-10-30",
+      "source": "Current Opinion in Structural Biology",
+      "title": "Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
