@@ -288,6 +288,12 @@
       "title": "Opportunities and challenges of artificial intelligence-driven peptide discovery",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848"
     },
+    "doi:10.1016/j.cej.2026.183652": {
+      "first_seen": "2026-10-31",
+      "source": "Chemical Engineering Journal",
+      "title": "Engineering precision antimicrobials: AI-driven design of self-assembling non-natural peptide nanostructures",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1385894726111152"
+    },
     "doi:10.1016/j.cell.2026.06.029": {
       "first_seen": "2026-07-23",
       "source": "PubMed",
@@ -870,6 +876,12 @@
       "title": "Predicting protein electrostatics with protein language models",
       "url": "https://www.nature.com/articles/s41467-026-78406-y"
     },
+    "doi:10.1038/s41467-026-79191-4": {
+      "first_seen": "2026-10-31",
+      "source": "Nat Commun",
+      "title": "IDPForge: deep learning of proteins with global and local regions of disorder",
+      "url": "https://www.nature.com/articles/s41467-026-79191-4"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "first_seen": "2026-10-08",
       "source": "npj Sci Food",
@@ -1266,6 +1278,12 @@
       "title": "Drying Kinetics and Quality of Foam-Mat-Dried Acerola With Plant-Based Foaming Agents.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42360395/"
     },
+    "doi:10.1126/sciadv.aef5674": {
+      "first_seen": "2026-10-31",
+      "source": "Sci. Adv.",
+      "title": "General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aef5674"
+    },
     "doi:10.1126/science.adr3817": {
       "first_seen": "2026-07-06",
       "source": "Science",
@@ -1307,6 +1325,12 @@
       "source": "PubMed",
       "title": "BeitAI-pHLA: Multiallele Peptide-HLA Class I Binding Prediction Using Protein Language Model and Multi-Instance Learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
+    "doi:10.34133/csbj.0246": {
+      "first_seen": "2026-10-31",
+      "source": "PubMed",
+      "title": "A Two-Stage ESM-Based Machine Learning Pipeline for Robust Hierarchically Evaluated Enzyme Function Prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42959430/"
     },
     "doi:10.64898/2026.01.15.699719": {
       "first_seen": "2026-10-01",
@@ -1751,6 +1775,12 @@
       "source": "bioRxiv",
       "title": "AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.",
       "url": "https://doi.org/10.64898/2026.10.23.761425"
+    },
+    "doi:10.64898/2026.10.24.761502": {
+      "first_seen": "2026-10-31",
+      "source": "bioRxiv",
+      "title": "Does a map-level insulation constraint improve sequence-based prediction of 3D genome folding? A Stage 1 Registered Report with a reverse-complement-equivariant state-space model (HiFold-Mamba)",
+      "url": "https://doi.org/10.64898/2026.10.24.761502"
     },
     "doi:10.64898/2026.10.24.761574": {
       "first_seen": "2026-10-28",

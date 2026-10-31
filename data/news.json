@@ -909,6 +909,15 @@
       "title": "Beyond AI Drug Discovery: Astromech and the Rise of Predictive Biology",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdGhMS3hfWDdvcVdRUHZTaUFNb1daem1ON1BMSEF3QURSRDRpaXVyWi1FMHVkeUdjcTJ4YmZQLW5xRTVwMG9ibzZKUXVwLWptWE9haGpib0dLeU1HOGpTM05OaGJScjB1UFRWSzFxVm9UVGVzMnZFNS1qd1FScEZxUmFRX0dMMmkwZTB0dnA2eUx5YnVRQkxjSXBKYnI0Zw?oc=5"
     },
+    "8baa3882f201e9108a47664bb4f35f1391e851f5": {
+      "category": "模型与工具",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-30",
+      "source": "GitHub · google-deepmind/alphafold3",
+      "summary": "This release is about speed! The build is faster, the build_data script is faster, the MSA featurisation is 10x faster, and – most importantly – Jackhmmer search is ~2.5x faster and now nicely scales with --jackhmmer_n_cpu . On a machine w…",
+      "title": "alphafold3 · AlphaFold v3.0.5",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.5"
+    },
     "8bfe8f800d255fd243c8e4034c6de0b4cbeda1ea": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -980,6 +989,15 @@
       "summary": "BigHat Biosciences Announces $75 Million Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design BioSpace",
       "title": "BigHat Biosciences Announces $75 Million Series C Financing to Advance AI-Designed Therapeutics and Leading Agentic Data Platform for Rapid Protein Design",
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQU21DeTUxWk1mSXVlTGJUSUdEdTZaNE9aNm9pQmNwWTI5alVfdnc4ODMzOGNxbUJLN3hXQk13TXdDOWFnV25zMC1fVk5fbkZpaHJsLW9RNmxMRHY4LUxuLWRFb1l2MVVHcThaNGlIbVlYQkNsY1V5VFE0Mi15cHpLSjlpYktPV0tjUjFCNFY5Y1Z5TXdyalRZN2U0NnQzdzU3MS1FTmN5SWNuNFJJVXR0dVNrTHVWazRHZnRrejJVNGhEc1BMOUlaa2hwamdXU0s1QmpPeEQ4a2FkQlA1eF9QdzlWSmRDNW5zQ2hhbUg5enU3WUR4TE90WmlwZ0EzdDd6NGxXZzZxSk85dlViLXNaUHJrZjBhUVdhbl9idlBn?oc=5"
+    },
+    "931c76901db8edc64a8dc0c286600108be0d8bcf": {
+      "category": "产业动态",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-28",
+      "source": "Technology Networks",
+      "summary": "Genedata Integrates RFD4-Proteina Into AI Workflows Technology Networks",
+      "title": "Genedata Integrates RFD4-Proteina Into AI Workflows",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU0tPZk9CXzJEbmJRWnJYcXpiUmFUdVpvWGhSdk9HWExUaDJncXcySHdJWG13ZDFFZVhCeWF6WEtJcXgxOWZsazIxMFlfbEVxWVUxYVNoMXBVcFg2LUs2YkFiWUlydVJ4ZGcwZWd2S1o3UzdaSFlzVnNWTWp5M1BMRFFWd2dURnRUdzJscmZWd19tQXlnRTQ0ZlNBa1E0OWhtNU1xbW5nZjU0QWVnSWc?oc=5"
     },
     "93e3b93e66e416092b6e9dca047aedcbe507a5b4": {
       "category": "产业动态",
@@ -1318,8 +1336,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-08",
       "published": "2026-10-07",
-      "source": "Harvard University",
-      "summary": "A More Efficient Approach to Cancer-Fighting Protein Design Harvard University",
+      "source": "Harvard School of Engineering and Applied Sciences",
+      "summary": "A More Efficient Approach to Cancer-Fighting Protein Design Harvard School of Engineering and Applied Sciences",
       "title": "A More Efficient Approach to Cancer-Fighting Protein Design",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa09mdVl5UUZOQm5MREtCNXlWRldzWjNXU1dGaW9yNUtEUHh6a25xN2lNU1liMUVfWXE0OWQzQ3dEMEJqVmpIMDV3c1dRaVA0bE55dks5aGNTTXFJZzJLeFAycUhvdEpCMlIxaTNBM2dDVl8xNXNGc2s4LUY4V3I1UTFnODc0WU8xT0dKSA?oc=5"
     },
@@ -1710,6 +1728,15 @@
       "title": "RFdiffusion2: efficient enzymes from prompts",
       "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/"
     },
+    "feff75fea9c98e95e87109be519e7b8e3d49d9c1": {
+      "category": "产业动态",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-30",
+      "source": "Pandaily",
+      "summary": "Huawei Says It Will Not Make Drugs, Aims to Be the Computing Base for AI Drug Discovery Pandaily",
+      "title": "Huawei Says It Will Not Make Drugs, Aims to Be the Computing Base for AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXdsUE9IOUVHR3pxWm50WFBub2tTTGlSd2pjTjRUUVdCVjNuUHNiX2ZVamlOUUl0WTNIajNxLUJXXzluY3lZekxMbHpWaG1aRzRkSk54c3BaQnU3cEREa0JuYmI2Z2hBNGJkcEFQREMxRk1SYXVaVjJxdm8wTjZDaWhIcnlLd3U1RU5WMThKZzFtZ3Z5YjBTRWhaQzNqQWdSZjUyZFJZNEttYmNzLUpqOTJkWnk3SlE?oc=5"
+    },
     "ff4c39df99a706655716c2d6c2636a5057f0b4d5": {
       "category": "模型与工具",
       "first_seen": "2026-09-29",
@@ -1720,5 +1747,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-30T05:59:20+00:00"
+  "updated_at": "2026-10-31T05:55:17+00:00"
 }

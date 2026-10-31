@@ -1223,6 +1223,29 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1001841726009848"
     },
+    "doi:10.1016/j.cej.2026.183652": {
+      "abstract": "",
+      "authors": [
+        "Liangchun Li",
+        "Renlin Zheng",
+        "Rongqin Sun",
+        "Yongxiang Luo"
+      ],
+      "doi": "10.1016/j.cej.2026.183652",
+      "first_seen": "2026-10-31",
+      "published": "2026-10",
+      "reasons": [
+        "AI-driven",
+        "peptide"
+      ],
+      "source": "Chemical Engineering Journal",
+      "source_id": "10.1016/j.cej.2026.183652",
+      "title": "Engineering precision antimicrobials: AI-driven design of self-assembling non-natural peptide nanostructures",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1385894726111152"
+    },
     "doi:10.1016/j.cell.2026.06.029": {
       "abstract": "Protein-protein interactions underlie biological complexity, and modeling their coevolution is essential for characterizing and engineering molecular assemblies. While protein and genomic language models have excelled at modeling individual proteins, extending these capabilities to protein complexes remains challenging. We present multiple sequence alignment (MSA) Pairformer, a protein language model that builds on AlphaFold2/3's bidirectional refinement between sequence and pairwise residue representations to accurately model the evolution of protein-protein interactions, despite training exclusively on individual chains. MSA Pairformer achieves nearly 3-fold improvement over existing methods in predicting protein-protein interface contacts and better distinguishes binding from non-binding sequences. A learned attention mechanism selectively weights sequences by their inferred evolutionary relevance, enabling discovery of subfamily-specific contacts. On single-protein benchmarks, it achieves state-of-the-art contact prediction and strong variant effect prediction using only 111 million parameters, over two orders of magnitude smaller than frontier models. These results offer an evolutionarily grounded, computationally efficient alternative to the scaling paradigm.",
       "authors": [
@@ -3817,6 +3840,36 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-78406-y"
     },
+    "doi:10.1038/s41467-026-79191-4": {
+      "abstract": "Abstract Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold. We present a machine learning method, IDPForge ( I ntrinsically D isordered P rotein, FO lded and disordered R egion GE nerator), that exploits a transformer protein language diffusion model to create all-atom IDP ensembles and IDR ensembles that maintains the folded domains. IDPForge does not require sequence-specific training, back transformations from coarse-grained representations, nor ensemble reweighting. The created IDP/IDR conformational ensembles show good agreement with both NMR and SAXS solution experimental data, and options for biasing with experimental restraints are available if desired. IDPForge with these diverse capabilities facilitates integrative and structural studies for proteins that contain intrinsic disorder, and is available as an open source resource for general use.",
+      "authors": [
+        "Stefano De Castro",
+        "Oufan Zhang",
+        "Zi Hao Liu",
+        "Julie D. Forman-Kay",
+        "Teresa Head-Gordon"
+      ],
+      "doi": "10.1038/s41467-026-79191-4",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-30",
+      "reasons": [
+        "deep learning",
+        "structure prediction",
+        "diffusion model",
+        "AlphaFold",
+        "RoseTTAFold",
+        "transformer"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-79191-4",
+      "title": "IDPForge: deep learning of proteins with global and local regions of disorder",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79191-4"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "abstract": "",
       "authors": [
@@ -5497,6 +5550,34 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42690977/"
     },
+    "doi:10.1126/sciadv.aef5674": {
+      "abstract": "The major histocompatibility complex (MHC):peptide:T cell receptor (TCR) complex is the most diverse trimolecular interface known in nature and a key trigger for adaptive immunity. TCRs are now routinely sequenced at scale; however, decoding their specificity for antigens remains a bottleneck. While in silico approaches have advanced considerably, none enables prediction against “unseen” epitopes, limiting their applicability to a tiny fraction of cases. Here, we show that AlphaFold 3 (AF3) predicts the structures of MHC:peptide:TCR triads with unprecedented accuracy. By applying AF3 to >9000 TCRs mapped to >1000 distinct epitopes restricted by >70 MHC class I/II alleles, we identify features that distinguish cognate triads from controls. The resulting model achieves median areas under the curve of 0.81 to 0.92 on validation triads unseen by AF3 or during feature selection. Our results reveal that generalized prediction of TCR specificity from sequence is possible, with the potential to greatly accelerate the decoding of immune responses.",
+      "authors": [
+        "Lawson J. Woods",
+        "Brandon Neff",
+        "Kamel Lahouel",
+        "Antoine Goursaud",
+        "Mete Mulazimoglu",
+        "Kameron Bates",
+        "Cristian Tomasetti",
+        "John A. Altin"
+      ],
+      "doi": "10.1126/sciadv.aef5674",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-30",
+      "reasons": [
+        "AlphaFold",
+        "peptide",
+        "sequence"
+      ],
+      "source": "Sci. Adv.",
+      "source_id": "10.1126/sciadv.aef5674",
+      "title": "General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.science.org/doi/10.1126/sciadv.aef5674"
+    },
     "doi:10.1126/science.adr3817": {
       "abstract": "Developing therapies and vaccines against integral membrane proteins is hindered by their extensive hydrophobic surfaces, which complicate production and structural analysis. Here, we describe a general deep learning–based design approach for solubilizing native membrane proteins while preserving their sequence, fold, active-site, and ligand-binding properties. Genetically encoded de novo protein WRAPs [water-soluble RFdiffused amphipathic proteins] surround the lipid-interacting hydrophobic surfaces, rendering them thermostable and water-soluble without the need for detergents. We design WRAPs for both monomeric and oligomeric beta-barrel outer membrane proteins and helical multipass transmembrane proteins. A 2.95-angstrom-resolution cryo–electron microscopy structure of WRAPed mycobacterial porin demonstrates that WRAPs can be used for the structural determination of membrane proteins in solution. As a step toward syphilis vaccine development, we generated soluble versions of Treponema pallidum antigens.",
       "authors": [
@@ -5708,6 +5789,31 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729647/"
+    },
+    "doi:10.34133/csbj.0246": {
+      "abstract": "Accurate enzyme annotation remains a major bottleneck in translating rapidly growing protein sequence data into biological knowledge. Enzyme Commission (EC) prediction is particularly challenging because enzyme functions are organized hierarchically, annotations are often imbalanced across classes, and sequence similarity alone may be insufficient to resolve functional differences. To address these challenges, we developed ESM-ECForest, a 2-stage framework that combines protein embeddings generated by the pretrained language model ESM-2 (Evolutionary Scale Modeling 2) with random forest classifiers. The first stage distinguishes enzymes from nonenzymes, whereas the second assigns one or more EC numbers to proteins predicted to be enzymatic. On an external benchmark comprising 25,778 protein sequences, ESM-ECForest achieved competitive weighted F1 scores among the evaluated off-the-shelf methods, decreasing from 0.94 at Level 1 to 0.90 at Level 4. The largest relative improvements were observed for lyases (EC 4), ligases (EC 6), and translocases (EC 7), although EC 6 and EC 7 remained the most difficult classes internally. Uniform manifold approximation and projection of the ESM-2 embedding space showed clustering patterns that broadly reflected enzyme functional relationships, suggesting that the pretrained representations capture functionally relevant information. These results support the use of pretrained protein language model embeddings as an effective foundation for enzyme annotation. By combining pretrained protein representations with a lightweight supervised classifier, ESM-ECForest provides a scalable approach for EC prediction and may facilitate functional annotation of proteins from large microbial genomic and metagenomic datasets within the taxonomic and EC-label space represented during model development.",
+      "authors": [
+        "Hua X",
+        "Grimaud GM"
+      ],
+      "doi": "10.34133/csbj.0246",
+      "first_seen": "2026-10-31",
+      "published": "2026 01 01",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "enzyme",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42959430",
+      "title": "A Two-Stage ESM-Based Machine Learning Pipeline for Robust Hierarchically Evaluated Enzyme Function Prediction.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42959430/"
     },
     "doi:10.64898/2026.01.15.699719": {
       "abstract": "Understanding how bacterial diversity at strain level resolution shapes host physiology is a central challenge in microbiome research. The vast, functionally unknown genetic diversity within a species pangenome makes it difficult to connect genes to function and their impact on host physiology. Here, we explore how the functional landscape of the Escherichia coli pangenome impacts transcriptional responses in Caenorhabditis elegans and show that traditional gene-centric methods fail to provide significant functional associations with the host. Thus, we developed a pangenome framework that leverages the protein language model ProtT5 and generates unique strain embeddings representing the functional potential of each 9,558 E. coli isolate. Stratification of the pangenome into distinct functional guilds aligned with key host processes such as cell division, metabolism and proteostasis. Through mGWAS analysis we identify a critical interplay between the extensive network of bacterial chaperones and proteases in regulating host proteostasis. We find that the bacterial chaperone DNAK/HSP70 and protease ClpX fine-tune the host ubiquitin-proteasome system by controlling propionate and vitamin B12 availability. These findings reveal a conserved 'co-proteostasis' mechanism as a key phenomenon modulating host-microbe interactions through metabolic communication. Our pangenome-to-phenotype approach offers a powerful strategy to decode bacterial pangenome functional diversity, directly linking microbial genomic variation to host proteostasis.",
@@ -7933,7 +8039,7 @@
       ],
       "doi": "10.64898/2026.10.23.761395",
       "first_seen": "2026-10-29",
-      "published": "2026-10-28",
+      "published": "2026-10-29",
       "reasons": [
         "generative model",
         "antibody",
@@ -7976,6 +8082,29 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.23.761425"
+    },
+    "doi:10.64898/2026.10.24.761502": {
+      "abstract": "Background. Sequence-to-contact-map models are trained with pixel-wise losses, although the features of interest (insulation, domain boundaries, loops) are summaries of the map. Insulationbased losses help Hi-C resolution enhancement. No pre-specified test has asked whether they improve sequence-based prediction, judged against annotations independent of the training data. Proposed study. HiFold-Mamba predicts 448 x 448 maps at 2,048 bp from 1,048,576 bp of DNA on the DNALongBench contact-map task. Every component is reverse-complement-equivariant: convolutional tower, bidirectional Mamba blocks, multi-scale mixer and symmetric pairwise head. We pre-register three hypotheses: >> H1: it exceeds each of three trained baselines (reproduced Akita, a parameter-matched Transformer and a parameter-matched CNN) by [≥]0.01 stratum-adjusted correlation (SCC). >> H2: an insulation and boundary loss, computed from the predicted map with the operator used on the observed map, improves boundary AUROC and loop AP against independent 4DN boundary calls and ENCODE CTCF ChIA-PET loops, at equal training steps and without loss of SCC. >> H3: pretraining plus few-shot adaptation beats training from scratch on four held-out cell lines.Tests use a paired bootstrap over 237 one-megabase test blocks (one-sided = 0.025). Pilot data. >> Verification. The benchmark target, the window coordinates and the networks equivariance were verified. >> Locus-shared reference. Copying other cell lines measured maps at the same locus matches published Akita on the benchmarks SCC (0.227 vs. 0.230). >> SCC weightings. Two weightings in common use weight distance strata in opposite directions and agree only moderately ({rho} = 0.54). >> Comparison rule. In simulations calibrated on the pilot data, a per-block-best comparison against several baselines has no power. We therefore test against each baseline, which gives [≥] 90 % power at a true gain of 0.02 when between-model correlation is [≥] 0.95. >> H2 positive control. On validation windows, observed maps recover the independent boundaries (AUROC 0.61 - 0.91) and loops (0.86 - 0.90). This fixed the insulation window and showed that these annotations are largely shared across cell types.",
+      "authors": [
+        "Malekpouri, M.",
+        "Lotfi, S."
+      ],
+      "doi": "10.64898/2026.10.24.761502",
+      "first_seen": "2026-10-31",
+      "published": "2026-10-30",
+      "reasons": [
+        "folding",
+        "transformer",
+        "equivariant",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.24.761502",
+      "title": "Does a map-level insulation constraint improve sequence-based prediction of 3D genome folding? A Stage 1 Registered Report with a reverse-complement-equivariant state-space model (HiFold-Mamba)",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.24.761502"
     },
     "doi:10.64898/2026.10.24.761574": {
       "abstract": "STAT3 is a transcription factor involved in the progression of many types of cancer, which makes it an attractive therapeutic target. Small-molecule STAT3 inhibitors have experienced a high failure rate in clinical trials, indicating alternative approaches may be warranted. To address these limitations, we used BindCraft, a modern AI-driven protein design tool, to create miniprotein binder candidates against several sites of STAT3. We selected seven target hotspots on the SH2, linker, DNA-binding and coiled-coil domains of STAT3. Of 139 designs that passed BindCraft's filters, 11 high-confidence binders emerged from five of the seven hotspots. These candidate binders were evaluated with AlphaFold3 (AF3). All eleven are predicted to dock with their intended domain; most within 4.5 [A] of one or more of their targeted hotspot residues. Several minibinders are predicted to dock simultaneously to STAT3 without overlap. Such pairs have the potential to constitute STAT3 sandwich assays. BLASTp searches found no matches with known protein sequences for six of the binders and only very low-significance matches for the other five. We disclose herein the sequences of our top binders targeting diverse regions of the STAT3 surface with the hope that experimental validation by the broader research community will yield promising leads for preclinical drug development against this important cellular regulator.",
