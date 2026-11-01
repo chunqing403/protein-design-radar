@@ -7,17 +7,13 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-10-31** (`2026-10-31T05:55:12Z`)
+Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Does a map-level insulation constraint improve sequence-based prediction of 3D genome folding? A Stage 1 Registered Report with a reverse-complement-equivariant state-space model (HiFold-Mamba)](https://doi.org/10.64898/2026.10.24.761502)<br><sub>Malekpouri, M., Lotfi, S.</sub> | bioRxiv<br>2026-10-30 | Protein language models |
-| 2 | [IDPForge: deep learning of proteins with global and local regions of disorder](https://www.nature.com/articles/s41467-026-79191-4)<br><sub>Stefano De Castro, Oufan Zhang, Zi Hao Liu et al.</sub> | Nat Commun<br>2026-10-30 | Structure generation, Protein language models, Experimental validation |
-| 3 | [General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3](https://www.science.org/doi/10.1126/sciadv.aef5674)<br><sub>Lawson J. Woods, Brandon Neff, Kamel Lahouel et al.</sub> | Sci. Adv.<br>2026-10-30 | Binders and therapeutics |
-| 4 | [Engineering precision antimicrobials: AI-driven design of self-assembling non-natural peptide nanostructures](https://linkinghub.elsevier.com/retrieve/pii/S1385894726111152)<br><sub>Liangchun Li, Renlin Zheng, Rongqin Sun et al.</sub> | Chemical Engineering Journal<br>2026-10 | Binders and therapeutics |
-| 5 | [A Two-Stage ESM-Based Machine Learning Pipeline for Robust Hierarchically Evaluated Enzyme Function Prediction.](https://pubmed.ncbi.nlm.nih.gov/42959430/)<br><sub>Hua X, Grimaud GM</sub> | PubMed<br>2026 01 01 | Protein language models, Enzymes and function |
+| 1 | [AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery](https://www.nature.com/articles/s41467-026-79039-x)<br><sub>Dongmin Xun, Lanqing Li, Jie Zou et al.</sub> | Nat Commun<br>2026-10-31 | General |
 
 ### Paper Directory / 文献目录
 
@@ -29,7 +25,7 @@ Updated: **2026-10-31** (`2026-10-31T05:55:12Z`)
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 49 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 13 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 32 |
+| [General / 综合](#paper-category-general) | 33 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -311,8 +307,9 @@ Updated: **2026-10-31** (`2026-10-31T05:55:12Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (32)
+#### General / 综合 (33)
 
+- [AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery](https://www.nature.com/articles/s41467-026-79039-x) (Nat Commun, 2026-10-31; first seen 2026-11-01; General)
 - [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-24; General)
 - [Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217) (Clinica Chimica Acta, 2026-10; first seen 2026-10-24; General)
 - [How AlphaFold 3 helps with multiscale drug discovery](https://doi.org/10.64898/2026.10.19.757941) (bioRxiv, 2026-10-22; first seen 2026-10-20; General)
@@ -348,7 +345,7 @@ Updated: **2026-10-31** (`2026-10-31T05:55:12Z`)
 
 ### Archive
 
-- [Daily report for 2026-10-31](outputs/daily/2026-10-31.md)
+- [Daily report for 2026-11-01](outputs/daily/2026-11-01.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

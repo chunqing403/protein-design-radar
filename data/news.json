@@ -85,8 +85,8 @@
       "category": "产业动态",
       "first_seen": "2026-10-03",
       "published": "2026-10-03",
-      "source": "dqindia.com",
-      "summary": "Google DeepMind develops watermark for AI generated proteins dqindia.com",
+      "source": "DQ",
+      "summary": "Google DeepMind develops watermark for AI generated proteins DQ",
       "title": "Google DeepMind develops watermark for AI generated proteins",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblR6djF4NEd6STJEZGNQTU9pSWhnRFlMd3Z1U0ZRUHNoM2tlU1lDbkk3c083dDhEX0RCaUZ2dmhMQVBtQ28xVVdpcUhhSGdZTmZBYnBDdlpWMTZ2SUpuTmpNRjNveUZMa1plR2c3bEtJRG1tZWJqdG85dUhWVmZ6bHpYZVlKT2pKVjkyYnl4Yk5NV0g2ZkpsNkJrVUR1dFhFbWdLTnd4blDSAagBQVVfeXFMT25UenYxeDRHekkyRGRjUE1PaUloZ0RZTHd2dVNGUVBzaDNrZVNZQ25JN3NPN3Q4RF9EQmlGdnZoTEFQbUNvMVVXaXFIYUhnWU5mQWJwQ3ZaVjE2dklKbk5qTUYzb3lGTGtaZUdnN2xLSURtbWVianRvOXVIVlZmemx6WGVZSk9qSlY5MmJ5eGJOTVdINmZKbDZCa1VEdXRYRW1nS053eG5Q?oc=5"
     },
@@ -269,6 +269,15 @@
       "summary": "Isomorphic Labs Seeks Funding at $40 Billion Valuation as AI Drug Discovery Advances Konsulteer",
       "title": "Isomorphic Labs Seeks Funding at $40 Billion Valuation as AI Drug Discovery Advances",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWm5yM0lwNmR2RHF5UXRqTDRNand1NVRGeG9BSE5JUVJuWmdjNDd5c2NpaGF6dXFPZmxTMU5vN3dBenAwTFhVZGR5d0tTNXIzeGdhbm1Wd2liaWZkYnUyeVRYLTIxUmp6SlY5OG9qOGNWSDZSY3lYSGgxbGU3YjFVRnFKbnNUSG9pQkNCa0F4cVhzblRrM3Vnc08yZW0wOG8zWkcyT1k1MGRRN2hfdDlrUER1OWUxSUhJU1E?oc=5"
+    },
+    "27b2fea435cf4a307e08f5525b81ce5bc2d2dfd4": {
+      "category": "产业动态",
+      "first_seen": "2026-11-01",
+      "published": "2026-10-22",
+      "source": "Yahoo Finance",
+      "summary": "Astellas and AI Proteins sign miniprotein therapeutics deal Yahoo Finance",
+      "title": "Astellas and AI Proteins sign miniprotein therapeutics deal",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkdXUHN3Y0tSekNBbGZ5UHJWejBnTHp3NFYtX1hPNC0wdG04ekRGN0dkN2tyVzB3QU1YRkNEQVFhVnR3ekN5M3l5M0sxM20ycGhFd3llenBObkRXOHhXYXBTcFJzcUpoMnQ4dmFhTllnRl9MNXVycWFSRldpNElYc3FvNkw0VGRqU0Y4?oc=5"
     },
     "2bb69707455a7c09ce24d479354ff9c73f8e0fa1": {
       "category": "模型与工具",
@@ -1071,6 +1080,15 @@
       "title": "alphafold3 · AlphaFold v3.0.1",
       "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.1"
     },
+    "9da7bcace8b665d5adb727243cee8e356b10ef66": {
+      "category": "产业动态",
+      "first_seen": "2026-11-01",
+      "published": "2026-10-12",
+      "source": "Nature",
+      "summary": "Filling the massive AI drug discovery data gap Nature",
+      "title": "Filling the massive AI drug discovery data gap",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yRkl3ZGFkb29JZk0xRWxqX3VBaWhNREEwclhZNGlXbW1RelJVSkhiaHNNYlhud09IVUhVVGZ6ZHZHTlk5aGZ5cGx2R2YxdkJsZm9GdjFaY3g3b2xCaEJF?oc=5"
+    },
     "9e8fe4eb017d5ce5d5583ad84955c6357a0e363e": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -1476,6 +1494,15 @@
       "title": "HDOCK-Multimer: improved structure prediction of large protein complexes by integrating docking and combinatorial assembly",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByODFXN0dmcy1KZDFkQUJQTVFRS2ttOG42SnF1R0g5Wk9Uc2gtWGdhVm13WFVqaGdQd2hEdkpFb0RTWnBZWkc3anJxblg1UF9wYS1Ib0dHNnZLTDlvVDUw?oc=5"
     },
+    "de256b9c4d03bf3be869e655c3c50ca2838ca344": {
+      "category": "产业动态",
+      "first_seen": "2026-11-01",
+      "published": "2026-10-31",
+      "source": "BioPharma APAC",
+      "summary": "Parse Biosciences and Nomic Bio Launch 100-Million-Cell Immune Dataset to Advance AI Drug Discovery BioPharma APAC",
+      "title": "Parse Biosciences and Nomic Bio Launch 100-Million-Cell Immune Dataset to Advance AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUJZQl9MM0VXU0xOQVFoT19id05Yd0UyMnJkcGYtY3ZoVkF5bWRUZExWUW00dVhwdWZwRlZtNXM0b1ZNOUpaRGtHSVpFV0UxY01IcFBXeVdlVU1CNldDTFR0aXNsQXpXWTJXQ19vUzNqLWl0THJ4aGtTTWFZVUV0ZHdUVDZ3UzZDV0YyM09SUHhuRGVTd1JNeUhHc0I4bkNlOFJ0QkVYUE91YXF0aW81eGZzeUhWZXVweUFabVZWSUlNUlBmUVMzbXRUVzlGSkxBMERqN2lqYTFrT3M?oc=5"
+    },
     "de2d1d2fc877aaaad9e6010851345e43432dc17f": {
       "category": "产业动态",
       "first_seen": "2026-10-17",
@@ -1542,7 +1569,7 @@
     "e77a163d2f107ac5911cd30dabaacfd6d70ad656": {
       "category": "产业动态",
       "first_seen": "2026-10-23",
-      "published": "2026-10-23",
+      "published": "2026-10-22",
       "source": "Hoodline",
       "summary": "UW Protein Design Institute Unveils RFD4-Proteina AI Model Hoodline",
       "title": "UW Protein Design Institute Unveils RFD4-Proteina AI Model",
@@ -1747,5 +1774,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-10-31T05:55:17+00:00"
+  "updated_at": "2026-11-01T06:20:43+00:00"
 }

@@ -3840,6 +3840,37 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-78406-y"
     },
+    "doi:10.1038/s41467-026-79039-x": {
+      "abstract": "",
+      "authors": [
+        "Dongmin Xun",
+        "Lanqing Li",
+        "Jie Zou",
+        "Yi Liu",
+        "Ziyue Yang",
+        "Qianyi Liang",
+        "Ke Li",
+        "Zhu Zhu",
+        "Jicong Zhang",
+        "Lijun Lang",
+        "Kun Liu",
+        "Xinyu Wang"
+      ],
+      "doi": "10.1038/s41467-026-79039-x",
+      "first_seen": "2026-11-01",
+      "published": "2026-10-31",
+      "reasons": [
+        "AI-driven",
+        "protein"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-79039-x",
+      "title": "AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79039-x"
+    },
     "doi:10.1038/s41467-026-79191-4": {
       "abstract": "Abstract Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold. We present a machine learning method, IDPForge ( I ntrinsically D isordered P rotein, FO lded and disordered R egion GE nerator), that exploits a transformer protein language diffusion model to create all-atom IDP ensembles and IDR ensembles that maintains the folded domains. IDPForge does not require sequence-specific training, back transformations from coarse-grained representations, nor ensemble reweighting. The created IDP/IDR conformational ensembles show good agreement with both NMR and SAXS solution experimental data, and options for biasing with experimental restraints are available if desired. IDPForge with these diverse capabilities facilitates integrative and structural studies for proteins that contain intrinsic disorder, and is available as an open source resource for general use.",
       "authors": [
