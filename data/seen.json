@@ -504,6 +504,12 @@
       "title": "CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
     },
+    "doi:10.1016/j.jmgm.2026.109543": {
+      "first_seen": "2026-11-02",
+      "source": "PubMed",
+      "title": "An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42594696/"
+    },
     "doi:10.1016/j.jmgm.2026.109571": {
       "first_seen": "2026-09-12",
       "source": "Journal of Molecular Graphics and Modelling",
@@ -1817,6 +1823,12 @@
       "source": "bioRxiv",
       "title": "De novo Protein Generating Model via Structure-Aware Graph Neural Networks",
       "url": "https://doi.org/10.64898/2026.10.27.762190"
+    },
+    "doi:10.64898/2026.10.29.762916": {
+      "first_seen": "2026-11-02",
+      "source": "bioRxiv",
+      "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
+      "url": "https://doi.org/10.64898/2026.10.29.762916"
     }
   }
 }

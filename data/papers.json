@@ -580,20 +580,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42752891/"
     },
     "doi:10.1002/pro.70800": {
-      "abstract": "Abstract De novo protein design often produces thermostable proteins that denature above 100°C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of 35 de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower Δ C p and m ‐values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt .",
+      "abstract": "De novo protein design often produces thermostable proteins that denature above 100°C, which complicates the analysis of their stability. Thermostable proteins can be unfolded by combined chemical and thermal denaturation followed by global analysis of multiple melting curves. Here, we have developed CheMelt, a new online tool for global analysis of unfolding data via an intuitive graphical user interface. We use nanoscale differential scanning fluorimetry followed by CheMelt data analysis to dissect the combined thermal and chemical denaturation of 35 de novo designed protein binders. Thirteen present sufficient fluorescence changes to extract thermodynamic parameters of unfolding. These de novo designed proteins have systematically lower ΔCp and m-values than comparable natural proteins. We show that a high thermostability of a designed protein does not necessarily imply a high equilibrium stability, and demonstrate the potential of CheMelt in dissecting thermodynamic properties for protein design and engineering. CheMelt can be accessed at https://spc.embl-hamburg.de/app/chemelt.",
       "authors": [
-        "Vili Lampinen",
-        "Osvaldo Burastero",
-        "Iara Plácido Guazzelli",
-        "Florian Vögele",
-        "Francisca Pinheiro",
-        "Jan S. Nowak",
-        "Maria M. Garcia Alai",
-        "Magnus Kjaergaard"
+        "Lampinen V",
+        "Burastero O",
+        "Guazzelli IP",
+        "Vögele F",
+        "Pinheiro F",
+        "Nowak JS",
+        "Garcia Alai MM",
+        "Kjaergaard M"
       ],
       "doi": "10.1002/pro.70800",
       "first_seen": "2026-10-01",
-      "published": "2026-11",
+      "published": "2026 Nov 01",
       "reasons": [
         "protein design",
         "de novo protein",
@@ -601,13 +601,13 @@
         "stability",
         "protein"
       ],
-      "source": "Protein Science",
-      "source_id": "10.1002/pro.70800",
-      "title": "Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins",
+      "source": "PubMed",
+      "source_id": "42813586",
+      "title": "Global analysis of thermal and chemical denaturation using CheMelt: Thermodynamic dissection of highly thermostable de novo designed proteins.",
       "topics": [
         "General"
       ],
-      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70800"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42813586/"
     },
     "doi:10.1002/prot.70162": {
       "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
@@ -2157,6 +2157,32 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41941849/"
+    },
+    "doi:10.1016/j.jmgm.2026.109543": {
+      "abstract": "Despite progress in antifungal therapeutics, invasive fungal infections are estimated to cause over one million deaths annually. In recent years, antimicrobial peptides (AMPs) have shown promise as a potential therapeutic option against such infections. Although over 2300 types of AMPs have been identified to date, the development of antifungal peptides (AFPs) has lagged behind. Therefore, the discovery of AFPs with strong efficacy against fungi remains a critical challenge. In this study, we developed an artificial intelligence system that learns from the amino acid sequences and physicochemical properties of known AFPs to efficiently identify putative AFP candidates. First, the amino acid sequences were effectively modeled using a combination of advanced algorithms from the field of natural language processing and a multi-layer perceptron. Second, the physicochemical attributes were learned using a model that combines Pfeature-derived features and a random forest classifier. By integrating these two models, we constructed a classification pipeline capable of rapidly identifying previously unreported putative AFP candidates from randomly generated amino acid sequences sampled according to empirical amino acid frequency distributions derived from known AFPs. Bioinformatic analyses suggested that these candidates exhibit structural and physicochemical features commonly associated with known AFPs and may potentially interact with enzymes involved in fungal cell wall biosynthesis. Future work will involve wet-lab validation of the antifungal activity, stability, and cytotoxicity of these putative AFP candidates to further assess the biological relevance and predictive utility of the proposed system.",
+      "authors": [
+        "Hamada H",
+        "Yiqi Y",
+        "Zendo T",
+        "Hanai T"
+      ],
+      "doi": "10.1016/j.jmgm.2026.109543",
+      "first_seen": "2026-11-02",
+      "published": "2026 Nov 01",
+      "reasons": [
+        "wet-lab",
+        "artificial intelligence",
+        "stability",
+        "peptide"
+      ],
+      "source": "PubMed",
+      "source_id": "42594696",
+      "title": "An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42594696/"
     },
     "doi:10.1016/j.jmgm.2026.109571": {
       "abstract": "",
@@ -8296,6 +8322,33 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.10.27.762190"
+    },
+    "doi:10.64898/2026.10.29.762916": {
+      "abstract": "Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein conformational heterogeneity with the rotameric flexibility of the label. Because current spin label models overestimate this contribution, translating P(r) into ensembles has remained indirect and predominantly qualitative. Here, we developed spin-center (SC) diffusion, a differentiable model of the spin label with a tunable spin label rotameric width. Coupled to a frozen Boltz-2 structure generator, SC diffusion enables the entire experimental P(r) to guide ensemble generation at inference time. We demonstrate the robustness of this pipeline on synthetic P(r) of known composition, recovering the ensemble populations, including both components of a bimodal profile. Guided by experimental P(r) measured under different biochemical conditions, ensembles of the transporters PfMATE, LmrP, MhsT and P-glycoprotein were modeled and free energy differences derived from the ensembles in a condition-dependent manner. By embedding a differentiable label model in structure generation, our approach interprets DEER distributions as weighted conformational ensembles, adding a missing thermodynamic grounding to generative protein structure prediction methods.",
+      "authors": [
+        "Kao, T.-Y.",
+        "Meiler, J.",
+        "Mchaourab, H. S."
+      ],
+      "doi": "10.64898/2026.10.29.762916",
+      "first_seen": "2026-11-02",
+      "published": "2026-11-01",
+      "reasons": [
+        "structure prediction",
+        "diffusion model",
+        "structure generation",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.29.762916",
+      "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
+      "topics": [
+        "Structure generation",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.29.762916"
     }
   }
 }

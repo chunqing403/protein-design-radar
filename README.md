@@ -7,22 +7,23 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
+Updated: **2026-11-02** (`2026-11-02T06:22:15Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery](https://www.nature.com/articles/s41467-026-79039-x)<br><sub>Dongmin Xun, Lanqing Li, Jie Zou et al.</sub> | Nat Commun<br>2026-10-31 | General |
+| 1 | [Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles](https://doi.org/10.64898/2026.10.29.762916)<br><sub>Kao, T.-Y., Meiler, J., Mchaourab, H. S.</sub> | bioRxiv<br>2026-11-01 | Structure generation, Enzymes and function, Experimental validation |
+| 2 | [An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.](https://pubmed.ncbi.nlm.nih.gov/42594696/)<br><sub>Hamada H, Yiqi Y, Zendo T et al.</sub> | PubMed<br>2026 Nov 01 | Binders and therapeutics, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 70 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 71 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 90 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 49 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 50 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 13 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 33 |
@@ -30,8 +31,9 @@ Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (70)
+#### Structure Generation / 结构生成 (71)
 
+- [Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles](https://doi.org/10.64898/2026.10.29.762916) (bioRxiv, 2026-11-01; first seen 2026-11-02; Structure generation, Enzymes and function, Experimental validation)
 - [IDPForge: deep learning of proteins with global and local regions of disorder](https://www.nature.com/articles/s41467-026-79191-4) (Nat Commun, 2026-10-30; first seen 2026-10-31; Structure generation, Protein language models, Experimental validation)
 - [Machine Learning Predictions of Experimental Mössbauer Properties of Fe-Containing Molecular Complexes and Protein Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02183/5460523/Machine-Learning-Predictions-of-Experimental-Mo) (Journal of Chemical Information and Modeling, 2026-10-29; first seen 2026-10-29; Structure generation, Experimental validation)
 - [Neopep: Reinforcement Learning From Machine-Learned Force Field Energy for Non-Canonical Peptide Structure Prediction](https://doi.org/10.64898/2026.10.22.760799) (bioRxiv, 2026-10-28; first seen 2026-10-29; Structure generation, Binders and therapeutics)
@@ -229,8 +231,9 @@ Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (49)
+#### Binders & Therapeutics / 结合蛋白与治疗 (50)
 
+- [An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.](https://pubmed.ncbi.nlm.nih.gov/42594696/) (PubMed, 2026 Nov 01; first seen 2026-11-02; Binders and therapeutics, Experimental validation)
 - [General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3](https://www.science.org/doi/10.1126/sciadv.aef5674) (Sci. Adv., 2026-10-30; first seen 2026-10-31; Binders and therapeutics)
 - [Engineering precision antimicrobials: AI-driven design of self-assembling non-natural peptide nanostructures](https://linkinghub.elsevier.com/retrieve/pii/S1385894726111152) (Chemical Engineering Journal, 2026-10; first seen 2026-10-31; Binders and therapeutics)
 - [Multi-resolution humanness scoring of antibodies via a region-isolated language model](https://doi.org/10.64898/2026.10.23.761395) (bioRxiv, 2026-10-29; first seen 2026-10-29; Binders and therapeutics)
@@ -325,7 +328,7 @@ Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
 - [Aptamers without SELEX: de novo design from protein structure in hours](https://linkinghub.elsevier.com/retrieve/pii/S2162253126003045) (Molecular Therapy Nucleic Acids, 2026-10; first seen 2026-10-08; General)
 - [WITHDRAWN: PredIDR3: A new output-encoding scheme and abundant negative source provide more information for deep learning-based protein intrinsic disorder prediction](https://doi.org/10.64898/2026.09.01.748564) (bioRxiv, 2026-10-06; first seen 2026-10-07; General)
 - [SN-PepDB: a deep learning-driven database for characterizing Sipunculus nudus bioactive peptides and their structure-activity relationships](https://linkinghub.elsevier.com/retrieve/pii/S0963996926026396) (Food Research International, 2026-10; first seen 2026-10-02; General)
-- [Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins](https://onlinelibrary.wiley.com/doi/10.1002/pro.70800) (Protein Science, 2026-11; first seen 2026-10-01; General)
+- [Global analysis of thermal and chemical denaturation using CheMelt: Thermodynamic dissection of highly thermostable de novo designed proteins.](https://pubmed.ncbi.nlm.nih.gov/42813586/) (PubMed, 2026 Nov 01; first seen 2026-10-01; General)
 - [Rhomboid tiling-based topological deep learning for protein complex structure quality assessment beyond pairwise contacts](https://linkinghub.elsevier.com/retrieve/pii/S2666386426004704) (Cell Reports Physical Science, 2026-10; first seen 2026-09-30; General)
 - [De novo design of protein antagonists of bacterial pathogen type III secretion system needle assembly](https://www.nature.com/articles/s41598-026-73853-5) (Sci Rep, 2026-09-29; first seen 2026-09-30; General)
 - [AlphaFold ‘goes viral’: database adds protein complexes of common viruses](https://www.nature.com/articles/d41586-026-03022-1) (Nature, 2026-09-24; first seen 2026-09-25; General)
@@ -345,7 +348,7 @@ Updated: **2026-11-01** (`2026-11-01T06:20:37Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-01](outputs/daily/2026-11-01.md)
+- [Daily report for 2026-11-02](outputs/daily/2026-11-02.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
