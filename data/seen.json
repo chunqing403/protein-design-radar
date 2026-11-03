@@ -420,6 +420,12 @@
       "title": "In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357"
     },
+    "doi:10.1016/j.idairyj.2026.106887": {
+      "first_seen": "2026-11-03",
+      "source": "International Dairy Journal",
+      "title": "Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419"
+    },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -1829,6 +1835,18 @@
       "source": "bioRxiv",
       "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
       "url": "https://doi.org/10.64898/2026.10.29.762916"
+    },
+    "doi:10.64898/2026.10.30.763049": {
+      "first_seen": "2026-11-03",
+      "source": "bioRxiv",
+      "title": "De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine",
+      "url": "https://doi.org/10.64898/2026.10.30.763049"
+    },
+    "doi:10.64898/2026.10.30.763264": {
+      "first_seen": "2026-11-03",
+      "source": "bioRxiv",
+      "title": "Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions",
+      "url": "https://doi.org/10.64898/2026.10.30.763264"
     }
   }
 }

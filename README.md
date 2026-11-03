@@ -7,23 +7,24 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-02** (`2026-11-02T06:22:15Z`)
+Updated: **2026-11-03** (`2026-11-03T06:57:44Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles](https://doi.org/10.64898/2026.10.29.762916)<br><sub>Kao, T.-Y., Meiler, J., Mchaourab, H. S.</sub> | bioRxiv<br>2026-11-01 | Structure generation, Enzymes and function, Experimental validation |
-| 2 | [An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.](https://pubmed.ncbi.nlm.nih.gov/42594696/)<br><sub>Hamada H, Yiqi Y, Zendo T et al.</sub> | PubMed<br>2026 Nov 01 | Binders and therapeutics, Experimental validation |
+| 1 | [De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine](https://doi.org/10.64898/2026.10.30.763049)<br><sub>Yamaguchi, H., Suzuki, S., Fujiyoshi, Y. et al.</sub> | bioRxiv<br>2026-11-02 | Sequence design, Binders and therapeutics |
+| 2 | [Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions](https://doi.org/10.64898/2026.10.30.763264)<br><sub>Miao, T., Zhu, R., Lin, R. et al.</sub> | bioRxiv<br>2026-11-02 | Binders and therapeutics, Experimental validation |
+| 3 | [Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation](https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419)<br><sub>Wu Chen, Liu Libo, Zhang Guofang et al.</sub> | International Dairy Journal<br>2026-11 | Binders and therapeutics, Enzymes and function, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 71 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 27 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 28 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 90 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 50 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 52 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 13 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 33 |
@@ -106,8 +107,9 @@ Updated: **2026-11-02** (`2026-11-02T06:22:15Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (27)
+#### Sequence Design / 序列设计 (28)
 
+- [De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine](https://doi.org/10.64898/2026.10.30.763049) (bioRxiv, 2026-11-02; first seen 2026-11-03; Sequence design, Binders and therapeutics)
 - [Characterization of selective pressures acting on protein sites with Deep Learning](https://doi.org/10.1101/2025.07.01.662578) (bioRxiv, 2026-10-22; first seen 2026-10-23; Sequence design, Protein language models, Enzymes and function)
 - [Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs](https://doi.org/10.64898/2026.10.16.759664) (bioRxiv, 2026-10-22; first seen 2026-10-23; Sequence design, Enzymes and function)
 - [Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.](https://pubmed.ncbi.nlm.nih.gov/42902938/) (PubMed, 2026 Oct 21; first seen 2026-10-23; Sequence design, Enzymes and function)
@@ -231,8 +233,10 @@ Updated: **2026-11-02** (`2026-11-02T06:22:15Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (50)
+#### Binders & Therapeutics / 结合蛋白与治疗 (52)
 
+- [Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions](https://doi.org/10.64898/2026.10.30.763264) (bioRxiv, 2026-11-02; first seen 2026-11-03; Binders and therapeutics, Experimental validation)
+- [Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation](https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419) (International Dairy Journal, 2026-11; first seen 2026-11-03; Binders and therapeutics, Enzymes and function, Experimental validation)
 - [An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.](https://pubmed.ncbi.nlm.nih.gov/42594696/) (PubMed, 2026 Nov 01; first seen 2026-11-02; Binders and therapeutics, Experimental validation)
 - [General prediction of T cell receptor antigen specificity from sequence using AlphaFold 3](https://www.science.org/doi/10.1126/sciadv.aef5674) (Sci. Adv., 2026-10-30; first seen 2026-10-31; Binders and therapeutics)
 - [Engineering precision antimicrobials: AI-driven design of self-assembling non-natural peptide nanostructures](https://linkinghub.elsevier.com/retrieve/pii/S1385894726111152) (Chemical Engineering Journal, 2026-10; first seen 2026-10-31; Binders and therapeutics)
@@ -348,7 +352,7 @@ Updated: **2026-11-02** (`2026-11-02T06:22:15Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-02](outputs/daily/2026-11-02.md)
+- [Daily report for 2026-11-03](outputs/daily/2026-11-03.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

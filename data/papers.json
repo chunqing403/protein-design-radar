@@ -1802,6 +1802,39 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357"
     },
+    "doi:10.1016/j.idairyj.2026.106887": {
+      "abstract": "",
+      "authors": [
+        "Wu Chen",
+        "Liu Libo",
+        "Zhang Guofang",
+        "Du Peng",
+        "Li Chun",
+        "Chen Zhicheng",
+        "Su Quan",
+        "Wei Jiazhou",
+        "Xie Qiang",
+        "Pang Xiang",
+        "Vorozeikina Natalia"
+      ],
+      "doi": "10.1016/j.idairyj.2026.106887",
+      "first_seen": "2026-11-03",
+      "published": "2026-11",
+      "reasons": [
+        "experimental validation",
+        "peptide",
+        "enzyme"
+      ],
+      "source": "International Dairy Journal",
+      "source_id": "10.1016/j.idairyj.2026.106887",
+      "title": "Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation",
+      "topics": [
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419"
+    },
     "doi:10.1016/j.ijbiomac.2026.154380": {
       "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
       "authors": [
@@ -8349,6 +8382,66 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.29.762916"
+    },
+    "doi:10.64898/2026.10.30.763049": {
+      "abstract": "Pituitary adenylate cyclase-activating peptide 38 (PACAP-38) is a vasoactive peptide that is attracting attention as a potential target for next-generation migraine treatments. Antibodies against PACAP-38 have recently shown promising results as a ligand trap medicine in clinical trials. In this study, we investigated the de novo design of miniproteins to evaluate the potential for developing a medium-molecular-weight drug that binds to PACAP-38. Using Bindcraft, we designed binders against PACAP-38 and identified ICLIST-2, a 63-residue peptide with affinity for PACAP-38 (KD = 26.5 nM). Furthermore, by alanine scanning and structural analysis of ICLIST-2, we determined residues that were suitable for further optimization using ProteinMPNN. This resulted in the design of ICLIST-11, which incorporates nine amino acid substitutions relative to ICLIST-2, resulting in a KD of 4.51 nM. Interaction analysis based on a structural model suggested that three mutations in ICLIST-11 may be important for enhancing affinity. Moreover, ICLIST-11 exhibits a Tm value that is 14 {degrees}C higher, and MD simulations suggest that the substitution of three residues with hydrophobic residues (E30F, M31L, and R54W) is one reason for this. In cell-based functional assays, ICLIST-11 demonstrated potent, concentration-dependent neutralizing activity against PACAP-38-induced PAC1R activation (IC50 = 10.6 nM), significantly outperforming the parental ICLIST-2. Taken together, these results provide a framework for protein drug discovery targeting PACAP-38.",
+      "authors": [
+        "Yamaguchi, H.",
+        "Suzuki, S.",
+        "Fujiyoshi, Y.",
+        "Isalan, M."
+      ],
+      "doi": "10.64898/2026.10.30.763049",
+      "first_seen": "2026-11-03",
+      "published": "2026-11-02",
+      "reasons": [
+        "ProteinMPNN",
+        "de novo design",
+        "protein",
+        "peptide"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.30.763049",
+      "title": "De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.30.763049"
+    },
+    "doi:10.64898/2026.10.30.763264": {
+      "abstract": "Antibodies are central to immunology and therapeutics, and understanding how they recognize antigens is essential to rational drug design. This recognition depends on the interplay of interface geometry, physicochemical interactions, sequence context, and complementarity-determining region (CDR) conformation. However, traditional analyses often oversimplify this complexity, which becomes particularly problematic when evaluating the massive and frequently overconfident structural hypotheses generated by modern deep learning models. Here, we introduce BL8, an interpretable, eight-view structural language that comprehensively parameterizes interfaces across topology, shape, interaction, CDR conformation, flexibility, interfacial area, amino-acid-pair composition, and sequence background. Using 15,396 experimental interface records from the Structural Antibody Database (SAbDab), we built a fixed reference atlas containing 1,498 discrete BL8 signatures. The atlas shows that natural interfaces occupy a diverse, long-tailed structural space in which similar geometric scaffolds can be associated with different chemical and sequence features. Furthermore, we projected 28,501 predicted complexes involving programmed death-ligand 1 (PD-L1), the SARS-CoV-2 receptor-binding domain (RBD), and programmed cell death protein 1 (PD-1), generated using AlphaFold 3 (AF3), Protenix-v2, and OpenDDE, into the reference space. Acting as a robust underlying calibration layer, BL8 successfully decoupled physical viability from native confidence illusions, revealing cross-target hallucinations and filtering out 15.3% to 20.1% of highly deceptive false-positive predictions. Crucially, by benchmarking distinct generative behaviors across models, it enabled the extraction of highly reliable, multi-model consensus out-of-distribution binding paradigms. Together, BL8 bridges foundational biophysics with large-scale computational predictions, providing an essential benchmarking framework for discovering novel mechanisms in the era of artificial intelligence.",
+      "authors": [
+        "Miao, T.",
+        "Zhu, R.",
+        "Lin, R.",
+        "Qian, J.",
+        "Feng, Y.",
+        "Chen, S.",
+        "Wang, Y.",
+        "Chen, D.",
+        "Wu, Y.",
+        "Ying, T."
+      ],
+      "doi": "10.64898/2026.10.30.763264",
+      "first_seen": "2026-11-03",
+      "published": "2026-11-02",
+      "reasons": [
+        "deep learning",
+        "AlphaFold",
+        "artificial intelligence",
+        "protein",
+        "antibody",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.30.763264",
+      "title": "Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.30.763264"
     }
   }
 }

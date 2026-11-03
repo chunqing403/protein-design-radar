@@ -1,29 +1,38 @@
-# Protein Design Paper Radar - 2026-11-02
+# Protein Design Paper Radar - 2026-11-03
 
-Generated on 2026-11-02T06:22:15Z.
+Generated on 2026-11-03T06:57:44Z.
 
-Found 2 recommended papers.
+Found 3 recommended papers.
 
 ## Highlights
 
-### 1. Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles
+### 1. Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-01
-- **Authors:** Kao, T.-Y., Meiler, J., Mchaourab, H. S.
-- **Topics:** Structure generation, Enzymes and function, Experimental validation
-- **Why it matched:** structure prediction, diffusion model, structure generation, protein, structure
-- **Link:** https://doi.org/10.64898/2026.10.29.762916
-- **DOI:** 10.64898/2026.10.29.762916
-
-Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein...
-
-### 2. An integrated in silico screening framework for discovering novel antifungal peptide candidates using artificial intelligence and molecular docking.
-
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 01
-- **Authors:** Hamada H, Yiqi Y, Zendo T et al.
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-02
+- **Authors:** Miao, T., Zhu, R., Lin, R. et al.
 - **Topics:** Binders and therapeutics, Experimental validation
-- **Why it matched:** wet-lab, artificial intelligence, stability, peptide
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/42594696/
-- **DOI:** 10.1016/j.jmgm.2026.109543
+- **Why it matched:** deep learning, AlphaFold, artificial intelligence, protein, antibody, binding
+- **Link:** https://doi.org/10.64898/2026.10.30.763264
+- **DOI:** 10.64898/2026.10.30.763264
 
-Despite progress in antifungal therapeutics, invasive fungal infections are estimated to cause over one million deaths annually. In recent years, antimicrobial peptides (AMPs) have shown promise as a potential therapeutic option against such infections. Although over 2300 types of AMPs have been identified to date, the development of antifungal peptides...
+Antibodies are central to immunology and therapeutics, and understanding how they recognize antigens is essential to rational drug design. This recognition depends on the interplay of interface geometry, physicochemical interactions, sequence context, and complementarity-determining region (CDR) conformation. However, traditional analyses often oversimplify...
+
+### 2. De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-02
+- **Authors:** Yamaguchi, H., Suzuki, S., Fujiyoshi, Y. et al.
+- **Topics:** Sequence design, Binders and therapeutics
+- **Why it matched:** ProteinMPNN, de novo design, protein, peptide
+- **Link:** https://doi.org/10.64898/2026.10.30.763049
+- **DOI:** 10.64898/2026.10.30.763049
+
+Pituitary adenylate cyclase-activating peptide 38 (PACAP-38) is a vasoactive peptide that is attracting attention as a potential target for next-generation migraine treatments. Antibodies against PACAP-38 have recently shown promising results as a ligand trap medicine in clinical trials. In this study, we investigated the de novo design of miniproteins to...
+
+### 3. Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation
+
+- **Status:** NEW | **Source:** International Dairy Journal | **Date:** 2026-11
+- **Authors:** Wu Chen, Liu Libo, Zhang Guofang et al.
+- **Topics:** Binders and therapeutics, Enzymes and function, Experimental validation
+- **Why it matched:** experimental validation, peptide, enzyme
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419
+- **DOI:** 10.1016/j.idairyj.2026.106887
