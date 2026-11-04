@@ -582,6 +582,12 @@
       "title": "Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046"
     },
+    "doi:10.1016/j.sbi.2026.103427": {
+      "first_seen": "2026-11-04",
+      "source": "Current Opinion in Structural Biology",
+      "title": "Artificial intelligence for predicting mutation effects on enzyme kinetics",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095"
+    },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
       "source": "Cell Reports Physical Science",
@@ -743,6 +749,12 @@
       "source": "Journal of Chemical Information and Modeling",
       "title": "Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and"
+    },
+    "doi:10.1021/acs.jcim.6c03837": {
+      "first_seen": "2026-11-04",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03837/5463265/Artificial-Intelligence-Aided-Design-of-Peptides"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "first_seen": "2026-07-06",
@@ -1187,6 +1199,12 @@
       "source": "PubMed",
       "title": "Prioritizing Stability-enhancing Mutations using the ESM Protein Language Model in conjunction with Physics-based MM/GBSA Predictions.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
+    },
+    "doi:10.1093/protein/gzag033": {
+      "first_seen": "2026-11-04",
+      "source": "PubMed",
+      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974732/"
     },
     "doi:10.1101/2024.02.02.578551": {
       "first_seen": "2026-09-28",
@@ -1847,6 +1865,24 @@
       "source": "bioRxiv",
       "title": "Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions",
       "url": "https://doi.org/10.64898/2026.10.30.763264"
+    },
+    "doi:10.64898/2026.10.31.763304": {
+      "first_seen": "2026-11-04",
+      "source": "bioRxiv",
+      "title": "FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction",
+      "url": "https://doi.org/10.64898/2026.10.31.763304"
+    },
+    "doi:10.64898/2026.10.31.763384": {
+      "first_seen": "2026-11-04",
+      "source": "bioRxiv",
+      "title": "Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints",
+      "url": "https://doi.org/10.64898/2026.10.31.763384"
+    },
+    "doi:10.64898/2026.11.01.763444": {
+      "first_seen": "2026-11-04",
+      "source": "bioRxiv",
+      "title": "Learning inhibitor interactions from protein deep mutational scanning data and deep learning models",
+      "url": "https://doi.org/10.64898/2026.11.01.763444"
     }
   }
 }

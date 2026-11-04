@@ -2483,6 +2483,32 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046"
     },
+    "doi:10.1016/j.sbi.2026.103427": {
+      "abstract": "",
+      "authors": [
+        "Wenqiang Cui",
+        "Zichen Sun",
+        "Mengting Li",
+        "Arieh Warshel",
+        "Wen Jun Xie"
+      ],
+      "doi": "10.1016/j.sbi.2026.103427",
+      "first_seen": "2026-11-04",
+      "published": "2027-02",
+      "reasons": [
+        "artificial intelligence",
+        "enzyme",
+        "mutation"
+      ],
+      "source": "Current Opinion in Structural Biology",
+      "source_id": "10.1016/j.sbi.2026.103427",
+      "title": "Artificial intelligence for predicting mutation effects on enzyme kinetics",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095"
+    },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
       "authors": [
@@ -3235,6 +3261,33 @@
         "Enzymes and function"
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and"
+    },
+    "doi:10.1021/acs.jcim.6c03837": {
+      "abstract": "Abstract Proteins are highly diverse functional polymers where the specific sequence of amino acids, selected from a standard genetically encoded alphabet of 20 (C20), determines the structure and ultimately the function of the resulting folded protein. This standard alphabet has been identified to be nonrandomly distributed in physicochemical properties crucial to both structure formation and function, often referred to as coverage theory. While machine learning models have drastically improved protein structure prediction, success of protein design models lags structure prediction, particularly for custom secondary structure motifs and amino acid alphabets. Here, we therefore bridge contemporary biological theory with recent advancements in artificial intelligence (AI) to develop and evaluate a generative AI protein design model, trained on hundreds of thousands of proteins within the RCSB PDB, for custom secondary structure motifs using reduced amino acid alphabets (RAAs). Results indicate an overall success in designing novel proteins with desired secondary structure motifs for a broad range of amino acid alphabets and complexity of designs. Interestingly, for a substantial fraction of designs, ESMFold predicts a fold close to that of the target structure despite training only on physicochemical sequence space and secondary structure information. The development of this model advances research across multiple disciplines, from general scientific AI architecture development to protein design for biotechnology, astrobiology, and early-Earth evolutionary biology.",
+      "authors": [
+        "Sean M. Brown",
+        "Ashley B. Cohen",
+        "Scott N. Dean"
+      ],
+      "doi": "10.1021/acs.jcim.6c03837",
+      "first_seen": "2026-11-04",
+      "published": "2026-11-03",
+      "reasons": [
+        "protein design",
+        "structure prediction",
+        "artificial intelligence",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c03837",
+      "title": "Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets",
+      "topics": [
+        "Structure generation",
+        "Enzymes and function"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03837/5463265/Artificial-Intelligence-Aided-Design-of-Peptides"
     },
     "doi:10.1021/acs.jctc.6c00574": {
       "abstract": "Implicit solvent models (ISMs) promise to deliver the accuracy of explicit solvent simulations at a fraction of their computational cost. However, despite decades of development, their accuracy has remained insufficient for many critical applications, particularly for simulating protein folding and the behavior of intrinsically disordered proteins. Developing a transferable, data-driven ISM that overcomes the limitations of traditional analytical formulas remains a central challenge in computational chemistry. Here, we address this challenge by introducing a novel strategy that distills the evolutionary information learned by a protein language model, ESM3, into a computationally efficient graph neural network (GNN). We show that this GNN potential, trained on effective energies from ESM3, is robust enough to drive stable, long time-scale molecular dynamics simulations. When combined with a standard electrostatics term, our hybrid model accurately reproduces protein folding free energy landscapes and predicts the structural ensembles of intrinsically disordered proteins. This approach yields a single, unified model that can be transferred across both folded and disordered protein states, resolving a long-standing limitation of conventional ISMs. By successfully distilling evolutionary knowledge into a physical potential, our work delivers a foundational ISM poised to accelerate the development of predictive large-scale simulation tools.",
@@ -5182,6 +5235,39 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
+    },
+    "doi:10.1093/protein/gzag033": {
+      "abstract": "From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
+      "authors": [
+        "Mardikoraem M",
+        "Pascual N",
+        "Eaves JN",
+        "Chatterjee S",
+        "Garland L",
+        "VanAntwerp J",
+        "Mahama A",
+        "Finneran P",
+        "Hausinger RP",
+        "Woldring DR"
+      ],
+      "doi": "10.1093/protein/gzag033",
+      "first_seen": "2026-11-04",
+      "published": "2026 Nov 03",
+      "reasons": [
+        "protein engineering",
+        "structure prediction",
+        "stability",
+        "protein",
+        "enzyme",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "42974732",
+      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation.",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42974732/"
     },
     "doi:10.1101/2024.02.02.578551": {
       "abstract": "Remarkable progress has been made in the field of protein structure prediction. Representative methods like AlphaFold and RoseTTAFold achieve prediction accuracy close to experimental structural determination, but at the cost of heavy computational consumption for model training. In this work, we propose a new framework, Cerebra, for improving the computational efficiency of protein structure prediction. In this network architecture, multiple sets of atomic coordinates are predicted parallelly and their mutual complementarity is leveraged to rapidly improve the quality of predicted structures through a new attention mechanism named Path Synthesis Attention (PSA). Consequently, Cerebra markedly reduces the computational consumption, achieving evident acceleration on both model training and inference, in comparison to OpenFold, the academic version of AlphaFold2. When evaluated on the CAMEO 2025 dataset, the Cerebra model trained on a limited number of GPUs shows a comparable performance to the published OpenFold model that has been thoroughly optimized using a plethora of computational resources. Moreover, ablation studies confirm that the PSA mechanism efficiently accelerates the network convergence, suggesting its potential in handling the many-body effects of protein geometries in graph-based models. Finally, the fast inference of Cerebra effectively assists hallucination-based de novo protein backbone design, allowing the production of abundant backbone structures with sufficient designability and novelty.",
@@ -8442,6 +8528,94 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.10.30.763264"
+    },
+    "doi:10.64898/2026.10.31.763304": {
+      "abstract": "Linear B-cell epitopes are antigenic regions recognised by antibodies that play crucial roles in vaccine development, antibody production, and other therapeutic applications.Their prediction can support peptide-based vaccine candidate screening and diagnostic assay development, but the experimental data required for model development may be distributed across institutions that cannot freely pool their records. We present FedEpitope, a federated framework that adapts the ESM-2 protein language model for peptide-level linear B-cell epitope prediction using Low-Rank Adaptation (LoRA), keeping client-partitioned data local and restricting the communicated trainable model state to approximately 1.11 MB. Simulated benchmarks of FedAvg and FedProx algorithms, evaluated using homology-aware data splits of five biologically heterogeneous, organism-partitioned clients, achieve promising global test performance without centralising training data, with FedAvg outperforming all single-client models in mean AP, F1, and MCC. Additional experiments characterise post-federation personalisation, record-level differential privacy, sensitivity to controlled client heterogeneity, LoRA rank, and generalisation to the independent BCPreds and NetBCE benchmarks, demonstrating the feasibility of parameter-efficient federated protein language model adaptation for data-localised B-cell epitope prediction and the associated trade-offs among predictive performance, personalisation, privacy, communication efficiency, and distribution shift.",
+      "authors": [
+        "Joshi, D.",
+        "Priyadarsinee, L.",
+        "Chatterjee, B.",
+        "Natarajan, A. M.",
+        "Sastry, G. N."
+      ],
+      "doi": "10.64898/2026.10.31.763304",
+      "first_seen": "2026-11-04",
+      "published": "2026-11-03",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "peptide",
+        "antibody"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.31.763304",
+      "title": "FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.31.763304"
+    },
+    "doi:10.64898/2026.10.31.763384": {
+      "abstract": "The worldwide escalation of antimicrobial resistance (AMR) poses a severe challenge to modern public health, necessitating novel classes of therapeutic agents. Antimicrobial peptides (AMPs) represent highly promising alternatives to small-molecule antibiotics due to their co-evolutionary resilience and rapid membrane disruption dynamics. However, translating computational AMP leads into clinical drug candidates remains bottlenecked by off-target cytotoxicity, predominantly hemolytic activity against mammalian erythrocytes. Although pretrained foundational protein language models (PLMs) have rapidly advanced molecular property prediction, current architectures frequently isolate antibacterial potency and cytotoxicity into disconnected single-task pipelines or succumb to catastrophic performance drops under strict homology-controlled evaluations. Recently, the Quantitative Mapping of Antimicrobial Peptides (QMAP) benchmark proposed that frozen PLM embeddings show weak linearly accessible features for hemolytic activity (HC50) resulting in poor rank correlation ({rho} < 0.25) on out-of-distribution sequence splits. In this work, we introduce an end-to-end multi-task parameter-efficient transfer learning framework designed to simultaneously optimize antibacterial potency and minimize mammalian cytotoxicity without sequence leakage. Built upon ESM-2 (150M), our architecture incorporates Low-Rank Adaptation (LoRA) into self-attention projections, fine-tuning approx 0.70% of model weights. To restore gradient interference originating from disparate membrane lysis mechanisms, we implement an adaptive multi-task loss guided by Kendall homoscedastic uncertainty weighting. Evaluated across predefined QMAP benchmark splits enforcing a 60% maximal sequence identity threshold, our joint architecture remarkably outperforms conventional linear probes, tree-based regressors, and frozen foundational models. The framework achieves an E. coli potency rank correlation of {rho} = 0.6132 (r = 0.6816) and successfully elevates hemolytic toxicity correlation to {rho} = 0.5374 (r = 0.5541). To establish real world utility, we deploy the optimized joint network to screen a curated in silico library of 749 de-novo designed peptides, successfully isolating selective cationic-amphipathic candidates possessing Therapeutic Indices (TI = HC50/MIC) up to 144.03 while effectively deprioritizing broadly lytic motifs (TI < 2.0). These findings demonstrate that parameter-efficient adaptation unlocks fine-grained bioactive structural semantics in foundational PLMs, providing an accurate, scalable framework for therapeutic peptide engineering.",
+      "authors": [
+        "Jat, R.",
+        "Ejaz, S. R."
+      ],
+      "doi": "10.64898/2026.10.31.763384",
+      "first_seen": "2026-11-04",
+      "published": "2026-11-03",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.10.31.763384",
+      "title": "Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.31.763384"
+    },
+    "doi:10.64898/2026.11.01.763444": {
+      "abstract": "Recent advances in protein language models, geometric deep learning, and structure prediction frameworks have the potential to accelerate computational drug discovery. However, it remains unclear how well these methods generalize beyond their training sets. Mutation-dependent drug responses present a challenge to these methods because there are often large effects from relatively small perturbations. Here, we systematically benchmark diverse mutational effect and drug-target affinity prediction models using deep mutational scanning datasets spanning 11 inhibitor conditions for the MET kinase domain. Across both mutational effect prediction and drug-target affinity tasks, current AI models produce largely ligand-invariant predictions despite experimentally distinct inhibitor-dependent fitness landscapes. Ligand-aware geometric models, including LigandMPNN and LASErMPNN, partially recover experimentally validated resistance-associated hotspots, highlighting the importance of explicitly modeling protein-ligand interactions and local structural flexibility. In contrast, deep learning affinity prediction models underestimate mutation-induced changes in binding affinity. This deficiency likely reflects mutation-invariant structural priors derived from co-folded structure prediction frameworks and the absence of mutation-conditioned supervision in current affinity datasets. Finally, we further extended our analysis to several kinase-inhibitor deep mutational scanning datasets and confirm the overall trends. Our findings suggest that a primary limitation in improving performance on this task lies in the scarcity of mutation-conditioned protein-ligand training data rather than model architecture alone.",
+      "authors": [
+        "Zou, Z.",
+        "Hazelwood, I.",
+        "Estevam, G.",
+        "Rao, J.",
+        "Chrispens, K.",
+        "Howard, M. K.",
+        "Coyote-Maestas, W.",
+        "Fraser, J. S."
+      ],
+      "doi": "10.64898/2026.11.01.763444",
+      "first_seen": "2026-11-04",
+      "published": "2026-11-03",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "structure prediction",
+        "fitness landscape",
+        "kinase",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.01.763444",
+      "title": "Learning inhibitor interactions from protein deep mutational scanning data and deep learning models",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.01.763444"
     }
   }
 }

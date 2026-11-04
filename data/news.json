@@ -162,6 +162,15 @@
       "title": "bionemo-framework · v3.0.0 - BioNeMo Recipes",
       "url": "https://github.com/NVIDIA-BioNeMo/bionemo-recipes/releases/tag/v3.0.0"
     },
+    "15f727e68e7e5054547015f8208e3c37e9e733cf": {
+      "category": "产业动态",
+      "first_seen": "2026-11-04",
+      "published": "2026-11-03",
+      "source": "SingularityHub",
+      "summary": "Scientists Can Now Ask AI to Design Proteins Using Plain Language SingularityHub",
+      "title": "Scientists Can Now Ask AI to Design Proteins Using Plain Language",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1hheS1zX05XRFY2dG14X3pnN2d6c3VIV29FUE5qZjY4VmZfZndySy1LYjExZWF4ejlDUUgyTFJMbGszbzRtUmlQN2FjbHFRMFpyXzR6VjkzUkt0bm0xUW1fTVliUmhNN0k1N1gzSl9QcGY0MjlkV1FpMjJNU0dEM05oUnZ6Tlp0eXRvbGRkTWZqV3dlSDl0WlVJSk9jZzE2ZUl4T3l0TQ?oc=5"
+    },
     "160935f5a5502e9708b2132c78cff5992e40152a": {
       "category": "产业动态",
       "first_seen": "2026-09-29",
@@ -873,6 +882,15 @@
       "title": "Hansa Biopharma Partners with Cradle to Advance AI-Driven Protein Design and Engineering",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV2Jzb3JRYWlCZTFwWC1GSkg1QUpLX3d5bkx3VUZ2cy01MDdsWVdBYklocTBxSk40MlVVSGp0UFhCNGhQQ1NjSFQzX1JwVjU1WTJNb29zel9iVElLNlZIcEpVSU9fQU5zNy1JeXoxYWs2YzVFS2RDYVdlQ19QbjdER24zR3NMQkxjZ0VRSzdMQVAtVG1qMWQzUXRnWE01SE1fYVZMckQ5Z2JYS2NzNlRKT1V0Rk1jUnF4eTdJakNybFJWZDVqTDFBaWVQb1QzTXpqVkswRDJ3b1RsbHNLQzFRUnRnQQ?oc=5"
     },
+    "8813c0f2c75a5947332e5e70472ee42b2e7e8c59": {
+      "category": "产业动态",
+      "first_seen": "2026-11-04",
+      "published": "2026-10-21",
+      "source": "Techiexpert.com",
+      "summary": "Anthropic Uses Claude AI to Design Proteins Targeting Scorpion Venom Techiexpert.com",
+      "title": "Anthropic Uses Claude AI to Design Proteins Targeting Scorpion Venom",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ1FCd29kVVRNdXZsRnRfVE93MHRnS2hZeEdlV28wVm1jMGRCbmV1SWZYamdKclNGWUNacmtyM1FKY1B1YUNpMjhqX3NZWDdOZGdwM2hNQTNST1gxVnpmX1VpR2JpbDh3M3U1NmNSMktZcU1Sc1cxRFE0SlJ1NGVCUWItVjFWT29tdHlKdDR3bHlHdVhaVlZfcg?oc=5"
+    },
     "883be5d89d7cacb6e7bf2e949208c2cbdfa4eca9": {
       "category": "产业动态",
       "first_seen": "2026-10-09",
@@ -993,9 +1011,9 @@
     "90496696b91af45b812260718bf973208e45a298": {
       "category": "产业动态",
       "first_seen": "2026-10-16",
-      "published": "2026-10-16",
-      "source": "36Kr",
-      "summary": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level 36Kr",
+      "published": "2026-10-15",
+      "source": "eu.36kr.com",
+      "summary": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level eu.36kr.com",
       "title": "Nobel Laureate David Baker's Team Lands New Science Breakthrough: Advancing Protein Design to the Exact Atomic Level",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CZjQzSC1ibHB3UVpNaGpmdUlqeVFPejRtbk5oMEZBaXNxajFBdjloUjM3SExlR3ozUUZMQVBCNlhHNW5idkZsZmlsNkhEaHdRR0J3?oc=5"
     },
@@ -1792,5 +1810,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-03T06:57:49+00:00"
+  "updated_at": "2026-11-04T06:39:25+00:00"
 }
