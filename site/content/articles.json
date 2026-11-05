@@ -3,6 +3,21 @@
     {
       "account": "CAOM",
       "author": "ZCQ",
+      "body_file": "articles/caom-2aaccae78ea5.html",
+      "cover": "assets/wechat/caom-2aaccae78ea5/cover.jpg",
+      "description": "用 RFdiffusion 设计一个几十个氨基酸的 binder，后面让 AlphaFold 3 复核复合物时",
+      "featured": true,
+      "published": "2026-11-04",
+      "slug": "caom-2aaccae78ea5",
+      "source_url": "https://mp.weixin.qq.com/s/VP_LSDOdrhOqwNijB8GW_w",
+      "title": "719 个残基的 FAP，AI 设计 binder 怎样把计算花在结合位点上",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
       "body_file": "articles/caom-7bc23e59ac8b.html",
       "cover": "assets/wechat/caom-7bc23e59ac8b/cover.jpg",
       "description": "10 月 21 日公开的《Biomolecular design through latent reasoni",
