@@ -1272,6 +1272,12 @@
       "title": "Generative Machine Learning and Microfluidics uHTS: An Efficient Partnership for Enzyme Engineering",
       "url": "https://doi.org/10.1101/2025.11.02.685536"
     },
+    "doi:10.1101/2025.11.13.688364": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics",
+      "url": "https://doi.org/10.1101/2025.11.13.688364"
+    },
     "doi:10.1101/cshperspect.a041754": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -1427,6 +1433,12 @@
       "source": "biorxiv",
       "title": "A High-Confidence Atlas of Protein Methylation Enables AI-Driven Detection of Methylated Peptides",
       "url": "https://doi.org/10.64898/2026.07.01.733993"
+    },
+    "doi:10.64898/2026.07.06.736753": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes",
+      "url": "https://doi.org/10.64898/2026.07.06.736753"
     },
     "doi:10.64898/2026.07.09.736951": {
       "first_seen": "2026-07-15",
@@ -1883,6 +1895,30 @@
       "source": "bioRxiv",
       "title": "Learning inhibitor interactions from protein deep mutational scanning data and deep learning models",
       "url": "https://doi.org/10.64898/2026.11.01.763444"
+    },
+    "doi:10.64898/2026.11.02.763593": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "Omics-scale decoding of protein N-glycosylation using protein language model embeddings",
+      "url": "https://doi.org/10.64898/2026.11.02.763593"
+    },
+    "doi:10.64898/2026.11.02.763690": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces",
+      "url": "https://doi.org/10.64898/2026.11.02.763690"
+    },
+    "doi:10.64898/2026.11.03.763913": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction",
+      "url": "https://doi.org/10.64898/2026.11.03.763913"
+    },
+    "doi:10.64898/2026.11.03.764069": {
+      "first_seen": "2026-11-05",
+      "source": "bioRxiv",
+      "title": "CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps",
+      "url": "https://doi.org/10.64898/2026.11.03.764069"
     }
   }
 }

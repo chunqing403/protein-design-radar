@@ -7,26 +7,26 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
+Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Artificial intelligence for predicting mutation effects on enzyme kinetics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095)<br><sub>Wenqiang Cui, Zichen Sun, Mengting Li et al.</sub> | Current Opinion in Structural Biology<br>2027-02 | Sequence design, Enzymes and function |
-| 2 | [Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints](https://doi.org/10.64898/2026.10.31.763384)<br><sub>Jat, R., Ejaz, S. R.</sub> | bioRxiv<br>2026-11-03 | Protein language models, Binders and therapeutics |
-| 3 | [FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction](https://doi.org/10.64898/2026.10.31.763304)<br><sub>Joshi, D., Priyadarsinee, L., Chatterjee, B. et al.</sub> | bioRxiv<br>2026-11-03 | Protein language models, Binders and therapeutics, Experimental validation |
-| 4 | [Learning inhibitor interactions from protein deep mutational scanning data and deep learning models](https://doi.org/10.64898/2026.11.01.763444)<br><sub>Zou, Z., Hazelwood, I., Estevam, G. et al.</sub> | bioRxiv<br>2026-11-03 | Sequence design, Protein language models, Binders and therapeutics, Enzymes and function |
-| 5 | [Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03837/5463265/Artificial-Intelligence-Aided-Design-of-Peptides)<br><sub>Sean M. Brown, Ashley B. Cohen, Scott N. Dean</sub> | Journal of Chemical Information and Modeling<br>2026-11-03 | Structure generation, Enzymes and function |
-| 6 | [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation.](https://pubmed.ncbi.nlm.nih.gov/42974732/)<br><sub>Mardikoraem M, Pascual N, Eaves JN et al.</sub> | PubMed<br>2026 Nov 03 | Enzymes and function |
+| 1 | [Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes](https://doi.org/10.64898/2026.07.06.736753)<br><sub>MacLean, O. A., Lamb, K., Lytras, S. et al.</sub> | bioRxiv<br>2026-11-04 | Sequence design, Protein language models, Enzymes and function |
+| 2 | [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069)<br><sub>Xu, Q., Yu, X., Wu, L. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation, Experimental validation |
+| 3 | [Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics](https://doi.org/10.1101/2025.11.13.688364)<br><sub>Kang, Z., Zhou, Q., Zhang, H. et al.</sub> | bioRxiv<br>2026-11-04 | Protein language models, Binders and therapeutics, Experimental validation |
+| 4 | [AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces](https://doi.org/10.64898/2026.11.02.763690)<br><sub>Tennie, I. K., Uhl, M., Franke, J. K. H. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation |
+| 5 | [Omics-scale decoding of protein N-glycosylation using protein language model embeddings](https://doi.org/10.64898/2026.11.02.763593)<br><sub>Zhou, X., Guan, X., Zhou, Y. et al.</sub> | bioRxiv<br>2026-11-04 | Protein language models |
+| 6 | [All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction](https://doi.org/10.64898/2026.11.03.763913)<br><sub>Yan, J., Xie, D., Wang, Z. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 72 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 30 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 92 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 75 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 31 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 94 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 52 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 14 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
@@ -35,8 +35,11 @@ Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (72)
+#### Structure Generation / 结构生成 (75)
 
+- [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation, Experimental validation)
+- [AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces](https://doi.org/10.64898/2026.11.02.763690) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
+- [All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction](https://doi.org/10.64898/2026.11.03.763913) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
 - [Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03837/5463265/Artificial-Intelligence-Aided-Design-of-Peptides) (Journal of Chemical Information and Modeling, 2026-11-03; first seen 2026-11-04; Structure generation, Enzymes and function)
 - [Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles](https://doi.org/10.64898/2026.10.29.762916) (bioRxiv, 2026-11-01; first seen 2026-11-02; Structure generation, Enzymes and function, Experimental validation)
 - [IDPForge: deep learning of proteins with global and local regions of disorder](https://www.nature.com/articles/s41467-026-79191-4) (Nat Commun, 2026-10-30; first seen 2026-10-31; Structure generation, Protein language models, Experimental validation)
@@ -111,8 +114,9 @@ Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (30)
+#### Sequence Design / 序列设计 (31)
 
+- [Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes](https://doi.org/10.64898/2026.07.06.736753) (bioRxiv, 2026-11-04; first seen 2026-11-05; Sequence design, Protein language models, Enzymes and function)
 - [Artificial intelligence for predicting mutation effects on enzyme kinetics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095) (Current Opinion in Structural Biology, 2027-02; first seen 2026-11-04; Sequence design, Enzymes and function)
 - [Learning inhibitor interactions from protein deep mutational scanning data and deep learning models](https://doi.org/10.64898/2026.11.01.763444) (bioRxiv, 2026-11-03; first seen 2026-11-04; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function)
 - [De novo design of mini-proteins as specific binders to PACAP-38, a key mediator of migraine](https://doi.org/10.64898/2026.10.30.763049) (bioRxiv, 2026-11-02; first seen 2026-11-03; Sequence design, Binders and therapeutics)
@@ -145,10 +149,12 @@ Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (92)
+#### Protein Language Models / 蛋白质语言模型 (94)
 
-- [Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints](https://doi.org/10.64898/2026.10.31.763384) (bioRxiv, 2026-11-03; first seen 2026-11-04; Protein language models, Binders and therapeutics)
+- [Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics](https://doi.org/10.1101/2025.11.13.688364) (bioRxiv, 2026-11-04; first seen 2026-11-05; Protein language models, Binders and therapeutics, Experimental validation)
+- [Omics-scale decoding of protein N-glycosylation using protein language model embeddings](https://doi.org/10.64898/2026.11.02.763593) (bioRxiv, 2026-11-04; first seen 2026-11-05; Protein language models)
 - [FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction](https://doi.org/10.64898/2026.10.31.763304) (bioRxiv, 2026-11-03; first seen 2026-11-04; Protein language models, Binders and therapeutics, Experimental validation)
+- [Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints](https://doi.org/10.64898/2026.10.31.763384) (bioRxiv, 2026-11-03; first seen 2026-11-04; Protein language models, Binders and therapeutics)
 - [Does a map-level insulation constraint improve sequence-based prediction of 3D genome folding? A Stage 1 Registered Report with a reverse-complement-equivariant state-space model (HiFold-Mamba)](https://doi.org/10.64898/2026.10.24.761502) (bioRxiv, 2026-10-30; first seen 2026-10-31; Protein language models)
 - [A Two-Stage ESM-Based Machine Learning Pipeline for Robust Hierarchically Evaluated Enzyme Function Prediction.](https://pubmed.ncbi.nlm.nih.gov/42959430/) (PubMed, 2026 01 01; first seen 2026-10-31; Protein language models, Enzymes and function)
 - [A multi-task learning framework with a frozen protein language model for unified prediction of food-derived peptide functions](https://linkinghub.elsevier.com/retrieve/pii/S2212429226021723) (Food Bioscience, 2026-10; first seen 2026-10-30; Protein language models, Binders and therapeutics)
@@ -299,7 +305,7 @@ Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
 <a id="paper-category-enzymes-and-function"></a>
 #### Enzymes & Function / 酶与功能 (14)
 
-- [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation.](https://pubmed.ncbi.nlm.nih.gov/42974732/) (PubMed, 2026 Nov 03; first seen 2026-11-04; Enzymes and function)
+- [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzag033/9010796) (Protein Engineering, Design and Selection, 2026-11-03; first seen 2026-11-04; Enzymes and function)
 - [Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-30; Enzymes and function)
 - [HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization](https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566) (iScience, 2026-11; first seen 2026-10-27; Enzymes and function)
 - [Representation learning for low-data protein fitness prediction using sequence–structure embeddings and graph neural networks](https://www.nature.com/articles/s41598-026-67952-6) (Sci Rep, 2026-10-16; first seen 2026-10-17; Enzymes and function)
@@ -361,7 +367,7 @@ Updated: **2026-11-04** (`2026-11-04T06:39:23Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-04](outputs/daily/2026-11-04.md)
+- [Daily report for 2026-11-05](outputs/daily/2026-11-05.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

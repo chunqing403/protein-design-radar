@@ -5237,22 +5237,22 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42405694/"
     },
     "doi:10.1093/protein/gzag033": {
-      "abstract": "From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
+      "abstract": "Abstract From protein structure prediction to novel protein generation, challenging protein engineering tasks have been made possible by advancements in machine learning (ML). While largely driven by ML architecture refinements, these advancements in ML-based protein engineering campaigns have left the impact of data curation underexplored. In light of the growing wealth of labeled sequence data, data-centric advances (e.g. prioritizing improvements in ML protein engineering tools through the curation of high-quality, domain-specific training data) are increasingly preferred over model-centric advancements. Implementing datasets that accurately reflect biological complexity and diversity has been shown to improve the efficiency of training protein engineering ML tools. Here, we evaluate an ancestral sequence reconstruction (ASR)-informed data augmentation strategy for training generative and representation-learning models in protein engineering. Using ethylene-forming enzyme (EFE) as a model system, we show that variational autoencoder models trained on ancestral and near-ancestral sequence datasets generate variants with improved predicted and experimentally measured thermostability relative to variants generated from modern-sequence training data. All experimentally tested ancestral and ML-generated EFEs produced detectable ethylene, although ML-generated variants showed reduced activity relative to wild-type EFE, indicating that the approach more strongly captured stability-associated features than catalytic optimization. We further evaluated ASR-enriched sequence sets for fine-tuning ESM2 representations in endolysin and lysozyme C stability-classification tasks, where ancestral representations were competitive with modern-sequence fine-tuning in selected settings. Overall, this work supports ASR-informed data augmentation as a promising strategy for stability-oriented protein sequence generation and motivates future work to couple ancestral sequence diversity with explicit functional selection.",
       "authors": [
-        "Mardikoraem M",
-        "Pascual N",
-        "Eaves JN",
-        "Chatterjee S",
-        "Garland L",
-        "VanAntwerp J",
-        "Mahama A",
-        "Finneran P",
-        "Hausinger RP",
-        "Woldring DR"
+        "Mehrsa Mardikoraem",
+        "Nathaniel Pascual",
+        "Joelle N Eaves",
+        "Shramana Chatterjee",
+        "Logan Garland",
+        "James VanAntwerp",
+        "Anton Mahama",
+        "Patrick Finneran",
+        "Robert P Hausinger",
+        "Daniel R Woldring"
       ],
       "doi": "10.1093/protein/gzag033",
       "first_seen": "2026-11-04",
-      "published": "2026 Nov 03",
+      "published": "2026-11-03",
       "reasons": [
         "protein engineering",
         "structure prediction",
@@ -5261,13 +5261,13 @@
         "enzyme",
         "sequence"
       ],
-      "source": "PubMed",
-      "source_id": "42974732",
-      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation.",
+      "source": "Protein Engineering, Design and Selection",
+      "source_id": "10.1093/protein/gzag033",
+      "title": "EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation",
       "topics": [
         "Enzymes and function"
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42974732/"
+      "url": "https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzag033/9010796"
     },
     "doi:10.1101/2024.02.02.578551": {
       "abstract": "Remarkable progress has been made in the field of protein structure prediction. Representative methods like AlphaFold and RoseTTAFold achieve prediction accuracy close to experimental structural determination, but at the cost of heavy computational consumption for model training. In this work, we propose a new framework, Cerebra, for improving the computational efficiency of protein structure prediction. In this network architecture, multiple sets of atomic coordinates are predicted parallelly and their mutual complementarity is leveraged to rapidly improve the quality of predicted structures through a new attention mechanism named Path Synthesis Attention (PSA). Consequently, Cerebra markedly reduces the computational consumption, achieving evident acceleration on both model training and inference, in comparison to OpenFold, the academic version of AlphaFold2. When evaluated on the CAMEO 2025 dataset, the Cerebra model trained on a limited number of GPUs shows a comparable performance to the published OpenFold model that has been thoroughly optimized using a plethora of computational resources. Moreover, ablation studies confirm that the PSA mechanism efficiently accelerates the network convergence, suggesting its potential in handling the many-body effects of protein geometries in graph-based models. Finally, the fast inference of Cerebra effectively assists hallucination-based de novo protein backbone design, allowing the production of abundant backbone structures with sufficient designability and novelty.",
@@ -5569,6 +5569,42 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.1101/2025.11.02.685536"
+    },
+    "doi:10.1101/2025.11.13.688364": {
+      "abstract": "The antibiotic potential of Earth's isolated habitat microbiomes remains largely unexplored. Accessing this resource requires reliable prioritization across divergent peptide sequences and efficient experimental validation. Here we present MicroSPEAR, an end-to-end framework for antimicrobial peptide (AMP) discovery integrating SPEAR, a sequence-structure-aware ensemble predictor, with MicroGrad, a microfluidic testing platform. SPEAR generalized to low-homology peptides and prioritized potent candidates despite training on binary activity labels. MicroGrad simplified liquid handling and shortened susceptibility testing from approximately 18 h to 4 h. Applied to a catalogue derived from 4,480 metagenomes spanning 15 isolated habitat types, SPEAR identified 383,027 non-redundant candidate AMPs, 63.1% of which lacked detectable homologues in reference databases. Of 85 synthesized candidates, 79 exhibited antibacterial activity at [≤]64 M;. Mechanistic analyses revealed distinct modes of membrane disruption. Four broad-spectrum candidates with low toxicity significantly reduced bacterial burdens in a mouse thigh infection model. MicroSPEAR connects underexplored microbial diversity with experimentally validated antibiotic leads and provides a foundation for lab-in-the-loop discovery.",
+      "authors": [
+        "Kang, Z.",
+        "Zhou, Q.",
+        "Zhang, H.",
+        "Liu, J.",
+        "Liu, K.",
+        "Zhou, K.",
+        "Zhang, Y.",
+        "Wang, Y.",
+        "Chen, P.",
+        "Liu, B.-F.",
+        "Ning, K."
+      ],
+      "doi": "10.1101/2025.11.13.688364",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "protein language model",
+        "experimental validation",
+        "protein",
+        "peptide",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.11.13.688364",
+      "title": "Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.1101/2025.11.13.688364"
     },
     "doi:10.1107/s2059798326006054": {
       "abstract": "Proteins move and deform to ensure their biological functions. Despite significant progress in protein structure prediction, approximating conformational ensembles under physiological conditions remains a fundamental open problem. This paper presents a novel perspective on the problem by directly targeting continuous compact representations of protein motions inferred from sparse experimental observations. We develop a task-specific loss function enforcing data symmetries, including scaling and permutation operations. Our method PETIMOT (Protein sEquence and sTructure-based Inference of MOTions) leverages transfer learning from pre-trained protein language models through an SE(3)-equivariant graph neural network. When trained and evaluated on the Protein Data Bank, PETIMOT shows superior performance in time and accuracy, capturing protein dynamics, particularly large/slow conformational changes, compared with state-of-the-art diffusion and flow-matching approaches, as well as traditional physics-based models. Our code and protocols are available at https://github.com/PhyloSofS-Team/PETIMOT.",
@@ -6283,6 +6319,37 @@
         "Binders and therapeutics"
       ],
       "url": "https://doi.org/10.64898/2026.07.01.733993"
+    },
+    "doi:10.64898/2026.07.06.736753": {
+      "abstract": "Protein language models (PLMs) score the effects of amino acid replacements as pseudo-probabilities, which are widely utilised to map protein fitness landscapes. However, because their training data relies on natural amino acid sequences, these models conflate protein structural constraints with nucleotide mutation biases and codon accessibility. Using the rapid emergence of the divergent influenza A H3N2 K lineage as a stress test, we investigate how base PLMs (ESM-2 and ESM-C) versus fine-tuned versions of these models capture mutational processes. We systematically implement a parameter sweep to explicitly couple (or decouple) empirical nucleotide mutational supply from PLM-assessed amino acid substitution pseudo-probabilities across evolutionary forecasting tasks. We find that base PLMs implicitly learn generic nucleotide-level mutational constraints, an effect strongly amplified by virus-specific fine-tuning. Incorporating explicit mutational accessibility significantly improves the binary prediction of observed amino acid changes. Conversely, when predicting the final circulating frequency of variants that have already emerged, adding mutational supply degrades performance, confirming that selection dominates post-emergence dynamics. Additionally, we perform amino-acid-level epistatic scanning to investigate protein structural constraints in the context of genetic background. This indicates the improbable antigenic substitution I160K is dependent on co-occurring S144N and N158D mutations in the H3N2 K lineage. Ultimately, current PLM pseudo-probabilities are a composite metric that conflates protein structural fitness with historical biases in mutational supply. Explicitly decoupling these independent evolutionary processes optimises predictive accuracy for real-world pathogen forecasting and isolates pure protein fitness for synthetic design pipelines.",
+      "authors": [
+        "MacLean, O. A.",
+        "Lamb, K.",
+        "Lytras, S.",
+        "Mojsiejczuk, L.",
+        "Yuan, K.",
+        "Hughes, J.",
+        "Robertson, D. L."
+      ],
+      "doi": "10.64898/2026.07.06.736753",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "fitness landscape",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.07.06.736753",
+      "title": "Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.06.736753"
     },
     "doi:10.64898/2026.07.09.736951": {
       "abstract": "Deep generative models have become a leading approach for designing therapeutic molecules, yet efficiently exploring vast biomolecular sequence spaces remains difficult, particularly for targets with limited training data. The prior distribution that seeds a generative model shapes which regions of sequence space it explores, and recent work suggests that non-classical distributions sampled from quantum processors can serve as a structured alternative to the factorised Gaussian priors used by default. Whether such priors help on complex biological design tasks has been largely untested. Here we present what is, to our knowledge, the first end-to-end hybrid quantum-classical pipeline for de novo design of MHC class I-binding peptides, coupling a generative adversarial network (GAN) to latent vectors sampled from a real photonic quantum processor. Tested in silico across 131 HLA alleles, quantum-derived priors increased the yield of predicted strong binders, with the largest relative gains for understudied alleles where classical baselines perform worst. We selected three understudied alleles for further evaluation, finding that large gains coincided with broader sequence exploration at non-anchor positions while anchor specificity was preserved. On these three alleles, we validated the designs in vitro using peptide-MHC stability ELISAs, confirming that quantum-designed peptides are potent stabilisers of peptide-MHC class I complexes. These results establish structured, hardware-realisable non-classical priors as a useful inductive bias for generative peptide design, with direct relevance to personalised immunotherapies and vaccines.",
@@ -8616,6 +8683,114 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.11.01.763444"
+    },
+    "doi:10.64898/2026.11.02.763593": {
+      "abstract": "Protein language models (pLMs) learn rich sequence semantics from vast volume of protein sequences, yet the information encoded in their high-dimensional embeddings remains largely a black box, posing an interpretability challenge. Here we show that semantic features learned by pLMs can be decoded to reveal biologically meaningful signals using coevolutionary analysis without downstream supervised-training. Building on this insight, we developed MaskNGly, a zero-shot framework that identifies protein N-glycosylation sites directly from PLM-embeddings while achieving performance comparable to state-of-the-art supervised predictors. MaskNGly is computationally efficient and intrinsically transferable, enabling omics-scale characterization of protein glycosylation landscape. Applied across proteomes, it reveals that canonical N-X-S/T motifs gain higher glycosylation propensities with increasing organismal complexity and that glycosylation preferentially occurs at structured, solvent-exposed regions. Mutations altering high-scoring motifs are more frequently disease-associated. The framework also captures signatures of glycosylation-mediated protein allostery. These results establish an interpretable and scalable route to study glycobiology from pLM-embeddings.",
+      "authors": [
+        "Zhou, X.",
+        "Guan, X.",
+        "Zhou, Y.",
+        "Wang, J.",
+        "Peng, Z.",
+        "Ren, W.",
+        "Wang, W.",
+        "Xie, R.",
+        "Li, W."
+      ],
+      "doi": "10.64898/2026.11.02.763593",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.02.763593",
+      "title": "Omics-scale decoding of protein N-glycosylation using protein language model embeddings",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.02.763593"
+    },
+    "doi:10.64898/2026.11.02.763690": {
+      "abstract": "AlphaFold 3 (AF3) models RNA and protein-RNA complexes, but when its predictions and confidence metrics can be trusted is unclear. We evaluated AF3 on more than 1,300 protein-RNA complexes and about 270 RNA-only systems, and compared post-cutoff RNAs with pre-cutoff candidates selected by sequence and fold similarity. On structurally novel RNAs, AF3 largely preserves the protein fold, while RNA-fold and interface accuracy drop sharply with little change in predicted RNA confidence score. Input ablations show that protein alignments and templates from RNA-bound proteins govern complex assembly, whereas RNA alignments matter most for single-chain and long RNAs. The most frequent failed interface retains protein-side contacts but places an often-misfolded RNA in the wrong pose. RNA interface confidence only partly distinguishes this error from correct placements. Against CLIP-seq, SELEX and RNAcompete motifs, AF3 usually places the protein against the experimentally observed motif-bearing RNA segment, even where the interface fails, but often not in the native pose. In protein-RNA complexes released in 2026, a score combining AF3 confidence with RNA familiarity and template use ranked RNA chains with accurate folds and correctly placed interfaces better than AF3's ranking score.",
+      "authors": [
+        "Tennie, I. K.",
+        "Uhl, M.",
+        "Franke, J. K. H.",
+        "Backofen, R.",
+        "Runge, F."
+      ],
+      "doi": "10.64898/2026.11.02.763690",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "AlphaFold",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.02.763690",
+      "title": "AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.02.763690"
+    },
+    "doi:10.64898/2026.11.03.763913": {
+      "abstract": "We develop an All-atom Structure Tokenizer that compresses biomolecular geometry into discrete structural tokens and achieves high-accuracy all-atom reconstruction. A hierarchical geometric encoder and finite scalar quantization map chemical units to a shared vocabulary of 8,192 tokens, while a joint coordinate de-tokenizer reconstructs backbone, side-chain, nucleic-acid, and ligand heavy atoms. The tokenizer achieves all-atom lDDT scores of 0.832 and 0.835 on CASP14 and CASP15, respectively. Building on this tokenizer, we train AtomLM-9b, an autoregressive language model based on Qwen3.5-9B that predicts structural tokens from molecular identities and connectivity and decodes them into complete atomic structures. We demonstrate, for the first time, protein structure prediction performance comparable to AlphaFold 3 with an all-atom-tokenizer-based structural language model: on the FoldBench protein-protein task, AtomLM-9b achieves a success rate of 75.01%, compared with the published AlphaFold 3 result of 72.93%. These results establish discrete all-atom tokenization as an effective interface between high-fidelity atomic reconstruction and language-model-based structure prediction.",
+      "authors": [
+        "Yan, J.",
+        "Xie, D.",
+        "Wang, Z.",
+        "Xu, M.",
+        "Zhang, Z."
+      ],
+      "doi": "10.64898/2026.11.03.763913",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.03.763913",
+      "title": "All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.03.763913"
+    },
+    "doi:10.64898/2026.11.03.764069": {
+      "abstract": "Identifying the molecular components of cryoEM/cryoET maps of endogenous or poorly characterized complexes remains a major bottleneck. CryoID2 addresses this by integrating deep learning-based feature prediction with sequence prioritization and structural evaluation. Three 3D U-Nets extract structure classes, key-atom positions, and reduced residue/nucleotide types from the input map. These predictions support backbone tracing and the generation of short sequence queries that rank candidates from a user-supplied pool-using BLASTp for proteins and a maximin strategy for RNA. Corresponding PDB or AlphaFold models are then retrieved, rigidly fitted using predicted features and experimental density, and ranked by map agreement. Module-level tests show high-recall feature prediction and resolution-dependent atom clustering, while a 52-case benchmark recovers near-reference fitting quality. In practice, cryoID2 correctly identified PfA-M17 from a 166-protein mass-spectrometry pool and the unannotated Ca-raiA RNA from a genome-derived non-coding sequence set, demonstrating a unified sequence-plus-structure route to molecular identification in cryoEM maps.",
+      "authors": [
+        "Xu, Q.",
+        "Yu, X.",
+        "Wu, L.",
+        "Feng, S.",
+        "Zhou, Z. H."
+      ],
+      "doi": "10.64898/2026.11.03.764069",
+      "first_seen": "2026-11-05",
+      "published": "2026-11-04",
+      "reasons": [
+        "deep learning",
+        "AlphaFold",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.03.764069",
+      "title": "CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.03.764069"
     }
   }
 }
