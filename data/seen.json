@@ -912,6 +912,12 @@
       "title": "IDPForge: deep learning of proteins with global and local regions of disorder",
       "url": "https://www.nature.com/articles/s41467-026-79191-4"
     },
+    "doi:10.1038/s41467-026-79287-x": {
+      "first_seen": "2026-11-06",
+      "source": "Nat Commun",
+      "title": "Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning",
+      "url": "https://www.nature.com/articles/s41467-026-79287-x"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "first_seen": "2026-10-08",
       "source": "npj Sci Food",
@@ -1416,6 +1422,12 @@
       "title": "DPLM: Dynamics-aware Protein Language Model via contrastive learning between sequence and molecular dynamics simulation trajectory",
       "url": "https://doi.org/10.64898/2026.04.29.721692"
     },
+    "doi:10.64898/2026.05.01.722313": {
+      "first_seen": "2026-11-06",
+      "source": "bioRxiv",
+      "title": "Simple baselines rival protein language models in dense combinatorial protein landscapes",
+      "url": "https://doi.org/10.64898/2026.05.01.722313"
+    },
     "doi:10.64898/2026.05.26.727927": {
       "first_seen": "2026-10-28",
       "source": "bioRxiv",
@@ -1914,11 +1926,23 @@
       "title": "All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction",
       "url": "https://doi.org/10.64898/2026.11.03.763913"
     },
+    "doi:10.64898/2026.11.03.764008": {
+      "first_seen": "2026-11-06",
+      "source": "bioRxiv",
+      "title": "A protein language model for domain, functional site, and variant effect prediction",
+      "url": "https://doi.org/10.64898/2026.11.03.764008"
+    },
     "doi:10.64898/2026.11.03.764069": {
       "first_seen": "2026-11-05",
       "source": "bioRxiv",
       "title": "CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps",
       "url": "https://doi.org/10.64898/2026.11.03.764069"
+    },
+    "doi:10.64898/2026.11.04.764373": {
+      "first_seen": "2026-11-06",
+      "source": "bioRxiv",
+      "title": "Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation",
+      "url": "https://doi.org/10.64898/2026.11.04.764373"
     }
   }
 }

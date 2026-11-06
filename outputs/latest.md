@@ -1,73 +1,49 @@
-# Protein Design Paper Radar - 2026-11-05
+# Protein Design Paper Radar - 2026-11-06
 
-Generated on 2026-11-05T07:00:00Z.
+Generated on 2026-11-06T06:58:25Z.
 
-Found 6 recommended papers.
+Found 4 recommended papers.
 
 ## Highlights
 
-### 1. Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes
+### 1. Simple baselines rival protein language models in dense combinatorial protein landscapes
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** MacLean, O. A., Lamb, K., Lytras, S. et al.
-- **Topics:** Sequence design, Protein language models, Enzymes and function
-- **Why it matched:** protein language model, ESM, fitness landscape, protein, mutation
-- **Link:** https://doi.org/10.64898/2026.07.06.736753
-- **DOI:** 10.64898/2026.07.06.736753
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-05
+- **Authors:** Talpir, I., Fleishman, S. J.
+- **Topics:** Sequence design, Protein language models, Enzymes and function, Experimental validation
+- **Why it matched:** protein design, protein engineering, protein language model, protein, mutation, sequence
+- **Link:** https://doi.org/10.64898/2026.05.01.722313
+- **DOI:** 10.64898/2026.05.01.722313
 
-Protein language models (PLMs) score the effects of amino acid replacements as pseudo-probabilities, which are widely utilised to map protein fitness landscapes. However, because their training data relies on natural amino acid sequences, these models conflate protein structural constraints with nucleotide mutation biases and codon accessibility. Using the...
+Computational protein design demands generally applicable models that reliably predict or generate new variants with superior functional properties. A central test of this capability is whether models can extrapolate beyond the mutational regimes represented in their training data. Recent benchmarks have begun to address this question, but the performance...
 
-### 2. Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics
+### 2. A protein language model for domain, functional site, and variant effect prediction
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** Kang, Z., Zhou, Q., Zhang, H. et al.
-- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
-- **Why it matched:** protein language model, experimental validation, protein, peptide, sequence, structure
-- **Link:** https://doi.org/10.1101/2025.11.13.688364
-- **DOI:** 10.1101/2025.11.13.688364
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-05
+- **Authors:** Wang, P., Ahsan, M. U., Chen, T. et al.
+- **Topics:** Sequence design, Protein language models, Enzymes and function, Experimental validation
+- **Why it matched:** protein language model, variant effect, protein, sequence
+- **Link:** https://doi.org/10.64898/2026.11.03.764008
+- **DOI:** 10.64898/2026.11.03.764008
 
-The antibiotic potential of Earth's isolated habitat microbiomes remains largely unexplored. Accessing this resource requires reliable prioritization across divergent peptide sequences and efficient experimental validation. Here we present MicroSPEAR, an end-to-end framework for antimicrobial peptide (AMP) discovery integrating SPEAR, a...
+Protein sequence databases are growing far faster than experimentally curated annotations, limiting functional interpretation of newly identified proteins and coding variants. We developed PALM, a protein annotation language model that jointly predicts domain and functional-site occurrence, while preserving overlapping and nested annotations through a...
 
-### 3. CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps
+### 3. Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** Xu, Q., Yu, X., Wu, L. et al.
-- **Topics:** Structure generation, Experimental validation
-- **Why it matched:** deep learning, AlphaFold, protein, sequence, structure
-- **Link:** https://doi.org/10.64898/2026.11.03.764069
-- **DOI:** 10.64898/2026.11.03.764069
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-05
+- **Authors:** Rafailidis, N., Hallee, L. P., Peleg, T. et al.
+- **Topics:** Protein language models, Enzymes and function
+- **Why it matched:** protein language model, transformer, protein, enzyme
+- **Link:** https://doi.org/10.64898/2026.11.04.764373
+- **DOI:** 10.64898/2026.11.04.764373
 
-Identifying the molecular components of cryoEM/cryoET maps of endogenous or poorly characterized complexes remains a major bottleneck. CryoID2 addresses this by integrating deep learning-based feature prediction with sequence prioritization and structural evaluation. Three 3D U-Nets extract structure classes, key-atom positions, and reduced...
+Protein Language Models (pLMs) have become essential tools for computational protein analysis, and the rapid proliferation of architectures, training objectives, and pretraining corpora has produced a diverse and expanding model landscape. Evaluation practices, however, remain fragmented: studies use different datasets, preprocessing pipelines, and...
 
-### 4. All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction
+### 4. Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** Yan, J., Xie, D., Wang, Z. et al.
-- **Topics:** Structure generation
-- **Why it matched:** structure prediction, AlphaFold, protein, structure
-- **Link:** https://doi.org/10.64898/2026.11.03.763913
-- **DOI:** 10.64898/2026.11.03.763913
-
-We develop an All-atom Structure Tokenizer that compresses biomolecular geometry into discrete structural tokens and achieves high-accuracy all-atom reconstruction. A hierarchical geometric encoder and finite scalar quantization map chemical units to a shared vocabulary of 8,192 tokens, while a joint coordinate de-tokenizer reconstructs backbone,...
-
-### 5. AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** Tennie, I. K., Uhl, M., Franke, J. K. H. et al.
-- **Topics:** Structure generation
-- **Why it matched:** AlphaFold, protein, sequence
-- **Link:** https://doi.org/10.64898/2026.11.02.763690
-- **DOI:** 10.64898/2026.11.02.763690
-
-AlphaFold 3 (AF3) models RNA and protein-RNA complexes, but when its predictions and confidence metrics can be trusted is unclear. We evaluated AF3 on more than 1,300 protein-RNA complexes and about 270 RNA-only systems, and compared post-cutoff RNAs with pre-cutoff candidates selected by sequence and fold similarity. On structurally novel RNAs, AF3 largely...
-
-### 6. Omics-scale decoding of protein N-glycosylation using protein language model embeddings
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-04
-- **Authors:** Zhou, X., Guan, X., Zhou, Y. et al.
-- **Topics:** Protein language models
-- **Why it matched:** protein language model, protein, sequence
-- **Link:** https://doi.org/10.64898/2026.11.02.763593
-- **DOI:** 10.64898/2026.11.02.763593
-
-Protein language models (pLMs) learn rich sequence semantics from vast volume of protein sequences, yet the information encoded in their high-dimensional embeddings remains largely a black box, posing an interpretability challenge. Here we show that semantic features learned by pLMs can be decoded to reveal biologically meaningful signals using...
+- **Status:** NEW | **Source:** Nat Commun | **Date:** 2026-11-05
+- **Authors:** Qianmu Yuan, Mingming Zhu, Pei Xu et al.
+- **Topics:** Enzymes and function
+- **Why it matched:** deep learning, enzyme
+- **Link:** https://www.nature.com/articles/s41467-026-79287-x
+- **DOI:** 10.1038/s41467-026-79287-x

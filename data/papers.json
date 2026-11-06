@@ -4013,6 +4013,33 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-79191-4"
     },
+    "doi:10.1038/s41467-026-79287-x": {
+      "abstract": "",
+      "authors": [
+        "Qianmu Yuan",
+        "Mingming Zhu",
+        "Pei Xu",
+        "Jiahua Rao",
+        "Lichuang Cao",
+        "Jianzhong Liu",
+        "Yutong Lu",
+        "Yuedong Yang"
+      ],
+      "doi": "10.1038/s41467-026-79287-x",
+      "first_seen": "2026-11-06",
+      "published": "2026-11-05",
+      "reasons": [
+        "deep learning",
+        "enzyme"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-79287-x",
+      "title": "Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning",
+      "topics": [
+        "Enzymes and function"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79287-x"
+    },
     "doi:10.1038/s41538-026-01159-x": {
       "abstract": "",
       "authors": [
@@ -6234,6 +6261,34 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.64898/2026.04.29.721692"
+    },
+    "doi:10.64898/2026.05.01.722313": {
+      "abstract": "Computational protein design demands generally applicable models that reliably predict or generate new variants with superior functional properties. A central test of this capability is whether models can extrapolate beyond the mutational regimes represented in their training data. Recent benchmarks have begun to address this question, but the performance of protein language models (pLM) remains less well characterized in densely sampled combinatorial landscapes of protein function that are commonly explored in protein engineering and design. Here, we evaluate zero-shot scoring and supervised prediction across mutational orders, comparing widely used pLMs with simple mutation-identity and evolutionary baselines. We find no consistent advantage associated with pLM architecture or scale, and that pLMs do not consistently outperform conventional baselines. We examined pLM representations and found that much of their variation could be recovered from mutation-identity encoding alone, helping explain the strong performance of such encodings without pretraining. We further found little correspondence between pLM sensitivity to sequence background and experimentally measured functional epistasis. In combinatorial library selection, pLMs likewise showed no consistent advantage over evolutionary scoring. Together, these results indicate that greater pLM complexity does not necessarily improve prediction or experimental prioritization in combinatorial protein design.",
+      "authors": [
+        "Talpir, I.",
+        "Fleishman, S. J."
+      ],
+      "doi": "10.64898/2026.05.01.722313",
+      "first_seen": "2026-11-06",
+      "published": "2026-11-05",
+      "reasons": [
+        "protein design",
+        "protein engineering",
+        "protein language model",
+        "protein",
+        "mutation",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.05.01.722313",
+      "title": "Simple baselines rival protein language models in dense combinatorial protein landscapes",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.01.722313"
     },
     "doi:10.64898/2026.05.26.727927": {
       "abstract": "Traditional molecular phylogenetic inference uses multiple sequence alignments and amino acid substitution models that generally assume that sites evolve independently. In contrast, protein foundation models (pFMs) are deep learning models that reveal residue dependence patterns within sequences. There are two types of pFMs: Evolutionary Scale Models (esm-pFM) for analyzing individual protein sequences, and MSA Transformer (msat-pFM) models for analyzing MSAs. Using pFMs to analyze sequences produces residue attention matrices (RAMs) and sequence attention matrices (SAMs), respectively. RAMs and SAMs can be used to estimate pairwise distances and, thus, reconstruct phylogenies using the Neighbor-Joining (NJ) method. Here, we compare the performance of RAM-NJ and SAM-NJ phylogenies in reconstructing established species relationships across different proteins and taxon sets. Surprisingly, RAM-NJ phylogenies were generally as accurate as SAM-NJ phylogenies even though RAM inference does not require construction or analysis of an MSA. Our results show that pFM-based analyses can recover species relationships without conventional substitution models or, in the case of RAMs, a multiple sequence alignment. These results suggest that evolutionary relationships are reflected not only in primary sequence differences between species, but also in the sequence-specific patterns of inter-residue dependence produced by pFM analysis of individual sequences. However, pFM phylogenies are less accurate than those obtained with standard maximum likelihood approaches, underscoring the need to further develop methods to harness RAMs and SAMs more effectively.",
@@ -8764,6 +8819,34 @@
       ],
       "url": "https://doi.org/10.64898/2026.11.03.763913"
     },
+    "doi:10.64898/2026.11.03.764008": {
+      "abstract": "Protein sequence databases are growing far faster than experimentally curated annotations, limiting functional interpretation of newly identified proteins and coding variants. We developed PALM, a protein annotation language model that jointly predicts domain and functional-site occurrence, while preserving overlapping and nested annotations through a soft-target objective. PALM integrates ESM2 with low-rank adaptation (LoRA), learned layer aggregation, and a bidirectional long short-term memory (BiLSTM) encoder. PALM was trained on ~15 million InterPro-annotated UniRef50 sequences spanning 17,951 domain and 1,383 site classes. Across 2.3 million held-out proteins, PALM achieved domain- and site-occurrence F1 scores of 0.941 and 0.877, respectively, and retained substantial performance in proteins with <20% sequence identity to the training and validation data. PALM also substantially outperformed ESM3 annotation baseline. Without training on variant-pathogenicity labels, PALM embedding disruption distinguished 151,823 ClinVar missense variants more accurately than ESM2 embedding disruption (AUROC 0.835 versus 0.710), and combining PALM embedding disruption with the ESM2 likelihood-ratio signal reached an AUROC of 0.877. The same combined zero-shot score outperformed AlphaMissense on a benchmark dataset on 128,161 missense variants, that were derived from literature but not present in ClinVar database. At the protein level, PALM embeddings showed stronger CATH-Gene3D superfamily organization than frozen ESM2 and ESM3 embeddings, and improved prediction of experimental activation and repression effects when combined with ESM2. In a downstream case study, we demonstrated the ability to use PALM-derived embedding as proxy of deep mutational scanning (DMS), showcasing the broad application of PALM. Together, PALM converts curated residue-level knowledge into transferable and mechanistically interpretable representations that connect protein sequence, function, and variant consequence.",
+      "authors": [
+        "Wang, P.",
+        "Ahsan, M. U.",
+        "Chen, T.",
+        "Wang, K."
+      ],
+      "doi": "10.64898/2026.11.03.764008",
+      "first_seen": "2026-11-06",
+      "published": "2026-11-05",
+      "reasons": [
+        "protein language model",
+        "variant effect",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.03.764008",
+      "title": "A protein language model for domain, functional site, and variant effect prediction",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.03.764008"
+    },
     "doi:10.64898/2026.11.03.764069": {
       "abstract": "Identifying the molecular components of cryoEM/cryoET maps of endogenous or poorly characterized complexes remains a major bottleneck. CryoID2 addresses this by integrating deep learning-based feature prediction with sequence prioritization and structural evaluation. Three 3D U-Nets extract structure classes, key-atom positions, and reduced residue/nucleotide types from the input map. These predictions support backbone tracing and the generation of short sequence queries that rank candidates from a user-supplied pool-using BLASTp for proteins and a maximin strategy for RNA. Corresponding PDB or AlphaFold models are then retrieved, rigidly fitted using predicted features and experimental density, and ranked by map agreement. Module-level tests show high-recall feature prediction and resolution-dependent atom clustering, while a 52-case benchmark recovers near-reference fitting quality. In practice, cryoID2 correctly identified PfA-M17 from a 166-protein mass-spectrometry pool and the unannotated Ca-raiA RNA from a genome-derived non-coding sequence set, demonstrating a unified sequence-plus-structure route to molecular identification in cryoEM maps.",
       "authors": [
@@ -8791,6 +8874,34 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.11.03.764069"
+    },
+    "doi:10.64898/2026.11.04.764373": {
+      "abstract": "Protein Language Models (pLMs) have become essential tools for computational protein analysis, and the rapid proliferation of architectures, training objectives, and pretraining corpora has produced a diverse and expanding model landscape. Evaluation practices, however, remain fragmented: studies use different datasets, preprocessing pipelines, and reporting conventions, so results rarely transfer between publications. Here we introduce Protify, an open-source platform that standardizes pLM benchmarking across zero-shot, supervised, and transferlearning settings through a unified, low-code interface. Protify currently supports 35 pretrained models and 61 curated datasets and it is easy to add custom versions of each. Leveraging Protify's high throughput pipelines, we benchmarked 23 models on ProteinGym, discovering that DPLM3B is currently the top-performing self-supervised encoder. Another large-scale supervised evaluation across 32 diverse tasks, spanning enzyme classification, gene ontology annotation, protein-protein interaction, subcellular localization, and other functional properties, found that no single pLM dominated: 14 different models took the top score on at least one dataset, and the margins between the best and second-best models fell within run-to-run variability. On enzyme optimal pH prediction, a general-purpose probe pipeline matched or exceeded EpHod, a specialized model selected from 11,550 training runs, after 50 hyperparameter trials (R2 = 0.482 versus 0.425). Under a homology-controlled split of the same data, every pooled-embedding probe collapsed to near-zero R2, and only a transformer probe over full residue embeddings recovered appreciable signal (R2 = 0.248). Model rankings therefore depend as much on evaluation design as on the models themselves. Protify makes those design choices explicit, controlled, and replayable, and is freely available at https://github.com/Gleghorn-Lab/Protify.",
+      "authors": [
+        "Rafailidis, N.",
+        "Hallee, L. P.",
+        "Peleg, T.",
+        "Horger, C.",
+        "Haviland, L.",
+        "Gleghorn, J. P."
+      ],
+      "doi": "10.64898/2026.11.04.764373",
+      "first_seen": "2026-11-06",
+      "published": "2026-11-05",
+      "reasons": [
+        "protein language model",
+        "transformer",
+        "protein",
+        "enzyme"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.04.764373",
+      "title": "Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.04.764373"
     }
   }
 }

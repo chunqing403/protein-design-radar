@@ -1512,6 +1512,15 @@
       "title": "Researchers use AI to design protein-digesting enzymes",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWtBX25uVmFQYjBKX2xsbkphRzNscDZfc3Rwa251bEMyakV2eUNHQjIzRmZBLU5wb05ZdHp0ai1zS3VLdVB5cldZM2V2TUstbkpYSzdTem1jNHIwQi1CQU9KTG8xSE1hUG14dXJScmU4MUxST0JSRXNhLXVmcmZNRXUxUVM3OUZiM3N3Tnl0SUh4d1p5Snl1Sk1Ga1dQdw?oc=5"
     },
+    "d539f39b5f5ff1be747a38f4ecaeab4c5430d23f": {
+      "category": "产业动态",
+      "first_seen": "2026-11-06",
+      "published": "2026-11-05",
+      "source": "Dealroom",
+      "summary": "UCB taps Cradle's AI protein-design platform to accelerate antibody discovery Dealroom",
+      "title": "UCB taps Cradle's AI protein-design platform to accelerate antibody discovery",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQd2Jia01NQThpWlRsSHdZVFhkeWxrUklqTkVtNHctemZ4MC1DdDRPaU94b2MwQjVMMDdNWFFxMl9KSnlieFR6ZjNGTXRpQVFpNldrWG9LZjZwSk5JbTUxdG9TYS1NV28yY0tSYU9ibnpZcEV4bllHLVM4WHFUNkM0RDdXYnJETEJCSkZ0cTFWNERaSUxkcF9KU18xM0lRRVlmTFN5YWpfb0pPaEJ0LUpGVQ?oc=5"
+    },
     "d6bcd6db7022dc70ebd2978817939f37ef119f1e": {
       "category": "产业动态",
       "first_seen": "2026-10-23",
@@ -1837,5 +1846,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-05T07:00:03+00:00"
+  "updated_at": "2026-11-06T06:58:28+00:00"
 }

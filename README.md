@@ -7,28 +7,26 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
+Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes](https://doi.org/10.64898/2026.07.06.736753)<br><sub>MacLean, O. A., Lamb, K., Lytras, S. et al.</sub> | bioRxiv<br>2026-11-04 | Sequence design, Protein language models, Enzymes and function |
-| 2 | [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069)<br><sub>Xu, Q., Yu, X., Wu, L. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation, Experimental validation |
-| 3 | [Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics](https://doi.org/10.1101/2025.11.13.688364)<br><sub>Kang, Z., Zhou, Q., Zhang, H. et al.</sub> | bioRxiv<br>2026-11-04 | Protein language models, Binders and therapeutics, Experimental validation |
-| 4 | [AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces](https://doi.org/10.64898/2026.11.02.763690)<br><sub>Tennie, I. K., Uhl, M., Franke, J. K. H. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation |
-| 5 | [Omics-scale decoding of protein N-glycosylation using protein language model embeddings](https://doi.org/10.64898/2026.11.02.763593)<br><sub>Zhou, X., Guan, X., Zhou, Y. et al.</sub> | bioRxiv<br>2026-11-04 | Protein language models |
-| 6 | [All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction](https://doi.org/10.64898/2026.11.03.763913)<br><sub>Yan, J., Xie, D., Wang, Z. et al.</sub> | bioRxiv<br>2026-11-04 | Structure generation |
+| 1 | [A protein language model for domain, functional site, and variant effect prediction](https://doi.org/10.64898/2026.11.03.764008)<br><sub>Wang, P., Ahsan, M. U., Chen, T. et al.</sub> | bioRxiv<br>2026-11-05 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
+| 2 | [Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation](https://doi.org/10.64898/2026.11.04.764373)<br><sub>Rafailidis, N., Hallee, L. P., Peleg, T. et al.</sub> | bioRxiv<br>2026-11-05 | Protein language models, Enzymes and function |
+| 3 | [Simple baselines rival protein language models in dense combinatorial protein landscapes](https://doi.org/10.64898/2026.05.01.722313)<br><sub>Talpir, I., Fleishman, S. J.</sub> | bioRxiv<br>2026-11-05 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
+| 4 | [Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning](https://www.nature.com/articles/s41467-026-79287-x)<br><sub>Qianmu Yuan, Mingming Zhu, Pei Xu et al.</sub> | Nat Commun<br>2026-11-05 | Enzymes and function |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 75 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 31 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 94 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 33 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 95 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 52 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 14 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 15 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
 | [General / 综合](#paper-category-general) | 33 |
 
@@ -37,9 +35,9 @@ Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 <a id="paper-category-structure-generation"></a>
 #### Structure Generation / 结构生成 (75)
 
-- [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation, Experimental validation)
 - [AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces](https://doi.org/10.64898/2026.11.02.763690) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
 - [All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction](https://doi.org/10.64898/2026.11.03.763913) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
+- [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation, Experimental validation)
 - [Artificial Intelligence-Aided Design of Peptides with Custom Secondary Structure Motifs and Reduced Amino Acid Alphabets](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03837/5463265/Artificial-Intelligence-Aided-Design-of-Peptides) (Journal of Chemical Information and Modeling, 2026-11-03; first seen 2026-11-04; Structure generation, Enzymes and function)
 - [Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles](https://doi.org/10.64898/2026.10.29.762916) (bioRxiv, 2026-11-01; first seen 2026-11-02; Structure generation, Enzymes and function, Experimental validation)
 - [IDPForge: deep learning of proteins with global and local regions of disorder](https://www.nature.com/articles/s41467-026-79191-4) (Nat Commun, 2026-10-30; first seen 2026-10-31; Structure generation, Protein language models, Experimental validation)
@@ -114,8 +112,10 @@ Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (31)
+#### Sequence Design / 序列设计 (33)
 
+- [A protein language model for domain, functional site, and variant effect prediction](https://doi.org/10.64898/2026.11.03.764008) (bioRxiv, 2026-11-05; first seen 2026-11-06; Sequence design, Protein language models, Enzymes and function, Experimental validation)
+- [Simple baselines rival protein language models in dense combinatorial protein landscapes](https://doi.org/10.64898/2026.05.01.722313) (bioRxiv, 2026-11-05; first seen 2026-11-06; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes](https://doi.org/10.64898/2026.07.06.736753) (bioRxiv, 2026-11-04; first seen 2026-11-05; Sequence design, Protein language models, Enzymes and function)
 - [Artificial intelligence for predicting mutation effects on enzyme kinetics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095) (Current Opinion in Structural Biology, 2027-02; first seen 2026-11-04; Sequence design, Enzymes and function)
 - [Learning inhibitor interactions from protein deep mutational scanning data and deep learning models](https://doi.org/10.64898/2026.11.01.763444) (bioRxiv, 2026-11-03; first seen 2026-11-04; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function)
@@ -149,8 +149,9 @@ Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (94)
+#### Protein Language Models / 蛋白质语言模型 (95)
 
+- [Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation](https://doi.org/10.64898/2026.11.04.764373) (bioRxiv, 2026-11-05; first seen 2026-11-06; Protein language models, Enzymes and function)
 - [Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics](https://doi.org/10.1101/2025.11.13.688364) (bioRxiv, 2026-11-04; first seen 2026-11-05; Protein language models, Binders and therapeutics, Experimental validation)
 - [Omics-scale decoding of protein N-glycosylation using protein language model embeddings](https://doi.org/10.64898/2026.11.02.763593) (bioRxiv, 2026-11-04; first seen 2026-11-05; Protein language models)
 - [FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction](https://doi.org/10.64898/2026.10.31.763304) (bioRxiv, 2026-11-03; first seen 2026-11-04; Protein language models, Binders and therapeutics, Experimental validation)
@@ -303,8 +304,9 @@ Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (14)
+#### Enzymes & Function / 酶与功能 (15)
 
+- [Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning](https://www.nature.com/articles/s41467-026-79287-x) (Nat Commun, 2026-11-05; first seen 2026-11-06; Enzymes and function)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzag033/9010796) (Protein Engineering, Design and Selection, 2026-11-03; first seen 2026-11-04; Enzymes and function)
 - [Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-30; Enzymes and function)
 - [HelixWings enables AI-driven enzyme engineering for biomimetic cofactor utilization](https://linkinghub.elsevier.com/retrieve/pii/S2589004226032566) (iScience, 2026-11; first seen 2026-10-27; Enzymes and function)
@@ -367,7 +369,7 @@ Updated: **2026-11-05** (`2026-11-05T07:00:00Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-05](outputs/daily/2026-11-05.md)
+- [Daily report for 2026-11-06](outputs/daily/2026-11-06.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
