@@ -7,28 +7,29 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
+Updated: **2026-11-07** (`2026-11-07T06:10:30Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [A protein language model for domain, functional site, and variant effect prediction](https://doi.org/10.64898/2026.11.03.764008)<br><sub>Wang, P., Ahsan, M. U., Chen, T. et al.</sub> | bioRxiv<br>2026-11-05 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
-| 2 | [Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation](https://doi.org/10.64898/2026.11.04.764373)<br><sub>Rafailidis, N., Hallee, L. P., Peleg, T. et al.</sub> | bioRxiv<br>2026-11-05 | Protein language models, Enzymes and function |
-| 3 | [Simple baselines rival protein language models in dense combinatorial protein landscapes](https://doi.org/10.64898/2026.05.01.722313)<br><sub>Talpir, I., Fleishman, S. J.</sub> | bioRxiv<br>2026-11-05 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
-| 4 | [Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning](https://www.nature.com/articles/s41467-026-79287-x)<br><sub>Qianmu Yuan, Mingming Zhu, Pei Xu et al.</sub> | Nat Commun<br>2026-11-05 | Enzymes and function |
+| 1 | [De Novo Design of Catalytically Active Salen-Binding Proteins](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen)<br><sub>Ian Bakanas, Maggie Horst, Stephanie Ouchida et al.</sub> | Journal of the American Chemical Society<br>2026-11-07 | Enzymes and function, Experimental validation |
+| 2 | [pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design](https://doi.org/10.64898/2026.11.05.764447)<br><sub>Ueda, H. H., Tucs, A., Tsuda, K. et al.</sub> | bioRxiv<br>2026-11-06 | Sequence design, Protein language models |
+| 3 | [Joint protein-DNA language modeling enables prediction and engineering of DNA recognition specificity](https://doi.org/10.64898/2026.11.05.763984)<br><sub>Xiong, Y., Ren, J., Wei, X. et al.</sub> | bioRxiv<br>2026-11-06 | Sequence design |
+| 4 | [Programmed mineralization of metal-oxides by de novo designed protein templates](https://doi.org/10.1101/2024.06.24.600095)<br><sub>Saragovi, A., Pyles, H., Huddy, E. B. et al.</sub> | bioRxiv<br>2026-11-05 | Enzymes and function |
+| 5 | [De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer](https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763)<br><sub>Qi Pan, Geshu Zhang, Jianhai Yu et al.</sub> | hLife<br>2026-11 | General |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 75 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 33 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 35 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 95 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 52 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 15 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 17 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 4 |
-| [General / 综合](#paper-category-general) | 33 |
+| [General / 综合](#paper-category-general) | 34 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -112,10 +113,12 @@ Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (33)
+#### Sequence Design / 序列设计 (35)
 
-- [A protein language model for domain, functional site, and variant effect prediction](https://doi.org/10.64898/2026.11.03.764008) (bioRxiv, 2026-11-05; first seen 2026-11-06; Sequence design, Protein language models, Enzymes and function, Experimental validation)
+- [pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design](https://doi.org/10.64898/2026.11.05.764447) (bioRxiv, 2026-11-06; first seen 2026-11-07; Sequence design, Protein language models)
+- [Joint protein-DNA language modeling enables prediction and engineering of DNA recognition specificity](https://doi.org/10.64898/2026.11.05.763984) (bioRxiv, 2026-11-06; first seen 2026-11-07; Sequence design)
 - [Simple baselines rival protein language models in dense combinatorial protein landscapes](https://doi.org/10.64898/2026.05.01.722313) (bioRxiv, 2026-11-05; first seen 2026-11-06; Sequence design, Protein language models, Enzymes and function, Experimental validation)
+- [A protein language model for domain, functional site, and variant effect prediction](https://doi.org/10.64898/2026.11.03.764008) (bioRxiv, 2026-11-05; first seen 2026-11-06; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [Protein language models learn the underlying accessibility of mutations alongside protein fitness landscapes](https://doi.org/10.64898/2026.07.06.736753) (bioRxiv, 2026-11-04; first seen 2026-11-05; Sequence design, Protein language models, Enzymes and function)
 - [Artificial intelligence for predicting mutation effects on enzyme kinetics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095) (Current Opinion in Structural Biology, 2027-02; first seen 2026-11-04; Sequence design, Enzymes and function)
 - [Learning inhibitor interactions from protein deep mutational scanning data and deep learning models](https://doi.org/10.64898/2026.11.01.763444) (bioRxiv, 2026-11-03; first seen 2026-11-04; Sequence design, Protein language models, Binders and therapeutics, Enzymes and function)
@@ -304,8 +307,10 @@ Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (15)
+#### Enzymes & Function / 酶与功能 (17)
 
+- [De Novo Design of Catalytically Active Salen-Binding Proteins](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen) (Journal of the American Chemical Society, 2026-11-07; first seen 2026-11-07; Enzymes and function, Experimental validation)
+- [Programmed mineralization of metal-oxides by de novo designed protein templates](https://doi.org/10.1101/2024.06.24.600095) (bioRxiv, 2026-11-05; first seen 2026-11-07; Enzymes and function)
 - [Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning](https://www.nature.com/articles/s41467-026-79287-x) (Nat Commun, 2026-11-05; first seen 2026-11-06; Enzymes and function)
 - [EvoSeq-ML: Advancing Data-Centric Machine Learning with Evolutionary-Informed Protein Sequence Representation and Generation](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzag033/9010796) (Protein Engineering, Design and Selection, 2026-11-03; first seen 2026-11-04; Enzymes and function)
 - [Harnessing artificial intelligence to understand enzyme catalysis and discover new enzymes](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002046) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-30; Enzymes and function)
@@ -331,8 +336,9 @@ Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (33)
+#### General / 综合 (34)
 
+- [De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer](https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763) (hLife, 2026-11; first seen 2026-11-07; General)
 - [AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery](https://www.nature.com/articles/s41467-026-79039-x) (Nat Commun, 2026-10-31; first seen 2026-11-01; General)
 - [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-24; General)
 - [Automated detection of monoclonal peaks in serum protein electrophoresis using Artificial Intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0009898126007217) (Clinica Chimica Acta, 2026-10; first seen 2026-10-24; General)
@@ -369,7 +375,7 @@ Updated: **2026-11-06** (`2026-11-06T06:58:25Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-06](outputs/daily/2026-11-06.md)
+- [Daily report for 2026-11-07](outputs/daily/2026-11-07.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

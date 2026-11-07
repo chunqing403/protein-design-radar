@@ -420,6 +420,12 @@
       "title": "In Silico-Guided Discovery and Experimental Validation of VPW from Nannochloropsis oceanica as an Antioxidant Cytoprotective Peptide and a Protectant against H₂O₂-Induced C3G Degradation",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666833526003357"
     },
+    "doi:10.1016/j.hlife.2026.10.004": {
+      "first_seen": "2026-11-07",
+      "source": "hLife",
+      "title": "De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763"
+    },
     "doi:10.1016/j.idairyj.2026.106887": {
       "first_seen": "2026-11-03",
       "source": "International Dairy Journal",
@@ -822,6 +828,12 @@
       "title": "AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42184340/"
     },
+    "doi:10.1021/jacs.6c08768": {
+      "first_seen": "2026-11-07",
+      "source": "Journal of the American Chemical Society",
+      "title": "De Novo Design of Catalytically Active Salen-Binding Proteins",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen"
+    },
     "doi:10.1021/jacs.6c15828": {
       "first_seen": "2026-09-08",
       "source": "Journal of the American Chemical Society",
@@ -1223,6 +1235,12 @@
       "source": "biorxiv",
       "title": "Effective structure-aware protein alignment via residue-level contrastive learning",
       "url": "https://doi.org/10.1101/2024.03.09.583681"
+    },
+    "doi:10.1101/2024.06.24.600095": {
+      "first_seen": "2026-11-07",
+      "source": "bioRxiv",
+      "title": "Programmed mineralization of metal-oxides by de novo designed protein templates",
+      "url": "https://doi.org/10.1101/2024.06.24.600095"
     },
     "doi:10.1101/2024.10.02.616302": {
       "first_seen": "2026-06-30",
@@ -1943,6 +1961,18 @@
       "source": "bioRxiv",
       "title": "Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation",
       "url": "https://doi.org/10.64898/2026.11.04.764373"
+    },
+    "doi:10.64898/2026.11.05.763984": {
+      "first_seen": "2026-11-07",
+      "source": "bioRxiv",
+      "title": "Joint protein-DNA language modeling enables prediction and engineering of DNA recognition specificity",
+      "url": "https://doi.org/10.64898/2026.11.05.763984"
+    },
+    "doi:10.64898/2026.11.05.764447": {
+      "first_seen": "2026-11-07",
+      "source": "bioRxiv",
+      "title": "pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design",
+      "url": "https://doi.org/10.64898/2026.11.05.764447"
     }
   }
 }
