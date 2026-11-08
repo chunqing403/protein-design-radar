@@ -834,6 +834,12 @@
       "title": "De Novo Design of Catalytically Active Salen-Binding Proteins",
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen"
     },
+    "doi:10.1021/jacs.6c15293": {
+      "first_seen": "2026-11-08",
+      "source": "Journal of the American Chemical Society",
+      "title": "Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid"
+    },
     "doi:10.1021/jacs.6c15828": {
       "first_seen": "2026-09-08",
       "source": "Journal of the American Chemical Society",
@@ -1499,6 +1505,12 @@
       "source": "biorxiv",
       "title": "ProtSyntax: a protein large language model for decoding post-translational modification syntax and function",
       "url": "https://doi.org/10.64898/2026.07.18.739331"
+    },
+    "doi:10.64898/2026.07.29.741631": {
+      "first_seen": "2026-11-08",
+      "source": "bioRxiv",
+      "title": "MAXWELL: Calibrating the probabilistic outputs of protein language models to the mutation-induced stability change landscape",
+      "url": "https://doi.org/10.64898/2026.07.29.741631"
     },
     "doi:10.64898/2026.08.02.742339": {
       "first_seen": "2026-08-06",

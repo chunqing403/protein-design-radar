@@ -3667,6 +3667,37 @@
       ],
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen"
     },
+    "doi:10.1021/jacs.6c15293": {
+      "abstract": "Abstract Membrane proteins engage in dynamic transient interactions with surrounding lipids along with their substrates. Capturing these concomitant contacts often remains a challenging problem. Here, we demonstrate that generative deep learning-designed WRAP domains can preserve weak interactions of membrane proteins in native mass spectrometry. Using WRAP-fused GlpG, AqpM, and OmpA as model systems, we show that lipids can bind in multiple positions inside the WRAP, allowing for their characterization by native mass spectrometry. We show that lipid interactions can be altered by changing the WRAP structure. We use the approach to show that WRAP–OmpA binds phosphatidylethanolamine lipids within cavities formed at the protein–WRAP interface, while simultaneously accommodating weak chitobiose ligand binding. These findings establish WRAPs as versatile vehicles to probe ligand and lipid interactions of membrane proteins.",
+      "authors": [
+        "Surabhi Kokane",
+        "Ljubica Mihaljević",
+        "Barbara Abreu",
+        "Stijn De Schepper",
+        "Alexander Stevens",
+        "Erik G. Marklund",
+        "David Baker",
+        "Phillip J. Stansfeld",
+        "Michael Landreh"
+      ],
+      "doi": "10.1021/jacs.6c15293",
+      "first_seen": "2026-11-08",
+      "published": "2026-11-07",
+      "reasons": [
+        "deep learning",
+        "de novo design",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "Journal of the American Chemical Society",
+      "source_id": "10.1021/jacs.6c15293",
+      "title": "Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains",
+      "topics": [
+        "General"
+      ],
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid"
+    },
     "doi:10.1021/jacs.6c15828": {
       "abstract": "Abstract Targeted drug discovery has enabled the development of effective therapies for many diseases. However, a fundamental challenge remains in translating molecular binding into functional performance for the development of novel targeted drugs. Here, we present a programmable DNA nanoframe (NF) strategy that converts ligand binding into robust biological functions through precise spatial organization of multiple ligands. By encoding target dimensions and binding geometry, we have successfully constructed potential targeted nanodrugs against diverse proteins, which exhibit high avidity with markedly enhanced binding affinity and selectivity. A design-driven blockade of VEGF has also been translated into marked antiangiogenic efficacy both in vitro and in vivo. Overall, the programmable DNA NFs establish a modular and generalizable paradigm for targeted drug design, upgrading weak or non-functional binders into effective inhibitors through rational spatial programming.",
       "authors": [
@@ -6684,6 +6715,37 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.07.18.739331"
+    },
+    "doi:10.64898/2026.07.29.741631": {
+      "abstract": "Designing mutations that enhance protein stability is a central goal in protein engineering. However, experimentally screening large numbers of candidate mutations is costly and time-consuming, creating a strong need for computational methods that can identify potentially stabilizing mutations. Among these approaches, protein language models are particularly promising because they learn context-dependent amino acid preferences from large-scale sequence and structure datasets. Nevertheless, most existing stability prediction methods use these models primarily as feature extractors and do not fully exploit the amino acid probability distributions they encode. Here, we introduce MAXWELL (Matrix-wise Landscape Learning), a novel post-training method that calibrates the probabilistic outputs learned by protein language models during pretraining to generate mutational landscapes that quantify the effects of individual amino acid substitutions on protein stability. When applied to ProteinMPNN, MAXWELL yields a state-of-the-art predictor of the effects of protein mutations on stability, outperforming ThermoMPNN and other representative methods on a curated benchmark of experimentally measured stability changes. We next applied MAXWELL to the design of ten single-point mutations in the DhaA dehalogenase, seven of which (70%) increased thermal stability. Among them, G171W showed the largest improvement, with a measured {Delta}T of 4.91 . These experimental results establish MAXWELL as a novel post-training strategy for protein language models and a practical framework for designing stabilizing mutations.",
+      "authors": [
+        "Li, M.",
+        "Cheng, X.",
+        "Hong, M.",
+        "Jiang, F.",
+        "Hong, L.",
+        "Yu, Y."
+      ],
+      "doi": "10.64898/2026.07.29.741631",
+      "first_seen": "2026-11-08",
+      "published": "2026-11-06",
+      "reasons": [
+        "protein engineering",
+        "protein language model",
+        "ProteinMPNN",
+        "stability",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.07.29.741631",
+      "title": "MAXWELL: Calibrating the probabilistic outputs of protein language models to the mutation-induced stability change landscape",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.29.741631"
     },
     "doi:10.64898/2026.08.02.742339": {
       "abstract": "De novo design of protein binders targeting extended, multi-site interaction surfaces remains difficult for current generative methods, which often produce limited structural diversity and predominantly helical topologies. Here, we advance diffusion-based binder design by guiding protein backbone generation through ''seeds,'' which are PDB-derived fragments selected for geometric complementarity to the target surface. To test this approach, we computationally generated seed-guided binders of the bacterial toxin RelE. RelB, the native antitoxin of RelE, engages two distinct interfaces with high surface complementarity, making it an appropriate test case. Seed-guided RFdiffusion produced backbones with substantially higher structural diversity and more target contacts than RFdiffusion alone. Experimental screening of 1,402 designs in a high-throughput bacterial survival assay identified multiple functional binders, including variants with nanomolar to low-micromolar affinity and one design with RelE neutralization comparable to RelBpep. Computational structure prediction and mutational analyses support that the designed interfaces rely on seed-derived contacts and adopt binding modes distinct from RelB. Molecular dynamics simulations and hydrogen-deuterium exchange experiments further suggest that one high-affinity design undergoes a conformational change upon binding. Notably, successful designs exhibited reduced cross-reactivity to RelE orthologs compared with RelBpep, suggesting that the extensive interfaces generated through seed-guided design can enable enhanced selectivity. These results establish motif scaffolding of surface-complementing seeds as an effective strategy for overcoming current limitations of de novo generative models, enabling the design of proteins that can engage challenging interface sites.",

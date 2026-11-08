@@ -1629,6 +1629,15 @@
       "title": "AlphaFold Cannot Save AI Drug Discovery: Key Limitations & Real-World Challenges",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjR0E0Q0syNVlyQmNhblJYUmVxaWR4WUc2bTdpdFdOX2lmeGtTNGx1LVZnS3YtOEQxVFZMNHlrRmJobWRsamFEcTFmNVpxdldtbURZ?oc=5"
     },
+    "e09e75639bf8ec3196663abbe0e4f9a7da53c609": {
+      "category": "产业动态",
+      "first_seen": "2026-11-08",
+      "published": "2026-11-07",
+      "source": "Bioengineer.org",
+      "summary": "New AI model weighs when protein look-alikes can be trusted Bioengineer.org",
+      "title": "New AI model weighs when protein look-alikes can be trusted",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa1pXSm8yc0xIbnN4dVhpTkJmdVlRZkxyQnRIYkJ6SFd4NVFkZFZkUC1RNlU1eFk4VWRjTEI3Wi1YdVNTUC1SZmF2UENjOXJQZl9xWUtSa3BIWE9uQjg2bXJOdmY3eHpTTmZFajlEdEQzcFlma2hjSTBJN2NaMGh3TVBEU1FqZGh5RVpJWA?oc=5"
+    },
     "e2eced612a472aaa22a73276d23217294b3ce307": {
       "category": "产业动态",
       "first_seen": "2026-10-24",
@@ -1687,10 +1696,10 @@
       "category": "产业动态",
       "first_seen": "2026-10-23",
       "published": "2026-10-21",
-      "source": "Investing.com India",
-      "summary": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com Investing.com India",
+      "source": "Investing.com UK",
+      "summary": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com Investing.com UK",
       "title": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkFwSU1wbW94YnM1d1ktS1RuTUxUbmctN0gzaVRGVUo5YlhtbUdtcTljeXNkc0V2VXQ5cm05dGlUdW1XQU1tWFpkWEo4M0VjRWxkeDVJOEdkT2dJMkZRMnUwUWlVSnhCcEg2RldDLUxBaVIwSC04MWpmbW80THF0bkNpNzVSTFZfbWVtQ0dlYkYxU2ZndWFlTERDNkhsQWYtcVFFUEpJYXFQQ2lRcHFmYkVtdlFhZWxfUVZyXzVYTklXQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnk5RnVvTEJ6emNiOXlsRzMxU2c4QnR6M3ZsMEVmVERYZDVIcEF6RDVxbWUtZlktTGRFd2VKUVVlYVhrWjBuS1daRm5HdDNyeW0wak1Uc1Q1R0J2R0phbUxWMWtrVi1ZSmVvVFdhYkFWbFVULS1kRHRRYWJ6Ri1SSmRwMFlpVDhmQUxfX2Q4MmZscGxHUVhjeFhPdGtZMU1mcjhzaDdJNGQxMmw1SFhfcnUzUm1VUzNqZUtmbE5MZ182QQ?oc=5"
     },
     "f2af5b664b9335a5ebbc3a794d4e02bac3e417fd": {
       "category": "产业动态",
@@ -1846,5 +1855,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-07T06:10:33+00:00"
+  "updated_at": "2026-11-08T06:16:20+00:00"
 }
