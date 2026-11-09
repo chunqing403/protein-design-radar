@@ -7,20 +7,20 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-08** (`2026-11-08T06:16:16Z`)
+Updated: **2026-11-09** (`2026-11-09T06:48:22Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid)<br><sub>Surabhi Kokane, Ljubica Mihaljević, Barbara Abreu et al.</sub> | Journal of the American Chemical Society<br>2026-11-07 | General |
-| 2 | [MAXWELL: Calibrating the probabilistic outputs of protein language models to the mutation-induced stability change landscape](https://doi.org/10.64898/2026.07.29.741631)<br><sub>Li, M., Cheng, X., Hong, M. et al.</sub> | bioRxiv<br>2026-11-06 | Sequence design, Protein language models, Experimental validation |
+| 1 | [StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction](https://doi.org/10.64898/2026.11.06.764833)<br><sub>Behera, B. P., Dixit, A.</sub> | bioRxiv<br>2026-11-08 | Structure generation, Enzymes and function |
+| 2 | [Generative Latent Priors for Interpreting and Steering Protein Language Models](http://arxiv.org/abs/2611.09818v1)<br><sub>Daniel Hinjos, Lucía Urcelay</sub> | arXiv<br>2026-11-06 | Structure generation, Protein language models |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 75 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 77 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 36 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 95 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 52 |
@@ -31,8 +31,10 @@ Updated: **2026-11-08** (`2026-11-08T06:16:16Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (75)
+#### Structure Generation / 结构生成 (77)
 
+- [StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction](https://doi.org/10.64898/2026.11.06.764833) (bioRxiv, 2026-11-08; first seen 2026-11-09; Structure generation, Enzymes and function)
+- [Generative Latent Priors for Interpreting and Steering Protein Language Models](http://arxiv.org/abs/2611.09818v1) (arXiv, 2026-11-06; first seen 2026-11-09; Structure generation, Protein language models)
 - [AlphaFold 3 Prediction Accuracy and Reliability across RNA Structures and Protein-RNA Interfaces](https://doi.org/10.64898/2026.11.02.763690) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
 - [All-Atom Structure Tokenizer: AtomLM-9b for Biomolecular Structure Prediction](https://doi.org/10.64898/2026.11.03.763913) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation)
 - [CryoID2: deep learning-enhanced identification of protein and RNA from cryoEM maps](https://doi.org/10.64898/2026.11.03.764069) (bioRxiv, 2026-11-04; first seen 2026-11-05; Structure generation, Experimental validation)
@@ -374,7 +376,7 @@ Updated: **2026-11-08** (`2026-11-08T06:16:16Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-08](outputs/daily/2026-11-08.md)
+- [Daily report for 2026-11-09](outputs/daily/2026-11-09.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

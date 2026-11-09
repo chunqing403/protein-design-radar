@@ -1,29 +1,28 @@
-# Protein Design Paper Radar - 2026-11-08
+# Protein Design Paper Radar - 2026-11-09
 
-Generated on 2026-11-08T06:16:16Z.
+Generated on 2026-11-09T06:48:22Z.
 
 Found 2 recommended papers.
 
 ## Highlights
 
-### 1. MAXWELL: Calibrating the probabilistic outputs of protein language models to the mutation-induced stability change landscape
+### 1. Generative Latent Priors for Interpreting and Steering Protein Language Models
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-06
-- **Authors:** Li, M., Cheng, X., Hong, M. et al.
-- **Topics:** Sequence design, Protein language models, Experimental validation
-- **Why it matched:** protein engineering, protein language model, ProteinMPNN, stability, protein, mutation
-- **Link:** https://doi.org/10.64898/2026.07.29.741631
-- **DOI:** 10.64898/2026.07.29.741631
+- **Status:** NEW | **Source:** arXiv | **Date:** 2026-11-06
+- **Authors:** Daniel Hinjos, Lucía Urcelay
+- **Topics:** Structure generation, Protein language models
+- **Why it matched:** protein language model, diffusion model, ESM, protein
+- **Link:** http://arxiv.org/abs/2611.09818v1
 
-Designing mutations that enhance protein stability is a central goal in protein engineering. However, experimentally screening large numbers of candidate mutations is costly and time-consuming, creating a strong need for computational methods that can identify potentially stabilizing mutations. Among these approaches, protein language models are...
+Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, imposing no assumptions. We port GLP to ESM-2 activations (UniRef50) and evaluate it at two host scales (ESM-2-8M and...
 
-### 2. Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains
+### 2. StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction
 
-- **Status:** NEW | **Source:** Journal of the American Chemical Society | **Date:** 2026-11-07
-- **Authors:** Surabhi Kokane, Ljubica Mihaljević, Barbara Abreu et al.
-- **Topics:** General
-- **Why it matched:** deep learning, de novo design, protein, binding, structure
-- **Link:** https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid
-- **DOI:** 10.1021/jacs.6c15293
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-08
+- **Authors:** Behera, B. P., Dixit, A.
+- **Topics:** Structure generation, Enzymes and function
+- **Why it matched:** deep learning, stability, protein, enzyme, sequence, structure
+- **Link:** https://doi.org/10.64898/2026.11.06.764833
+- **DOI:** 10.64898/2026.11.06.764833
 
-Abstract Membrane proteins engage in dynamic transient interactions with surrounding lipids along with their substrates. Capturing these concomitant contacts often remains a challenging problem. Here, we demonstrate that generative deep learning-designed WRAP domains can preserve weak interactions of membrane proteins in native mass spectrometry. Using...
+Predicting protein melting temperature (Tm) and organismal optimal growth temperature (OGT) is essential for enzyme engineering, biocatalyst design, and metagenomic bioprospecting, yet computational prediction faces several fundamental bottlenecks: sequence-only representations miss tertiary packing; dual-task coupling induces destructive gradient conflict;...

@@ -223,6 +223,30 @@
       ],
       "url": "http://arxiv.org/abs/2610.32779v1"
     },
+    "arxiv:2611.09818v1": {
+      "abstract": "Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, imposing no assumptions. We port GLP to ESM-2 activations (UniRef50) and evaluate it at two host scales (ESM-2-8M and -650M), both as a lens for protein representations and as a prior for editing them. Generation quality scales smoothly with depth and compute. As a lens, single GLP \"meta-neurons\" are the strongest probes of discrete Swiss-Prot concepts at both hosts, beating InterPLM's released SAE features, and lead on continuous properties at 8M though not at 650M; falsification tests show this is mostly concentration, not new information. As an editing prior, the on-manifold correction makes DiffMean steering of three biochemical properties effective and restores on-manifoldness, but only in isolation: re-embedding the sequences actually produced after several rounds of decoding, the structural plausibility is compromised. This is mainly reproduced in additional SAE-based clamping structural steering experiments, where only Helix motif succeeds. The naturalness failure is traced to the rewriting coverage and the decoder rather than the prior, highlighting what the method must clear before it can serve for both discovery-by-editing and discovery-by-exploration. Trained GLPs are released on huggingface.co/collections/HPAI-BSC/glprot.",
+      "authors": [
+        "Daniel Hinjos",
+        "Lucía Urcelay"
+      ],
+      "doi": "",
+      "first_seen": "2026-11-09",
+      "published": "2026-11-06",
+      "reasons": [
+        "protein language model",
+        "diffusion model",
+        "ESM",
+        "protein"
+      ],
+      "source": "arXiv",
+      "source_id": "2611.09818v1",
+      "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
+      "topics": [
+        "Structure generation",
+        "Protein language models"
+      ],
+      "url": "http://arxiv.org/abs/2611.09818v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -9123,6 +9147,32 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.64898/2026.11.05.764447"
+    },
+    "doi:10.64898/2026.11.06.764833": {
+      "abstract": "Predicting protein melting temperature (Tm) and organismal optimal growth temperature (OGT) is essential for enzyme engineering, biocatalyst design, and metagenomic bioprospecting, yet computational prediction faces several fundamental bottlenecks: sequence-only representations miss tertiary packing; dual-task coupling induces destructive gradient conflict; natural database skew (>87% mesophiles) drives mesophilic collapse; and existing tools produce uncalibrated point predictions. To address these challenges, we present StableProt, a structure-aware framework that couples amino acid sequences with Foldseek 3Di structural tokens via a frozen SaProt backbone to capture 3D contacts. Disjoint heads condition thermodynamic stability on ecological context without gradient conflict, while targeted 14% mesophilic subsampling expands thermophile representation to eliminate mesophilic collapse. Calibrated ensemble modeling reduces calibration error to 1.92%, providing dependable 95% confidence intervals. Evaluating models across 10{degrees}C temperature intervals reveals severe baseline collapse at thermal extremes, whereas StableProt maintains robust accuracy across regimes. On ProThermDB and zero-shot FireProtDB, StableProt achieves state-of-the-art probabilistic accuracy (CRPS = 4.52{degrees}C and 8.71{degrees}C) while recovering 92.0% of hyperthermophiles ([≥]80{degrees}C), and in prospective validation, its calibrated intervals capture both enzyme stability (75.3% coverage) and host environmental growth temperatures (78.1% coverage). StableProt is freely accessible as an interactive web server at https://stableprot.dixitlab.org/.",
+      "authors": [
+        "Behera, B. P.",
+        "Dixit, A."
+      ],
+      "doi": "10.64898/2026.11.06.764833",
+      "first_seen": "2026-11-09",
+      "published": "2026-11-08",
+      "reasons": [
+        "deep learning",
+        "stability",
+        "protein",
+        "enzyme",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.06.764833",
+      "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
+      "topics": [
+        "Structure generation",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.06.764833"
     }
   }
 }

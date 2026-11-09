@@ -60,6 +60,12 @@
       "title": "Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19",
       "url": "http://arxiv.org/abs/2610.32779v1"
     },
+    "arxiv:2611.09818v1": {
+      "first_seen": "2026-11-09",
+      "source": "arXiv",
+      "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
+      "url": "http://arxiv.org/abs/2611.09818v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "source": "Cell",
@@ -1985,6 +1991,12 @@
       "source": "bioRxiv",
       "title": "pLM-bVAE: protein language model-enhanced binary representation improves quantum annealing-based protein sequence design",
       "url": "https://doi.org/10.64898/2026.11.05.764447"
+    },
+    "doi:10.64898/2026.11.06.764833": {
+      "first_seen": "2026-11-09",
+      "source": "bioRxiv",
+      "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
+      "url": "https://doi.org/10.64898/2026.11.06.764833"
     }
   }
 }

@@ -657,6 +657,15 @@
       "title": "Topos Bio launches two AI models for hard-to-target proteins",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kUGlITmtNN1BibjhpQ2hyQWNCdVd6WkJTdDlBUF9oYnRIR2Yxa0JhN3JRekJuUjI3NFM0MDFWSUgyN1ZGX2RETXRmM0lRMmFXb3g4?oc=5"
     },
+    "591f2ee2645ccb2ba52e749326620596f5fa7713": {
+      "category": "产业动态",
+      "first_seen": "2026-11-09",
+      "published": "2026-11-06",
+      "source": "Britannica",
+      "summary": "How does AlphaFold help scientists study protein structures? Britannica",
+      "title": "How does AlphaFold help scientists study protein structures?",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeG9zMFhld2pLa20wT3phQnRQWk9NdGw1S3FWRFVDdEJKN0dFd2laUVVWa1NxQzBfLUR1SzFibnpUYmFzVlZWM3pqR1lUOUlMcklTNThzOHJJaWhmMFBPSTl1c0Z5dloyelVlSjhtU09vLWxrSnA3SEUzSXRfUGhQMjdBSjRiRGNNcXgyVi1KQV9rVkFNRjdrLXF2UHNfdw?oc=5"
+    },
     "5a0be3192114064825f95b3a2091c9b6c4c76042": {
       "category": "模型与工具",
       "first_seen": "2026-09-29",
@@ -1569,7 +1578,7 @@
     "de256b9c4d03bf3be869e655c3c50ca2838ca344": {
       "category": "产业动态",
       "first_seen": "2026-11-01",
-      "published": "2026-10-31",
+      "published": "2026-11-02",
       "source": "BioPharma APAC",
       "summary": "Parse Biosciences and Nomic Bio Launch 100-Million-Cell Immune Dataset to Advance AI Drug Discovery BioPharma APAC",
       "title": "Parse Biosciences and Nomic Bio Launch 100-Million-Cell Immune Dataset to Advance AI Drug Discovery",
@@ -1855,5 +1864,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-08T06:16:20+00:00"
+  "updated_at": "2026-11-09T06:48:26+00:00"
 }
