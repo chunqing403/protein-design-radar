@@ -2698,6 +2698,36 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902938/"
     },
+    "doi:10.1021/acs.biomac.6c01393": {
+      "abstract": "Escherichia coli is widely used as a workhorse for heterologous protein expression. However, insoluble protein expression is frequently encountered. The mechanisms underlying protein solubility remain incompletely understood, limiting the effectiveness of current protein solubility engineering strategies. Here, SeqSol, a sequence-level solubility prediction model capable of prioritizing single-amino-acid substitutions through WT-mutant rescoring, was developed using 71,425 proteins. SeqSol achieved an accuracy of 75.8% and an AUC of 0.840 on an independent test set and correctly identified experimentally validated solubility-enhancing mutations from diverse proteins. To minimize the risk of activity loss, candidate mutation sites were prioritized according to conformational flexibility, relative solvent accessibility, and evolutionary conservation before solubility engineering. Using only 30 experimentally tested mutations, the resulting SeqSol-FECS framework increased the solubility of two industrial enzymes from 56.18% and 10.53% to over 95%, respectively, while maintaining their specific activities. SeqSol-FECS provides an efficient strategy for enzyme solubility engineering and biomanufacturing applications.",
+      "authors": [
+        "Guo Q",
+        "Zhou XT",
+        "Zhou R",
+        "Fang ZR",
+        "Shen Q",
+        "Xue YP",
+        "Zheng YG"
+      ],
+      "doi": "10.1021/acs.biomac.6c01393",
+      "first_seen": "2026-11-10",
+      "published": "2026 Nov 09",
+      "reasons": [
+        "deep learning",
+        "protein",
+        "enzyme",
+        "mutation",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "43002008",
+      "title": "SeqSol-FECS: An Integrated Deep Learning and Structural Modeling Framework for Protein Solubility Engineering.",
+      "topics": [
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002008/"
+    },
     "doi:10.1021/acs.jafc.6c04272": {
       "abstract": "Nowadays, enzyme engineering has moved from traditional structure-based mutagenesis and directed evolution to data-intensive, AI-assisted design paradigms that involve the rapid discovery and optimization of biocatalysts. Whereas classical approaches relied on rational design and experimental screening, advances in high-throughput sequencing, modeling, and machine learning have enabled predictive exploration of sequence-structure-function relationships in enzymes. Importantly, the latest protein language models and deep learning approaches enable accurate prediction of mutational outcomes, stability engineering, and functional annotation at an unprecedented scale. Generative AI models also enable the design of novel enzymes by predicting protein sequences with tailored catalytic functions and broadened substrate specificity. AI combined with design-build-test-learn (DBTL) automation and synthetic biology has enabled the creation of closed-loop engineering workflows for rapid, iterative optimization. This review examines enzyme engineering from classical methods to AI-assisted biocatalyst development, highlighting key advances, challenges, and emerging trends in autonomous laboratories, sustainable biocatalysis, and computational protein design.",
       "authors": [
@@ -2912,43 +2942,43 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573393/"
     },
     "doi:10.1021/acs.jcim.6c01046": {
-      "abstract": "Abstract Developing bioactive molecules remains a central, time- and cost-heavy challenge in drug discovery, particularly for novel targets lacking structural or functional data. Pharmacophore modeling presents an alternative for capturing the key features required for molecular bioactivity against a biological target. In this work, we present PharmaDiff, a pharmacophore-conditioned diffusion model for 3D molecular generation. PharmaDiff employs a transformer-based architecture to integrate an atom-based representation of the 3D pharmacophore into the generative process, enabling the precise generation of 3D molecular graphs that align with predefined pharmacophore hypotheses. Through comprehensive testing, PharmaDiff demonstrates superior performance in matching 3D pharmacophore constraints compared to ligand-based drug design methods. Additionally, it achieves higher docking scores across a range of proteins in structure-based drug design, without the need for target protein structures. By integrating pharmacophore modeling with 3D generative techniques, PharmaDiff offers a powerful and flexible framework for rational drug design.",
+      "abstract": "Developing bioactive molecules remains a central, time- and cost-heavy challenge in drug discovery, particularly for novel targets lacking structural or functional data. Pharmacophore modeling presents an alternative for capturing the key features required for molecular bioactivity against a biological target. In this work, we present PharmaDiff, a pharmacophore-conditioned diffusion model for 3D molecular generation. PharmaDiff employs a transformer-based architecture to integrate an atom-based representation of the 3D pharmacophore into the generative process, enabling the precise generation of 3D molecular graphs that align with predefined pharmacophore hypotheses. Through comprehensive testing, PharmaDiff demonstrates superior performance in matching 3D pharmacophore constraints compared to ligand-based drug design methods. Additionally, it achieves higher docking scores across a range of proteins in structure-based drug design, without the need for target protein structures. By integrating pharmacophore modeling with 3D generative techniques, PharmaDiff offers a powerful and flexible framework for rational drug design.",
       "authors": [
-        "Amira Alakhdar",
-        "Barnabas Poczos",
-        "Newell Washburn",
-        "Kevin Cusack"
+        "Alakhdar A",
+        "Poczos B",
+        "Washburn N",
+        "Cusack K"
       ],
       "doi": "10.1021/acs.jcim.6c01046",
       "first_seen": "2026-10-27",
-      "published": "2026-10-27",
+      "published": "2026 Nov 09",
       "reasons": [
         "diffusion model",
         "transformer",
         "protein",
         "structure"
       ],
-      "source": "Journal of Chemical Information and Modeling",
-      "source_id": "10.1021/acs.jcim.6c01046",
-      "title": "Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design",
+      "source": "PubMed",
+      "source_id": "43001930",
+      "title": "Pharmacophore-Conditioned Diffusion Model for Ligand-Based De Novo Drug Design.",
       "topics": [
         "Structure generation",
         "Protein language models"
       ],
-      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01046/5458642/Pharmacophore-Conditioned-Diffusion-Model-for"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43001930/"
     },
     "doi:10.1021/acs.jcim.6c01200": {
-      "abstract": "Abstract Enzyme-directed evolution increasingly relies on computational tools to prioritize mutations, yet their practical value is difficult to assess because kinetic data are often aggregated across heterogeneous assay conditions, inflating apparent generalization. Here we introduce EnzyArena, a curated benchmark in which kinetic parameters (kcat, Km, or kcat/Km) are grouped by experimental campaign and measured under matched conditions, thereby minimizing confounders such as pH, temperature, reaction, and batch. Using EnzyArena, we systematically evaluate 20 models spanning four widely used strategies for guiding enzyme evolution: protein–ligand binding affinity prediction, protein stability prediction, zero-shot fitness prediction and enzyme kinetic parameters prediction. Across subsets derived from public databases and 25 literature-derived mutagenesis data sets, most models exhibit weak, fragile, or inconsistent correlation with measured functional outcomes. Kinetic-parameter predictors perform strongly on database-derived subsets but lose their advantage on literature-derived mutagenesis data sets, whereas zero-shot predictors show more consistent generalization. A simple consensus of multiple zero-shot models further improves the precision of identifying beneficial mutants in retrospective analyses. We prospectively validated these findings in a wet-lab campaign (150 mutants) comparing random mutants, UniKP-prioritized mutants, and ESM-1v-prioritized mutants (representing supervised kinetic parameters prediction and zero-shot fitness prediction, respectively), where ESM-1v achieved the highest utility and UniKP underperformed the random baseline. Together, this study establishes realistic baselines for computational mutant prioritization and indicates that zero-shot strategies provide the most consistent, although still modest, performance among the approaches evaluated.",
+      "abstract": "Enzyme-directed evolution increasingly relies on computational tools to prioritize mutations, yet their practical value is difficult to assess because kinetic data are often aggregated across heterogeneous assay conditions, inflating apparent generalization. Here we introduce EnzyArena, a curated benchmark in which kinetic parameters (kcat, Km, or kcat/Km) are grouped by experimental campaign and measured under matched conditions, thereby minimizing confounders such as pH, temperature, reaction, and batch. Using EnzyArena, we systematically evaluate 20 models spanning four widely used strategies for guiding enzyme evolution: protein-ligand binding affinity prediction, protein stability prediction, zero-shot fitness prediction and enzyme kinetic parameters prediction. Across subsets derived from public databases and 25 literature-derived mutagenesis data sets, most models exhibit weak, fragile, or inconsistent correlation with measured functional outcomes. Kinetic-parameter predictors perform strongly on database-derived subsets but lose their advantage on literature-derived mutagenesis data sets, whereas zero-shot predictors show more consistent generalization. A simple consensus of multiple zero-shot models further improves the precision of identifying beneficial mutants in retrospective analyses. We prospectively validated these findings in a wet-lab campaign (150 mutants) comparing random mutants, UniKP-prioritized mutants, and ESM-1v-prioritized mutants (representing supervised kinetic parameters prediction and zero-shot fitness prediction, respectively), where ESM-1v achieved the highest utility and UniKP underperformed the random baseline. Together, this study establishes realistic baselines for computational mutant prioritization and indicates that zero-shot strategies provide the most consistent, although still modest, performance among the approaches evaluated.",
       "authors": [
-        "Zishuo Zeng",
-        "Jiao Jin",
-        "Rufang Xu",
-        "Yuzhen Wu",
-        "Xiaozhou Luo"
+        "Zeng Z",
+        "Jin J",
+        "Xu R",
+        "Wu Y",
+        "Luo X"
       ],
       "doi": "10.1021/acs.jcim.6c01200",
       "first_seen": "2026-10-29",
-      "published": "2026-10-28",
+      "published": "2026 Nov 09",
       "reasons": [
         "wet-lab",
         "experimental validation",
@@ -2957,16 +2987,16 @@
         "stability",
         "protein"
       ],
-      "source": "Journal of Chemical Information and Modeling",
-      "source_id": "10.1021/acs.jcim.6c01200",
-      "title": "Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering",
+      "source": "PubMed",
+      "source_id": "43001940",
+      "title": "Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering.",
       "topics": [
         "Protein language models",
         "Binders and therapeutics",
         "Enzymes and function",
         "Experimental validation"
       ],
-      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01200/5460312/Benchmarking-and-Experimental-Validation-of"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43001940/"
     },
     "doi:10.1021/acs.jcim.6c01545": {
       "abstract": "Abstract Intrinsically disordered proteins (IDPs) drive a large fraction of cellular signaling, transcription, and assembly through interfaces that often lack a defined geometry, making the prediction of their binding energies challenging for methods developed primarily for folded complexes. Here, we introduce FlexENN, an interface-focused message-passing graph neural network framework comprising two independently trained models: FlexENN-F for folded protein complexes and FlexENN-I for complexes containing a disordered partner. The FlexENN architecture constructs a local interface graph in which each residue node integrates the relative geometry, flexibility-related structural descriptors, and sequence information, allowing the network to learn structure-affinity relationships from a single resolved bound conformation. We also construct an IDP-containing dataset for training the FlexENN-I model. Benchmarked across folded complexes and IDP-containing systems, including tubulin–tubulin interfaces within microtubules (MTs) and MTs in complex with microtubule-associated proteins (MAPs), with reference binding affinity values extracted from our experiments, the models reproduce physically reasonable energetic profiles, including the stronger interdimer relative to the lateral MT interactions, while feature-ablation analyses reveal system-dependent contributions of selected descriptors to the predictions. More broadly, this work delivers an accurate, structure-aware approach to predicting binding free energies for complexes of folded protein and complexes that contain ordered or partially ordered IDP regions for which a sufficiently well-defined bound structure is available.",
@@ -3025,16 +3055,16 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42573394/"
     },
     "doi:10.1021/acs.jcim.6c01844": {
-      "abstract": "Abstract Protein language models have achieved remarkable success in structure prediction and de novo design. However, their understanding of physical interactions remains limited. For structure-based models, we hypothesize that this limitation stems from the absence of explicit solvent modeling: water mediates hydrogen bonding, hydrophobic burial, and electrostatic interactions that govern protein thermodynamics and kinetics, yet current structure-based models treat proteins as if they exist in a vacuum. Using thermophilic protein classification as a proxy task for force-field awareness, per-residue logit mis-correlated with H-bonds as a destabilizing attribute and exhibits significant solvent-accessible surface area (SASA)-dependent error, despite high overall classification accuracy. These artifacts point to the water–protein interface as a source of systematic bias. To address this, we propose HEIWA (HybridExplicit-Implicit Water Attention), a novel attention module that injects solvent-mediated force-field information into static ESM3 residue embeddings via an all-query-to-all-key water–residue attention. Biophysics-guided model selection identifies configurations whose residue-level outputs are more consistent with the RMSF benchmark and selected biophysical attributes, while classification performance remains broadly comparable to the baseline. By forcing the model to predict the protein thermophilicity from the contributions of individual residues, HEIWA learns biophysical patterns that can be extended to SUPFAM absent from the training data set. HEIWA also largely preserves the embedding structure of ESM3. Molecular dynamics simulations show improved kinetic stability under thermophilic conditions, suggesting the potential to generate structures with greater kinetic stability. To our knowledge, this is the first study to incorporate explicit solvent encoding into a residue-resolution protein language model.",
+      "abstract": "Protein language models have achieved remarkable success in structure prediction and de novo design. However, their understanding of physical interactions remains limited. For structure-based models, we hypothesize that this limitation stems from the absence of explicit solvent modeling: water mediates hydrogen bonding, hydrophobic burial, and electrostatic interactions that govern protein thermodynamics and kinetics, yet current structure-based models treat proteins as if they exist in a vacuum. Using thermophilic protein classification as a proxy task for force-field awareness, per-residue logit mis-correlated with H-bonds as a destabilizing attribute and exhibits significant solvent-accessible surface area (SASA)-dependent error, despite high overall classification accuracy. These artifacts point to the water-protein interface as a source of systematic bias. To address this, we propose HEIWA (HybridExplicit-Implicit Water Attention), a novel attention module that injects solvent-mediated force-field information into static ESM3 residue embeddings via an all-query-to-all-key water-residue attention. Biophysics-guided model selection identifies configurations whose residue-level outputs are more consistent with the RMSF benchmark and selected biophysical attributes, while classification performance remains broadly comparable to the baseline. By forcing the model to predict the protein thermophilicity from the contributions of individual residues, HEIWA learns biophysical patterns that can be extended to SUPFAM absent from the training data set. HEIWA also largely preserves the embedding structure of ESM3. Molecular dynamics simulations show improved kinetic stability under thermophilic conditions, suggesting the potential to generate structures with greater kinetic stability. To our knowledge, this is the first study to incorporate explicit solvent encoding into a residue-resolution protein language model.",
       "authors": [
-        "Ngai Hei Ernest Ho",
-        "Chao Tung Yang",
-        "I-Son Ng",
-        "Jo-Shu Chang"
+        "Ernest Ho NH",
+        "Yang CT",
+        "Ng IS",
+        "Chang JS"
       ],
       "doi": "10.1021/acs.jcim.6c01844",
       "first_seen": "2026-10-24",
-      "published": "2026-10-23",
+      "published": "2026 Nov 09",
       "reasons": [
         "protein language model",
         "structure prediction",
@@ -3043,13 +3073,13 @@
         "protein",
         "structure"
       ],
-      "source": "Journal of Chemical Information and Modeling",
-      "source_id": "10.1021/acs.jcim.6c01844",
-      "title": "HEIWA: Hybrid Explicit–Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3",
+      "source": "PubMed",
+      "source_id": "43001923",
+      "title": "HEIWA: Hybrid Explicit-Implicit Water Attention Affects Force Field Accuracy in Structure-Based Protein Language Model ESM3.",
       "topics": [
         "Protein language models"
       ],
-      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c01844/5457352/HEIWA-Hybrid-Explicit-Implicit-Water-Attention"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43001923/"
     },
     "doi:10.1021/acs.jcim.6c01872": {
       "abstract": "Abstract Antioxidant peptides are emerging as promising therapeutic and nutraceutical agents because of their capacity to neutralize free radicals, modulate oxidative stress, and contribute to disease prevention in fields ranging from oncology to dermatology and food science. However, traditional computational approaches often fail to capture the biochemical semantics and evolutionary context of peptide sequences, limiting the predictive accuracy and mechanistic interpretability. Here, we present an explainable deep learning framework integrating evolutionary scale modeling (ESM) embeddings with a temporal convolutional network (TCN) and long short-term memory (LSTM) architecture to classify antioxidant peptides and uncover key sequence determinants of activity. ESM embeddings provide rich evolutionary and structural priors, enabling the model to capture both local k-mer motifs and global sequence dependencies. To ensure transparency, we employed a multimethod interpretability strategy using Anchor, LIME, and SHAP, which identified robust, potentially biologically meaningful hypotheses containing residues rich in cysteine (C), arginine (R), lysine (K), histidine (H), aspartic acid (D), glutamic acid (E), threonine (T), glutamine (Q), proline (P), methionine (M), tyrosine (Y), and tryptophan (W) as central to antioxidant activity. Anchor offered deterministic, high-precision motif rules, while LIME and SHAP highlighted redundant and context-dependent contributions, together forming a layered interpretability framework. This study not only achieves state-of-the-art classification performance but also bridges black-box modeling and biochemical understanding, offering a generalizable, hypothesis-generating platform for rational peptide design and discovery that is important in human health.",
@@ -8376,7 +8406,7 @@
       ],
       "doi": "10.64898/2026.10.19.757941",
       "first_seen": "2026-10-20",
-      "published": "2026-10-22",
+      "published": "2026-11-09",
       "reasons": [
         "AlphaFold",
         "protein"
@@ -8986,6 +9016,7 @@
       "abstract": "We develop an All-atom Structure Tokenizer that compresses biomolecular geometry into discrete structural tokens and achieves high-accuracy all-atom reconstruction. A hierarchical geometric encoder and finite scalar quantization map chemical units to a shared vocabulary of 8,192 tokens, while a joint coordinate de-tokenizer reconstructs backbone, side-chain, nucleic-acid, and ligand heavy atoms. The tokenizer achieves all-atom lDDT scores of 0.832 and 0.835 on CASP14 and CASP15, respectively. Building on this tokenizer, we train AtomLM-9b, an autoregressive language model based on Qwen3.5-9B that predicts structural tokens from molecular identities and connectivity and decodes them into complete atomic structures. We demonstrate, for the first time, protein structure prediction performance comparable to AlphaFold 3 with an all-atom-tokenizer-based structural language model: on the FoldBench protein-protein task, AtomLM-9b achieves a success rate of 75.01%, compared with the published AlphaFold 3 result of 72.93%. These results establish discrete all-atom tokenization as an effective interface between high-fidelity atomic reconstruction and language-model-based structure prediction.",
       "authors": [
         "Yan, J.",
+        "Liu, S.",
         "Xie, D.",
         "Wang, Z.",
         "Xu, M.",
@@ -8993,7 +9024,7 @@
       ],
       "doi": "10.64898/2026.11.03.763913",
       "first_seen": "2026-11-05",
-      "published": "2026-11-04",
+      "published": "2026-11-09",
       "reasons": [
         "structure prediction",
         "AlphaFold",
@@ -9173,6 +9204,44 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.64898/2026.11.06.764833"
+    },
+    "doi:10.64898/2026.11.06.764889": {
+      "abstract": "We introduce Cadense, a generative framework for antibody ensemble prediction that produces diverse Fv structures from sequence, informed by conformational dynamics. While a valuable resource, static structure prediction provides only a single snapshot of dynamic proteins, whose motions influence their binding and other properties. This is particularly relevant for antibodies, an important class of molecules for drug discovery, where flexible complementarity determining region (CDR) loops are difficult to model with static approaches. Cadense addresses this gap by generating ensembles that match conformational and biophysical property distributions from molecular dynamics (MD), while reducing the computational burden from days of simulation to seconds of generation. We show Cadense ensembles can recover both apo and holo conformations of the same antibody and serve as effective input to physics-based docking, capturing the conformational flexibility important to properly model antibody antigen interactions. Together, these results establish Cadense as a useful tool for antibody conformational ensemble generation with the promise to enable faster, dynamics-aware antibody design.",
+      "authors": [
+        "Rao, P. V.",
+        "Sommer, D.",
+        "Davidson, D.",
+        "Alberstein, R. G.",
+        "Ludwiczak, J.",
+        "Kleinhenz, J.",
+        "Vani, B.",
+        "Park, E.",
+        "Lee, J. H.",
+        "Izadi, S.",
+        "Kiefer, J. R.",
+        "Bonneau, R.",
+        "Mahajan, S. P.",
+        "Watkins, A. M.",
+        "Dreyer, F. A."
+      ],
+      "doi": "10.64898/2026.11.06.764889",
+      "first_seen": "2026-11-10",
+      "published": "2026-11-09",
+      "reasons": [
+        "structure prediction",
+        "antibody design",
+        "antibody",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.06.764889",
+      "title": "Rapid generation of antibody conformational ensembles using machine learning",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.06.764889"
     }
   }
 }

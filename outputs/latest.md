@@ -1,28 +1,29 @@
-# Protein Design Paper Radar - 2026-11-09
+# Protein Design Paper Radar - 2026-11-10
 
-Generated on 2026-11-09T06:48:22Z.
+Generated on 2026-11-10T07:30:10Z.
 
 Found 2 recommended papers.
 
 ## Highlights
 
-### 1. Generative Latent Priors for Interpreting and Steering Protein Language Models
+### 1. Rapid generation of antibody conformational ensembles using machine learning
 
-- **Status:** NEW | **Source:** arXiv | **Date:** 2026-11-06
-- **Authors:** Daniel Hinjos, Lucía Urcelay
-- **Topics:** Structure generation, Protein language models
-- **Why it matched:** protein language model, diffusion model, ESM, protein
-- **Link:** http://arxiv.org/abs/2611.09818v1
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-09
+- **Authors:** Rao, P. V., Sommer, D., Davidson, D. et al.
+- **Topics:** Binders and therapeutics
+- **Why it matched:** structure prediction, antibody design, antibody, binding, sequence, structure
+- **Link:** https://doi.org/10.64898/2026.11.06.764889
+- **DOI:** 10.64898/2026.11.06.764889
 
-Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, imposing no assumptions. We port GLP to ESM-2 activations (UniRef50) and evaluate it at two host scales (ESM-2-8M and...
+We introduce Cadense, a generative framework for antibody ensemble prediction that produces diverse Fv structures from sequence, informed by conformational dynamics. While a valuable resource, static structure prediction provides only a single snapshot of dynamic proteins, whose motions influence their binding and other properties. This is particularly...
 
-### 2. StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction
+### 2. SeqSol-FECS: An Integrated Deep Learning and Structural Modeling Framework for Protein Solubility Engineering.
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-08
-- **Authors:** Behera, B. P., Dixit, A.
-- **Topics:** Structure generation, Enzymes and function
-- **Why it matched:** deep learning, stability, protein, enzyme, sequence, structure
-- **Link:** https://doi.org/10.64898/2026.11.06.764833
-- **DOI:** 10.64898/2026.11.06.764833
+- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 09
+- **Authors:** Guo Q, Zhou XT, Zhou R et al.
+- **Topics:** Sequence design, Enzymes and function
+- **Why it matched:** deep learning, protein, enzyme, mutation, sequence
+- **Link:** https://pubmed.ncbi.nlm.nih.gov/43002008/
+- **DOI:** 10.1021/acs.biomac.6c01393
 
-Predicting protein melting temperature (Tm) and organismal optimal growth temperature (OGT) is essential for enzyme engineering, biocatalyst design, and metagenomic bioprospecting, yet computational prediction faces several fundamental bottlenecks: sequence-only representations miss tertiary packing; dual-task coupling induces destructive gradient conflict;...
+Escherichia coli is widely used as a workhorse for heterologous protein expression. However, insoluble protein expression is frequently encountered. The mechanisms underlying protein solubility remain incompletely understood, limiting the effectiveness of current protein solubility engineering strategies. Here, SeqSol, a sequence-level solubility prediction...

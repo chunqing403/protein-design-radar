@@ -630,6 +630,12 @@
       "title": "Artificial Intelligence-Driven Multiscale Design of Protein-Based Materials.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902938/"
     },
+    "doi:10.1021/acs.biomac.6c01393": {
+      "first_seen": "2026-11-10",
+      "source": "PubMed",
+      "title": "SeqSol-FECS: An Integrated Deep Learning and Structural Modeling Framework for Protein Solubility Engineering.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002008/"
+    },
     "doi:10.1021/acs.jafc.5c13640": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -1997,6 +2003,12 @@
       "source": "bioRxiv",
       "title": "StableProt: Structure-Aware Deep Learning for Protein Thermostability (Tm) and Environmental Adaptation (OGT) Prediction",
       "url": "https://doi.org/10.64898/2026.11.06.764833"
+    },
+    "doi:10.64898/2026.11.06.764889": {
+      "first_seen": "2026-11-10",
+      "source": "bioRxiv",
+      "title": "Rapid generation of antibody conformational ensembles using machine learning",
+      "url": "https://doi.org/10.64898/2026.11.06.764889"
     }
   }
 }
