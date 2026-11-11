@@ -78,6 +78,12 @@
       "title": "The sweet spot in protein design-Where deep learning meets first principles.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
     },
+    "doi:10.1002/advs.78703": {
+      "first_seen": "2026-11-11",
+      "source": "PubMed",
+      "title": "EZpred: Improving Deep Learning-Based Enzyme Function Prediction Using Unlabeled Sequence Homologs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006747/"
+    },
     "doi:10.1002/anie.6395554": {
       "first_seen": "2026-08-27",
       "source": "PubMed",
@@ -245,6 +251,12 @@
       "source": "PubMed",
       "title": "Multilevel cytochrome P450 engineering integrating protein language model-guided evolution enables de novo biosynthesis of amentoflavone in Escherichia coli.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42162937/"
+    },
+    "doi:10.1016/j.biortech.2026.136218": {
+      "first_seen": "2026-11-11",
+      "source": "PubMed",
+      "title": "Protein language model-assisted engineering of a high-performance polyethylene terephthalate hydrolase for enhanced biorecycling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43008862/"
     },
     "doi:10.1016/j.biotechadv.2026.108850": {
       "first_seen": "2026-07-02",
@@ -762,6 +774,18 @@
       "title": "KRstereo: Predicting β-Hydroxy Stereochemistry in Polyketides Using Protein Language Models",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in"
     },
+    "doi:10.1021/acs.jcim.6c02852": {
+      "first_seen": "2026-11-11",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling"
+    },
+    "doi:10.1021/acs.jcim.6c03090": {
+      "first_seen": "2026-11-11",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "Proteome-Wide Identification and Membrane Positioning of Single-Pass Membrane Proteins Using AlphaFold Models",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03090/5468171/Proteome-Wide-Identification-and-Membrane"
+    },
     "doi:10.1021/acs.jcim.6c03114": {
       "first_seen": "2026-10-27",
       "source": "Journal of Chemical Information and Modeling",
@@ -1212,6 +1236,12 @@
       "title": "Seq2Pocket: Augmenting protein language models for spatially consistent binding site prediction",
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593"
     },
+    "doi:10.1093/bioinformatics/btag811": {
+      "first_seen": "2026-11-11",
+      "source": "PubMed",
+      "title": "PFM: perturbed flow matching for structure-based drug design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006909/"
+    },
     "doi:10.1093/gigascience/giag081": {
       "first_seen": "2026-07-22",
       "source": "PubMed",
@@ -1307,6 +1337,12 @@
       "source": "biorxiv",
       "title": "The structural context of mutations in proteins predicts their effect on antibiotic resistance",
       "url": "https://doi.org/10.1101/2025.09.23.676583"
+    },
+    "doi:10.1101/2025.09.26.676459": {
+      "first_seen": "2026-11-11",
+      "source": "bioRxiv",
+      "title": "SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation",
+      "url": "https://doi.org/10.1101/2025.09.26.676459"
     },
     "doi:10.1101/2025.11.02.685536": {
       "first_seen": "2026-07-26",
@@ -2009,6 +2045,24 @@
       "source": "bioRxiv",
       "title": "Rapid generation of antibody conformational ensembles using machine learning",
       "url": "https://doi.org/10.64898/2026.11.06.764889"
+    },
+    "doi:10.64898/2026.11.08.765214": {
+      "first_seen": "2026-11-11",
+      "source": "bioRxiv",
+      "title": "HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction",
+      "url": "https://doi.org/10.64898/2026.11.08.765214"
+    },
+    "doi:10.64898/2026.11.09.765245": {
+      "first_seen": "2026-11-11",
+      "source": "bioRxiv",
+      "title": "Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes",
+      "url": "https://doi.org/10.64898/2026.11.09.765245"
+    },
+    "doi:10.64898/2026.11.09.765390": {
+      "first_seen": "2026-11-11",
+      "source": "bioRxiv",
+      "title": "Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction",
+      "url": "https://doi.org/10.64898/2026.11.09.765390"
     }
   }
 }

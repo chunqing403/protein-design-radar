@@ -298,6 +298,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42572503/"
     },
+    "doi:10.1002/advs.78703": {
+      "abstract": "Features extracted from sequence homologs significantly enhance the accuracy of deep learning-based protein structure prediction. Indeed, homolog-aware models such as AlphaFold generally produce more accurate protein structures compared to single sequence-based methods like ESMfold. In contrast, features from sequence homologs are seldom employed for deep learning-based prediction of the biological functions of a protein, such as Gene Ontology terms or Enzyme Commission (EC) numbers. Although a small number of models also incorporate function labels from sequence homologs, they cannot utilize features extracted from homologs that lack function labels. To address this gap, we developed EZpred, which is the first deep learning model to use sequence homologs by extracting their sequence features while ignoring any function labels. Starting with the target sequence and homologs identified by MMseqs2, EZpred extracts sequence features using the ESM-C protein language model. These features are then fed into a deep learning model to predict the EC numbers of the target protein. For test enzymes with < 30% sequence identity to any training proteins, the F1-score of EZpred EC number prediction is at least 34% higher than state-of-the-art EC number prediction models. These results demonstrate the strong positive impact of sequence homologs in deep learning-based enzyme function prediction.",
+      "authors": [
+        "Zhang C",
+        "Liu Q",
+        "Freddolino L"
+      ],
+      "doi": "10.1002/advs.78703",
+      "first_seen": "2026-11-11",
+      "published": "2026 Nov 10",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "structure prediction",
+        "AlphaFold",
+        "ESM",
+        "protein"
+      ],
+      "source": "PubMed",
+      "source_id": "43006747",
+      "title": "EZpred: Improving Deep Learning-Based Enzyme Function Prediction Using Unlabeled Sequence Homologs.",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006747/"
+    },
     "doi:10.1002/anie.6395554": {
       "abstract": "[NiFe]-Hydrogenases display remarkable catalytic efficiency for H2 production and oxidation but are sensitive to O2, which severely restricts their biotechnological applications. The identities and functional relevance of gas channels leading to the buried [NiFe] active site remain elusive, hindering rational enzyme engineering. Here, we introduce an artificial intelligence-guided de novo protein binder design strategy to map hydrophobic O2 diffusion pathways in Escherichia coli hydrogenase-2 (Hyd-2). By integrating RFdiffusion, ProteinMPNN, and AlphaFold, ∼100,000 candidate binders were computationally screened, yielding two high-affinity binders, L1 and L2. Biophysical and electrochemical analyses show that L1 selectively occludes the primary O2 ingress channel, enhancing the enzyme's oxygen tolerance by more than threefold, whereas L2, which targets another putative channel, has a negligible effect, indicating that this pathway contributes minimally to O2 ingress under the tested conditions. Furthermore, we determined the L1-Hyd-2 complex structure by cryo-electron microscopy and revealed the key interaction residues and interface conformation. Integrated structural and computational analyses provide mechanistic insights into the system's oxygen tolerance and high-affinity L1-Hyd-2 interaction. All findings provide the first direct experimental evidence for hierarchical O2 diffusion channels in [NiFe]-hydrogenases and establish binder-mediated channel occlusion as a generalizable, mutation-free strategy for elucidating and modulating gas transport in metalloenzymes.",
       "authors": [
@@ -1084,6 +1111,40 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42162937/"
+    },
+    "doi:10.1016/j.biortech.2026.136218": {
+      "abstract": "Biorecycling of post-consumer polyethylene terephthalate (PET) waste represents a sustainable route toward a circular plastics economy. However, enzymatic PET depolymerization remains constrained by the accumulation of the intermediate mono(2-hydroxyethyl) terephthalate (MHET). Here, we propose an in situ alkaline conversion strategy that couples PET depolymerization with MHET conversion to terephthalic acid (TPA). Using a protein language model (PLM)-assisted semi-rational design, we engineered IsPETase variants with enhanced activity under moderate-temperature alkaline conditions. The optimized variant, IsPETaseM8, exhibited a 914.1-fold higher activity compared with the parent enzyme at pH 10 and 50 °C. At a PET loading of 10% (w/w), IsPETaseM8 achieved near-complete PET depolymerization within 24 h at 50 °C, accompanied by continuous conversion of MHET and direct TPA production in the bioreactor. Kinetic and structural analyses revealed that the improved performance arises from enhanced stability and an expanded substrate-binding pocket. Overall, this work establishes an efficient moderate-temperature alkaline PET biorecycling strategy as a complementary alternative to conventional high-temperature enzymatic systems.",
+      "authors": [
+        "Liu X",
+        "Huang F",
+        "Wang S",
+        "Wei Y",
+        "Zhang C",
+        "Wang T",
+        "Li J",
+        "Xiao Y",
+        "Wang Z"
+      ],
+      "doi": "10.1016/j.biortech.2026.136218",
+      "first_seen": "2026-11-11",
+      "published": "2026 Nov 10",
+      "reasons": [
+        "protein language model",
+        "stability",
+        "protein",
+        "enzyme",
+        "binding"
+      ],
+      "source": "PubMed",
+      "source_id": "43008862",
+      "title": "Protein language model-assisted engineering of a high-performance polyethylene terephthalate hydrolase for enhanced biorecycling.",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43008862/"
     },
     "doi:10.1016/j.biotechadv.2026.108901": {
       "abstract": "As a representative area of industrial biocatalysis, food enzyme engineering plays a critical role in advancing the food industry. Recently, bioinformatics, molecular simulations, and artificial intelligence (AI) have converged into a powerful toolkit for the full spectrum of computational design, from the modification of existing enzymes to the de novo creation of novel biocatalysts. Moving beyond isolated discussions of individual tools, this review synthesizes key strategies across this landscape, from sequence-based methods that leverage evolutionary information to structure-based approaches for engineering food enzyme stability and catalytic function. A central focus is the transformative impact of AI, which not only guides molecular modification but also drives enzyme design through generative models. In addition, the safety and regulatory challenges posed by designed food enzymes are highlighted. Methods for evaluating allergenicity, potential toxicity, and the genetic safety of production strains are presented, and the future development trends of AI-driven safety assessment are discussed. By integrating computational design with experimental validation and safety evaluation, this review provides a cohesive framework to accelerate the development of high-performance, application-oriented, and safe food enzymes.",
@@ -3319,6 +3380,60 @@
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02706/5430900/KRstereo-Predicting-Hydroxy-Stereochemistry-in"
     },
+    "doi:10.1021/acs.jcim.6c02852": {
+      "abstract": "Abstract Fusarium pathogens cause substantial crop losses, motivating targeted antifungal peptide discovery. We developed FusioBERT, a 7.52-million-parameter peptide language model incorporating fixed sinusoidal positional encoding, learnable relative position bias, RMSNorm, and SwiGLU. It was pretrained on 19.18 million short sequences and 12,616 candidates mined from 232 Trichoderma genomes. The curated benchmark comprised 210 labeled peptides; evaluation used five balanced 178-sequence subsets with three-seed 5-fold cross-validation. FusioBERT achieved an MCC of 0.948 ± 0.058 and generated continuously differentiated genome-scale rankings, whereas physicochemical classifiers exhibited score saturation. Across nine external peptide tasks, FusioBERT obtained a mean MCC of 0.685, compared with 0.666 for PepBERT-large and 0.654 for ESM2. Fixed-seed residue-order shuffling reduced MCC from 0.947 to 0.874, providing preliminary evidence of sequence-order sensitivity beyond bulk composition. Among the three evaluated prioritization strategies, FusioBERT-only ranking yielded the most favorable descriptive wet-laboratory outcomes, including the strongest broad-spectrum candidates, SR1403–2 and SR1403–3. Their Hill-logistic EC50 values ranged from 1.62 to 7.07 μM; observed MIC end points were 8–32 μM. Physicochemical fusion, docking, and molecular dynamics were treated as auxiliary analyses. FusioBERT supports model-first prioritization but does not directly establish activity probabilities, candidate safety, or universal homology-independent generalization.",
+      "authors": [
+        "Siyu Zhang",
+        "Lijuan Mao",
+        "Ligang Dong",
+        "Chulong Zhang"
+      ],
+      "doi": "10.1021/acs.jcim.6c02852",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-10",
+      "reasons": [
+        "wet-lab",
+        "peptide",
+        "sequence"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c02852",
+      "title": "FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling"
+    },
+    "doi:10.1021/acs.jcim.6c03090": {
+      "abstract": "Abstract Single-pass (bitopic) transmembrane (TM) proteins are highly abundant and functionally diverse, yet their structures remain poorly characterized. Experimental structures of full-length bitopic proteins and their functional complexes are scarce. Although thousands of predicted protein structures from hundreds of proteomes are available, accurately identifying bitopic proteins and determining their orientations within a lipid bilayer remain challenging. Here we developed AlphaPPM, a new pipeline and web server that identifies bitopic proteins from AlphaFold (AF) models and positions them in membranes. Built on the established Positioning of Proteins in Membranes (PPM) and Folding of Membrane-Associated Peptides (FMAP) approaches, AlphaPPM automatically removes low-confidence unstructured regions and signal sequences, separates structural domains, and then reassembles and orients extracellular, intracellular, and TM domains relative to membrane boundaries. We applied and validated the method across complete sets of bitopic proteins from 18 organisms. The results are available through MembranomeX, a dedicated web resource comprising an online database and four web servers. Supplemented by manual curation and cross-validation, the database contains membrane-oriented AF models of 16,697 bitopic proteins organized into 15 functional classes, 664 superfamilies, and 2497 families and data on 7966 protein complexes. Notably, the workflow identified 1225 bitopic proteins absent from established databases. MembranomeX integrates tools for structural modeling, data retrieval, model verification, and 3D visualization, providing a comprehensive platform for evolutionary, structural, and functional analyses of bitopic proteins.",
+      "authors": [
+        "Zigang Song",
+        "L. Ponoop Patro",
+        "Alexey Kovalenko",
+        "Égide Ntwari",
+        "Yelnaz Rysbek",
+        "Irina Pogozheva",
+        "Andrei Lomize",
+        "Wonpil Im"
+      ],
+      "doi": "10.1021/acs.jcim.6c03090",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-10",
+      "reasons": [
+        "AlphaFold",
+        "folding",
+        "protein"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c03090",
+      "title": "Proteome-Wide Identification and Membrane Positioning of Single-Pass Membrane Proteins Using AlphaFold Models",
+      "topics": [
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03090/5468171/Proteome-Wide-Identification-and-Membrane"
+    },
     "doi:10.1021/acs.jcim.6c03114": {
       "abstract": "Abstract Allosteric regulation represents a fundamental mechanism of protein function, yet distinguishing allosteric from orthosteric protein-binding sites remains a persistent computational challenge. While multimodal protein foundation models offer the potential to integrate complementary biological signals, including sequence, structure, functional annotations, and conformational dynamics, their performance determinants in allosteric binding site detection remain poorly understood. We introduce a unified computational framework for profiling multimodal protein foundation models across distinct binding site separability regimes. Rather than evaluating models solely by predictive accuracy, the framework combines systematic modality embedding ablations, encoder architecture comparisons, and variance decomposition to characterize how evolutionary, structural, functional, and dynamical information contributes to allosteric site discrimination. Using the OneProt multimodal model, we evaluate two complementary levels of multimodal integration: (a) encoder architectures that differ in the modalities incorporated during pretraining and (b) downstream combinations of pocket, sequence, and text embeddings used for classification. To systematically probe the determinants of model performance, we benchmark these configurations across four assembled data sets of protein complexes representing a spectrum of biological complexity and a range of structural, dynamic, and evolutionary contexts for orthosteric and allosteric binding sites. Through comprehensive embedding ablations, encoder architecture comparisons, and variance decomposition, we demonstrate that model performance is governed primarily by intrinsic data set properties rather than architectural complexity, with data set identity accounting for 63.7% of explainable variance. Across the data sets examined, we identify substantial differences not only in overall separability but also in the information accessible from different pretrained representations. Single-modality controls show that high predictive performance does not necessarily imply reliance on the explicitly provided pocket representation: depending on data set composition, substantial discrimination can already be obtained from sequence- or text-based multimodal representations. Within-protein comparisons nevertheless demonstrate that pocket-containing representations retain binding site-specific discriminatory information when protein identity and the associated sequence and text representations are held constant. At the encoder level, structural and molecular dynamics encoders provide the greatest benefit in intermediate and high separability settings. Example-level analysis further shows that combining data sets can reshape which binding sites are preferentially recognized. These findings establish that the success of multimodal foundation models depends critically on alignment between available modalities and the biological signatures that distinguish regulatory classes in each data set.",
       "authors": [
@@ -5282,6 +5397,34 @@
       ],
       "url": "https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag778/8931593"
     },
+    "doi:10.1093/bioinformatics/btag811": {
+      "abstract": "Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less effective in modeling the complex distributions underlying pocket-conditioned molecular generation. We develop Perturbed Flow Matching (PFM), a flow-matching-based framework for protein pocket-conditioned 3D molecular generation. PFM employs a perturbed conditional probability path that incorporates both pocket binding-site information and coupled atom type-coordinate information, enabling more effective generation of molecules in protein binding environments. On CrossDocked2020, PFM achieves competitive structural quality and the best average Vina score among the evaluated unguided methods (-7.12); PFM-G further improves the score to -8.70 with tailored classifier-free guidance. Experiments on additional molecular datasets further confirm the effectiveness and generalizability of the proposed framework. https://github.com/kurisu92725/PFM.",
+      "authors": [
+        "Yu Y",
+        "Xu G",
+        "Xie Z",
+        "Yang Y",
+        "Jiang Y",
+        "Zhou X",
+        "Li K"
+      ],
+      "doi": "10.1093/bioinformatics/btag811",
+      "first_seen": "2026-11-11",
+      "published": "2026 Nov 10",
+      "reasons": [
+        "flow matching",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "PubMed",
+      "source_id": "43006909",
+      "title": "PFM: perturbed flow matching for structure-based drug design.",
+      "topics": [
+        "Structure generation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43006909/"
+    },
     "doi:10.1093/gigascience/giag081": {
       "abstract": "The transformer architecture in deep learning has revolutionized protein sequence analysis. Recent advancements in protein language models have paved the way for significant progress across various domains, including protein function and structure prediction, multiple sequence alignments and mutation effect prediction. A protein language model is commonly trained on individual proteins, ignoring the interdependencies between sequences within a genome. However, biological understanding reveals that protein-protein interactions span entire genomic regions, underscoring the limitations of focusing solely on individual proteins. To address these limitations, we propose a novel approach that extends the context size of transformer models across the entire viral genome. By training on large genomic fragments, our method captures putative long-range dependencies consistent with inter-protein relationships and encodes protein sequences with integrated information from distant proteins within the same genome, offering benefits across downstream tasks. Viruses, with their densely packed genomes, minimal intergenic regions, and protein annotation challenges, are ideal candidates for genome-wide learning. We introduce a long-context protein language model, trained on entire viral genomes, leveraging a biologically informed sparse attention mechanism in which inter-protein links are inferred computationally and used as sparsity priors. Our semi-supervised approach supports long sequences of up to 61,000 amino acids (aa). Our evaluations show improved prediction of masked amino acids and improved downstream discrimination relative to single-protein models and long-context baselines, with additional validation that our inferred links correlate with independently curated interaction resources.",
       "authors": [
@@ -5747,6 +5890,40 @@
         "Enzymes and function"
       ],
       "url": "https://doi.org/10.1101/2025.08.18.670751"
+    },
+    "doi:10.1101/2025.09.26.676459": {
+      "abstract": "Protein solubility is an attractive engineering target because it is a critical property influencing the scalability of protein production and the success of therapeutic proteins in biomedical applications. However, predicting in silico solubility changes upon mutation is challenging due to data heterogeneity and protein bias. Here, we explore how different sources of solubility data can be used for machine learning and present SoluProtMut, a Siamese deep geometric neural network trained to predict the impact of mutations on protein solubility. Our final model was trained exclusively on deep mutational scanning data derived from recombinant protein expression assays in bacterial and yeast systems. We compare our model with five established solubility prediction methods. On an independent set of 44 proteins, the model achieves the highest informedness among the methods compared, with the largest margin for multipoint mutations (a ternary informedness of 26.5%, 8.8 percentage points above the next-best method). Our findings also reaffirm that the scarcity of solubility data continues to hamper progress in this field. To address this limitation, we experimentally quantified solubility changes for 277 single-point and multipoint mutants of haloalkane dehalogenase. Complemented by recent deep-mutational-scanning data on myoglobin, we employed both datasets for external validation. We identify protein-level generalization, rather than model capacity or training-set size, as the main limiting factor in the domain. Integrating high-throughput assays with deep learning nonetheless offers a route to improving the accuracy and scope of solubility prediction.",
+      "authors": [
+        "Velecky, J.",
+        "Faldynova, H.",
+        "Hermosilla, P.",
+        "Slanska, K.",
+        "Sendlerova, N.",
+        "Doerr, M.",
+        "Egersdorfova, S.",
+        "Bornscheuer, U.",
+        "Damborsky, J.",
+        "Prokop, Z.",
+        "Mazurenko, S."
+      ],
+      "doi": "10.1101/2025.09.26.676459",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-09",
+      "reasons": [
+        "deep learning",
+        "experimental validation",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.1101/2025.09.26.676459",
+      "title": "SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.1101/2025.09.26.676459"
     },
     "doi:10.1101/2025.11.02.685536": {
       "abstract": "Enzyme engineering plays a vital role in tailoring biocatalyst performance to meet the needs of target applications. However, the number of sequence trajectories possible from a single wildtype enzyme sequence is too vast to traverse experimentally. Here we present a novel approach that first expands the experimentally accessible sequence space using ultrahigh throughput screening (uHTS), and then uses indirect and low fidelity assay data to create a \"fingerprint\" for a target enzyme class. Experimental data from microfluidic uHTS are extracted and used to engineer specificity into an unspecific peroxygenase (UPO) from Aspergillus brasiliensis (AbrUPO). We created a library with more than 5 million different variants expressed in Komagataella phaffii (Pichia pastoris). Microfluidic droplet sorting was then used to generate a dataset of >30,000 unique sequences paired with function data. This dataset was then used to train a task-specific generative model using the Variational Search Distributions (VSD) framework. We compared the variants selected by rank aggregation from the screening data (R series) with novel sequences generated by the refined generative model (G series). While the wildtype enzyme produces nearly equal amounts of both the desired styrene oxide and undesired phenylacetaldehyde products, three out of five of the highest scoring G series variants produced product mixtures more enriched in the desired compound. In comparison, only one of the five highest scoring R series variants showed this improvement. Overall, the variant most enriched in desired product, G929, produced 2.4x more styrene oxide than phenylacetaldehyde, while G3 and G167, produced the highest quantities of desired product at 2.3x enrichment over the undesired product. Further analysis confirmed that our task-specific generative model outperforms existing models pre-trained on large publicly available datasets. This unique combination of uHTS and generative protein modelling provides an intelligent exploration mechanism which not only enables efficient enzyme discovery, but also accelerates optimization and enables predictive insights that are difficult to achieve with either approach alone.",
@@ -9135,7 +9312,7 @@
       ],
       "doi": "10.64898/2026.11.05.763984",
       "first_seen": "2026-11-07",
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "reasons": [
         "protein engineering",
         "protein",
@@ -9162,7 +9339,7 @@
       ],
       "doi": "10.64898/2026.11.05.764447",
       "first_seen": "2026-11-07",
-      "published": "2026-11-06",
+      "published": "2026-11-10",
       "reasons": [
         "protein design",
         "protein language model",
@@ -9242,6 +9419,82 @@
         "Binders and therapeutics"
       ],
       "url": "https://doi.org/10.64898/2026.11.06.764889"
+    },
+    "doi:10.64898/2026.11.08.765214": {
+      "abstract": "Accurate identification of HV-PPIs is essential for understanding viral infection mechanisms and for developing antiviral therapeutic discovery. However, the experimental identification process is often time-consuming and expensive, while many computational approaches depend on incomplete protein sequences, structural and interaction information. Here, we present HV-MultiScaleGNN, a topology-driven multi-scale GNN framework for HV-PPIs prediction that operates exclusively on the topology of a heterogeneous interaction network. The framework formulates HV-PPIs prediction as a heterogeneous link prediction problem by integrating the human interactome with experimentally validated HV-PPIs. HV-MultiScaleGNN systematically investigates three complementary graph representation strategies, viz. Local view, Global view and an integrated Local+Global view. The Local view employs one-hop relation-aware graph attention to model fine-grained neighbourhood interactions. The Global view captures higher-order structural dependencies through propagation-based neighbourhood aggregation. The integrated representation combines both views to jointly encode local connectivity and global topological context within a unified embedding space, enabling relation-specific link prediction without relying on sequence- or structure-derived features. Experiments on large-scale HV-PPIs datasets evaluate all three strategies using discrimination, calibration, and ranking metrics. The Local view achieved the best discriminative performance (AUROC = 0.9444, AUPRC = 0.9422), whereas the Global view exhibited the lowest ECE (0.0379). The integrated Local+Global view provided consistently strong predictive performance (AUROC = 0.9378, AUPRC = 0.9356). Comparative evaluation against representative graph representation learning methods showed competitive predictive performance. Furthermore, interfacial interactions were identified using protein-protein docking and atomistic-level understanding was explored. Moreover, GO and KEGG enrichment provided additional functional insights into the selected host proteins. The proposed framework enables systematic evaluation of complementary graph representation strategies for heterogeneous biological link prediction and helps experimental researchers to delineate novel HV-PPIs.",
+      "authors": [
+        "Singh, S. D.",
+        "Borah, G. S.",
+        "Nagamani, S."
+      ],
+      "doi": "10.64898/2026.11.08.765214",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-10",
+      "reasons": [
+        "graph neural network",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.08.765214",
+      "title": "HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.08.765214"
+    },
+    "doi:10.64898/2026.11.09.765245": {
+      "abstract": "High-confidence protein complex predictions do not necessarily represent physically or biologically plausible assemblies. This limitation is particularly relevant for transmembrane (TM) proteins, whose interactions are constrained by the lipid bilayer. Here, we systematically evaluated membrane compatibility in the recently expanded AlphaFold Protein Structure Database, analysing 189,469 high-confidence AlphaFold-Multimer TM-TM complexes and additional TM-soluble assemblies. Most predictions exhibited plausible membrane geometry: among 125,657 evaluable complexes with TM proteins possessing more than two TM helices, 95.4% had joint hydrophobic thicknesses within the expected range of 15-35 angstroms. Nevertheless, some complexes displayed substantial inconsistencies in membrane positioning or protomer orientation despite favourable prediction confidence. Interactions between TM proteins, particularly those containing only one or two TM helices, were frequently dominated by extramembrane contacts. Among TM-soluble complexes, 77.4% showed no penetration of the soluble partner into the hydrophobic membrane core. We further investigated whether AlphaFold3 (AF3) could overcome limitations of AlphaFold-Multimer. Although AF3 recovered an experimentally supported SERCA-phospholamban interaction, it failed to reproduce the cholesterol-mediated norepinephrine transporter homodimer. A benchmark of 173 cholesterol-containing membrane protein targets further revealed limited accuracy in predicting cholesterol-binding poses, particularly for structures released after the AF3 training cutoff. Together, these findings demonstrate that membrane-specific geometric constraints provide a valuable complement to conventional confidence metrics and highlight the persistent challenges of predicting assemblies involving lipids.",
+      "authors": [
+        "Sziklai, D.",
+        "Wiener, Z.",
+        "Padanyi, R.",
+        "Hegedus, T."
+      ],
+      "doi": "10.64898/2026.11.09.765245",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-10",
+      "reasons": [
+        "AlphaFold",
+        "protein",
+        "binding",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.09.765245",
+      "title": "Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.09.765245"
+    },
+    "doi:10.64898/2026.11.09.765390": {
+      "abstract": "At fixed thermodynamic conditions, protein stability changes obey reversal antisymmetry and path independence, but learned predictors need not satisfy these properties. Explicit alignment-derived evolutionary information may also complement single-sequence protein language model representations, motivating their integration under clearly defined physical constraints. Here, we develop a training-free strategy that combines thermodynamic constraints with complementary sequence representations. We first introduce EvoPhi-DDG, a potential-based adaptation of the alignment-conditioned evolutionary predictor MSAesm_ddG. By antisymmetrizing its predictions and setting the hidden biases to zero, we express stability changes as differences of a learned, evolution-informed effective potential conditioned on the mutation site and alignment context. This guarantees exact reversal consistency and exact same-site transitivity under fixed alignment contexts while preserving predictive accuracy. We further extend the adapted predictor to multiple substitutions through a background-aware construction that preserves whole-variant antisymmetry. We then combine EvoPhi-DDG with the previously published JanusDDG using fixed, equal weight averaging to test predictive complementarity without additional training. The ensemble preserves exact antisymmetry and reduces multisite pathway-closure RMSE relative to JanusDDG across all evaluated path lengths. Furthermore, the ensemble outperforms both components on S669 and S96, achieving Pearson correlations of 0.59 and 0.55, respectively, compared with 0.55 and 0.52 for JanusDDG and 0.53 and 0.48 for EvoPhi-DDG. On the multiple-substitution benchmark PTmul-NR, the ensemble achieves a Pearson correlation of 0.66, improving on JanusDDG's 0.61 and matching the EvoPhi-DDG extension at the reported precision. Together, these findings distinguish two benefits: averaging complementary predictions improves accuracy, whereas the potential-based reformulation strengthens physical consistency. They support the integration of alignment-conditioned and single-sequence representations without additional training, while separating predictive improvements from mathematical guarantees.",
+      "authors": [
+        "Barducci, G.",
+        "Sanavia, T.",
+        "Fariselli, P."
+      ],
+      "doi": "10.64898/2026.11.09.765390",
+      "first_seen": "2026-11-11",
+      "published": "2026-11-10",
+      "reasons": [
+        "protein language model",
+        "stability",
+        "protein",
+        "mutation",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.09.765390",
+      "title": "Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction",
+      "topics": [
+        "Sequence design",
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.09.765390"
     }
   }
 }
