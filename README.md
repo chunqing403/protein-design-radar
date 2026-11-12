@@ -7,30 +7,27 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-11** (`2026-11-11T06:44:51Z`)
+Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes](https://doi.org/10.64898/2026.11.09.765245)<br><sub>Sziklai, D., Wiener, Z., Padanyi, R. et al.</sub> | bioRxiv<br>2026-11-10 | General |
-| 2 | [Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction](https://doi.org/10.64898/2026.11.09.765390)<br><sub>Barducci, G., Sanavia, T., Fariselli, P.</sub> | bioRxiv<br>2026-11-10 | Sequence design, Protein language models |
-| 3 | [HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction](https://doi.org/10.64898/2026.11.08.765214)<br><sub>Singh, S. D., Borah, G. S., Nagamani, S.</sub> | bioRxiv<br>2026-11-10 | Binders and therapeutics, Experimental validation |
-| 4 | [FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling)<br><sub>Siyu Zhang, Lijuan Mao, Ligang Dong et al.</sub> | Journal of Chemical Information and Modeling<br>2026-11-10 | Structure generation, Binders and therapeutics, Experimental validation |
-| 5 | [Proteome-Wide Identification and Membrane Positioning of Single-Pass Membrane Proteins Using AlphaFold Models](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03090/5468171/Proteome-Wide-Identification-and-Membrane)<br><sub>Zigang Song, L. Ponoop Patro, Alexey Kovalenko et al.</sub> | Journal of Chemical Information and Modeling<br>2026-11-10 | Experimental validation |
-| 6 | [SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation](https://doi.org/10.1101/2025.09.26.676459)<br><sub>Velecky, J., Faldynova, H., Hermosilla, P. et al.</sub> | bioRxiv<br>2026-11-09 | Sequence design, Binders and therapeutics, Experimental validation |
-| 7 | [Protein language model-assisted engineering of a high-performance polyethylene terephthalate hydrolase for enhanced biorecycling.](https://pubmed.ncbi.nlm.nih.gov/43008862/)<br><sub>Liu X, Huang F, Wang S et al.</sub> | PubMed<br>2026 Nov 10 | Structure generation, Sequence design, Protein language models, Enzymes and function |
-| 8 | [PFM: perturbed flow matching for structure-based drug design.](https://pubmed.ncbi.nlm.nih.gov/43006909/)<br><sub>Yu Y, Xu G, Xie Z et al.</sub> | PubMed<br>2026 Nov 10 | Structure generation |
-| 9 | [EZpred: Improving Deep Learning-Based Enzyme Function Prediction Using Unlabeled Sequence Homologs.](https://pubmed.ncbi.nlm.nih.gov/43006747/)<br><sub>Zhang C, Liu Q, Freddolino L</sub> | PubMed<br>2026 Nov 10 | Protein language models, Enzymes and function |
+| 1 | [De novo design of ligases for programmable site-specific protein ubiquitylation](https://doi.org/10.64898/2026.11.08.765184)<br><sub>Salike, S., Gantz, M., Fottner, M. et al.</sub> | bioRxiv<br>2026-11-11 | Binders and therapeutics, Enzymes and function |
+| 2 | [DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking](https://doi.org/10.64898/2026.11.09.765352)<br><sub>Liao, Y., Lin, L., Zhu, J. et al.</sub> | bioRxiv<br>2026-11-11 | Structure generation, Sequence design, Enzymes and function |
+| 3 | [The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify](https://doi.org/10.64898/2026.11.10.765136)<br><sub>Shah, P., Panchali, R., Mody, P. et al.</sub> | bioRxiv<br>2026-11-11 | Protein language models, Experimental validation |
+| 4 | [Emergent Biological Capabilities in a Foundation Model for Molecular Interactions](http://arxiv.org/abs/2611.14504v1)<br><sub>Adi Mashiach</sub> | arXiv<br>2026-11-10 | Protein language models, Binders and therapeutics, Experimental validation |
+| 5 | [An antigen-specific protein language model guides CDR optimization for antibody design.](https://pubmed.ncbi.nlm.nih.gov/43013634/)<br><sub>Ashraf FB, Paco K, Zebardast S et al.</sub> | PubMed<br>2026 Nov 11 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
+| 6 | [peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.](https://pubmed.ncbi.nlm.nih.gov/43009741/)<br><sub>Santolla N, Pridgen T, Nigam P et al.</sub> | PubMed<br>2026 Nov 10 | Protein language models, Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 80 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 82 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 39 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 96 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 54 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 99 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 55 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 17 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 5 |
 | [General / 综合](#paper-category-general) | 36 |
@@ -38,8 +35,10 @@ Updated: **2026-11-11** (`2026-11-11T06:44:51Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (80)
+#### Structure Generation / 结构生成 (82)
 
+- [DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking](https://doi.org/10.64898/2026.11.09.765352) (bioRxiv, 2026-11-11; first seen 2026-11-12; Structure generation, Sequence design, Enzymes and function)
+- [An antigen-specific protein language model guides CDR optimization for antibody design.](https://pubmed.ncbi.nlm.nih.gov/43013634/) (PubMed, 2026 Nov 11; first seen 2026-11-12; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling) (Journal of Chemical Information and Modeling, 2026-11-10; first seen 2026-11-11; Structure generation, Binders and therapeutics, Experimental validation)
 - [Protein language model-assisted engineering of a high-performance polyethylene terephthalate hydrolase for enhanced biorecycling.](https://pubmed.ncbi.nlm.nih.gov/43008862/) (PubMed, 2026 Nov 10; first seen 2026-11-11; Structure generation, Sequence design, Protein language models, Enzymes and function)
 - [PFM: perturbed flow matching for structure-based drug design.](https://pubmed.ncbi.nlm.nih.gov/43006909/) (PubMed, 2026 Nov 10; first seen 2026-11-11; Structure generation)
@@ -165,8 +164,11 @@ Updated: **2026-11-11** (`2026-11-11T06:44:51Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (96)
+#### Protein Language Models / 蛋白质语言模型 (99)
 
+- [The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify](https://doi.org/10.64898/2026.11.10.765136) (bioRxiv, 2026-11-11; first seen 2026-11-12; Protein language models, Experimental validation)
+- [Emergent Biological Capabilities in a Foundation Model for Molecular Interactions](http://arxiv.org/abs/2611.14504v1) (arXiv, 2026-11-10; first seen 2026-11-12; Protein language models, Binders and therapeutics, Experimental validation)
+- [peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.](https://pubmed.ncbi.nlm.nih.gov/43009741/) (PubMed, 2026 Nov 10; first seen 2026-11-12; Protein language models, Binders and therapeutics)
 - [EZpred: Improving Deep Learning-Based Enzyme Function Prediction Using Unlabeled Sequence Homologs.](https://pubmed.ncbi.nlm.nih.gov/43006747/) (PubMed, 2026 Nov 10; first seen 2026-11-11; Protein language models, Enzymes and function)
 - [Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation](https://doi.org/10.64898/2026.11.04.764373) (bioRxiv, 2026-11-05; first seen 2026-11-06; Protein language models, Enzymes and function)
 - [Accelerating antibiotic discovery from Earth's isolated habitats through protein language models and microfluidics](https://doi.org/10.1101/2025.11.13.688364) (bioRxiv, 2026-11-04; first seen 2026-11-05; Protein language models, Binders and therapeutics, Experimental validation)
@@ -265,8 +267,9 @@ Updated: **2026-11-11** (`2026-11-11T06:44:51Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (54)
+#### Binders & Therapeutics / 结合蛋白与治疗 (55)
 
+- [De novo design of ligases for programmable site-specific protein ubiquitylation](https://doi.org/10.64898/2026.11.08.765184) (bioRxiv, 2026-11-11; first seen 2026-11-12; Binders and therapeutics, Enzymes and function)
 - [HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction](https://doi.org/10.64898/2026.11.08.765214) (bioRxiv, 2026-11-10; first seen 2026-11-11; Binders and therapeutics, Experimental validation)
 - [Rapid generation of antibody conformational ensembles using machine learning](https://doi.org/10.64898/2026.11.06.764889) (bioRxiv, 2026-11-09; first seen 2026-11-10; Binders and therapeutics)
 - [Decoding antibody-antigen recognition: the BL8 language and its application in calibrating deep learning predictions](https://doi.org/10.64898/2026.10.30.763264) (bioRxiv, 2026-11-02; first seen 2026-11-03; Binders and therapeutics, Experimental validation)
@@ -394,7 +397,7 @@ Updated: **2026-11-11** (`2026-11-11T06:44:51Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-11](outputs/daily/2026-11-11.md)
+- [Daily report for 2026-11-12](outputs/daily/2026-11-12.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

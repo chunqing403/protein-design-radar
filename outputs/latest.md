@@ -1,106 +1,72 @@
-# Protein Design Paper Radar - 2026-11-11
+# Protein Design Paper Radar - 2026-11-12
 
-Generated on 2026-11-11T06:44:51Z.
+Generated on 2026-11-12T07:29:53Z.
 
-Found 9 recommended papers.
+Found 6 recommended papers.
 
 ## Highlights
 
-### 1. EZpred: Improving Deep Learning-Based Enzyme Function Prediction Using Unlabeled Sequence Homologs.
+### 1. An antigen-specific protein language model guides CDR optimization for antibody design.
+
+- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 11
+- **Authors:** Ashraf FB, Paco K, Zebardast S et al.
+- **Topics:** Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation
+- **Why it matched:** protein language model, antibody design, experimental validation, stability, protein, peptide
+- **Link:** https://pubmed.ncbi.nlm.nih.gov/43013634/
+- **DOI:** 10.1371/journal.pcbi.1014924
+
+The capacity of an antibody to recognize and bind an antigen with high specificity and strength (i.e., its binding affinity) is a key determinant in the design and optimization of neutralizing antibodies against pathogenic targets. Here we introduce Ab-Affinity, a fine-tuned protein language model (PLM) that predicts the binding affinity of an antibody...
+
+### 2. De novo design of ligases for programmable site-specific protein ubiquitylation
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
+- **Authors:** Salike, S., Gantz, M., Fottner, M. et al.
+- **Topics:** Binders and therapeutics, Enzymes and function
+- **Why it matched:** enzyme design, de novo design, protein, peptide, enzyme
+- **Link:** https://doi.org/10.64898/2026.11.08.765184
+- **DOI:** 10.64898/2026.11.08.765184
+
+Protein ubiquitylation regulates numerous cellular processes, but difficulties in generating site-specifically ubiquitylated proteins limit our understanding of individual modification events. In cells, ubiquitylation is mediated by an E1-E2-E3 enzyme cascade, with substrate recognition largely determined by more than 600 human E3 ligases, making it...
+
+### 3. Emergent Biological Capabilities in a Foundation Model for Molecular Interactions
+
+- **Status:** NEW | **Source:** arXiv | **Date:** 2026-11-10
+- **Authors:** Adi Mashiach
+- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
+- **Why it matched:** wet-lab, folding, foundation model, protein, binding
+- **Link:** http://arxiv.org/abs/2611.14504v1
+
+Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon...
+
+### 4. DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
+- **Authors:** Liao, Y., Lin, L., Zhu, J. et al.
+- **Topics:** Structure generation, Sequence design, Enzymes and function
+- **Why it matched:** diffusion model, AlphaFold, protein, binding
+- **Link:** https://doi.org/10.64898/2026.11.09.765352
+- **DOI:** 10.64898/2026.11.09.765352
+
+Molecular glues (MGs) modulate protein function by inducing or stabilizing protein interactions. However, accurately modeling MG ternary complexes remains challenging. Here, we present DiffTernary, a diffusion-based docking method for the joint prediction of relative protein arrangement and MG binding pose. We introduce Ternary-PDB, a dataset of 76,702...
+
+### 5. peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.
 
 - **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 10
-- **Authors:** Zhang C, Liu Q, Freddolino L
-- **Topics:** Protein language models, Enzymes and function
-- **Why it matched:** protein language model, deep learning, structure prediction, AlphaFold, ESM, protein
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/43006747/
-- **DOI:** 10.1002/advs.78703
+- **Authors:** Santolla N, Pridgen T, Nigam P et al.
+- **Topics:** Protein language models, Binders and therapeutics
+- **Why it matched:** protein language model, artificial intelligence, protein, antibody, sequence
+- **Link:** https://pubmed.ncbi.nlm.nih.gov/43009741/
+- **DOI:** 10.1177/08828245261499794
 
-Features extracted from sequence homologs significantly enhance the accuracy of deep learning-based protein structure prediction. Indeed, homolog-aware models such as AlphaFold generally produce more accurate protein structures compared to single sequence-based methods like ESMfold. In contrast, features from sequence homologs are seldom employed for deep...
+The discovery of therapeutic antibodies is a traditionally arduous process. Today, the lab-based process of antibody discovery consists of several time-consuming steps that involve live animal immunization, B-cell harvesting, hybridoma creation, and then downstream engineering and evaluation. However, the use of artificial intelligence in drug design has...
 
-### 2. SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation
+### 6. The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-09
-- **Authors:** Velecky, J., Faldynova, H., Hermosilla, P. et al.
-- **Topics:** Sequence design, Binders and therapeutics, Experimental validation
-- **Why it matched:** deep learning, experimental validation, protein, mutation
-- **Link:** https://doi.org/10.1101/2025.09.26.676459
-- **DOI:** 10.1101/2025.09.26.676459
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
+- **Authors:** Shah, P., Panchali, R., Mody, P. et al.
+- **Topics:** Protein language models, Experimental validation
+- **Why it matched:** protein language model, stability, protein
+- **Link:** https://doi.org/10.64898/2026.11.10.765136
+- **DOI:** 10.64898/2026.11.10.765136
 
-Protein solubility is an attractive engineering target because it is a critical property influencing the scalability of protein production and the success of therapeutic proteins in biomedical applications. However, predicting in silico solubility changes upon mutation is challenging due to data heterogeneity and protein bias. Here, we explore how different...
-
-### 3. Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-10
-- **Authors:** Barducci, G., Sanavia, T., Fariselli, P.
-- **Topics:** Sequence design, Protein language models
-- **Why it matched:** protein language model, stability, protein, mutation, sequence
-- **Link:** https://doi.org/10.64898/2026.11.09.765390
-- **DOI:** 10.64898/2026.11.09.765390
-
-At fixed thermodynamic conditions, protein stability changes obey reversal antisymmetry and path independence, but learned predictors need not satisfy these properties. Explicit alignment-derived evolutionary information may also complement single-sequence protein language model representations, motivating their integration under clearly defined physical...
-
-### 4. Protein language model-assisted engineering of a high-performance polyethylene terephthalate hydrolase for enhanced biorecycling.
-
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 10
-- **Authors:** Liu X, Huang F, Wang S et al.
-- **Topics:** Structure generation, Sequence design, Protein language models, Enzymes and function
-- **Why it matched:** protein language model, stability, protein, enzyme, binding
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/43008862/
-- **DOI:** 10.1016/j.biortech.2026.136218
-
-Biorecycling of post-consumer polyethylene terephthalate (PET) waste represents a sustainable route toward a circular plastics economy. However, enzymatic PET depolymerization remains constrained by the accumulation of the intermediate mono(2-hydroxyethyl) terephthalate (MHET). Here, we propose an in situ alkaline conversion strategy that couples PET...
-
-### 5. Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-10
-- **Authors:** Sziklai, D., Wiener, Z., Padanyi, R. et al.
-- **Topics:** General
-- **Why it matched:** AlphaFold, protein, binding, structure
-- **Link:** https://doi.org/10.64898/2026.11.09.765245
-- **DOI:** 10.64898/2026.11.09.765245
-
-High-confidence protein complex predictions do not necessarily represent physically or biologically plausible assemblies. This limitation is particularly relevant for transmembrane (TM) proteins, whose interactions are constrained by the lipid bilayer. Here, we systematically evaluated membrane compatibility in the recently expanded AlphaFold Protein...
-
-### 6. Proteome-Wide Identification and Membrane Positioning of Single-Pass Membrane Proteins Using AlphaFold Models
-
-- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-11-10
-- **Authors:** Zigang Song, L. Ponoop Patro, Alexey Kovalenko et al.
-- **Topics:** Experimental validation
-- **Why it matched:** AlphaFold, folding, protein
-- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03090/5468171/Proteome-Wide-Identification-and-Membrane
-- **DOI:** 10.1021/acs.jcim.6c03090
-
-Abstract Single-pass (bitopic) transmembrane (TM) proteins are highly abundant and functionally diverse, yet their structures remain poorly characterized. Experimental structures of full-length bitopic proteins and their functional complexes are scarce. Although thousands of predicted protein structures from hundreds of proteomes are available, accurately...
-
-### 7. PFM: perturbed flow matching for structure-based drug design.
-
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 10
-- **Authors:** Yu Y, Xu G, Xie Z et al.
-- **Topics:** Structure generation
-- **Why it matched:** flow matching, protein, binding, structure
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/43006909/
-- **DOI:** 10.1093/bioinformatics/btag811
-
-Target-specific 3D molecular generation is a promising approach for structure-based drug design. However, existing diffusion-based methods are generally restricted to marginal distributions with closed-form solutions, limiting the flexibility of generative process design, especially for the forward noising process. As a result, these methods may be less...
-
-### 8. HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-10
-- **Authors:** Singh, S. D., Borah, G. S., Nagamani, S.
-- **Topics:** Binders and therapeutics, Experimental validation
-- **Why it matched:** graph neural network, protein, sequence, structure
-- **Link:** https://doi.org/10.64898/2026.11.08.765214
-- **DOI:** 10.64898/2026.11.08.765214
-
-Accurate identification of HV-PPIs is essential for understanding viral infection mechanisms and for developing antiviral therapeutic discovery. However, the experimental identification process is often time-consuming and expensive, while many computational approaches depend on incomplete protein sequences, structural and interaction information. Here, we...
-
-### 9. FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery
-
-- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-11-10
-- **Authors:** Siyu Zhang, Lijuan Mao, Ligang Dong et al.
-- **Topics:** Structure generation, Binders and therapeutics, Experimental validation
-- **Why it matched:** wet-lab, peptide, sequence
-- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling
-- **DOI:** 10.1021/acs.jcim.6c02852
-
-Abstract Fusarium pathogens cause substantial crop losses, motivating targeted antifungal peptide discovery. We developed FusioBERT, a 7.52-million-parameter peptide language model incorporating fixed sinusoidal positional encoding, learnable relative position bias, RMSNorm, and SwiGLU. It was pretrained on 19.18 million short sequences and 12,616...
+Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep's own...

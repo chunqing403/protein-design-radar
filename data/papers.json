@@ -247,6 +247,31 @@
       ],
       "url": "http://arxiv.org/abs/2611.09818v1"
     },
+    "arxiv:2611.14504v1": {
+      "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement). All three capabilities generalize to out-of-distribution complexes. Bonbon was trained on protein-ligand sequences alone, without any task-specific supervision and without structural coordinates. We conducted controlled scaling experiments across six model scales from 42M to 1.6B parameters; every capability evaluated shows a sharp jump at the largest scale on continuous metrics, even as pretraining loss decreases smoothly. This demonstrates that loss-based scaling laws alone are insufficient to predict when zero-shot emergent capabilities become available. The capabilities reported here emerge after training at a 1:2,000 parameter-to-token ratio to accommodate the sparsity of paired biological interaction data. The same frozen representations achieve state-of-the-art binding and affinity prediction at five orders of magnitude greater speed than co-folding methods. In prospective wet-lab validation across nine disease targets spanning seven protein families, Bonbon achieves a 61.5% dose-response hit rate on de novo compounds, yielding structurally novel molecules not previously reported to inhibit these proteins, including for out-of-distribution targets.",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "doi": "",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-10",
+      "reasons": [
+        "wet-lab",
+        "folding",
+        "foundation model",
+        "protein",
+        "binding"
+      ],
+      "source": "arXiv",
+      "source_id": "2611.14504v1",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "http://arxiv.org/abs/2611.14504v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "abstract": "AI-driven discovery of GPNMB CAR-T cells as a multi-cancer therapy.",
       "authors": [],
@@ -6251,6 +6276,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42461986/"
     },
+    "doi:10.1177/08828245261499794": {
+      "abstract": "The discovery of therapeutic antibodies is a traditionally arduous process. Today, the lab-based process of antibody discovery consists of several time-consuming steps that involve live animal immunization, B-cell harvesting, hybridoma creation, and then downstream engineering and evaluation. However, the use of artificial intelligence in drug design has previously been shown effective in the rapid generation of protein-specific binders, small molecules, and even antibody therapeutics, thereby replacing some of the primary steps of the drug discovery process. Here, we present peleke-1, a suite of protein language models fine-tuned from state-of-the-art large language models using curated antibody-antigen complex data. These models generate targeted antibody Fv sequences for a given antigen sequence input at-scale. This suite of models provides a reliable, artificial intelligence-driven approach for in silico therapeutic antibody discovery along with an open-source framework for future antibody language model tuning.",
+      "authors": [
+        "Santolla N",
+        "Pridgen T",
+        "Nigam P",
+        "Ford CT"
+      ],
+      "doi": "10.1177/08828245261499794",
+      "first_seen": "2026-11-12",
+      "published": "2026 Nov 10",
+      "reasons": [
+        "protein language model",
+        "artificial intelligence",
+        "protein",
+        "antibody",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "43009741",
+      "title": "peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009741/"
+    },
     "doi:10.1177/15578666261443336": {
       "abstract": "Protein language models (PLMs) provide powerful sequence representations, yet their effectiveness for unsupervised viral clade assignment remains uncertain. In this study, we evaluated embeddings from ProtT5, ProtBert, CARP, and several ESM-2 variants on influenza A/H3N2 hemagglutinin sequences. Using dimensionality reduction (t-SNE, UMAP, PCA, MDS) and clustering with HDBSCAN, we compared PLM embeddings against baseline Hamming distance approaches. Our results show that t-SNE combined with PLM embeddings can recover clade structure, with ProtBert yielding the most stable performance and larger ESM-2 models occasionally achieving lower normalized variation of information scores but with greater variability. These findings suggest that while PLM embeddings capture clade-relevant signals, they also suffer from instability and the loss of site- or nucleotide-specific detail. Future improvements in pooling strategies may enhance their utility for viral surveillance.",
       "authors": [
@@ -6367,6 +6419,45 @@
         "Enzymes and function"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
+    },
+    "doi:10.1371/journal.pcbi.1014924": {
+      "abstract": "The capacity of an antibody to recognize and bind an antigen with high specificity and strength (i.e., its binding affinity) is a key determinant in the design and optimization of neutralizing antibodies against pathogenic targets. Here we introduce Ab-Affinity, a fine-tuned protein language model (PLM) that predicts the binding affinity of an antibody against a target peptide within the SARS-CoV-2 spike protein. Cross-validation results shows that that Ab-Affinity outperforms other PLM-based affinity predictors when evaluated on a held-out validation and independent test sets. When integrated with a genetic algorithm and simulated annealing for sequence diversification and fitness optimization, Ab-Affinity enables the generation of candidate antibodies exhibiting over 100-fold improvement in predicted binding affinity relative to its parental (natural) antibody. More broadly, antibodies designed with Ab-Affinity attain higher predicted binding affinities than those produced by alternative mutational strategies, yielding synthetic antibodies with favorable predicted biophysical characteristics. Molecular docking and molecular dynamics simulations for the strongest synthetic candidates indicate enhanced interactions and increased stability with the target peptide epitope within the spike protein. Experimental validation in vitro for a top-ranked candidate reveals an apparent increase in binding relative to its parental antibody. All model weights, source code, and analysis pipelines are publicly released to allow full reproducibility.",
+      "authors": [
+        "Ashraf FB",
+        "Paco K",
+        "Zebardast S",
+        "Zhang Z",
+        "Mooney R",
+        "Dávila Ojeda CJ",
+        "Mendivil MP",
+        "Alam RM",
+        "Chen E",
+        "Ogu I",
+        "Lay JA",
+        "Yang TY"
+      ],
+      "doi": "10.1371/journal.pcbi.1014924",
+      "first_seen": "2026-11-12",
+      "published": "2026 Nov 11",
+      "reasons": [
+        "protein language model",
+        "antibody design",
+        "experimental validation",
+        "stability",
+        "protein",
+        "peptide"
+      ],
+      "source": "PubMed",
+      "source_id": "43013634",
+      "title": "An antigen-specific protein language model guides CDR optimization for antibody design.",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Binders and therapeutics",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013634/"
     },
     "doi:10.34133/csbj.0220": {
       "abstract": "Human leukocyte antigen (HLA) molecules participate in cellular immune responses by binding to peptide fragments derived from antigens. Exploring this process is crucial to understanding the mechanisms and underlying factors that regulate the cellular immune system. Due to the extreme polymorphism of HLA, the peptides obtained from mass spectrometry of eluted ligand experiments typically correspond to multiple HLA alleles. They are thus poly-specific, providing various options for HLA assignments. This introduces notable challenges for accurate peptide-HLA assignment and interpretation. To address this limitation, we present BeitAI-pHLA, a deep learning framework for predicting peptide-HLA class I binding by integrating protein language model embeddings with an attention-based multi-instance learning mechanism. Our evaluations on benchmark and external datasets indicate that BeitAI-pHLA markedly outperforms other advanced prediction tools across multiple external validation datasets, achieving an area under the precision-recall curve of 0.967 on the multiallele dataset and maintaining robust performance under varying negative peptide proportions. Furthermore, BeitAI-pHLA demonstrates superior motif deconvolution capability, with higher motif similarity (13.6% increase in position-specific scoring matrix correlation coefficient), and achieves the best area under the precision-recall curve in immunogenic neoepitope prediction, offering improved prioritization of candidate peptides for immunogenicity evaluation. BeitAI-pHLA provides a highly accurate tool for binding prediction and deconvolution in multiallele immunopeptidomics data, offering considerable potential for biomedical research and clinical translation. The BeitAI-pHLA prediction tool is accessible at https://phla.kindstarbiotech.com/, and the source code is available at https://github.com/KindstarGlobalInstitute/BeitAI-pHLA.",
@@ -9420,6 +9511,39 @@
       ],
       "url": "https://doi.org/10.64898/2026.11.06.764889"
     },
+    "doi:10.64898/2026.11.08.765184": {
+      "abstract": "Protein ubiquitylation regulates numerous cellular processes, but difficulties in generating site-specifically ubiquitylated proteins limit our understanding of individual modification events. In cells, ubiquitylation is mediated by an E1-E2-E3 enzyme cascade, with substrate recognition largely determined by more than 600 human E3 ligases, making it challenging to redirect ubiquitin transfer to a chosen lysine. Here we use RFdiffusion3 to design ubiquitin ligases from scratch that use a cysteine-based catalytic triad to conjugate an activated ubiquitin donor to a selected lysine in a chosen target substrate. Of 48 tested designs, 35 ubiquitylated a model peptide, with the most active ligases achieving near-quantitative ubiquitin transfer. We next challenged the approach with the homotrimeric sliding clamp proliferating cell nuclear antigen (PCNA), whose ubiquitylation at lysine (K) 164 governs DNA damage tolerance while displaying 45 off-target lysines for ubiquitination. Screening of 48 designs delivered a site-selective ligase. Incorporation of a single activity-increasing substitution and coupling to E1-dependent donor activation resulted in 90% conversion from unactivated ubiquitin, delivering higher rates and superior selectivity compared to a natural promiscuous E2. Using this cascade, we transferred di-, tri- and tetraubiquitin chains of defined length to PCNA K164 through a native isopeptide bond. These results establish de novo enzyme design as a route towards programmable, site-specific protein ubiquitylation. That a single de novo designed protein can bind both an activated ubiquitin donor and a globular target, and use a proficient catalytic machinery to selectively transfer ubiquitin to one lysine among 45, illustrates the level of functional complexity now within reach of de novo enzyme design.",
+      "authors": [
+        "Salike, S.",
+        "Gantz, M.",
+        "Fottner, M.",
+        "Fluegel, T.",
+        "Moroz, S. S.",
+        "Hunt, A. C.",
+        "Groll, M.",
+        "Hilvert, D.",
+        "Lang, K.",
+        "Baker, D."
+      ],
+      "doi": "10.64898/2026.11.08.765184",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "reasons": [
+        "enzyme design",
+        "de novo design",
+        "protein",
+        "peptide",
+        "enzyme"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.08.765184",
+      "title": "De novo design of ligases for programmable site-specific protein ubiquitylation",
+      "topics": [
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.08.765184"
+    },
     "doi:10.64898/2026.11.08.765214": {
       "abstract": "Accurate identification of HV-PPIs is essential for understanding viral infection mechanisms and for developing antiviral therapeutic discovery. However, the experimental identification process is often time-consuming and expensive, while many computational approaches depend on incomplete protein sequences, structural and interaction information. Here, we present HV-MultiScaleGNN, a topology-driven multi-scale GNN framework for HV-PPIs prediction that operates exclusively on the topology of a heterogeneous interaction network. The framework formulates HV-PPIs prediction as a heterogeneous link prediction problem by integrating the human interactome with experimentally validated HV-PPIs. HV-MultiScaleGNN systematically investigates three complementary graph representation strategies, viz. Local view, Global view and an integrated Local+Global view. The Local view employs one-hop relation-aware graph attention to model fine-grained neighbourhood interactions. The Global view captures higher-order structural dependencies through propagation-based neighbourhood aggregation. The integrated representation combines both views to jointly encode local connectivity and global topological context within a unified embedding space, enabling relation-specific link prediction without relying on sequence- or structure-derived features. Experiments on large-scale HV-PPIs datasets evaluate all three strategies using discrimination, calibration, and ranking metrics. The Local view achieved the best discriminative performance (AUROC = 0.9444, AUPRC = 0.9422), whereas the Global view exhibited the lowest ECE (0.0379). The integrated Local+Global view provided consistently strong predictive performance (AUROC = 0.9378, AUPRC = 0.9356). Comparative evaluation against representative graph representation learning methods showed competitive predictive performance. Furthermore, interfacial interactions were identified using protein-protein docking and atomistic-level understanding was explored. Moreover, GO and KEGG enrichment provided additional functional insights into the selected host proteins. The proposed framework enables systematic evaluation of complementary graph representation strategies for heterogeneous biological link prediction and helps experimental researchers to delineate novel HV-PPIs.",
       "authors": [
@@ -9470,6 +9594,34 @@
       ],
       "url": "https://doi.org/10.64898/2026.11.09.765245"
     },
+    "doi:10.64898/2026.11.09.765352": {
+      "abstract": "Molecular glues (MGs) modulate protein function by inducing or stabilizing protein interactions. However, accurately modeling MG ternary complexes remains challenging. Here, we present DiffTernary, a diffusion-based docking method for the joint prediction of relative protein arrangement and MG binding pose. We introduce Ternary-PDB, a dataset of 76,702 experimentally determined ternary complexes curated from the Protein Data Bank using structural filters and a release cutoff aligned with AlphaFold 3 (AF3). When trained on this dataset, DiffTernary achieved acceptable protein-protein interaction (PPI) predictions (DockQ > 0.23) for 50.0% of MGBench complexes with a single prediction, compared with 51.1% for AF3. In comparisons with AF3, OpenFold3, ESMFold2, Protenix-v1 and Protenix-v2, DiffTernary ranked second with a best-of-25 PPI prediction success rate of 78.4%, behind ESMFold2 (90.9%) and ahead of AF3 (72.7%). A separate DiffTernary model trained on TernaryDB achieved a mean DockQ of 0.306 on the 94 complexes in the TernaryDB MGD test set with a single prediction, compared with 0.228 for DeepTernary. Confidence-based selection among 40 samples yielded acceptable PPI predictions for 41.5% of complexes, compared with 30.9% for DeepTernary. An E2Former variant increased training and sampling throughput 6.90-fold and 4.37-fold, respectively, under the evaluated configurations. Together, DiffTernary and Ternary-PDB provide an efficient docking approach for MG complex prediction and a valuable structural resource for MG discovery and design.",
+      "authors": [
+        "Liao, Y.",
+        "Lin, L.",
+        "Zhu, J.",
+        "Lai, L.",
+        "Pei, J."
+      ],
+      "doi": "10.64898/2026.11.09.765352",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "reasons": [
+        "diffusion model",
+        "AlphaFold",
+        "protein",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.09.765352",
+      "title": "DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.09.765352"
+    },
     "doi:10.64898/2026.11.09.765390": {
       "abstract": "At fixed thermodynamic conditions, protein stability changes obey reversal antisymmetry and path independence, but learned predictors need not satisfy these properties. Explicit alignment-derived evolutionary information may also complement single-sequence protein language model representations, motivating their integration under clearly defined physical constraints. Here, we develop a training-free strategy that combines thermodynamic constraints with complementary sequence representations. We first introduce EvoPhi-DDG, a potential-based adaptation of the alignment-conditioned evolutionary predictor MSAesm_ddG. By antisymmetrizing its predictions and setting the hidden biases to zero, we express stability changes as differences of a learned, evolution-informed effective potential conditioned on the mutation site and alignment context. This guarantees exact reversal consistency and exact same-site transitivity under fixed alignment contexts while preserving predictive accuracy. We further extend the adapted predictor to multiple substitutions through a background-aware construction that preserves whole-variant antisymmetry. We then combine EvoPhi-DDG with the previously published JanusDDG using fixed, equal weight averaging to test predictive complementarity without additional training. The ensemble preserves exact antisymmetry and reduces multisite pathway-closure RMSE relative to JanusDDG across all evaluated path lengths. Furthermore, the ensemble outperforms both components on S669 and S96, achieving Pearson correlations of 0.59 and 0.55, respectively, compared with 0.55 and 0.52 for JanusDDG and 0.53 and 0.48 for EvoPhi-DDG. On the multiple-substitution benchmark PTmul-NR, the ensemble achieves a Pearson correlation of 0.66, improving on JanusDDG's 0.61 and matching the EvoPhi-DDG extension at the reported precision. Together, these findings distinguish two benefits: averaging complementary predictions improves accuracy, whereas the potential-based reformulation strengthens physical consistency. They support the integration of alignment-conditioned and single-sequence representations without additional training, while separating predictive improvements from mathematical guarantees.",
       "authors": [
@@ -9495,6 +9647,33 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.64898/2026.11.09.765390"
+    },
+    "doi:10.64898/2026.11.10.765136": {
+      "abstract": "Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep's own control: 64.0%). Direction matters at moderate matched-norm push, but not at saturation. Unsteered generator activations predict the confidence gate (ROC-AUC 0.786 +/- 0.004), supporting cost-aware, model-specific triage. We also replicate established length sensitivity, through which shortening can manufacture false nulls. Yet on composition- and length-matched design--scramble pairs, no balanced-accuracy interval excludes chance for experimental stability. Predicting the gate does not establish foldability. We should test what a readout measures before using it to select. Code and data: https://github.com/paninishah/plm-steering-audit",
+      "authors": [
+        "Shah, P.",
+        "Panchali, R.",
+        "Mody, P.",
+        "Sanghvi, M.",
+        "Narvekar, M.",
+        "Karani, R."
+      ],
+      "doi": "10.64898/2026.11.10.765136",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "reasons": [
+        "protein language model",
+        "stability",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.10.765136",
+      "title": "The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.10.765136"
     }
   }
 }

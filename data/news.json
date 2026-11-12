@@ -174,7 +174,7 @@
     "15f727e68e7e5054547015f8208e3c37e9e733cf": {
       "category": "产业动态",
       "first_seen": "2026-11-04",
-      "published": "2026-11-03",
+      "published": "2026-11-02",
       "source": "SingularityHub",
       "summary": "Scientists Can Now Ask AI to Design Proteins Using Plain Language SingularityHub",
       "title": "Scientists Can Now Ask AI to Design Proteins Using Plain Language",
@@ -336,7 +336,7 @@
     "33c6ae1b71edbb208260734c4503a3b1fb2650de": {
       "category": "产业动态",
       "first_seen": "2026-10-26",
-      "published": "2026-10-25",
+      "published": "2026-10-26",
       "source": "아이알팜",
       "summary": "Watermarking AI Proteins with ‘Invisible Fingerprints’… Carterra Tim Germann CCO: “100% Target Affinity Preserved, Fulfilling Data Layer Innovation” 아이알팜",
       "title": "Watermarking AI Proteins with ‘Invisible Fingerprints’… Carterra Tim Germann CCO: “100% Target Affinity Preserved, Fulfilling Data Layer Innovation”",
@@ -891,6 +891,15 @@
       "title": "AlphaFold Database Adds 2,800+ Viruses to Help Prepare for Future Pandemics",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC13QXM0QzFFRTFMSkRNZERFc05LRk1wVVNKc21CalR2R0h3R2ktWVRGMWNxdHJTVHpYdUt5SkU0N2R3VGtPdEtXTmVLSFVLTXhPN3FQWkJsQWxWZFg3X1JWWG5nZk92YUVmNnNmSG1BSm5ZMFpCTnA3dHliUEN0blZ5U2R3Yzlk?oc=5"
     },
+    "794547b45ead366a71d10e83f95afcd13b91dbe1": {
+      "category": "产业动态",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "source": "Unite.AI",
+      "summary": "Applied Biologics Joins Dartmouth for Computational Protein Design Unite.AI",
+      "title": "Applied Biologics Joins Dartmouth for Computational Protein Design",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcS1nRWpPaDhCcHJycWFkR01CN0toVXFhUTdfZHdPWTdKTjFyM1pCcl9YUGg4QXhSamlIWGZnNlB0SU5RR3NjbjMteU5XUjF5QnFtemgzY0x4TUhkWm5jUWpSdjhuN20wd0pPVVVTQ28zQlY2QXNzTjVQTWR5ZXI5ZXZTTU1YSFZaVjBNWFlHenNIUQ?oc=5"
+    },
     "7a817ce8648f6c32dac08f16c72cae425b3f3ddd": {
       "category": "产业动态",
       "first_seen": "2026-10-25",
@@ -1260,6 +1269,15 @@
       "title": "AI agents target drug safety, protein discovery and secure health data analysis",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbWFRQ2VnM0RHMEJkWUpzd1A4MmoySktXODRrZml0QmlvckRaanFUdDJSRkxsZ2hMVlF0T0pRMHJvUTFQckptRW5GcHZVQm9mLTlTbUNJbHE4blFrRjF0bVRRVi1PcV90TWpLaHFvSEFOa0I3bmdabDFiTl90d29mbmItWlYzN2lpNC04?oc=5"
     },
+    "a4018f8a046c42b0f46026da7d9f61c4a1d4cf95": {
+      "category": "产业动态",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "source": "HPCwire",
+      "summary": "Applied Biologics Partners with Dartmouth on Computational Protein Engineering HPCwire",
+      "title": "Applied Biologics Partners with Dartmouth on Computational Protein Engineering",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1Y5b2xvSm5qMTVyZGQyV2dqMklEVV9xM2ZhSGhOUzBiamxLUkFGYS00M0FtLVpCRWJMcnNuRFZaMmU3TUJMR3NOWldpVjhHczV6SEVqV19hOEpUcUM1X3RYSzFtMzcxZVBjaGpydHZIbmJKcEJka2xSaG1aa1NRUTZfNDVrT1JXeXMxeG8xV2pMdHVZWnVHMmc3RTI0cEJpa1BIN2JxN283NERQRjMtWFdveFozWmRfUnpJV25n?oc=5"
+    },
     "a5403ede1083611e2891e09d1035942d2f0016a6": {
       "category": "产业动态",
       "first_seen": "2026-10-06",
@@ -1484,6 +1502,15 @@
       "summary": "New Features This release introduces two novel kernels from NVIDIA for the triangular attention and triangular multiplication layers, achieve 2x speedup and large memory savings! Changes The kernels are on by default for CUDA users with Am…",
       "title": "boltz · Boltz v2.1.1: New CUDA kernels from NVIDIA",
       "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.1.1"
+    },
+    "c2405bedaeaa3bc154ad2edc793a18c5fd8d7fcb": {
+      "category": "产业动态",
+      "first_seen": "2026-11-12",
+      "published": "2026-11-11",
+      "source": "Bioengineer.org",
+      "summary": "AlphaFold 3 Advances Plant Protein Modeling but Faces Structural and Dynamic Limits Bioengineer.org",
+      "title": "AlphaFold 3 Advances Plant Protein Modeling but Faces Structural and Dynamic Limits",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckpWWnR5eEhwV2dKdTdNNF9kUUp2UGxtU1VWSjRLbjdyRFpUemdfenFvMHpXM0VKMl91cVNWb3E1OE0xOVU0U0pjQjR2cFJhanZDb25UTzMzZHJOUDhkeWZBVVN2eTNEc3lfbVJrRTNWSGwwTERzQ082VWtSbU5hR05jX3BqeTU3b3F1VzBaaGdFZWNqdUZJTmJRVkkzRjItNFdpZ1pBVElwcVhn?oc=5"
     },
     "c61f94bf84c337ac6f0451efff7b0145072a4b52": {
       "category": "产业动态",
@@ -1804,10 +1831,10 @@
       "category": "产业动态",
       "first_seen": "2026-10-23",
       "published": "2026-10-21",
-      "source": "Investing.com UK",
-      "summary": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com Investing.com UK",
+      "source": "Investing.com India",
+      "summary": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com Investing.com India",
       "title": "Nvidia unveils protein design model, expands healthcare AI tools By Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONnk5RnVvTEJ6emNiOXlsRzMxU2c4QnR6M3ZsMEVmVERYZDVIcEF6RDVxbWUtZlktTGRFd2VKUVVlYVhrWjBuS1daRm5HdDNyeW0wak1Uc1Q1R0J2R0phbUxWMWtrVi1ZSmVvVFdhYkFWbFVULS1kRHRRYWJ6Ri1SSmRwMFlpVDhmQUxfX2Q4MmZscGxHUVhjeFhPdGtZMU1mcjhzaDdJNGQxMmw1SFhfcnUzUm1VUzNqZUtmbE5MZ182QQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkFwSU1wbW94YnM1d1ktS1RuTUxUbmctN0gzaVRGVUo5YlhtbUdtcTljeXNkc0V2VXQ5cm05dGlUdW1XQU1tWFpkWEo4M0VjRWxkeDVJOEdkT2dJMkZRMnUwUWlVSnhCcEg2RldDLUxBaVIwSC04MWpmbW80THF0bkNpNzVSTFZfbWVtQ0dlYkYxU2ZndWFlTERDNkhsQWYtcVFFUEpJYXFQQ2lRcHFmYkVtdlFhZWxfUVZyXzVYTklXQQ?oc=5"
     },
     "f2af5b664b9335a5ebbc3a794d4e02bac3e417fd": {
       "category": "产业动态",
@@ -1981,5 +2008,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-11T06:44:54+00:00"
+  "updated_at": "2026-11-12T07:29:57+00:00"
 }

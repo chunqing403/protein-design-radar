@@ -66,6 +66,12 @@
       "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
       "url": "http://arxiv.org/abs/2611.09818v1"
     },
+    "arxiv:2611.14504v1": {
+      "first_seen": "2026-11-12",
+      "source": "arXiv",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "url": "http://arxiv.org/abs/2611.14504v1"
+    },
     "cell:s0092-8674(26)00651-3": {
       "first_seen": "2026-07-06",
       "source": "Cell",
@@ -1416,6 +1422,12 @@
       "title": "De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42461986/"
     },
+    "doi:10.1177/08828245261499794": {
+      "first_seen": "2026-11-12",
+      "source": "PubMed",
+      "title": "peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009741/"
+    },
     "doi:10.1177/15578666261443336": {
       "first_seen": "2026-07-02",
       "source": "PubMed",
@@ -1439,6 +1451,12 @@
       "source": "PubMed",
       "title": "CLDN18.2 antibody design with protein language models: A deep learning optimization framework.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42623408/"
+    },
+    "doi:10.1371/journal.pcbi.1014924": {
+      "first_seen": "2026-11-12",
+      "source": "PubMed",
+      "title": "An antigen-specific protein language model guides CDR optimization for antibody design.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43013634/"
     },
     "doi:10.34133/csbj.0220": {
       "first_seen": "2026-09-13",
@@ -2046,6 +2064,12 @@
       "title": "Rapid generation of antibody conformational ensembles using machine learning",
       "url": "https://doi.org/10.64898/2026.11.06.764889"
     },
+    "doi:10.64898/2026.11.08.765184": {
+      "first_seen": "2026-11-12",
+      "source": "bioRxiv",
+      "title": "De novo design of ligases for programmable site-specific protein ubiquitylation",
+      "url": "https://doi.org/10.64898/2026.11.08.765184"
+    },
     "doi:10.64898/2026.11.08.765214": {
       "first_seen": "2026-11-11",
       "source": "bioRxiv",
@@ -2058,11 +2082,23 @@
       "title": "Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes",
       "url": "https://doi.org/10.64898/2026.11.09.765245"
     },
+    "doi:10.64898/2026.11.09.765352": {
+      "first_seen": "2026-11-12",
+      "source": "bioRxiv",
+      "title": "DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking",
+      "url": "https://doi.org/10.64898/2026.11.09.765352"
+    },
     "doi:10.64898/2026.11.09.765390": {
       "first_seen": "2026-11-11",
       "source": "bioRxiv",
       "title": "Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction",
       "url": "https://doi.org/10.64898/2026.11.09.765390"
+    },
+    "doi:10.64898/2026.11.10.765136": {
+      "first_seen": "2026-11-12",
+      "source": "bioRxiv",
+      "title": "The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify",
+      "url": "https://doi.org/10.64898/2026.11.10.765136"
     }
   }
 }
