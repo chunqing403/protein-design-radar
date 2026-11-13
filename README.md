@@ -7,18 +7,16 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
+Updated: **2026-11-13** (`2026-11-13T07:02:52Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [De novo design of ligases for programmable site-specific protein ubiquitylation](https://doi.org/10.64898/2026.11.08.765184)<br><sub>Salike, S., Gantz, M., Fottner, M. et al.</sub> | bioRxiv<br>2026-11-11 | Binders and therapeutics, Enzymes and function |
-| 2 | [DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking](https://doi.org/10.64898/2026.11.09.765352)<br><sub>Liao, Y., Lin, L., Zhu, J. et al.</sub> | bioRxiv<br>2026-11-11 | Structure generation, Sequence design, Enzymes and function |
-| 3 | [The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify](https://doi.org/10.64898/2026.11.10.765136)<br><sub>Shah, P., Panchali, R., Mody, P. et al.</sub> | bioRxiv<br>2026-11-11 | Protein language models, Experimental validation |
-| 4 | [Emergent Biological Capabilities in a Foundation Model for Molecular Interactions](http://arxiv.org/abs/2611.14504v1)<br><sub>Adi Mashiach</sub> | arXiv<br>2026-11-10 | Protein language models, Binders and therapeutics, Experimental validation |
-| 5 | [An antigen-specific protein language model guides CDR optimization for antibody design.](https://pubmed.ncbi.nlm.nih.gov/43013634/)<br><sub>Ashraf FB, Paco K, Zebardast S et al.</sub> | PubMed<br>2026 Nov 11 | Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation |
-| 6 | [peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.](https://pubmed.ncbi.nlm.nih.gov/43009741/)<br><sub>Santolla N, Pridgen T, Nigam P et al.</sub> | PubMed<br>2026 Nov 10 | Protein language models, Binders and therapeutics |
+| 1 | [Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737)<br><sub>Aubin Ramon, Arnav Cheruku, Haowen Zhao et al.</sub> | mAbs<br>2026-12-31 | Binders and therapeutics |
+| 2 | [Vermeer: Autoregressive generative modeling of microscopy predicts protein localization](https://doi.org/10.64898/2026.06.01.729395)<br><sub>Kambhampati, S., Zimmermann, E., Hayir, E. et al.</sub> | bioRxiv<br>2026-11-12 | Protein language models |
+| 3 | [1O Protein language model-enabled circulating TCRβ repertoire multiple-instance learning for early NSCLC detection](https://linkinghub.elsevier.com/retrieve/pii/S2949820126001359)<br><sub>P. Fessas, C. Peinador Marin, S. Gamble et al.</sub> | ESMO Real World Data and Digital Oncology<br>2026-11 | Protein language models |
+| 4 | [Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles](https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401)<br><sub>Yugeng Liu, Heng Wang, Xiaojian Zhang et al.</sub> | Artificial Intelligence in the Life Sciences<br>2026-11 | General |
 
 ### Paper Directory / 文献目录
 
@@ -26,11 +24,11 @@ Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 82 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 39 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 99 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 55 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 101 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 56 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 17 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 5 |
-| [General / 综合](#paper-category-general) | 36 |
+| [General / 综合](#paper-category-general) | 37 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -164,8 +162,10 @@ Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (99)
+#### Protein Language Models / 蛋白质语言模型 (101)
 
+- [Vermeer: Autoregressive generative modeling of microscopy predicts protein localization](https://doi.org/10.64898/2026.06.01.729395) (bioRxiv, 2026-11-12; first seen 2026-11-13; Protein language models)
+- [1O Protein language model-enabled circulating TCRβ repertoire multiple-instance learning for early NSCLC detection](https://linkinghub.elsevier.com/retrieve/pii/S2949820126001359) (ESMO Real World Data and Digital Oncology, 2026-11; first seen 2026-11-13; Protein language models)
 - [The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify](https://doi.org/10.64898/2026.11.10.765136) (bioRxiv, 2026-11-11; first seen 2026-11-12; Protein language models, Experimental validation)
 - [Emergent Biological Capabilities in a Foundation Model for Molecular Interactions](http://arxiv.org/abs/2611.14504v1) (arXiv, 2026-11-10; first seen 2026-11-12; Protein language models, Binders and therapeutics, Experimental validation)
 - [peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.](https://pubmed.ncbi.nlm.nih.gov/43009741/) (PubMed, 2026 Nov 10; first seen 2026-11-12; Protein language models, Binders and therapeutics)
@@ -267,8 +267,9 @@ Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (55)
+#### Binders & Therapeutics / 结合蛋白与治疗 (56)
 
+- [Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737) (mAbs, 2026-12-31; first seen 2026-11-13; Binders and therapeutics)
 - [De novo design of ligases for programmable site-specific protein ubiquitylation](https://doi.org/10.64898/2026.11.08.765184) (bioRxiv, 2026-11-11; first seen 2026-11-12; Binders and therapeutics, Enzymes and function)
 - [HV-MultiScaleGNN: A Multi-Scale Graph Neural Network Framework for Host-Virus Protein-Protein Interactions Prediction](https://doi.org/10.64898/2026.11.08.765214) (bioRxiv, 2026-11-10; first seen 2026-11-11; Binders and therapeutics, Experimental validation)
 - [Rapid generation of antibody conformational ensembles using machine learning](https://doi.org/10.64898/2026.11.06.764889) (bioRxiv, 2026-11-09; first seen 2026-11-10; Binders and therapeutics)
@@ -356,8 +357,9 @@ Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (36)
+#### General / 综合 (37)
 
+- [Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles](https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401) (Artificial Intelligence in the Life Sciences, 2026-11; first seen 2026-11-13; General)
 - [Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes](https://doi.org/10.64898/2026.11.09.765245) (bioRxiv, 2026-11-10; first seen 2026-11-11; General)
 - [Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid) (Journal of the American Chemical Society, 2026-11-07; first seen 2026-11-08; General)
 - [De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer](https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763) (hLife, 2026-11; first seen 2026-11-07; General)
@@ -397,7 +399,7 @@ Updated: **2026-11-12** (`2026-11-12T07:29:53Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-12](outputs/daily/2026-11-12.md)
+- [Daily report for 2026-11-13](outputs/daily/2026-11-13.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

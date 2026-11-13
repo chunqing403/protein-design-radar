@@ -1,72 +1,45 @@
-# Protein Design Paper Radar - 2026-11-12
+# Protein Design Paper Radar - 2026-11-13
 
-Generated on 2026-11-12T07:29:53Z.
+Generated on 2026-11-13T07:02:52Z.
 
-Found 6 recommended papers.
+Found 4 recommended papers.
 
 ## Highlights
 
-### 1. An antigen-specific protein language model guides CDR optimization for antibody design.
+### 1. Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles
 
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 11
-- **Authors:** Ashraf FB, Paco K, Zebardast S et al.
-- **Topics:** Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation
-- **Why it matched:** protein language model, antibody design, experimental validation, stability, protein, peptide
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/43013634/
-- **DOI:** 10.1371/journal.pcbi.1014924
+- **Status:** NEW | **Source:** Artificial Intelligence in the Life Sciences | **Date:** 2026-11
+- **Authors:** Yugeng Liu, Heng Wang, Xiaojian Zhang et al.
+- **Topics:** General
+- **Why it matched:** protein engineering, artificial intelligence, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401
+- **DOI:** 10.1016/j.ailsci.2026.100193
 
-The capacity of an antibody to recognize and bind an antigen with high specificity and strength (i.e., its binding affinity) is a key determinant in the design and optimization of neutralizing antibodies against pathogenic targets. Here we introduce Ab-Affinity, a fine-tuned protein language model (PLM) that predicts the binding affinity of an antibody...
+### 2. Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity
 
-### 2. De novo design of ligases for programmable site-specific protein ubiquitylation
+- **Status:** NEW | **Source:** mAbs | **Date:** 2026-12-31
+- **Authors:** Aubin Ramon, Arnav Cheruku, Haowen Zhao et al.
+- **Topics:** Binders and therapeutics
+- **Why it matched:** AlphaFold, folding, antibody
+- **Link:** https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737
+- **DOI:** 10.1080/19420862.2026.2760737
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
-- **Authors:** Salike, S., Gantz, M., Fottner, M. et al.
-- **Topics:** Binders and therapeutics, Enzymes and function
-- **Why it matched:** enzyme design, de novo design, protein, peptide, enzyme
-- **Link:** https://doi.org/10.64898/2026.11.08.765184
-- **DOI:** 10.64898/2026.11.08.765184
+### 3. Vermeer: Autoregressive generative modeling of microscopy predicts protein localization
 
-Protein ubiquitylation regulates numerous cellular processes, but difficulties in generating site-specifically ubiquitylated proteins limit our understanding of individual modification events. In cells, ubiquitylation is mediated by an E1-E2-E3 enzyme cascade, with substrate recognition largely determined by more than 600 human E3 ligases, making it...
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-12
+- **Authors:** Kambhampati, S., Zimmermann, E., Hayir, E. et al.
+- **Topics:** Protein language models
+- **Why it matched:** generative model, foundation model, protein
+- **Link:** https://doi.org/10.64898/2026.06.01.729395
+- **DOI:** 10.64898/2026.06.01.729395
 
-### 3. Emergent Biological Capabilities in a Foundation Model for Molecular Interactions
+Fluorescent microscopy provides a rich view into how proteins localize within cells, but it remains experimentally infeasible to image human proteins across all of the different factors that can impact localization. We introduce Vermeer, a channel-adaptive autoregressive generative model for in silico generation of microscopy images of protein localization....
 
-- **Status:** NEW | **Source:** arXiv | **Date:** 2026-11-10
-- **Authors:** Adi Mashiach
-- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
-- **Why it matched:** wet-lab, folding, foundation model, protein, binding
-- **Link:** http://arxiv.org/abs/2611.14504v1
+### 4. 1O Protein language model-enabled circulating TCRβ repertoire multiple-instance learning for early NSCLC detection
 
-Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon...
-
-### 4. DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
-- **Authors:** Liao, Y., Lin, L., Zhu, J. et al.
-- **Topics:** Structure generation, Sequence design, Enzymes and function
-- **Why it matched:** diffusion model, AlphaFold, protein, binding
-- **Link:** https://doi.org/10.64898/2026.11.09.765352
-- **DOI:** 10.64898/2026.11.09.765352
-
-Molecular glues (MGs) modulate protein function by inducing or stabilizing protein interactions. However, accurately modeling MG ternary complexes remains challenging. Here, we present DiffTernary, a diffusion-based docking method for the joint prediction of relative protein arrangement and MG binding pose. We introduce Ternary-PDB, a dataset of 76,702...
-
-### 5. peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation.
-
-- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 10
-- **Authors:** Santolla N, Pridgen T, Nigam P et al.
-- **Topics:** Protein language models, Binders and therapeutics
-- **Why it matched:** protein language model, artificial intelligence, protein, antibody, sequence
-- **Link:** https://pubmed.ncbi.nlm.nih.gov/43009741/
-- **DOI:** 10.1177/08828245261499794
-
-The discovery of therapeutic antibodies is a traditionally arduous process. Today, the lab-based process of antibody discovery consists of several time-consuming steps that involve live animal immunization, B-cell harvesting, hybridoma creation, and then downstream engineering and evaluation. However, the use of artificial intelligence in drug design has...
-
-### 6. The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify
-
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-11
-- **Authors:** Shah, P., Panchali, R., Mody, P. et al.
-- **Topics:** Protein language models, Experimental validation
-- **Why it matched:** protein language model, stability, protein
-- **Link:** https://doi.org/10.64898/2026.11.10.765136
-- **DOI:** 10.64898/2026.11.10.765136
-
-Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep's own...
+- **Status:** NEW | **Source:** ESMO Real World Data and Digital Oncology | **Date:** 2026-11
+- **Authors:** P. Fessas, C. Peinador Marin, S. Gamble et al.
+- **Topics:** Protein language models
+- **Why it matched:** protein language model, protein
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2949820126001359
+- **DOI:** 10.1016/j.esmorw.2026.100816

@@ -995,6 +995,30 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.ailsci.2026.100193": {
+      "abstract": "",
+      "authors": [
+        "Yugeng Liu",
+        "Heng Wang",
+        "Xiaojian Zhang",
+        "Guihong Cha"
+      ],
+      "doi": "10.1016/j.ailsci.2026.100193",
+      "first_seen": "2026-11-13",
+      "published": "2026-11",
+      "reasons": [
+        "protein engineering",
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Artificial Intelligence in the Life Sciences",
+      "source_id": "10.1016/j.ailsci.2026.100193",
+      "title": "Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401"
+    },
     "doi:10.1016/j.apsb.2026.08.031": {
       "abstract": "",
       "authors": [
@@ -1778,6 +1802,35 @@
         "General"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
+    "doi:10.1016/j.esmorw.2026.100816": {
+      "abstract": "",
+      "authors": [
+        "P. Fessas",
+        "C. Peinador Marin",
+        "S. Gamble",
+        "F. John",
+        "A. Rogers",
+        "S.K.A. Ung",
+        "K. Otter",
+        "K. Gowers",
+        "S. Janes",
+        "J.L. Reading"
+      ],
+      "doi": "10.1016/j.esmorw.2026.100816",
+      "first_seen": "2026-11-13",
+      "published": "2026-11",
+      "reasons": [
+        "protein language model",
+        "protein"
+      ],
+      "source": "ESMO Real World Data and Digital Oncology",
+      "source_id": "10.1016/j.esmorw.2026.100816",
+      "title": "1O Protein language model-enabled circulating TCRβ repertoire multiple-instance learning for early NSCLC detection",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949820126001359"
     },
     "doi:10.1016/j.fbio.2026.110064": {
       "abstract": "",
@@ -5061,6 +5114,30 @@
       ],
       "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404"
     },
+    "doi:10.1080/19420862.2026.2760737": {
+      "abstract": "",
+      "authors": [
+        "Aubin Ramon",
+        "Arnav Cheruku",
+        "Haowen Zhao",
+        "Pietro Sormanni"
+      ],
+      "doi": "10.1080/19420862.2026.2760737",
+      "first_seen": "2026-11-13",
+      "published": "2026-12-31",
+      "reasons": [
+        "AlphaFold",
+        "folding",
+        "antibody"
+      ],
+      "source": "mAbs",
+      "source_id": "10.1080/19420862.2026.2760737",
+      "title": "Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737"
+    },
     "doi:10.1093/bib/bbag516": {
       "abstract": "Abstract Peptide therapeutics offer great promise in drug discovery, yet the accurate identification of peptide toxicity remains essential for both safety assessment and biodefense. We developed ToxMamba, a toxic peptide prediction framework that integrates Implicit Structure Model (ISM)-derived pretrained embeddings, state space models, multi-scale feature learning, and ensemble inference. Built upon the Mamba architecture, ToxMamba enables efficient sequence modeling and captures contextual patterns across multiple receptive fields from parallel branches. On the independent test set, ToxMamba consistently surpasses existing methods, improving the F1 score and Matthews Correlation Coefficient by 3.9–18.3 and 7.5–46.9 percentage points, respectively. Ablation analyses further showed that Mamba-based models generally achieved stronger overall performance than Transformer-, Convolutional Neural Network-Long Short-Term Memory-Attention-, and Kolmogorov–Arnold Network-based variants. Feature visualization showed that ISM embeddings yielded clearer separation between toxic and non-toxic peptides in the latent space. Intermediate-layer feature analysis highlighted residue-level regions associated with toxicity-related sequence motifs, supporting the biological interpretability of ToxMamba. Overall, this study provides an efficient and interpretable computational framework for high-throughput toxic peptide screening.",
       "authors": [
@@ -6771,6 +6848,32 @@
         "Protein language models"
       ],
       "url": "https://doi.org/10.64898/2026.05.26.727927"
+    },
+    "doi:10.64898/2026.06.01.729395": {
+      "abstract": "Fluorescent microscopy provides a rich view into how proteins localize within cells, but it remains experimentally infeasible to image human proteins across all of the different factors that can impact localization. We introduce Vermeer, a channel-adaptive autoregressive generative model for in silico generation of microscopy images of protein localization. Vermeer conditions generations on protein sequences and landmark stains showing the morphology of cells, which enables it to generalize to unseen proteins and cell lines. We show that Vermeer, trained on the Human Protein Atlas, can generate images with substantially improved perceptual quality and biological fidelity over previous proposals. Additionally, Vermeer's autoregressive framework enables flexible generation using varying channel subsets and orderings, enabling zero-shot transfer to data collected under different imaging conditions and channel configurations than those used for training. These results position Vermeer to enable scalable modeling of protein localization and is a step towards generative foundation models that can operate over distinct microscopy datasets. Code is publicly accessible at https://github.com/microsoft/vermeer.git.",
+      "authors": [
+        "Kambhampati, S.",
+        "Zimmermann, E.",
+        "Hayir, E.",
+        "Yang, K. K.",
+        "Chen, F.",
+        "Lu, A. X."
+      ],
+      "doi": "10.64898/2026.06.01.729395",
+      "first_seen": "2026-11-13",
+      "published": "2026-11-12",
+      "reasons": [
+        "generative model",
+        "foundation model",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.06.01.729395",
+      "title": "Vermeer: Autoregressive generative modeling of microscopy predicts protein localization",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.06.01.729395"
     },
     "doi:10.64898/2026.06.22.733733": {
       "abstract": "While most existing methods are limited to predicting the tertiary structures of proteins containing only canonical residues, the PEPstrMOD server (developed in 2015) pioneered structure prediction for chemically modified and non-natural peptides. Despite its widespread use, the original framework was restricted to peptides of 7 to 25 residues and relied on older backbone-prediction algorithms. To address these limitations, we present PEPstrMOD2, which introduces three major advancements over its predecessor. First, it replaces the original in-house coordinate generation with state-of-the-art deep learning (DL) algorithms, leveraging AlphaFold2 and ESMFold for highly accurate initial structure prediction. Secondly, it greatly expands the accessible chemical space through incorporation of new, AMBER force-field compatible library of 257 post-translational modifications (PTMs), 428 non-canonical amino acids (NCAAs), and 243 terminal modifications. Lastly, through the application of native scalability of AlphaFold2 (AF2) and ESMFold (EF), PEPstrMOD2 eliminates the original restrictions of the length, enabling the structural modeling of longer, complex therapeutic peptides and small proteins. We evaluated the performance of PEPstrMOD2 against state-of-the-art methods across three distinct peptide datasets. For the AfCyc dataset consisting of 80 cyclic peptides, PEPstrMOD2 obtained a competitive average atom-level Root Mean Square Deviation (RMSD) of 2.05 [A], compared to 1.13 [A] by AlphaFold3 (AF3) and 1.82 [A] by AfCycDesign. Remarkably, for the modified peptide ModPep433 dataset, PEPstrMOD2 outperformed AF3, achieving the lower average RMSD score of 4.49 [A] against 4.67 [A] of AF3. Furthermore, in the case of the ModPep16 benchmark, PEPstrMOD2 achieved 2.50 [A] average RMSD value, which is two times more accurate than that of the original PEPstrMOD (5.84 [A]). In summary, PEPstrMOD2 provides a powerful, high-throughput, and highly accurate platform to facilitate peptide-based drug development and structural biology research. While the original PEPstrMOD was restricted to a web server interface, PEPstrMOD2 is available as both an intuitive webserver and a standalone command-line tool via GitHub, featuring Docker support for easy deployment and reproducible, large-scale modeling pipelines (https://webs.iiitd.edu.in/raghava/pepstrmod/). HighlightsO_LIPEPstrMOD2 predicts structures of chemically modified peptides using deep learning and molecular dynamics refinement. C_LIO_LISupports 928 chemical modifications through custom AMBER based force-field libraries including PTMs, NCAAs, terminal, D- as well as cyclic modifications. C_LIO_LIRemoves peptide length restrictions through AlphaFold2 and ESMFold integration. C_LIO_LIOutperforms PEPstrMOD and is competitive with AF3 on different benchmark datasets. C_LIO_LIAvailable as both a web server and a standalone platform via GitHub and Docker. C_LI",

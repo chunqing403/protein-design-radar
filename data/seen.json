@@ -228,6 +228,12 @@
       "title": "Prediction of cyclin-dependent proteins using pre-trained protein language models and effective neural network architectures.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41865419/"
     },
+    "doi:10.1016/j.ailsci.2026.100193": {
+      "first_seen": "2026-11-13",
+      "source": "Artificial Intelligence in the Life Sciences",
+      "title": "Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401"
+    },
     "doi:10.1016/j.apsb.2026.08.031": {
       "first_seen": "2026-09-04",
       "source": "Acta Pharmaceutica Sinica B",
@@ -413,6 +419,12 @@
       "source": "Engineering Microbiology",
       "title": "Systematic Optimization of Komagataella phaffii (Pichia pastoris) for High-Efficiency Recombinant Protein Production: Advancements in Strain Engineering, Fermentation Optimization, and AI-Driven Technologies",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667370326000457"
+    },
+    "doi:10.1016/j.esmorw.2026.100816": {
+      "first_seen": "2026-11-13",
+      "source": "ESMO Real World Data and Digital Oncology",
+      "title": "1O Protein language model-enabled circulating TCRβ repertoire multiple-instance learning for early NSCLC detection",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949820126001359"
     },
     "doi:10.1016/j.fbio.2026.110064": {
       "first_seen": "2026-09-24",
@@ -1164,6 +1176,12 @@
       "title": "Catching enhanced flexibility in antibody-antigen recognition: critical evaluation of physics-based and AI-driven methods",
       "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2743404"
     },
+    "doi:10.1080/19420862.2026.2760737": {
+      "first_seen": "2026-11-13",
+      "source": "mAbs",
+      "title": "Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737"
+    },
     "doi:10.1093/bib/bbag516": {
       "first_seen": "2026-10-08",
       "source": "Briefings in Bioinformatics",
@@ -1523,6 +1541,12 @@
       "source": "bioRxiv",
       "title": "Species phylogenetics using intraprotein residue dependence inferred with protein foundation models",
       "url": "https://doi.org/10.64898/2026.05.26.727927"
+    },
+    "doi:10.64898/2026.06.01.729395": {
+      "first_seen": "2026-11-13",
+      "source": "bioRxiv",
+      "title": "Vermeer: Autoregressive generative modeling of microscopy predicts protein localization",
+      "url": "https://doi.org/10.64898/2026.06.01.729395"
     },
     "doi:10.64898/2026.06.22.733733": {
       "first_seen": "2026-07-09",
