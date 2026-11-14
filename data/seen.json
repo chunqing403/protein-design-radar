@@ -294,6 +294,12 @@
       "title": "Multi-dimensional orchestration of binders for improved CAR-T immunotherapy.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42365891/"
     },
+    "doi:10.1016/j.cbi.2026.112429": {
+      "first_seen": "2026-11-14",
+      "source": "Chemico-Biological Interactions",
+      "title": "Machine Learning-Driven Prediction of Protein Kinase-Ligand Binding Affinity Using Extended Connectivity Interaction Features",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009279726005375"
+    },
     "doi:10.1016/j.cbpa.2026.102728": {
       "first_seen": "2026-07-31",
       "source": "PubMed",
@@ -978,6 +984,12 @@
       "title": "AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery",
       "url": "https://www.nature.com/articles/s41467-026-79039-x"
     },
+    "doi:10.1038/s41467-026-79090-8": {
+      "first_seen": "2026-11-14",
+      "source": "Nat Commun",
+      "title": "DPI-score: a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived assemblies",
+      "url": "https://www.nature.com/articles/s41467-026-79090-8"
+    },
     "doi:10.1038/s41467-026-79191-4": {
       "first_seen": "2026-10-31",
       "source": "Nat Commun",
@@ -1001,6 +1013,12 @@
       "source": "npj Sci Food",
       "title": "De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins",
       "url": "https://www.nature.com/articles/s41538-026-01202-x"
+    },
+    "doi:10.1038/s41538-026-01214-7": {
+      "first_seen": "2026-11-14",
+      "source": "npj Sci Food",
+      "title": "Deep learning-based discovery of an antimicrobial peptide from Tenebrio molitor active against Gram-positive and Gram-negative bacteria",
+      "url": "https://www.nature.com/articles/s41538-026-01214-7"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "first_seen": "2026-07-02",
@@ -1734,6 +1752,12 @@
       "title": "Predicting Capsid Protein Binding Sites in Single-Stranded RNA Viruses Using Machine Learning from Local Geometric Features",
       "url": "https://doi.org/10.64898/2026.09.10.750674"
     },
+    "doi:10.64898/2026.09.10.750691": {
+      "first_seen": "2026-11-14",
+      "source": "bioRxiv",
+      "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
+      "url": "https://doi.org/10.64898/2026.09.10.750691"
+    },
     "doi:10.64898/2026.09.12.751118": {
       "first_seen": "2026-09-19",
       "source": "bioRxiv",
@@ -2123,6 +2147,24 @@
       "source": "bioRxiv",
       "title": "The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify",
       "url": "https://doi.org/10.64898/2026.11.10.765136"
+    },
+    "doi:10.64898/2026.11.11.765943": {
+      "first_seen": "2026-11-14",
+      "source": "bioRxiv",
+      "title": "Binary Patterning as a Probe of Protein Language Model Representations",
+      "url": "https://doi.org/10.64898/2026.11.11.765943"
+    },
+    "doi:10.64898/2026.11.11.765945": {
+      "first_seen": "2026-11-14",
+      "source": "bioRxiv",
+      "title": "DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction",
+      "url": "https://doi.org/10.64898/2026.11.11.765945"
+    },
+    "doi:10.64898/2026.11.11.766029": {
+      "first_seen": "2026-11-14",
+      "source": "bioRxiv",
+      "title": "Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation",
+      "url": "https://doi.org/10.64898/2026.11.11.766029"
     }
   }
 }

@@ -1250,6 +1250,32 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42252067/"
     },
+    "doi:10.1016/j.cbi.2026.112429": {
+      "abstract": "",
+      "authors": [
+        "Mushtaq Ahmad Wani",
+        "Yashi Gupta",
+        "Akhilesh Prajapati",
+        "Zabeer Ahmed",
+        "Amit Nargotra"
+      ],
+      "doi": "10.1016/j.cbi.2026.112429",
+      "first_seen": "2026-11-14",
+      "published": "2026-11",
+      "reasons": [
+        "kinase",
+        "protein",
+        "binding",
+        "kinase"
+      ],
+      "source": "Chemico-Biological Interactions",
+      "source_id": "10.1016/j.cbi.2026.112429",
+      "title": "Machine Learning-Driven Prediction of Protein Kinase-Ligand Binding Affinity Using Extended Connectivity Interaction Features",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0009279726005375"
+    },
     "doi:10.1016/j.cbpa.2026.102728": {
       "abstract": "Sparked by innovations in generative artificial intelligence (AI), the field of protein design has undergone a paradigm shift with an explosion of new models for optimizing existing enzymes or creating them from scratch. After more than one decade of low success rates for computationally designed enzymes, generative AI models are now frequently used for designing proficient enzymes. Here, we provide a comprehensive overview and classification of generative AI models for enzyme design, highlighting models with experimental validation relevant to real-world settings and outlining their respective limitations. We argue that generative AI models now have the maturity to create and optimize enzymes for industrial applications. Wider adoption of generative AI models with experimental feedback loops can speed up the development of biocatalysts and serve as a community assessment to inform the next generation of models.",
       "authors": [
@@ -4319,6 +4345,33 @@
       ],
       "url": "https://www.nature.com/articles/s41467-026-79039-x"
     },
+    "doi:10.1038/s41467-026-79090-8": {
+      "abstract": "Abstract Advances in cryoEM have led to a surge in high-resolution structures; however, model building and refinement at resolutions ( > = 3 Å) and in regions with variable local resolution remain challenging, making validation essential. CryoEM derived assemblies often contain extensive protein-protein interfaces, however, most existing validation metrics focus on density fit or overall geometry without directly assessing interface quality. To address this, we present DPI-Score, a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived complexes. The method uses only raw structural coordinates of interface atoms, without requiring engineered features, and achieves 87.53% validation accuracy. DPI-Score was applied to 29,120 interfaces from 6,011 fitted entries with resolutions worse than 3 Å in the Electron Microscopy Data Bank. Here, we show that DPI-Score provides complementary information to existing validation metrics and can identify interface errors in modelled assemblies that are not detected by density-based scores alone.",
+      "authors": [
+        "Niraj Bhujel",
+        "Nick Whyatt",
+        "Agnel Praveen Joseph",
+        "Jyothish Thomas",
+        "Luc G. Elliot",
+        "Tamilarasan Sabapathy",
+        "Jeyan Thiyagalingam",
+        "Sony Malhotra"
+      ],
+      "doi": "10.1038/s41467-026-79090-8",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-14",
+      "reasons": [
+        "deep learning",
+        "protein"
+      ],
+      "source": "Nat Commun",
+      "source_id": "10.1038/s41467-026-79090-8",
+      "title": "DPI-score: a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived assemblies",
+      "topics": [
+        "General"
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79090-8"
+    },
     "doi:10.1038/s41467-026-79191-4": {
       "abstract": "Abstract Although machine learning has transformed protein structure prediction of folded protein ground states with remarkable accuracy, intrinsically disordered proteins and regions (IDPs/IDRs) are defined by diverse and dynamical structural ensembles that are predicted with low confidence by algorithms such as AlphaFold and RoseTTAFold. We present a machine learning method, IDPForge ( I ntrinsically D isordered P rotein, FO lded and disordered R egion GE nerator), that exploits a transformer protein language diffusion model to create all-atom IDP ensembles and IDR ensembles that maintains the folded domains. IDPForge does not require sequence-specific training, back transformations from coarse-grained representations, nor ensemble reweighting. The created IDP/IDR conformational ensembles show good agreement with both NMR and SAXS solution experimental data, and options for biasing with experimental restraints are available if desired. IDPForge with these diverse capabilities facilitates integrative and structural studies for proteins that contain intrinsic disorder, and is available as an open source resource for general use.",
       "authors": [
@@ -4417,6 +4470,34 @@
         "General"
       ],
       "url": "https://www.nature.com/articles/s41538-026-01202-x"
+    },
+    "doi:10.1038/s41538-026-01214-7": {
+      "abstract": "",
+      "authors": [
+        "Mingfeng Xu",
+        "Xinhui Zhou",
+        "Fei Pan",
+        "Chaoyi Duan",
+        "Aifen Yang",
+        "Wenjun Peng",
+        "Hongyan Yang",
+        "Wenli Tian",
+        "Rongrong Yu"
+      ],
+      "doi": "10.1038/s41538-026-01214-7",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-13",
+      "reasons": [
+        "deep learning",
+        "peptide"
+      ],
+      "source": "npj Sci Food",
+      "source_id": "10.1038/s41538-026-01214-7",
+      "title": "Deep learning-based discovery of an antimicrobial peptide from Tenebrio molitor active against Gram-positive and Gram-negative bacteria",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://www.nature.com/articles/s41538-026-01214-7"
     },
     "doi:10.1038/s41564-026-02377-5": {
       "abstract": "Early identification of emerging dominant variants of pathogens such as SARS-CoV-2 is important for effective public health responses, yet existing approaches are not feasible for real-time surveillance. Here we introduce DeepCoV (DMS-Empowered Evolution Prediction of CoronaVirus), a deep-learning framework for the dynamic identification of emerging variants with high potential to become prevalent at spatiotemporal resolution. It integrates deep mutational scanning (DMS)-derived mutation phenotypes, evolutionary sequence data and epidemiological surveillance data reflecting human immune pressures. Benchmarked against logistic regression-based methods and representative deep-learning approaches in simulated retrospective surveillance scenarios, DeepCoV accurately forecasts the dominance of recently circulating lineages a month in advance, achieving a 90% reduction in false discovery rate while capturing temporal and geographic dynamics of variant spread and reconstructing their regional prevalence trajectories. It also identified mutational hotspots of Omicron-derived backbones in silico, revealing convergent evolution trends. This provides a scalable framework for timely identification of immune-evasive variants and critical mutations, providing actionable insights.",
@@ -7826,6 +7907,30 @@
       ],
       "url": "https://doi.org/10.64898/2026.09.10.750674"
     },
+    "doi:10.64898/2026.09.10.750691": {
+      "abstract": "Protein language models (PLMs) such as ESM-2 encode protein sequences as embeddings for downstream tasks. PLMs are trained on a masked learning objective that leverages evolutionary constraints. While interpretability studies of ESM-2 have focused on folded proteins, their behavior on intrinsically disordered proteins (IDPs), which constitute a substantial fraction of the human proteome and are implicated in numerous diseases, remains understudied. Because IDPs experience different types of evolutionary constraints on their amino acid sequences, we hypothesized that PLMs would behave differently on disordered versus folded regions. Here we show that ESM-2 exhibits reduced attention on disordered regions, yet still encodes meaningful biological signals. The model assigns heightened attention to disease-relevant residues even at high levels of disorder. Moreover, we show that both the radius of gyration and individual dynamic contact maps, key characteristics of IDPs, can be obtained from the model logits and embeddings. These findings suggest PLMs capture valuable information relevant to IDP biology despite their bias toward structured residues.",
+      "authors": [
+        "Naworski, L. E.",
+        "Good, L. L.",
+        "Scrutton, R.",
+        "Knowles, T. P. J."
+      ],
+      "doi": "10.64898/2026.09.10.750691",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-13",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.09.10.750691",
+      "title": "Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.750691"
+    },
     "doi:10.64898/2026.09.12.751118": {
       "abstract": "De novo protein design has advanced rapidly, yet designing binders to polar, solvent-exposed epitopes and small, flexible ligands remains challenging. Such hydrated surfaces and flexible molecules, including carbohydrates, provide few of the hydrophobic contacts favoured by current methods and have largely resisted de novo binders. To address this challenge, here we introduce latent generative search for binder design, a novel framework that uses reward-guided search at inference time to steer the Proteina-Complexa generative model. The model codesigns sequence and structure - generating them together in a continuous latent space - and thereby removes the inverse-folding step on which current methods rely. In a screen of more than one million designs by multiplexed phage display, latent generative search produced more validated binders than every other method tested, its codesigned sequences surpassing post hoc redesign. It delivered high-affinity binders across therapeutic receptors, a viral attachment protein and intracellular signalling targets. Our approach also accessed previously untapped biology, generating the first de novo proteins that bind a free carbohydrate, including one that discriminates between blood-group antigens - a polar, flexible target class beyond the reach of current design methods.",
       "authors": [
@@ -9309,7 +9414,7 @@
       ],
       "doi": "10.64898/2026.11.01.763444",
       "first_seen": "2026-11-04",
-      "published": "2026-11-03",
+      "published": "2026-11-13",
       "reasons": [
         "protein language model",
         "deep learning",
@@ -9777,6 +9882,83 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.11.10.765136"
+    },
+    "doi:10.64898/2026.11.11.765943": {
+      "abstract": "Do protein language models (pLMs) encode the physical rules that govern protein folding? The four-helix bundle provides a classic test case because binary patterning, the ordered placement of polar and nonpolar residues along an amphipathic -helix, is sufficient to generate folded proteins with high probability. Here, we ask whether ESM2 captures the sequence grammar underlying this design strategy. Libraries of synthetic sequences constrained only by binary patterning were predicted by ESMFold to form four-helix bundles. Predicted helicity, compactness, and topological diversity changed with sequence length in the same direction as experimentally characterized libraries, although the model did not distinguish successful from unsuccessful individual designs. Principal component analysis of ESM2 embeddings revealed representations of hydrophobic patterning, helix-loop boundaries, and heptad register. Extending the analysis to all 128 heptad binary patterns produced a jellyfish-shaped manifold in which hydrophobic composition formed the dominant axis, while paired components encoded pattern phase. Manifold geometry depended on amino-acid chemistry, repeat number, and linker sequence, and collapsed when amino acids were assigned to arbitrary categories. ESM2 therefore combines general repeat recognition with protein-specific physicochemical information. More broadly, synthetic sequence libraries provide experimentally grounded probes of protein language model representations and their relationship to protein biophysics.",
+      "authors": [
+        "Klein, D.",
+        "Hecht, M.",
+        "Nanda, V."
+      ],
+      "doi": "10.64898/2026.11.11.765943",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-13",
+      "reasons": [
+        "protein language model",
+        "folding",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.11.765943",
+      "title": "Binary Patterning as a Probe of Protein Language Model Representations",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.11.765943"
+    },
+    "doi:10.64898/2026.11.11.765945": {
+      "abstract": "Predicting how mutations impact protein function and stability remains a key challenge in computational biology. Current state-of-the-art protein language models (PLMs) primarily scale parameter size on sequence corpora to capture evolutionary constraints but remain blind to the explicit physical dynamics of folded proteins. Conversely, models trained strictly on physical dynamics neglect critical evolutionary sequence statistics. In this paper, we bridge this gap by introducing DynamicsPLM, a highly parameter-efficient 35-million-parameter model that unifies evolutionary and biophysical representation learning. Utilizing a second-stage, multi-task continual pretraining strategy on over 60,000 proteins, we enrich a foundational sequence encoder with explicit residue-level and pairwise molecular dynamics heads while preserving its original evolutionary knowledge. At inference, DynamicsPLM computes zero-shot mutation effects from sequence alone by balancing an evolutionary plausibility score against a structural dynamics disruption score. Across the massive ProteinGym benchmark and natural variants of the Tsuboyama folding stability dataset, DynamicsPLM achieves state-of-the-art accuracy among all models under 100M parameters, and matches or outperforms several billion-scale sequence-based models of its size. Our findings demonstrate that explicit structural-dynamics supervision provides a parameter-efficient alternative to raw scale. Availability: All codes including data preparation scripts, training and validation recipes, and experimental configurations for LoMuS are available at: https://github.com/kabir-ai2bio-lab/DynamicsPLM.",
+      "authors": [
+        "Dao, T. M.",
+        "Shehu, A.",
+        "Kabir, A."
+      ],
+      "doi": "10.64898/2026.11.11.765945",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-13",
+      "reasons": [
+        "protein language model",
+        "folding",
+        "stability",
+        "variant effect",
+        "protein",
+        "mutation"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.11.765945",
+      "title": "DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.11.765945"
+    },
+    "doi:10.64898/2026.11.11.766029": {
+      "abstract": "A protein's sequence says what a gene could do in another species; the cells of that species say what it does there. Comparative genomics measures the first. Chimera measures the second, a gene's deployment, on the same genes and reports the difference. It aligns single-cell atlases across species in one generative model and returns, for every one-to-one ortholog, the evidence in the counts for a shared expression pattern, and {Delta}[a], the position of that evidence above or below what the protein's identity predicts. This difference is not sequence constraint under another name: across eight tissues, protein identity tracks dN/dS, whereas {Delta}[a] tracks neither. A gene therefore has two coordinates, not one, and the second can contradict the first: spermatocyte genes such as ZPBP2 keep their stage pattern on less conserved proteins, in eight held-out species, whereas conserved hepatocyte enzymes such as ALAS1 share their pattern but not their level. More broadly, genes of specialized cells sit above what their proteins predict in 23 of 24 cohorts, and approved drug targets do so more often than matched genes. Even among nearly identical proteins, where sequence can no longer tell genes apart, the count evidence still does. Nor does this rest on the model alone: independent data support the count evidence in liver and testis and, in a pre-specified test, {Delta}[a] in liver. With both coordinates, one can ask whether another species uses a gene as humans do, the premise of every animal model of a disease gene or drug target.",
+      "authors": [
+        "Inecik, K.",
+        "Sevinc, E. S.",
+        "Erken, E.",
+        "Theis, F."
+      ],
+      "doi": "10.64898/2026.11.11.766029",
+      "first_seen": "2026-11-14",
+      "published": "2026-11-13",
+      "reasons": [
+        "generative model",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.11.766029",
+      "title": "Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.11.766029"
     }
   }
 }
