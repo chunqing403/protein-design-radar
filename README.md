@@ -7,26 +7,21 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-14** (`2026-11-14T06:39:59Z`)
+Updated: **2026-11-15** (`2026-11-15T06:45:53Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [DPI-score: a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived assemblies](https://www.nature.com/articles/s41467-026-79090-8)<br><sub>Niraj Bhujel, Nick Whyatt, Agnel Praveen Joseph et al.</sub> | Nat Commun<br>2026-11-14 | General |
-| 2 | [Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins](https://doi.org/10.64898/2026.09.10.750691)<br><sub>Naworski, L. E., Good, L. L., Scrutton, R. et al.</sub> | bioRxiv<br>2026-11-13 | Protein language models |
-| 3 | [DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction](https://doi.org/10.64898/2026.11.11.765945)<br><sub>Dao, T. M., Shehu, A., Kabir, A.</sub> | bioRxiv<br>2026-11-13 | Sequence design, Protein language models, Enzymes and function, Experimental validation |
-| 4 | [Binary Patterning as a Probe of Protein Language Model Representations](https://doi.org/10.64898/2026.11.11.765943)<br><sub>Klein, D., Hecht, M., Nanda, V.</sub> | bioRxiv<br>2026-11-13 | Protein language models |
-| 5 | [Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation](https://doi.org/10.64898/2026.11.11.766029)<br><sub>Inecik, K., Sevinc, E. S., Erken, E. et al.</sub> | bioRxiv<br>2026-11-13 | General |
-| 6 | [Deep learning-based discovery of an antimicrobial peptide from Tenebrio molitor active against Gram-positive and Gram-negative bacteria](https://www.nature.com/articles/s41538-026-01214-7)<br><sub>Mingfeng Xu, Xinhui Zhou, Fei Pan et al.</sub> | npj Sci Food<br>2026-11-13 | Binders and therapeutics |
-| 7 | [Machine Learning-Driven Prediction of Protein Kinase-Ligand Binding Affinity Using Extended Connectivity Interaction Features](https://linkinghub.elsevier.com/retrieve/pii/S0009279726005375)<br><sub>Mushtaq Ahmad Wani, Yashi Gupta, Akhilesh Prajapati et al.</sub> | Chemico-Biological Interactions<br>2026-11 | Binders and therapeutics |
+| 1 | [Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions](https://onlinelibrary.wiley.com/doi/10.1002/pro.70882)<br><sub>Lourdes Carcelén, Alexandre Casadesús, Enrique Marcos</sub> | Protein Science<br>2026-12 | Sequence design, Binders and therapeutics |
+| 2 | [Cerebra: A computationally efficient framework for accurate protein structure prediction](https://onlinelibrary.wiley.com/doi/10.1002/pro.70846)<br><sub>Jian Hu, Weizhe Wang, Bo Zhang et al.</sub> | Protein Science<br>2026-12 | Structure generation, Experimental validation |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 82 |
-| [Sequence Design / 序列设计](#paper-category-sequence-design) | 40 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 83 |
+| [Sequence Design / 序列设计](#paper-category-sequence-design) | 41 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 103 |
 | [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 58 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 17 |
@@ -36,8 +31,9 @@ Updated: **2026-11-14** (`2026-11-14T06:39:59Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (82)
+#### Structure Generation / 结构生成 (83)
 
+- [Cerebra: A computationally efficient framework for accurate protein structure prediction](https://onlinelibrary.wiley.com/doi/10.1002/pro.70846) (Protein Science, 2026-12; first seen 2026-11-15; Structure generation, Experimental validation)
 - [DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking](https://doi.org/10.64898/2026.11.09.765352) (bioRxiv, 2026-11-11; first seen 2026-11-12; Structure generation, Sequence design, Enzymes and function)
 - [An antigen-specific protein language model guides CDR optimization for antibody design.](https://pubmed.ncbi.nlm.nih.gov/43013634/) (PubMed, 2026 Nov 11; first seen 2026-11-12; Structure generation, Protein language models, Binders and therapeutics, Enzymes and function, Experimental validation)
 - [FusioBERT: A Task-Adapted Peptide Language Modeling Framework for Anti- Fusarium Peptide Discovery](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02852/5467789/FusioBERT-A-Task-Adapted-Peptide-Language-Modeling) (Journal of Chemical Information and Modeling, 2026-11-10; first seen 2026-11-11; Structure generation, Binders and therapeutics, Experimental validation)
@@ -122,8 +118,9 @@ Updated: **2026-11-14** (`2026-11-14T06:39:59Z`)
 - [CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching.](https://pubmed.ncbi.nlm.nih.gov/41941849/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Structure generation, Protein language models, Binders and therapeutics, Experimental validation)
 
 <a id="paper-category-sequence-design"></a>
-#### Sequence Design / 序列设计 (40)
+#### Sequence Design / 序列设计 (41)
 
+- [Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions](https://onlinelibrary.wiley.com/doi/10.1002/pro.70882) (Protein Science, 2026-12; first seen 2026-11-15; Sequence design, Binders and therapeutics)
 - [DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction](https://doi.org/10.64898/2026.11.11.765945) (bioRxiv, 2026-11-13; first seen 2026-11-14; Sequence design, Protein language models, Enzymes and function, Experimental validation)
 - [Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction](https://doi.org/10.64898/2026.11.09.765390) (bioRxiv, 2026-11-10; first seen 2026-11-11; Sequence design, Protein language models)
 - [SoluProtMut: Siamese Deep Learning for Predicting Solubility Effects of Protein Mutations with Experimental Validation](https://doi.org/10.1101/2025.09.26.676459) (bioRxiv, 2026-11-09; first seen 2026-11-11; Sequence design, Binders and therapeutics, Experimental validation)
@@ -409,7 +406,7 @@ Updated: **2026-11-14** (`2026-11-14T06:39:59Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-14](outputs/daily/2026-11-14.md)
+- [Daily report for 2026-11-15](outputs/daily/2026-11-15.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

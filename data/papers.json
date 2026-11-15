@@ -685,6 +685,62 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42813586/"
     },
+    "doi:10.1002/pro.70846": {
+      "abstract": "Abstract Remarkable progress has been made in the field of protein structure prediction. Representative methods like AlphaFold and RoseTTAFold achieve prediction accuracy close to experimental structural determination, but at the cost of heavy computational consumption for model training. In this work, we propose a new framework, Cerebra, for improving the computational efficiency of protein structure prediction. In this network architecture, multiple sets of atomic coordinates are predicted parallelly and their mutual complementarity is leveraged to rapidly improve the quality of predicted structures through a new attention mechanism named path synthesis attention (PSA). Consequently, Cerebra markedly reduces the computational consumption, achieving evident acceleration on both model training and inference, in comparison to OpenFold, the academic version of AlphaFold2. When evaluated on the CAMEO 2025 dataset, the Cerebra model trained on a limited number of GPUs shows comparable performance to the published OpenFold model that has been thoroughly optimized using a plethora of computational resources. Moreover, ablation studies confirm that the PSA mechanism efficiently accelerates the network convergence, suggesting its potential in handling the many‐body effects of protein geometries in graph‐based models. Finally, the fast inference of Cerebra effectively assists hallucination‐based de novo protein backbone design, allowing the production of abundant backbone structures with sufficient designability and novelty.",
+      "authors": [
+        "Jian Hu",
+        "Weizhe Wang",
+        "Bo Zhang",
+        "Yike Cao",
+        "Haipeng Gong"
+      ],
+      "doi": "10.1002/pro.70846",
+      "first_seen": "2026-11-15",
+      "published": "2026-12",
+      "reasons": [
+        "de novo protein",
+        "structure prediction",
+        "AlphaFold",
+        "RoseTTAFold",
+        "protein",
+        "structure"
+      ],
+      "source": "Protein Science",
+      "source_id": "10.1002/pro.70846",
+      "title": "Cerebra: A computationally efficient framework for accurate protein structure prediction",
+      "topics": [
+        "Structure generation",
+        "Experimental validation"
+      ],
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70846"
+    },
+    "doi:10.1002/pro.70882": {
+      "abstract": "Abstract Accurate modeling of synthetic protein–protein interactions is essential for designing therapeutics, diagnostics, and molecular imaging reagents. Although deep learning has transformed protein structure prediction, modeling heteromeric interactions mediated by flexible loops—as in antibodies, nanobodies, and monobodies—remains challenging due to weak coevolutionary signals at binding interfaces and substantial conformational variability. Here, we present a framework that guides AlphaFold predictions of loop‐mediated interactions using synthetic multiple sequence alignments (MSAs) generated through ProteinMPNN interface design. Benchmarks across nanobody–, antibody–, and monobody–antigen complexes show that designed MSAs encode interface‐specific contact information that can be leveraged in two complementary ways. First, AlphaFold2‐Multimer and AlphaFold3 predictions conditioned on designed MSAs produce confident and accurate structures for compatible interfaces, while yielding low‐confidence or structurally inconsistent predictions for incompatible sequences or docking poses, enabling improved evaluation of candidate protein–protein complex models—particularly relevant for protein design. Second, when applied to AlphaFold‐predicted structures, designed MSAs guide structural refinement and reranking, enabling the development of a strategy that improves blind structure prediction in low‐confidence cases without exhaustive sampling. Together, these results establish designed MSAs as controllable inputs for structure prediction, with applications in protein design and blind prediction of challenging protein–protein interactions.",
+      "authors": [
+        "Lourdes Carcelén",
+        "Alexandre Casadesús",
+        "Enrique Marcos"
+      ],
+      "doi": "10.1002/pro.70882",
+      "first_seen": "2026-11-15",
+      "published": "2026-12",
+      "reasons": [
+        "protein design",
+        "deep learning",
+        "structure prediction",
+        "AlphaFold",
+        "ProteinMPNN",
+        "protein"
+      ],
+      "source": "Protein Science",
+      "source_id": "10.1002/pro.70882",
+      "title": "Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions",
+      "topics": [
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70882"
+    },
     "doi:10.1002/prot.70162": {
       "abstract": "Artificial protein design enables the creation of stable scaffolds beyond those evolved in nature. Incorporation of native functional motifs into de novo scaffolds provides a promising strategy to mimic natural interactions while altering structural frameworks. Here, we designed de novo S-locus Protein 11 (SP11)-like proteins by incorporating a key feature of the Brassica pollen determinant SP11, which mediates self-incompatibility through specific interaction with the pistil determinant S receptor kinase (SRK). The designed proteins included the six-amino-acid SRK-binding motif from native SP11 but lacked all disulfide bonds characteristic of the plant defensin-like fold. Three variants (SP11-A, SP11-B, SP11-C) were designed using Rosetta and ProteinMPNN sequence optimization and expressed in Escherichia coli. SP11-A and SP11-B were purified and analyzed by circular dichroism spectroscopy. SP11-A exhibited exceptional thermal and chemical stability, demonstrating the robustness of the artificial scaffold, while SP11-B had lower stability and displayed biphasic chemical unfolding behavior. The crystal structures of SP11-A in two space groups were determined at 1.50 and 2.10 Å resolution. Notably, the region derived from the native SP11 sequence exhibited two alternative main chain conformations, indicating that incorporation of the natural motif introduced local conformational frustration. Molecular dynamics analysis suggested that the two alternative main chain conformations remain kinetically stable within the 100 ns simulation timescale, without direct interconversion. Together, these results provide insight into how the incorporation of native motifs can influence local structure while preserving global scaffold stability in de novo protein design.",
       "authors": [

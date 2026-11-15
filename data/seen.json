@@ -156,6 +156,18 @@
       "title": "Global analysis of thermal and chemical denaturation using CheMelt : Thermodynamic dissection of highly thermostable de novo designed proteins",
       "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70800"
     },
+    "doi:10.1002/pro.70846": {
+      "first_seen": "2026-11-15",
+      "source": "Protein Science",
+      "title": "Cerebra: A computationally efficient framework for accurate protein structure prediction",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70846"
+    },
+    "doi:10.1002/pro.70882": {
+      "first_seen": "2026-11-15",
+      "source": "Protein Science",
+      "title": "Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70882"
+    },
     "doi:10.1002/prot.70162": {
       "first_seen": "2026-07-26",
       "source": "PubMed",
