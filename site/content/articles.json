@@ -3,6 +3,21 @@
     {
       "account": "CAOM",
       "author": "ZCQ",
+      "body_file": "articles/caom-ce1d8f4a609a.html",
+      "cover": "assets/wechat/caom-ce1d8f4a609a/cover.jpg",
+      "description": "152 个 ipSAE 超过 0.8 的 TNF-α 结合剂设计，RFD4 占了 150 个。",
+      "featured": true,
+      "published": "2026-11-14",
+      "slug": "caom-ce1d8f4a609a",
+      "source_url": "https://mp.weixin.qq.com/s/LsmGQ5rin4Pd1qLqUazWqw",
+      "title": "RFD4实战： 在 TNF-α 上跑出 150 个高分设计",
+      "topics": [
+        "蛋白设计"
+      ]
+    },
+    {
+      "account": "CAOM",
+      "author": "ZCQ",
       "body_file": "articles/caom-2aaccae78ea5.html",
       "cover": "assets/wechat/caom-2aaccae78ea5/cover.jpg",
       "description": "用 RFdiffusion 设计一个几十个氨基酸的 binder，后面让 AlphaFold 3 复核复合物时",
