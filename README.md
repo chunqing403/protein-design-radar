@@ -7,14 +7,11 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-15** (`2026-11-15T06:45:53Z`)
+Updated: **2026-11-16** (`2026-11-16T06:44:58Z`)
 
 ### Today's New Papers
 
-| # | Paper | Source | Topics |
-|---|---|---|---|
-| 1 | [Designed multiple sequence alignments guide AlphaFold for improved modeling of loop‐mediated protein–protein interactions](https://onlinelibrary.wiley.com/doi/10.1002/pro.70882)<br><sub>Lourdes Carcelén, Alexandre Casadesús, Enrique Marcos</sub> | Protein Science<br>2026-12 | Sequence design, Binders and therapeutics |
-| 2 | [Cerebra: A computationally efficient framework for accurate protein structure prediction](https://onlinelibrary.wiley.com/doi/10.1002/pro.70846)<br><sub>Jian Hu, Weizhe Wang, Bo Zhang et al.</sub> | Protein Science<br>2026-12 | Structure generation, Experimental validation |
+No newly collected high-confidence papers today. The cumulative library below is still preserved.
 
 ### Paper Directory / 文献目录
 
@@ -406,7 +403,7 @@ Updated: **2026-11-15** (`2026-11-15T06:45:53Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-15](outputs/daily/2026-11-15.md)
+- [Daily report for 2026-11-16](outputs/daily/2026-11-16.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->
