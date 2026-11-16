@@ -9,6 +9,34 @@ from scripts.sync_wechat import import_article, import_feed_article
 
 
 class WeChatImportTests(unittest.TestCase):
+    @patch("scripts.sync_wechat.fetch")
+    def test_preserves_table_structure(self, mock_fetch):
+        html = """
+        <html><head><meta property="og:title" content="Table article"></head><body>
+          <div id="js_content">
+            <table><thead><tr><th>方法</th><th>生成数</th></tr></thead>
+            <tbody><tr><td>RFD4</td><td>8,105</td></tr></tbody></table>
+          </div>
+        </body></html>
+        """
+        mock_fetch.return_value.content = html.encode("utf-8")
+        source = {
+            "url": "https://mp.weixin.qq.com/s/table-token",
+            "slug": "caom-table",
+            "featured": False,
+            "topics": [],
+        }
+
+        with tempfile.TemporaryDirectory() as directory:
+            content_root = Path(directory)
+            article = import_article(requests.Session(), source, content_root)
+            body = (content_root / article["body_file"]).read_text(encoding="utf-8")
+
+        self.assertIn("<table>", body)
+        self.assertIn("<thead>", body)
+        self.assertIn("<th>方法</th>", body)
+        self.assertIn("<td>8,105</td>", body)
+
     @patch("scripts.sync_wechat.download_image")
     @patch("scripts.sync_wechat.fetch")
     def test_uses_first_body_image_when_cover_download_fails(self, mock_fetch, mock_download):

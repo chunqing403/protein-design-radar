@@ -47,6 +47,12 @@ ALLOWED_TAGS = {
     "section",
     "span",
     "strong",
+    "table",
+    "tbody",
+    "td",
+    "th",
+    "thead",
+    "tr",
     "u",
     "ul",
 }

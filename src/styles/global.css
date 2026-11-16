@@ -186,6 +186,11 @@ button, input { font: inherit; }
 .article-body h3 { margin: 1.8em 0 .7em; font-size: 1.25rem; }
 .article-body img { width: auto; max-height: 760px; margin: 1.8em auto; object-fit: contain; }
 .article-body figure, .article-body section { max-width: 100%; margin-left: 0; margin-right: 0; }
+.article-body section:has(> table) { overflow-x: auto; }
+.article-body table { width: 100%; margin: 1.5em 0; border-collapse: collapse; font-size: .95rem; }
+.article-body th, .article-body td { padding: .65rem .8rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.article-body th { background: var(--panel); font-weight: 700; }
+.article-body tbody tr:nth-child(even) { background: color-mix(in srgb, var(--panel) 55%, transparent); }
 .article-body a { color: var(--signal-dark); text-decoration: underline; text-underline-offset: 3px; }
 
 .empty-note { padding: 32px 0; color: var(--ink-soft); }
