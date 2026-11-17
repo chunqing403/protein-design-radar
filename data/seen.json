@@ -522,6 +522,12 @@
       "title": "\"EXPERT\" A Practical and Forward-Looking Guide to Capturing Protein Expression and Purification Metadata to develop Machine Learning Models.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42810683/"
     },
+    "doi:10.1016/j.jfca.2026.109704": {
+      "first_seen": "2026-11-17",
+      "source": "Journal of Food Composition and Analysis",
+      "title": "Single vegetable soybean kernel protein content determination using near-infrared hyperspectral imaging with explainable machine and deep learning",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0889157526008471"
+    },
     "doi:10.1016/j.jfoodeng.2026.113373": {
       "first_seen": "2026-10-15",
       "source": "Journal of Food Engineering",
@@ -647,6 +653,12 @@
       "source": "Current Opinion in Structural Biology",
       "title": "Artificial intelligence for predicting mutation effects on enzyme kinetics",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095"
+    },
+    "doi:10.1016/j.sbi.2026.103438": {
+      "first_seen": "2026-11-17",
+      "source": "Current Opinion in Structural Biology",
+      "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
@@ -2177,6 +2189,30 @@
       "source": "bioRxiv",
       "title": "Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation",
       "url": "https://doi.org/10.64898/2026.11.11.766029"
+    },
+    "doi:10.64898/2026.11.12.760042": {
+      "first_seen": "2026-11-17",
+      "source": "bioRxiv",
+      "title": "De novo design of antiviral monobody binders",
+      "url": "https://doi.org/10.64898/2026.11.12.760042"
+    },
+    "doi:10.64898/2026.11.12.766315": {
+      "first_seen": "2026-11-17",
+      "source": "bioRxiv",
+      "title": "De Novo Design of C-H Hydroxylation Enzymes with Programmed Selectivities",
+      "url": "https://doi.org/10.64898/2026.11.12.766315"
+    },
+    "doi:10.64898/2026.11.13.766344": {
+      "first_seen": "2026-11-17",
+      "source": "bioRxiv",
+      "title": "Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval",
+      "url": "https://doi.org/10.64898/2026.11.13.766344"
+    },
+    "doi:10.64898/2026.11.13.766391": {
+      "first_seen": "2026-11-17",
+      "source": "bioRxiv",
+      "title": "ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks",
+      "url": "https://doi.org/10.64898/2026.11.13.766391"
     }
   }
 }

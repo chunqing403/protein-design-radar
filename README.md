@@ -7,11 +7,18 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-16** (`2026-11-16T06:44:58Z`)
+Updated: **2026-11-17** (`2026-11-17T08:05:57Z`)
 
 ### Today's New Papers
 
-No newly collected high-confidence papers today. The cumulative library below is still preserved.
+| # | Paper | Source | Topics |
+|---|---|---|---|
+| 1 | [From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204)<br><sub>Aldo S. Pasos-Trejo, Klara Bonneau, Andrea Guljas et al.</sub> | Current Opinion in Structural Biology<br>2027-02 | General |
+| 2 | [De novo design of antiviral monobody binders](https://doi.org/10.64898/2026.11.12.760042)<br><sub>Moreira, P., Xiao, S., Conceicao, C. J. F. et al.</sub> | bioRxiv<br>2026-11-16 | Binders and therapeutics |
+| 3 | [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://doi.org/10.64898/2026.11.13.766344)<br><sub>Bouras, G., Edwards, R. A.</sub> | bioRxiv<br>2026-11-16 | Protein language models, Enzymes and function |
+| 4 | [De Novo Design of C-H Hydroxylation Enzymes with Programmed Selectivities](https://doi.org/10.64898/2026.11.12.766315)<br><sub>Kalvet, I., Jeung, J., Gao, S. et al.</sub> | bioRxiv<br>2026-11-16 | Enzymes and function, Experimental validation |
+| 5 | [ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks](https://doi.org/10.64898/2026.11.13.766391)<br><sub>Lubna, H., Choi, Y.</sub> | bioRxiv<br>2026-11-16 | General |
+| 6 | [Single vegetable soybean kernel protein content determination using near-infrared hyperspectral imaging with explainable machine and deep learning](https://linkinghub.elsevier.com/retrieve/pii/S0889157526008471)<br><sub>Lu Huang, Yuxin Xiao, Xiaotian Yuan et al.</sub> | Journal of Food Composition and Analysis<br>2026-11 | General |
 
 ### Paper Directory / 文献目录
 
@@ -19,11 +26,11 @@ No newly collected high-confidence papers today. The cumulative library below is
 |---|---:|
 | [Structure Generation / 结构生成](#paper-category-structure-generation) | 83 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 41 |
-| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 103 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 58 |
-| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 17 |
+| [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 104 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 59 |
+| [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 18 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 5 |
-| [General / 综合](#paper-category-general) | 39 |
+| [General / 综合](#paper-category-general) | 42 |
 
 ### Categorized Paper Library / 分类文献库
 
@@ -160,8 +167,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [A deep mutational scanning-informed protein language model predicts SARS-CoV-2 evolution dynamics with spatiotemporal resolution.](https://pubmed.ncbi.nlm.nih.gov/42204343/) (PubMed, 2026 Jul 01; first seen 2026-07-02; Sequence design, Protein language models)
 
 <a id="paper-category-protein-language-models"></a>
-#### Protein Language Models / 蛋白质语言模型 (103)
+#### Protein Language Models / 蛋白质语言模型 (104)
 
+- [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://doi.org/10.64898/2026.11.13.766344) (bioRxiv, 2026-11-16; first seen 2026-11-17; Protein language models, Enzymes and function)
 - [Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins](https://doi.org/10.64898/2026.09.10.750691) (bioRxiv, 2026-11-13; first seen 2026-11-14; Protein language models)
 - [Binary Patterning as a Probe of Protein Language Model Representations](https://doi.org/10.64898/2026.11.11.765943) (bioRxiv, 2026-11-13; first seen 2026-11-14; Protein language models)
 - [Vermeer: Autoregressive generative modeling of microscopy predicts protein localization](https://doi.org/10.64898/2026.06.01.729395) (bioRxiv, 2026-11-12; first seen 2026-11-13; Protein language models)
@@ -267,8 +275,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (58)
+#### Binders & Therapeutics / 结合蛋白与治疗 (59)
 
+- [De novo design of antiviral monobody binders](https://doi.org/10.64898/2026.11.12.760042) (bioRxiv, 2026-11-16; first seen 2026-11-17; Binders and therapeutics)
 - [Deep learning-based discovery of an antimicrobial peptide from Tenebrio molitor active against Gram-positive and Gram-negative bacteria](https://www.nature.com/articles/s41538-026-01214-7) (npj Sci Food, 2026-11-13; first seen 2026-11-14; Binders and therapeutics)
 - [Machine Learning-Driven Prediction of Protein Kinase-Ligand Binding Affinity Using Extended Connectivity Interaction Features](https://linkinghub.elsevier.com/retrieve/pii/S0009279726005375) (Chemico-Biological Interactions, 2026-11; first seen 2026-11-14; Binders and therapeutics)
 - [Beyond AlphaFold 3: a standardised benchmark of open-source co-folding models for antibody–antigen complexes, from docking accuracy to interaction specificity](https://www.tandfonline.com/doi/full/10.1080/19420862.2026.2760737) (mAbs, 2026-12-31; first seen 2026-11-13; Binders and therapeutics)
@@ -329,8 +338,9 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Structural feature-based machine learning benchmarking for protein interface prediction.](https://pubmed.ncbi.nlm.nih.gov/42365029/) (PubMed, 2026 Jun 27; first seen 2026-06-30; Binders and therapeutics)
 
 <a id="paper-category-enzymes-and-function"></a>
-#### Enzymes & Function / 酶与功能 (17)
+#### Enzymes & Function / 酶与功能 (18)
 
+- [De Novo Design of C-H Hydroxylation Enzymes with Programmed Selectivities](https://doi.org/10.64898/2026.11.12.766315) (bioRxiv, 2026-11-16; first seen 2026-11-17; Enzymes and function, Experimental validation)
 - [De Novo Design of Catalytically Active Salen-Binding Proteins](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen) (Journal of the American Chemical Society, 2026-11-07; first seen 2026-11-07; Enzymes and function, Experimental validation)
 - [Programmed mineralization of metal-oxides by de novo designed protein templates](https://doi.org/10.1101/2024.06.24.600095) (bioRxiv, 2026-11-05; first seen 2026-11-07; Enzymes and function)
 - [Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning](https://www.nature.com/articles/s41467-026-79287-x) (Nat Commun, 2026-11-05; first seen 2026-11-06; Enzymes and function)
@@ -359,8 +369,11 @@ No newly collected high-confidence papers today. The cumulative library below is
 - [Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy](http://arxiv.org/abs/2607.10887v1) (arXiv, 2026-07-12; first seen 2026-07-14; Experimental validation)
 
 <a id="paper-category-general"></a>
-#### General / 综合 (39)
+#### General / 综合 (42)
 
+- [From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204) (Current Opinion in Structural Biology, 2027-02; first seen 2026-11-17; General)
+- [ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks](https://doi.org/10.64898/2026.11.13.766391) (bioRxiv, 2026-11-16; first seen 2026-11-17; General)
+- [Single vegetable soybean kernel protein content determination using near-infrared hyperspectral imaging with explainable machine and deep learning](https://linkinghub.elsevier.com/retrieve/pii/S0889157526008471) (Journal of Food Composition and Analysis, 2026-11; first seen 2026-11-17; General)
 - [DPI-score: a deep learning-based metric for assessing protein-protein interfaces in cryoEM derived assemblies](https://www.nature.com/articles/s41467-026-79090-8) (Nat Commun, 2026-11-14; first seen 2026-11-14; General)
 - [Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation](https://doi.org/10.64898/2026.11.11.766029) (bioRxiv, 2026-11-13; first seen 2026-11-14; General)
 - [Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles](https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401) (Artificial Intelligence in the Life Sciences, 2026-11; first seen 2026-11-13; General)
@@ -403,7 +416,7 @@ No newly collected high-confidence papers today. The cumulative library below is
 
 ### Archive
 
-- [Daily report for 2026-11-16](outputs/daily/2026-11-16.md)
+- [Daily report for 2026-11-17](outputs/daily/2026-11-17.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

@@ -2250,6 +2250,33 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42810683/"
     },
+    "doi:10.1016/j.jfca.2026.109704": {
+      "abstract": "",
+      "authors": [
+        "Lu Huang",
+        "Yuxin Xiao",
+        "Xiaotian Yuan",
+        "Xiaoyan Zhang",
+        "Xingxing Yuan",
+        "Xin Chen",
+        "Chenchen Xue",
+        "Chu Zhang"
+      ],
+      "doi": "10.1016/j.jfca.2026.109704",
+      "first_seen": "2026-11-17",
+      "published": "2026-11",
+      "reasons": [
+        "deep learning",
+        "protein"
+      ],
+      "source": "Journal of Food Composition and Analysis",
+      "source_id": "10.1016/j.jfca.2026.109704",
+      "title": "Single vegetable soybean kernel protein content determination using near-infrared hyperspectral imaging with explainable machine and deep learning",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0889157526008471"
+    },
     "doi:10.1016/j.jfoodeng.2026.113373": {
       "abstract": "",
       "authors": [
@@ -2781,6 +2808,30 @@
         "Enzymes and function"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095"
+    },
+    "doi:10.1016/j.sbi.2026.103438": {
+      "abstract": "",
+      "authors": [
+        "Aldo S. Pasos-Trejo",
+        "Klara Bonneau",
+        "Andrea Guljas",
+        "Ana Molina-Taborda",
+        "Cecilia Clementi"
+      ],
+      "doi": "10.1016/j.sbi.2026.103438",
+      "first_seen": "2026-11-17",
+      "published": "2027-02",
+      "reasons": [
+        "artificial intelligence",
+        "protein"
+      ],
+      "source": "Current Opinion in Structural Biology",
+      "source_id": "10.1016/j.sbi.2026.103438",
+      "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics",
+      "topics": [
+        "General"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
@@ -10015,6 +10066,138 @@
         "General"
       ],
       "url": "https://doi.org/10.64898/2026.11.11.766029"
+    },
+    "doi:10.64898/2026.11.12.760042": {
+      "abstract": "Monobodies (Mobs) are a class of immunoglobulin (Ig)-like proteins that have emerged as promising therapeutic scaffolds for applications ranging from antiviral therapy to cancer treatment. Unlike conventional monoclonal antibodies (mAbs), Mobs can be readily expressed in Escherichia coli at high yields, offering important advantages in overall developability. However, discovering antigen-specific Mobs with high binding affinity traditionally requires screening large, randomized in vitro libraries. To optimize Mob discovery, we developed MobGen, a computational pipeline for de novo design of Mob binders against viral antigens. As a proof of concept, we generated Mobs that bind the SARS-CoV-2 Spike glycoprotein Receptor Binding Domain (RBD). Subsequent in silico optimization improved production yield, thermal and conformational stability, binding affinity, and antiviral activity, demonstrating a promising approach for rapidly developing antibody-like molecules that target viral entry. These findings highlight MobGen's potential for de novo design of Mobs against emerging viruses with pandemic potential.",
+      "authors": [
+        "Moreira, P.",
+        "Xiao, S.",
+        "Conceicao, C. J. F.",
+        "Alenquer, M.",
+        "Silva, D. H.",
+        "Parada, M.",
+        "Marques, M. C.",
+        "Schimdt, J.",
+        "Buga, C. C.",
+        "Cruz-Oliveira, C.",
+        "Rodrigues, J.",
+        "Miranda, M. P. d.",
+        "Vieira-da-Silva, B.",
+        "Wei, Y.",
+        "Collado, J.",
+        "Rodriguez-Espinosa, M. J.",
+        "Arranz, R.",
+        "Georgeon, S.",
+        "Santiago, C.",
+        "Valpuesta, J. M.",
+        "Veiga, A. S.",
+        "Castanho, M. A. R. B.",
+        "Abreu, I. A.",
+        "Amorim, M. J.",
+        "Vicente, J. B.",
+        "Correia, B. E.",
+        "Soares, C. M.",
+        "Lousa, D."
+      ],
+      "doi": "10.64898/2026.11.12.760042",
+      "first_seen": "2026-11-17",
+      "published": "2026-11-16",
+      "reasons": [
+        "de novo design",
+        "stability",
+        "antibody",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.12.760042",
+      "title": "De novo design of antiviral monobody binders",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.12.760042"
+    },
+    "doi:10.64898/2026.11.12.766315": {
+      "abstract": "The ability to precisely functionalize individual C-H bonds in complex organic molecules would transform synthetic strategies to produce essential chemicals. In nature, C-H oxidations are commonly achieved using metalloenzymes such as cytochrome P450s, however adapting these systems to achieve selective conversions of complex substrates requires extensive enzyme discovery and engineering campaigns. Here we show that selective C-H oxidation biocatalysts can be programmed computationally from minimal structural inputs comprising a Cys-ligated heme cofactor, catalytic side chains required for H2O2 activation and heterolysis, and the target substrate precisely positioned adjacent to the resulting ferryl intermediate (Compound I). We designed heme hydroxylases for increasingly complex substrates, progressing from aromatic and aliphatic oxidations of fluorogenic model compounds to regiodivergent oxidation of estradiol at either the benzylic C6 (93% d.e.) or unactivated C16 (99% d.e.) positions. Crystal structures across all campaigns confirm the accuracy of the design pipeline. Together, these results establish a general framework for constructing selective heme hydroxylases around predefined substrates and reaction geometries, providing a path toward custom biocatalysts for site-selective C-H functionalizations.",
+      "authors": [
+        "Kalvet, I.",
+        "Jeung, J.",
+        "Gao, S.",
+        "Andrews, A. C.",
+        "Wenke, B.",
+        "Smithson, R.",
+        "Mendoza, J.",
+        "Nguyen, H.",
+        "Joyce, E.",
+        "Kang, A.",
+        "Bera, A. K.",
+        "Green, A. P.",
+        "Baker, D."
+      ],
+      "doi": "10.64898/2026.11.12.766315",
+      "first_seen": "2026-11-17",
+      "published": "2026-11-16",
+      "reasons": [
+        "de novo design",
+        "enzyme"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.12.766315",
+      "title": "De Novo Design of C-H Hydroxylation Enzymes with Programmed Selectivities",
+      "topics": [
+        "Enzymes and function",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.12.766315"
+    },
+    "doi:10.64898/2026.11.13.766344": {
+      "abstract": "Functional annotation using protein language models (`pLMs') usually proceeds by transferring the function of a query's nearest neighbour in a reference database. A major drawback is that embedding-based annotation transfer has no null model, i.e. no accepted way to set a cosine-similarity threshold to control false positives. This contrasts with traditional bioinformatics methods, including sequence- and structure-based alignment tools, which rank hits with E-values derived from explicit null models. Here, we benchmark final-layer, mean-pooled embeddings from twelve models against MMseqs2 and Foldseek for remote-homology retrieval on curated datasets based on Swiss-Prot and SCOPe, fixing per-model thresholds at a 1% false-positive rate and probing the score with a ladder of synthetic decoys. On Swiss-Prot, pLMs without retrieval training recover at most 15% of remote homologs at this operating point, against 85% for MMseqs2, and for the ESM-2 and ESM-C families shuffled decoys have higher cosine similarities to their nearest database hits than real remote homologs do. These two pLM families exhibit extreme anisotropy, using fewer than 15 effective dimensions out of 640-2560, and low effective dimensionality is strongly associated with poor performance across models. Applying ZCA whitening, fit on the reference database, to the embeddings sharply raises threshold-free Top-1 superfamily retrieval, e.g. for ESM-2 650M from 59% to 88% on SCOPe, and generally improves remote homology sensitivity at a fixed false-positive rate. As correcting embedding anisotropy requires only the reference database and is compute cheap, it should be considered and tested for any pLM embedding-based annotation task.",
+      "authors": [
+        "Bouras, G.",
+        "Edwards, R. A."
+      ],
+      "doi": "10.64898/2026.11.13.766344",
+      "first_seen": "2026-11-17",
+      "published": "2026-11-16",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.13.766344",
+      "title": "Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.13.766344"
+    },
+    "doi:10.64898/2026.11.13.766391": {
+      "abstract": "Protein flexibility is a key determinant of molecular recognition, catalysis, and regulation, yet remains difficult to characterise at scale. Molecular dynamics (MD) simulations provide detailed descriptions of time-dependent dynamics but are computationally expensive. Although recent AI-based structure prediction methods have substantially improved access to high-quality static protein structures, they inherently lack information regarding the dynamic fluctuations essential for functional understanding. There is therefore a need for scalable, structure-based computational approaches that can infer intrinsic protein flexibility without explicit dynamical sampling. We present ProtFlap, a graph neural network framework for predicting relative residue-level flexibility directly from static protein structures. ProtFlap represents proteins as residue interaction graphs and integrates empirical atomic energy features extracted from a single energy-minimised snapshot with structural and sequence-derived descriptors. Central to our approach is the hypothesis that the local atomic energy network encoded in a frozen protein structure contains sufficient information to estimate structural flexibility. Trained using atomic mobility labels, quantified via normalised root-mean-square fluctuation (RMSF) derived from short MD simulations, ProtFlap achieves robust and accurate flexibility prediction across diverse protein domains. Feature attribution analysis reveals that van der Waals-related energy terms are the dominant contributors to the prediction.",
+      "authors": [
+        "Lubna, H.",
+        "Choi, Y."
+      ],
+      "doi": "10.64898/2026.11.13.766391",
+      "first_seen": "2026-11-17",
+      "published": "2026-11-16",
+      "reasons": [
+        "deep learning",
+        "structure prediction",
+        "graph neural network",
+        "protein",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.13.766391",
+      "title": "ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks",
+      "topics": [
+        "General"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.13.766391"
     }
   }
 }
