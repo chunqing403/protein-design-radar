@@ -1835,6 +1835,37 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42855405/"
     },
+    "doi:10.1016/j.ejmech.2026.119557": {
+      "abstract": "",
+      "authors": [
+        "Enrico Mario Alessandro Fassi",
+        "Sara Mathlouthi",
+        "Elena Maspero",
+        "Edoardo Sisti",
+        "Giulia Tamboia",
+        "Giuseppe De Vita",
+        "Fabio Forlani",
+        "Simona Polo",
+        "Alessandro Gori",
+        "Kaliroi Peqini",
+        "Sara Pellegrino",
+        "Gabriella Roda"
+      ],
+      "doi": "10.1016/j.ejmech.2026.119557",
+      "first_seen": "2026-11-18",
+      "published": "2026-11",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "source": "European Journal of Medicinal Chemistry",
+      "source_id": "10.1016/j.ejmech.2026.119557",
+      "title": "Integrating Artificial Intelligence Prescreening with Molecular Dynamics for the Design of Peptide-Based WWP1 Inhibitors as Promising Therapeutic Agents Against Breast Cancer, Including the Triple-Negative Subtype",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426010020"
+    },
     "doi:10.1016/j.ejmp.2026.106108": {
       "abstract": "",
       "authors": [
@@ -2810,28 +2841,62 @@
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002095"
     },
     "doi:10.1016/j.sbi.2026.103438": {
-      "abstract": "",
+      "abstract": "After sparking a revolution in protein structure prediction, machine learning (ML), and artificial intelligence (AI) are now reshaping the modeling of protein conformational ensembles and dynamics. A fast, scalable, and accurate representation of protein conformational ensembles could enable genome-scale studies of protein function, with broad applications in drug discovery and protein engineering. The challenges associated with this goal, however, are far greater than those involved in single structure prediction because of the broad timescales spanned by protein motion, the complex relationship between sequence and dynamics, and the scarcity of datasets with experimental measurements. Despite these difficulties, many promising solutions have emerged in recent years, ranging from accelerated molecular dynamics to direct sampling of the conformational distribution, as well as some hybrid methods. Here, we review recent AI-powered approaches to tackle protein dynamics and conformational sampling, and outline their current limitations.",
       "authors": [
-        "Aldo S. Pasos-Trejo",
-        "Klara Bonneau",
-        "Andrea Guljas",
-        "Ana Molina-Taborda",
-        "Cecilia Clementi"
+        "Pasos-Trejo AS",
+        "Bonneau K",
+        "Guljas A",
+        "Molina-Taborda A",
+        "Clementi C"
       ],
       "doi": "10.1016/j.sbi.2026.103438",
       "first_seen": "2026-11-17",
-      "published": "2027-02",
+      "published": "2026 Nov 17",
       "reasons": [
+        "protein engineering",
+        "structure prediction",
         "artificial intelligence",
-        "protein"
+        "protein",
+        "sequence",
+        "structure"
       ],
-      "source": "Current Opinion in Structural Biology",
-      "source_id": "10.1016/j.sbi.2026.103438",
-      "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics",
+      "source": "PubMed",
+      "source_id": "43044348",
+      "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics.",
       "topics": [
-        "General"
+        "Enzymes and function",
+        "Experimental validation"
       ],
-      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43044348/"
+    },
+    "doi:10.1016/j.talo.2026.100705": {
+      "abstract": "",
+      "authors": [
+        "Zilei Guo",
+        "Anum Nawaz",
+        "Darren Yip",
+        "Pramod K. Kalambate",
+        "Wenzuo Xu",
+        "Mary Radyk",
+        "Francesca Brillantes Santos",
+        "Amelia Yip",
+        "Tao Chen",
+        "Xiaowu (Shirley) Tang"
+      ],
+      "doi": "10.1016/j.talo.2026.100705",
+      "first_seen": "2026-11-18",
+      "published": "2026-11",
+      "reasons": [
+        "AI-enabled",
+        "peptide"
+      ],
+      "source": "Talanta Open",
+      "source_id": "10.1016/j.talo.2026.100705",
+      "title": "Real-world clinical evaluation of an AI-enabled point-of-care electrochemical biomarker testing system for B-type natriuretic peptide classification",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666831926000986"
     },
     "doi:10.1016/j.xcrp.2026.103551": {
       "abstract": "",
@@ -3669,6 +3734,40 @@
         "Enzymes and function"
       ],
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and"
+    },
+    "doi:10.1021/acs.jcim.6c03241": {
+      "abstract": "Abstract Self-assembling cyclic peptides are promising building blocks for functional biomaterials owing to their enhanced structural stability, proteolytic resistance, and diverse supramolecular architectures. However, how cyclization regulates peptide self-assembly remains poorly understood, and computational frameworks specifically developed for cyclic peptides are still lacking. Here, we demonstrate that disulfide-mediated cyclization fundamentally reshapes peptide self-assembly by significantly enhancing aggregation propensity (AP) and promoting the formation of diverse nanostructures compared with their linear counterparts, as confirmed by coarse-grained molecular dynamics (CGMD) simulations and experimental characterization. Motivated by these findings, we established an integrated computational-experimental framework for the prediction and rational design of self-assembling disulfide-cyclized peptides. A data set comprising 8,000 cyclic pentapeptides was generated using CGMD simulations, and multiple machine learning and deep learning models were systematically evaluated, among which a Graph-Transformer achieved the best predictive performance (R2 = 0.971). The optimized model was subsequently applied to high-throughput screening of 160,000 cyclic hexapeptides using a ranking strategy integrating AP and hydrophobicity, leading to the identification of multiple previously unreported self-assembling candidates. Experimental validation showed excellent agreement with model predictions. Furthermore, systematic sequence analysis revealed residue- and position-dependent assembly rules unique to disulfide-cyclized peptide systems. This work establishes a computational framework for the rapid discovery of self-assembling disulfide-cyclized peptides and provides new mechanistic insights and design principles for peptide-based functional materials.",
+      "authors": [
+        "Runqiu Ma",
+        "Shuyao Zhang",
+        "Hao Liu",
+        "Xinyu Fan",
+        "Kelin Li",
+        "Siqi Guo",
+        "Kui Zhang",
+        "Jia Jin",
+        "Fei Ye"
+      ],
+      "doi": "10.1021/acs.jcim.6c03241",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "deep learning",
+        "experimental validation",
+        "stability",
+        "transformer",
+        "peptide",
+        "sequence"
+      ],
+      "source": "Journal of Chemical Information and Modeling",
+      "source_id": "10.1021/acs.jcim.6c03241",
+      "title": "An Integrated Coarse-Grained Simulation and Graph-Transformer Framework for the Discovery of Self-Assembling Cyclic Peptides",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03241/5471549/An-Integrated-Coarse-Grained-Simulation-and-Graph"
     },
     "doi:10.1021/acs.jcim.6c03837": {
       "abstract": "Abstract Proteins are highly diverse functional polymers where the specific sequence of amino acids, selected from a standard genetically encoded alphabet of 20 (C20), determines the structure and ultimately the function of the resulting folded protein. This standard alphabet has been identified to be nonrandomly distributed in physicochemical properties crucial to both structure formation and function, often referred to as coverage theory. While machine learning models have drastically improved protein structure prediction, success of protein design models lags structure prediction, particularly for custom secondary structure motifs and amino acid alphabets. Here, we therefore bridge contemporary biological theory with recent advancements in artificial intelligence (AI) to develop and evaluate a generative AI protein design model, trained on hundreds of thousands of proteins within the RCSB PDB, for custom secondary structure motifs using reduced amino acid alphabets (RAAs). Results indicate an overall success in designing novel proteins with desired secondary structure motifs for a broad range of amino acid alphabets and complexity of designs. Interestingly, for a substantial fraction of designs, ESMFold predicts a fold close to that of the target structure despite training only on physicochemical sequence space and secondary structure information. The development of this model advances research across multiple disciplines, from general scientific AI architecture development to protein design for biotechnology, astrobiology, and early-Earth evolutionary biology.",
@@ -5156,6 +5255,35 @@
         "Binders and therapeutics"
       ],
       "url": "https://www.nature.com/articles/s44386-026-00069-y"
+    },
+    "doi:10.1039/d6fo02313d": {
+      "abstract": "Bitterness is a major limitation in the utilization of plant-derived proteins in food systems, while conventional identification of bitter peptides is labor-intensive and inefficient. Advances in food informatics, particularly protein language models, provide new opportunities for predicting the properties of food chemicals. In this study, we developed a protein language model-assisted workflow to screen and prioritize potential bitter peptides from Prunus dulcis proteins. Protein sequences were first subjected to in silico digestion to generate candidate peptides. Representations derived from ESM Cambrian (ESMC) embeddings were combined with amino acid index (AAI) descriptors and Binary Profile-based Numerical Coding (BPNC) features to construct a machine learning model for bitterness prediction. The resulting candidates were further prioritized based on their interaction with the bitter taste receptor TAS2R14 using the ConPLex framework. Three peptides, GECIL, GRPR, and GIPEV, were selected for further evaluation. HPLC analysis revealed hydrolysate peaks with retention times consistent with those of the corresponding synthetic standards, providing preliminary chromatographic evidence, and electronic tongue measurements indicated bitterness-related instrumental responses. CCK-8 assays indicated generally maintained cell viability, except for a decrease with GIPEV at 3.2 mg mL-1. Molecular docking and dynamics simulations suggested stable interaction profiles with TAS2R14, with residues S265 and Q266 likely involved in ligand recognition. This study presents an integrated food informatics workflow combining protein language models with structural and experimental evaluation. The proposed strategy provides a useful approach for discovering bitterness-related peptides from plant proteins and offers insight into the molecular basis of peptide bitterness.",
+      "authors": [
+        "Liu Y",
+        "Yu S",
+        "Zhang Y",
+        "Zheng J",
+        "Fu X",
+        "Jin Y"
+      ],
+      "doi": "10.1039/d6fo02313d",
+      "first_seen": "2026-11-18",
+      "published": "2026 Nov 17",
+      "reasons": [
+        "protein language model",
+        "ESM",
+        "protein",
+        "peptide"
+      ],
+      "source": "PubMed",
+      "source_id": "43043306",
+      "title": "Protein language model-assisted screening of bitter peptides from Prunus dulcis.",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43043306/"
     },
     "doi:10.1039/d6sc02631a": {
       "abstract": "Cyclic peptides are promising scaffolds for targeting protein surfaces due to their unique structural and functional advantages. However, the limited availability of cyclic peptide-protein complex structures severely restricts the design of target-specific cyclic peptides. Here, we introduce HFGuidedDesign, a de novo cyclic peptide design framework that integrates a discrete diffusion model with external structure guidance. By incorporating the high-accuracy complex structure predictor HighFold, the framework performs real-time structural evaluation during reverse diffusion sampling and dynamically steers sequence generation toward cyclic peptides with favorable structural plausibility and binding potential. The discrete diffusion model is trained using a two-stage strategy, including pre-training on peptide monomers and fine-tuning on peptide-protein complex structures. In design tasks targeting two distinct proteins, we evaluate two classical cyclization strategies-head-to-tail and disulfide bond cyclization. The resulting cyclic peptides achieved sequence design success rates of 75% and 66.7% for the two targets, demonstrating the effectiveness and generalizability of the framework. This study establishes an innovative and scalable computational framework for sequence-based cyclic peptide design, facilitating the development of peptide-based ligands for protein targeting.",
@@ -10198,6 +10326,177 @@
         "General"
       ],
       "url": "https://doi.org/10.64898/2026.11.13.766391"
+    },
+    "doi:10.64898/2026.11.13.766537": {
+      "abstract": "S-adenosyl-methionine (SAM)-dependent methyltransferases (MTases) are one of the largest and most ancient enzyme superfamilies in biology, transferring a methyl group from SAM to substrates as different as DNA, RNA, proteins, and small-molecule metabolites. Most SAM-MTases share a Class I Rossmann-like SAM-binding core, with substrate specificity determined by variable inserts and accessory domains rather than the conserved fold; as a result, substrate type is unknown for most MTases in sequence databases, which are dominated by unreviewed entries. Here we present SMSTPred (SAM-Methyltransferase Substrate-Type Predictor), a multi-label classifier that predicts MTase substrate type from protein language model embeddings and benchmarks it under homology-disjoint cross-validation against sequence-homology, structure-homology, and profile-HMM baselines. SMSTPred reaches a cluster-disjoint Matthews correlation coefficient (MCC) of 0.94, significantly ahead of sequence-homology (MMseqs2, 0.85), structure-homology (Foldseek, 0.89) and profile-HMM (0.52) baselines, while providing calibrated, per-substrate confidence. Applying it to ~116,000 MTases across 1,249 reference proteomes, we map the substrate landscape of methylation across the tree of life. Substrate specialization tracks taxonomy: animals expand protein- and DNA-methylation, whereas small-molecule methyltransferases are enriched in plants and Actinomycetota; in Actinomycetota beyond what is expected for their proteome size, and in plants in proportion to their larger proteomes. The predictions identify thousands of uncharacterized methyltransferases with substrate type assignments (about half of those in uncharacterized clusters), many corroborated by an independent reaction-retrieval method. Notably, ~11% of enzymes with a single substrate call lack any class-discriminative sequence motif, suggesting that substrate specificity is often encoded beyond short linear motifs. Together, this work provides SMSTPred, a substrate-type predictor for Class I methyltransferases, and a tree-of-life resource of testable functional hypotheses.",
+      "authors": [
+        "Roethler, N.",
+        "Rappoport, D.",
+        "Almada Monter, R.",
+        "Siordia, A.",
+        "Espinoza Herrera, J.",
+        "Jinich, A."
+      ],
+      "doi": "10.64898/2026.11.13.766537",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "enzyme",
+        "binding",
+        "sequence",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.13.766537",
+      "title": "SMSTPred: Protein Language Model Embeddings Predict SAM-Methyltransferase Substrate Specificity and Reveal Metabolite Methyltransferasome Enrichment in Plants and Actinomycetota",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.13.766537"
+    },
+    "doi:10.64898/2026.11.14.766416": {
+      "abstract": "The microscopic structure of human tissues encodes molecular information that is not directly accessible by visual inspection. Current pathology foundation models improve histological interpretation but operate at multicellular resolution. It remains unclear whether routine histology contains structured molecular and cellular information recoverable at single-cell resolution, which biological properties are associated with this recoverability, and where its limits lie. Here, we introduce Loki2, a single-cell pathology foundation model trained on UniSeg, a pan-tissue resource integrating 15 million cells with segmentation, lineage annotations and measured or histology-inferred transcriptomic profiles. We examine the above question across cellular representation, molecular recoverability, and patient-level relevance. Loki2 captures cellular identity and continuous morphological variation, with interpretable latent dimensions linked to physical nuclear phenotypes through DAPI validation. Transcriptomic retrieval and in silico protein staining test molecular recoverability, with gene-level analyses revealing the strongest recovery for genes associated with morphologically distinct cellular identities and functions. Then, patient staging and biomarker discovery connect cellular morphology representations to clinical relevance. Together, these findings establish Loki2 as a biologically interpretable single-cell pathology foundation model and provide the opportunities of recovering cellular and molecular information from routine H&E histology at single-cell resolution.",
+      "authors": [
+        "Chen, W.",
+        "Li, Q.",
+        "Cheng, H.",
+        "Zhang, P.",
+        "Chang, Y.",
+        "Wang, X.",
+        "Tran, T. N.",
+        "Li, C.",
+        "Yang, Y.",
+        "Xiao, Y.",
+        "Zhao, X.",
+        "Wu, W.",
+        "Ma, A.",
+        "Mora, A.",
+        "Rojas, M.",
+        "Aggarwal, S.",
+        "Lin, S. H.",
+        "Li, S.",
+        "Ma, Q.",
+        "Wang, G."
+      ],
+      "doi": "10.64898/2026.11.14.766416",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "foundation model",
+        "protein",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.14.766416",
+      "title": "A Biologically Interpretable Single-Cell Pathology Foundation Model for Molecular Decoding of H&E Images",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.14.766416"
+    },
+    "doi:10.64898/2026.11.15.766634": {
+      "abstract": "De novo peptide sequencing reads peptides directly from tandem mass spectra, but none of the released deep learning models can sequence peptides labeled with isobaric tags such as TMTpro, which are widely used for multiplexed quantitative proteomics. We extended the residue vocabulary of Casanovo with TMTpro tags and phosphorylation, fine-tuned it on 21 million spectra from our laboratory, most of them TMTpro-labeled, and re-ranked the candidates in the beam by their agreement with the measured precursor mass. The resulting model, Casanovo-TMT, predicted the exact peptidoform for 84.7% of the TMTpro-labeled spectra in our test set and for 87.4 and 79.6% of the spectra in two public global-proteome datasets from other laboratories, whereas the extended vocabulary without fine-tuning gave 0.3%. Discarding the lowest-scoring predictions raised precision to 95% while retaining 81.7% of the test spectra. Casanovo-TMT also predicted the exact peptidoform for 69.2% of the spectra in a public phosphopeptide-enriched dataset and for 66 to 72% of the phosphopeptide spectra in three phosphoproteomic studies from our laboratory that were not used for training. In these studies, it identified numbers of phosphopeptides comparable to or larger than those of database search engines, and proportionally more where database search identified fewer. For the phosphopeptides identified only by Casanovo-TMT, entrapment estimated that more than 90% were correct, and an independent search engine assigned the same sequence to 95 to 98% of the spectra that it identified with confidence. Casanovo-TMT can therefore extend database search in TMTpro-based quantitative proteomics, particularly in studies in which database search identifies few phosphopeptides.",
+      "authors": [
+        "Kim, H. B.",
+        "Kim, K.-e."
+      ],
+      "doi": "10.64898/2026.11.15.766634",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "deep learning",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.15.766634",
+      "title": "Casanovo-TMT: deep learning-based de novo sequencing of TMTpro-labeled peptides and phosphopeptides",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.15.766634"
+    },
+    "doi:10.64898/2026.11.15.766718": {
+      "abstract": "Predicting enzyme turnover numbers ($k_{\\mathrm{cat}}$) from protein sequences and reaction chemistry helps prioritize candidates in virtual screening. Reliable ranking requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models combine enzyme and chemical information, but two representation challenges remain. First, reactants and products have distinct roles in catalysis: reactants are recognized and transformed, whereas products are formed and released. Yet these models merge the two sides before enzyme interaction, leaving the enzyme's response to each role implicit. Second, enzyme representations produced by cross-attention mix reaction-dependent changes with an enzyme-specific background shared across chemical conditions. This mixture can obscure activity-relevant differences between samples. To address these challenges, we introduce EnzRef, a lightweight multimodal framework that adapts frozen protein language models by decomposing reaction chemistry into reactant and product conditions, expressing each conditioned enzyme response relative to that enzyme's background, and recomposing the responses for activity prediction. Reference-Centered Cross-Attention uses each enzyme's average residue response as an internal reference to expose role-specific conditional deviations. Symmetry-Aware Semantic Recomposition encodes the mean deviation and directed role contrast into a joint activity representation. With 1.72M trainable parameters beyond the frozen encoder, EnzRef achieves state-of-the-art source-domain prediction on CatPred-DB and zero-shot transfer to TurNuP-DB. On unseen enzymes, it improves mean $R^2$ by 19.8% relative to MCKcat, the strongest baseline, without target-domain adaptation.",
+      "authors": [
+        "Ding, A.",
+        "Ma, T.",
+        "Lin, X.",
+        "Lin, S.",
+        "Liu, X.",
+        "Wei, L."
+      ],
+      "doi": "10.64898/2026.11.15.766718",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "enzyme"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.15.766718",
+      "title": "Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction",
+      "topics": [
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.15.766718"
+    },
+    "doi:10.64898/2026.11.15.766879": {
+      "abstract": "Protein inverse folding designs amino-acid sequences that fold into a target backbone structure. Existing deep-learning methods exploit backbone geometry but not evolutionary statistics. Those statistics come from a multiple sequence alignment, which must be built from a query sequence. That query is the sequence to be designed, so the dependency is circular. We present FoldMapper, an inverse folding model that breaks this circularity. It retrieves structural homologues by shape alone, then aggregates their amino-acid identities into a per-residue structural position-specific frequency (SPSF) profile. A Multiscale Graph Encoder passes a sparse profile-conditioned encoding into a dense structure-conditioned message-passing network. FoldMapper reaches 60.0% best-of-100 sequence recovery on TED domains, 64.9% on PDB, and 51.3%/53.1% on PPIBindBench non-peptide and peptide binders. Across both benchmarks, it lies on the recovery-diversity Pareto front. Structure self-consistency surpasses all baselines on RFdiffusion de novo monomer and binder backbones, and matches the strongest baselines on natural proteins. Ablations and profile-quality analyses show that structure itself encodes recoverable evolutionary information, accessible without a sequence homology search.",
+      "authors": [
+        "Kim, H.",
+        "Lee, J."
+      ],
+      "doi": "10.64898/2026.11.15.766879",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "inverse folding",
+        "RFdiffusion",
+        "folding",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.15.766879",
+      "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
+      "topics": [
+        "Structure generation",
+        "Sequence design",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.15.766879"
+    },
+    "doi:10.64898/2026.11.16.766906": {
+      "abstract": "VReceptor is a virtual receptor simulation framework that generates realistic, sequence-dependent binding data for peptide-based therapeutics. It combines pharmacophore-inspired weighting schemes with amino acid similarity metrics to evaluate peptide design strategies in a controlled environment. Validation using the Prolactin-Releasing Peptide (PrRP) dataset confirms VReceptor's ability to approximate binding behaviours and optimize experimental planning. This framework empowers researchers in computational peptide design and active learning workflows while highlighting areas for further refinement.",
+      "authors": [
+        "Conde-Frieboes, K.",
+        "Stahlhut, C."
+      ],
+      "doi": "10.64898/2026.11.16.766906",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "reasons": [
+        "active learning",
+        "peptide",
+        "binding",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.16.766906",
+      "title": "Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning",
+      "topics": [
+        "Binders and therapeutics",
+        "Experimental validation"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.16.766906"
     }
   }
 }

@@ -426,6 +426,12 @@
       "title": "Corrigendum to “AVP-GPT2: Prompt-conditioned fine-tuning of a GPT-2 protein language model for antiviral peptide identification” [Eur. J. Med. Chem. 320 (2026) 119352]",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426008548"
     },
+    "doi:10.1016/j.ejmech.2026.119557": {
+      "first_seen": "2026-11-18",
+      "source": "European Journal of Medicinal Chemistry",
+      "title": "Integrating Artificial Intelligence Prescreening with Molecular Dynamics for the Design of Peptide-Based WWP1 Inhibitors as Promising Therapeutic Agents Against Breast Cancer, Including the Triple-Negative Subtype",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0223523426010020"
+    },
     "doi:10.1016/j.ejmp.2026.106108": {
       "first_seen": "2026-09-24",
       "source": "Physica Medica",
@@ -660,6 +666,12 @@
       "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204"
     },
+    "doi:10.1016/j.talo.2026.100705": {
+      "first_seen": "2026-11-18",
+      "source": "Talanta Open",
+      "title": "Real-world clinical evaluation of an AI-enabled point-of-care electrochemical biomarker testing system for B-type natriuretic peptide classification",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666831926000986"
+    },
     "doi:10.1016/j.xcrp.2026.103551": {
       "first_seen": "2026-09-11",
       "source": "Cell Reports Physical Science",
@@ -839,6 +851,12 @@
       "source": "Journal of Chemical Information and Modeling",
       "title": "Systematic Profiling of Encoder Architectures and Multimodal Embeddings in Protein Foundation Models Reveals Data Set-Driven Separability Regimes in Prediction of Allosteric and Orthosteric Binding Sites",
       "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03114/5458018/Systematic-Profiling-of-Encoder-Architectures-and"
+    },
+    "doi:10.1021/acs.jcim.6c03241": {
+      "first_seen": "2026-11-18",
+      "source": "Journal of Chemical Information and Modeling",
+      "title": "An Integrated Coarse-Grained Simulation and Graph-Transformer Framework for the Discovery of Self-Assembling Cyclic Peptides",
+      "url": "https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03241/5471549/An-Integrated-Coarse-Grained-Simulation-and-Graph"
     },
     "doi:10.1021/acs.jcim.6c03837": {
       "first_seen": "2026-11-04",
@@ -1181,6 +1199,12 @@
       "source": "npj Drug Discov.",
       "title": "Interpretable machine learning framework for peptide lead optimization in ultralarge design spaces",
       "url": "https://www.nature.com/articles/s44386-026-00069-y"
+    },
+    "doi:10.1039/d6fo02313d": {
+      "first_seen": "2026-11-18",
+      "source": "PubMed",
+      "title": "Protein language model-assisted screening of bitter peptides from Prunus dulcis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43043306/"
     },
     "doi:10.1039/d6sc02631a": {
       "first_seen": "2026-08-21",
@@ -2213,6 +2237,42 @@
       "source": "bioRxiv",
       "title": "ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks",
       "url": "https://doi.org/10.64898/2026.11.13.766391"
+    },
+    "doi:10.64898/2026.11.13.766537": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "SMSTPred: Protein Language Model Embeddings Predict SAM-Methyltransferase Substrate Specificity and Reveal Metabolite Methyltransferasome Enrichment in Plants and Actinomycetota",
+      "url": "https://doi.org/10.64898/2026.11.13.766537"
+    },
+    "doi:10.64898/2026.11.14.766416": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "A Biologically Interpretable Single-Cell Pathology Foundation Model for Molecular Decoding of H&E Images",
+      "url": "https://doi.org/10.64898/2026.11.14.766416"
+    },
+    "doi:10.64898/2026.11.15.766634": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "Casanovo-TMT: deep learning-based de novo sequencing of TMTpro-labeled peptides and phosphopeptides",
+      "url": "https://doi.org/10.64898/2026.11.15.766634"
+    },
+    "doi:10.64898/2026.11.15.766718": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction",
+      "url": "https://doi.org/10.64898/2026.11.15.766718"
+    },
+    "doi:10.64898/2026.11.15.766879": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
+      "url": "https://doi.org/10.64898/2026.11.15.766879"
+    },
+    "doi:10.64898/2026.11.16.766906": {
+      "first_seen": "2026-11-18",
+      "source": "bioRxiv",
+      "title": "Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning",
+      "url": "https://doi.org/10.64898/2026.11.16.766906"
     }
   }
 }

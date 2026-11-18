@@ -1,69 +1,113 @@
-# Protein Design Paper Radar - 2026-11-17
+# Protein Design Paper Radar - 2026-11-18
 
-Generated on 2026-11-17T08:05:57Z.
+Generated on 2026-11-18T07:41:08Z.
 
-Found 6 recommended papers.
+Found 10 recommended papers.
 
 ## Highlights
 
-### 1. ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks
+### 1. FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-16
-- **Authors:** Lubna, H., Choi, Y.
-- **Topics:** General
-- **Why it matched:** deep learning, structure prediction, graph neural network, protein, sequence, structure
-- **Link:** https://doi.org/10.64898/2026.11.13.766391
-- **DOI:** 10.64898/2026.11.13.766391
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Kim, H., Lee, J.
+- **Topics:** Structure generation, Sequence design, Binders and therapeutics
+- **Why it matched:** inverse folding, RFdiffusion, folding, protein, peptide, sequence
+- **Link:** https://doi.org/10.64898/2026.11.15.766879
+- **DOI:** 10.64898/2026.11.15.766879
 
-Protein flexibility is a key determinant of molecular recognition, catalysis, and regulation, yet remains difficult to characterise at scale. Molecular dynamics (MD) simulations provide detailed descriptions of time-dependent dynamics but are computationally expensive. Although recent AI-based structure prediction methods have substantially improved access...
+Protein inverse folding designs amino-acid sequences that fold into a target backbone structure. Existing deep-learning methods exploit backbone geometry but not evolutionary statistics. Those statistics come from a multiple sequence alignment, which must be built from a query sequence. That query is the sequence to be designed, so the dependency is...
 
-### 2. Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval
+### 2. An Integrated Coarse-Grained Simulation and Graph-Transformer Framework for the Discovery of Self-Assembling Cyclic Peptides
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-16
-- **Authors:** Bouras, G., Edwards, R. A.
+- **Status:** NEW | **Source:** Journal of Chemical Information and Modeling | **Date:** 2026-11-17
+- **Authors:** Runqiu Ma, Shuyao Zhang, Hao Liu et al.
+- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
+- **Why it matched:** deep learning, experimental validation, stability, transformer, peptide, sequence
+- **Link:** https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03241/5471549/An-Integrated-Coarse-Grained-Simulation-and-Graph
+- **DOI:** 10.1021/acs.jcim.6c03241
+
+Abstract Self-assembling cyclic peptides are promising building blocks for functional biomaterials owing to their enhanced structural stability, proteolytic resistance, and diverse supramolecular architectures. However, how cyclization regulates peptide self-assembly remains poorly understood, and computational frameworks specifically developed for cyclic...
+
+### 3. Protein language model-assisted screening of bitter peptides from Prunus dulcis.
+
+- **Status:** NEW | **Source:** PubMed | **Date:** 2026 Nov 17
+- **Authors:** Liu Y, Yu S, Zhang Y et al.
+- **Topics:** Protein language models, Binders and therapeutics, Experimental validation
+- **Why it matched:** protein language model, ESM, protein, peptide
+- **Link:** https://pubmed.ncbi.nlm.nih.gov/43043306/
+- **DOI:** 10.1039/d6fo02313d
+
+Bitterness is a major limitation in the utilization of plant-derived proteins in food systems, while conventional identification of bitter peptides is labor-intensive and inefficient. Advances in food informatics, particularly protein language models, provide new opportunities for predicting the properties of food chemicals. In this study, we developed a...
+
+### 4. SMSTPred: Protein Language Model Embeddings Predict SAM-Methyltransferase Substrate Specificity and Reveal Metabolite Methyltransferasome Enrichment in Plants and Actinomycetota
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Roethler, N., Rappoport, D., Almada Monter, R. et al.
+- **Topics:** Structure generation, Protein language models, Enzymes and function
+- **Why it matched:** protein language model, protein, enzyme, binding, sequence, structure
+- **Link:** https://doi.org/10.64898/2026.11.13.766537
+- **DOI:** 10.64898/2026.11.13.766537
+
+S-adenosyl-methionine (SAM)-dependent methyltransferases (MTases) are one of the largest and most ancient enzyme superfamilies in biology, transferring a methyl group from SAM to substrates as different as DNA, RNA, proteins, and small-molecule metabolites. Most SAM-MTases share a Class I Rossmann-like SAM-binding core, with substrate specificity determined...
+
+### 5. Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction
+
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Ding, A., Ma, T., Lin, X. et al.
 - **Topics:** Protein language models, Enzymes and function
-- **Why it matched:** protein language model, ESM, protein, sequence, structure
-- **Link:** https://doi.org/10.64898/2026.11.13.766344
-- **DOI:** 10.64898/2026.11.13.766344
+- **Why it matched:** protein language model, protein, enzyme
+- **Link:** https://doi.org/10.64898/2026.11.15.766718
+- **DOI:** 10.64898/2026.11.15.766718
 
-Functional annotation using protein language models (`pLMs') usually proceeds by transferring the function of a query's nearest neighbour in a reference database. A major drawback is that embedding-based annotation transfer has no null model, i.e. no accepted way to set a cosine-similarity threshold to control false positives. This contrasts with...
+Predicting enzyme turnover numbers ($k_{\mathrm{cat}}$) from protein sequences and reaction chemistry helps prioritize candidates in virtual screening. Reliable ranking requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models combine enzyme and chemical information, but two representation challenges remain....
 
-### 3. De novo design of antiviral monobody binders
+### 6. Casanovo-TMT: deep learning-based de novo sequencing of TMTpro-labeled peptides and phosphopeptides
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-16
-- **Authors:** Moreira, P., Xiao, S., Conceicao, C. J. F. et al.
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Kim, H. B., Kim, K.-e.
 - **Topics:** Binders and therapeutics
-- **Why it matched:** de novo design, stability, antibody, binding
-- **Link:** https://doi.org/10.64898/2026.11.12.760042
-- **DOI:** 10.64898/2026.11.12.760042
+- **Why it matched:** deep learning, peptide, sequence
+- **Link:** https://doi.org/10.64898/2026.11.15.766634
+- **DOI:** 10.64898/2026.11.15.766634
 
-Monobodies (Mobs) are a class of immunoglobulin (Ig)-like proteins that have emerged as promising therapeutic scaffolds for applications ranging from antiviral therapy to cancer treatment. Unlike conventional monoclonal antibodies (mAbs), Mobs can be readily expressed in Escherichia coli at high yields, offering important advantages in overall...
+De novo peptide sequencing reads peptides directly from tandem mass spectra, but none of the released deep learning models can sequence peptides labeled with isobaric tags such as TMTpro, which are widely used for multiplexed quantitative proteomics. We extended the residue vocabulary of Casanovo with TMTpro tags and phosphorylation, fine-tuned it on 21...
 
-### 4. De Novo Design of C-H Hydroxylation Enzymes with Programmed Selectivities
+### 7. Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning
 
-- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-16
-- **Authors:** Kalvet, I., Jeung, J., Gao, S. et al.
-- **Topics:** Enzymes and function, Experimental validation
-- **Why it matched:** de novo design, enzyme
-- **Link:** https://doi.org/10.64898/2026.11.12.766315
-- **DOI:** 10.64898/2026.11.12.766315
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Conde-Frieboes, K., Stahlhut, C.
+- **Topics:** Binders and therapeutics, Experimental validation
+- **Why it matched:** active learning, peptide, binding, sequence
+- **Link:** https://doi.org/10.64898/2026.11.16.766906
+- **DOI:** 10.64898/2026.11.16.766906
 
-The ability to precisely functionalize individual C-H bonds in complex organic molecules would transform synthetic strategies to produce essential chemicals. In nature, C-H oxidations are commonly achieved using metalloenzymes such as cytochrome P450s, however adapting these systems to achieve selective conversions of complex substrates requires extensive...
+VReceptor is a virtual receptor simulation framework that generates realistic, sequence-dependent binding data for peptide-based therapeutics. It combines pharmacophore-inspired weighting schemes with amino acid similarity metrics to evaluate peptide design strategies in a controlled environment. Validation using the Prolactin-Releasing Peptide (PrRP)...
 
-### 5. From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics
+### 8. A Biologically Interpretable Single-Cell Pathology Foundation Model for Molecular Decoding of H&E Images
 
-- **Status:** NEW | **Source:** Current Opinion in Structural Biology | **Date:** 2027-02
-- **Authors:** Aldo S. Pasos-Trejo, Klara Bonneau, Andrea Guljas et al.
-- **Topics:** General
-- **Why it matched:** artificial intelligence, protein
-- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204
-- **DOI:** 10.1016/j.sbi.2026.103438
+- **Status:** NEW | **Source:** bioRxiv | **Date:** 2026-11-17
+- **Authors:** Chen, W., Li, Q., Cheng, H. et al.
+- **Topics:** Protein language models
+- **Why it matched:** foundation model, protein, structure
+- **Link:** https://doi.org/10.64898/2026.11.14.766416
+- **DOI:** 10.64898/2026.11.14.766416
 
-### 6. Single vegetable soybean kernel protein content determination using near-infrared hyperspectral imaging with explainable machine and deep learning
+The microscopic structure of human tissues encodes molecular information that is not directly accessible by visual inspection. Current pathology foundation models improve histological interpretation but operate at multicellular resolution. It remains unclear whether routine histology contains structured molecular and cellular information recoverable at...
 
-- **Status:** NEW | **Source:** Journal of Food Composition and Analysis | **Date:** 2026-11
-- **Authors:** Lu Huang, Yuxin Xiao, Xiaotian Yuan et al.
-- **Topics:** General
-- **Why it matched:** deep learning, protein
-- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0889157526008471
-- **DOI:** 10.1016/j.jfca.2026.109704
+### 9. Real-world clinical evaluation of an AI-enabled point-of-care electrochemical biomarker testing system for B-type natriuretic peptide classification
+
+- **Status:** NEW | **Source:** Talanta Open | **Date:** 2026-11
+- **Authors:** Zilei Guo, Anum Nawaz, Darren Yip et al.
+- **Topics:** Binders and therapeutics
+- **Why it matched:** AI-enabled, peptide
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S2666831926000986
+- **DOI:** 10.1016/j.talo.2026.100705
+
+### 10. Integrating Artificial Intelligence Prescreening with Molecular Dynamics for the Design of Peptide-Based WWP1 Inhibitors as Promising Therapeutic Agents Against Breast Cancer, Including the Triple-Negative Subtype
+
+- **Status:** NEW | **Source:** European Journal of Medicinal Chemistry | **Date:** 2026-11
+- **Authors:** Enrico Mario Alessandro Fassi, Sara Mathlouthi, Elena Maspero et al.
+- **Topics:** Binders and therapeutics
+- **Why it matched:** artificial intelligence, peptide
+- **Link:** https://linkinghub.elsevier.com/retrieve/pii/S0223523426010020
+- **DOI:** 10.1016/j.ejmech.2026.119557

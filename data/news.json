@@ -72,6 +72,15 @@
       "title": "Hitting ‘undruggable’ disease targets",
       "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/"
     },
+    "08cb93e7ee6ff4d906b5fcb79b717039b8b4954b": {
+      "category": "产业动态",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-06",
+      "source": "Contract Pharma",
+      "summary": "Chai Discovery, Roche to Collaborate on AI Drug Discovery Contract Pharma",
+      "title": "Chai Discovery, Roche to Collaborate on AI Drug Discovery",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZVAxT0swanRzQ09PLXZCYnRyNTQzejJrOElwNndIcWFWTjBlY29BU0RjVmlmdW8yejVYNmVjRDJMb1VTRGlZdC1kMWNoeDJ3U09CU01XWE83SVhQNU82OFRLbXo3NkJ1YVFrUmNCd2owdDlBaUtidjNybEY0RDM2NDNWcldVbW5VTGJYWXdNLUZSZ2lYMHc1d2pNQnlrUnZFdDlXRA?oc=5"
+    },
     "08ddcf041340243cb2f0c3530d8f335ea67a29fc": {
       "category": "产业动态",
       "first_seen": "2026-10-03",
@@ -404,6 +413,15 @@
       "summary": "How Anthropic & Novo Will Use Claude AI for Drug Discovery AI Magazine",
       "title": "How Anthropic & Novo Will Use Claude AI for Drug Discovery",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ0gyOVlWamEtR0VQUHJzMjN3OXhqZjRxMHFTbWlaR1o5YjJZc2lZRnBsVm5fWnlkeUNvejFWTjB5eFFXVWtkdGlmR0NfQXFRTEE4QmFleTEtQ0NVZldRRXF6LWE0bHlWSko2enhKQlp0VUxRUlVKNHBZRlN1UmJ2WHVzRGdjbEZraC1Bbg?oc=5"
+    },
+    "3b93ac94408ff9b8a6398def34fcfcbf7ab57c41": {
+      "category": "产业动态",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-17",
+      "source": "FourWeekMBA",
+      "summary": "How Isomorphic Labs Makes Money: From AlphaFold to Drugs FourWeekMBA",
+      "title": "How Isomorphic Labs Makes Money: From AlphaFold to Drugs",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUnFZeTIzUXFRdGlWWVV5bjc3ME1LYml6SDZjVUZNSjM3dU5hS2d5ZnRpNUR2VjFLWllxaERoeF9BVEkwcGd6WFNmUHdZRDloR0k4UlZIQmtmZG9mTGRPOVF0ME1zT1Y4T29sMmRrLVExSGNPY0xHVFhBaG9FeXRiS2JaNFc2SjYtWVkw?oc=5"
     },
     "3c91f9e28480350540d0c6320d219ffcf9214061": {
       "category": "模型与工具",
@@ -1566,6 +1584,15 @@
       "title": "AlphaFold 3 Advances Plant Protein Modeling but Faces Structural and Dynamic Limits",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckpWWnR5eEhwV2dKdTdNNF9kUUp2UGxtU1VWSjRLbjdyRFpUemdfenFvMHpXM0VKMl91cVNWb3E1OE0xOVU0U0pjQjR2cFJhanZDb25UTzMzZHJOUDhkeWZBVVN2eTNEc3lfbVJrRTNWSGwwTERzQ082VWtSbU5hR05jX3BqeTU3b3F1VzBaaGdFZWNqdUZJTmJRVkkzRjItNFdpZ1pBVElwcVhn?oc=5"
     },
+    "c3322c59bce5b9181f2cbf1f1dbb96fe5033a029": {
+      "category": "产业动态",
+      "first_seen": "2026-11-18",
+      "published": "2026-11-06",
+      "source": "BioTechniques",
+      "summary": "London Protein Design Day: Bringing the UK community together BioTechniques",
+      "title": "London Protein Design Day: Bringing the UK community together",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNFd3c2ZVSVJkUGJGV3dReUkwWWV3QzVlejhMcTJaODA1VGJXdFJTTmNKanplNnE1Zm1oUGowejBPdGR2ZmxmM1VUUEdMWnpGMXg5U3JTVXQ2dFJPY0s3clMtZl81aFhaU1VmYkxoQXlTWkZOaGduS3VfcXBGcFlzOHRPenV4dVBJTmpBdGN2bnFEV2Z4TVZTWU4tUEZmaG51YmNYWA?oc=5"
+    },
     "c61f94bf84c337ac6f0451efff7b0145072a4b52": {
       "category": "产业动态",
       "first_seen": "2026-10-23",
@@ -2064,7 +2091,7 @@
     "feff75fea9c98e95e87109be519e7b8e3d49d9c1": {
       "category": "产业动态",
       "first_seen": "2026-10-31",
-      "published": "2026-10-30",
+      "published": "2026-10-29",
       "source": "Pandaily",
       "summary": "Huawei Says It Will Not Make Drugs, Aims to Be the Computing Base for AI Drug Discovery Pandaily",
       "title": "Huawei Says It Will Not Make Drugs, Aims to Be the Computing Base for AI Drug Discovery",
@@ -2080,5 +2107,5 @@
       "url": "https://github.com/chaidiscovery/chai-lab/releases/tag/v0.5.1"
     }
   },
-  "updated_at": "2026-11-17T08:06:04+00:00"
+  "updated_at": "2026-11-18T07:41:11+00:00"
 }
