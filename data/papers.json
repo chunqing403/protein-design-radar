@@ -2106,6 +2106,31 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763"
     },
+    "doi:10.1016/j.ibmed.2026.100532": {
+      "abstract": "",
+      "authors": [
+        "Md. Faruk Hosen",
+        "S.M.Hasan Mahmud",
+        "Francis Rudra D. Cruze",
+        "Kah Ong Michael Goh"
+      ],
+      "doi": "10.1016/j.ibmed.2026.100532",
+      "first_seen": "2026-11-19",
+      "published": "2026-11",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "peptide"
+      ],
+      "source": "Intelligence-Based Medicine",
+      "source_id": "10.1016/j.ibmed.2026.100532",
+      "title": "ToxMHSA-GRU: A Protein Language Model-Driven Multi-Head Self-Attention Framework for Peptide Toxicity Prediction",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666521226001900"
+    },
     "doi:10.1016/j.idairyj.2026.106887": {
       "abstract": "",
       "authors": [
@@ -2138,6 +2163,36 @@
         "Experimental validation"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419"
+    },
+    "doi:10.1016/j.identj.2026.110850": {
+      "abstract": "",
+      "authors": [
+        "邓邦莲 邓",
+        "易子安 易",
+        "孟蕾 孟",
+        "聂英 聂",
+        "彭超 彭",
+        "秦文 秦",
+        "陈雪峰 陈",
+        "祝诚 祝",
+        "刘向东 刘",
+        "李刚 李",
+        "赵文爽 赵"
+      ],
+      "doi": "10.1016/j.identj.2026.110850",
+      "first_seen": "2026-11-19",
+      "published": "2026-10",
+      "reasons": [
+        "deep learning",
+        "peptide"
+      ],
+      "source": "International Dental Journal",
+      "source_id": "10.1016/j.identj.2026.110850",
+      "title": "Antimicrobial Peptide Design on Oral-Related Pathogens Based on Deep Learning",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020653926014425"
     },
     "doi:10.1016/j.ijbiomac.2026.154380": {
       "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework which has learned the 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. Its in-built explainability provides clear mechanistic reasoning for the observed interactions. The first time introduced atomic and protein language learning has dramatically made it attain an outstanding level for PPI discovery in absolutely universal manner which can deal any species and potent to even bypass costly experiments.",
@@ -2868,6 +2923,28 @@
         "Experimental validation"
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/43044348/"
+    },
+    "doi:10.1016/j.str.2026.10.012": {
+      "abstract": "",
+      "authors": [
+        "Genki Terashi",
+        "Han Zhu",
+        "Daisuke Kihara"
+      ],
+      "doi": "10.1016/j.str.2026.10.012",
+      "first_seen": "2026-11-19",
+      "published": "2026-11",
+      "reasons": [
+        "deep learning",
+        "protein"
+      ],
+      "source": "Structure",
+      "source_id": "10.1016/j.str.2026.10.012",
+      "title": "DAQplugin: Interactive deep learning-based validation of Cryo-EM protein models in ChimeraX",
+      "topics": [
+        "Experimental validation"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969212626003308"
     },
     "doi:10.1016/j.talo.2026.100705": {
       "abstract": "",
@@ -4203,6 +4280,41 @@
         "Binders and therapeutics"
       ],
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
+    },
+    "doi:10.1021/jacs.6c18843": {
+      "abstract": "Abstract Molecular recognition by proteins underlies many biological processes and depends on the precise spatial organization of functional residues within well-defined binding pockets. Synthetic peptide assembly, however, is frequently biased toward anisotropic fibrillar or other low-dimensional morphologies, owing in part to the directional nature of peptide hydrogen-bonding networks, which can hinder the formation of ordered, structurally encoded binding cavities with biomimetic recognition properties. Here we show that coordination-driven β-sheet reprogramming overcomes this constraint by redirecting peptide assembly into single-crystalline peptide frameworks. Through de novo peptide design, we incorporate tyrosine, a residue that often plays a key role in protein molecular recognition, as a functional side chain, while metal–peptide connectivity suppresses fibrillar growth and decouples backbone packing from side-chain organization, thereby orienting tyrosine residues along internal channel surfaces to generate chiral recognition environments. The resulting frameworks exhibit high chemical and mechanical robustness, allow the spatial organization of tyrosine residues to be resolved crystallographically, and display excellent stereoselective recognition performance toward structurally complex glucocorticoids and chiral pharmaceuticals. Molecular dynamics simulations suggest that tyrosine residues dynamically interact with guest molecules during recognition. Our findings provide a design principle for constructing crystalline peptide frameworks with biomimetic molecular recognition, expanding the structural and functional scope of synthetic peptide materials.",
+      "authors": [
+        "Rui Yao",
+        "Jiachen Ye",
+        "Ying Liu",
+        "Liang Qiao",
+        "Yongsheng Wu",
+        "Zijuan Li",
+        "Bingyu Liu",
+        "Xiao Wang",
+        "Lifang Wu",
+        "Luofei Wei",
+        "Xiangkun Guo",
+        "Jie Liu"
+      ],
+      "doi": "10.1021/jacs.6c18843",
+      "first_seen": "2026-11-19",
+      "published": "2026-11-18",
+      "reasons": [
+        "de novo design",
+        "protein",
+        "peptide",
+        "binding",
+        "structure"
+      ],
+      "source": "Journal of the American Chemical Society",
+      "source_id": "10.1021/jacs.6c18843",
+      "title": "De Novo Design of Single–Crystalline Peptide Frameworks Enables Structure–Encoded Molecular Recognition",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c18843/5472257/De-Novo-Design-of-Single-Crystalline-Peptide"
     },
     "doi:10.1038/d41586-026-03022-1": {
       "abstract": "",
@@ -8445,7 +8557,7 @@
       ],
       "doi": "10.64898/2026.09.25.754455",
       "first_seen": "2026-10-02",
-      "published": "2026-10-12",
+      "published": "2026-11-18",
       "reasons": [
         "protein language model",
         "ESM",
@@ -10421,7 +10533,7 @@
       "url": "https://doi.org/10.64898/2026.11.15.766634"
     },
     "doi:10.64898/2026.11.15.766718": {
-      "abstract": "Predicting enzyme turnover numbers ($k_{\\mathrm{cat}}$) from protein sequences and reaction chemistry helps prioritize candidates in virtual screening. Reliable ranking requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models combine enzyme and chemical information, but two representation challenges remain. First, reactants and products have distinct roles in catalysis: reactants are recognized and transformed, whereas products are formed and released. Yet these models merge the two sides before enzyme interaction, leaving the enzyme's response to each role implicit. Second, enzyme representations produced by cross-attention mix reaction-dependent changes with an enzyme-specific background shared across chemical conditions. This mixture can obscure activity-relevant differences between samples. To address these challenges, we introduce EnzRef, a lightweight multimodal framework that adapts frozen protein language models by decomposing reaction chemistry into reactant and product conditions, expressing each conditioned enzyme response relative to that enzyme's background, and recomposing the responses for activity prediction. Reference-Centered Cross-Attention uses each enzyme's average residue response as an internal reference to expose role-specific conditional deviations. Symmetry-Aware Semantic Recomposition encodes the mean deviation and directed role contrast into a joint activity representation. With 1.72M trainable parameters beyond the frozen encoder, EnzRef achieves state-of-the-art source-domain prediction on CatPred-DB and zero-shot transfer to TurNuP-DB. On unseen enzymes, it improves mean $R^2$ by 19.8% relative to MCKcat, the strongest baseline, without target-domain adaptation.",
+      "abstract": "Predicting enzyme turnover numbers ($k_{\\mathrm{cat}}$) from protein sequences and reaction chemistry supports virtual screening, which requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models face two representation challenges. First, they merge reactants and products before enzyme interaction, leaving separate enzyme responses implicit despite the two sides' distinct roles in recognition, transformation, and release. Second, cross-attention readouts mix reaction-dependent changes with an enzyme-specific residue background, which can obscure activity-relevant differences across samples. To address these challenges, we introduce EnzRef, a lightweight framework for multimodal adaptation of frozen protein language models. EnzRef decomposes reaction chemistry into reactant and product conditions, models their interactions with the enzyme separately, and recomposes the resulting responses for activity prediction. During these interactions, Reference-Centered Cross-Attention expresses each response as a deviation from the enzyme's own residue background to expose chemically conditioned differences for activity discrimination. With 1.72M trainable parameters, EnzRef achieves state-of-the-art source prediction on CatPred-DB and zero-shot transfer to TurNuP-DB. Across ten independent runs, EnzRef achieves 19.8\\% higher mean $R^2$ than the strongest baseline MCKcat in zero-shot transfer to unseen enzymes. It also predicts activity differences more accurately between pairs sharing an enzyme or a reaction.",
       "authors": [
         "Ding, A.",
         "Ma, T.",
@@ -10474,6 +10586,36 @@
       ],
       "url": "https://doi.org/10.64898/2026.11.15.766879"
     },
+    "doi:10.64898/2026.11.16.766359": {
+      "abstract": "The leptin receptor (LEPR) regulates appetite, energy balance, glucose homeostasis, and neuroendocrine function and is closely associated with obesity, diabetes, and neurological disorders. Activation of LEPR signaling suppresses appetite and promotes energy expenditure, whereas impaired LEPR signaling and leptin resistance are commonly associated with obesity. Accordingly, modulation of LEPR signaling is a potential therapeutic strategy for obesity and related metabolic disorders. In this study, we report the de novo computational design of miniprotein binders targeting the leptin-binding site within the cytokine receptor homology 2 (CRH2) domain of LEPR. Computational screening and biochemical characterization identified the miniprotein binder Mini-19484, which adopted a stable -helical fold and exhibited enhanced resistance to proteolytic degradation. Mini-19484 bound the LEPR CRH2 domain with high affinity, with a dissociation constant (Kd) of 30 nM. Structural analysis of the predicted model and mutagenesis studies revealed that Arg18 of Mini-19484 serves as a critical interaction hotspot for LEPR binding. The predicted binding mode of Mini-19484 differed substantially from that of natural leptin, providing a distinct molecular scaffold for targeting the LEPR CRH2 domain. These findings provide a valuable framework for developing miniprotein-based therapeutics targeting LEPR.",
+      "authors": [
+        "Bai, X.",
+        "Zhao, Z.",
+        "Jin, Y.",
+        "Guo, J.",
+        "Ha, N.-C.",
+        "Nam, K. H.",
+        "Xu, Y."
+      ],
+      "doi": "10.64898/2026.11.16.766359",
+      "first_seen": "2026-11-19",
+      "published": "2026-11-18",
+      "reasons": [
+        "de novo design",
+        "miniprotein",
+        "binding",
+        "miniprotein"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.16.766359",
+      "title": "De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.16.766359"
+    },
     "doi:10.64898/2026.11.16.766906": {
       "abstract": "VReceptor is a virtual receptor simulation framework that generates realistic, sequence-dependent binding data for peptide-based therapeutics. It combines pharmacophore-inspired weighting schemes with amino acid similarity metrics to evaluate peptide design strategies in a controlled environment. Validation using the Prolactin-Releasing Peptide (PrRP) dataset confirms VReceptor's ability to approximate binding behaviours and optimize experimental planning. This framework empowers researchers in computational peptide design and active learning workflows while highlighting areas for further refinement.",
       "authors": [
@@ -10497,6 +10639,35 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.11.16.766906"
+    },
+    "doi:10.64898/2026.11.17.767431": {
+      "abstract": "Antimicrobial peptides (AMPs) offer a promising alternative to conventional antibiotics amid the growing global threat of antimicrobial resistance. Expanding AMP discovery requires both effective computational tools to accurately identify candidate peptides and access to underexplored biological resources that may harbor novel AMPs. However, the comparative performance of existing computational methods remains poorly understood, while ancient microbiomes have received limited attention as potential reservoirs of AMPs. Here, we systematically benchmarked six machine learning methods across with twelve feature configurations spanning sequence, structural, and protein language model features under a unified framework using eight curated AMP datasets. The best-performing methods were subsequently applied to three ancient metagenomic datasets representing the human gut (archaeological fecal sediments), human oral cavity (dental calculus), and mammoth-associated communities (teeth, skulls, and skin). In parallel, we employed reinforcement learning to select candidate peptides directly from ancient sequence pools without relying on modern AMP labels. Our benchmarking shows that protein language model embeddings provide the most informative features, and deep learning models, including convolutional, transformer-based, and recurrent architectures, outperform classical methods. Applying these models to ancient microbiomes identified candidates occupied the physicochemical space characteristic of AMPs but differed from those of candidates predicted from modern microbiome catalogs. We identified 111, 76, and 50 high-confidence candidate AMPs from the Neanderthal gut, ancient oral, and mammoth-associated communities, respectively. Reinforcement learning selected additional candidate AMPs with distinct properties compared with those predicted by models trained on modern AMP databases. Together, these findings establish a systematic benchmark for AMP prediction and highlight ancient microbiomes as an untapped source of antimicrobial peptide candidates. By integrating supervised machine learning with reinforcement learning, this study expands AMP discovery beyond modern microbiome catalogs and provides new opportunities to identify potentially novel AMPs.",
+      "authors": [
+        "Zhao, Q.",
+        "Ma, Q.",
+        "Luo, J.",
+        "Chen, C.",
+        "Ke, S."
+      ],
+      "doi": "10.64898/2026.11.17.767431",
+      "first_seen": "2026-11-19",
+      "published": "2026-11-18",
+      "reasons": [
+        "protein language model",
+        "deep learning",
+        "transformer",
+        "protein",
+        "peptide",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.17.767431",
+      "title": "Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes",
+      "topics": [
+        "Protein language models",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.17.767431"
     }
   }
 }

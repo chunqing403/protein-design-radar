@@ -486,11 +486,23 @@
       "title": "De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763"
     },
+    "doi:10.1016/j.ibmed.2026.100532": {
+      "first_seen": "2026-11-19",
+      "source": "Intelligence-Based Medicine",
+      "title": "ToxMHSA-GRU: A Protein Language Model-Driven Multi-Head Self-Attention Framework for Peptide Toxicity Prediction",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666521226001900"
+    },
     "doi:10.1016/j.idairyj.2026.106887": {
       "first_seen": "2026-11-03",
       "source": "International Dairy Journal",
       "title": "Tyrosinase-Inhibitory Activity of Bovine Casein-Derived Peptides: Peptide Identification, In Silico Screening, Enzyme Kinetic Analysis, and Experimental Validation",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0958694626003419"
+    },
+    "doi:10.1016/j.identj.2026.110850": {
+      "first_seen": "2026-11-19",
+      "source": "International Dental Journal",
+      "title": "Antimicrobial Peptide Design on Oral-Related Pathogens Based on Deep Learning",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0020653926014425"
     },
     "doi:10.1016/j.ijbiomac.2026.152871": {
       "first_seen": "2026-07-02",
@@ -665,6 +677,12 @@
       "source": "Current Opinion in Structural Biology",
       "title": "From static structures to conformational ensembles: Artificial intelligence for protein sampling and dynamics",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002204"
+    },
+    "doi:10.1016/j.str.2026.10.012": {
+      "first_seen": "2026-11-19",
+      "source": "Structure",
+      "title": "DAQplugin: Interactive deep learning-based validation of Cryo-EM protein models in ChimeraX",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969212626003308"
     },
     "doi:10.1016/j.talo.2026.100705": {
       "first_seen": "2026-11-18",
@@ -947,6 +965,12 @@
       "source": "Journal of the American Chemical Society",
       "title": "De Novo Design of Targeted Drugs by Precisely Programming Multiple Molecular Binding",
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15828/5422234/De-Novo-Design-of-Targeted-Drugs-by-Precisely"
+    },
+    "doi:10.1021/jacs.6c18843": {
+      "first_seen": "2026-11-19",
+      "source": "Journal of the American Chemical Society",
+      "title": "De Novo Design of Single–Crystalline Peptide Frameworks Enables Structure–Encoded Molecular Recognition",
+      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c18843/5472257/De-Novo-Design-of-Single-Crystalline-Peptide"
     },
     "doi:10.1038/d41586-026-03022-1": {
       "first_seen": "2026-09-25",
@@ -2268,11 +2292,23 @@
       "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
       "url": "https://doi.org/10.64898/2026.11.15.766879"
     },
+    "doi:10.64898/2026.11.16.766359": {
+      "first_seen": "2026-11-19",
+      "source": "bioRxiv",
+      "title": "De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor",
+      "url": "https://doi.org/10.64898/2026.11.16.766359"
+    },
     "doi:10.64898/2026.11.16.766906": {
       "first_seen": "2026-11-18",
       "source": "bioRxiv",
       "title": "Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning",
       "url": "https://doi.org/10.64898/2026.11.16.766906"
+    },
+    "doi:10.64898/2026.11.17.767431": {
+      "first_seen": "2026-11-19",
+      "source": "bioRxiv",
+      "title": "Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes",
+      "url": "https://doi.org/10.64898/2026.11.17.767431"
     }
   }
 }
