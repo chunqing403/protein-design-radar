@@ -7,27 +7,24 @@ Sources: arXiv, bioRxiv, medRxiv, PubMed, and optional Google Scholar via SerpAP
 <!-- PAPER_RADAR:START -->
 ## Latest Recommendations
 
-Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
+Updated: **2026-11-20** (`2026-11-20T07:29:32Z`)
 
 ### Today's New Papers
 
 | # | Paper | Source | Topics |
 |---|---|---|---|
-| 1 | [De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor](https://doi.org/10.64898/2026.11.16.766359)<br><sub>Bai, X., Zhao, Z., Jin, Y. et al.</sub> | bioRxiv<br>2026-11-18 | Structure generation, Binders and therapeutics, Enzymes and function |
-| 2 | [Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes](https://doi.org/10.64898/2026.11.17.767431)<br><sub>Zhao, Q., Ma, Q., Luo, J. et al.</sub> | bioRxiv<br>2026-11-18 | Protein language models, Binders and therapeutics |
-| 3 | [De Novo Design of Single–Crystalline Peptide Frameworks Enables Structure–Encoded Molecular Recognition](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c18843/5472257/De-Novo-Design-of-Single-Crystalline-Peptide)<br><sub>Rui Yao, Jiachen Ye, Ying Liu et al.</sub> | Journal of the American Chemical Society<br>2026-11-18 | Structure generation, Binders and therapeutics |
-| 4 | [ToxMHSA-GRU: A Protein Language Model-Driven Multi-Head Self-Attention Framework for Peptide Toxicity Prediction](https://linkinghub.elsevier.com/retrieve/pii/S2666521226001900)<br><sub>Md. Faruk Hosen, S.M.Hasan Mahmud, Francis Rudra D. Cruze et al.</sub> | Intelligence-Based Medicine<br>2026-11 | Protein language models, Binders and therapeutics |
-| 5 | [DAQplugin: Interactive deep learning-based validation of Cryo-EM protein models in ChimeraX](https://linkinghub.elsevier.com/retrieve/pii/S0969212626003308)<br><sub>Genki Terashi, Han Zhu, Daisuke Kihara</sub> | Structure<br>2026-11 | Experimental validation |
-| 6 | [Antimicrobial Peptide Design on Oral-Related Pathogens Based on Deep Learning](https://linkinghub.elsevier.com/retrieve/pii/S0020653926014425)<br><sub>邓邦莲 邓, 易子安 易, 孟蕾 孟 et al.</sub> | International Dental Journal<br>2026-10 | Binders and therapeutics |
+| 1 | [Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction](https://doi.org/10.64898/2026.11.17.767212)<br><sub>Ullanat, V., Gupta, A., Li, R. et al.</sub> | bioRxiv<br>2026-11-19 | Structure generation, Binders and therapeutics |
+| 2 | [De novo design of peptide-MHC binders targeting histone H3 mutations in pediatric high-grade gliomas](https://linkinghub.elsevier.com/retrieve/pii/S0959804926013699)<br><sub>S. Ryu, K. Narta, A.S. Morrissy</sub> | European Journal of Cancer<br>2026-11 | Binders and therapeutics |
+| 3 | [Artificial intelligence-assisted design of affinity peptide ligand for botulinum neurotoxin A](https://linkinghub.elsevier.com/retrieve/pii/S0045206826013350)<br><sub>Changwei Song, Xuan Pei, Lin Zhang</sub> | Bioorganic Chemistry<br>2026-11 | Binders and therapeutics |
 
 ### Paper Directory / 文献目录
 
 | Category | Papers |
 |---|---:|
-| [Structure Generation / 结构生成](#paper-category-structure-generation) | 87 |
+| [Structure Generation / 结构生成](#paper-category-structure-generation) | 88 |
 | [Sequence Design / 序列设计](#paper-category-sequence-design) | 41 |
 | [Protein Language Models / 蛋白质语言模型](#paper-category-protein-language-models) | 110 |
-| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 64 |
+| [Binders & Therapeutics / 结合蛋白与治疗](#paper-category-binders-and-therapeutics) | 66 |
 | [Enzymes & Function / 酶与功能](#paper-category-enzymes-and-function) | 19 |
 | [Experimental Validation / 实验验证](#paper-category-experimental-validation) | 6 |
 | [General / 综合](#paper-category-general) | 41 |
@@ -35,10 +32,11 @@ Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
 ### Categorized Paper Library / 分类文献库
 
 <a id="paper-category-structure-generation"></a>
-#### Structure Generation / 结构生成 (87)
+#### Structure Generation / 结构生成 (88)
 
-- [De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor](https://doi.org/10.64898/2026.11.16.766359) (bioRxiv, 2026-11-18; first seen 2026-11-19; Structure generation, Binders and therapeutics, Enzymes and function)
+- [Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction](https://doi.org/10.64898/2026.11.17.767212) (bioRxiv, 2026-11-19; first seen 2026-11-20; Structure generation, Binders and therapeutics)
 - [De Novo Design of Single–Crystalline Peptide Frameworks Enables Structure–Encoded Molecular Recognition](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c18843/5472257/De-Novo-Design-of-Single-Crystalline-Peptide) (Journal of the American Chemical Society, 2026-11-18; first seen 2026-11-19; Structure generation, Binders and therapeutics)
+- [De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor](https://doi.org/10.64898/2026.11.16.766359) (bioRxiv, 2026-11-18; first seen 2026-11-19; Structure generation, Binders and therapeutics, Enzymes and function)
 - [SMSTPred: Protein Language Model Embeddings Predict SAM-Methyltransferase Substrate Specificity and Reveal Metabolite Methyltransferasome Enrichment in Plants and Actinomycetota](https://doi.org/10.64898/2026.11.13.766537) (bioRxiv, 2026-11-17; first seen 2026-11-18; Structure generation, Protein language models, Enzymes and function)
 - [FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder](https://doi.org/10.64898/2026.11.15.766879) (bioRxiv, 2026-11-17; first seen 2026-11-18; Structure generation, Sequence design, Binders and therapeutics)
 - [Cerebra: A computationally efficient framework for accurate protein structure prediction](https://onlinelibrary.wiley.com/doi/10.1002/pro.70846) (Protein Science, 2026-12; first seen 2026-11-15; Structure generation, Experimental validation)
@@ -175,9 +173,9 @@ Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
 
 - [Benchmarking Machine Learning Methods for Antimicrobial Peptide Prediction and Discovery in Ancient Microbiomes](https://doi.org/10.64898/2026.11.17.767431) (bioRxiv, 2026-11-18; first seen 2026-11-19; Protein language models, Binders and therapeutics)
 - [ToxMHSA-GRU: A Protein Language Model-Driven Multi-Head Self-Attention Framework for Peptide Toxicity Prediction](https://linkinghub.elsevier.com/retrieve/pii/S2666521226001900) (Intelligence-Based Medicine, 2026-11; first seen 2026-11-19; Protein language models, Binders and therapeutics)
+- [Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction](https://doi.org/10.64898/2026.11.15.766718) (bioRxiv, 2026-11-18; first seen 2026-11-18; Protein language models, Enzymes and function)
 - [An Integrated Coarse-Grained Simulation and Graph-Transformer Framework for the Discovery of Self-Assembling Cyclic Peptides](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c03241/5471549/An-Integrated-Coarse-Grained-Simulation-and-Graph) (Journal of Chemical Information and Modeling, 2026-11-17; first seen 2026-11-18; Protein language models, Binders and therapeutics, Experimental validation)
 - [A Biologically Interpretable Single-Cell Pathology Foundation Model for Molecular Decoding of H&E Images](https://doi.org/10.64898/2026.11.14.766416) (bioRxiv, 2026-11-17; first seen 2026-11-18; Protein language models)
-- [Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction](https://doi.org/10.64898/2026.11.15.766718) (bioRxiv, 2026-11-17; first seen 2026-11-18; Protein language models, Enzymes and function)
 - [Protein language model-assisted screening of bitter peptides from Prunus dulcis.](https://pubmed.ncbi.nlm.nih.gov/43043306/) (PubMed, 2026 Nov 17; first seen 2026-11-18; Protein language models, Binders and therapeutics, Experimental validation)
 - [Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval](https://doi.org/10.64898/2026.11.13.766344) (bioRxiv, 2026-11-16; first seen 2026-11-17; Protein language models, Enzymes and function)
 - [Mechanistic Interpretability of Protein Language Models Reveals Encoded Structural and Functional Properties of Intrinsically Disordered Proteins](https://doi.org/10.64898/2026.09.10.750691) (bioRxiv, 2026-11-13; first seen 2026-11-14; Protein language models)
@@ -285,8 +283,10 @@ Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
 - [Evaluating Protein Language Model Embeddings for Viral Clade Assignment.](https://pubmed.ncbi.nlm.nih.gov/42011844/) (PubMed, 2026 Jul 01; first seen 2026-07-01; Protein language models)
 
 <a id="paper-category-binders-and-therapeutics"></a>
-#### Binders & Therapeutics / 结合蛋白与治疗 (64)
+#### Binders & Therapeutics / 结合蛋白与治疗 (66)
 
+- [De novo design of peptide-MHC binders targeting histone H3 mutations in pediatric high-grade gliomas](https://linkinghub.elsevier.com/retrieve/pii/S0959804926013699) (European Journal of Cancer, 2026-11; first seen 2026-11-20; Binders and therapeutics)
+- [Artificial intelligence-assisted design of affinity peptide ligand for botulinum neurotoxin A](https://linkinghub.elsevier.com/retrieve/pii/S0045206826013350) (Bioorganic Chemistry, 2026-11; first seen 2026-11-20; Binders and therapeutics)
 - [Antimicrobial Peptide Design on Oral-Related Pathogens Based on Deep Learning](https://linkinghub.elsevier.com/retrieve/pii/S0020653926014425) (International Dental Journal, 2026-10; first seen 2026-11-19; Binders and therapeutics)
 - [Casanovo-TMT: deep learning-based de novo sequencing of TMTpro-labeled peptides and phosphopeptides](https://doi.org/10.64898/2026.11.15.766634) (bioRxiv, 2026-11-17; first seen 2026-11-18; Binders and therapeutics)
 - [Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning](https://doi.org/10.64898/2026.11.16.766906) (bioRxiv, 2026-11-17; first seen 2026-11-18; Binders and therapeutics, Experimental validation)
@@ -394,7 +394,7 @@ Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
 - [Chimera: Cross-Species Single-Cell Generative Modeling of Expression Deployment Relative to Protein Conservation](https://doi.org/10.64898/2026.11.11.766029) (bioRxiv, 2026-11-13; first seen 2026-11-14; General)
 - [Artificial intelligence for protein engineering: From prediction and generation to evidence-centred design cycles](https://linkinghub.elsevier.com/retrieve/pii/S2667318526000401) (Artificial Intelligence in the Life Sciences, 2026-11; first seen 2026-11-13; General)
 - [Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes](https://doi.org/10.64898/2026.11.09.765245) (bioRxiv, 2026-11-10; first seen 2026-11-11; General)
-- [Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains](https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid) (Journal of the American Chemical Society, 2026-11-07; first seen 2026-11-08; General)
+- [Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains.](https://pubmed.ncbi.nlm.nih.gov/43053449/) (PubMed, 2026 Nov 18; first seen 2026-11-08; General)
 - [De novo design of protein binders targeting the hydrophobic surface of DENV4 and ZIKV NS1 dimer](https://linkinghub.elsevier.com/retrieve/pii/S2949928326000763) (hLife, 2026-11; first seen 2026-11-07; General)
 - [AI-driven discovery and engineering of human-derived protein scaffolds for mRNA delivery](https://www.nature.com/articles/s41467-026-79039-x) (Nat Commun, 2026-10-31; first seen 2026-11-01; General)
 - [Revealing protein structural transitions in the era of generative artificial intelligence](https://linkinghub.elsevier.com/retrieve/pii/S0959440X26002034) (Current Opinion in Structural Biology, 2027-02; first seen 2026-10-24; General)
@@ -432,7 +432,7 @@ Updated: **2026-11-19** (`2026-11-19T07:37:01Z`)
 
 ### Archive
 
-- [Daily report for 2026-11-19](outputs/daily/2026-11-19.md)
+- [Daily report for 2026-11-20](outputs/daily/2026-11-20.md)
 - [Latest report](outputs/latest.md)
 
 <!-- PAPER_RADAR:END -->

@@ -270,6 +270,12 @@
       "title": "Protein language model aided library generation for discovery of affinity peptides targeting the respiratory syncytial virus F protein",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748"
     },
+    "doi:10.1016/j.bioorg.2026.110799": {
+      "first_seen": "2026-11-20",
+      "source": "Bioorganic Chemistry",
+      "title": "Artificial intelligence-assisted design of affinity peptide ligand for botulinum neurotoxin A",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826013350"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "first_seen": "2026-09-01",
       "source": "PubMed",
@@ -407,6 +413,12 @@
       "source": "Drug Discovery Today",
       "title": "Therapeutic peptide informatics in the artificial intelligence era: From curated resources to generative design",
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X"
+    },
+    "doi:10.1016/j.ejca.2026.117587": {
+      "first_seen": "2026-11-20",
+      "source": "European Journal of Cancer",
+      "title": "De novo design of peptide-MHC binders targeting histone H3 mutations in pediatric high-grade gliomas",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804926013699"
     },
     "doi:10.1016/j.ejmech.2026.119336": {
       "first_seen": "2026-09-19",
@@ -2303,6 +2315,12 @@
       "source": "bioRxiv",
       "title": "Pharmacophore-Inspired Virtual Receptor: Generating Realistic Peptide Binding Data for Machine Learning",
       "url": "https://doi.org/10.64898/2026.11.16.766906"
+    },
+    "doi:10.64898/2026.11.17.767212": {
+      "first_seen": "2026-11-20",
+      "source": "bioRxiv",
+      "title": "Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction",
+      "url": "https://doi.org/10.64898/2026.11.17.767212"
     },
     "doi:10.64898/2026.11.17.767431": {
       "first_seen": "2026-11-19",

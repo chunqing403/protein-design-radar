@@ -1184,6 +1184,28 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S1369703X26003748"
     },
+    "doi:10.1016/j.bioorg.2026.110799": {
+      "abstract": "",
+      "authors": [
+        "Changwei Song",
+        "Xuan Pei",
+        "Lin Zhang"
+      ],
+      "doi": "10.1016/j.bioorg.2026.110799",
+      "first_seen": "2026-11-20",
+      "published": "2026-11",
+      "reasons": [
+        "artificial intelligence",
+        "peptide"
+      ],
+      "source": "Bioorganic Chemistry",
+      "source_id": "10.1016/j.bioorg.2026.110799",
+      "title": "Artificial intelligence-assisted design of affinity peptide ligand for botulinum neurotoxin A",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045206826013350"
+    },
     "doi:10.1016/j.biortech.2026.134897": {
       "abstract": "Amentoflavone-type biflavonoids exhibit potent neuroprotective activities but are limited by scarce natural abundance and inefficient chemical synthesis routes. Here, we establish a stable Escherichia coli platform for de novo amentoflavone biosynthesis through multilevel engineering of a cytochrome P450-dependent oxidative coupling module. Systematic optimization of redox partner pairing, N-terminal expression regulation, and intrinsic catalytic activity substantially enhances the performance of the key P450 enzyme GbCYP90J6. Protein language model-guided directed evolution identifies high-activity variants that, when combined with an optimized expression tag, markedly improve in vivo catalysis. Integration of precursor flux balancing, expression optimization, and enzyme evolution results in an overall 8.34-fold increase in de novo amentoflavone production, reaching 6.59 mg/L in shake-flask cultivation. Fed-batch fermentation in a 5-L bioreactor increases the amentoflavone titer to 22.01 mg/L, demonstrating pathway scalability while revealing cellular tolerance as a remaining bottleneck. Together, this study establishes a framework for engineering P450-dependent intermolecular C-C coupling and highlights the necessity of balancing catalytic efficiency with cellular robustness in microbial cell factories.",
       "authors": [
@@ -1755,6 +1777,28 @@
         "Binders and therapeutics"
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S135964462600231X"
+    },
+    "doi:10.1016/j.ejca.2026.117587": {
+      "abstract": "",
+      "authors": [
+        "S. Ryu",
+        "K. Narta",
+        "A.S. Morrissy"
+      ],
+      "doi": "10.1016/j.ejca.2026.117587",
+      "first_seen": "2026-11-20",
+      "published": "2026-11",
+      "reasons": [
+        "de novo design",
+        "peptide"
+      ],
+      "source": "European Journal of Cancer",
+      "source_id": "10.1016/j.ejca.2026.117587",
+      "title": "De novo design of peptide-MHC binders targeting histone H3 mutations in pediatric high-grade gliomas",
+      "topics": [
+        "Binders and therapeutics"
+      ],
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959804926013699"
     },
     "doi:10.1016/j.ejmech.2026.119336": {
       "abstract": "",
@@ -4224,21 +4268,21 @@
       "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c08768/5466131/De-Novo-Design-of-Catalytically-Active-Salen"
     },
     "doi:10.1021/jacs.6c15293": {
-      "abstract": "Abstract Membrane proteins engage in dynamic transient interactions with surrounding lipids along with their substrates. Capturing these concomitant contacts often remains a challenging problem. Here, we demonstrate that generative deep learning-designed WRAP domains can preserve weak interactions of membrane proteins in native mass spectrometry. Using WRAP-fused GlpG, AqpM, and OmpA as model systems, we show that lipids can bind in multiple positions inside the WRAP, allowing for their characterization by native mass spectrometry. We show that lipid interactions can be altered by changing the WRAP structure. We use the approach to show that WRAP–OmpA binds phosphatidylethanolamine lipids within cavities formed at the protein–WRAP interface, while simultaneously accommodating weak chitobiose ligand binding. These findings establish WRAPs as versatile vehicles to probe ligand and lipid interactions of membrane proteins.",
+      "abstract": "Membrane proteins engage in dynamic transient interactions with surrounding lipids along with their substrates. Capturing these concomitant contacts often remains a challenging problem. Here, we demonstrate that generative deep learning-designed WRAP domains can preserve weak interactions of membrane proteins in native mass spectrometry. Using WRAP-fused GlpG, AqpM, and OmpA as model systems, we show that lipids can bind in multiple positions inside the WRAP, allowing for their characterization by native mass spectrometry. We show that lipid interactions can be altered by changing the WRAP structure. We use the approach to show that WRAP-OmpA binds phosphatidylethanolamine lipids within cavities formed at the protein-WRAP interface, while simultaneously accommodating weak chitobiose ligand binding. These findings establish WRAPs as versatile vehicles to probe ligand and lipid interactions of membrane proteins.",
       "authors": [
-        "Surabhi Kokane",
-        "Ljubica Mihaljević",
-        "Barbara Abreu",
-        "Stijn De Schepper",
-        "Alexander Stevens",
-        "Erik G. Marklund",
-        "David Baker",
-        "Phillip J. Stansfeld",
-        "Michael Landreh"
+        "Kokane S",
+        "Mihaljević L",
+        "Abreu B",
+        "De Schepper S",
+        "Stevens A",
+        "Marklund EG",
+        "Baker D",
+        "Stansfeld PJ",
+        "Landreh M"
       ],
       "doi": "10.1021/jacs.6c15293",
       "first_seen": "2026-11-08",
-      "published": "2026-11-07",
+      "published": "2026 Nov 18",
       "reasons": [
         "deep learning",
         "de novo design",
@@ -4246,13 +4290,13 @@
         "binding",
         "structure"
       ],
-      "source": "Journal of the American Chemical Society",
-      "source_id": "10.1021/jacs.6c15293",
-      "title": "Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains",
+      "source": "PubMed",
+      "source_id": "43053449",
+      "title": "Native Mass Spectrometry of Membrane Protein Lipid and Ligand Complexes Using de novo Designed WRAP Domains.",
       "topics": [
         "General"
       ],
-      "url": "https://pubs.acs.org/jacsat/article/doi/10.1021/jacs.6c15293/5466197/Native-Mass-Spectrometry-of-Membrane-Protein-Lipid"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053449/"
     },
     "doi:10.1021/jacs.6c15828": {
       "abstract": "Abstract Targeted drug discovery has enabled the development of effective therapies for many diseases. However, a fundamental challenge remains in translating molecular binding into functional performance for the development of novel targeted drugs. Here, we present a programmable DNA nanoframe (NF) strategy that converts ligand binding into robust biological functions through precise spatial organization of multiple ligands. By encoding target dimensions and binding geometry, we have successfully constructed potential targeted nanodrugs against diverse proteins, which exhibit high avidity with markedly enhanced binding affinity and selectivity. A design-driven blockade of VEGF has also been translated into marked antiangiogenic efficacy both in vitro and in vivo. Overall, the programmable DNA NFs establish a modular and generalizable paradigm for targeted drug design, upgrading weak or non-functional binders into effective inhibitors through rational spatial programming.",
@@ -10544,7 +10588,7 @@
       ],
       "doi": "10.64898/2026.11.15.766718",
       "first_seen": "2026-11-18",
-      "published": "2026-11-17",
+      "published": "2026-11-18",
       "reasons": [
         "protein language model",
         "protein",
@@ -10639,6 +10683,35 @@
         "Experimental validation"
       ],
       "url": "https://doi.org/10.64898/2026.11.16.766906"
+    },
+    "doi:10.64898/2026.11.17.767212": {
+      "abstract": "Antibody-antigen structure prediction commonly relies on sampling a single co-folding predictor deeply and selecting its highest-confidence output using model-specific confidence scores. We introduce AbPoolRank, a predictor-agnostic structural selector that ranks mixed pools using cross-pose agreement, within-source reproducibility and interface geometry, without native confidence, predictor identities or predictor-specific parameters. On 103 cluster-disjoint, post-2021 antibody-antigen complexes from SAbDab2, three structures each from Boltz-2, Promera, Protenix-v2, ESMFold2-Fast and OpenDDE form a 15-structure pool that reaches 58.0% medium-or-better Success@1 (DockQ [≥] 0.49), exceeding confidence-based selection from every individual predictor sampled 100 times (26-52%). Existing ranking methods did not rescue deep single-predictor sampling or surpass our selector on mixed pools, with no method exceeding 51.5% on 100 structures from one co-folder and AbPoolRank matching the strongest single-structure methods while significantly outperforming consensus methods. AbPoolRank trained without one predictor lost at most 3.0 percentage points, and the frozen model accepted full MSA-conditioned ESMFold2, a sixth predictor absent from method development, without retraining or loss of accuracy. Diversification also improved the accuracy-compute frontier, with the 15-structure pool using 1.8-fold less aggregate GPU time than the most accurate single-predictor setting in our compute benchmark and 3.3-fold less than sampling that predictor 100 times. Together, these results show that shallow sampling across complementary co-folders, coupled with a confidence-free selector, provides an accurate and computationally efficient inference strategy for antibody-antigen structure prediction.",
+      "authors": [
+        "Ullanat, V.",
+        "Gupta, A.",
+        "Li, R.",
+        "Amengual-Rigo, P.",
+        "Furtmann, N.",
+        "Bryson, B. D.",
+        "Berger, B."
+      ],
+      "doi": "10.64898/2026.11.17.767212",
+      "first_seen": "2026-11-20",
+      "published": "2026-11-19",
+      "reasons": [
+        "structure prediction",
+        "folding",
+        "antibody",
+        "structure"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.17.767212",
+      "title": "Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction",
+      "topics": [
+        "Structure generation",
+        "Binders and therapeutics"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.17.767212"
     },
     "doi:10.64898/2026.11.17.767431": {
       "abstract": "Antimicrobial peptides (AMPs) offer a promising alternative to conventional antibiotics amid the growing global threat of antimicrobial resistance. Expanding AMP discovery requires both effective computational tools to accurately identify candidate peptides and access to underexplored biological resources that may harbor novel AMPs. However, the comparative performance of existing computational methods remains poorly understood, while ancient microbiomes have received limited attention as potential reservoirs of AMPs. Here, we systematically benchmarked six machine learning methods across with twelve feature configurations spanning sequence, structural, and protein language model features under a unified framework using eight curated AMP datasets. The best-performing methods were subsequently applied to three ancient metagenomic datasets representing the human gut (archaeological fecal sediments), human oral cavity (dental calculus), and mammoth-associated communities (teeth, skulls, and skin). In parallel, we employed reinforcement learning to select candidate peptides directly from ancient sequence pools without relying on modern AMP labels. Our benchmarking shows that protein language model embeddings provide the most informative features, and deep learning models, including convolutional, transformer-based, and recurrent architectures, outperform classical methods. Applying these models to ancient microbiomes identified candidates occupied the physicochemical space characteristic of AMPs but differed from those of candidates predicted from modern microbiome catalogs. We identified 111, 76, and 50 high-confidence candidate AMPs from the Neanderthal gut, ancient oral, and mammoth-associated communities, respectively. Reinforcement learning selected additional candidate AMPs with distinct properties compared with those predicted by models trained on modern AMP databases. Together, these findings establish a systematic benchmark for AMP prediction and highlight ancient microbiomes as an untapped source of antimicrobial peptide candidates. By integrating supervised machine learning with reinforcement learning, this study expands AMP discovery beyond modern microbiome catalogs and provides new opportunities to identify potentially novel AMPs.",
