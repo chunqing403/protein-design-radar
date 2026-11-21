@@ -906,6 +906,34 @@
       ],
       "url": "https://pubmed.ncbi.nlm.nih.gov/42669100/"
     },
+    "doi:10.1007/s10822-026-00979-z": {
+      "abstract": "The three-dimensional structure of proteins is a fundamental determinant of their functional roles; however, biophysical properties such as stability, flexibility, and solubility are also critical for the experimental applicability of designed proteins. The generation of protein sequences capable of folding into a desired three-dimensional structure is known as the protein inverse folding problem and represents one of the fundamental computational challenges in protein engineering because of the vast search space involved. Current deep learning-based inverse folding models effectively learn structure-sequence relationships; however, these models largely overlook biophysical properties such as solubility and stability. This is primarily because these models are predominantly trained on natural protein datasets, and although natural proteins are highly efficient in cellular processes, they may not necessarily represent suitable candidates for experimental applications. In this study, 21,668 protein sequences from the CATH 4.3 database that passed the quality-filtering criteria were subjected to multi-objective optimization for stability, solubility, and flexibility using the Heuristic Metropolis-Hastings Optimization (HMHO) approach, resulting in the construction of a biophysically enriched synthetic protein dataset. To evaluate the effect of the data-centric approach independently of model architecture, the PiFold architecture was kept unchanged, and the baseline model trained on natural CATH sequences (PiFold) was compared with the model retrained on the optimized training data (PiFoldOPT) using natural CATH test sequences that had not been modified by HMHO. In accordance with the primary objective of the study, an initial set of 200 proteins was selected from the natural CATH test set using proportional stratified sampling that preserved the protein length distribution, with the aim of evaluating the biophysical properties of model-generated sequences on a representative test subset. In paired analyses conducted on 155 common proteins successfully designed by both models, PiFoldOPT designs exhibited markedly lower instability index values and higher predicted solubility than PiFold designs ([Formula: see text] for both comparisons; effect sizes [Formula: see text] and [Formula: see text], respectively). Furthermore, the proportion of designs classified as stable increased from 65% for PiFold to 81% for PiFoldOPT. To evaluate these biophysical gains together with potential changes in inverse folding performance, sequence-level metrics were also compared on the natural test set. PiFoldOPT maintained sequence recovery performance close to that of the baseline model (0.4270 vs. 0.4286), while showing a limited but systematic reduction in prediction confidence (0.3779 vs. 0.3932). ESM-2-based zero-shot sequence scoring, performed to provide an evaluation independent of the biophysical prediction tools used during optimization, further showed that PiFoldOPT designs achieved more favorable protein language model scores for the majority of proteins. Finally, to evaluate whether the biophysical improvements compromised structural integrity, the initial 200-protein test subset selected using proportional stratified sampling that preserved the protein length distribution was used. Within this subset, 161 proteins for which ESMFold structure predictions were successfully obtained for the natural sequence, the PiFold design, and the PiFoldOPT design were included in the paired structural analysis. To minimize method-dependent comparison bias, all sequences across the three groups were evaluated using the same ESMFold structure prediction protocol. Using structures predicted from the natural sequences as references, PiFold and PiFoldOPT designs exhibited mean TM-scores of 0.784 and 0.792, RMSD values of 2.17 and 2.13 Å, and pLDDT values of 66.34 and 66.37, respectively. In addition to paired statistical comparisons, equivalence and non-inferiority analyses supported that the biophysical gains achieved with PiFoldOPT were not associated with a meaningful loss of predicted three-dimensional structural integrity. Taken together, these results demonstrate that biophysically guided training data enable the design of more stable and soluble protein sequences without modifying the model architecture. These findings reveal that, in protein inverse folding, not only model architecture but also the biophysical composition of the training data is an important determinant of design behavior, and demonstrate that biophysically enriched datasets represent a complementary data-centric strategy for protein design.",
+      "authors": [
+        "Soyturk Patat A",
+        "Nalbantoglu OU",
+        "Uncu AT"
+      ],
+      "doi": "10.1007/s10822-026-00979-z",
+      "first_seen": "2026-11-21",
+      "published": "2026 Nov 20",
+      "reasons": [
+        "protein design",
+        "inverse folding",
+        "protein engineering",
+        "protein language model",
+        "deep learning",
+        "structure prediction"
+      ],
+      "source": "PubMed",
+      "source_id": "43062557",
+      "title": "Augmenting the CATH database: a synthetic protein database for training biophysical-aware inverse folding models.",
+      "topics": [
+        "Sequence design",
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062557/"
+    },
     "doi:10.1007/s10930-026-10354-4": {
       "abstract": "Nuclear receptors (NRs) are ligand-dependent transcriptional regulators whose ligand-binding residues are crucial for receptor activation and drug-target analysis. In this study, we developed NRB-FusePS, a protein language model-based multimodal framework for predicting BioLiP-defined ligand-binding residues in NRs. Nuclear receptor ligand-binding information was collected from the BioLiP database, and residue-level samples were generated using 21-residue sliding windows. A protein-level independent test strategy was used to reduce information leakage caused by overlapping windows from the same protein. Sequence composition, amino acid pair, structural, evolutionary, and ESM2 protein language model descriptors were extracted and evaluated using conventional machine learning models. Based on these results, a three-branch deep learning model called NRB-Fuse was constructed to integrate sequence statistical descriptors, structural descriptors, and ESM2 embeddings, and protein-level probability smoothing was introduced to obtain NRB-FusePS. On the independent test set, NRB-FusePS-Full achieved an area under the receiver operating characteristic curve (AUC) of 0.814, a Matthews correlation coefficient (MCC) of 0.406, and a sensitivity of 0.964. Shapley additive explanations (SHAP) analysis showed that ESM2 was the main information source, and the structural case of O00482 supported the predictive utility. The NRBsite web server provides three prediction modes for different levels of input information and is freely available at http://47.95.115.29:8501/ .",
       "authors": [
@@ -2565,6 +2593,34 @@
       ],
       "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022283626004390"
     },
+    "doi:10.1016/j.jmb.2026.170102": {
+      "abstract": "Disordered Flexible Linkers (DFLs) are unstructured regions that play critical roles in inter-domain communication and multivalent protein interactions. Despite their biological significance, the accurate identification of DFLs remains challenging due to limited experimental annotations and scarcity of dedicated prediction tools. Here we introduce LINKER-Pred, a publicly available web server featuring two convolutional neural network-based predictors trained on a novel large-scale dataset of linkers connecting folded domains (DLD dataset) and DisProt linkers. LINKER-Pred2 combines ProtTrans and MSA-Transformer embeddings within an ensemble CNN framework, achieving state-of-the-art performance on CAID2 and CAID3 benchmarks. LINKER-Pred-Lite excludes MSA-based features, improving speed while maintaining competitive predictive accuracy. LINKER-Pred predictors offer robust residue-level DFL predictions directly from sequence, providing a scalable solution for DFL annotation across proteomes. The LINKER-Pred web server and associated resources are freely available at https://linkerpred.chemeslab.org/, offering the research community an accessible tool for studying protein disorder and modularity.",
+      "authors": [
+        "Meng D",
+        "Garcia Alvarez HM",
+        "Glavina J",
+        "Leonetti CO",
+        "Pollastri G",
+        "Chemes LB"
+      ],
+      "doi": "10.1016/j.jmb.2026.170102",
+      "first_seen": "2026-11-21",
+      "published": "2026 Nov 20",
+      "reasons": [
+        "deep learning",
+        "transformer",
+        "protein",
+        "sequence"
+      ],
+      "source": "PubMed",
+      "source_id": "43064342",
+      "title": "LINKER-Pred: A Deep Learning Method and Web-Server for the Prediction of Disordered Flexible Linkers in Proteins.",
+      "topics": [
+        "Protein language models",
+        "Experimental validation"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43064342/"
+    },
     "doi:10.1016/j.jmgm.2026.109383": {
       "abstract": "Phase-separated proteins play a critical role in understanding cellular mechanisms and functions. However, developing accurate and efficient computational methods for predicting phase-separated proteins remains challenging. Existing methods often rely on feature engineering, which limits their generalizability and performance, leaving substantial room for improvement. In this study, we propose PCTPS, a novel predictor that combines a pretrained protein language model (PPLM) with deep neural networks to predict phase-separated proteins. Specifically, PPLM is used to extract embedding features from protein sequences. These features are then processed using a Convolutional-Transformer Network to capture both local and global discriminative information. To further enhance classification performance, we introduce the Kolmogorov-Arnold Network. Notably, PCTPS not only predicts whether a protein is phase-separated but also distinguishes self-assembled phase-separated proteins and partner-dependent phase-separated proteins. Extensive experiments on human and non-human datasets demonstrate that PCTPS outperforms state-of-the-art methods. Our results validate the effectiveness of integrating PPLM and neural networks for phase-separated protein prediction.",
       "authors": [
@@ -3993,6 +4049,35 @@
         "Experimental validation"
       ],
       "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01233/5429776/Mechanistic-Dissection-of-Conformational"
+    },
+    "doi:10.1021/acs.jctc.6c01861": {
+      "abstract": "Abstract AlphaFold has revolutionized protein structure prediction, yet extracting conformational dynamics from a single predicted structure remains a major challenge. Here, we present EnsemblePAE, a PAE-guided structure-based model that transforms AlphaFold’s predicted aligned error (PAE) into heterogeneous native interactions for efficient coarse-grained simulations. By systematically evaluating different PAE rescaling schemes, we identify an optimal formulation that balances structural stability and conformational flexibility. Benchmarking on a diverse set of allosteric proteins and 106 proteins from the DynDom database demonstrates that EnsemblePAE substantially improves the prediction of alternative conformations over conventional structure-based models and achieves performance comparable to BioEmu while requiring only minutes of simulation on a single GPU. Beyond conformational transitions, EnsemblePAE also captures complex protein folding dynamics and reveals metastable folding intermediates absent in conventional structure-based models. These results demonstrate that AlphaFold PAE encodes physically meaningful information about protein energy landscapes and establish EnsemblePAE as a simple, interpretable, and computationally efficient framework for exploring protein conformational ensembles.",
+      "authors": [
+        "Weitong Ren",
+        "Aoru Liu",
+        "Zhiqiang Yan",
+        "Qian-Yuan Tang",
+        "Wenfei Li",
+        "Wei Wang"
+      ],
+      "doi": "10.1021/acs.jctc.6c01861",
+      "first_seen": "2026-11-21",
+      "published": "2026-11-21",
+      "reasons": [
+        "structure prediction",
+        "AlphaFold",
+        "folding",
+        "stability",
+        "protein",
+        "structure"
+      ],
+      "source": "Journal of Chemical Theory and Computation",
+      "source_id": "10.1021/acs.jctc.6c01861",
+      "title": "EnsemblePAE: A PAE-Guided Structure-Based Model for Efficient Sampling of Protein Conformational Ensembles from AlphaFold Predictions",
+      "topics": [
+        "General"
+      ],
+      "url": "https://pubs.acs.org/jctcce/article/doi/10.1021/acs.jctc.6c01861/5474389/EnsemblePAE-A-PAE-Guided-Structure-Based-Model-for"
     },
     "doi:10.1021/acs.jproteome.6c00302": {
       "abstract": "Large-scale proteomics relies heavily on target-decoy competition for false discovery rate estimation in peptide identification, and the performance of this strategy depends strongly on the design of the decoy database. Classical generators such as reversal and shuffling remain widely used. Here, we introduce the first protein language model-based (PLM) decoy generation for peptide identification and benchmark it against classical strategies. We evaluate these approaches using three complementary quality-control layers: sequence-based separability, search-engine-agnostic spectral-space diagnostics, and end-to-end mass spectrometry benchmarks, including pipelines with rescoring. Across these analyses, PLM-based decoys are harder for sequence-only neural networks to distinguish than most classical generators, suggesting fewer obvious sequence-level artifacts. However, this signal is only weakly informative for search performance. Spectral diagnostics further show that short peptides occupy a particularly crowded target-decoy space and are therefore especially prone to local collisions across all generators. In full search pipelines, reverse decoys remain a strong baseline, and current PLM-based generators do not yet provide a clear overall advantage. We therefore view PLM-based decoys not as universal replacements for reverse decoys but as tunable tools for benchmarking, diagnostics, stress testing, and future adaptive decoy optimization, with increasing value as search models become more expressive.",
@@ -10741,6 +10826,55 @@
         "Binders and therapeutics"
       ],
       "url": "https://doi.org/10.64898/2026.11.17.767431"
+    },
+    "doi:10.64898/2026.11.19.767884": {
+      "abstract": "Interpretability methods describe what a network has learned, yet their claims are rarely tested against model-independent ground truth. We argue that proteins are an ideal modality for interpretability since curators annotate functional sites residue by residue. Across three ESMC protein language models (300M-6B parameters), we show that conclusions depend on where models are read, how concepts are decoded, which units are examined, and how they are scored. Concepts become linearly readable along depth long before erasure impairs masked-token prediction, and 20-fold scaling shifts concept depth more than peak score. Most of a nonlinear probe's lead over a linear one reflects fitting and readout shape rather than nonlinear encoding. Over whole proteins, saturated metrics render feed-forward neurons indistinguishable from random rotations. At annotated residues, dual-signed neuron poles identify 2.5-5.4 times as many concepts as rotations without training, though sparse autoencoders identify more. Without held-out validation, however, shuffled annotations label nearly every latent, and causal reliance emerges in neuron groups rather than single poles. Reading selected intra-block states exposes binding and active sites that stream probes read poorly and lifts a simple probe 5% above the best published MCC on a leakage-controlled interaction benchmark. We recommend reading a model directly against annotation, scoring units where they fire with a measure that is not saturated, and training a dictionary only where it adds coverage.",
+      "authors": [
+        "Hallee, L.",
+        "Gleghorn, J. P."
+      ],
+      "doi": "10.64898/2026.11.19.767884",
+      "first_seen": "2026-11-21",
+      "published": "2026-11-20",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "binding"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.19.767884",
+      "title": "Curated annotations locate biological concepts in protein language models from layers to neurons",
+      "topics": [
+        "Structure generation",
+        "Protein language models",
+        "Enzymes and function"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.19.767884"
+    },
+    "doi:10.64898/2026.11.19.767946": {
+      "abstract": "Phage lytic proteins are promising antibacterial and biotechnological candidates, yet uncertain annotations, modular architectures, and class imbalance complicate sequence-based classification. We developed PhageLysClass, an evidence-aware framework for recognizing lytic proteins and distinguishing Endolysins, Depolymerases, and virion-associated lytic enzymes. From 442,329 unique phage sequences, including 11,867 evidence-supported positives, we defined distinct candidate non-target, unlabeled, and challenge populations. Seven supervised and two positive-unlabeled tasks were evaluated across factorial redundancy and train-test homology conditions, yielding 2,240 and 768 experiments, respectively. Redundancy reduction influenced generalization more strongly than homology separation, with non-additive interactions between them. ESM2-T30 consistently outperformed alternative representations and supported a hierarchical classifier achieving approximately 0.89 MCC under strict R30/S30 conditions in the selected, pre-refitting benchmark. Applied without retraining to 77,897 sequences across three collections, PhageLysClass combined predictions with physicochemical and geometric contextualization, highlighting Depolymerase-like candidates among structurally ambiguous proteins while distinguishing reference-supported assignments from extrapolation.",
+      "authors": [
+        "Medina-Ortiz, D.",
+        "Olivera-Nappa, A.",
+        "Lienqueo, M. E.",
+        "Villasante, A.",
+        "Romero, J."
+      ],
+      "doi": "10.64898/2026.11.19.767946",
+      "first_seen": "2026-11-21",
+      "published": "2026-11-20",
+      "reasons": [
+        "protein language model",
+        "protein",
+        "sequence"
+      ],
+      "source": "bioRxiv",
+      "source_id": "10.64898/2026.11.19.767946",
+      "title": "PhageLysClass: Evidence-aware classification of phage lytic proteins using protein language models",
+      "topics": [
+        "Protein language models"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.19.767946"
     }
   }
 }
